@@ -1,0 +1,28 @@
+Copyright (c) 2020-2024 Epilogue
+
+The translation files provided in this repository are made available by Parametric Semiconductors Srl, the owner of the Epilogue brand and respective logos, which are trademarks registered in the United States of America and/or other countries worldwide. All rights related to the Playback Software, including its source code, remain with Parametric Semiconductors Srl, unless specified otherwise. All other trademarks mentioned herein are the property of their respective owners.
+
+LICENSE SCOPE:
+This license pertains solely to the translation files hosted in this GitHub repository and explicitly excludes any other part of the Playback Software, which remains proprietary and copyrighted by Parametric Semiconductors Srl. The source code of the Playback Software is not covered by this license and its use, redistribution, or modification in whole or in part is strictly prohibited unless otherwise permitted by a separate agreement.
+
+PERMISSIONS:
+Under this license, you are authorized to:
+- Contribute to the translation files by submitting pull requests.
+- Fork and clone the repository for the purpose of contributing translations.
+- Use and reproduce the translation files for the purpose of contributing to or reviewing the translation efforts.
+
+RESTRICTIONS:
+You are not permitted to:
+- Use, reproduce, distribute, or display any part of the Playback Software, other than the translation files covered by this license.
+- Use the translation files for any commercial purpose.
+- Claim ownership or copyright over the original or modified translation files.
+
+DISCLAIMER:
+The translation files are provided "as is" without warranty of any kind, either express or implied, including but not limited to any warranties of merchantability, fitness for a particular purpose, or non-infringement. In no event shall Parametric Semiconductors Srl be liable for any claim, damages, or other liability, whether in an action of contract, tort, or otherwise, arising from, out of, or in connection with the translation files or the use or other dealings in the translation files.
+
+CONTRIBUTING:
+Your contributions to the translation files are highly appreciated. By contributing, you agree that your submissions are your own original work and that you have the right to submit them under the terms of this license. You also agree to license your contributions under the same terms as this license.
+
+This license may be updated or modified from time to time, and your continued use of the translation files constitutes acceptance of those changes.
+
+Parametric Semiconductors Srl reserves the right to update or change this license at its discretion. Any modifications will be effective immediately upon posting, and continued use of the translation files after such changes will constitute your consent to the updated terms.
