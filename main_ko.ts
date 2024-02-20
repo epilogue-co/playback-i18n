@@ -871,3 +871,4 @@ Please make sure it's connected.</source>
         <translation type="finished">시작</translation>
     </message>
 </context>
+</TS>
