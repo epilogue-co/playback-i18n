@@ -4,7 +4,7 @@
 
 All translation modifications need to be created on a separate branch by running the following commands:
 
-`git checkout -b i18n/update-jp-translation`
+`git checkout -b i18n/update-ja-translation`
 
 You will need to change the name of the branch accordingly. Once your work is done you need to run `git push` and create a PR out of the changes.
 
@@ -34,6 +34,6 @@ If you're correcting a translation that has the `finished` property, you can sim
 
 Once you're done updating all entries you need to recompile the translation file and generate a `qm` file by running the command:
 
-`lrelease i18n/main_jp.ts i18n/main_jp.qm`
+`lrelease i18n/main_ja.ts i18n/main_ja.qm`
 
 Now you can recompile the application and the language should be updated.
