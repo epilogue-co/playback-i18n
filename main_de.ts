@@ -32,22 +32,22 @@
     <message>
         <location filename="../src/CartDetailsWidget.cpp" line="27" />
         <source>Unofficial cartridge</source>
-        <translation type="finished">Inoffizielle Kassette</translation>
+        <translation type="finished">Inoffizielle Modul</translation>
     </message>
     <message>
         <location filename="../src/CartDetailsWidget.cpp" line="28" />
         <source>Unrecognized cartridge</source>
-        <translation type="finished">Unerkannte Patrone</translation>
+        <translation type="finished">Unerkanntes Modul</translation>
     </message>
     <message>
         <location filename="../src/CartDetailsWidget.cpp" line="29" />
         <source>Read-only cartridge</source>
-        <translation type="finished">nur-Lesen-Modul</translation>
+        <translation type="finished">Schreibgeschützes Modul</translation>
     </message>
     <message>
         <location filename="../src/CartDetailsWidget.cpp" line="30" />
         <source>Rewritable cartridge</source>
-        <translation type="finished">Wiederbeschreibbare Kassette</translation>
+        <translation type="finished">Wiederbeschreibbares Modul</translation>
     </message>
 </context>
 <context>
@@ -75,7 +75,7 @@ Entfernen Sie das Modul nicht, während ein Vorgang ausgeführt wird.</translati
     <message>
         <location filename="../src/UIComponents.cpp" line="68" />
         <source>Unable to launch the game, please make sure that the cartridge is clean.</source>
-        <translation type="finished">Das Spiel kann nicht gestartet werden. Vergewissern Sie sich, dass die Kassette sauber ist.</translation>
+        <translation type="finished">Das Spiel kann nicht gestartet werden. Vergewissern Sie sich, dass Ihr Modul sauber ist.</translation>
     </message>
 </context>
 <context>
@@ -88,7 +88,7 @@ Entfernen Sie das Modul nicht, während ein Vorgang ausgeführt wird.</translati
     <message>
         <location filename="../src/DeviceSettingsScreen.h" line="86" />
         <source>Choose one of the options below to set the status of your device’s LED light. Select ‘Static’ to keep the light on or ‘Dark’ to shut it off. Pulse and Strobe coming soon.</source>
-        <translation type="finished">Wählen Sie eine der folgenden Optionen, um den Status der LED-Beleuchtung Ihres Geräts einzustellen. Wählen Sie "statisch", um das Licht einzuschalten, oder "dunkel", um es auszuschalten. Puls und Stroboskop kommen bald.</translation>
+        <translation type="finished">Wählen Sie eine der folgenden Optionen, um die LED-Beleuchtung Ihres Geräts einzustellen. Wählen Sie "Statisch", um das Licht einzuschalten, oder "Dunkel", um es auszuschalten. "Pulsierend" und "Stroboskop" kommen bald.</translation>
     </message>
 </context>
 <context>
@@ -96,7 +96,7 @@ Entfernen Sie das Modul nicht, während ein Vorgang ausgeführt wird.</translati
     <message>
         <location filename="../src/DisconnectedPage.cpp" line="16" />
         <source>Searching for your GB Operator</source>
-        <translation type="finished">Auf der Suche nach Ihrem GB Operator</translation>
+        <translation type="finished">Ihr GB Operator wird gesucht</translation>
     </message>
 </context>
 <context>
@@ -114,7 +114,7 @@ Entfernen Sie das Modul nicht, während ein Vorgang ausgeführt wird.</translati
     <message>
         <location filename="../src/EmulatorSettingsScreen.h" line="151" />
         <source>Autosave to cartridge (beta)</source>
-        <translation type="finished">Automatisches Speichern auf dem Modul (beta):</translation>
+        <translation type="finished">Automatisches Speichern auf dem Modul (beta)</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.h" line="153" />
@@ -178,7 +178,7 @@ Entfernen Sie das Modul nicht, während ein Vorgang ausgeführt wird.</translati
         <source>This may take up to a minute,
 please do not disconnect the device.</source>
         <translation type="finished">Dies kann bis zu einer Minute dauern,
-Bitte trennen Sie das Gerät nicht vom Netz.</translation>
+bitte trennen Sie das Gerät nicht.</translation>
     </message>
     <message>
         <location filename="../src/FirmwareUpdateWindow.h" line="25" />
@@ -238,9 +238,9 @@ Bitte trennen Sie das Gerät nicht vom Netz.</translation>
 
 You can try cleaning then re-inserting the cartridge into the device.
 </source>
-        <translation type="finished">Wir konnten die Integrität dieser Kassette nicht bestätigen. Möchten Sie trotzdem fortfahren? Das Spiel spielt oder speichert möglicherweise nicht richtig.
+        <translation type="finished">Wir konnten die Integrität dieser Moduls nicht bestätigen. Möchten Sie trotzdem fortfahren? Das Spiel spielt oder speichert möglicherweise nicht richtig.
 
-Sie können versuchen, die Kassette zu reinigen und erneut in das Gerät einzusetzen.
+Sie können versuchen, das Modul zu reinigen und erneut in das Gerät einzusetzen.
 </translation>
     </message>
 </context>
@@ -312,7 +312,7 @@ Sie können versuchen, die Kassette zu reinigen und erneut in das Gerät einzuse
     <message>
         <location filename="../src/UIComponents.cpp" line="106" />
         <source>to configure your Operator device.</source>
-        <translation type="finished">um Ihr Operator-Gerät zu konfigurieren.</translation>
+        <translation type="finished">um Ihr Operator zu konfigurieren.</translation>
     </message>
 </context>
 <context>
@@ -325,7 +325,7 @@ Sie können versuchen, die Kassette zu reinigen und erneut in das Gerät einzuse
     <message>
         <location filename="../src/UIComponents.cpp" line="76" />
         <source>The GB Operator did not manage to read your cartridge properly. Please make sure that the cartridge is clean and try again.</source>
-        <translation type="finished">Der GB Operator konnte Ihre Patrone nicht richtig lesen. Bitte stellen Sie sicher, dass die Patrone sauber ist und versuchen Sie es erneut.</translation>
+        <translation type="finished">Der GB Operator konnte Ihr Modul nicht richtig lesen. Bitte stellen Sie sicher, dass das Modul sauber ist und versuchen Sie es erneut.</translation>
     </message>
 </context>
 <context>
@@ -338,7 +338,7 @@ Sie können versuchen, die Kassette zu reinigen und erneut in das Gerät einzuse
     <message>
         <location filename="../src/UIComponents.cpp" line="84" />
         <source>Your Operator device failed to erase the contents of your cartridge, this cartridge is not fully supported, please contact support to add full compatibility for it.</source>
-        <translation type="finished">Ihr Operator-Gerät konnte den Inhalt Ihrer Kassette nicht löschen. Diese Kassette wird nicht vollständig unterstützt, bitte wenden Sie sich an den Support, um die volle Kompatibilität zu gewährleisten.</translation>
+        <translation type="finished">Ihr Operator konnte den Inhalt Ihres Moduls nicht löschen. Dieses Modul wird nicht vollständig unterstützt, bitte wenden Sie sich an den Support, um die volle Kompatibilität zu gewährleisten.</translation>
     </message>
 </context>
 <context>
@@ -426,12 +426,12 @@ Sie können versuchen, die Kassette zu reinigen und erneut in das Gerät einzuse
     <message>
         <location filename="../src/Navbar.h" line="150" />
         <source>Loading save...</source>
-        <translation type="finished">Laden des Speichers...</translation>
+        <translation type="finished">Laden des Spielstands...</translation>
     </message>
     <message>
         <location filename="../src/Navbar.h" line="151" />
         <source>Writing save...</source>
-        <translation type="finished">Schreiben retten...</translation>
+        <translation type="finished">Spielstand schreiben...</translation>
     </message>
     <message>
         <location filename="../src/Navbar.h" line="152" />
@@ -444,7 +444,7 @@ Sie können versuchen, die Kassette zu reinigen und erneut in das Gerät einzuse
     <message>
         <location filename="../src/NavbarComponents.cpp" line="88" />
         <source>Nightly</source>
-        <translation type="finished">Nächtliche</translation>
+        <translation type="finished">Nightly</translation>
     </message>
     <message>
         <location filename="../src/NavbarComponents.cpp" line="101" />
@@ -626,12 +626,12 @@ Wenn Sie alle Bilder einfach von Ihrer Kamera entfernen möchten, ohne sie einze
     <message>
         <location filename="../src/CartDetailsWidget.cpp" line="11" />
         <source>The description of this cartridge can’t be displayed since it’s not in our database. You can use the link below to open a ticket and we’ll add the game info to the database. Please feel free to contact us even if it’s a homebrew game you made if you’d like to have your artwork displayed here.</source>
-        <translation type="finished">Die Beschreibung dieser Patrone kann nicht angezeigt werden, da sie sich nicht in unserer Datenbank befindet. Du kannst den untenstehenden Link benutzen, um ein Ticket zu öffnen, und wir werden das Spiel in die Datenbank aufnehmen. Bitte kontaktieren Sie uns, auch wenn es sich um ein selbst entwickeltes Spiel handelt, wenn Sie Ihr Artwork hier anzeigen lassen möchten.</translation>
+        <translation type="finished">Die Beschreibung dieses Moduls kann nicht angezeigt werden, da sie sich nicht in unserer Datenbank befindet. Du kannst den untenstehenden Link benutzen, um ein Ticket zu öffnen, und wir werden das Spiel in die Datenbank aufnehmen. Bitte kontaktieren Sie uns, auch wenn es sich um ein selbst entwickeltes Spiel handelt, wenn Sie Ihr Artwork hier anzeigen lassen möchten.</translation>
     </message>
     <message>
         <location filename="../src/CartDetailsWidget.cpp" line="17" />
         <source>Submit cartridge information</source>
-        <translation type="finished">Kartuscheninformationen einreichen</translation>
+        <translation type="finished">Modulinformationen einreichen</translation>
     </message>
     <message>
         <location filename="../src/CartDetailsWidget.cpp" line="18" />
@@ -646,33 +646,33 @@ Wenn Sie alle Bilder einfach von Ihrer Kamera entfernen möchten, ohne sie einze
     <message>
         <location filename="../src/DeviceSettingsScreen.cpp" line="5" />
         <source>Dark</source>
-        <translation type="finished">Dunkelheit</translation>
+        <translation type="finished">Dunkel</translation>
     </message>
     <message>
         <location filename="../src/DeviceSettingsScreen.cpp" line="7" />
         <source>Pulse</source>
-        <translation type="finished">Pulse</translation>
+        <translation type="finished">Pulsierend</translation>
     </message>
     <message>
         <location filename="../src/DeviceSettingsScreen.cpp" line="8" />
         <source>Strobe</source>
-        <translation type="finished">Strobe</translation>
+        <translation type="finished">Stroboskop</translation>
     </message>
     <message>
         <location filename="../src/ViewRouter.h" line="45" />
         <source>Archive your game data securely on your computer, making a digital equivalent of your game collection. Game files are compatible with your chosen emulator.
 
 Tip: Our app runs a Data Integrity Test to make sure that you are getting an accurate reproduction of the cartridge’s content.</source>
-        <translation type="finished">Archivieren Sie Ihre Spieldaten sicher auf Ihrem Computer und erstellen Sie ein digitales Äquivalent Ihrer Spielesammlung. Die Spieldateien sind mit dem von Ihnen gewählten Emulator kompatibel.
+        <translation type="finished">Archivieren Sie Ihre Spieldaten sicher auf Ihrem Computer und erstellen Sie ein digitales Abbild Ihrer Spielesammlung. Die Spieldateien sind mit dem von Ihnen gewählten Emulator kompatibel.
 
-Tipp: Unsere App führt einen Datenintegritätstest durch, um sicherzustellen, dass Sie eine genaue Reproduktion des Inhalts des Moduls erhalten.</translation>
+Tipp: Unsere App führt einen Datenintegritätstest durch, um sicherzustellen, dass Sie eine genaues Abbild des Modulinhalts erhalten.</translation>
     </message>
     <message>
         <location filename="../src/ViewRouter.h" line="50" />
         <source>Overwrite the game data on your cartridge with a different file. Make sure the game file you’re writing is valid by testing it in an external emulator first.
 
 Tip: Transfer your homebrew game to a cartridge and play it on original hardware.</source>
-        <translation type="finished">Überschreiben Sie die Spieldaten auf Ihrer Kassette mit einer anderen Datei. Vergewissern Sie sich, dass die Spieldatei, die Sie schreiben, gültig ist, indem Sie sie zuerst in einem externen Emulator testen.
+        <translation type="finished">Überschreiben Sie die Spieldaten auf Ihren Modul mit einer anderen Datei. Vergewissern Sie sich, dass die Spieldatei, die Sie schreiben, gültig ist, indem Sie sie diese zuerst in einem externen Emulator testen.
 
 Tipp: Übertragen Sie Ihr Homebrew-Spiel auf eine Cartridge und spielen Sie es auf der Originalhardware.</translation>
     </message>
@@ -700,12 +700,12 @@ Tipp: Verwenden Sie externe Programme, um Ereignisse im Spiel auszulösen oder d
     <message>
         <location filename="../src/UIComponents.cpp" line="27" />
         <source>You are about to quit.</source>
-        <translation type="finished">Sie sind kurz davor zu kündigen.</translation>
+        <translation type="finished">Sie sind dabei zu beenden.</translation>
     </message>
     <message>
         <location filename="../src/UIComponents.cpp" line="28" />
         <source>Are you sure you want to exit?</source>
-        <translation type="finished">Sind Sie sicher, dass Sie aussteigen wollen?</translation>
+        <translation type="finished">Sind Sie sicher, dass Sie aufhören wollen?</translation>
     </message>
 </context>
 <context>
@@ -723,9 +723,9 @@ You can read more about this issue here. Backups of the original save on the car
 
 Would you like to proceed?
 </source>
-        <translation type="finished">Der Emulatorkern meldet derzeit eine andere Speichergröße als die, die wir auf der Kassette festgestellt haben.
+        <translation type="finished">Der unterliegende Emulator meldet derzeit eine andere Speichergröße als die, die wir auf der Modul festgestellt haben.
 
-Sie können mehr über dieses Problem hier lesen. Backups des ursprünglichen Spielstands auf der Kassette werden im Tresor erstellt, allerdings kann die Vorgehensweise zu unbrauchbaren Spielständen führen.
+Sie können mehr über dieses Problem hier lesen. Backups des ursprünglichen Spielstands auf den Modul werden im geschützen Verzeichnis erstellt, allerdings kann die Vorgehensweise zu unbrauchbaren Spielständen führen.
 
 Möchten Sie fortfahren?
 </translation>
@@ -742,7 +742,7 @@ Möchten Sie fortfahren?
         <location filename="../src/SearchWindow.h" line="23" />
         <source>Looking for your Operator device.
 Please make sure it's connected.</source>
-        <translation type="finished">Ihr Operator-Gerät wird gesucht.
+        <translation type="finished">Ihr Operator wird gesucht.
 Bitte stellen Sie sicher, dass es angeschlossen ist.</translation>
     </message>
     <message>
@@ -815,13 +815,13 @@ Bitte stellen Sie sicher, dass es angeschlossen ist.</translation>
     <message>
         <location filename="../src/UIComponents.cpp" line="35" />
         <source>You are about to quit.</source>
-        <translation type="finished">Sie sind kurz davor zu kündigen.</translation>
+        <translation type="finished">Sie sind dabei zu beenden.</translation>
     </message>
     <message>
         <location filename="../src/UIComponents.cpp" line="36" />
         <source>Do you want to overwrite the current save to your cartridge?
 </source>
-        <translation type="finished">Möchten Sie den aktuellen Speicherstand auf Ihrer Kassette überschreiben?
+        <translation type="finished">Möchten Sie den aktuellen Speicherstand auf Ihren Modul überschreiben?
 </translation>
     </message>
 </context>
@@ -863,7 +863,7 @@ Bitte stellen Sie sicher, dass es angeschlossen ist.</translation>
     <message>
         <location filename="../src/Window.cpp" line="123" />
         <source>A new device update is available</source>
-        <translation type="finished">Ein neues Geräte-Update ist verfügbar</translation>
+        <translation type="finished">Ein neues Update ist verfügbar</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="123" />
