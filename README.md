@@ -32,8 +32,8 @@ You need to update the `translation` XML property by changing the `unfinished` v
 
 If you're correcting a translation that has the `finished` property, you can simply update the contents inside the `translation` XML tag.
 
+### Optional compilation
+
 Once you're done updating all entries you need to recompile the translation file and generate a `qm` file by running the command:
 
 `lrelease i18n/main_ja.ts i18n/main_ja.qm`
-
-Now you can recompile the application and the language should be updated.
