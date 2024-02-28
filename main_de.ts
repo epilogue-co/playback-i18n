@@ -27,12 +27,12 @@
     <message>
         <location filename="../src/CartDetailsWidget.cpp" line="26" />
         <source>Official cartridge</source>
-        <translation type="finished">offizielles Modul</translation>
+        <translation type="finished">Offizielles Modul</translation>
     </message>
     <message>
         <location filename="../src/CartDetailsWidget.cpp" line="27" />
         <source>Unofficial cartridge</source>
-        <translation type="finished">Inoffizielle Modul</translation>
+        <translation type="finished">Inoffizielles Modul</translation>
     </message>
     <message>
         <location filename="../src/CartDetailsWidget.cpp" line="28" />
@@ -119,7 +119,7 @@ Entfernen Sie das Modul nicht, während ein Vorgang ausgeführt wird.</translati
     <message>
         <location filename="../src/EmulatorSettingsScreen.h" line="153" />
         <source>Once you save in-game, or the game modifies the save internally, your GB Operator will automatically write the save to the cartridge. This feature is still in development.</source>
-        <translation type="finished">Sobald Sie im Spiel speichern oder das Spiel den Speicherstand intern verändert, schreibt Ihr GB Operator den Speicherstand automatisch auf das Modul. Diese Funktion befindet sich noch in der Entwicklung.</translation>
+        <translation type="finished">Sobald Sie im Spiel speichern oder das Spiel den Spielstand intern verändert, schreibt Ihr GB Operator den Spielstand automatisch auf das Modul. Diese Funktion befindet sich noch in der Entwicklung.</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.h" line="157" />
@@ -178,7 +178,7 @@ Entfernen Sie das Modul nicht, während ein Vorgang ausgeführt wird.</translati
         <source>This may take up to a minute,
 please do not disconnect the device.</source>
         <translation type="finished">Dies kann bis zu einer Minute dauern,
-bitte trennen Sie das Gerät nicht.</translation>
+bitte entfernen Sie das Gerät nicht.</translation>
     </message>
     <message>
         <location filename="../src/FirmwareUpdateWindow.h" line="25" />
@@ -238,7 +238,7 @@ bitte trennen Sie das Gerät nicht.</translation>
 
 You can try cleaning then re-inserting the cartridge into the device.
 </source>
-        <translation type="finished">Wir konnten die Integrität dieser Moduls nicht bestätigen. Möchten Sie trotzdem fortfahren? Das Spiel spielt oder speichert möglicherweise nicht richtig.
+        <translation type="finished">Wir konnten die Integrität dieses Moduls nicht bestätigen. Möchten Sie trotzdem fortfahren? Das Spiel könnte möglicherweise nicht richtig wiedergegeben oder abgespeichert werden.
 
 Sie können versuchen, das Modul zu reinigen und erneut in das Gerät einzusetzen.
 </translation>
@@ -264,12 +264,12 @@ Sie können versuchen, das Modul zu reinigen und erneut in das Gerät einzusetze
     <message>
         <location filename="../src/KeyboardLegendWindow.cpp" line="27" />
         <source>Left trigger</source>
-        <translation type="finished">linke Schultertaste</translation>
+        <translation type="finished">Linke Schultertaste</translation>
     </message>
     <message>
         <location filename="../src/KeyboardLegendWindow.cpp" line="28" />
         <source>Right trigger</source>
-        <translation type="finished">rechte Schultertaste</translation>
+        <translation type="finished">Rechte Schultertaste</translation>
     </message>
     <message>
         <location filename="../src/KeyboardLegendWindow.cpp" line="29" />
@@ -302,17 +302,17 @@ Sie können versuchen, das Modul zu reinigen und erneut in das Gerät einzusetze
     <message>
         <location filename="../src/UIComponents.cpp" line="105" />
         <source>Follow this</source>
-        <translation type="finished">Folgen Sie diesem</translation>
+        <translation type="finished">Folgen Sie dieser</translation>
     </message>
     <message>
         <location filename="../src/UIComponents.cpp" line="105" />
         <source>tutorial</source>
-        <translation type="finished">Lehrgang</translation>
+        <translation type="finished">Anleitung</translation>
     </message>
     <message>
         <location filename="../src/UIComponents.cpp" line="106" />
         <source>to configure your Operator device.</source>
-        <translation type="finished">um Ihr Operator zu konfigurieren.</translation>
+        <translation type="finished">um Ihren Operator zu konfigurieren.</translation>
     </message>
 </context>
 <context>
@@ -338,7 +338,7 @@ Sie können versuchen, das Modul zu reinigen und erneut in das Gerät einzusetze
     <message>
         <location filename="../src/UIComponents.cpp" line="84" />
         <source>Your Operator device failed to erase the contents of your cartridge, this cartridge is not fully supported, please contact support to add full compatibility for it.</source>
-        <translation type="finished">Ihr Operator konnte den Inhalt Ihres Moduls nicht löschen. Dieses Modul wird nicht vollständig unterstützt, bitte wenden Sie sich an den Support, um die volle Kompatibilität zu gewährleisten.</translation>
+        <translation type="finished">Ihr Operator konnte den Inhalt Ihres Moduls nicht löschen. Dieses Modul wird nicht vollständig unterstützt, bitte wenden Sie sich an den Support, um vollständige Kompatibilität hinzuzufügen.</translation>
     </message>
 </context>
 <context>
@@ -403,7 +403,7 @@ Sie können versuchen, das Modul zu reinigen und erneut in das Gerät einzusetze
     <message>
         <location filename="../src/UIComponents.cpp" line="95" />
         <source>It looks like there is another Operator instance running on this computer. Closing this instance.</source>
-        <translation type="finished">Es sieht so aus, als ob eine andere Operator-Instanz auf diesem Computer läuft. Schließen Sie diese Instanz.</translation>
+        <translation type="finished">Es sieht so aus, als ob eine andere Operator-Instanz auf diesem Computer läuft. Diese Instanz wird geschlossen.</translation>
     </message>
 </context>
 <context>
@@ -421,7 +421,7 @@ Sie können versuchen, das Modul zu reinigen und erneut in das Gerät einzusetze
     <message>
         <location filename="../src/Navbar.h" line="149" />
         <source>Writing game...</source>
-        <translation type="finished">Schreibspiel...</translation>
+        <translation type="finished">Spiel wird geschrieben...</translation>
     </message>
     <message>
         <location filename="../src/Navbar.h" line="150" />
@@ -449,7 +449,7 @@ Sie können versuchen, das Modul zu reinigen und erneut in das Gerät einzusetze
     <message>
         <location filename="../src/NavbarComponents.cpp" line="101" />
         <source>Debug</source>
-        <translation type="finished">Debuggen</translation>
+        <translation type="finished">Debug</translation>
     </message>
 </context>
 <context>
@@ -513,7 +513,7 @@ Sie können versuchen, das Modul zu reinigen und erneut in das Gerät einzusetze
     <message>
         <location filename="../src/Navbar.h" line="65" />
         <source>Upload Homebrew</source>
-        <translation type="finished">Homebrew hochladen</translation>
+        <translation type="finished">Homebrew aufspielen</translation>
     </message>
     <message>
         <location filename="../src/Navbar.h" line="66" />
@@ -541,7 +541,7 @@ Sie können versuchen, das Modul zu reinigen und erneut in das Gerät einzusetze
     <message>
         <location filename="../src/PhotosPage.cpp" line="163" />
         <source>Open Directory</source>
-        <translation type="finished">Verzeichnis öffnen</translation>
+        <translation type="finished">Ordner öffnen</translation>
     </message>
     <message>
         <location filename="../src/PhotosPage.cpp" line="185" />
@@ -551,7 +551,7 @@ Sie können versuchen, das Modul zu reinigen und erneut in das Gerät einzusetze
     <message>
         <location filename="../src/PhotosPage.cpp" line="186" />
         <source>This will permanently delete all the pictures on your Game Boy Camera. Are you sure?</source>
-        <translation type="finished">Dadurch werden alle Bilder auf Ihrer Game Boy Camera endgültig gelöscht. Sind Sie sicher?</translation>
+        <translation type="finished">Dadurch werden alle Bilder auf Ihrer Game Boy Camera unwiderruflich gelöscht. Sind Sie sicher?</translation>
     </message>
     <message>
         <location filename="../src/PhotosPage.h" line="77" />
@@ -563,14 +563,14 @@ Sie können versuchen, das Modul zu reinigen und erneut in das Gerät einzusetze
         <source>Transfer your pics from your Game Boy Camera to your PC in just two clicks. The images are stored as PNGs of 128x112 pixels. You can scale this using the scaling function.
 
 If you'd like to easily remove all the pictures from your camera, without having to manually delete them one by one in the camera software, you can use the delete button below.</source>
-        <translation type="finished">Übertragen Sie Ihre Bilder von Ihrer Game Boy Camera mit nur zwei Klicks auf Ihren PC. Die Bilder werden als PNGs mit 128x112 Pixeln gespeichert. Sie können diese mit der Skalierungsfunktion skalieren.
+        <translation type="finished">Übertragen Sie Ihre Bilder von Ihrer Game Boy Camera mit nur zwei Klicks auf Ihren PC. Die Bilder werden als PNGs mit 128x112 Pixeln gespeichert. Sie können diese mit der Skalierungsfunktion vergrößern.
 
-Wenn Sie alle Bilder einfach von Ihrer Kamera entfernen möchten, ohne sie einzeln in der Kamerasoftware löschen zu müssen, können Sie den Löschknopf unten verwenden.</translation>
+Wenn Sie alle Bilder von Ihrer Kamera entfernen möchten, ohne diese einzeln in der Kamerasoftware löschen zu müssen, können Sie den Löschknopf unten verwenden.</translation>
     </message>
     <message>
         <location filename="../src/PhotosPage.h" line="85" />
         <source>SAVE ALL</source>
-        <translation type="finished">ALLE RETTEN</translation>
+        <translation type="finished">ALLE SPEICHERN</translation>
     </message>
     <message>
         <location filename="../src/PhotosPage.h" line="86" />
@@ -606,7 +606,7 @@ Wenn Sie alle Bilder einfach von Ihrer Kamera entfernen möchten, ohne sie einze
     <message>
         <location filename="../src/AboutWindow.cpp" line="126" />
         <source>Device Version</source>
-        <translation type="finished">Gerät Version</translation>
+        <translation type="finished">Geräteversion</translation>
     </message>
     <message>
         <location filename="../src/AboutWindow.cpp" line="127" />
@@ -672,16 +672,16 @@ Tipp: Unsere App führt einen Datenintegritätstest durch, um sicherzustellen, d
         <source>Overwrite the game data on your cartridge with a different file. Make sure the game file you’re writing is valid by testing it in an external emulator first.
 
 Tip: Transfer your homebrew game to a cartridge and play it on original hardware.</source>
-        <translation type="finished">Überschreiben Sie die Spieldaten auf Ihren Modul mit einer anderen Datei. Vergewissern Sie sich, dass die Spieldatei, die Sie schreiben, gültig ist, indem Sie sie diese zuerst in einem externen Emulator testen.
+        <translation type="finished">Überschreiben Sie die Spieldaten auf Ihrem Modul mit einer anderen Datei. Vergewissern Sie sich, dass die zu schreibende Spieldatei gültig ist, indem Sie sie diese zuerst in einem externen Emulator testen.
 
-Tipp: Übertragen Sie Ihr Homebrew-Spiel auf eine Cartridge und spielen Sie es auf der Originalhardware.</translation>
+Tipp: Übertragen Sie Ihr Homebrew-Spiel auf ein Modul und spielen Sie es auf der Originalhardware.</translation>
     </message>
     <message>
         <location filename="../src/ViewRouter.h" line="55" />
         <source>Transfer a duplicate of your save data from the cartridge to your computer. You can then back up your save file or edit it with an external program.
 
 Tip: Transfer your save to the computer, replace the battery and transfer it back to the cartridge safely.</source>
-        <translation type="finished">Übertragen Sie ein Duplikat Ihres Spielstandes des Moduls auf Ihren Computer. Sie können dann eine Sicherungskopie Ihrer Speicherdatei erstellen oder sie mit einem externen Programm bearbeiten.
+        <translation type="finished">Übertragen Sie ein Duplikat Ihres Spielstandes von dem Modul auf Ihren Computer. Sie können dann eine Sicherungskopie Ihrer Speicherdatei erstellen oder sie mit einem externen Programm bearbeiten.
 
 Tipp: Übertragen Sie Ihren Spielstand auf den Computer, tauschen Sie die Batterie aus und übertragen Sie ihn sicher zurück auf das Modul.</translation>
     </message>
@@ -690,7 +690,7 @@ Tipp: Übertragen Sie Ihren Spielstand auf den Computer, tauschen Sie die Batter
         <source>Transfer a duplicate of your save data from your computer to the cartridge and pick the game up right where you left off.
 
 Tip: Use external programs to trigger in-game events or customize gameplay.</source>
-        <translation type="finished">Übertragen Sie ein Duplikat Ihren Spielstand von Ihrem Computer auf das Modul und machen Sie dort weiter, wo Sie aufgehört haben.
+        <translation type="finished">Übertragen Sie ein Duplikat Ihres Spielstands von Ihrem Computer auf das Modul und machen Sie dort weiter, wo Sie aufgehört haben.
 
 Tipp: Verwenden Sie externe Programme, um Ereignisse im Spiel auszulösen oder das Gameplay anzupassen.</translation>
     </message>
@@ -713,7 +713,7 @@ Tipp: Verwenden Sie externe Programme, um Ereignisse im Spiel auszulösen oder d
     <message>
         <location filename="../src/UIComponents.cpp" line="54" />
         <source>Mismatched save size</source>
-        <translation type="finished">Unpassende Speichergröße</translation>
+        <translation type="finished">Unpassende Spielstandsgröße</translation>
     </message>
     <message>
         <location filename="../src/UIComponents.cpp" line="55" />
@@ -723,9 +723,9 @@ You can read more about this issue here. Backups of the original save on the car
 
 Would you like to proceed?
 </source>
-        <translation type="finished">Der unterliegende Emulator meldet derzeit eine andere Speichergröße als die, die wir auf der Modul festgestellt haben.
+        <translation type="finished">Der Emulator meldet derzeit eine andere Spielstandsgröße als die, welche wir auf dem Modul festgestellt haben.
 
-Sie können mehr über dieses Problem hier lesen. Backups des ursprünglichen Spielstands auf den Modul werden im geschützen Verzeichnis erstellt, allerdings kann die Vorgehensweise zu unbrauchbaren Spielständen führen.
+Sie können hier mehr über dieses Problem lesen. Sicherungen des ursprünglichen Spielstands des Moduls wurden im Tresor gespeichert, allerdings kann das Fortfahren zu unbrauchbaren Spielständen führen.
 
 Möchten Sie fortfahren?
 </translation>
@@ -776,7 +776,7 @@ Bitte stellen Sie sicher, dass es angeschlossen ist.</translation>
     <message>
         <location filename="../src/SettingsWindow.h" line="77" />
         <source>Keyboard Settings</source>
-        <translation type="finished">Tastatur-Einstellungen</translation>
+        <translation type="finished">Tastatureinstellungen</translation>
     </message>
 </context>
 <context>
@@ -821,7 +821,7 @@ Bitte stellen Sie sicher, dass es angeschlossen ist.</translation>
         <location filename="../src/UIComponents.cpp" line="36" />
         <source>Do you want to overwrite the current save to your cartridge?
 </source>
-        <translation type="finished">Möchten Sie den aktuellen Speicherstand auf Ihren Modul überschreiben?
+        <translation type="finished">Möchten Sie den aktuellen Spielstand auf Ihrem Modul überschreiben?
 </translation>
     </message>
 </context>
@@ -835,7 +835,7 @@ Bitte stellen Sie sicher, dass es angeschlossen ist.</translation>
     <message>
         <location filename="../src/ViewRouter.cpp" line="21" />
         <source>Upload Homebrew</source>
-        <translation type="finished">Homebrew hochladen</translation>
+        <translation type="finished">Homebrew aufspielen</translation>
     </message>
     <message>
         <location filename="../src/ViewRouter.cpp" line="24" />
@@ -863,7 +863,7 @@ Bitte stellen Sie sicher, dass es angeschlossen ist.</translation>
     <message>
         <location filename="../src/Window.cpp" line="123" />
         <source>A new device update is available</source>
-        <translation type="finished">Ein neues Update ist verfügbar</translation>
+        <translation type="finished">Ein neues Geräte-Update ist verfügbar</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="123" />
