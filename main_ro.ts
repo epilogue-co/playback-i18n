@@ -88,11 +88,6 @@ Nu scoate cartușul în timp ce este în curs de desfășurare orice operațiune
         <translation>Jucător: </translation>
     </message>
     <message>
-        <location filename="../src/ControlsWidget.cpp" line="59"/>
-        <source>Player </source>
-        <translation>Jucător </translation>
-    </message>
-    <message>
         <location filename="../src/ControlsWidget.cpp" line="131"/>
         <source>Input: </source>
         <translation>Controler: </translation>
@@ -128,7 +123,7 @@ Nu scoate cartușul în timp ce este în curs de desfășurare orice operațiune
     <message>
         <location filename="../src/DatabaseCheatCodesWidget.cpp" line="8"/>
         <source> Default Cheats</source>
-        <translation> Parole customizabile</translation>
+        <translation> Parole Standard</translation>
     </message>
 </context>
 <context>
@@ -234,7 +229,7 @@ Nu scoate cartușul în timp ce este în curs de desfășurare orice operațiune
     <message>
         <location filename="../src/DeviceSettingsScreen.h" line="80"/>
         <source>Choose one of the options below to set the status of your device’s LED light. Select ‘Static’ to keep the light on or ‘Dark’ to shut it off. Pulse and Strobe coming soon.</source>
-        <translation>Alegeți una dintre opțiunile de mai jos pentru a seta starea luminii LED a dispozitivului dumneavoastră. Selectați &quot;Static&quot; pentru a menține lumina aprinsă sau &quot;Dark&quot; pentru a o opri. Impuls și Strobe în curând.</translation>
+        <translation>Alege una dintre opțiunile de mai jos pentru a seta starea luminii LED a dispozitivului. Selectează &quot;Static&quot; pentru a menține lumina aprinsă sau &quot;Dark&quot; pentru a o opri. Puls și Strobe vin în curând.</translation>
     </message>
 </context>
 <context>
@@ -263,7 +258,7 @@ Nu scoate cartușul în timp ce este în curs de desfășurare orice operațiune
     <message>
         <location filename="../src/Emulator.cpp" line="245"/>
         <source>Unable to launch the game, please make sure that the cartridge is clean.</source>
-        <translation>Nu se poate lansa jocul, asigură-te că cartușul este curat.</translation>
+        <translation>Nu se poate lansa jocul, asigură-te că cartușul are pinii curați.</translation>
     </message>
     <message>
         <location filename="../src/Emulator.cpp" line="251"/>
@@ -286,7 +281,7 @@ Nu scoate cartușul în timp ce este în curs de desfășurare orice operațiune
     <message>
         <location filename="../src/EmulatorSettingsScreen.h" line="134"/>
         <source>A fast-forward speed higher than 2x can cause unexpected bugs in combination with the &apos;Autosave to cartridge&apos; feature. You will need to disable and enable it by clicking the fast-forward button.</source>
-        <translation>O viteză de avansare rapidă mai mare de 2x poate cauza erori neașteptate în combinație cu funcția &quot;Autosave to cartridge&quot;. Va trebui să o dezactivați și să o activați făcând clic pe butonul de avansare rapidă.</translation>
+        <translation>O viteză de avansare rapidă mai mare de 2x poate cauza erori neașteptate în combinație cu funcția &quot;Autosave to cartridge&quot;. Va trebui să o dezactivezi și să o activezi din nou făcând clic pe butonul de avansare rapidă.</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.h" line="157"/>
@@ -296,7 +291,7 @@ Nu scoate cartușul în timp ce este în curs de desfășurare orice operațiune
     <message>
         <location filename="../src/EmulatorSettingsScreen.h" line="159"/>
         <source>Enables high-fidelity mode, making audio and video run at rates close to what you would encounter on the original hardware. This will increase CPU usage, disable it if you notice low framerates.</source>
-        <translation>Activează modul de înaltă fidelitate, ceea ce face ca sunetul și imaginile audio și video să ruleze la rate apropiate de cele pe care le-ai întâlni pe hardware-ul original. Acest lucru va crește utilizarea procesorului; dezactivați-l dacă observați rate de cadre scăzute.</translation>
+        <translation>Activează modul de înaltă fidelitate, ceea ce face ca sunetul și imaginile audio și video să ruleze la rate apropiate de cele pe care le-ai întâlni pe hardware-ul original. Acest lucru va crește utilizarea procesorului; dezactivează-l dacă observi FPS scăzut.</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.h" line="174"/>
@@ -418,9 +413,9 @@ te rugăm să nu deconectezi dispozitivul.</translation>
 
 You can try cleaning then re-inserting the cartridge into the device.
 </source>
-        <translation>Nu am reușit să confirmăm integritatea acestui cartuș, doriți să continuați? Este posibil ca jocul să nu fie redat sau salvat corespunzător.
+        <translation>Nu am reușit să confirmăm integritatea acestui cartuș, dorești să continui? Este posibil ca jocul să nu fie redat sau salvat corespunzător.
 
-Puteți încerca să curățați și apoi să reintroduceți cartușul în dispozitiv.
+Poți încerca să cureți și apoi să reintroduci cartușul în dispozitiv.
 </translation>
     </message>
 </context>
@@ -434,12 +429,12 @@ Puteți încerca să curățați și apoi să reintroduceți cartușul în dispo
     <message>
         <location filename="../src/UIComponents.cpp" line="87"/>
         <source>Please make sure you configure your Linux system to allow unprivileged access to serial ports.</source>
-        <translation>Vă rugăm să vă asigurați că ați configurat sistemul Linux pentru a permite accesul neprivilegiat la porturile seriale.</translation>
+        <translation>Te rugăm să te asiguri că ai configurat sistemul Linux pentru a permite accesul neprivilegiat la porturile seriale.</translation>
     </message>
     <message>
         <location filename="../src/UIComponents.cpp" line="88"/>
         <source>Follow this</source>
-        <translation>Urmați acest</translation>
+        <translation>Urmează acest</translation>
     </message>
     <message>
         <location filename="../src/UIComponents.cpp" line="89"/>
@@ -449,7 +444,7 @@ Puteți încerca să curățați și apoi să reintroduceți cartușul în dispo
     <message>
         <location filename="../src/UIComponents.cpp" line="89"/>
         <source>to configure your Operator device.</source>
-        <translation>pentru a vă configura dispozitivul Operator.</translation>
+        <translation>pentru a-ți configura dispozitivul Operator.</translation>
     </message>
 </context>
 <context>
@@ -475,7 +470,7 @@ Puteți încerca să curățați și apoi să reintroduceți cartușul în dispo
     <message>
         <location filename="../src/ManagePage.cpp" line="17"/>
         <source>Data Flow:</source>
-        <translation>Fluxul de date:</translation>
+        <translation>Date Binare:</translation>
     </message>
     <message>
         <location filename="../src/ManagePage.cpp" line="96"/>
@@ -545,7 +540,7 @@ Puteți încerca să curățați și apoi să reintroduceți cartușul în dispo
     <message>
         <location filename="../src/Navbar.h" line="144"/>
         <source>Press ESC to exit emulation</source>
-        <translation>Apăsați ESC pentru a ieși din emulare</translation>
+        <translation>Apasă ESC pentru a ieși din emulare</translation>
     </message>
     <message>
         <location filename="../src/Navbar.h" line="145"/>
@@ -555,22 +550,22 @@ Puteți încerca să curățați și apoi să reintroduceți cartușul în dispo
     <message>
         <location filename="../src/Navbar.h" line="146"/>
         <source>Writing game...</source>
-        <translation>Joc de scris...</translation>
+        <translation>Se scrie jocul...</translation>
     </message>
     <message>
         <location filename="../src/Navbar.h" line="147"/>
         <source>Loading save...</source>
-        <translation>Încărcarea salvării...</translation>
+        <translation>Se încarcă salvarea...</translation>
     </message>
     <message>
         <location filename="../src/Navbar.h" line="148"/>
         <source>Writing save...</source>
-        <translation>Scrisul salvează...</translation>
+        <translation>Se scrie salvarea...</translation>
     </message>
     <message>
         <location filename="../src/Navbar.h" line="149"/>
         <source>Erasing data...</source>
-        <translation>Ștergerea datelor...</translation>
+        <translation>Se șterg datele...</translation>
     </message>
 </context>
 <context>
@@ -578,12 +573,12 @@ Puteți încerca să curățați și apoi să reintroduceți cartușul în dispo
     <message>
         <location filename="../src/NavbarComponents.cpp" line="88"/>
         <source>Nightly</source>
-        <translation>Noaptea</translation>
+        <translation>Nightly</translation>
     </message>
     <message>
         <location filename="../src/NavbarComponents.cpp" line="100"/>
         <source>Debug</source>
-        <translation>Depanare</translation>
+        <translation>Debug</translation>
     </message>
 </context>
 <context>
@@ -606,12 +601,12 @@ Puteți încerca să curățați și apoi să reintroduceți cartușul în dispo
     <message>
         <location filename="../src/NavbarLogoDropdown.cpp" line="41"/>
         <source>Send Feedback</source>
-        <translation>Trimiteți feedback</translation>
+        <translation>Trimite feedback</translation>
     </message>
     <message>
         <location filename="../src/NavbarLogoDropdown.cpp" line="44"/>
         <source>Report a Bug</source>
-        <translation>Raportați un bug</translation>
+        <translation>Raportează un bug</translation>
     </message>
     <message>
         <location filename="../src/NavbarLogoDropdown.cpp" line="49"/>
@@ -647,7 +642,7 @@ Puteți încerca să curățați și apoi să reintroduceți cartușul în dispo
     <message>
         <location filename="../src/Navbar.h" line="61"/>
         <source>Upload Homebrew</source>
-        <translation>Încărcați Homebrew</translation>
+        <translation>Încărcă Homebrew</translation>
     </message>
     <message>
         <location filename="../src/Navbar.h" line="62"/>
@@ -697,9 +692,9 @@ Puteți încerca să curățați și apoi să reintroduceți cartușul în dispo
         <source>Transfer your pics from your Game Boy Camera to your PC in just two clicks. The images are stored as PNGs of 128x112 pixels. You can scale this using the scaling function.
 
 If you&apos;d like to easily remove all the pictures from your camera, without having to manually delete them one by one in the camera software, you can use the delete button below.</source>
-        <translation>Transferă-ți pozele de pe camera Game Boy pe PC cu doar două clicuri. Imaginile sunt stocate ca PNG-uri de 128x112 pixeli. Le puteți mări folosind funcția de scalare.
+        <translation>Transferă-ți pozele de pe camera Game Boy pe PC cu doar două clicuri. Imaginile sunt stocate ca PNG-uri de 128x112 pixeli. Le poți mări folosind funcția de scalare.
 
-Dacă doriți să eliminați cu ușurință toate imaginile din cameră, fără a fi nevoie să le ștergeți manual una câte una în software-ul camerei, puteți folosi butonul de ștergere de mai jos.</translation>
+Dacă dorești să elimini cu ușurință toate imaginile din cameră, fără a fi nevoie să le ștergeți manual una câte una în software-ul camerei, puteți folosi butonul de ștergere de mai jos.</translation>
     </message>
     <message>
         <location filename="../src/PhotosPage.h" line="83"/>
@@ -709,7 +704,7 @@ Dacă doriți să eliminați cu ușurință toate imaginile din cameră, fără 
     <message>
         <location filename="../src/PhotosPage.h" line="84"/>
         <source>DELETE ALL</source>
-        <translation>ȘTERGE TOATE POZELE</translation>
+        <translation>ȘTERGE TOT</translation>
     </message>
 </context>
 <context>
@@ -808,7 +803,7 @@ Dacă doriți să eliminați cu ușurință toate imaginile din cameră, fără 
     <message>
         <location filename="../src/ProgressGridWidget.cpp" line="17"/>
         <source>Data Grid:</source>
-        <translation>Grila de date:</translation>
+        <translation>Grilă de date:</translation>
     </message>
 </context>
 <context>
@@ -821,12 +816,12 @@ Dacă doriți să eliminați cu ușurință toate imaginile din cameră, fără 
     <message>
         <location filename="../src/CartDetailsWidget.cpp" line="12"/>
         <source>The description of this cartridge can’t be displayed since it’s not in our database. You can use the link below to open a ticket and we’ll add the game info to the database. Please feel free to contact us even if it’s a homebrew game you made if you’d like to have your artwork displayed here.</source>
-        <translation>Descrierea acestui cartuș nu poate fi afișată deoarece nu se află în baza noastră de date. Puteți folosi linkul de mai jos pentru a deschide un bilet și vom adăuga informațiile despre joc în baza de date. Vă rugăm să nu ezitați să ne contactați chiar dacă este un joc homebrew făcut de dvs. dacă doriți să vă afișați opera de artă aici.</translation>
+        <translation>Descrierea acestui cartuș nu poate fi afișată deoarece nu se află în baza noastră de date. Poți folosi linkul de mai jos pentru a deschide un tichet și vom adăuga informațiile despre joc în baza de date. Te rugăm să nu eziți să ne contactezi chiar dacă este un joc homebrew făcut de tine.</translation>
     </message>
     <message>
         <location filename="../src/CartDetailsWidget.cpp" line="19"/>
         <source>Submit cartridge information</source>
-        <translation>Trimiteți informații despre cartuș</translation>
+        <translation>Trimite informații despre cartuș</translation>
     </message>
     <message>
         <location filename="../src/CartDetailsWidget.cpp" line="20"/>
@@ -856,7 +851,7 @@ Dacă doriți să eliminați cu ușurință toate imaginile din cameră, fără 
     <message>
         <location filename="../src/AboutWindow.cpp" line="86"/>
         <source>Copyright Notices</source>
-        <translation>Drepturile de autor</translation>
+        <translation>Drepturi de autor</translation>
     </message>
     <message>
         <location filename="../src/AboutWindow.cpp" line="87"/>
@@ -888,36 +883,36 @@ Dacă doriți să eliminați cu ușurință toate imaginile din cameră, fără 
         <source>Archive your game data securely on your computer, making a digital equivalent of your game collection. Game files are compatible with your chosen emulator.
 
 Tip: Our app runs a Data Integrity Test to make sure that you are getting an accurate reproduction of the cartridge’s content.</source>
-        <translation>Arhivați-vă datele de joc în siguranță pe computer, creând un echivalent digital al colecției dumneavoastră de jocuri. Fișierele de joc sunt compatibile cu emulatorul ales de dumneavoastră.
+        <translation>Arhivează-ți datele de joc în siguranță pe computer, creând un echivalent digital al colecției dumneavoastră de jocuri. Fișierele de joc sunt compatibile cu emulatoare externe.
 
-Sfat: Aplicația noastră execută un test de integritate a datelor pentru a vă asigura că obțineți o reproducere exactă a conținutului cartușului.</translation>
+Sfat: Aplicația noastră execută un test de integritate a datelor pentru a te asigura că obți o reproducere exactă a conținutului cartușului.</translation>
     </message>
     <message>
         <location filename="../src/ViewRouter.h" line="50"/>
         <source>Overwrite the game data on your cartridge with a different file. Make sure the game file you’re writing is valid by testing it in an external emulator first.
 
 Tip: Transfer your homebrew game to a cartridge and play it on original hardware.</source>
-        <translation>Suprascrieți datele de joc de pe cartuș cu un alt fișier. Asigurați-vă că fișierul de joc pe care îl scrieți este valid, testându-l mai întâi într-un emulator extern.
+        <translation>Suprascrieți datele de joc de pe cartuș cu un alt fișier. Asigură-te că fișierul de joc pe care îl scrieți este valid, testându-l mai întâi într-un emulator extern.
 
-Sfat: Transferați-vă jocul homebrew pe un cartuș și jucați-l pe hardware-ul original.</translation>
+Sfat: Transferă-ți jocul homebrew pe un cartuș și jucați-l pe hardware-ul original.</translation>
     </message>
     <message>
         <location filename="../src/ViewRouter.h" line="54"/>
         <source>Transfer a duplicate of your save data from the cartridge to your computer. You can then back up your save file or edit it with an external program.
 
 Tip: Transfer your save to the computer, replace the battery and transfer it back to the cartridge safely.</source>
-        <translation>Transferați un duplicat al datelor de salvare de pe cartuș pe computer. Apoi puteți face o copie de rezervă a fișierului de salvare sau îl puteți edita cu un program extern.
+        <translation>Transferăți duplicat al datelor din salvare de pe cartuș pe computer. Apoi poți face o copie de rezervă a fișierului de salvare sau îl poți edita cu un program extern.
 
-Sfat: Transferați salvarea pe computer, înlocuiți bateria și transferați-o înapoi pe cartuș în siguranță.</translation>
+Sfat: Transferă-ți salvarea pe computer, înlocuiește bateria și transferă înapoi pe cartuș în siguranță.</translation>
     </message>
     <message>
         <location filename="../src/ViewRouter.h" line="60"/>
         <source>Transfer a duplicate of your save data from your computer to the cartridge and pick the game up right where you left off.
 
 Tip: Use external programs to trigger in-game events or customize gameplay.</source>
-        <translation>Transferați un duplicat al datelor de salvare de pe computer pe cartuș și reluați jocul chiar de unde l-ați lăsat.
+        <translation>Transferă-ți un duplicat al datelor de salvare de pe computer pe cartuș și reluați jocul chiar de unde l-ai lăsat.
 
-Sfat: Folosiți programe externe pentru a declanșa evenimente în joc sau pentru a personaliza jocul.</translation>
+Sfat: Folosește programe externe pentru a declanșa evenimente în joc sau pentru a personaliza jocul.</translation>
     </message>
     <message>
         <location filename="../src/ErrorMessages.h" line="26"/>
@@ -940,7 +935,7 @@ Sfat: Folosiți programe externe pentru a declanșa evenimente în joc sau pentr
     <message>
         <location filename="../src/UIComponents.cpp" line="28"/>
         <source>You are about to quit.</source>
-        <translation>Sunteți pe cale să renunțați.</translation>
+        <translation>Ești pe cale de a ieși.</translation>
     </message>
     <message>
         <location filename="../src/UIComponents.cpp" line="29"/>
@@ -963,9 +958,9 @@ You can read more about this issue here. Backups of the original save on the car
 
 Would you like to proceed?
 </source>
-        <translation>În prezent, nucleul emulatorului raportează o dimensiune de salvare diferită de cea detectată pe cartuș.
+        <translation>În prezent, core-ul emulatorului raportează o dimensiune de salvare diferită de cea detectată pe cartuș.
 
-Puteți citi mai multe despre această problemă aici. Copiile de rezervă ale salvării originale de pe cartuș sunt făcute în seif, însă procedura poate crea salvări inutilizabile.
+Puteți citi mai multe despre această problemă aici. Copiile de rezervă ale salvării originale de pe cartuș sunt făcute în Vault, însă procedura poate crea salvări inutilizabile.
 
 Doriți să continuați?
 </translation>
@@ -976,14 +971,14 @@ Doriți să continuați?
     <message>
         <location filename="../src/SearchWindow.h" line="20"/>
         <source>Searching...</source>
-        <translation>Căutarea...</translation>
+        <translation>Se caută...</translation>
     </message>
     <message>
         <location filename="../src/SearchWindow.h" line="23"/>
         <source>Looking for your Operator device.
 Please make sure it&apos;s connected.</source>
-        <translation>Căutați dispozitivul Operator.
-Vă rugăm să vă asigurați că este conectat.</translation>
+        <translation>Se caută dispozitivul Operator.
+Te rugăm să te asiguri că acesta este conectat.</translation>
     </message>
     <message>
         <location filename="../src/SearchWindow.h" line="27"/>
@@ -1052,7 +1047,7 @@ Vă rugăm să vă asigurați că este conectat.</translation>
     <message>
         <location filename="../src/SettingsWindowUIComponents.cpp" line="30"/>
         <source>Save</source>
-        <translation>Salvați</translation>
+        <translation>Salvează</translation>
     </message>
     <message>
         <location filename="../src/SettingsWindowUIComponents.cpp" line="31"/>
@@ -1071,7 +1066,6 @@ Vă rugăm să vă asigurați că este conectat.</translation>
         <location filename="../src/StartControllerWidget.cpp" line="141"/>
         <location filename="../src/StartControllerWidget.cpp" line="148"/>
         <source>START</source>
-        <translatorcomment>START</translatorcomment>
         <translation>START</translation>
     </message>
 </context>
@@ -1090,7 +1084,7 @@ Vă rugăm să vă asigurați că este conectat.</translation>
     <message>
         <location filename="../src/StartControllerWidget.cpp" line="12"/>
         <source>Access the Vault for this game. The vault contains auto-saves created while playing the game.</source>
-        <translation>Accesați Seiful pentru acest joc. Seiful conține salvările automate create în timpul jocului.</translation>
+        <translation>Accesează Vault-ul pentru acest joc. Vault-ul conține salvările automate create în timpul jocului.</translation>
     </message>
 </context>
 <context>
@@ -1098,13 +1092,13 @@ Vă rugăm să vă asigurați că este conectat.</translation>
     <message>
         <location filename="../src/UIComponents.cpp" line="36"/>
         <source>You are about to quit.</source>
-        <translation>Sunteți pe cale să renunțați.</translation>
+        <translation>Eși pe cale de a ieși.</translation>
     </message>
     <message>
         <location filename="../src/UIComponents.cpp" line="37"/>
         <source>Do you want to overwrite the current save to your cartridge?
 </source>
-        <translation>Doriți să suprascrieți salvarea curentă în cartușul dumneavoastră?
+        <translation>Vrei să suprascrii salvarea curentă pe cartușul tău?
 </translation>
     </message>
 </context>
@@ -1113,22 +1107,22 @@ Vă rugăm să vă asigurați că este conectat.</translation>
     <message>
         <location filename="../src/ViewRouter.cpp" line="11"/>
         <source>Backup Game</source>
-        <translation>Joc de rezervă</translation>
+        <translation>Arhivează jocul</translation>
     </message>
     <message>
         <location filename="../src/ViewRouter.cpp" line="13"/>
         <source>Upload Homebrew</source>
-        <translation>Încărcați Homebrew</translation>
+        <translation>Încărcă Homebrew</translation>
     </message>
     <message>
         <location filename="../src/ViewRouter.cpp" line="15"/>
         <source>Backup Save</source>
-        <translation>Copie de rezervă Salvați</translation>
+        <translation>Arhivează salvarea</translation>
     </message>
     <message>
         <location filename="../src/ViewRouter.cpp" line="17"/>
         <source>Upload Save</source>
-        <translation>Încărcați Salvați</translation>
+        <translation>Încarcă salvarea</translation>
     </message>
 </context>
 <context>
