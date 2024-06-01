@@ -20,17 +20,17 @@ In order to translate an `unfinished` entry:
 </message>
 ```
 
-You need to update the `translation` XML property by changing the `unfinished` value to `finished`:
+You need to update the `translation` XML property by removing the `unfinished` value: 
 
 ```
 <message>
     <location filename="../src/CartDetailsWidget.cpp" line="27" />
     <source>Unofficial cartridge</source>
-    <translation type="finished">非公式カートリッジ</translation>
+    <translation>非公式カートリッジ</translation>
 </message>
 ```
 
-If you're correcting a translation that has the `finished` property, you can simply update the contents inside the `translation` XML tag.
+If you're correcting a translation, you can simply update the contents inside the `translation` XML tag.
 
 ### Optional compilation
 
