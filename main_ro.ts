@@ -57,14 +57,14 @@
     <message>
         <location filename="../src/CartSearchPage.cpp" line="13"/>
         <source>Please insert a cartridge</source>
-        <translation>Introdu un cartuș</translation>
+        <translation>Introdu o casetă</translation>
     </message>
     <message>
         <location filename="../src/CartSearchPage.cpp" line="22"/>
         <source>Make sure your cartridge is properly inserted and its pins are clean.
 Do not remove the cartridge while any operation is running.</source>
-        <translation>Asigură-te că cartușul este introdus corect și că pinii acestuia sunt curați.
-Nu scoate cartușul în timp ce este în curs de desfășurare orice operațiune.</translation>
+        <translation>Asigură-te că caseta este introdusă corect și că pinii acestuia sunt curați.
+Nu scoate caseta în timp ce se desfășoară orice operațiune.</translation>
     </message>
 </context>
 <context>
@@ -161,12 +161,12 @@ Nu scoate cartușul în timp ce este în curs de desfășurare orice operațiune
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="156"/>
         <source>Homebrew Cartridge Erase Failed!</source>
-        <translation>Ștergerea datelor de pe cartuș a eșuat!</translation>
+        <translation>Ștergerea datelor de pe casetă a eșuat!</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="157"/>
         <source>Playback couldn&apos;t delete the contents of the homebrew cartridge. Please clean the cartridge pins and try again. If the issue persists, contact our Support team.</source>
-        <translation>Playback nu a reușit să șteargă datele jocului de pe cartuș. Te rugăm să cureți pinii cartușului și să încerci din nou. Dacă problema persistă, contactează echipa de suport.</translation>
+        <translation>Playback nu a reușit să șteargă datele jocului de pe casetă. Te rugăm să cureți pinii casetei și să încerci din nou. Dacă problema persistă, contactează echipa de suport.</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="176"/>
@@ -176,7 +176,7 @@ Nu scoate cartușul în timp ce este în curs de desfășurare orice operațiune
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="177"/>
         <source>The cartridge was erased successfully, but the data written does not match the data read back. This issue might occur with some homebrew cartridges. Make sure the game is playable, either by testing on an original console or in the Playback app.</source>
-        <translation>Cartușul a fost șters cu succes, dar datele scrise nu coincid cu datele citite în procesul de verificare. Aceasta eroare este acceptabilă pe unele cartușe de homebrew. Te rugăm să te asiguri că jocul functionează, fie pe consola originală, fie în Playback.</translation>
+        <translation>Jocul de pe casetă a fost șters cu succes, dar datele scrise nu coincid cu datele citite în procesul de verificare. Aceasta eroare este acceptabilă pe unele casete de homebrew. Te rugăm să te asiguri că jocul functionează, fie pe consola originală, fie în Playback.</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="207"/>
@@ -196,7 +196,7 @@ Nu scoate cartușul în timp ce este în curs de desfășurare orice operațiune
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="294"/>
         <source>The save data appears to be inconsistent between read cycles. Please clean the cartridge pins and try again.</source>
-        <translation>Am efectuat mai multe cicluri de citire și datele salvării nu coincid. Te rugăm să cureți pinii cartușului și să încerci din nou.</translation>
+        <translation>Am efectuat mai multe cicluri de citire și datele salvării nu coincid. Te rugăm să cureți pinii casetei și să încerci din nou.</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="346"/>
@@ -216,7 +216,7 @@ Nu scoate cartușul în timp ce este în curs de desfășurare orice operațiune
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="375"/>
         <source>The save data written to the cartridge does not match the data read back. Please clean the cartridge pins and try again to ensure consistency.</source>
-        <translation>Datele scrise din salvare nu coincid cu datele de pe joc. Te rugăm să cureți pinii cartușului și să încerci din nou.</translation>
+        <translation>Datele scrise din salvare nu coincid cu datele de pe joc. Te rugăm să cureți pinii casetei și să încerci din nou.</translation>
     </message>
 </context>
 <context>
@@ -258,7 +258,7 @@ Nu scoate cartușul în timp ce este în curs de desfășurare orice operațiune
     <message>
         <location filename="../src/Emulator.cpp" line="245"/>
         <source>Unable to launch the game, please make sure that the cartridge is clean.</source>
-        <translation>Nu se poate lansa jocul, asigură-te că cartușul are pinii curați.</translation>
+        <translation>Nu se poate lansa jocul, asigură-te că caseta are pinii curați.</translation>
     </message>
     <message>
         <location filename="../src/Emulator.cpp" line="251"/>
@@ -413,9 +413,9 @@ te rugăm să nu deconectezi dispozitivul.</translation>
 
 You can try cleaning then re-inserting the cartridge into the device.
 </source>
-        <translation>Nu am reușit să confirmăm integritatea acestui cartuș, dorești să continui? Este posibil ca jocul să nu fie redat sau salvat corespunzător.
+        <translation>Nu am reușit să confirmăm integritatea acestui joc, dorești să continui? Este posibil ca jocul să nu fie redat sau salvat corespunzător.
 
-Poți încerca să cureți și apoi să reintroduci cartușul în dispozitiv.
+Poți încerca să cureți și apoi să reintroduci caseta în dispozitiv.
 </translation>
     </message>
 </context>
@@ -457,7 +457,7 @@ Poți încerca să cureți și apoi să reintroduci cartușul în dispozitiv.
     <message>
         <location filename="../src/UIComponents.cpp" line="67"/>
         <source>Your Operator device did not manage to read your cartridge properly. Please make sure that the cartridge is clean and try again.</source>
-        <translation>Device-ul tău Operator nu a reușit să citească cartușul. Te rugăm să te asiguri că acesta este curat și să încerci din nou.</translation>
+        <translation>Device-ul tău Operator nu a reușit să citească caseta. Te rugăm să te asiguri că acesta este curat și să încerci din nou.</translation>
     </message>
 </context>
 <context>
@@ -732,12 +732,12 @@ Dacă dorești să elimini cu ușurință toate imaginile din cameră, fără a 
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="93"/>
         <source>Autosave to cartridge (beta)</source>
-        <translation>Salvarea automată în cartuș (beta)</translation>
+        <translation>Salvarea automată în casetă (beta)</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="94"/>
         <source>Once you save in-game, or the game modifies the save internally, your Operator device will automatically write the save to the cartridge. This feature is still in development.</source>
-        <translation>O dată ce salvezi în timp ce joc, sau jocul modifică salvarea în mod intern, dispozitivul tău Operator o să scrie automat salvarea pe cartuș. Acest feature este încă în dezvoltare.</translation>
+        <translation>O dată ce salvezi în timp ce joci, sau jocul modifică salvarea în mod intern, dispozitivul tău Operator o să scrie automat salvarea pe caseta. Acest feature este încă în dezvoltare.</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="97"/>
@@ -775,7 +775,7 @@ Dacă dorești să elimini cu ușurință toate imaginile din cameră, fără a 
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="106"/>
         <source>Activating this setting prompts Playback to check that the save file remains uncorrupted after being written to the cartridge. It ensures your game progress has been safely stored.</source>
-        <translation>Activarea acestei setări face ca Playback să verifice că salvarea nu este coruptă după ce a fost scrisă pe cartuș. Se asigură că progresul tău în joc este salvat și pe cartuș în mod corect.</translation>
+        <translation>Activarea acestei setări face ca Playback să verifice că salvarea nu este coruptă după ce a fost scrisă pe casetă. Ne asigurăm că progresul tău în joc este salvat și pe casetă în mod corect.</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="111"/>
@@ -785,7 +785,7 @@ Dacă dorești să elimini cu ușurință toate imaginile din cameră, fără a 
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="112"/>
         <source>When this setting is enabled, Playback reads the save file from the cartridge multiple times and reviews any discrepancies to prevent data corruption.</source>
-        <translation>Când această setare este activată, Playback citeste salvarea de pe cartuș de mai multe ori și caută orice discrepanță între citiri pentru a preveni pierderea datelor.</translation>
+        <translation>Când această setare este activată, Playback citeste salvarea de pe casetă de mai multe ori și caută orice discrepanță între citiri pentru a preveni pierderea datelor.</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="117"/>
@@ -795,7 +795,7 @@ Dacă dorești să elimini cu ușurință toate imaginile din cameră, fără a 
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="118"/>
         <source>This setting enables Playback to confirm the integrity of a homebrew game after transferring it to the cartridge, making sure there are no issues affecting your work.</source>
-        <translation>Această setare activează confirmarea de integritate a jocurilor homebrew încărcate pe cartuș, asigurându-se că nu există inconsistențe în date.</translation>
+        <translation>Această setare activează confirmarea de integritate a jocurilor homebrew încărcate pe casetă, asigurându-se că nu există inconsistențe în date.</translation>
     </message>
 </context>
 <context>
@@ -816,12 +816,12 @@ Dacă dorești să elimini cu ușurință toate imaginile din cameră, fără a 
     <message>
         <location filename="../src/CartDetailsWidget.cpp" line="12"/>
         <source>The description of this cartridge can’t be displayed since it’s not in our database. You can use the link below to open a ticket and we’ll add the game info to the database. Please feel free to contact us even if it’s a homebrew game you made if you’d like to have your artwork displayed here.</source>
-        <translation>Descrierea acestui cartuș nu poate fi afișată deoarece nu se află în baza noastră de date. Poți folosi linkul de mai jos pentru a deschide un tichet și vom adăuga informațiile despre joc în baza de date. Te rugăm să nu eziți să ne contactezi chiar dacă este un joc homebrew făcut de tine.</translation>
+        <translation>Descrierea acestei casete nu poate fi afișată deoarece nu se află în baza noastră de date. Poți folosi linkul de mai jos pentru a deschide un tichet și vom adăuga informațiile despre joc în baza de date. Te rugăm să nu eziți să ne contactezi chiar dacă este un joc homebrew făcut de tine.</translation>
     </message>
     <message>
         <location filename="../src/CartDetailsWidget.cpp" line="19"/>
         <source>Submit cartridge information</source>
-        <translation>Trimite informații despre cartuș</translation>
+        <translation>Trimite informații despre casetă</translation>
     </message>
     <message>
         <location filename="../src/CartDetailsWidget.cpp" line="20"/>
@@ -885,32 +885,32 @@ Dacă dorești să elimini cu ușurință toate imaginile din cameră, fără a 
 Tip: Our app runs a Data Integrity Test to make sure that you are getting an accurate reproduction of the cartridge’s content.</source>
         <translation>Arhivează-ți datele jocului în siguranță pe computer, creând un echivalent digital al colecției tale de jocuri. Fișierele sunt compatibile cu emulatoare externe.
 
-Sfat: Aplicația noastră execută un test de integritate a datelor pentru a te asigura că obți o reproducere exactă a conținutului cartușului.</translation>
+Sfat: Aplicația noastră execută un test de integritate a datelor pentru a te asigura că obți o reproducere exactă a conținutului casetei.</translation>
     </message>
     <message>
         <location filename="../src/ViewRouter.h" line="50"/>
         <source>Overwrite the game data on your cartridge with a different file. Make sure the game file you’re writing is valid by testing it in an external emulator first.
 
 Tip: Transfer your homebrew game to a cartridge and play it on original hardware.</source>
-        <translation>Suprascrie-ți datele jocului de pe cartuș cu un alt joc. Asigură-te că fișierul de joc pe care îl scrieți este valid, testându-l mai întâi într-un emulator extern.
+        <translation>Suprascrie-ți datele jocului de pe casetă cu un alt joc. Asigură-te că fișierul de joc pe care îl scrieți este valid, testându-l mai întâi într-un emulator extern.
 
-Sfat: Transferă-ți jocul homebrew pe un cartuș și jucați-l pe hardware-ul original.</translation>
+Sfat: Transferă-ți jocul homebrew pe o casetă și joacă-l pe hardware-ul original.</translation>
     </message>
     <message>
         <location filename="../src/ViewRouter.h" line="54"/>
         <source>Transfer a duplicate of your save data from the cartridge to your computer. You can then back up your save file or edit it with an external program.
 
 Tip: Transfer your save to the computer, replace the battery and transfer it back to the cartridge safely.</source>
-        <translation>Transferă-ți un duplicat al datelor de salvare de pe cartuș pe computer. Apoi poți face o copie de rezervă a fișierului de salvare sau îl poți edita cu un program extern.
+        <translation>Transferă-ți un duplicat al datelor de salvare de pe casetă pe computer. Apoi poți face o copie de rezervă a fișierului de salvare sau îl poți edita cu un program extern.
 
-Sfat: Transferă-ți salvarea pe computer, înlocuiește bateria și transferă înapoi pe cartuș în siguranță.</translation>
+Sfat: Transferă-ți salvarea pe computer, înlocuiește bateria și transferă înapoi pe casetă în siguranță.</translation>
     </message>
     <message>
         <location filename="../src/ViewRouter.h" line="60"/>
         <source>Transfer a duplicate of your save data from your computer to the cartridge and pick the game up right where you left off.
 
 Tip: Use external programs to trigger in-game events or customize gameplay.</source>
-        <translation>Transferă-ți un duplicat al datelor de salvare de pe computer pe cartuș și reluați jocul chiar de unde l-ai lăsat.
+        <translation>Transferă-ți un duplicat al datelor de salvare de pe computer pe casetă și reia jocul chiar de unde l-ai lăsat.
 
 Sfat: Folosește programe externe pentru a declanșa evenimente în joc sau pentru a personaliza jocul.</translation>
     </message>
@@ -927,7 +927,7 @@ Sfat: Folosește programe externe pentru a declanșa evenimente în joc sau pent
     <message>
         <location filename="../src/ErrorMessages.h" line="30"/>
         <source>for cleaning your cartridge pins.</source>
-        <translation>pentru a curăța pinii cartușului.</translation>
+        <translation>pentru a curăța pinii casetei.</translation>
     </message>
 </context>
 <context>
@@ -958,11 +958,11 @@ You can read more about this issue here. Backups of the original save on the car
 
 Would you like to proceed?
 </source>
-        <translation>În prezent, core-ul emulatorului raportează o dimensiune de salvare diferită de cea detectată pe cartuș.
+        <translation>În prezent, core-ul emulatorului raportează o dimensiune de salvare diferită de cea detectată pe casetă.
 
-Poți citi mai multe despre această problemă aici. Arhivele ale salvării originale de pe cartuș sunt făcute în Vault, însă procedura poate crea salvări inutilizabile.
+Poți citi mai multe despre această problemă aici. Arhivele salvării originale de pe casetă sunt făcute în Vault, însă procedura poate crea salvări inutilizabile.
 
-Doriți să continuați?
+Vrei să continui?
 </translation>
     </message>
 </context>
@@ -1098,7 +1098,7 @@ Te rugăm să te asiguri că acesta este conectat.</translation>
         <location filename="../src/UIComponents.cpp" line="37"/>
         <source>Do you want to overwrite the current save to your cartridge?
 </source>
-        <translation>Vrei să suprascrii salvarea curentă pe cartușul tău?
+        <translation>Vrei să suprascrii salvarea curentă pe caseta ta?
 </translation>
     </message>
 </context>
