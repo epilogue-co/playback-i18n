@@ -11,7 +11,7 @@
     <message>
         <location filename="../src/AboutWindow.cpp" line="63"/>
         <source>™ and © 2020-2024 Epilogue. &lt;br&gt;All rights reserved. </source>
-        <translation>™ și © 2020-2024 Epilog. &lt;br&gt;Toate drepturile rezervate.</translation>
+        <translation>™ și © 2020-2024 Epilog. &lt;br&gt;Toate drepturile rezervate. </translation>
     </message>
     <message>
         <location filename="../src/AboutWindow.cpp" line="102"/>
@@ -110,7 +110,7 @@ Nu scoate cartușul în timp ce este în curs de desfășurare orice operațiune
     <message>
         <location filename="../src/DatabaseCheatCodesWidget.cpp" line="8"/>
         <source> Default Cheats</source>
-        <translation>Parole prestabilite</translation>
+        <translation> Parole customizabile</translation>
     </message>
 </context>
 <context>
@@ -123,7 +123,7 @@ Nu scoate cartușul în timp ce este în curs de desfășurare orice operațiune
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="95"/>
         <source>Playback detected a discrepancy between the expected game data and the backed up data. Please clean the cartridge pins and try again to ensure accuracy.</source>
-        <translation>Playback a detectat o discrepanță a datelor. Te rugăm să cureți </translation>
+        <translation>Playback a detectat o discrepanță a datelor. Te rugăm să cureți pinii și să încerci din nou.</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="129"/>
@@ -133,7 +133,7 @@ Nu scoate cartușul în timp ce este în curs de desfășurare orice operațiune
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="130"/>
         <source> It looks like the homebrew game you&apos;re trying to upload has been detected by Playback as having 0 bytes. Please verify that the data you&apos;re attempting to upload is accurate.</source>
-        <translation>Pare că jocul pe care încerci să-l încarci a fost detectat de Playback ca având 0 bytes. Te rugăm să verifici că datele pe care încerci să le încarci sunt corecte.</translation>
+        <translation> Pare că jocul pe care încerci să-l încarci a fost detectat de Playback ca având 0 bytes. Te rugăm să verifici că datele pe care încerci să le încarci sunt corecte.</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="141"/>
@@ -143,67 +143,67 @@ Nu scoate cartușul în timp ce este în curs de desfășurare orice operațiune
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="142"/>
         <source>An error occurred while attempting to start the homebrew upload command. Please restart the application and reconnect the Operator device. If the problem continues, contact our Support team.</source>
-        <translation type="unfinished"></translation>
+        <translation>O eroare a apărut în timp ce am trimis comanda de scriere de joc. Te rugăm să dai restart la aplicație și să reconectezi dispozitivul Operator. Dacă problema persistă, contactează echipa noastră de suport.</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="156"/>
         <source>Homebrew Cartridge Erase Failed!</source>
-        <translation type="unfinished"></translation>
+        <translation>Ștergerea datelor de pe cartuș a eșuat!</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="157"/>
         <source>Playback couldn&apos;t delete the contents of the homebrew cartridge. Please clean the cartridge pins and try again. If the issue persists, contact our Support team.</source>
-        <translation type="unfinished"></translation>
+        <translation>Playback nu a reușit să șteargă datele jocului de pe cartuș. Te rugăm să cureți pinii cartușului și să încerci din nou. Dacă problema persistă, contactează echipa de suport.</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="176"/>
         <source>Homebrew Cartridge Data Integrity Check Failed!</source>
-        <translation type="unfinished"></translation>
+        <translation>Verificarea datelor homebrew a eșuat!</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="177"/>
         <source>The cartridge was erased successfully, but the data written does not match the data read back. This issue might occur with some homebrew cartridges. Make sure the game is playable, either by testing on an original console or in the Playback app.</source>
-        <translation type="unfinished"></translation>
+        <translation>Cartușul a fost șters cu succes, dar datele scrise nu coincid cu datele citite în procesul de verificare. Aceasta eroare este acceptabilă pe unele cartușe de homebrew. Te rugăm să te asiguri că jocul functionează, fie pe consola originală, fie în Playback.</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="207"/>
         <source>Written game data integrity check failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Eroare în verificarea datelor jocului</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="207"/>
         <source>Read data does not match written data.</source>
-        <translation type="unfinished"></translation>
+        <translation>Datele citite nu coincid cu datele scrise.</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="293"/>
         <source>Save data integrity check failed!</source>
-        <translation type="unfinished"></translation>
+        <translation>Verificarea salvării a eșuat!</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="294"/>
         <source>The save data appears to be inconsistent between read cycles. Please clean the cartridge pins and try again.</source>
-        <translation type="unfinished"></translation>
+        <translation>Am efectuat mai multe cicluri de citire și datele salvării nu coincid. Te rugăm să cureți pinii cartușului și să încerci din nou.</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="346"/>
         <source>Write save failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Nu a reușit scrierea salvării</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="346"/>
         <source>Failed to send write save command to device.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nu a reușit trimiterea comenzii de scriere de salvare pe device.</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="374"/>
         <source>Save Data Integrity Check Failed!</source>
-        <translation type="unfinished"></translation>
+        <translation>Verificarea de integritate a salvării a eșuat!</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="375"/>
         <source>The save data written to the cartridge does not match the data read back. Please clean the cartridge pins and try again to ensure consistency.</source>
-        <translation type="unfinished"></translation>
+        <translation>Datele scrise din salvare nu coincid cu datele de pe joc. Te rugăm să cureți pinii cartușului și să încerci din nou.</translation>
     </message>
 </context>
 <context>
@@ -224,7 +224,7 @@ Nu scoate cartușul în timp ce este în curs de desfășurare orice operațiune
     <message>
         <location filename="../src/DeviceSwitcherDropdown.h" line="78"/>
         <source>Expand your collection on epilogue.co</source>
-        <translation type="unfinished"></translation>
+        <translation>Extinde colecția ta pe epilogue.co</translation>
     </message>
 </context>
 <context>
@@ -232,7 +232,7 @@ Nu scoate cartușul în timp ce este în curs de desfășurare orice operațiune
     <message>
         <location filename="../src/DeviceSwitcherDropdown.cpp" line="197"/>
         <source>View more</source>
-        <translation type="unfinished"></translation>
+        <translation>Vezi mai multe</translation>
     </message>
 </context>
 <context>
@@ -240,22 +240,22 @@ Nu scoate cartușul în timp ce este în curs de desfășurare orice operațiune
     <message>
         <location filename="../src/Emulator.cpp" line="244"/>
         <source>Failed to load game!</source>
-        <translation type="unfinished">Nu a reușit să încarce jocul!</translation>
+        <translation>Nu s-a reușit să se încarce jocul!</translation>
     </message>
     <message>
         <location filename="../src/Emulator.cpp" line="245"/>
         <source>Unable to launch the game, please make sure that the cartridge is clean.</source>
-        <translation type="unfinished">Nu se poate lansa jocul, asigurați-vă că cartușul este curat.</translation>
+        <translation>Nu se poate lansa jocul, asigură-te că cartușul este curat.</translation>
     </message>
     <message>
         <location filename="../src/Emulator.cpp" line="251"/>
         <source>Failed to load save data!</source>
-        <translation type="unfinished"></translation>
+        <translation>Nu am reușit să încărcăm salvarea!</translation>
     </message>
     <message>
         <location filename="../src/Emulator.cpp" line="251"/>
         <source>The core failed to load the save data.</source>
-        <translation type="unfinished"></translation>
+        <translation>Core-ul nu a reușit să încarce salvearea.</translation>
     </message>
 </context>
 <context>
@@ -293,12 +293,12 @@ Nu scoate cartușul în timp ce este în curs de desfășurare orice operațiune
     <message>
         <location filename="../src/EmulatorSettingsScreen.h" line="189"/>
         <source>Skip Emulation Save Alert</source>
-        <translation type="unfinished"></translation>
+        <translation>Sari peste erorile de salvare din emulator</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.h" line="191"/>
         <source>Disables the failed save alert that appears when you save in-game.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dezactivează alerta care apare atunci cand nu reușește să se salveze in timpul jocului.</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.h" line="166"/>
@@ -320,12 +320,12 @@ Nu scoate cartușul în timp ce este în curs de desfășurare orice operațiune
     <message>
         <location filename="../src/UIComponents.cpp" line="96"/>
         <source>Warning! Do not disconnect your device.</source>
-        <translation type="unfinished"></translation>
+        <translation>Atenție! Nu deconecta device-ul.</translation>
     </message>
     <message>
         <location filename="../src/UIComponents.cpp" line="98"/>
         <source>Please DO NOT disconnect or turn off your device during the update process. The LED will turn off during the update. Interruption will lead to your device becoming unusable and void warranty. By agreeing to this message box you confirm your understanding of these instructions.</source>
-        <translation type="unfinished"></translation>
+        <translation>Te rugăm să NU deconectezi sau stinge dispozitivul în timpul procesului de update. LED-ul o să se stingă in timpul lui. Orice intrerupere o sa ducă la pierderea garanției. Prin acceptarea acestui mesaj, declari că ești de acord cu aceste instrucțiuni.</translation>
     </message>
 </context>
 <context>
@@ -353,12 +353,12 @@ vă rugăm să nu deconectați dispozitivul.</translation>
     <message>
         <location filename="../src/InputBindingsScreen.h" line="56"/>
         <source>Controls Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Configurări de controler</translation>
     </message>
     <message>
         <location filename="../src/InputBindingsScreen.h" line="58"/>
         <source>The Playback software comes with pre-configured bindings for most gamepads. Try pressing buttons on your controller or keyboard to test them.</source>
-        <translation type="unfinished"></translation>
+        <translation>Softul Playback vine cu setări pre-configurate pentru mare parte din controlere. Încearcă-le apăsând pe butoane pe controlerul tău sau tastatură.</translation>
     </message>
     <message>
         <location filename="../src/InputBindingsScreen.h" line="61"/>
@@ -384,7 +384,7 @@ vă rugăm să nu deconectați dispozitivul.</translation>
     <message>
         <location filename="../src/InputBindingsScreen.cpp" line="26"/>
         <source>Need help?</source>
-        <translation type="unfinished"></translation>
+        <translation>Ai nevoie de ajutor?</translation>
     </message>
 </context>
 <context>
@@ -444,7 +444,7 @@ Puteți încerca să curățați și apoi să reintroduceți cartușul în dispo
     <message>
         <location filename="../src/UIComponents.cpp" line="67"/>
         <source>Your Operator device did not manage to read your cartridge properly. Please make sure that the cartridge is clean and try again.</source>
-        <translation type="unfinished"></translation>
+        <translation>Device-ul tău Operator nu a reușit să citească cartușul. Te rugăm să te asiguri că acesta este curat și să încerci din nou.</translation>
     </message>
 </context>
 <context>
@@ -472,7 +472,7 @@ Puteți încerca să curățați și apoi să reintroduceți cartușul în dispo
     <message>
         <location filename="../src/ManagePage.cpp" line="98"/>
         <source>[no checksum available]</source>
-        <translation type="unfinished"></translation>
+        <translation>[suma de control nu e disponibilă]</translation>
     </message>
     <message>
         <location filename="../src/ManagePage.h" line="53"/>
@@ -495,7 +495,7 @@ Puteți încerca să curățați și apoi să reintroduceți cartușul în dispo
     <message>
         <location filename="../src/ManagePageOperation.cpp" line="52"/>
         <source>STOP</source>
-        <translation type="unfinished"></translation>
+        <translation>STOP</translation>
     </message>
     <message>
         <location filename="../src/ManagePageOperation.cpp" line="148"/>
@@ -506,7 +506,7 @@ Puteți încerca să curățați și apoi să reintroduceți cartușul în dispo
     <message>
         <location filename="../src/ManagePageOperation.cpp" line="249"/>
         <source>START</source>
-        <translation type="unfinished">START</translation>
+        <translation>START</translation>
     </message>
 </context>
 <context>
@@ -519,7 +519,7 @@ Puteți încerca să curățați și apoi să reintroduceți cartușul în dispo
     <message>
         <location filename="../src/UIComponents.cpp" line="78"/>
         <source>It looks like there is another instance of the software running on this computer. Closing this instance.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se pare că mai ai încă o instanță al softului rulând pe calculator. Se închide instanța curentă.</translation>
     </message>
 </context>
 <context>
@@ -699,32 +699,32 @@ Dacă doriți să eliminați cu ușurință toate imaginile din cameră, fără 
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="8"/>
         <source>Settings</source>
-        <translation type="unfinished">Setări</translation>
+        <translation>Setări</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="8"/>
         <source>Configure system settings.</source>
-        <translation type="unfinished"></translation>
+        <translation>Configurează setările sistemului.</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="76"/>
         <source>Preferred Language (requires restart)</source>
-        <translation type="unfinished">Limba preferată (necesită repornire)</translation>
+        <translation>Limba preferată (necesită repornire)</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="77"/>
         <source>Allows you to change the language in which the Playback software is presented. It requires an application restart in order to update the language accross the entire application.</source>
-        <translation type="unfinished"></translation>
+        <translation>Îți permite să schimbi limba în care Playback este prezentat. Necesită să restartezi aplicația pentru a updata limba în aplicație.</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="93"/>
         <source>Autosave to cartridge (beta)</source>
-        <translation type="unfinished">Salvarea automată în cartuș (beta)</translation>
+        <translation>Salvarea automată în cartuș (beta)</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="94"/>
         <source>Once you save in-game, or the game modifies the save internally, your Operator device will automatically write the save to the cartridge. This feature is still in development.</source>
-        <translation type="unfinished"></translation>
+        <translation>O dată ce salvezi în timp ce joc, sau jocul modifică salvarea în mod intern, dispozitivul tău Operator o să scrie automat salvarea pe cartuș. Acest feature este încă în dezvoltare.</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="97"/>
@@ -733,7 +733,7 @@ Dacă doriți să eliminați cu ușurință toate imaginile din cameră, fără 
         <location filename="../src/PlaybackSettingsScreen.h" line="114"/>
         <location filename="../src/PlaybackSettingsScreen.h" line="120"/>
         <source>Enabled</source>
-        <translation type="unfinished">Activat</translation>
+        <translation>Activat</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="97"/>
@@ -742,47 +742,47 @@ Dacă doriți să eliminați cu ușurință toate imaginile din cameră, fără 
         <location filename="../src/PlaybackSettingsScreen.h" line="114"/>
         <location filename="../src/PlaybackSettingsScreen.h" line="120"/>
         <source>Disabled</source>
-        <translation type="unfinished"></translation>
+        <translation>Dezactivat</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="100"/>
         <source>FPS Counter</source>
-        <translation type="unfinished"></translation>
+        <translation>Display de FPS</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="101"/>
         <source>Displays the current frames per second (FPS) of the game being played.</source>
-        <translation type="unfinished"></translation>
+        <translation>Îți arată numărul de frame-uri pe secundă (FPS) al jocului pe care-l joci.</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="105"/>
         <source>Verify Save After Writing Process</source>
-        <translation type="unfinished"></translation>
+        <translation>Verificarea salvării după scrierea ei</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="106"/>
         <source>Activating this setting prompts Playback to check that the save file remains uncorrupted after being written to the cartridge. It ensures your game progress has been safely stored.</source>
-        <translation type="unfinished"></translation>
+        <translation>Activarea acestei setări face ca Playback să verifice că salvarea nu este coruptă după ce a fost scrisă pe cartuș. Se asigură că progresul tău în joc este salvat și pe cartuș în mod corect.</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="111"/>
         <source>Verify Save is Read Properly</source>
-        <translation type="unfinished"></translation>
+        <translation>Verificarea de citire a salvarii</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="112"/>
         <source>When this setting is enabled, Playback reads the save file from the cartridge multiple times and reviews any discrepancies to prevent data corruption.</source>
-        <translation type="unfinished"></translation>
+        <translation>Când această setare este activată, Playback citeste salvarea de pe cartuș de mai multe ori și caută orice discrepanță între citiri pentru a preveni pierderea datelor.</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="117"/>
         <source>Verify Homebrew File Integrity</source>
-        <translation type="unfinished"></translation>
+        <translation>Verificarea fișierelor de joc</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="118"/>
         <source>This setting enables Playback to confirm the integrity of a homebrew game after transferring it to the cartridge, making sure there are no issues affecting your work.</source>
-        <translation type="unfinished"></translation>
+        <translation>Această setare activează confirmarea de integritate a jocurilor homebrew încărcate pe cartuș, asigurându-se că nu există inconsistențe în date.</translation>
     </message>
 </context>
 <context>
@@ -904,17 +904,17 @@ Sfat: Folosiți programe externe pentru a declanșa evenimente în joc sau pentr
     <message>
         <location filename="../src/ErrorMessages.h" line="26"/>
         <source>Follow this</source>
-        <translation type="unfinished">Urmați acest</translation>
+        <translation>Urmează acest</translation>
     </message>
     <message>
         <location filename="../src/ErrorMessages.h" line="30"/>
         <source>tutorial</source>
-        <translation type="unfinished">tutorial</translation>
+        <translation>tutorial</translation>
     </message>
     <message>
         <location filename="../src/ErrorMessages.h" line="30"/>
         <source>for cleaning your cartridge pins.</source>
-        <translation type="unfinished"></translation>
+        <translation>pentru a curăța pinii cartușului.</translation>
     </message>
 </context>
 <context>
@@ -978,22 +978,22 @@ Vă rugăm să vă asigurați că este conectat.</translation>
     <message>
         <location filename="../src/EmulatorSettingsScreen.h" line="125"/>
         <source>System</source>
-        <translation type="unfinished"></translation>
+        <translation>Sistem</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.h" line="125"/>
         <source>Configure base hardware selection.</source>
-        <translation type="unfinished"></translation>
+        <translation>Configurează setările de bază al hardware-ului.</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.h" line="126"/>
         <source>Input &amp; Auxiliary Devices</source>
-        <translation type="unfinished"></translation>
+        <translation>Dispozitive de intrare și auxiliare</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.h" line="127"/>
         <source>Configure controller and controller rumble settings.</source>
-        <translation type="unfinished"></translation>
+        <translation>Configurează manetele și setările de rumble.</translation>
     </message>
 </context>
 <context>
@@ -1016,17 +1016,17 @@ Vă rugăm să vă asigurați că este conectat.</translation>
     <message>
         <location filename="../src/SettingsWindow.h" line="77"/>
         <source>Controls Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Setări controller</translation>
     </message>
     <message>
         <location filename="../src/SettingsWindow.h" line="79"/>
         <source>Cheat Codes</source>
-        <translation type="unfinished">Parole</translation>
+        <translation>Parole</translation>
     </message>
     <message>
         <location filename="../src/SettingsWindow.h" line="82"/>
         <source>Playback Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Setări Playback</translation>
     </message>
 </context>
 <context>
@@ -1047,13 +1047,14 @@ Vă rugăm să vă asigurați că este conectat.</translation>
     <message>
         <location filename="../src/StartControllerWidget.cpp" line="141"/>
         <source>STOP</source>
-        <translation type="unfinished"></translation>
+        <translation>STOP</translation>
     </message>
     <message>
         <location filename="../src/StartControllerWidget.cpp" line="141"/>
         <location filename="../src/StartControllerWidget.cpp" line="148"/>
         <source>START</source>
-        <translation type="unfinished">START</translation>
+        <translatorcomment>START</translatorcomment>
+        <translation>START</translation>
     </message>
 </context>
 <context>
