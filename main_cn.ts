@@ -8,7 +8,7 @@
     </message>
     <message>
         <location filename="../src/AboutWindow.cpp" line="62" />
-        <source>™ and © 2020-2043 Epilogue. &lt;br&gt;All rights reserved. </source>
+        <source>™ and © 2020-2024 Epilogue. &lt;br&gt;All rights reserved. </source>
         <translation type="finished">and © 2020-2024 Epilogue.&lt;br&gt;版权所有。</translation>
     </message>
     <message>
