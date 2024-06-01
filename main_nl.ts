@@ -81,6 +81,19 @@ Verwijder de cartridge niet terwijl er een bewerking bezig is.</translation>
     </message>
 </context>
 <context>
+    <name>ControlsWidget</name>
+    <message>
+        <location filename="../src/ControlsWidget.cpp" line="56"/>
+        <source>Player: </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ControlsWidget.cpp" line="131"/>
+        <source>Input: </source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>CustomCheatCodesWidget</name>
     <message>
         <location filename="../src/CustomCheatCodesWidget.cpp" line="7"/>

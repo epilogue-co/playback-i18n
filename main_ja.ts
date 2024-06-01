@@ -16,7 +16,7 @@
     <message>
         <location filename="../src/AboutWindow.cpp" line="102"/>
         <source>Copyright Notices</source>
-        <translation type="unfinished">著作権について</translation>
+        <translation>著作権について</translation>
     </message>
     <message>
         <location filename="../src/AboutWindow.cpp" line="103"/>
@@ -77,6 +77,19 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/CheatCodesScreen.h" line="27"/>
         <source>Enable predefined cheats or use cheats from the internet to transform how you play, from abilities and mechanics to audio effects. Make sure you have autosave disabled so that your cartridge&apos;s save isn&apos;t overwritten while you&apos;re running cheats.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>ControlsWidget</name>
+    <message>
+        <location filename="../src/ControlsWidget.cpp" line="56"/>
+        <source>Player: </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ControlsWidget.cpp" line="131"/>
+        <source>Input: </source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -265,14 +278,14 @@ Do not remove the cartridge while any operation is running.</source>
         <location filename="../src/EmulatorSettingsScreen.h" line="181"/>
         <location filename="../src/EmulatorSettingsScreen.h" line="195"/>
         <source>enabled</source>
-        <translation>ON</translation>
+        <translation>有効化</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.h" line="167"/>
         <location filename="../src/EmulatorSettingsScreen.h" line="182"/>
         <location filename="../src/EmulatorSettingsScreen.h" line="196"/>
         <source>disabled</source>
-        <translation>OFF</translation>
+        <translation>無効化</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.h" line="132"/>

@@ -11,7 +11,7 @@
     <message>
         <location filename="../src/AboutWindow.cpp" line="63"/>
         <source>™ and © 2020-2024 Epilogue. &lt;br&gt;All rights reserved. </source>
-        <translation>™ și © 2020-2024 Epilog. &lt;br&gt;Toate drepturile rezervate. </translation>
+        <translation>™ și © 2020-2024 Epilogue. &lt;br&gt;Toate drepturile rezervate. </translation>
     </message>
     <message>
         <location filename="../src/AboutWindow.cpp" line="102"/>
@@ -78,6 +78,24 @@ Nu scoate cartușul în timp ce este în curs de desfășurare orice operațiune
         <location filename="../src/CheatCodesScreen.h" line="27"/>
         <source>Enable predefined cheats or use cheats from the internet to transform how you play, from abilities and mechanics to audio effects. Make sure you have autosave disabled so that your cartridge&apos;s save isn&apos;t overwritten while you&apos;re running cheats.</source>
         <translation>Activează parole care schimbă cum te joci jocurile, de la abilitati la mecanici și efecte audio. Asigură-te că ai salvările automate dezactivate astfel încât să nu îți corupi salvarea.</translation>
+    </message>
+</context>
+<context>
+    <name>ControlsWidget</name>
+    <message>
+        <location filename="../src/ControlsWidget.cpp" line="56"/>
+        <source>Player: </source>
+        <translation>Jucător: </translation>
+    </message>
+    <message>
+        <location filename="../src/ControlsWidget.cpp" line="59"/>
+        <source>Player </source>
+        <translation>Jucător </translation>
+    </message>
+    <message>
+        <location filename="../src/ControlsWidget.cpp" line="131"/>
+        <source>Input: </source>
+        <translation>Controler: </translation>
     </message>
 </context>
 <context>
@@ -224,7 +242,7 @@ Nu scoate cartușul în timp ce este în curs de desfășurare orice operațiune
     <message>
         <location filename="../src/DeviceSwitcherDropdown.h" line="78"/>
         <source>Expand your collection on epilogue.co</source>
-        <translation>Extinde colecția ta pe epilogue.co</translation>
+        <translation>Extinde colecția ta de dispozitive pe epilogue.co</translation>
     </message>
 </context>
 <context>
@@ -283,12 +301,12 @@ Nu scoate cartușul în timp ce este în curs de desfășurare orice operațiune
     <message>
         <location filename="../src/EmulatorSettingsScreen.h" line="174"/>
         <source>Gamepad rumble</source>
-        <translation>Zgomotul gamepad-ului</translation>
+        <translation>Rumble de controler</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.h" line="176"/>
         <source>Enable rumble support for games that support it, for more compatibility make sure you also enable Game Boy Player Rumble.</source>
-        <translation>Activați suportul Rumble pentru jocurile care îl acceptă, pentru mai multă compatibilitate, asigurați-vă că activați și Game Boy Player Rumble.</translation>
+        <translation>Activează suportul rumble pentru jocurile care îl acceptă, pentru mai multă compatibilitate, asigură-te că activezi și Game Boy Player Rumble.</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.h" line="189"/>
@@ -340,7 +358,7 @@ Nu scoate cartușul în timp ce este în curs de desfășurare orice operațiune
         <source>This may take up to a minute,
 please do not disconnect the device.</source>
         <translation>Acest lucru poate dura până la un minut,
-vă rugăm să nu deconectați dispozitivul.</translation>
+te rugăm să nu deconectezi dispozitivul.</translation>
     </message>
     <message>
         <location filename="../src/FirmwareUpdateWindow.h" line="23"/>
@@ -363,12 +381,12 @@ vă rugăm să nu deconectați dispozitivul.</translation>
     <message>
         <location filename="../src/InputBindingsScreen.h" line="61"/>
         <source>No gamepads connected.</source>
-        <translation>Nu sunt conectate gamepads.</translation>
+        <translation>Nu sunt conectate controlere.</translation>
     </message>
     <message>
         <location filename="../src/InputBindingsScreen.h" line="62"/>
         <source>Select a gamepad</source>
-        <translation>Selectați un gamepad</translation>
+        <translation>Selectați un controler</translation>
     </message>
     <message>
         <location filename="../src/InputBindingsScreen.h" line="65"/>
@@ -472,7 +490,7 @@ Puteți încerca să curățați și apoi să reintroduceți cartușul în dispo
     <message>
         <location filename="../src/ManagePage.cpp" line="98"/>
         <source>[no checksum available]</source>
-        <translation>[suma de control nu e disponibilă]</translation>
+        <translation>[checksum indisponibil]</translation>
     </message>
     <message>
         <location filename="../src/ManagePage.h" line="53"/>
@@ -482,7 +500,7 @@ Puteți încerca să curățați și apoi să reintroduceți cartușul în dispo
     <message>
         <location filename="../src/ManagePage.h" line="54"/>
         <source>Game Data Checksum</source>
-        <translation>Suma de verificare a datelor de joc</translation>
+        <translation>Checksum al jocului</translation>
     </message>
 </context>
 <context>
@@ -611,7 +629,7 @@ Puteți încerca să curățați și apoi să reintroduceți cartușul în dispo
     <message>
         <location filename="../src/Navbar.h" line="24"/>
         <source>PLAY</source>
-        <translation>JOACĂ</translation>
+        <translation>JOC</translation>
     </message>
     <message>
         <location filename="../src/Navbar.h" line="25"/>
@@ -624,7 +642,7 @@ Puteți încerca să curățați și apoi să reintroduceți cartușul în dispo
     <message>
         <location filename="../src/Navbar.h" line="60"/>
         <source>Backup Game</source>
-        <translation>Joc de rezervă</translation>
+        <translation>Arhivează jocul</translation>
     </message>
     <message>
         <location filename="../src/Navbar.h" line="61"/>
@@ -634,12 +652,12 @@ Puteți încerca să curățați și apoi să reintroduceți cartușul în dispo
     <message>
         <location filename="../src/Navbar.h" line="62"/>
         <source>Backup Save</source>
-        <translation>Copie de rezervă Salvați</translation>
+        <translation>Arhivează salvarea</translation>
     </message>
     <message>
         <location filename="../src/Navbar.h" line="63"/>
         <source>Upload Save</source>
-        <translation>Încărcați Salvați</translation>
+        <translation>Încarcă salvarea</translation>
     </message>
     <message>
         <location filename="../src/Navbar.h" line="64"/>
@@ -657,7 +675,7 @@ Puteți încerca să curățați și apoi să reintroduceți cartușul în dispo
     <message>
         <location filename="../src/PhotosPage.cpp" line="164"/>
         <source>Open Directory</source>
-        <translation>Director deschis</translation>
+        <translation>Deschide folder</translation>
     </message>
     <message>
         <location filename="../src/PhotosPage.cpp" line="182"/>
@@ -667,7 +685,7 @@ Puteți încerca să curățați și apoi să reintroduceți cartușul în dispo
     <message>
         <location filename="../src/PhotosPage.cpp" line="183"/>
         <source>This will permanently delete all the pictures on your Game Boy Camera. Are you sure?</source>
-        <translation>Acest lucru va șterge definitiv toate imaginile de pe Game Boy Camera. Sunteți sigur?</translation>
+        <translation>Acest lucru va șterge definitiv toate imaginile de pe Game Boy Camera. Ești sigur?</translation>
     </message>
     <message>
         <location filename="../src/PhotosPage.h" line="74"/>
@@ -686,12 +704,12 @@ Dacă doriți să eliminați cu ușurință toate imaginile din cameră, fără 
     <message>
         <location filename="../src/PhotosPage.h" line="83"/>
         <source>SAVE ALL</source>
-        <translation>SALVAȚI TOATE</translation>
+        <translation>SALVEAZĂ</translation>
     </message>
     <message>
         <location filename="../src/PhotosPage.h" line="84"/>
         <source>DELETE ALL</source>
-        <translation>ȘTERGEȚI TOATE</translation>
+        <translation>ȘTERGE TOATE POZELE</translation>
     </message>
 </context>
 <context>
@@ -823,7 +841,7 @@ Dacă doriți să eliminați cu ușurință toate imaginile din cameră, fără 
     <message>
         <location filename="../src/DeviceSettingsScreen.cpp" line="5"/>
         <source>Dark</source>
-        <translation>Întuneric</translation>
+        <translation>Stins</translation>
     </message>
     <message>
         <location filename="../src/DeviceSettingsScreen.cpp" line="7"/>
@@ -838,7 +856,7 @@ Dacă doriți să eliminați cu ușurință toate imaginile din cameră, fără 
     <message>
         <location filename="../src/AboutWindow.cpp" line="86"/>
         <source>Copyright Notices</source>
-        <translation>Notificări privind drepturile de autor</translation>
+        <translation>Drepturile de autor</translation>
     </message>
     <message>
         <location filename="../src/AboutWindow.cpp" line="87"/>
