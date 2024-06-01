@@ -63,7 +63,7 @@
         <location filename="../src/CartSearchPage.cpp" line="22"/>
         <source>Make sure your cartridge is properly inserted and its pins are clean.
 Do not remove the cartridge while any operation is running.</source>
-        <translation>Asigură-te că caseta este introdusă corect și că pinii acestuia sunt curați.
+        <translation>Asigură-te că caseta este introdusă corect și că pinii acesteia sunt curați.
 Nu scoate caseta în timp ce se desfășoară orice operațiune.</translation>
     </message>
 </context>
@@ -732,7 +732,7 @@ Dacă dorești să elimini cu ușurință toate imaginile din cameră, fără a 
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="93"/>
         <source>Autosave to cartridge (beta)</source>
-        <translation>Salvarea automată în casetă (beta)</translation>
+        <translation>Salvarea automată pe casetă (beta)</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="94"/>
