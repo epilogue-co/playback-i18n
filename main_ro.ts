@@ -883,7 +883,7 @@ Dacă dorești să elimini cu ușurință toate imaginile din cameră, fără a 
         <source>Archive your game data securely on your computer, making a digital equivalent of your game collection. Game files are compatible with your chosen emulator.
 
 Tip: Our app runs a Data Integrity Test to make sure that you are getting an accurate reproduction of the cartridge’s content.</source>
-        <translation>Arhivează-ți datele de joc în siguranță pe computer, creând un echivalent digital al colecției dumneavoastră de jocuri. Fișierele de joc sunt compatibile cu emulatoare externe.
+        <translation>Arhivează-ți datele jocului în siguranță pe computer, creând un echivalent digital al colecției tale de jocuri. Fișierele sunt compatibile cu emulatoare externe.
 
 Sfat: Aplicația noastră execută un test de integritate a datelor pentru a te asigura că obți o reproducere exactă a conținutului cartușului.</translation>
     </message>
@@ -892,7 +892,7 @@ Sfat: Aplicația noastră execută un test de integritate a datelor pentru a te 
         <source>Overwrite the game data on your cartridge with a different file. Make sure the game file you’re writing is valid by testing it in an external emulator first.
 
 Tip: Transfer your homebrew game to a cartridge and play it on original hardware.</source>
-        <translation>Suprascrieți datele de joc de pe cartuș cu un alt fișier. Asigură-te că fișierul de joc pe care îl scrieți este valid, testându-l mai întâi într-un emulator extern.
+        <translation>Suprascrie-ți datele jocului de pe cartuș cu un alt joc. Asigură-te că fișierul de joc pe care îl scrieți este valid, testându-l mai întâi într-un emulator extern.
 
 Sfat: Transferă-ți jocul homebrew pe un cartuș și jucați-l pe hardware-ul original.</translation>
     </message>
@@ -901,7 +901,7 @@ Sfat: Transferă-ți jocul homebrew pe un cartuș și jucați-l pe hardware-ul o
         <source>Transfer a duplicate of your save data from the cartridge to your computer. You can then back up your save file or edit it with an external program.
 
 Tip: Transfer your save to the computer, replace the battery and transfer it back to the cartridge safely.</source>
-        <translation>Transferăți duplicat al datelor din salvare de pe cartuș pe computer. Apoi poți face o copie de rezervă a fișierului de salvare sau îl poți edita cu un program extern.
+        <translation>Transferă-ți un duplicat al datelor de salvare de pe cartuș pe computer. Apoi poți face o copie de rezervă a fișierului de salvare sau îl poți edita cu un program extern.
 
 Sfat: Transferă-ți salvarea pe computer, înlocuiește bateria și transferă înapoi pe cartuș în siguranță.</translation>
     </message>
@@ -960,7 +960,7 @@ Would you like to proceed?
 </source>
         <translation>În prezent, core-ul emulatorului raportează o dimensiune de salvare diferită de cea detectată pe cartuș.
 
-Puteți citi mai multe despre această problemă aici. Copiile de rezervă ale salvării originale de pe cartuș sunt făcute în Vault, însă procedura poate crea salvări inutilizabile.
+Poți citi mai multe despre această problemă aici. Arhivele ale salvării originale de pe cartuș sunt făcute în Vault, însă procedura poate crea salvări inutilizabile.
 
 Doriți să continuați?
 </translation>
