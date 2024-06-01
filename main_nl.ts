@@ -1135,37 +1135,4 @@ Controleer of het is aangesloten.</translation>
         <translation>Start</translation>
     </message>
 </context>
-<context>
-    <name>main</name>
-    <message>
-        <location filename="../src/PlaybackApp.cpp" line="132"/>
-        <source>Enable mock mode to create a mocked device.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../src/PlaybackApp.cpp" line="137"/>
-        <source>Specify the mocked device type: &apos;gb-operator&apos; or &apos;sn-operator&apos;.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../src/PlaybackApp.cpp" line="138"/>
-        <source>type</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../src/PlaybackApp.cpp" line="142"/>
-        <source>Absolute path to the ROM to be loaded.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../src/PlaybackApp.cpp" line="143"/>
-        <source>path</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../src/PlaybackApp.cpp" line="148"/>
-        <source>Hide UI indicators for Debug or Nightly mode, imitating Release mode.</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
 </TS>
