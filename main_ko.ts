@@ -11,12 +11,12 @@
     <message>
         <location filename="../src/AboutWindow.cpp" line="63"/>
         <source>™ and © 2020-2024 Epilogue. &lt;br&gt;All rights reserved. </source>
-        <translation>및 © 2020-2024 에필로그. &lt;br&gt;판권 소유.</translation>
+        <translation>™ 및 © 2020-2024 에필로그. &lt;br&gt;판권 소유. </translation>
     </message>
     <message>
         <location filename="../src/AboutWindow.cpp" line="102"/>
         <source>Copyright Notices</source>
-        <translation type="unfinished">저작권 고지</translation>
+        <translation>저작권 고지</translation>
     </message>
     <message>
         <location filename="../src/AboutWindow.cpp" line="103"/>
@@ -57,7 +57,7 @@
     <message>
         <location filename="../src/CartSearchPage.cpp" line="13"/>
         <source>Please insert a cartridge</source>
-        <translation>카트리지를 삽입하세요.</translation>
+        <translation>카트리지를 삽입하세요</translation>
     </message>
     <message>
         <location filename="../src/CartSearchPage.cpp" line="22"/>
@@ -72,12 +72,12 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/CheatCodesScreen.h" line="25"/>
         <source>Cheat Codes</source>
-        <translation type="unfinished"></translation>
+        <translation>치트 코드</translation>
     </message>
     <message>
         <location filename="../src/CheatCodesScreen.h" line="27"/>
         <source>Enable predefined cheats or use cheats from the internet to transform how you play, from abilities and mechanics to audio effects. Make sure you have autosave disabled so that your cartridge&apos;s save isn&apos;t overwritten while you&apos;re running cheats.</source>
-        <translation type="unfinished"></translation>
+        <translation>미리 정의된 치트를 활성화하거나 인터넷에서 찾은 치트를 사용하여 능력과 메커니즘부터 오디오 효과까지 플레이 방식을 바꿀 수 있습니다. 치트를 실행하는 동안 카트리지의 저장을 덮어쓰지 않도록 자동 저장을 비활성화해야 합니다.</translation>
     </message>
 </context>
 <context>
@@ -85,12 +85,12 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/ControlsWidget.cpp" line="56"/>
         <source>Player: </source>
-        <translation type="unfinished"></translation>
+        <translation>Player: </translation>
     </message>
     <message>
         <location filename="../src/ControlsWidget.cpp" line="131"/>
         <source>Input: </source>
-        <translation type="unfinished"></translation>
+        <translation>입력: </translation>
     </message>
 </context>
 <context>
@@ -98,24 +98,24 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/CustomCheatCodesWidget.cpp" line="7"/>
         <source>Custom Cheats</source>
-        <translation type="unfinished"></translation>
+        <translation>사용자 지정 치트</translation>
     </message>
     <message>
         <location filename="../src/CustomCheatCodesWidget.cpp" line="14"/>
         <location filename="../src/CustomCheatCodesWidget.cpp" line="40"/>
         <source>Description</source>
-        <translation type="unfinished"></translation>
+        <translation>설명</translation>
     </message>
     <message>
         <location filename="../src/CustomCheatCodesWidget.cpp" line="15"/>
         <location filename="../src/CustomCheatCodesWidget.cpp" line="41"/>
         <source>Code</source>
-        <translation type="unfinished"></translation>
+        <translation>코드</translation>
     </message>
     <message>
         <location filename="../src/CustomCheatCodesWidget.cpp" line="36"/>
         <source>Enabled</source>
-        <translation type="unfinished"></translation>
+        <translation>활성화됨</translation>
     </message>
 </context>
 <context>
@@ -123,7 +123,7 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/DatabaseCheatCodesWidget.cpp" line="8"/>
         <source> Default Cheats</source>
-        <translation type="unfinished"></translation>
+        <translation> 기본 치트</translation>
     </message>
 </context>
 <context>
@@ -131,92 +131,92 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="94"/>
         <source>Game Data Integrity Check Failed!</source>
-        <translation type="unfinished"></translation>
+        <translation>게임 데이터 무결성 검사 실패!</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="95"/>
         <source>Playback detected a discrepancy between the expected game data and the backed up data. Please clean the cartridge pins and try again to ensure accuracy.</source>
-        <translation type="unfinished"></translation>
+        <translation>Playback에서 예상 게임 데이터와 백업된 데이터 간에 불일치가 감지되었습니다. 카트리지 핀을 청소하고 정확성을 위해 다시 시도하세요.</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="129"/>
         <source>Empty File Was Provided!</source>
-        <translation type="unfinished"></translation>
+        <translation>빈 파일이 제공되었습니다!</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="130"/>
         <source> It looks like the homebrew game you&apos;re trying to upload has been detected by Playback as having 0 bytes. Please verify that the data you&apos;re attempting to upload is accurate.</source>
-        <translation type="unfinished"></translation>
+        <translation> 업로드하려는 Homebrew게임의 바이트가 0바이트인 것으로 Playback에서 감지된 것 같습니다. 업로드하려는 데이터가 정확한지 확인해 주세요.</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="141"/>
         <source>Upload Homebrew Command Failed!</source>
-        <translation type="unfinished"></translation>
+        <translation>Homebrew 명령 업로드에 실패했습니다!</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="142"/>
         <source>An error occurred while attempting to start the homebrew upload command. Please restart the application and reconnect the Operator device. If the problem continues, contact our Support team.</source>
-        <translation type="unfinished"></translation>
+        <translation>Homebrew 업로드 명령을 시작하는 동안 오류가 발생했습니다. 애플리케이션을 다시 시작하고 운영자 디바이스를 다시 연결하세요. 문제가 계속되면 지원팀에 문의하세요.</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="156"/>
         <source>Homebrew Cartridge Erase Failed!</source>
-        <translation type="unfinished"></translation>
+        <translation>Homebrew 카트리지 지우기가 실패했습니다!</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="157"/>
         <source>Playback couldn&apos;t delete the contents of the homebrew cartridge. Please clean the cartridge pins and try again. If the issue persists, contact our Support team.</source>
-        <translation type="unfinished"></translation>
+        <translation>Playback이 Homebrew 카트리지의 콘텐츠를 삭제할 수 없습니다. 카트리지 핀을 청소하고 다시 시도하세요. 문제가 지속되면 지원팀에 문의하세요.</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="176"/>
         <source>Homebrew Cartridge Data Integrity Check Failed!</source>
-        <translation type="unfinished"></translation>
+        <translation>Homebrew 카트리지 데이터 무결성 검사에 실패했습니다!</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="177"/>
         <source>The cartridge was erased successfully, but the data written does not match the data read back. This issue might occur with some homebrew cartridges. Make sure the game is playable, either by testing on an original console or in the Playback app.</source>
-        <translation type="unfinished"></translation>
+        <translation>카트리지가 성공적으로 지워졌지만 기록된 데이터가 다시 읽은 데이터와 일치하지 않습니다. 일부 Homebrew 카트리지에서 이 문제가 발생할 수 있습니다. 원래 콘솔 또는 Playback 앱에서 테스트하여 게임을 플레이할 수 있는지 확인하세요.</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="207"/>
         <source>Written game data integrity check failed</source>
-        <translation type="unfinished"></translation>
+        <translation>서면 게임 데이터 무결성 검사 실패</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="207"/>
         <source>Read data does not match written data.</source>
-        <translation type="unfinished"></translation>
+        <translation>읽기 데이터가 쓰기 데이터와 일치하지 않습니다.</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="293"/>
         <source>Save data integrity check failed!</source>
-        <translation type="unfinished"></translation>
+        <translation>저장 데이터 무결성 검사에 실패했습니다!</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="294"/>
         <source>The save data appears to be inconsistent between read cycles. Please clean the cartridge pins and try again.</source>
-        <translation type="unfinished"></translation>
+        <translation>읽기 주기 간에 저장 데이터가 일치하지 않는 것 같습니다. 카트리지 핀을 청소하고 다시 시도하세요.</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="346"/>
         <source>Write save failed</source>
-        <translation type="unfinished"></translation>
+        <translation>쓰기 저장 실패</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="346"/>
         <source>Failed to send write save command to device.</source>
-        <translation type="unfinished"></translation>
+        <translation>장치에 쓰기 저장 명령을 보내지 못했습니다.</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="374"/>
         <source>Save Data Integrity Check Failed!</source>
-        <translation type="unfinished"></translation>
+        <translation>저장 데이터 무결성 검사에 실패했습니다!</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="375"/>
         <source>The save data written to the cartridge does not match the data read back. Please clean the cartridge pins and try again to ensure consistency.</source>
-        <translation type="unfinished"></translation>
+        <translation>카트리지에 기록된 저장 데이터가 다시 읽은 데이터와 일치하지 않습니다. 카트리지 핀을 청소하고 일관성을 유지하려면 다시 시도하세요.</translation>
     </message>
 </context>
 <context>
@@ -237,7 +237,7 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/DeviceSwitcherDropdown.h" line="78"/>
         <source>Expand your collection on epilogue.co</source>
-        <translation type="unfinished"></translation>
+        <translation>epilogue.co에서 컬렉션 확장하기</translation>
     </message>
 </context>
 <context>
@@ -245,7 +245,7 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/DeviceSwitcherDropdown.cpp" line="197"/>
         <source>View more</source>
-        <translation type="unfinished"></translation>
+        <translation>자세히 보기</translation>
     </message>
 </context>
 <context>
@@ -253,22 +253,22 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/Emulator.cpp" line="244"/>
         <source>Failed to load game!</source>
-        <translation type="unfinished">게임을 로드하지 못했습니다!</translation>
+        <translation>게임을 로드하지 못했습니다!</translation>
     </message>
     <message>
         <location filename="../src/Emulator.cpp" line="245"/>
         <source>Unable to launch the game, please make sure that the cartridge is clean.</source>
-        <translation type="unfinished">게임을 실행할 수 없는 경우 카트리지가 깨끗한지 확인하세요.</translation>
+        <translation>게임을 실행할 수 없는 경우 카트리지가 깨끗한지 확인하세요.</translation>
     </message>
     <message>
         <location filename="../src/Emulator.cpp" line="251"/>
         <source>Failed to load save data!</source>
-        <translation type="unfinished"></translation>
+        <translation>저장 데이터를 로드하지 못했습니다!</translation>
     </message>
     <message>
         <location filename="../src/Emulator.cpp" line="251"/>
         <source>The core failed to load the save data.</source>
-        <translation type="unfinished"></translation>
+        <translation>코어가 저장 데이터를 로드하지 못했습니다.</translation>
     </message>
 </context>
 <context>
@@ -320,12 +320,12 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/EmulatorSettingsScreen.h" line="189"/>
         <source>Skip Emulation Save Alert</source>
-        <translation type="unfinished"></translation>
+        <translation>에뮬레이션 저장 알림 건너뛰기</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.h" line="191"/>
         <source>Disables the failed save alert that appears when you save in-game.</source>
-        <translation type="unfinished"></translation>
+        <translation>게임 내에서 저장할 때 표시되는 저장 실패 알림을 비활성화합니다.</translation>
     </message>
 </context>
 <context>
@@ -333,12 +333,12 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/UIComponents.cpp" line="96"/>
         <source>Warning! Do not disconnect your device.</source>
-        <translation type="unfinished"></translation>
+        <translation>경고! 장치를 분리하지 마세요.</translation>
     </message>
     <message>
         <location filename="../src/UIComponents.cpp" line="98"/>
         <source>Please DO NOT disconnect or turn off your device during the update process. The LED will turn off during the update. Interruption will lead to your device becoming unusable and void warranty. By agreeing to this message box you confirm your understanding of these instructions.</source>
-        <translation type="unfinished"></translation>
+        <translation>업데이트 프로세스 중에는 디바이스를 분리하거나 전원을 끄지 마세요. 업데이트 중에는 LED가 꺼집니다. 중단하면 장치를 사용할 수 없게 되고 보증이 무효화됩니다. 이 메시지 상자에 동의하면 이 지침을 이해했음을 확인하는 것입니다.</translation>
     </message>
 </context>
 <context>
@@ -372,17 +372,17 @@ please do not disconnect the device.</source>
     <message>
         <location filename="../src/InputBindingsScreen.cpp" line="26"/>
         <source>Need help?</source>
-        <translation type="unfinished"></translation>
+        <translation>도움이 필요하신가요?</translation>
     </message>
     <message>
         <location filename="../src/InputBindingsScreen.h" line="56"/>
         <source>Controls Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>컨트롤 설정</translation>
     </message>
     <message>
         <location filename="../src/InputBindingsScreen.h" line="58"/>
         <source>The Playback software comes with pre-configured bindings for most gamepads. Try pressing buttons on your controller or keyboard to test them.</source>
-        <translation type="unfinished"></translation>
+        <translation>Playback 소프트웨어에는 대부분의 게임패드에 대한 바인딩이 미리 구성되어 있습니다. 컨트롤러나 키보드의 버튼을 눌러 테스트해 보세요.</translation>
     </message>
     <message>
         <location filename="../src/InputBindingsScreen.h" line="61"/>
@@ -434,7 +434,7 @@ You can try cleaning then re-inserting the cartridge into the device.
     <message>
         <location filename="../src/UIComponents.cpp" line="88"/>
         <source>Follow this</source>
-        <translation>다음을 따르세요.</translation>
+        <translation>다음을 따르세요</translation>
     </message>
     <message>
         <location filename="../src/UIComponents.cpp" line="89"/>
@@ -457,7 +457,7 @@ You can try cleaning then re-inserting the cartridge into the device.
     <message>
         <location filename="../src/UIComponents.cpp" line="67"/>
         <source>Your Operator device did not manage to read your cartridge properly. Please make sure that the cartridge is clean and try again.</source>
-        <translation type="unfinished"></translation>
+        <translation>운영자 장치가 카트리지를 제대로 읽지 못했습니다. 카트리지가 깨끗한지 확인한 후 다시 시도하세요.</translation>
     </message>
 </context>
 <context>
@@ -485,7 +485,7 @@ You can try cleaning then re-inserting the cartridge into the device.
     <message>
         <location filename="../src/ManagePage.cpp" line="98"/>
         <source>[no checksum available]</source>
-        <translation type="unfinished"></translation>
+        <translation>[사용 가능한 체크섬 없음]</translation>
     </message>
     <message>
         <location filename="../src/ManagePage.h" line="53"/>
@@ -508,7 +508,7 @@ You can try cleaning then re-inserting the cartridge into the device.
     <message>
         <location filename="../src/ManagePageOperation.cpp" line="52"/>
         <source>STOP</source>
-        <translation type="unfinished"></translation>
+        <translation>STOP</translation>
     </message>
     <message>
         <location filename="../src/ManagePageOperation.cpp" line="148"/>
@@ -519,7 +519,7 @@ You can try cleaning then re-inserting the cartridge into the device.
     <message>
         <location filename="../src/ManagePageOperation.cpp" line="249"/>
         <source>START</source>
-        <translation type="unfinished">시작</translation>
+        <translation>시작</translation>
     </message>
 </context>
 <context>
@@ -532,7 +532,7 @@ You can try cleaning then re-inserting the cartridge into the device.
     <message>
         <location filename="../src/UIComponents.cpp" line="78"/>
         <source>It looks like there is another instance of the software running on this computer. Closing this instance.</source>
-        <translation type="unfinished"></translation>
+        <translation>이 컴퓨터에서 실행 중인 소프트웨어의 다른 인스턴스가 있는 것 같습니다. 이 인스턴스를 닫습니다.</translation>
     </message>
 </context>
 <context>
@@ -540,7 +540,7 @@ You can try cleaning then re-inserting the cartridge into the device.
     <message>
         <location filename="../src/Navbar.h" line="144"/>
         <source>Press ESC to exit emulation</source>
-        <translation>에뮬레이션을 종료하려면 ESC를 누릅니다.</translation>
+        <translation>에뮬레이션을 종료하려면 ESC를 누르세요</translation>
     </message>
     <message>
         <location filename="../src/Navbar.h" line="145"/>
@@ -642,7 +642,7 @@ You can try cleaning then re-inserting the cartridge into the device.
     <message>
         <location filename="../src/Navbar.h" line="61"/>
         <source>Upload Homebrew</source>
-        <translation>홈브루 업로드</translation>
+        <translation>Homebrew 업로드</translation>
     </message>
     <message>
         <location filename="../src/Navbar.h" line="62"/>
@@ -712,32 +712,32 @@ If you&apos;d like to easily remove all the pictures from your camera, without h
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="8"/>
         <source>Settings</source>
-        <translation type="unfinished">설정</translation>
+        <translation>설정</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="8"/>
         <source>Configure system settings.</source>
-        <translation type="unfinished"></translation>
+        <translation>시스템 설정을 구성합니다.</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="76"/>
         <source>Preferred Language (requires restart)</source>
-        <translation type="unfinished">기본 설정 언어(재시작 필요)</translation>
+        <translation>기본 설정 언어(재시작 필요)</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="77"/>
         <source>Allows you to change the language in which the Playback software is presented. It requires an application restart in order to update the language accross the entire application.</source>
-        <translation type="unfinished"></translation>
+        <translation>Playback 소프트웨어가 표시되는 언어를 변경할 수 있습니다. 전체 애플리케이션에서 언어를 업데이트하려면 애플리케이션을 다시 시작해야 합니다.</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="93"/>
         <source>Autosave to cartridge (beta)</source>
-        <translation type="unfinished">카트리지에 자동 저장(베타)</translation>
+        <translation>카트리지에 자동 저장(베타)</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="94"/>
         <source>Once you save in-game, or the game modifies the save internally, your Operator device will automatically write the save to the cartridge. This feature is still in development.</source>
-        <translation type="unfinished"></translation>
+        <translation>게임 내에서 저장하거나 게임에서 내부적으로 저장을 수정하면 운영자 기기가 자동으로 카트리지에 저장 내용을 기록합니다. 이 기능은 아직 개발 중입니다.</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="97"/>
@@ -746,7 +746,7 @@ If you&apos;d like to easily remove all the pictures from your camera, without h
         <location filename="../src/PlaybackSettingsScreen.h" line="114"/>
         <location filename="../src/PlaybackSettingsScreen.h" line="120"/>
         <source>Enabled</source>
-        <translation type="unfinished"></translation>
+        <translation>활성화됨</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="97"/>
@@ -755,47 +755,47 @@ If you&apos;d like to easily remove all the pictures from your camera, without h
         <location filename="../src/PlaybackSettingsScreen.h" line="114"/>
         <location filename="../src/PlaybackSettingsScreen.h" line="120"/>
         <source>Disabled</source>
-        <translation type="unfinished"></translation>
+        <translation>장애인</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="100"/>
         <source>FPS Counter</source>
-        <translation type="unfinished"></translation>
+        <translation>FPS 카운터</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="101"/>
         <source>Displays the current frames per second (FPS) of the game being played.</source>
-        <translation type="unfinished"></translation>
+        <translation>플레이 중인 게임의 현재 초당 프레임 수(FPS)를 표시합니다.</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="105"/>
         <source>Verify Save After Writing Process</source>
-        <translation type="unfinished"></translation>
+        <translation>쓰기 프로세스 후 저장 확인</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="106"/>
         <source>Activating this setting prompts Playback to check that the save file remains uncorrupted after being written to the cartridge. It ensures your game progress has been safely stored.</source>
-        <translation type="unfinished"></translation>
+        <translation>이 설정을 활성화하면 카트리지에 기록된 후에도 저장 파일이 손상되지 않았는지 확인하는 Playback 메시지가 표시됩니다. 게임 진행 상황을 안전하게 저장할 수 있습니다.</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="111"/>
         <source>Verify Save is Read Properly</source>
-        <translation type="unfinished"></translation>
+        <translation>저장이 제대로 읽혔는지 확인</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="112"/>
         <source>When this setting is enabled, Playback reads the save file from the cartridge multiple times and reviews any discrepancies to prevent data corruption.</source>
-        <translation type="unfinished"></translation>
+        <translation>이 설정을 활성화하면 Playback 카트리지에서 저장 파일을 여러 번 읽고 불일치하는 부분이 있는지 검토하여 데이터 손상을 방지합니다.</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="117"/>
         <source>Verify Homebrew File Integrity</source>
-        <translation type="unfinished"></translation>
+        <translation>Homebrew 파일 무결성 확인</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="118"/>
         <source>This setting enables Playback to confirm the integrity of a homebrew game after transferring it to the cartridge, making sure there are no issues affecting your work.</source>
-        <translation type="unfinished"></translation>
+        <translation>이 설정을 사용하면 Homebrew 게임을 카트리지로 전송한 후 Playback이 무결성을 확인하여 작업에 영향을 주는 문제가 없는지 확인할 수 있습니다.</translation>
     </message>
 </context>
 <context>
@@ -917,17 +917,17 @@ Tip: Use external programs to trigger in-game events or customize gameplay.</sou
     <message>
         <location filename="../src/ErrorMessages.h" line="26"/>
         <source>Follow this</source>
-        <translation type="unfinished">다음을 따르세요.</translation>
+        <translation>다음을 따르세요</translation>
     </message>
     <message>
         <location filename="../src/ErrorMessages.h" line="30"/>
         <source>tutorial</source>
-        <translation type="unfinished">튜토리얼</translation>
+        <translation>튜토리얼</translation>
     </message>
     <message>
         <location filename="../src/ErrorMessages.h" line="30"/>
         <source>for cleaning your cartridge pins.</source>
-        <translation type="unfinished"></translation>
+        <translation>카트리지 핀을 청소할 수 있습니다.</translation>
     </message>
 </context>
 <context>
@@ -991,22 +991,22 @@ Please make sure it&apos;s connected.</source>
     <message>
         <location filename="../src/EmulatorSettingsScreen.h" line="125"/>
         <source>System</source>
-        <translation type="unfinished"></translation>
+        <translation>시스템</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.h" line="125"/>
         <source>Configure base hardware selection.</source>
-        <translation type="unfinished"></translation>
+        <translation>기본 하드웨어 선택을 구성합니다.</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.h" line="126"/>
         <source>Input &amp; Auxiliary Devices</source>
-        <translation type="unfinished"></translation>
+        <translation>입력 및 보조 장치</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.h" line="127"/>
         <source>Configure controller and controller rumble settings.</source>
-        <translation type="unfinished"></translation>
+        <translation>컨트롤러 및 컨트롤러 럼블 설정을 구성합니다.</translation>
     </message>
 </context>
 <context>
@@ -1029,17 +1029,17 @@ Please make sure it&apos;s connected.</source>
     <message>
         <location filename="../src/SettingsWindow.h" line="77"/>
         <source>Controls Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>컨트롤 설정</translation>
     </message>
     <message>
         <location filename="../src/SettingsWindow.h" line="79"/>
         <source>Cheat Codes</source>
-        <translation type="unfinished"></translation>
+        <translation>치트 코드</translation>
     </message>
     <message>
         <location filename="../src/SettingsWindow.h" line="82"/>
         <source>Playback Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Playback 설정</translation>
     </message>
 </context>
 <context>
@@ -1060,13 +1060,13 @@ Please make sure it&apos;s connected.</source>
     <message>
         <location filename="../src/StartControllerWidget.cpp" line="141"/>
         <source>STOP</source>
-        <translation type="unfinished"></translation>
+        <translation>STOP</translation>
     </message>
     <message>
         <location filename="../src/StartControllerWidget.cpp" line="141"/>
         <location filename="../src/StartControllerWidget.cpp" line="148"/>
         <source>START</source>
-        <translation type="unfinished">시작</translation>
+        <translation>START</translation>
     </message>
 </context>
 <context>
@@ -1092,13 +1092,13 @@ Please make sure it&apos;s connected.</source>
     <message>
         <location filename="../src/UIComponents.cpp" line="36"/>
         <source>You are about to quit.</source>
-        <translation>곧 종료하려고 합니다.</translation>
+        <translation>곧 종료합니다.</translation>
     </message>
     <message>
         <location filename="../src/UIComponents.cpp" line="37"/>
         <source>Do you want to overwrite the current save to your cartridge?
 </source>
-        <translation>현재 저장 내용을 카트리지에 덮어쓰시겠습니까?
+        <translation>현재 저장 내용을 카트리지에 덮어쓰겠습니까?
 </translation>
     </message>
 </context>
@@ -1112,7 +1112,7 @@ Please make sure it&apos;s connected.</source>
     <message>
         <location filename="../src/ViewRouter.cpp" line="13"/>
         <source>Upload Homebrew</source>
-        <translation>홈브루 업로드</translation>
+        <translation>Homebrew 업로드</translation>
     </message>
     <message>
         <location filename="../src/ViewRouter.cpp" line="15"/>
@@ -1130,7 +1130,7 @@ Please make sure it&apos;s connected.</source>
     <message>
         <location filename="../src/Window.cpp" line="107"/>
         <source>A new app update is available</source>
-        <translation>새로운 앱 업데이트가 제공됩니다.</translation>
+        <translation>새 앱 업데이트가 있습니다</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="107"/>
@@ -1140,7 +1140,7 @@ Please make sure it&apos;s connected.</source>
     <message>
         <location filename="../src/Window.cpp" line="123"/>
         <source>A new device update is available</source>
-        <translation>새로운 디바이스 업데이트를 사용할 수 있습니다.</translation>
+        <translation>새로운 디바이스 업데이트를 사용할 수 있습니다</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="123"/>
