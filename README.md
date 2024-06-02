@@ -1,5 +1,18 @@
 # playback-i18n
 
+## Translation status
+
+| Language            | Type          | Complete | Missing Strings |
+| ------------------- | ------------- | -------- | --------------- |
+| Simplified Chinese  | Human         | ✅       | 0              |
+| German              | Human         | ⚠️       | 74             |
+| French              | DeepL         | ⚠️       | 74             |
+| Spanish             | Human         | ✅       | 0              |
+| Italian             | DeepL         | ⚠️       | 74             |
+| Japanese            | Human         | ⚠️       | 73             |
+| Korean              | Human         | ✅       | 0              |
+| Dutch               | DeepL         | ⚠️       | 74             |
+
 ## Translation files (i18n)
 
 All translation modifications need to be created on a separate branch by running the following commands:
