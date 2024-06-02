@@ -72,12 +72,12 @@ Nu scoate caseta în timp ce se desfășoară orice operațiune.</translation>
     <message>
         <location filename="../src/CheatCodesScreen.h" line="25"/>
         <source>Cheat Codes</source>
-        <translation>Parole</translation>
+        <translation>Coduri</translation>
     </message>
     <message>
         <location filename="../src/CheatCodesScreen.h" line="27"/>
         <source>Enable predefined cheats or use cheats from the internet to transform how you play, from abilities and mechanics to audio effects. Make sure you have autosave disabled so that your cartridge&apos;s save isn&apos;t overwritten while you&apos;re running cheats.</source>
-        <translation>Activează parole care schimbă cum te joci jocurile, de la abilitati la mecanici și efecte audio. Asigură-te că ai salvările automate dezactivate astfel încât să nu îți corupi salvarea.</translation>
+        <translation>Activează coduri care schimbă cum te joci jocurile, de la abilitati la mecanici și efecte audio. Asigură-te că ai salvările automate dezactivate astfel încât să nu îți corupi salvarea.</translation>
     </message>
 </context>
 <context>
@@ -98,7 +98,7 @@ Nu scoate caseta în timp ce se desfășoară orice operațiune.</translation>
     <message>
         <location filename="../src/CustomCheatCodesWidget.cpp" line="7"/>
         <source>Custom Cheats</source>
-        <translation>Parole customizabile</translation>
+        <translation>Coduri customizabile</translation>
     </message>
     <message>
         <location filename="../src/CustomCheatCodesWidget.cpp" line="14"/>
@@ -110,7 +110,7 @@ Nu scoate caseta în timp ce se desfășoară orice operațiune.</translation>
         <location filename="../src/CustomCheatCodesWidget.cpp" line="15"/>
         <location filename="../src/CustomCheatCodesWidget.cpp" line="41"/>
         <source>Code</source>
-        <translation>Parolă</translation>
+        <translation>Cod</translation>
     </message>
     <message>
         <location filename="../src/CustomCheatCodesWidget.cpp" line="36"/>
@@ -123,7 +123,7 @@ Nu scoate caseta în timp ce se desfășoară orice operațiune.</translation>
     <message>
         <location filename="../src/DatabaseCheatCodesWidget.cpp" line="8"/>
         <source> Default Cheats</source>
-        <translation> Parole Standard</translation>
+        <translation> Coduri Standard</translation>
     </message>
 </context>
 <context>
@@ -1034,7 +1034,7 @@ Te rugăm să te asiguri că acesta este conectat.</translation>
     <message>
         <location filename="../src/SettingsWindow.h" line="79"/>
         <source>Cheat Codes</source>
-        <translation>Parole</translation>
+        <translation>Coduri</translation>
     </message>
     <message>
         <location filename="../src/SettingsWindow.h" line="82"/>
