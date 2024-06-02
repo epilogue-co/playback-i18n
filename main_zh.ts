@@ -16,7 +16,7 @@
     <message>
         <location filename="../src/AboutWindow.cpp" line="102"/>
         <source>Copyright Notices</source>
-        <translation type="unfinished">版权声明</translation>
+        <translation>版权声明</translation>
     </message>
     <message>
         <location filename="../src/AboutWindow.cpp" line="103"/>
@@ -72,12 +72,12 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/CheatCodesScreen.h" line="25"/>
         <source>Cheat Codes</source>
-        <translation type="unfinished"></translation>
+        <translation>作弊码</translation>
     </message>
     <message>
         <location filename="../src/CheatCodesScreen.h" line="27"/>
         <source>Enable predefined cheats or use cheats from the internet to transform how you play, from abilities and mechanics to audio effects. Make sure you have autosave disabled so that your cartridge&apos;s save isn&apos;t overwritten while you&apos;re running cheats.</source>
-        <translation type="unfinished"></translation>
+        <translation>启用预设或互联网上的作弊码，从能力、机制到音效改变你的游戏方式。请确保你已关闭自动存档功能，防止在使用作弊码的时候覆盖你的存档。</translation>
     </message>
 </context>
 <context>
@@ -85,12 +85,12 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/ControlsWidget.cpp" line="56"/>
         <source>Player: </source>
-        <translation type="unfinished"></translation>
+        <translation>玩家：</translation>
     </message>
     <message>
         <location filename="../src/ControlsWidget.cpp" line="131"/>
         <source>Input: </source>
-        <translation type="unfinished"></translation>
+        <translation>输入：</translation>
     </message>
 </context>
 <context>
@@ -98,24 +98,24 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/CustomCheatCodesWidget.cpp" line="7"/>
         <source>Custom Cheats</source>
-        <translation type="unfinished"></translation>
+        <translation>自定义作弊码</translation>
     </message>
     <message>
         <location filename="../src/CustomCheatCodesWidget.cpp" line="14"/>
         <location filename="../src/CustomCheatCodesWidget.cpp" line="40"/>
         <source>Description</source>
-        <translation type="unfinished"></translation>
+        <translation>描述</translation>
     </message>
     <message>
         <location filename="../src/CustomCheatCodesWidget.cpp" line="15"/>
         <location filename="../src/CustomCheatCodesWidget.cpp" line="41"/>
         <source>Code</source>
-        <translation type="unfinished"></translation>
+        <translation>作弊码</translation>
     </message>
     <message>
         <location filename="../src/CustomCheatCodesWidget.cpp" line="36"/>
         <source>Enabled</source>
-        <translation type="unfinished"></translation>
+        <translation>启用</translation>
     </message>
 </context>
 <context>
@@ -123,7 +123,7 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/DatabaseCheatCodesWidget.cpp" line="8"/>
         <source> Default Cheats</source>
-        <translation type="unfinished"></translation>
+        <translation>预设作弊码</translation>
     </message>
 </context>
 <context>
@@ -131,92 +131,92 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="94"/>
         <source>Game Data Integrity Check Failed!</source>
-        <translation type="unfinished"></translation>
+        <translation>游戏数据完整性检查失败！</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="95"/>
         <source>Playback detected a discrepancy between the expected game data and the backed up data. Please clean the cartridge pins and try again to ensure accuracy.</source>
-        <translation type="unfinished"></translation>
+        <translation>Playback发现预期游戏数据与备份数据不一致。请清洁游戏卡带的触点然后重试，以确保准确性。</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="129"/>
         <source>Empty File Was Provided!</source>
-        <translation type="unfinished"></translation>
+        <translation>提供的文件是空的！</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="130"/>
         <source> It looks like the homebrew game you&apos;re trying to upload has been detected by Playback as having 0 bytes. Please verify that the data you&apos;re attempting to upload is accurate.</source>
-        <translation type="unfinished"></translation>
+        <translation>似乎你尝试上传的自制软件被Playback检测到大小为0字节。请核实你上传的数据是否正确。</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="141"/>
         <source>Upload Homebrew Command Failed!</source>
-        <translation type="unfinished"></translation>
+        <translation>上传自制软件命令失败！</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="142"/>
         <source>An error occurred while attempting to start the homebrew upload command. Please restart the application and reconnect the Operator device. If the problem continues, contact our Support team.</source>
-        <translation type="unfinished"></translation>
+        <translation>在尝试启动自制软件上传命令时发生错误。请重启应用程序并重新连接设备。如果问题仍然存在，请联系我们的支持团队。</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="156"/>
         <source>Homebrew Cartridge Erase Failed!</source>
-        <translation type="unfinished"></translation>
+        <translation>自制卡带擦除失败！</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="157"/>
         <source>Playback couldn&apos;t delete the contents of the homebrew cartridge. Please clean the cartridge pins and try again. If the issue persists, contact our Support team.</source>
-        <translation type="unfinished"></translation>
+        <translation>Playback无法删除自制卡带的内容。请清洁卡带的触点并重试。如果问题仍然存在，请联系我们的支持团队。</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="176"/>
         <source>Homebrew Cartridge Data Integrity Check Failed!</source>
-        <translation type="unfinished"></translation>
+        <translation>自制卡带数据完整性检查失败！</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="177"/>
         <source>The cartridge was erased successfully, but the data written does not match the data read back. This issue might occur with some homebrew cartridges. Make sure the game is playable, either by testing on an original console or in the Playback app.</source>
-        <translation type="unfinished"></translation>
+        <translation>卡带擦除成功，但写入的数据与读取的数据不一致。某些自制卡带可能会出现这种问题。请通过在原版游戏机上或是在Playback应用程序中测试，确保游戏的正常运行。</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="207"/>
         <source>Written game data integrity check failed</source>
-        <translation type="unfinished"></translation>
+        <translation>写入游戏数据完整性检查失败</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="207"/>
         <source>Read data does not match written data.</source>
-        <translation type="unfinished"></translation>
+        <translation>读取数据与写入数据不一致。</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="293"/>
         <source>Save data integrity check failed!</source>
-        <translation type="unfinished"></translation>
+        <translation>存档数据完整性检查失败</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="294"/>
         <source>The save data appears to be inconsistent between read cycles. Please clean the cartridge pins and try again.</source>
-        <translation type="unfinished"></translation>
+        <translation>在读取周期之间，存档数据似乎不一致。请清洁游戏卡带的触点后重试。</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="346"/>
         <source>Write save failed</source>
-        <translation type="unfinished"></translation>
+        <translation>写入存档失败</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="346"/>
         <source>Failed to send write save command to device.</source>
-        <translation type="unfinished"></translation>
+        <translation>无法向设备发送写入存档命令。</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="374"/>
         <source>Save Data Integrity Check Failed!</source>
-        <translation type="unfinished"></translation>
+        <translation>存档数据完整性检查失败</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="375"/>
         <source>The save data written to the cartridge does not match the data read back. Please clean the cartridge pins and try again to ensure consistency.</source>
-        <translation type="unfinished"></translation>
+        <translation>写入的存档数据与读取的数据不一致。请清洁卡带的触点后重试，以确保数据的一致性。</translation>
     </message>
 </context>
 <context>
@@ -237,7 +237,7 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/DeviceSwitcherDropdown.h" line="78"/>
         <source>Expand your collection on epilogue.co</source>
-        <translation type="unfinished"></translation>
+        <translation>来epilogue.co拓展你的收藏</translation>
     </message>
 </context>
 <context>
@@ -245,7 +245,7 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/DeviceSwitcherDropdown.cpp" line="197"/>
         <source>View more</source>
-        <translation type="unfinished"></translation>
+        <translation>查看更多</translation>
     </message>
 </context>
 <context>
@@ -253,22 +253,22 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/Emulator.cpp" line="244"/>
         <source>Failed to load game!</source>
-        <translation type="unfinished">游戏加载失败！</translation>
+        <translation>游戏加载失败！</translation>
     </message>
     <message>
         <location filename="../src/Emulator.cpp" line="245"/>
         <source>Unable to launch the game, please make sure that the cartridge is clean.</source>
-        <translation type="unfinished">无法启动游戏，请确保卡带干净。</translation>
+        <translation>无法启动游戏，请确保卡带干净。</translation>
     </message>
     <message>
         <location filename="../src/Emulator.cpp" line="251"/>
         <source>Failed to load save data!</source>
-        <translation type="unfinished"></translation>
+        <translation>载入存档失败！</translation>
     </message>
     <message>
         <location filename="../src/Emulator.cpp" line="251"/>
         <source>The core failed to load the save data.</source>
-        <translation type="unfinished"></translation>
+        <translation>内核加载存档失败。</translation>
     </message>
 </context>
 <context>
@@ -320,12 +320,12 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/EmulatorSettingsScreen.h" line="189"/>
         <source>Skip Emulation Save Alert</source>
-        <translation type="unfinished"></translation>
+        <translation>跳过模拟存档警告</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.h" line="191"/>
         <source>Disables the failed save alert that appears when you save in-game.</source>
-        <translation type="unfinished"></translation>
+        <translation>在游戏内存档时，禁用存档失败警告。</translation>
     </message>
 </context>
 <context>
@@ -333,12 +333,12 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/UIComponents.cpp" line="96"/>
         <source>Warning! Do not disconnect your device.</source>
-        <translation type="unfinished"></translation>
+        <translation>警告！不要断开设备的连接。</translation>
     </message>
     <message>
         <location filename="../src/UIComponents.cpp" line="98"/>
         <source>Please DO NOT disconnect or turn off your device during the update process. The LED will turn off during the update. Interruption will lead to your device becoming unusable and void warranty. By agreeing to this message box you confirm your understanding of these instructions.</source>
-        <translation type="unfinished"></translation>
+        <translation>请不要在更新过程中关闭或断开连接设备。更新期间LED指示灯会熄灭。中断更新会导致你的设备无法使用，并使保修失效。通过同意此消息框，你确保你已知晓这些说明。</translation>
     </message>
 </context>
 <context>
@@ -372,17 +372,17 @@ please do not disconnect the device.</source>
     <message>
         <location filename="../src/InputBindingsScreen.cpp" line="26"/>
         <source>Need help?</source>
-        <translation type="unfinished"></translation>
+        <translation>需要帮助？</translation>
     </message>
     <message>
         <location filename="../src/InputBindingsScreen.h" line="56"/>
         <source>Controls Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>控制设置</translation>
     </message>
     <message>
         <location filename="../src/InputBindingsScreen.h" line="58"/>
         <source>The Playback software comes with pre-configured bindings for most gamepads. Try pressing buttons on your controller or keyboard to test them.</source>
-        <translation type="unfinished"></translation>
+        <translation>Playback软件预设了大多数手柄的按键绑定。尝试按下手柄或键盘上的按钮来测试它们。</translation>
     </message>
     <message>
         <location filename="../src/InputBindingsScreen.h" line="61"/>
@@ -457,7 +457,7 @@ You can try cleaning then re-inserting the cartridge into the device.
     <message>
         <location filename="../src/UIComponents.cpp" line="67"/>
         <source>Your Operator device did not manage to read your cartridge properly. Please make sure that the cartridge is clean and try again.</source>
-        <translation type="unfinished"></translation>
+        <translation>你的设备未能正确读取卡带。 请确保卡带触点清洁后重试。</translation>
     </message>
 </context>
 <context>
@@ -508,7 +508,7 @@ You can try cleaning then re-inserting the cartridge into the device.
     <message>
         <location filename="../src/ManagePageOperation.cpp" line="52"/>
         <source>STOP</source>
-        <translation type="unfinished"></translation>
+        <translation>停止</translation>
     </message>
     <message>
         <location filename="../src/ManagePageOperation.cpp" line="148"/>
@@ -519,7 +519,7 @@ You can try cleaning then re-inserting the cartridge into the device.
     <message>
         <location filename="../src/ManagePageOperation.cpp" line="249"/>
         <source>START</source>
-        <translation type="unfinished">开始</translation>
+        <translation>开始</translation>
     </message>
 </context>
 <context>
@@ -532,7 +532,7 @@ You can try cleaning then re-inserting the cartridge into the device.
     <message>
         <location filename="../src/UIComponents.cpp" line="78"/>
         <source>It looks like there is another instance of the software running on this computer. Closing this instance.</source>
-        <translation type="unfinished"></translation>
+        <translation>似乎该软件在此电脑上已有另一个实例正在运行。正在关闭此实例。</translation>
     </message>
 </context>
 <context>
@@ -712,32 +712,32 @@ If you&apos;d like to easily remove all the pictures from your camera, without h
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="8"/>
         <source>Settings</source>
-        <translation type="unfinished">设置</translation>
+        <translation>设置</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="8"/>
         <source>Configure system settings.</source>
-        <translation type="unfinished"></translation>
+        <translation>配置系统设置。</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="76"/>
         <source>Preferred Language (requires restart)</source>
-        <translation type="unfinished">首选语言（需要重启）</translation>
+        <translation>首选语言（需要重启）</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="77"/>
         <source>Allows you to change the language in which the Playback software is presented. It requires an application restart in order to update the language accross the entire application.</source>
-        <translation type="unfinished"></translation>
+        <translation>允许你更改Playback软件显示的语言。需要重启应用。</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="93"/>
         <source>Autosave to cartridge (beta)</source>
-        <translation type="unfinished">自动保存到卡带（测试版）</translation>
+        <translation>自动保存到卡带（测试版）</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="94"/>
         <source>Once you save in-game, or the game modifies the save internally, your Operator device will automatically write the save to the cartridge. This feature is still in development.</source>
-        <translation type="unfinished"></translation>
+        <translation>当您在游戏中存档，或游戏自行修改存档时，你的设备将自动将存档写入卡带。此功能仍在开发中。</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="97"/>
@@ -746,7 +746,7 @@ If you&apos;d like to easily remove all the pictures from your camera, without h
         <location filename="../src/PlaybackSettingsScreen.h" line="114"/>
         <location filename="../src/PlaybackSettingsScreen.h" line="120"/>
         <source>Enabled</source>
-        <translation type="unfinished"></translation>
+        <translation>启用</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="97"/>
@@ -755,47 +755,47 @@ If you&apos;d like to easily remove all the pictures from your camera, without h
         <location filename="../src/PlaybackSettingsScreen.h" line="114"/>
         <location filename="../src/PlaybackSettingsScreen.h" line="120"/>
         <source>Disabled</source>
-        <translation type="unfinished"></translation>
+        <translation>禁用</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="100"/>
         <source>FPS Counter</source>
-        <translation type="unfinished"></translation>
+        <translation>显示帧率</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="101"/>
         <source>Displays the current frames per second (FPS) of the game being played.</source>
-        <translation type="unfinished"></translation>
+        <translation>显示当前运行游戏的帧率（FPS）</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="105"/>
         <source>Verify Save After Writing Process</source>
-        <translation type="unfinished"></translation>
+        <translation>写入存档后进行验证</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="106"/>
         <source>Activating this setting prompts Playback to check that the save file remains uncorrupted after being written to the cartridge. It ensures your game progress has been safely stored.</source>
-        <translation type="unfinished"></translation>
+        <translation>启用此设置后，Playback会在每次将存档写入卡带后检查存档文件是否损坏。这可以确保你的游戏进度被安全存储。</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="111"/>
         <source>Verify Save is Read Properly</source>
-        <translation type="unfinished"></translation>
+        <translation>验证存档是否正确读取</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="112"/>
         <source>When this setting is enabled, Playback reads the save file from the cartridge multiple times and reviews any discrepancies to prevent data corruption.</source>
-        <translation type="unfinished"></translation>
+        <translation>启用此设置后，Playback会多次从卡带读取存档，并检查是否存在任何差异，以防数据损坏。</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="117"/>
         <source>Verify Homebrew File Integrity</source>
-        <translation type="unfinished"></translation>
+        <translation>检查自制软件完整性</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="118"/>
         <source>This setting enables Playback to confirm the integrity of a homebrew game after transferring it to the cartridge, making sure there are no issues affecting your work.</source>
-        <translation type="unfinished"></translation>
+        <translation>启用此设置后，Playback能够在将自制软件传输到卡带后进行完整性检查，确保不会影响你的工作。</translation>
     </message>
 </context>
 <context>
@@ -917,17 +917,17 @@ Tip: Use external programs to trigger in-game events or customize gameplay.</sou
     <message>
         <location filename="../src/ErrorMessages.h" line="26"/>
         <source>Follow this</source>
-        <translation type="unfinished">请遵循此</translation>
+        <translation>请遵循此</translation>
     </message>
     <message>
         <location filename="../src/ErrorMessages.h" line="30"/>
         <source>tutorial</source>
-        <translation type="unfinished">教程</translation>
+        <translation>教程</translation>
     </message>
     <message>
         <location filename="../src/ErrorMessages.h" line="30"/>
         <source>for cleaning your cartridge pins.</source>
-        <translation type="unfinished"></translation>
+        <translation>来清洁你的卡带触点。</translation>
     </message>
 </context>
 <context>
@@ -991,22 +991,22 @@ Please make sure it&apos;s connected.</source>
     <message>
         <location filename="../src/EmulatorSettingsScreen.h" line="125"/>
         <source>System</source>
-        <translation type="unfinished"></translation>
+        <translation>系统</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.h" line="125"/>
         <source>Configure base hardware selection.</source>
-        <translation type="unfinished"></translation>
+        <translation>配置基础硬件选择。</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.h" line="126"/>
         <source>Input &amp; Auxiliary Devices</source>
-        <translation type="unfinished"></translation>
+        <translation>输入与辅助设备</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.h" line="127"/>
         <source>Configure controller and controller rumble settings.</source>
-        <translation type="unfinished"></translation>
+        <translation>配置手柄与手柄震动设置</translation>
     </message>
 </context>
 <context>
@@ -1029,17 +1029,17 @@ Please make sure it&apos;s connected.</source>
     <message>
         <location filename="../src/SettingsWindow.h" line="77"/>
         <source>Controls Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>控制设置</translation>
     </message>
     <message>
         <location filename="../src/SettingsWindow.h" line="79"/>
         <source>Cheat Codes</source>
-        <translation type="unfinished"></translation>
+        <translation>作弊码</translation>
     </message>
     <message>
         <location filename="../src/SettingsWindow.h" line="82"/>
         <source>Playback Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Playback软件设置</translation>
     </message>
 </context>
 <context>
@@ -1060,13 +1060,13 @@ Please make sure it&apos;s connected.</source>
     <message>
         <location filename="../src/StartControllerWidget.cpp" line="141"/>
         <source>STOP</source>
-        <translation type="unfinished"></translation>
+        <translation>停止</translation>
     </message>
     <message>
         <location filename="../src/StartControllerWidget.cpp" line="141"/>
         <location filename="../src/StartControllerWidget.cpp" line="148"/>
         <source>START</source>
-        <translation type="unfinished">开始</translation>
+        <translation>开始</translation>
     </message>
 </context>
 <context>
