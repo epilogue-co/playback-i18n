@@ -9,7 +9,7 @@
 | French              | DeepL         | ⚠️       | 74             |
 | Spanish             | Human         | ✅       | 0              |
 | Italian             | DeepL         | ⚠️       | 74             |
-| Japanese            | Human         | ⚠️       | 73             |
+| Japanese            | Human         | ✅       | 0              |
 | Korean              | Human         | ✅       | 0              |
 | Dutch               | DeepL         | ⚠️       | 74             |
 
