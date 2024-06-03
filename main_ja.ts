@@ -11,7 +11,7 @@
     <message>
         <location filename="../src/AboutWindow.cpp" line="63"/>
         <source>™ and © 2020-2024 Epilogue. &lt;br&gt;All rights reserved. </source>
-        <translation type="unfinished"></translation>
+        <translation>™ and © 2020-2024 Epilogue.&lt;br&gt;無断複写・転載を禁じます。 </translation>
     </message>
     <message>
         <location filename="../src/AboutWindow.cpp" line="102"/>
@@ -72,12 +72,12 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/CheatCodesScreen.h" line="25"/>
         <source>Cheat Codes</source>
-        <translation type="unfinished"></translation>
+        <translation>チートコード</translation>
     </message>
     <message>
         <location filename="../src/CheatCodesScreen.h" line="27"/>
         <source>Enable predefined cheats or use cheats from the internet to transform how you play, from abilities and mechanics to audio effects. Make sure you have autosave disabled so that your cartridge&apos;s save isn&apos;t overwritten while you&apos;re running cheats.</source>
-        <translation type="unfinished"></translation>
+        <translation>あらかじめ設定されたチートを有効にするか、インターネット上のチートを使用することで、アビリティやメカニクスからオーディオ効果に至るまで、プレイ方法を変えることができます。チート実行中にカートリッジのセーブが上書きされないよう、オートセーブが無効になっていることを確認してください。</translation>
     </message>
 </context>
 <context>
@@ -85,12 +85,12 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/ControlsWidget.cpp" line="56"/>
         <source>Player: </source>
-        <translation type="unfinished"></translation>
+        <translation>プレイヤー: </translation>
     </message>
     <message>
         <location filename="../src/ControlsWidget.cpp" line="131"/>
         <source>Input: </source>
-        <translation type="unfinished"></translation>
+        <translation>インプット： </translation>
     </message>
 </context>
 <context>
@@ -98,24 +98,24 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/CustomCheatCodesWidget.cpp" line="7"/>
         <source>Custom Cheats</source>
-        <translation type="unfinished"></translation>
+        <translation>カスタム・チート</translation>
     </message>
     <message>
         <location filename="../src/CustomCheatCodesWidget.cpp" line="14"/>
         <location filename="../src/CustomCheatCodesWidget.cpp" line="40"/>
         <source>Description</source>
-        <translation type="unfinished"></translation>
+        <translation>説明</translation>
     </message>
     <message>
         <location filename="../src/CustomCheatCodesWidget.cpp" line="15"/>
         <location filename="../src/CustomCheatCodesWidget.cpp" line="41"/>
         <source>Code</source>
-        <translation type="unfinished"></translation>
+        <translation>コード</translation>
     </message>
     <message>
         <location filename="../src/CustomCheatCodesWidget.cpp" line="36"/>
         <source>Enabled</source>
-        <translation type="unfinished"></translation>
+        <translation>有効</translation>
     </message>
 </context>
 <context>
@@ -123,7 +123,7 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/DatabaseCheatCodesWidget.cpp" line="8"/>
         <source> Default Cheats</source>
-        <translation type="unfinished"></translation>
+        <translation> デフォルトのチート</translation>
     </message>
 </context>
 <context>
@@ -131,92 +131,92 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="94"/>
         <source>Game Data Integrity Check Failed!</source>
-        <translation type="unfinished"></translation>
+        <translation>ゲームデータの整合性チェックに失敗しました！</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="95"/>
         <source>Playback detected a discrepancy between the expected game data and the backed up data. Please clean the cartridge pins and try again to ensure accuracy.</source>
-        <translation type="unfinished"></translation>
+        <translation>プレイバックで、予想されるゲームデータとバックアップされたデータの不一致が検出されました。カートリッジのピンを清掃し、再度お試しください。</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="129"/>
         <source>Empty File Was Provided!</source>
-        <translation type="unfinished"></translation>
+        <translation>空のファイルが提供された！</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="130"/>
         <source> It looks like the homebrew game you&apos;re trying to upload has been detected by Playback as having 0 bytes. Please verify that the data you&apos;re attempting to upload is accurate.</source>
-        <translation type="unfinished"></translation>
+        <translation> アップロードしようとしている自作ゲームは、Playbackによって0バイトと検出されたようです。アップロードしようとしているデータが正確かどうか確認してください。</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="141"/>
         <source>Upload Homebrew Command Failed!</source>
-        <translation type="unfinished"></translation>
+        <translation>Homebrewコマンドのアップロードに失敗しました！</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="142"/>
         <source>An error occurred while attempting to start the homebrew upload command. Please restart the application and reconnect the Operator device. If the problem continues, contact our Support team.</source>
-        <translation type="unfinished"></translation>
+        <translation>homebrewアップロードコマンドを開始しようとしてエラーが発生しました。アプリケーションを再起動し、Operatorデバイスを再接続してください。問題が解決しない場合は、サポートチームに連絡してください。</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="156"/>
         <source>Homebrew Cartridge Erase Failed!</source>
-        <translation type="unfinished"></translation>
+        <translation>Homebrew カートリッジの消去に失敗しました！</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="157"/>
         <source>Playback couldn&apos;t delete the contents of the homebrew cartridge. Please clean the cartridge pins and try again. If the issue persists, contact our Support team.</source>
-        <translation type="unfinished"></translation>
+        <translation>Playback が Homebrew カートリッジの内容を削除できませんでした。カートリッジのピンを清掃してから、もう一度お試しください。問題が解決しない場合は、サポートチームまでご連絡ください。</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="176"/>
         <source>Homebrew Cartridge Data Integrity Check Failed!</source>
-        <translation type="unfinished"></translation>
+        <translation>Homebrew カートリッジのデータ整合性チェックに失敗しました！</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="177"/>
         <source>The cartridge was erased successfully, but the data written does not match the data read back. This issue might occur with some homebrew cartridges. Make sure the game is playable, either by testing on an original console or in the Playback app.</source>
-        <translation type="unfinished"></translation>
+        <translation>カートリッジは正常に消去されたが、書き込まれたデータと読み出されたデータが一致しない。この問題は一部の自作カートリッジで発生する可能性があります。オリジナルのゲーム機、またはプレイバックアプリでテストして、ゲームがプレイ可能であることを確認してください。</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="207"/>
         <source>Written game data integrity check failed</source>
-        <translation type="unfinished"></translation>
+        <translation>対局データの整合性チェックに失敗</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="207"/>
         <source>Read data does not match written data.</source>
-        <translation type="unfinished"></translation>
+        <translation>読み取りデータと書き込みデータが一致しない。</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="293"/>
         <source>Save data integrity check failed!</source>
-        <translation type="unfinished"></translation>
+        <translation>保存データの整合性チェックに失敗しました！</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="294"/>
         <source>The save data appears to be inconsistent between read cycles. Please clean the cartridge pins and try again.</source>
-        <translation type="unfinished"></translation>
+        <translation>読み出しサイクルの間で保存データに一貫性がないようです。カートリッジのピンを清掃し、再度お試しください。</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="346"/>
         <source>Write save failed</source>
-        <translation type="unfinished"></translation>
+        <translation>書き込み保存に失敗</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="346"/>
         <source>Failed to send write save command to device.</source>
-        <translation type="unfinished"></translation>
+        <translation>デバイスへの書き込み保存コマンドの送信に失敗しました。</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="374"/>
         <source>Save Data Integrity Check Failed!</source>
-        <translation type="unfinished"></translation>
+        <translation>セーブデータの整合性チェックに失敗しました！</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="375"/>
         <source>The save data written to the cartridge does not match the data read back. Please clean the cartridge pins and try again to ensure consistency.</source>
-        <translation type="unfinished"></translation>
+        <translation>カートリッジに書き込まれた保存デー タと読み込まれたデータが一致し ない。カートリッジのピンを清掃し、整合性を確認するためにもう一度やり直してください。</translation>
     </message>
 </context>
 <context>
@@ -237,7 +237,7 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/DeviceSwitcherDropdown.h" line="78"/>
         <source>Expand your collection on epilogue.co</source>
-        <translation type="unfinished"></translation>
+        <translation>epilogue.coでコレクションを広げよう</translation>
     </message>
 </context>
 <context>
@@ -245,7 +245,7 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/DeviceSwitcherDropdown.cpp" line="197"/>
         <source>View more</source>
-        <translation type="unfinished"></translation>
+        <translation>もっと見る</translation>
     </message>
 </context>
 <context>
@@ -253,22 +253,22 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/Emulator.cpp" line="244"/>
         <source>Failed to load game!</source>
-        <translation type="unfinished">ゲームのロードに失敗しました！</translation>
+        <translation>ゲームのロードに失敗しました！</translation>
     </message>
     <message>
         <location filename="../src/Emulator.cpp" line="245"/>
         <source>Unable to launch the game, please make sure that the cartridge is clean.</source>
-        <translation type="unfinished">ゲームが起動できません。カートリッジが汚れていないか確認してください。</translation>
+        <translation>ゲームが起動できません。カートリッジが汚れていないか確認してください。</translation>
     </message>
     <message>
         <location filename="../src/Emulator.cpp" line="251"/>
         <source>Failed to load save data!</source>
-        <translation type="unfinished"></translation>
+        <translation>セーブデータのロードに失敗しました！</translation>
     </message>
     <message>
         <location filename="../src/Emulator.cpp" line="251"/>
         <source>The core failed to load the save data.</source>
-        <translation type="unfinished"></translation>
+        <translation>コアがセーブデータのロードに失敗しました。</translation>
     </message>
 </context>
 <context>
@@ -320,12 +320,12 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/EmulatorSettingsScreen.h" line="189"/>
         <source>Skip Emulation Save Alert</source>
-        <translation type="unfinished"></translation>
+        <translation>エミュレーションの保存警告をスキップ</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.h" line="191"/>
         <source>Disables the failed save alert that appears when you save in-game.</source>
-        <translation type="unfinished"></translation>
+        <translation>ゲーム中のセーブ時に表示されるセーブ失敗のアラートを無効にする。</translation>
     </message>
 </context>
 <context>
@@ -333,12 +333,12 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/UIComponents.cpp" line="96"/>
         <source>Warning! Do not disconnect your device.</source>
-        <translation type="unfinished"></translation>
+        <translation>警告デバイスを切断しないでください。</translation>
     </message>
     <message>
         <location filename="../src/UIComponents.cpp" line="98"/>
         <source>Please DO NOT disconnect or turn off your device during the update process. The LED will turn off during the update. Interruption will lead to your device becoming unusable and void warranty. By agreeing to this message box you confirm your understanding of these instructions.</source>
-        <translation type="unfinished"></translation>
+        <translation>アップデート中は、デバイスの接続を切断したり、電源を切ったりしないでください。アップデート中はLEDが消灯します。中断すると、デバイスが使用できなくなり、保証が無効になります。このメッセージボックスに同意することで、これらの指示を理解したことになります。</translation>
     </message>
 </context>
 <context>
@@ -372,17 +372,17 @@ please do not disconnect the device.</source>
     <message>
         <location filename="../src/InputBindingsScreen.cpp" line="26"/>
         <source>Need help?</source>
-        <translation type="unfinished"></translation>
+        <translation>お困りですか？</translation>
     </message>
     <message>
         <location filename="../src/InputBindingsScreen.h" line="56"/>
         <source>Controls Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>コントロール設定</translation>
     </message>
     <message>
         <location filename="../src/InputBindingsScreen.h" line="58"/>
         <source>The Playback software comes with pre-configured bindings for most gamepads. Try pressing buttons on your controller or keyboard to test them.</source>
-        <translation type="unfinished"></translation>
+        <translation>Playbackソフトウェアには、ほとんどのゲームパッド用のバインディングがあらかじめ設定されています。お使いのコントローラーやキーボードのボタンを押して試してみてください。</translation>
     </message>
     <message>
         <location filename="../src/InputBindingsScreen.h" line="61"/>
@@ -457,7 +457,7 @@ You can try cleaning then re-inserting the cartridge into the device.
     <message>
         <location filename="../src/UIComponents.cpp" line="67"/>
         <source>Your Operator device did not manage to read your cartridge properly. Please make sure that the cartridge is clean and try again.</source>
-        <translation type="unfinished"></translation>
+        <translation>Operator装置がカートリッジを正しく読み取れませんでした。カートリッジが汚れていないことを確認して、もう。</translation>
     </message>
 </context>
 <context>
@@ -468,7 +468,7 @@ You can try cleaning then re-inserting the cartridge into the device.
         <translation>スタート</translation>
     </message>
     <message>
-        <location filename="../src/ManagePage.cpp" line="98"/>
+        <location filename="../src/ManagePage.cpp" line="99"/>
         <source>[%0]</source>
         <translation>[%0]</translation>
     </message>
@@ -478,12 +478,12 @@ You can try cleaning then re-inserting the cartridge into the device.
         <translation>データの流れ：</translation>
     </message>
     <message>
-        <location filename="../src/ManagePage.cpp" line="96"/>
+        <location filename="../src/ManagePage.cpp" line="97"/>
         <source>Unknown title</source>
         <translation>タイトル不明</translation>
     </message>
     <message>
-        <location filename="../src/ManagePage.cpp" line="98"/>
+        <location filename="../src/ManagePage.cpp" line="99"/>
         <source>[no checksum available]</source>
         <translation>[チェックサムなし］</translation>
     </message>
@@ -506,20 +506,20 @@ You can try cleaning then re-inserting the cartridge into the device.
         <translation>警告、選択したファイルが大きすぎます！</translation>
     </message>
     <message>
-        <location filename="../src/ManagePageOperation.cpp" line="52"/>
+        <location filename="../src/ManagePageOperation.cpp" line="51"/>
         <source>STOP</source>
-        <translation type="unfinished"></translation>
+        <translation>ストップ</translation>
     </message>
     <message>
-        <location filename="../src/ManagePageOperation.cpp" line="148"/>
-        <location filename="../src/ManagePageOperation.cpp" line="153"/>
+        <location filename="../src/ManagePageOperation.cpp" line="147"/>
+        <location filename="../src/ManagePageOperation.cpp" line="152"/>
         <source>Game Data</source>
         <translation>試合データ</translation>
     </message>
     <message>
         <location filename="../src/ManagePageOperation.cpp" line="249"/>
         <source>START</source>
-        <translation type="unfinished">スタート</translation>
+        <translation>スタート</translation>
     </message>
 </context>
 <context>
@@ -532,7 +532,7 @@ You can try cleaning then re-inserting the cartridge into the device.
     <message>
         <location filename="../src/UIComponents.cpp" line="78"/>
         <source>It looks like there is another instance of the software running on this computer. Closing this instance.</source>
-        <translation type="unfinished"></translation>
+        <translation>このコンピューターで別のインスタンスが実行されているようです。このインスタンスを閉じてください。</translation>
     </message>
 </context>
 <context>
@@ -642,7 +642,7 @@ You can try cleaning then re-inserting the cartridge into the device.
     <message>
         <location filename="../src/Navbar.h" line="61"/>
         <source>Upload Homebrew</source>
-        <translation>自作のアップロード</translation>
+        <translation>Homebrewのアップロード</translation>
     </message>
     <message>
         <location filename="../src/Navbar.h" line="62"/>
@@ -652,7 +652,7 @@ You can try cleaning then re-inserting the cartridge into the device.
     <message>
         <location filename="../src/Navbar.h" line="63"/>
         <source>Upload Save</source>
-        <translation>アップロード 保存</translation>
+        <translation>アップロード・セーブ</translation>
     </message>
     <message>
         <location filename="../src/Navbar.h" line="64"/>
@@ -712,90 +712,90 @@ If you&apos;d like to easily remove all the pictures from your camera, without h
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="8"/>
         <source>Settings</source>
-        <translation type="unfinished">設定</translation>
+        <translation>設定</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="8"/>
         <source>Configure system settings.</source>
-        <translation type="unfinished"></translation>
+        <translation>システム設定を行う。</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="76"/>
         <source>Preferred Language (requires restart)</source>
-        <translation type="unfinished">希望言語（再起動が必要）</translation>
+        <translation>希望言語（再起動が必要）</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="77"/>
         <source>Allows you to change the language in which the Playback software is presented. It requires an application restart in order to update the language accross the entire application.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../src/PlaybackSettingsScreen.h" line="93"/>
-        <source>Autosave to cartridge (beta)</source>
-        <translation type="unfinished">カートリッジへの自動保存（ベータ版）</translation>
+        <translation>Playbackソフトウェアの表示言語を変更できます。アプリケーション全体の言語を更新するには、アプリケーションの再起動が必要です。</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="94"/>
+        <source>Autosave to cartridge (beta)</source>
+        <translation>カートリッジへの自動保存（ベータ版）</translation>
+    </message>
+    <message>
+        <location filename="../src/PlaybackSettingsScreen.h" line="95"/>
         <source>Once you save in-game, or the game modifies the save internally, your Operator device will automatically write the save to the cartridge. This feature is still in development.</source>
-        <translation type="unfinished"></translation>
+        <translation>ゲーム内でセーブするか、ゲームが内部的にセーブを変更すると、Operatorデバイスが自動的にカートリッジにセーブを書き込みます。この機能はまだ開発中です。</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.h" line="97"/>
-        <location filename="../src/PlaybackSettingsScreen.h" line="102"/>
-        <location filename="../src/PlaybackSettingsScreen.h" line="108"/>
-        <location filename="../src/PlaybackSettingsScreen.h" line="114"/>
-        <location filename="../src/PlaybackSettingsScreen.h" line="120"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="98"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="103"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="109"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="115"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="121"/>
         <source>Enabled</source>
-        <translation type="unfinished"></translation>
+        <translation>有効</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.h" line="97"/>
-        <location filename="../src/PlaybackSettingsScreen.h" line="102"/>
-        <location filename="../src/PlaybackSettingsScreen.h" line="108"/>
-        <location filename="../src/PlaybackSettingsScreen.h" line="114"/>
-        <location filename="../src/PlaybackSettingsScreen.h" line="120"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="98"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="103"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="109"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="115"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="121"/>
         <source>Disabled</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../src/PlaybackSettingsScreen.h" line="100"/>
-        <source>FPS Counter</source>
-        <translation type="unfinished"></translation>
+        <translation>無効</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="101"/>
-        <source>Displays the current frames per second (FPS) of the game being played.</source>
-        <translation type="unfinished"></translation>
+        <source>FPS Counter</source>
+        <translation>FPSカウンター</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.h" line="105"/>
-        <source>Verify Save After Writing Process</source>
-        <translation type="unfinished"></translation>
+        <location filename="../src/PlaybackSettingsScreen.h" line="102"/>
+        <source>Displays the current frames per second (FPS) of the game being played.</source>
+        <translation>現在プレイしているゲームの秒間フレーム数（FPS）を表示します。</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="106"/>
-        <source>Activating this setting prompts Playback to check that the save file remains uncorrupted after being written to the cartridge. It ensures your game progress has been safely stored.</source>
-        <translation type="unfinished"></translation>
+        <source>Verify Save After Writing Process</source>
+        <translation>書き込み後の保存を確認する</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.h" line="111"/>
-        <source>Verify Save is Read Properly</source>
-        <translation type="unfinished"></translation>
+        <location filename="../src/PlaybackSettingsScreen.h" line="107"/>
+        <source>Activating this setting prompts Playback to check that the save file remains uncorrupted after being written to the cartridge. It ensures your game progress has been safely stored.</source>
+        <translation>この設定を有効にすると、カートリッジに書き込まれた後、セーブファイルが壊れていないことを確認するようPlaybackに要求します。これにより、ゲームの進行状況が安全に保存されます。</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="112"/>
-        <source>When this setting is enabled, Playback reads the save file from the cartridge multiple times and reviews any discrepancies to prevent data corruption.</source>
-        <translation type="unfinished"></translation>
+        <source>Verify Save is Read Properly</source>
+        <translation>セーブが正しく読み込まれているか確認する</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.h" line="117"/>
-        <source>Verify Homebrew File Integrity</source>
-        <translation type="unfinished"></translation>
+        <location filename="../src/PlaybackSettingsScreen.h" line="113"/>
+        <source>When this setting is enabled, Playback reads the save file from the cartridge multiple times and reviews any discrepancies to prevent data corruption.</source>
+        <translation>この設定を有効にすると、Playbackはカートリッジから保存ファイルを複数回読み込み、データの破損を防ぐために不一致がないか確認します。</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="118"/>
+        <source>Verify Homebrew File Integrity</source>
+        <translation>Homebrewファイルの完全性を確認する</translation>
+    </message>
+    <message>
+        <location filename="../src/PlaybackSettingsScreen.h" line="119"/>
         <source>This setting enables Playback to confirm the integrity of a homebrew game after transferring it to the cartridge, making sure there are no issues affecting your work.</source>
-        <translation type="unfinished"></translation>
+        <translation>この設定により、自作ゲームをカートリッジに移した後、Playbackが自作ゲームの完全性を確認し、作品に問題がないことを確認することができます。</translation>
     </message>
 </context>
 <context>
@@ -917,17 +917,17 @@ Tip: Use external programs to trigger in-game events or customize gameplay.</sou
     <message>
         <location filename="../src/ErrorMessages.h" line="26"/>
         <source>Follow this</source>
-        <translation type="unfinished">これに続く</translation>
+        <translation>これに続く</translation>
     </message>
     <message>
         <location filename="../src/ErrorMessages.h" line="30"/>
         <source>tutorial</source>
-        <translation type="unfinished">チュートリアル</translation>
+        <translation>チュートリアル</translation>
     </message>
     <message>
         <location filename="../src/ErrorMessages.h" line="30"/>
         <source>for cleaning your cartridge pins.</source>
-        <translation type="unfinished"></translation>
+        <translation>カートリッジピンのクリーニング。</translation>
     </message>
 </context>
 <context>
@@ -977,8 +977,8 @@ Would you like to proceed?
         <location filename="../src/SearchWindow.h" line="23"/>
         <source>Looking for your Operator device.
 Please make sure it&apos;s connected.</source>
-        <translation>オペレーターデバイスを探しています。
-接続されていることを確認してください。</translation>
+        <translation>オペレーター装置がカートリッジを正しく読み取れませんでした。
+カートリッジが汚れていないことを確認して、もう一度やり直してください。</translation>
     </message>
     <message>
         <location filename="../src/SearchWindow.h" line="27"/>
@@ -991,22 +991,22 @@ Please make sure it&apos;s connected.</source>
     <message>
         <location filename="../src/EmulatorSettingsScreen.h" line="125"/>
         <source>System</source>
-        <translation type="unfinished"></translation>
+        <translation>システム</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.h" line="125"/>
         <source>Configure base hardware selection.</source>
-        <translation type="unfinished"></translation>
+        <translation>ベースとなるハードウェアの選択を設定する。</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.h" line="126"/>
         <source>Input &amp; Auxiliary Devices</source>
-        <translation type="unfinished"></translation>
+        <translation>入力と補助装置</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.h" line="127"/>
         <source>Configure controller and controller rumble settings.</source>
-        <translation type="unfinished"></translation>
+        <translation>コントローラーとコントローラーのランブル設定を行う。</translation>
     </message>
 </context>
 <context>
@@ -1029,17 +1029,17 @@ Please make sure it&apos;s connected.</source>
     <message>
         <location filename="../src/SettingsWindow.h" line="77"/>
         <source>Controls Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>コントロール設定</translation>
     </message>
     <message>
         <location filename="../src/SettingsWindow.h" line="79"/>
         <source>Cheat Codes</source>
-        <translation type="unfinished"></translation>
+        <translation>チートコード</translation>
     </message>
     <message>
         <location filename="../src/SettingsWindow.h" line="82"/>
         <source>Playback Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Playbackの設定</translation>
     </message>
 </context>
 <context>
@@ -1060,13 +1060,13 @@ Please make sure it&apos;s connected.</source>
     <message>
         <location filename="../src/StartControllerWidget.cpp" line="141"/>
         <source>STOP</source>
-        <translation type="unfinished"></translation>
+        <translation>ストップ</translation>
     </message>
     <message>
         <location filename="../src/StartControllerWidget.cpp" line="141"/>
         <location filename="../src/StartControllerWidget.cpp" line="148"/>
         <source>START</source>
-        <translation type="unfinished">スタート</translation>
+        <translation>スタート</translation>
     </message>
 </context>
 <context>
@@ -1112,7 +1112,7 @@ Please make sure it&apos;s connected.</source>
     <message>
         <location filename="../src/ViewRouter.cpp" line="13"/>
         <source>Upload Homebrew</source>
-        <translation>自作のアップロード</translation>
+        <translation>Homebrewのアップロード</translation>
     </message>
     <message>
         <location filename="../src/ViewRouter.cpp" line="15"/>
