@@ -499,7 +499,7 @@ You can try cleaning then re-inserting the cartridge into the device.
     </message>
     <message>
         <source>About</source>
-        <translation>について</translation>
+        <translation>概要</translation>
     </message>
     <message>
         <source>Exit</source>
