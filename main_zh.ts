@@ -131,12 +131,12 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/DeviceBase.cpp" line="255"/>
         <source>Save data integrity check failed!</source>
-        <translation type="unfinished">存档数据完整性检查失败</translation>
+        <translation>存档数据完整性检查失败</translation>
     </message>
     <message>
         <location filename="../src/DeviceBase.cpp" line="256"/>
         <source>The save data appears to be inconsistent between read cycles. Please clean the cartridge pins and try again.</source>
-        <translation type="unfinished">在读取周期之间，存档数据似乎不一致。请清洁游戏卡带的触点后重试。</translation>
+        <translation>在读取周期之间，存档数据似乎不一致。请清洁游戏卡带的触点后重试。</translation>
     </message>
 </context>
 <context>
@@ -323,12 +323,12 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/EmulatorSettingsScreen.h" line="192"/>
         <source>Enable in-game save verifications (beta)</source>
-        <translation type="unfinished"></translation>
+        <translation>启用游戏内存档验证（测试版）</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.h" line="194"/>
         <source>Enable in-game integrity checks for save data. This feature is still in beta and may not work with all games.</source>
-        <translation type="unfinished"></translation>
+        <translation>启用游戏内存档的完整性检查。这个功能仍处于测试阶段，可能无法适用于所有游戏。</translation>
     </message>
 </context>
 <context>
@@ -772,12 +772,12 @@ If you&apos;d like to easily remove all the pictures from your camera, without h
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="106"/>
         <source>Include RTC data in save file</source>
-        <translation type="unfinished"></translation>
+        <translation>在存档中包含RTC数据</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="107"/>
         <source>When enabled, the Playback software includes the real-time clock (RTC) data in the save file. This ensures that the game&apos;s time-based events are correctly saved and restored.</source>
-        <translation type="unfinished"></translation>
+        <translation>启用后，Playback软件会在存档中包含实时时钟（RTC）数据。这能确保游戏内基于时间的事件的正常保存与恢复。</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="112"/>
@@ -812,12 +812,12 @@ If you&apos;d like to easily remove all the pictures from your camera, without h
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="130"/>
         <source>Enable verbose debug logs (requires restart)</source>
-        <translation type="unfinished"></translation>
+        <translation>启用详细调试日志（需要重启）</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="131"/>
         <source>When enabled, the Playback software will output more detailed logs to help diagnose issues. This setting is useful for troubleshooting and should be disabled when not needed.</source>
-        <translation type="unfinished"></translation>
+        <translation>启用后，Playback软件将输出更详细的日志来帮助诊断问题。该设置对故障排除很有用，且应当在不需要时禁用。</translation>
     </message>
 </context>
 <context>
