@@ -1024,12 +1024,12 @@ Bitte stellen Sie sicher, dass es angeschlossen ist.</translation>
     <message>
         <location filename="../src/EmulatorSettingsScreen.h" line="129"/>
         <source>Input &amp; Auxiliary Devices</source>
-        <translation>Eingabe- und Zusatzgeräte</translation>
+        <translation>Eingabe- &amp; Zusatzgeräte</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.h" line="130"/>
         <source>Configure controller and controller rumble settings.</source>
-        <translation>Controllerkonfigurtions- & Rumbleeinstellungen.</translation>
+        <translation>Controllerkonfigurtions- &amp; Rumbleeinstellungen.</translation>
     </message>
 </context>
 <context>
@@ -1052,7 +1052,7 @@ Bitte stellen Sie sicher, dass es angeschlossen ist.</translation>
     <message>
         <location filename="../src/SettingsWindow.h" line="77"/>
         <source>Controls Settings</source>
-        <translation>Controller Einstellungen/translation>
+        <translation>Controller Einstellungen</translation>
     </message>
     <message>
         <location filename="../src/SettingsWindow.h" line="79"/>
