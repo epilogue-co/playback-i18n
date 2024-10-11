@@ -5,7 +5,7 @@
 | Language            | Type          | Complete | Missing Strings |
 | ------------------- | ------------- | -------- | --------------- |
 | Simplified Chinese  | Human         | ✅       | 0              |
-| German              | Human         | ⚠️       | 74             |
+| German              | Human         | ✅       | 0              |
 | French              | DeepL         | ⚠️       | 74             |
 | Spanish             | Human         | ✅       | 0              |
 | Italian             | DeepL         | ⚠️       | 74             |

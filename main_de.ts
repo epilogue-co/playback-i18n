@@ -16,7 +16,7 @@
     <message>
         <location filename="../src/AboutWindow.cpp" line="111"/>
         <source>Copyright Notices</source>
-        <translation type="unfinished">Copyright-Hinweise</translation>
+        <translation>Copyright-Hinweise</translation>
     </message>
     <message>
         <location filename="../src/AboutWindow.cpp" line="112"/>
@@ -72,12 +72,12 @@ Entfernen Sie das Modul nicht, während ein Vorgang ausgeführt wird.</translati
     <message>
         <location filename="../src/CheatCodesScreen.h" line="25"/>
         <source>Cheat Codes</source>
-        <translation type="unfinished"></translation>
+        <translation>Cheat Codes</translation>
     </message>
     <message>
         <location filename="../src/CheatCodesScreen.h" line="27"/>
         <source>Enable predefined cheats or use cheats from the internet to transform how you play, from abilities and mechanics to audio effects. Make sure you have autosave disabled so that your cartridge&apos;s save isn&apos;t overwritten while you&apos;re running cheats.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktivieren Sie vordefinierte Cheats oder verwenden Sie Cheats aus dem Internet, um Ihr Spielerlebnis zu verändern, von Fähigkeiten und Spielmechaniken bis hin zu Audioeffekten. Stellen Sie sicher, dass Sie die automatische Speicherung deaktiviert haben, damit der Speicherstand Ihres Moduls beim Ausführen von Cheats nicht überschrieben wird.</translation>
     </message>
 </context>
 <context>
@@ -85,12 +85,12 @@ Entfernen Sie das Modul nicht, während ein Vorgang ausgeführt wird.</translati
     <message>
         <location filename="../src/ControlsWidget.cpp" line="56"/>
         <source>Player: </source>
-        <translation type="unfinished"></translation>
+        <translation>Spieler: </translation>
     </message>
     <message>
         <location filename="../src/ControlsWidget.cpp" line="131"/>
         <source>Input: </source>
-        <translation type="unfinished"></translation>
+        <translation>Eingabegeräte: </translation>
     </message>
 </context>
 <context>
@@ -98,24 +98,24 @@ Entfernen Sie das Modul nicht, während ein Vorgang ausgeführt wird.</translati
     <message>
         <location filename="../src/CustomCheatCodesWidget.cpp" line="7"/>
         <source>Custom Cheats</source>
-        <translation type="unfinished"></translation>
+        <translation>Benutzerdefinierte Cheats</translation>
     </message>
     <message>
         <location filename="../src/CustomCheatCodesWidget.cpp" line="14"/>
         <location filename="../src/CustomCheatCodesWidget.cpp" line="40"/>
         <source>Description</source>
-        <translation type="unfinished"></translation>
+        <translation>Beschreibung</translation>
     </message>
     <message>
         <location filename="../src/CustomCheatCodesWidget.cpp" line="15"/>
         <location filename="../src/CustomCheatCodesWidget.cpp" line="41"/>
         <source>Code</source>
-        <translation type="unfinished"></translation>
+        <translation>Code</translation>
     </message>
     <message>
         <location filename="../src/CustomCheatCodesWidget.cpp" line="36"/>
         <source>Enabled</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktivieren</translation>
     </message>
 </context>
 <context>
@@ -123,7 +123,7 @@ Entfernen Sie das Modul nicht, während ein Vorgang ausgeführt wird.</translati
     <message>
         <location filename="../src/DatabaseCheatCodesWidget.cpp" line="8"/>
         <source> Default Cheats</source>
-        <translation type="unfinished"></translation>
+        <translation> Vordefinierte Cheats</translation>
     </message>
 </context>
 <context>
@@ -131,12 +131,12 @@ Entfernen Sie das Modul nicht, während ein Vorgang ausgeführt wird.</translati
     <message>
         <location filename="../src/DeviceBase.cpp" line="255"/>
         <source>Save data integrity check failed!</source>
-        <translation type="unfinished"></translation>
+        <translation>Integritätsprüfung des Spielstands ist fehlgeschlagen!</translation>
     </message>
     <message>
         <location filename="../src/DeviceBase.cpp" line="256"/>
         <source>The save data appears to be inconsistent between read cycles. Please clean the cartridge pins and try again.</source>
-        <translation type="unfinished"></translation>
+        <translation>Die gespeicherten Daten scheinen zwischen den Lesezyklen inkonsistent zu sein. Bitte reinigen Sie das Modul und versuchen Sie es erneut.</translation>
     </message>
 </context>
 <context>
@@ -144,82 +144,82 @@ Entfernen Sie das Modul nicht, während ein Vorgang ausgeführt wird.</translati
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="100"/>
         <source>Game Data Integrity Check Failed!</source>
-        <translation type="unfinished"></translation>
+        <translation>Integritätsprüfung der Spieldaten ist fehlgeschlagen!</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="101"/>
         <source>Playback detected a discrepancy between the expected game data and the backed up data. Please clean the cartridge pins and try again to ensure accuracy.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bei der Wiedergabe wurde eine Abweichung zwischen den erwarteten Spieldaten und den gesicherten Daten festgestellt. Bitte reinigen Sie das Modul und versuchen Sie es erneut, um die Genauigkeit sicherzustellen.</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="135"/>
         <source>Empty File Was Provided!</source>
-        <translation type="unfinished"></translation>
+        <translation>Es wurde eine leere Datei bereitgestellt!</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="136"/>
         <source> It looks like the homebrew game you&apos;re trying to upload has been detected by Playback as having 0 bytes. Please verify that the data you&apos;re attempting to upload is accurate.</source>
-        <translation type="unfinished"></translation>
+        <translation>Es scheint so als ob das Homebrew-Spiel, das Sie hochladen möchten, 0 Byte groß ist. Bitte überprüfen Sie die Daten, die Sie hochladen möchten, auf korrektheit.</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="147"/>
         <source>Upload Homebrew Command Failed!</source>
-        <translation type="unfinished"></translation>
+        <translation>Upload des Homebrew-Befehls fehlgeschlagen!</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="148"/>
         <source>An error occurred while attempting to start the homebrew upload command. Please restart the application and reconnect the Operator device. If the problem continues, contact our Support team.</source>
-        <translation type="unfinished"></translation>
+        <translation>Beim Versuch, den Homebrew-Upload-Befehl zu starten, ist ein Fehler aufgetreten. Bitte starten Sie die Anwendung neu und schließen Sie das Operator-Gerät erneut an. Wenn das Problem weiterhin besteht, wenden Sie sich an unser Support-Team.</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="162"/>
         <source>Homebrew Cartridge Erase Failed!</source>
-        <translation type="unfinished"></translation>
+        <translation>Löschen des Homebrew Moduls fehlgeschlagen!</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="163"/>
         <source>Playback couldn&apos;t delete the contents of the homebrew cartridge. Please clean the cartridge pins and try again. If the issue persists, contact our Support team.</source>
-        <translation type="unfinished"></translation>
+        <translation>Der Inhalt des Homebrew Moduls konnte nicht gelöscht werden. Bitte reinigen Sie die Kontakte und versuchen Sie es erneut. Wenn das Problem weiterhin besteht, wenden Sie sich an unser Support-Team.</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="182"/>
         <source>Homebrew Cartridge Data Integrity Check Failed!</source>
-        <translation type="unfinished"></translation>
+        <translation>Überprüfung der Datenintegrität des Homebrew Moduls fehlgeschlagen!</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="183"/>
         <source>The cartridge was erased successfully, but the data written does not match the data read back. This issue might occur with some homebrew cartridges. Make sure the game is playable, either by testing on an original console or in the Playback app.</source>
-        <translation type="unfinished"></translation>
+        <translation>Das Modul wurde erfolgreich gelöscht, aber die geschriebenen Daten stimmen nicht mit den gelesenen Daten überein. Dieses Problem kann bei einigen Homebrew Modulen auftreten. Stellen Sie sicher, dass das Spiel spielbar ist, indem Sie es entweder auf einer Originalkonsole oder in der Playback-Software testen.</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="213"/>
         <source>Written game data integrity check failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Integritätsprüfung der geschriebenen Spieldaten fehlgeschlagen!</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="213"/>
         <source>Read data does not match written data.</source>
-        <translation type="unfinished"></translation>
+        <translation>Die gelesenen Daten stimmen nicht mit den geschriebenen Daten überein.</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="320"/>
         <source>Write save failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Schreiben des Spielstands fehlgeschlagen!</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="320"/>
         <source>Failed to send write save command to device.</source>
-        <translation type="unfinished"></translation>
+        <translation>Der &quot;Spielstand schreiben&quot; - Befehl konnte nicht an das Gerät gesendet werden.</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="350"/>
         <source>Save Data Integrity Check Failed!</source>
-        <translation type="unfinished"></translation>
+        <translation>Integritätsprüfung des Spielstands fehlgeschlagen!</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="351"/>
         <source>The save data written to the cartridge does not match the data read back. Please clean the cartridge pins and try again to ensure consistency.</source>
-        <translation type="unfinished"></translation>
+        <translation>Die auf dem Modul geschriebenen Speicherdaten stimmen nicht mit den zurückgelesenen Daten überein. Bitte reinigen Sie die Kontakte und versuchen Sie es erneut, um die Konsistenz sicherzustellen.</translation>
     </message>
 </context>
 <context>
@@ -240,7 +240,7 @@ Entfernen Sie das Modul nicht, während ein Vorgang ausgeführt wird.</translati
     <message>
         <location filename="../src/DeviceSwitcherDropdown.h" line="78"/>
         <source>Expand your collection on epilogue.co</source>
-        <translation type="unfinished"></translation>
+        <translation>Erweitern Sie Ihre Sammlung auf epilogue.co</translation>
     </message>
 </context>
 <context>
@@ -248,7 +248,7 @@ Entfernen Sie das Modul nicht, während ein Vorgang ausgeführt wird.</translati
     <message>
         <location filename="../src/DeviceSwitcherDropdown.cpp" line="194"/>
         <source>View more</source>
-        <translation type="unfinished"></translation>
+        <translation>Mehr anzeigen</translation>
     </message>
 </context>
 <context>
@@ -256,22 +256,22 @@ Entfernen Sie das Modul nicht, während ein Vorgang ausgeführt wird.</translati
     <message>
         <location filename="../src/Emulator.cpp" line="244"/>
         <source>Failed to load game!</source>
-        <translation type="unfinished">Das Spiel konnte nicht geladen werden!</translation>
+        <translation>Das Spiel konnte nicht geladen werden!</translation>
     </message>
     <message>
         <location filename="../src/Emulator.cpp" line="245"/>
         <source>Unable to launch the game, please make sure that the cartridge is clean.</source>
-        <translation type="unfinished">Das Spiel kann nicht gestartet werden. Vergewissern Sie sich, dass Ihr Modul sauber ist.</translation>
+        <translation>Das Spiel kann nicht gestartet werden. Vergewissern Sie sich, dass Ihr Modul sauber ist.</translation>
     </message>
     <message>
         <location filename="../src/Emulator.cpp" line="251"/>
         <source>Failed to load save data!</source>
-        <translation type="unfinished"></translation>
+        <translation>Das Laden des Spielsandes ist fehlgeschlagen!</translation>
     </message>
     <message>
         <location filename="../src/Emulator.cpp" line="251"/>
         <source>The core failed to load the save data.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ihr GB Operator konnte den Spielstand nicht laden.</translation>
     </message>
 </context>
 <context>
@@ -323,12 +323,12 @@ Entfernen Sie das Modul nicht, während ein Vorgang ausgeführt wird.</translati
     <message>
         <location filename="../src/EmulatorSettingsScreen.h" line="192"/>
         <source>Enable in-game save verifications (beta)</source>
-        <translation type="unfinished"></translation>
+        <translation>Speicherüberprüfungen im Spiel aktivieren (Beta)</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.h" line="194"/>
         <source>Enable in-game integrity checks for save data. This feature is still in beta and may not work with all games.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktiviert In-Game-Integritätsprüfungen für Spielstände. Diese Funktion befindet sich noch in der Betaphase und funktioniert möglicherweise nicht mit allen Spielen.</translation>
     </message>
 </context>
 <context>
@@ -336,12 +336,12 @@ Entfernen Sie das Modul nicht, während ein Vorgang ausgeführt wird.</translati
     <message>
         <location filename="../src/UIComponents.cpp" line="94"/>
         <source>Warning! Do not disconnect your device.</source>
-        <translation type="unfinished"></translation>
+        <translation>Achtung! Trennen Sie NICHT die Verbindung zum GB Operator.</translation>
     </message>
     <message>
         <location filename="../src/UIComponents.cpp" line="96"/>
         <source>Please DO NOT disconnect or turn off your device during the update process. The LED will turn off during the update. Interruption will lead to your device becoming unusable and void warranty. By agreeing to this message box you confirm your understanding of these instructions.</source>
-        <translation type="unfinished"></translation>
+        <translation >Bitte trennen Sie Ihr Gerät NICHT während des Aktualisierungsvorgangs und schalten Sie es NICHT aus. Die LED erlischt während der Aktualisierung. Eine Unterbrechung führt dazu, dass Ihr Gerät unbrauchbar wird und die Garantie erlischt. Indem Sie diesem Meldungsfeld zustimmen, bestätigen Sie, dass Sie diese Anweisungen verstanden haben.</translation>
     </message>
 </context>
 <context>
@@ -375,17 +375,17 @@ bitte entfernen Sie das Gerät nicht.</translation>
     <message>
         <location filename="../src/InputBindingsScreen.cpp" line="26"/>
         <source>Need help?</source>
-        <translation type="unfinished"></translation>
+        <translation>Brauchen Sie Hilfe?</translation>
     </message>
     <message>
         <location filename="../src/InputBindingsScreen.h" line="56"/>
         <source>Controls Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Controller Einstellungen</translation>
     </message>
     <message>
         <location filename="../src/InputBindingsScreen.h" line="58"/>
         <source>The Playback software comes with pre-configured bindings for most gamepads. Try pressing buttons on your controller or keyboard to test them.</source>
-        <translation type="unfinished"></translation>
+        <translation>Die Playback-Software enthält vorkonfigurierte Button Mappings für die meisten Gamepads. Testen Sie sie, indem Sie die Tasten auf Ihrem Controller oder Ihrer Tastatur drücken.</translation>
     </message>
     <message>
         <location filename="../src/InputBindingsScreen.h" line="61"/>
@@ -447,7 +447,7 @@ Sie können versuchen, das Modul zu reinigen und erneut in das Gerät einzusetze
     <message>
         <location filename="../src/UIComponents.cpp" line="87"/>
         <source>to configure your Operator device.</source>
-        <translation>um Ihren Operator zu konfigurieren.</translation>
+        <translation>um Ihren GB Operator zu konfigurieren.</translation>
     </message>
 </context>
 <context>
@@ -460,7 +460,7 @@ Sie können versuchen, das Modul zu reinigen und erneut in das Gerät einzusetze
     <message>
         <location filename="../src/UIComponents.cpp" line="65"/>
         <source>Your Operator device did not manage to read your cartridge properly. Please make sure that the cartridge is clean and try again.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ihr GB Operator konnte Ihr Modul nicht richtig lesen. Bitte stellen Sie sicher, dass das Modul sauber ist, und versuchen Sie es erneut.</translation>
     </message>
 </context>
 <context>
@@ -483,7 +483,7 @@ Sie können versuchen, das Modul zu reinigen und erneut in das Gerät einzusetze
     <message>
         <location filename="../src/ManagePage.cpp" line="97"/>
         <source>[no checksum available]</source>
-        <translation type="unfinished"></translation>
+        <translation>[keine Prüfnummer verfügbar]</translation>
     </message>
     <message>
         <location filename="../src/ManagePage.h" line="53"/>
@@ -506,7 +506,7 @@ Sie können versuchen, das Modul zu reinigen und erneut in das Gerät einzusetze
     <message>
         <location filename="../src/ManagePageOperation.cpp" line="50"/>
         <source>STOP</source>
-        <translation type="unfinished"></translation>
+        <translation>ABBRECHEN</translation>
     </message>
     <message>
         <location filename="../src/ManagePageOperation.cpp" line="160"/>
@@ -517,7 +517,7 @@ Sie können versuchen, das Modul zu reinigen und erneut in das Gerät einzusetze
     <message>
         <location filename="../src/ManagePageOperation.cpp" line="274"/>
         <source>START</source>
-        <translation type="unfinished">START</translation>
+        <translation>START</translation>
     </message>
 </context>
 <context>
@@ -530,7 +530,7 @@ Sie können versuchen, das Modul zu reinigen und erneut in das Gerät einzusetze
     <message>
         <location filename="../src/UIComponents.cpp" line="76"/>
         <source>It looks like there is another instance of the software running on this computer. Closing this instance.</source>
-        <translation type="unfinished"></translation>
+        <translation>Es scheint so, als ob auf diesem Computer eine weitere Instanz der Software ausgeführt wird. Dieses Fenster wird geschlossen.</translation>
     </message>
 </context>
 <context>
@@ -710,32 +710,32 @@ Wenn Sie alle Bilder von Ihrer Kamera entfernen möchten, ohne diese einzeln in 
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="8"/>
         <source>Settings</source>
-        <translation type="unfinished">Einstellungen</translation>
+        <translation>Einstellungen</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="8"/>
         <source>Configure system settings.</source>
-        <translation type="unfinished"></translation>
+        <translation>Konfigurieren Sie die Systemeinstellungen.</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="76"/>
         <source>Preferred Language (requires restart)</source>
-        <translation type="unfinished">Bevorzugte Sprache (Neustart erforderlich)</translation>
+        <translation>Bevorzugte Sprache (Neustart erforderlich)</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="77"/>
         <source>Allows you to change the language in which the Playback software is presented. It requires an application restart in order to update the language accross the entire application.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hiermit können Sie die Sprache ändern, in der die Playback-Software angezeigt wird. Um die Sprache in der gesamten Anwendung zu aktualisieren, ist ein Neustart der Anwendung erforderlich.</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="94"/>
         <source>Autosave to cartridge (beta)</source>
-        <translation type="unfinished">Automatisches Speichern auf dem Modul (beta)</translation>
+        <translation>Automatisches Speichern auf dem Modul (beta)</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="95"/>
         <source>Once you save in-game, or the game modifies the save internally, your Operator device will automatically write the save to the cartridge. This feature is still in development.</source>
-        <translation type="unfinished"></translation>
+        <translation>Sobald Sie im Spiel speichern oder sich der Speicherstand ändert, schreibt Ihr GB Operator den Speicherstand automatisch auf das Modul. Diese Funktion befindet sich noch in der Entwicklung.</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="98"/>
@@ -746,7 +746,7 @@ Wenn Sie alle Bilder von Ihrer Kamera entfernen möchten, ohne diese einzeln in 
         <location filename="../src/PlaybackSettingsScreen.h" line="127"/>
         <location filename="../src/PlaybackSettingsScreen.h" line="133"/>
         <source>Enabled</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktivieriert</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="98"/>
@@ -757,67 +757,68 @@ Wenn Sie alle Bilder von Ihrer Kamera entfernen möchten, ohne diese einzeln in 
         <location filename="../src/PlaybackSettingsScreen.h" line="127"/>
         <location filename="../src/PlaybackSettingsScreen.h" line="133"/>
         <source>Disabled</source>
-        <translation type="unfinished"></translation>
+        <translation>Deaktivieriert</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="101"/>
         <source>FPS Counter</source>
-        <translation type="unfinished"></translation>
+        <translation>FPS Anzeige</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="102"/>
         <source>Displays the current frames per second (FPS) of the game being played.</source>
-        <translation type="unfinished"></translation>
+        <translation>Zeigt die aktuellen Bilder pro Sekunde (FPS) des gespielten Spiels an.</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="106"/>
         <source>Include RTC data in save file</source>
-        <translation type="unfinished"></translation>
+        <translation>RTC-Daten in Speicherstand übernehmen</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="107"/>
         <source>When enabled, the Playback software includes the real-time clock (RTC) data in the save file. This ensures that the game&apos;s time-based events are correctly saved and restored.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wenn diese Option aktiviert ist, fügt die Playback-Software die Echtzeitdaten (real-time clock) in den Spielstand ein. Dadurch wird sichergestellt, dass die zeitbasierten Ereignisse des Spiels korrekt gespeichert und wiederhergestellt werden.</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="112"/>
         <source>Verify Save After Writing Process</source>
-        <translation type="unfinished"></translation>
+        <translation>Spielstand nach dem Schreibvorgang überprüfen</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="113"/>
         <source>Activating this setting prompts Playback to check that the save file remains uncorrupted after being written to the cartridge. It ensures your game progress has been safely stored.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wenn Sie diese Einstellung aktivieren, prüft die Playback-Software, ob die Sicherungsdatei nach dem Schreiben auf das Modul unbeschädigt ist. So wird sichergestellt, dass Ihr Spielfortschritt sicher gespeichert wurde.</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="118"/>
         <source>Verify Save is Read Properly</source>
-        <translation type="unfinished"></translation>
+        <translation>Gelesen Spielstand überprüfen</translation>
     </message>
     <message>
+
         <location filename="../src/PlaybackSettingsScreen.h" line="119"/>
         <source>When this setting is enabled, Playback reads the save file from the cartridge multiple times and reviews any discrepancies to prevent data corruption.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wenn diese Einstellung aktiviert ist, liest die Playback-Software den Spielstand mehrmals von dem Modul und überprüft etwaige Unstimmigkeiten, um Datenbeschädigungen zu verhindern.</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="124"/>
         <source>Verify Homebrew File Integrity</source>
-        <translation type="unfinished"></translation>
+        <translation>Homebrew Datei Integritätsprüfung</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="125"/>
         <source>This setting enables Playback to confirm the integrity of a homebrew game after transferring it to the cartridge, making sure there are no issues affecting your work.</source>
-        <translation type="unfinished"></translation>
+        <translation>Mit dieser Einstellung kann die Playback-Software die Integrität eines Homebrew-Spiels nach der Übertragung auf ein Modul bestätigen und sicherstellen, dass Ihre Arbeit durch keine Probleme beeinträchtigt wird.</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="130"/>
         <source>Enable verbose debug logs (requires restart)</source>
-        <translation type="unfinished"></translation>
+        <translation>Ausführliche Debugprotokolle aktivieren (Neustart erforderlich)</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="131"/>
         <source>When enabled, the Playback software will output more detailed logs to help diagnose issues. This setting is useful for troubleshooting and should be disabled when not needed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wenn diese Option aktiviert ist, gibt die Playback-Software detailliertere Protokolle aus, um die Diagnose von Problemen zu erleichtern. Diese Einstellung ist für die Fehlerbehebung nützlich und sollte deaktiviert werden, wenn sie nicht benötigt wird.</translation>
     </message>
 </context>
 <context>
@@ -923,7 +924,7 @@ Tipp: Übertragen Sie Ihr Homebrew-Spiel auf ein Modul und spielen Sie es auf de
         <source>Transfer a duplicate of your save data from the cartridge to your computer. You can then back up your save file or edit it with an external program.
 
 Tip: Transfer your save to the computer, replace the battery and transfer it back to the cartridge safely.</source>
-        <translation>Übertragen Sie ein Duplikat Ihres Spielstandes von dem Modul auf Ihren Computer. Sie können dann eine Sicherungskopie Ihrer Speicherdatei erstellen oder sie mit einem externen Programm bearbeiten.
+        <translation>Übertragen Sie ein Duplikat Ihres Spielstands von dem Modul auf Ihren Computer. Sie können dann eine Sicherungskopie Ihrer Speicherdatei erstellen oder sie mit einem externen Programm bearbeiten.
 
 Tipp: Übertragen Sie Ihren Spielstand auf den Computer, tauschen Sie die Batterie aus und übertragen Sie ihn sicher zurück auf das Modul.</translation>
     </message>
@@ -939,17 +940,17 @@ Tipp: Verwenden Sie externe Programme, um Ereignisse im Spiel auszulösen oder d
     <message>
         <location filename="../src/ErrorMessages.h" line="26"/>
         <source>Follow this</source>
-        <translation type="unfinished">Folgen Sie dieser</translation>
+        <translation>Folgen Sie dieser</translation>
     </message>
     <message>
         <location filename="../src/ErrorMessages.h" line="30"/>
         <source>tutorial</source>
-        <translation type="unfinished">Anleitung</translation>
+        <translation>Anleitung</translation>
     </message>
     <message>
         <location filename="../src/ErrorMessages.h" line="30"/>
         <source>for cleaning your cartridge pins.</source>
-        <translation type="unfinished"></translation>
+        <translation>zum Reinigen der Konakte.</translation>
     </message>
 </context>
 <context>
@@ -999,7 +1000,7 @@ Möchten Sie fortfahren?
         <location filename="../src/SearchWindow.h" line="24"/>
         <source>Looking for your Operator device.
 Please make sure it&apos;s connected.</source>
-        <translation>Ihr Operator wird gesucht.
+        <translation>Ihr GB Operator wird gesucht.
 Bitte stellen Sie sicher, dass es angeschlossen ist.</translation>
     </message>
     <message>
@@ -1013,22 +1014,22 @@ Bitte stellen Sie sicher, dass es angeschlossen ist.</translation>
     <message>
         <location filename="../src/EmulatorSettingsScreen.h" line="128"/>
         <source>System</source>
-        <translation type="unfinished"></translation>
+        <translation>System</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.h" line="128"/>
         <source>Configure base hardware selection.</source>
-        <translation type="unfinished"></translation>
+        <translation>Grundlegende Hardwareauswahl konfigurieren.</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.h" line="129"/>
         <source>Input &amp; Auxiliary Devices</source>
-        <translation type="unfinished"></translation>
+        <translation>Eingabe- &amp; Zusatzgeräte</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.h" line="130"/>
         <source>Configure controller and controller rumble settings.</source>
-        <translation type="unfinished"></translation>
+        <translation>Controllerkonfigurtions- &amp; Rumbleeinstellungen.</translation>
     </message>
 </context>
 <context>
@@ -1051,17 +1052,17 @@ Bitte stellen Sie sicher, dass es angeschlossen ist.</translation>
     <message>
         <location filename="../src/SettingsWindow.h" line="77"/>
         <source>Controls Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Controller Einstellungen</translation>
     </message>
     <message>
         <location filename="../src/SettingsWindow.h" line="79"/>
         <source>Cheat Codes</source>
-        <translation type="unfinished"></translation>
+        <translation>Cheat Codes</translation>
     </message>
     <message>
         <location filename="../src/SettingsWindow.h" line="82"/>
         <source>Playback Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Playback Einstellungen</translation>
     </message>
 </context>
 <context>
@@ -1082,13 +1083,13 @@ Bitte stellen Sie sicher, dass es angeschlossen ist.</translation>
     <message>
         <location filename="../src/StartControllerWidget.cpp" line="138"/>
         <source>STOP</source>
-        <translation type="unfinished"></translation>
+        <translation>ABBRECHEN</translation>
     </message>
     <message>
         <location filename="../src/StartControllerWidget.cpp" line="138"/>
         <location filename="../src/StartControllerWidget.cpp" line="145"/>
         <source>START</source>
-        <translation type="unfinished">START</translation>
+        <translation>START</translation>
     </message>
 </context>
 <context>
