@@ -25,6 +25,8 @@ You will need to change the name of the branch accordingly. Once your work is do
 
 Download and install QtLinguist, use it to edit the translation files.
 
+You can download it from [here](https://download.qt.io/linguist_releases/) for Windows. For other OSes you'll need to download Qt6 via a package manager or the online installer Qt provides.
+
 ### Updating translation files with a code editor
 
 In order to translate an `unfinished` entry:
