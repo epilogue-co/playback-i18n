@@ -2,17 +2,17 @@
 
 ## Translation status
 
-| Language            | Type          | Complete | Missing Strings |
-| ------------------- | ------------- | -------- | --------------- |
-| Simplified Chinese  | Human         | ⚠️        | 15              |
-| German              | Human         | ⚠️        | 15              |
-| French              | DeepL         | ⚠️       | 79             |
-| Spanish             | Human         | ⚠️        | 13              |
-| Italian             | DeepL         | ⚠️       | 79             |
-| Japanese            | Human         | ⚠️        | 15              |
-| Korean              | Human         | ⚠️        | 18             |
-| Dutch               | DeepL         | ⚠️       | 74             |
-| Romanian            | Human         | ✅      | 0             |
+| Language            | Type          | Complete    | Missing Strings  |
+| ------------------- | ------------- | --------    | ---------------  |
+| Simplified Chinese  | Human         | ⚠️           | 15               |
+| German              | Human         | ⚠️           | 15               |
+| French              | DeepL         | ✅          | 0                |
+| Spanish             | Human         | ⚠️           | 13               |
+| Italian             | DeepL         | ✅          | 0                |
+| Japanese            | Human         | ⚠️           | 15               |
+| Korean              | Human         | ⚠️           | 18               |
+| Dutch               | DeepL         | ✅          | 0                |
+| Romanian            | Human         | ✅          | 0                |
 
 ## Translation files (i18n)
 
