@@ -29,7 +29,7 @@
     <message>
         <location filename="../src/UIComponents.cpp" line="118"/>
         <source>beta</source>
-        <translation type="unfinished"></translation>
+        <translation>beta</translation>
     </message>
 </context>
 <context>
@@ -246,7 +246,7 @@ Nu scoate caseta în timp ce se desfășoară orice operațiune.</translation>
     <message>
         <location filename="../src/DeviceSharedMemory.cpp" line="16"/>
         <source>Shared Memory Error</source>
-        <translation type="unfinished"></translation>
+        <translation>Eroare de memorie</translation>
     </message>
 </context>
 <context>
@@ -323,7 +323,7 @@ Nu scoate caseta în timp ce se desfășoară orice operațiune.</translation>
     <message>
         <location filename="../src/EmulatorSettingsScreen.h" line="198"/>
         <source>In-game save verifications</source>
-        <translation type="unfinished"></translation>
+        <translation>Verificarea salvării în timpul jocului</translation>
     </message>
     <message>
         <source>Enable in-game save verifications (beta)</source>
@@ -561,7 +561,7 @@ Poți încerca să cureți și apoi să reintroduci caseta în dispozitiv.
     <message>
         <location filename="../src/Navbar.h" line="150"/>
         <source>Press TAB to exit mouse capture mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Apasă TAB pentru a ieși din captura mouse-ului</translation>
     </message>
     <message>
         <location filename="../src/Navbar.h" line="151"/>
@@ -800,27 +800,27 @@ Dacă dorești să elimini cu ușurință toate imaginile din cameră, fără a 
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="138"/>
         <source>Preferred emulator core</source>
-        <translation type="unfinished"></translation>
+        <translation>Nucleu de emulator preferat</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="139"/>
         <source>Allows you to select the preferred emulation core for running games. Different cores may offer varying levels of accuracy, performance, or compatibility with specific games. Choose the core that best suits your needs and the game you&apos;re playing.</source>
-        <translation type="unfinished"></translation>
+        <translation>Îți permite să selectezi nucleul de emulare preferat pentru rularea jocurilor. Diferite nuclee pot oferi niveluri variate de acuratețe, performanță sau compatibilitate cu jocuri specifice. Alege nucleul care se potrivește cel mai bine nevoilor tale și jocului pe care îl joci.</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="150"/>
         <source>Autosave to cartridge</source>
-        <translation type="unfinished"></translation>
+        <translation>Salvare automată pe casetă</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="166"/>
         <source>RTC data in save file</source>
-        <translation type="unfinished"></translation>
+        <translation>Date RTC în salvare</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="167"/>
         <source>When enabled and supported by the game, Playback adds real-time clock (RTC) data to the save file. This ensures accurate preservation of time-based events. Note that this will increase the file size and might make it incompatible with other software.</source>
-        <translation type="unfinished"></translation>
+        <translation>Atunci când această optiune este activată și suportată de joc, Playback adaugă datele din real-time clock (RTC) în fișierul de salvare. Acest lucru asigură un backup complet al jocului, împreună cu evenimentele bazate pe calendar. Notă: această funcționalitate va crește dimensiunea fișierului de salvare și s-ar putea sa-l facă incompatibil cu alte softuri.</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="175"/>
@@ -865,22 +865,22 @@ Dacă dorești să elimini cu ușurință toate imaginile din cameră, fără a 
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="49"/>
         <source>General</source>
-        <translation type="unfinished"></translation>
+        <translation>General</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="49"/>
         <source>Customize general settings to offer a personalized experience.</source>
-        <translation type="unfinished"></translation>
+        <translation>Personalizează-ți experiența cu setările generale ale aplicației.</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="52"/>
         <source>Data</source>
-        <translation type="unfinished"></translation>
+        <translation>Date</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="52"/>
         <source>Configure how transfers are handled in the Data section of Playback.</source>
-        <translation type="unfinished"></translation>
+        <translation>Configurează cum se fac transferurile de date în secțiunea de Date din Playback.</translation>
     </message>
 </context>
 <context>
@@ -888,12 +888,12 @@ Dacă dorești să elimini cu ușurință toate imaginile din cameră, fără a 
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="196"/>
         <source>Open Log Directory</source>
-        <translation type="unfinished"></translation>
+        <translation>Deschide folder</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="202"/>
         <source>Open Cores Directory</source>
-        <translation type="unfinished"></translation>
+        <translation>Deschide folder</translation>
     </message>
 </context>
 <context>

@@ -12,6 +12,7 @@
 | Japanese            | Human         | ⚠️        | 15              |
 | Korean              | Human         | ⚠️        | 18             |
 | Dutch               | DeepL         | ⚠️       | 74             |
+| Romanian            | Human         | ✅      | 0             |
 
 ## Translation files (i18n)
 
