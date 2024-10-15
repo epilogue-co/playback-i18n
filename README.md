@@ -7,7 +7,7 @@
 | Simplified Chinese  | Human         | ⚠️           | 15               |
 | German              | Human         | ⚠️           | 15               |
 | French              | DeepL         | ✅          | 0                |
-| Spanish             | Human         | ⚠️           | 13               |
+| Spanish             | Human         | ✅          | 0                |
 | Italian             | DeepL         | ✅          | 0                |
 | Japanese            | Human         | ⚠️           | 15               |
 | Korean              | Human         | ⚠️           | 18               |

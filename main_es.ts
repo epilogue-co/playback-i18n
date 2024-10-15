@@ -29,7 +29,7 @@
     <message>
         <location filename="../src/UIComponents.cpp" line="118"/>
         <source>beta</source>
-        <translation type="unfinished"></translation>
+        <translation>beta</translation>
     </message>
 </context>
 <context>
@@ -137,7 +137,7 @@ No extraiga el cartucho mientras se esté realizando alguna operación.</transla
     <message>
         <location filename="../src/DeviceBase.cpp" line="266"/>
         <source>Save data integrity check failed!</source>
-        <translation>Error en la comprobación de la integridad de los datos guardados.</translation>
+        <translation>Error en la comprobación de la integridad de los datos guardados!</translation>
     </message>
     <message>
         <location filename="../src/DeviceBase.cpp" line="267"/>
@@ -246,7 +246,7 @@ No extraiga el cartucho mientras se esté realizando alguna operación.</transla
     <message>
         <location filename="../src/DeviceSharedMemory.cpp" line="16"/>
         <source>Shared Memory Error</source>
-        <translation type="unfinished"></translation>
+        <translation>Error de Memoria Compartida</translation>
     </message>
 </context>
 <context>
@@ -337,7 +337,7 @@ No extraiga el cartucho mientras se esté realizando alguna operación.</transla
     <message>
         <location filename="../src/EmulatorSettingsScreen.h" line="198"/>
         <source>In-game save verifications</source>
-        <translation type="unfinished"></translation>
+        <translation>Verificaciones de guardado en el juego</translation>
     </message>
     <message>
         <source>Enable in-game save verifications (beta)</source>
@@ -561,7 +561,7 @@ Puedes intentar limpiar el cartucho y volver a insertarlo en el dispositivo.
     <message>
         <location filename="../src/Navbar.h" line="150"/>
         <source>Press TAB to exit mouse capture mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Pulse TAB para salir del modo de captura del mouse</translation>
     </message>
     <message>
         <location filename="../src/Navbar.h" line="151"/>
@@ -792,17 +792,17 @@ Si quieres eliminar fácilmente todas las fotos de tu cámara, sin tener que bor
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="138"/>
         <source>Preferred emulator core</source>
-        <translation type="unfinished"></translation>
+        <translation>Núcleo de emulador preferido</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="139"/>
         <source>Allows you to select the preferred emulation core for running games. Different cores may offer varying levels of accuracy, performance, or compatibility with specific games. Choose the core that best suits your needs and the game you&apos;re playing.</source>
-        <translation type="unfinished"></translation>
+        <translation>Te permite seleccionar el núcleo de emulación preferido para ejecutar juegos. Los diferentes núcleos pueden ofrecer distintos niveles de precisión, rendimiento o compatibilidad con juegos específicos. Elige el núcleo que mejor se adapte a tus necesidades y al juego que estás jugando.</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="150"/>
         <source>Autosave to cartridge</source>
-        <translation type="unfinished"></translation>
+        <translation>Guardado automático en cartucho</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="166"/>
@@ -857,22 +857,22 @@ Si quieres eliminar fácilmente todas las fotos de tu cámara, sin tener que bor
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="49"/>
         <source>General</source>
-        <translation type="unfinished"></translation>
+        <translation>General</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="49"/>
         <source>Customize general settings to offer a personalized experience.</source>
-        <translation type="unfinished"></translation>
+        <translation>Personaliza la configuración general para ofrecer una experiencia personalizada.</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="52"/>
         <source>Data</source>
-        <translation type="unfinished"></translation>
+        <translation>Data</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="52"/>
         <source>Configure how transfers are handled in the Data section of Playback.</source>
-        <translation type="unfinished"></translation>
+        <translation>Configura cómo se gestionan las transferencias en la sección de Datos de la Reproducción.</translation>
     </message>
 </context>
 <context>
@@ -880,12 +880,12 @@ Si quieres eliminar fácilmente todas las fotos de tu cámara, sin tener que bor
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="196"/>
         <source>Open Log Directory</source>
-        <translation type="unfinished"></translation>
+        <translation>Abrir Directorio de Registros</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="202"/>
         <source>Open Cores Directory</source>
-        <translation type="unfinished"></translation>
+        <translation>Abrir Directorio de Núcleos</translation>
     </message>
 </context>
 <context>
