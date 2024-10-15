@@ -29,7 +29,7 @@
     <message>
         <location filename="../src/UIComponents.cpp" line="118"/>
         <source>beta</source>
-        <translation type="unfinished"></translation>
+        <translation>ベータ</translation>
     </message>
 </context>
 <context>
@@ -165,7 +165,7 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="134"/>
         <source> It looks like the homebrew game you&apos;re trying to upload has been detected by Playback as having 0 bytes. Please verify that the data you&apos;re attempting to upload is accurate.</source>
-        <translation>アップロードしようとしているHomebrewゲームは、Playbackによって0バイトと検出されたようです。アップロードしようとしているデータが正確かどうか確認してください。</translation>
+        <translation> アップロードしようとしているHomebrewゲームは、Playbackによって0バイトと検出されたようです。アップロードしようとしているデータが正確かどうか確認してください。</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="145"/>
@@ -246,7 +246,7 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/DeviceSharedMemory.cpp" line="16"/>
         <source>Shared Memory Error</source>
-        <translation type="unfinished"></translation>
+        <translation>シェアードメモリエラー</translation>
     </message>
 </context>
 <context>
@@ -337,7 +337,7 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/EmulatorSettingsScreen.h" line="198"/>
         <source>In-game save verifications</source>
-        <translation type="unfinished"></translation>
+        <translation>ゲーム内セーブ確認</translation>
     </message>
     <message>
         <source>Enable in-game save verifications (beta)</source>
@@ -561,7 +561,7 @@ You can try cleaning then re-inserting the cartridge into the device.
     <message>
         <location filename="../src/Navbar.h" line="150"/>
         <source>Press TAB to exit mouse capture mode</source>
-        <translation type="unfinished"></translation>
+        <translation>TABキーを押してマウスキャプチャモードを終了する</translation>
     </message>
     <message>
         <location filename="../src/Navbar.h" line="151"/>
@@ -800,27 +800,27 @@ If you&apos;d like to easily remove all the pictures from your camera, without h
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="138"/>
         <source>Preferred emulator core</source>
-        <translation type="unfinished"></translation>
+        <translation>優先エミュレーターコア</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="139"/>
         <source>Allows you to select the preferred emulation core for running games. Different cores may offer varying levels of accuracy, performance, or compatibility with specific games. Choose the core that best suits your needs and the game you&apos;re playing.</source>
-        <translation type="unfinished"></translation>
+        <translation>ゲームを実行するために、好みのエミュレーションコアを選択できます。コアによっては、正確性、パフォーマンス、または特定のゲームとの互換性が異なる場合があります。ニーズやプレイするゲームに最適なコアを選んでください。</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="150"/>
         <source>Autosave to cartridge</source>
-        <translation type="unfinished"></translation>
+        <translation>カートリッジに自動セーブ</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="166"/>
         <source>RTC data in save file</source>
-        <translation type="unfinished"></translation>
+        <translation>セーブファイル内のRTC（リアルタイムクロック）データ</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="167"/>
         <source>When enabled and supported by the game, Playback adds real-time clock (RTC) data to the save file. This ensures accurate preservation of time-based events. Note that this will increase the file size and might make it incompatible with other software.</source>
-        <translation type="unfinished"></translation>
+        <translation>有効にすると、ゲームが対応している場合、プレイバックはリアルタイムクロック (RTC) データをセーブファイルに追加します。これにより、時間に基づくイベントが正確に保存されます。ただし、ファイルサイズが増加し、他のソフトウェアと互換性がなくなる可能性があります。</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="175"/>
@@ -860,27 +860,27 @@ If you&apos;d like to easily remove all the pictures from your camera, without h
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="201"/>
         <source>When enabled, the Playback software will output more detailed logs to help diagnose issues. This setting is useful for troubleshooting and should be disabled when not needed.</source>
-        <translation>この設定を有効にすると、Playbackソフトウェアがより詳細なログを出力し、問題の診断に役立ちます。この設定はトラブルシューティングに役立ちますが、必要ない場合は無効にしてください</translation>
+        <translation>この設定を有効にすると、Playbackソフトウェアがより詳細なログを出力し、問題の診断に役立ちます。この設定はトラブルシューティングに役立ちますが、必要ない場合は無効にしてください。</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="49"/>
         <source>General</source>
-        <translation type="unfinished"></translation>
+        <translation>ジェネラル設定</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="49"/>
         <source>Customize general settings to offer a personalized experience.</source>
-        <translation type="unfinished"></translation>
+        <translation>一般設定をカスタマイズして、個別の体験を提供します。</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="52"/>
         <source>Data</source>
-        <translation type="unfinished"></translation>
+        <translation>データ</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="52"/>
         <source>Configure how transfers are handled in the Data section of Playback.</source>
-        <translation type="unfinished"></translation>
+        <translation>プレイバックのデータセクションで、転送の処理方法を設定します。</translation>
     </message>
 </context>
 <context>
@@ -888,12 +888,12 @@ If you&apos;d like to easily remove all the pictures from your camera, without h
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="196"/>
         <source>Open Log Directory</source>
-        <translation type="unfinished"></translation>
+        <translation>ログディレクトリを開く</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="202"/>
         <source>Open Cores Directory</source>
-        <translation type="unfinished"></translation>
+        <translation>コアディレクトリを開く</translation>
     </message>
 </context>
 <context>
