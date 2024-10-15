@@ -731,26 +731,20 @@ Dacă dorești să elimini cu ușurință toate imaginile din cameră, fără a 
 <context>
     <name>PlaybackSettingsScreen</name>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.cpp" line="13"/>
         <source>Settings</source>
-        <translation>Setări</translation>
-    </message>
-    <message>
-        <location filename="../src/PlaybackSettingsScreen.cpp" line="14"/>
-        <source>Customize your Playback experience.</source>
-        <translation type="unfinished"></translation>
+        <translation type="vanished">Setări</translation>
     </message>
     <message>
         <source>Configure system settings.</source>
         <translation type="vanished">Configurează setările sistemului.</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.h" line="96"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="116"/>
         <source>Preferred Language (requires restart)</source>
         <translation>Limba preferată (necesită repornire)</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.h" line="97"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="117"/>
         <source>Allows you to change the language in which the Playback software is presented. It requires an application restart in order to update the language accross the entire application.</source>
         <translation>Îți permite să schimbi limba în care Playback este prezentat. Necesită să restartezi aplicația pentru a updata limba în aplicație.</translation>
     </message>
@@ -759,39 +753,39 @@ Dacă dorești să elimini cu ușurință toate imaginile din cameră, fără a 
         <translation type="vanished">Salvarea automată pe casetă (beta)</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.h" line="128"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="151"/>
         <source>Once you save in-game, or the game modifies the save internally, your Operator device will automatically write the save to the cartridge. This feature is still in development.</source>
         <translation>O dată ce salvezi în timp ce joci, sau jocul modifică salvarea în mod intern, dispozitivul tău Operator o să scrie automat salvarea pe caseta. Acest feature este încă în dezvoltare.</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.h" line="131"/>
-        <location filename="../src/PlaybackSettingsScreen.h" line="137"/>
-        <location filename="../src/PlaybackSettingsScreen.h" line="145"/>
-        <location filename="../src/PlaybackSettingsScreen.h" line="152"/>
-        <location filename="../src/PlaybackSettingsScreen.h" line="159"/>
-        <location filename="../src/PlaybackSettingsScreen.h" line="166"/>
-        <location filename="../src/PlaybackSettingsScreen.h" line="174"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="154"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="161"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="170"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="178"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="187"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="195"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="204"/>
         <source>Enabled</source>
         <translation>Activat</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.h" line="131"/>
-        <location filename="../src/PlaybackSettingsScreen.h" line="137"/>
-        <location filename="../src/PlaybackSettingsScreen.h" line="145"/>
-        <location filename="../src/PlaybackSettingsScreen.h" line="152"/>
-        <location filename="../src/PlaybackSettingsScreen.h" line="159"/>
-        <location filename="../src/PlaybackSettingsScreen.h" line="166"/>
-        <location filename="../src/PlaybackSettingsScreen.h" line="174"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="154"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="161"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="170"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="178"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="187"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="195"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="204"/>
         <source>Disabled</source>
         <translation>Dezactivat</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.h" line="135"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="159"/>
         <source>FPS Counter</source>
         <translation>Display de FPS</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.h" line="136"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="160"/>
         <source>Displays the current frames per second (FPS) of the game being played.</source>
         <translation>Îți arată numărul de frame-uri pe secundă (FPS) al jocului pe care-l joci.</translation>
     </message>
@@ -804,73 +798,106 @@ Dacă dorești să elimini cu ușurință toate imaginile din cameră, fără a 
         <translation type="vanished">Atunci când este activat, Playback include datele ceasului în timp real (RTC) în fișierul de salvare. Acest lucru asigură că evenimentele bazate pe timp ale jocului sunt salvate și restaurate corect.</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.h" line="117"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="138"/>
         <source>Preferred emulator core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.h" line="118"/>
-        <source>Allows you to select the preferred emulation core for running games. Different cores may offer varying levels of accuracy, performance, or compatibility with specific games. Choose the core that best suits your needs and the game you&apos;re playing. &lt;a href=&quot;#&quot; style=&apos;color: white&apos;&gt;Open Cores Directory.&lt;/a&gt;</source>
+        <location filename="../src/PlaybackSettingsScreen.h" line="139"/>
+        <source>Allows you to select the preferred emulation core for running games. Different cores may offer varying levels of accuracy, performance, or compatibility with specific games. Choose the core that best suits your needs and the game you&apos;re playing. </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.h" line="127"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="150"/>
         <source>Autosave to cartridge</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.h" line="141"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="166"/>
         <source>RTC data in save file</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.h" line="142"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="167"/>
         <source>When enabled and supported by the game, Playback adds real-time clock (RTC) data to the save file. This ensures accurate preservation of time-based events. Note that this will increase the file size and might make it incompatible with other software.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.h" line="149"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="175"/>
         <source>Verify Save After Writing Process</source>
         <translation>Verificarea salvării după scrierea ei</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.h" line="150"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="176"/>
         <source>Activating this setting prompts Playback to check that the save file remains uncorrupted after being written to the cartridge. It ensures your game progress has been safely stored.</source>
         <translation>Activarea acestei setări face ca Playback să verifice că salvarea nu este coruptă după ce a fost scrisă pe casetă. Ne asigurăm că progresul tău în joc este salvat și pe casetă în mod corect.</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.h" line="156"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="183"/>
         <source>Verify Save is Read Properly</source>
         <translation>Verificarea de citire a salvarii</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.h" line="157"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="184"/>
         <source>When this setting is enabled, Playback reads the save file from the cartridge multiple times and reviews any discrepancies to prevent data corruption.</source>
         <translation>Când această setare este activată, Playback citeste salvarea de pe casetă de mai multe ori și caută orice discrepanță între citiri pentru a preveni pierderea datelor.</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.h" line="163"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="192"/>
         <source>Verify Homebrew File Integrity</source>
         <translation>Verificarea fișierelor de joc</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.h" line="164"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="193"/>
         <source>This setting enables Playback to confirm the integrity of a homebrew game after transferring it to the cartridge, making sure there are no issues affecting your work.</source>
         <translation>Această setare activează confirmarea de integritate a jocurilor homebrew încărcate pe casetă, asigurându-se că nu există inconsistențe în date.</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.h" line="170"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="200"/>
         <source>Enable verbose debug logs (requires restart)</source>
         <translation>Activează log-urile de debug (necesită repornire)</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.h" line="171"/>
-        <source>When enabled, the Playback software will output more detailed logs to help diagnose issues. This setting is useful for troubleshooting and should be disabled when not needed. &lt;a href=&quot;#&quot; style=&apos;color: white&apos;&gt;Open Log Directory.&lt;/a&gt;</source>
+        <location filename="../src/PlaybackSettingsScreen.h" line="201"/>
+        <source>When enabled, the Playback software will output more detailed logs to help diagnose issues. This setting is useful for troubleshooting and should be disabled when not needed. </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <source>When enabled, the Playback software will output more detailed logs to help diagnose issues. This setting is useful for troubleshooting and should be disabled when not needed.</source>
         <translation type="vanished">Atunci când este activat, Playback va emite log-uri mai detaliate pentru a ajuta la diagnosticarea problemelor. Această setare este utilă pentru depanare și trebuie dezactivată atunci când nu este necesară.</translation>
+    </message>
+    <message>
+        <location filename="../src/PlaybackSettingsScreen.cpp" line="49"/>
+        <source>General</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/PlaybackSettingsScreen.cpp" line="49"/>
+        <source>Customize general settings to offer a personalized experience.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/PlaybackSettingsScreen.cpp" line="52"/>
+        <source>Data</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/PlaybackSettingsScreen.cpp" line="52"/>
+        <source>Configure how transfers are handled in the Data section of Playback.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackSettingsScreenOption</name>
+    <message>
+        <location filename="../src/PlaybackSettingsScreen.cpp" line="196"/>
+        <source>Open Log Directory</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/PlaybackSettingsScreen.cpp" line="202"/>
+        <source>Open Cores Directory</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

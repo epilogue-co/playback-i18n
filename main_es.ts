@@ -731,26 +731,20 @@ Si quieres eliminar fácilmente todas las fotos de tu cámara, sin tener que bor
 <context>
     <name>PlaybackSettingsScreen</name>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.cpp" line="13"/>
         <source>Settings</source>
-        <translation>Ajustes</translation>
-    </message>
-    <message>
-        <location filename="../src/PlaybackSettingsScreen.cpp" line="14"/>
-        <source>Customize your Playback experience.</source>
-        <translation type="unfinished"></translation>
+        <translation type="vanished">Ajustes</translation>
     </message>
     <message>
         <source>Configure system settings.</source>
         <translation type="vanished">Configura los ajustes del sistema.</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.h" line="96"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="116"/>
         <source>Preferred Language (requires restart)</source>
         <translation>Idioma preferido (requiere reinicio)</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.h" line="97"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="117"/>
         <source>Allows you to change the language in which the Playback software is presented. It requires an application restart in order to update the language accross the entire application.</source>
         <translation>Permite cambiar el idioma en el que se presenta Playback. Es necesario reiniciar la aplicación para actualizar el idioma en toda la aplicación.</translation>
     </message>
@@ -759,110 +753,143 @@ Si quieres eliminar fácilmente todas las fotos de tu cámara, sin tener que bor
         <translation type="vanished">Guardado automático en cartucho (beta)</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.h" line="128"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="151"/>
         <source>Once you save in-game, or the game modifies the save internally, your Operator device will automatically write the save to the cartridge. This feature is still in development.</source>
         <translation>Una vez que guardes en el juego, o el juego modifique el guardado internamente, tu dispositivo Operator escribirá automáticamente el guardado en el cartucho. Esta función aún está en desarrollo.</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.h" line="131"/>
-        <location filename="../src/PlaybackSettingsScreen.h" line="137"/>
-        <location filename="../src/PlaybackSettingsScreen.h" line="145"/>
-        <location filename="../src/PlaybackSettingsScreen.h" line="152"/>
-        <location filename="../src/PlaybackSettingsScreen.h" line="159"/>
-        <location filename="../src/PlaybackSettingsScreen.h" line="166"/>
-        <location filename="../src/PlaybackSettingsScreen.h" line="174"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="154"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="161"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="170"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="178"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="187"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="195"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="204"/>
         <source>Enabled</source>
         <translation>Activado</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.h" line="131"/>
-        <location filename="../src/PlaybackSettingsScreen.h" line="137"/>
-        <location filename="../src/PlaybackSettingsScreen.h" line="145"/>
-        <location filename="../src/PlaybackSettingsScreen.h" line="152"/>
-        <location filename="../src/PlaybackSettingsScreen.h" line="159"/>
-        <location filename="../src/PlaybackSettingsScreen.h" line="166"/>
-        <location filename="../src/PlaybackSettingsScreen.h" line="174"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="154"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="161"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="170"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="178"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="187"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="195"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="204"/>
         <source>Disabled</source>
         <translation>Discapacitados</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.h" line="135"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="159"/>
         <source>FPS Counter</source>
         <translation>Contador FPS</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.h" line="136"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="160"/>
         <source>Displays the current frames per second (FPS) of the game being played.</source>
         <translation>Muestra los fotogramas por segundo (FPS) actuales del juego que se está reproduciendo.</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.h" line="117"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="138"/>
         <source>Preferred emulator core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.h" line="118"/>
-        <source>Allows you to select the preferred emulation core for running games. Different cores may offer varying levels of accuracy, performance, or compatibility with specific games. Choose the core that best suits your needs and the game you&apos;re playing. &lt;a href=&quot;#&quot; style=&apos;color: white&apos;&gt;Open Cores Directory.&lt;/a&gt;</source>
+        <location filename="../src/PlaybackSettingsScreen.h" line="139"/>
+        <source>Allows you to select the preferred emulation core for running games. Different cores may offer varying levels of accuracy, performance, or compatibility with specific games. Choose the core that best suits your needs and the game you&apos;re playing. </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.h" line="127"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="150"/>
         <source>Autosave to cartridge</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.h" line="141"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="166"/>
         <source>RTC data in save file</source>
         <translation>Incluir datos RTC en el archivo guardado</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.h" line="142"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="167"/>
         <source>When enabled and supported by the game, Playback adds real-time clock (RTC) data to the save file. This ensures accurate preservation of time-based events. Note that this will increase the file size and might make it incompatible with other software.</source>
         <translation>Cuando está activado, Playback incluye los datos del reloj en tiempo real (RTC) en el archivo guardado. Esto garantiza que los eventos del juego basados en el tiempo se guarden y restauren correctamente.</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.h" line="149"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="175"/>
         <source>Verify Save After Writing Process</source>
         <translation>Verificar el proceso de guardar después de escribir</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.h" line="150"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="176"/>
         <source>Activating this setting prompts Playback to check that the save file remains uncorrupted after being written to the cartridge. It ensures your game progress has been safely stored.</source>
         <translation>Al activar esta opción, la Playback comprueba que el archivo guardado permanece intacto después de escribirse en el cartucho. Esto garantiza que el progreso del juego se ha guardado de forma segura.</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.h" line="156"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="183"/>
         <source>Verify Save is Read Properly</source>
         <translation>Verificar que la guardada se lee correctamente</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.h" line="157"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="184"/>
         <source>When this setting is enabled, Playback reads the save file from the cartridge multiple times and reviews any discrepancies to prevent data corruption.</source>
         <translation>Cuando esta opción está activada, la Playback lee el archivo guardado del cartucho varias veces y revisa cualquier discrepancia para evitar la corrupción de datos.</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.h" line="163"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="192"/>
         <source>Verify Homebrew File Integrity</source>
         <translation>Verificar la integridad de los archivos Homebrew</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.h" line="164"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="193"/>
         <source>This setting enables Playback to confirm the integrity of a homebrew game after transferring it to the cartridge, making sure there are no issues affecting your work.</source>
         <translation>Este ajuste permite a Playback confirmar la integridad de un juego homebrew después de transferirlo al cartucho, asegurándose de que no hay problemas que afecten a tu trabajo.</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.h" line="170"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="200"/>
         <source>Enable verbose debug logs (requires restart)</source>
         <translation>Activar registros de debug detallados (requiere reiniciar)</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.h" line="171"/>
-        <source>When enabled, the Playback software will output more detailed logs to help diagnose issues. This setting is useful for troubleshooting and should be disabled when not needed. &lt;a href=&quot;#&quot; style=&apos;color: white&apos;&gt;Open Log Directory.&lt;/a&gt;</source>
+        <location filename="../src/PlaybackSettingsScreen.h" line="201"/>
+        <source>When enabled, the Playback software will output more detailed logs to help diagnose issues. This setting is useful for troubleshooting and should be disabled when not needed. </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <source>When enabled, the Playback software will output more detailed logs to help diagnose issues. This setting is useful for troubleshooting and should be disabled when not needed.</source>
         <translation type="vanished">Si se activa, Playback mostrará registros más detallados para ayudar a diagnosticar problemas. Este ajuste es útil para solucionar problemas y debe desactivarse cuando no sea necesario.</translation>
+    </message>
+    <message>
+        <location filename="../src/PlaybackSettingsScreen.cpp" line="49"/>
+        <source>General</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/PlaybackSettingsScreen.cpp" line="49"/>
+        <source>Customize general settings to offer a personalized experience.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/PlaybackSettingsScreen.cpp" line="52"/>
+        <source>Data</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/PlaybackSettingsScreen.cpp" line="52"/>
+        <source>Configure how transfers are handled in the Data section of Playback.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackSettingsScreenOption</name>
+    <message>
+        <location filename="../src/PlaybackSettingsScreen.cpp" line="196"/>
+        <source>Open Log Directory</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/PlaybackSettingsScreen.cpp" line="202"/>
+        <source>Open Cores Directory</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

@@ -727,26 +727,20 @@ If you&apos;d like to easily remove all the pictures from your camera, without h
 <context>
     <name>PlaybackSettingsScreen</name>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.cpp" line="13"/>
         <source>Settings</source>
-        <translation>설정</translation>
-    </message>
-    <message>
-        <location filename="../src/PlaybackSettingsScreen.cpp" line="14"/>
-        <source>Customize your Playback experience.</source>
-        <translation type="unfinished"></translation>
+        <translation type="vanished">설정</translation>
     </message>
     <message>
         <source>Configure system settings.</source>
         <translation type="vanished">시스템 설정을 구성합니다.</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.h" line="96"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="116"/>
         <source>Preferred Language (requires restart)</source>
         <translation>기본 설정 언어(재시작 필요)</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.h" line="97"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="117"/>
         <source>Allows you to change the language in which the Playback software is presented. It requires an application restart in order to update the language accross the entire application.</source>
         <translation>Playback 소프트웨어가 표시되는 언어를 변경할 수 있습니다. 전체 애플리케이션에서 언어를 업데이트하려면 애플리케이션을 다시 시작해야 합니다.</translation>
     </message>
@@ -755,105 +749,138 @@ If you&apos;d like to easily remove all the pictures from your camera, without h
         <translation type="vanished">카트리지에 자동 저장(베타)</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.h" line="128"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="151"/>
         <source>Once you save in-game, or the game modifies the save internally, your Operator device will automatically write the save to the cartridge. This feature is still in development.</source>
         <translation>게임 내에서 저장하거나 게임에서 내부적으로 저장을 수정하면 운영자 기기가 자동으로 카트리지에 저장 내용을 기록합니다. 이 기능은 아직 개발 중입니다.</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.h" line="131"/>
-        <location filename="../src/PlaybackSettingsScreen.h" line="137"/>
-        <location filename="../src/PlaybackSettingsScreen.h" line="145"/>
-        <location filename="../src/PlaybackSettingsScreen.h" line="152"/>
-        <location filename="../src/PlaybackSettingsScreen.h" line="159"/>
-        <location filename="../src/PlaybackSettingsScreen.h" line="166"/>
-        <location filename="../src/PlaybackSettingsScreen.h" line="174"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="154"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="161"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="170"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="178"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="187"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="195"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="204"/>
         <source>Enabled</source>
         <translation>활성화됨</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.h" line="131"/>
-        <location filename="../src/PlaybackSettingsScreen.h" line="137"/>
-        <location filename="../src/PlaybackSettingsScreen.h" line="145"/>
-        <location filename="../src/PlaybackSettingsScreen.h" line="152"/>
-        <location filename="../src/PlaybackSettingsScreen.h" line="159"/>
-        <location filename="../src/PlaybackSettingsScreen.h" line="166"/>
-        <location filename="../src/PlaybackSettingsScreen.h" line="174"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="154"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="161"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="170"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="178"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="187"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="195"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="204"/>
         <source>Disabled</source>
         <translation>장애인</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.h" line="135"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="159"/>
         <source>FPS Counter</source>
         <translation>FPS 카운터</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.h" line="136"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="160"/>
         <source>Displays the current frames per second (FPS) of the game being played.</source>
         <translation>플레이 중인 게임의 현재 초당 프레임 수(FPS)를 표시합니다.</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.h" line="117"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="138"/>
         <source>Preferred emulator core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.h" line="118"/>
-        <source>Allows you to select the preferred emulation core for running games. Different cores may offer varying levels of accuracy, performance, or compatibility with specific games. Choose the core that best suits your needs and the game you&apos;re playing. &lt;a href=&quot;#&quot; style=&apos;color: white&apos;&gt;Open Cores Directory.&lt;/a&gt;</source>
+        <location filename="../src/PlaybackSettingsScreen.h" line="139"/>
+        <source>Allows you to select the preferred emulation core for running games. Different cores may offer varying levels of accuracy, performance, or compatibility with specific games. Choose the core that best suits your needs and the game you&apos;re playing. </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.h" line="127"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="150"/>
         <source>Autosave to cartridge</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.h" line="141"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="166"/>
         <source>RTC data in save file</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.h" line="142"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="167"/>
         <source>When enabled and supported by the game, Playback adds real-time clock (RTC) data to the save file. This ensures accurate preservation of time-based events. Note that this will increase the file size and might make it incompatible with other software.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.h" line="149"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="175"/>
         <source>Verify Save After Writing Process</source>
         <translation>쓰기 프로세스 후 저장 확인</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.h" line="150"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="176"/>
         <source>Activating this setting prompts Playback to check that the save file remains uncorrupted after being written to the cartridge. It ensures your game progress has been safely stored.</source>
         <translation>이 설정을 활성화하면 카트리지에 기록된 후에도 저장 파일이 손상되지 않았는지 확인하는 Playback 메시지가 표시됩니다. 게임 진행 상황을 안전하게 저장할 수 있습니다.</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.h" line="156"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="183"/>
         <source>Verify Save is Read Properly</source>
         <translation>저장이 제대로 읽혔는지 확인</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.h" line="157"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="184"/>
         <source>When this setting is enabled, Playback reads the save file from the cartridge multiple times and reviews any discrepancies to prevent data corruption.</source>
         <translation>이 설정을 활성화하면 Playback 카트리지에서 저장 파일을 여러 번 읽고 불일치하는 부분이 있는지 검토하여 데이터 손상을 방지합니다.</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.h" line="163"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="192"/>
         <source>Verify Homebrew File Integrity</source>
         <translation>Homebrew 파일 무결성 확인</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.h" line="164"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="193"/>
         <source>This setting enables Playback to confirm the integrity of a homebrew game after transferring it to the cartridge, making sure there are no issues affecting your work.</source>
         <translation>이 설정을 사용하면 Homebrew 게임을 카트리지로 전송한 후 Playback이 무결성을 확인하여 작업에 영향을 주는 문제가 없는지 확인할 수 있습니다.</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.h" line="170"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="200"/>
         <source>Enable verbose debug logs (requires restart)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.h" line="171"/>
-        <source>When enabled, the Playback software will output more detailed logs to help diagnose issues. This setting is useful for troubleshooting and should be disabled when not needed. &lt;a href=&quot;#&quot; style=&apos;color: white&apos;&gt;Open Log Directory.&lt;/a&gt;</source>
+        <location filename="../src/PlaybackSettingsScreen.h" line="201"/>
+        <source>When enabled, the Playback software will output more detailed logs to help diagnose issues. This setting is useful for troubleshooting and should be disabled when not needed. </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/PlaybackSettingsScreen.cpp" line="49"/>
+        <source>General</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/PlaybackSettingsScreen.cpp" line="49"/>
+        <source>Customize general settings to offer a personalized experience.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/PlaybackSettingsScreen.cpp" line="52"/>
+        <source>Data</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/PlaybackSettingsScreen.cpp" line="52"/>
+        <source>Configure how transfers are handled in the Data section of Playback.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackSettingsScreenOption</name>
+    <message>
+        <location filename="../src/PlaybackSettingsScreen.cpp" line="196"/>
+        <source>Open Log Directory</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/PlaybackSettingsScreen.cpp" line="202"/>
+        <source>Open Cores Directory</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

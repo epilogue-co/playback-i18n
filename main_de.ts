@@ -731,26 +731,20 @@ Wenn Sie alle Bilder von Ihrer Kamera entfernen möchten, ohne diese einzeln in 
 <context>
     <name>PlaybackSettingsScreen</name>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.cpp" line="13"/>
         <source>Settings</source>
-        <translation>Einstellungen</translation>
-    </message>
-    <message>
-        <location filename="../src/PlaybackSettingsScreen.cpp" line="14"/>
-        <source>Customize your Playback experience.</source>
-        <translation type="unfinished"></translation>
+        <translation type="vanished">Einstellungen</translation>
     </message>
     <message>
         <source>Configure system settings.</source>
         <translation type="vanished">Konfigurieren Sie die Systemeinstellungen.</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.h" line="96"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="116"/>
         <source>Preferred Language (requires restart)</source>
         <translation>Bevorzugte Sprache (Neustart erforderlich)</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.h" line="97"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="117"/>
         <source>Allows you to change the language in which the Playback software is presented. It requires an application restart in order to update the language accross the entire application.</source>
         <translation>Hiermit können Sie die Sprache ändern, in der die Playback-Software angezeigt wird. Um die Sprache in der gesamten Anwendung zu aktualisieren, ist ein Neustart der Anwendung erforderlich.</translation>
     </message>
@@ -759,39 +753,39 @@ Wenn Sie alle Bilder von Ihrer Kamera entfernen möchten, ohne diese einzeln in 
         <translation type="vanished">Automatisches Speichern auf dem Modul (beta)</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.h" line="128"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="151"/>
         <source>Once you save in-game, or the game modifies the save internally, your Operator device will automatically write the save to the cartridge. This feature is still in development.</source>
         <translation>Sobald Sie im Spiel speichern oder sich der Speicherstand ändert, schreibt Ihr GB Operator den Speicherstand automatisch auf das Modul. Diese Funktion befindet sich noch in der Entwicklung.</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.h" line="131"/>
-        <location filename="../src/PlaybackSettingsScreen.h" line="137"/>
-        <location filename="../src/PlaybackSettingsScreen.h" line="145"/>
-        <location filename="../src/PlaybackSettingsScreen.h" line="152"/>
-        <location filename="../src/PlaybackSettingsScreen.h" line="159"/>
-        <location filename="../src/PlaybackSettingsScreen.h" line="166"/>
-        <location filename="../src/PlaybackSettingsScreen.h" line="174"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="154"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="161"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="170"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="178"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="187"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="195"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="204"/>
         <source>Enabled</source>
         <translation>Aktivieriert</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.h" line="131"/>
-        <location filename="../src/PlaybackSettingsScreen.h" line="137"/>
-        <location filename="../src/PlaybackSettingsScreen.h" line="145"/>
-        <location filename="../src/PlaybackSettingsScreen.h" line="152"/>
-        <location filename="../src/PlaybackSettingsScreen.h" line="159"/>
-        <location filename="../src/PlaybackSettingsScreen.h" line="166"/>
-        <location filename="../src/PlaybackSettingsScreen.h" line="174"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="154"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="161"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="170"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="178"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="187"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="195"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="204"/>
         <source>Disabled</source>
         <translation>Deaktivieriert</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.h" line="135"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="159"/>
         <source>FPS Counter</source>
         <translation>FPS Anzeige</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.h" line="136"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="160"/>
         <source>Displays the current frames per second (FPS) of the game being played.</source>
         <translation>Zeigt die aktuellen Bilder pro Sekunde (FPS) des gespielten Spiels an.</translation>
     </message>
@@ -804,73 +798,106 @@ Wenn Sie alle Bilder von Ihrer Kamera entfernen möchten, ohne diese einzeln in 
         <translation type="vanished">Wenn diese Option aktiviert ist, fügt die Playback-Software die Echtzeitdaten (real-time clock) in den Spielstand ein. Dadurch wird sichergestellt, dass die zeitbasierten Ereignisse des Spiels korrekt gespeichert und wiederhergestellt werden.</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.h" line="117"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="138"/>
         <source>Preferred emulator core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.h" line="118"/>
-        <source>Allows you to select the preferred emulation core for running games. Different cores may offer varying levels of accuracy, performance, or compatibility with specific games. Choose the core that best suits your needs and the game you&apos;re playing. &lt;a href=&quot;#&quot; style=&apos;color: white&apos;&gt;Open Cores Directory.&lt;/a&gt;</source>
+        <location filename="../src/PlaybackSettingsScreen.h" line="139"/>
+        <source>Allows you to select the preferred emulation core for running games. Different cores may offer varying levels of accuracy, performance, or compatibility with specific games. Choose the core that best suits your needs and the game you&apos;re playing. </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.h" line="127"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="150"/>
         <source>Autosave to cartridge</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.h" line="141"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="166"/>
         <source>RTC data in save file</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.h" line="142"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="167"/>
         <source>When enabled and supported by the game, Playback adds real-time clock (RTC) data to the save file. This ensures accurate preservation of time-based events. Note that this will increase the file size and might make it incompatible with other software.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.h" line="149"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="175"/>
         <source>Verify Save After Writing Process</source>
         <translation>Spielstand nach dem Schreibvorgang überprüfen</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.h" line="150"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="176"/>
         <source>Activating this setting prompts Playback to check that the save file remains uncorrupted after being written to the cartridge. It ensures your game progress has been safely stored.</source>
         <translation>Wenn Sie diese Einstellung aktivieren, prüft die Playback-Software, ob die Sicherungsdatei nach dem Schreiben auf das Modul unbeschädigt ist. So wird sichergestellt, dass Ihr Spielfortschritt sicher gespeichert wurde.</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.h" line="156"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="183"/>
         <source>Verify Save is Read Properly</source>
         <translation>Gelesen Spielstand überprüfen</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.h" line="157"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="184"/>
         <source>When this setting is enabled, Playback reads the save file from the cartridge multiple times and reviews any discrepancies to prevent data corruption.</source>
         <translation>Wenn diese Einstellung aktiviert ist, liest die Playback-Software den Spielstand mehrmals von dem Modul und überprüft etwaige Unstimmigkeiten, um Datenbeschädigungen zu verhindern.</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.h" line="163"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="192"/>
         <source>Verify Homebrew File Integrity</source>
         <translation>Homebrew Datei Integritätsprüfung</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.h" line="164"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="193"/>
         <source>This setting enables Playback to confirm the integrity of a homebrew game after transferring it to the cartridge, making sure there are no issues affecting your work.</source>
         <translation>Mit dieser Einstellung kann die Playback-Software die Integrität eines Homebrew-Spiels nach der Übertragung auf ein Modul bestätigen und sicherstellen, dass Ihre Arbeit durch keine Probleme beeinträchtigt wird.</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.h" line="170"/>
+        <location filename="../src/PlaybackSettingsScreen.h" line="200"/>
         <source>Enable verbose debug logs (requires restart)</source>
         <translation>Ausführliche Debugprotokolle aktivieren (Neustart erforderlich)</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.h" line="171"/>
-        <source>When enabled, the Playback software will output more detailed logs to help diagnose issues. This setting is useful for troubleshooting and should be disabled when not needed. &lt;a href=&quot;#&quot; style=&apos;color: white&apos;&gt;Open Log Directory.&lt;/a&gt;</source>
+        <location filename="../src/PlaybackSettingsScreen.h" line="201"/>
+        <source>When enabled, the Playback software will output more detailed logs to help diagnose issues. This setting is useful for troubleshooting and should be disabled when not needed. </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <source>When enabled, the Playback software will output more detailed logs to help diagnose issues. This setting is useful for troubleshooting and should be disabled when not needed.</source>
         <translation type="vanished">Wenn diese Option aktiviert ist, gibt die Playback-Software detailliertere Protokolle aus, um die Diagnose von Problemen zu erleichtern. Diese Einstellung ist für die Fehlerbehebung nützlich und sollte deaktiviert werden, wenn sie nicht benötigt wird.</translation>
+    </message>
+    <message>
+        <location filename="../src/PlaybackSettingsScreen.cpp" line="49"/>
+        <source>General</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/PlaybackSettingsScreen.cpp" line="49"/>
+        <source>Customize general settings to offer a personalized experience.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/PlaybackSettingsScreen.cpp" line="52"/>
+        <source>Data</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/PlaybackSettingsScreen.cpp" line="52"/>
+        <source>Configure how transfers are handled in the Data section of Playback.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackSettingsScreenOption</name>
+    <message>
+        <location filename="../src/PlaybackSettingsScreen.cpp" line="196"/>
+        <source>Open Log Directory</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/PlaybackSettingsScreen.cpp" line="202"/>
+        <source>Open Cores Directory</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
