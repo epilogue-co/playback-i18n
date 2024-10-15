@@ -796,14 +796,6 @@ Si quieres eliminar fácilmente todas las fotos de tu cámara, sin tener que bor
         <translation>Muestra los fotogramas por segundo (FPS) actuales del juego que se está reproduciendo.</translation>
     </message>
     <message>
-        <source>Include RTC data in save file</source>
-        <translation type="vanished">Incluir datos RTC en el archivo guardado</translation>
-    </message>
-    <message>
-        <source>When enabled, the Playback software includes the real-time clock (RTC) data in the save file. This ensures that the game&apos;s time-based events are correctly saved and restored.</source>
-        <translation type="vanished">Cuando está activado, Playback incluye los datos del reloj en tiempo real (RTC) en el archivo guardado. Esto garantiza que los eventos del juego basados en el tiempo se guarden y restauren correctamente.</translation>
-    </message>
-    <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="117"/>
         <source>Preferred emulator core</source>
         <translation type="unfinished"></translation>
@@ -821,12 +813,12 @@ Si quieres eliminar fácilmente todas las fotos de tu cámara, sin tener que bor
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="141"/>
         <source>RTC data in save file</source>
-        <translation type="unfinished"></translation>
+        <translation>Incluir datos RTC en el archivo guardado</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="142"/>
         <source>When enabled and supported by the game, Playback adds real-time clock (RTC) data to the save file. This ensures accurate preservation of time-based events. Note that this will increase the file size and might make it incompatible with other software.</source>
-        <translation type="unfinished"></translation>
+        <translation>Cuando está activado, Playback incluye los datos del reloj en tiempo real (RTC) en el archivo guardado. Esto garantiza que los eventos del juego basados en el tiempo se guarden y restauren correctamente.</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="149"/>
