@@ -29,7 +29,7 @@
     <message>
         <location filename="../src/UIComponents.cpp" line="118"/>
         <source>beta</source>
-        <translation type="unfinished"></translation>
+        <translation>베타</translation>
     </message>
 </context>
 <context>
@@ -137,12 +137,12 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/DeviceBase.cpp" line="266"/>
         <source>Save data integrity check failed!</source>
-        <translation type="unfinished">저장 데이터 무결성 검사에 실패했습니다!</translation>
+        <translation>저장 데이터 무결성 검사에 실패했습니다!</translation>
     </message>
     <message>
         <location filename="../src/DeviceBase.cpp" line="267"/>
         <source>The save data appears to be inconsistent between read cycles. Please clean the cartridge pins and try again.</source>
-        <translation type="unfinished">읽기 주기 간에 저장 데이터가 일치하지 않는 것 같습니다. 카트리지 핀을 청소하고 다시 시도하세요.</translation>
+        <translation>저장 데이터가 읽기 사이클 간 일관성이 없어 보입니다. 카트리지 핀을 청소한 후 다시 시도해 주세요.</translation>
     </message>
 </context>
 <context>
@@ -246,7 +246,7 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/DeviceSharedMemory.cpp" line="16"/>
         <source>Shared Memory Error</source>
-        <translation type="unfinished"></translation>
+        <translation>공유 메모리 오류</translation>
     </message>
 </context>
 <context>
@@ -337,12 +337,12 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/EmulatorSettingsScreen.h" line="198"/>
         <source>In-game save verifications</source>
-        <translation type="unfinished"></translation>
+        <translation>게임 내 저장 확인</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.h" line="200"/>
         <source>Enable in-game integrity checks for save data. This feature is still in beta and may not work with all games.</source>
-        <translation type="unfinished"></translation>
+        <translation>게임 내 저장 데이터의 무결성 검사를 활성화합니다. 이 기능은 아직 베타 버전이므로 모든 게임에서 작동하지 않을 수 있습니다.</translation>
     </message>
 </context>
 <context>
@@ -557,7 +557,7 @@ You can try cleaning then re-inserting the cartridge into the device.
     <message>
         <location filename="../src/Navbar.h" line="150"/>
         <source>Press TAB to exit mouse capture mode</source>
-        <translation type="unfinished"></translation>
+        <translation>마우스 캡처 모드를 종료하려면 TAB 키를 누르세요</translation>
     </message>
     <message>
         <location filename="../src/Navbar.h" line="151"/>
@@ -788,27 +788,27 @@ If you&apos;d like to easily remove all the pictures from your camera, without h
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="138"/>
         <source>Preferred emulator core</source>
-        <translation type="unfinished"></translation>
+        <translation>선호하는 에뮬레이터 코어</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="139"/>
         <source>Allows you to select the preferred emulation core for running games. Different cores may offer varying levels of accuracy, performance, or compatibility with specific games. Choose the core that best suits your needs and the game you&apos;re playing.</source>
-        <translation type="unfinished"></translation>
+        <translation>게임 실행을 위한 선호하는 에뮬레이션 코어를 선택할 수 있습니다. 각 코어는 특정 게임과의 호환성, 성능 또는 정확도에서 차이가 있을 수 있습니다. 자신의 필요와 플레이 중인 게임에 가장 적합한 코어를 선택하세요.</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="150"/>
         <source>Autosave to cartridge</source>
-        <translation type="unfinished"></translation>
+        <translation>카트리지에 자동 저장</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="166"/>
         <source>RTC data in save file</source>
-        <translation type="unfinished"></translation>
+        <translation>저장 파일에 RTC 데이터</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="167"/>
         <source>When enabled and supported by the game, Playback adds real-time clock (RTC) data to the save file. This ensures accurate preservation of time-based events. Note that this will increase the file size and might make it incompatible with other software.</source>
-        <translation type="unfinished"></translation>
+        <translation>게임에서 지원되고 활성화된 경우, 플레이백이 실시간 시계 (RTC) 데이터를 저장 파일에 추가합니다. 이는 시간 기반 이벤트의 정확한 보존을 보장합니다. 이 기능은 파일 크기를 증가시키며, 다른 소프트웨어와 호환되지 않을 수 있습니다.</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="175"/>
@@ -843,32 +843,32 @@ If you&apos;d like to easily remove all the pictures from your camera, without h
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="200"/>
         <source>Enable verbose debug logs (requires restart)</source>
-        <translation type="unfinished"></translation>
+        <translation>상세한 디버그 로그를 활성화합니다 (재시작 필요)</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="201"/>
         <source>When enabled, the Playback software will output more detailed logs to help diagnose issues. This setting is useful for troubleshooting and should be disabled when not needed.</source>
-        <translation type="unfinished"></translation>
+        <translation>이 설정을 활성화하면, Playback 소프트웨어가 문제 진단을 돕기 위해 더 상세한 로그를 출력합니다. 이 설정은 문제 해결에 유용하며, 필요하지 않을 때는 비활성화하는 것이 좋습니다.</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="49"/>
         <source>General</source>
-        <translation type="unfinished"></translation>
+        <translation>일반 설정</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="49"/>
         <source>Customize general settings to offer a personalized experience.</source>
-        <translation type="unfinished"></translation>
+        <translation>일반 설정을 사용자 맞춤형 경험으로 조정하세요.</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="52"/>
         <source>Data</source>
-        <translation type="unfinished"></translation>
+        <translation>데이터</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="52"/>
         <source>Configure how transfers are handled in the Data section of Playback.</source>
-        <translation type="unfinished"></translation>
+        <translation>Playback의 데이터 섹션에서 전송이 처리되는 방식을 구성합니다.</translation>
     </message>
 </context>
 <context>
@@ -876,12 +876,12 @@ If you&apos;d like to easily remove all the pictures from your camera, without h
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="196"/>
         <source>Open Log Directory</source>
-        <translation type="unfinished"></translation>
+        <translation>로그 디렉터리 열기</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="202"/>
         <source>Open Cores Directory</source>
-        <translation type="unfinished"></translation>
+        <translation>코어 디렉토리 열기</translation>
     </message>
 </context>
 <context>

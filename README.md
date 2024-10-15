@@ -10,7 +10,7 @@
 | Spanish             | Human         | ✅          | 0                |
 | Italian             | DeepL         | ✅          | 0                |
 | Japanese            | Human         | ✅          | 0                |
-| Korean              | Human         | ⚠️           | 18               |
+| Korean              | Human         | ✅          | 0                |
 | Dutch               | DeepL         | ✅          | 0                |
 | Romanian            | Human         | ✅          | 0                |
 
