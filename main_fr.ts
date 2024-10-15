@@ -788,7 +788,7 @@ Si vous souhaitez supprimer facilement toutes les images de votre caméra, sans 
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="139"/>
-        <source>Allows you to select the preferred emulation core for running games. Different cores may offer varying levels of accuracy, performance, or compatibility with specific games. Choose the core that best suits your needs and the game you&apos;re playing. </source>
+        <source>Allows you to select the preferred emulation core for running games. Different cores may offer varying levels of accuracy, performance, or compatibility with specific games. Choose the core that best suits your needs and the game you&apos;re playing.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -843,7 +843,7 @@ Si vous souhaitez supprimer facilement toutes les images de votre caméra, sans 
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="201"/>
-        <source>When enabled, the Playback software will output more detailed logs to help diagnose issues. This setting is useful for troubleshooting and should be disabled when not needed. </source>
+        <source>When enabled, the Playback software will output more detailed logs to help diagnose issues. This setting is useful for troubleshooting and should be disabled when not needed.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

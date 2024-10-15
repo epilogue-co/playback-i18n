@@ -804,7 +804,7 @@ If you&apos;d like to easily remove all the pictures from your camera, without h
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="139"/>
-        <source>Allows you to select the preferred emulation core for running games. Different cores may offer varying levels of accuracy, performance, or compatibility with specific games. Choose the core that best suits your needs and the game you&apos;re playing. </source>
+        <source>Allows you to select the preferred emulation core for running games. Different cores may offer varying levels of accuracy, performance, or compatibility with specific games. Choose the core that best suits your needs and the game you&apos;re playing.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -859,12 +859,8 @@ If you&apos;d like to easily remove all the pictures from your camera, without h
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="201"/>
-        <source>When enabled, the Playback software will output more detailed logs to help diagnose issues. This setting is useful for troubleshooting and should be disabled when not needed. </source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>When enabled, the Playback software will output more detailed logs to help diagnose issues. This setting is useful for troubleshooting and should be disabled when not needed.</source>
-        <translation type="vanished">启用后，Playback软件将输出更详细的日志来帮助诊断问题。该设置对故障排除很有用，且应当在不需要时禁用。</translation>
+        <translation>启用后，Playback软件将输出更详细的日志来帮助诊断问题。该设置对故障排除很有用，且应当在不需要时禁用。</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="49"/>

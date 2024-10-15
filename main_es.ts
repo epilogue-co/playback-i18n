@@ -796,7 +796,7 @@ Si quieres eliminar fácilmente todas las fotos de tu cámara, sin tener que bor
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="139"/>
-        <source>Allows you to select the preferred emulation core for running games. Different cores may offer varying levels of accuracy, performance, or compatibility with specific games. Choose the core that best suits your needs and the game you&apos;re playing. </source>
+        <source>Allows you to select the preferred emulation core for running games. Different cores may offer varying levels of accuracy, performance, or compatibility with specific games. Choose the core that best suits your needs and the game you&apos;re playing.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -851,12 +851,8 @@ Si quieres eliminar fácilmente todas las fotos de tu cámara, sin tener que bor
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="201"/>
-        <source>When enabled, the Playback software will output more detailed logs to help diagnose issues. This setting is useful for troubleshooting and should be disabled when not needed. </source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>When enabled, the Playback software will output more detailed logs to help diagnose issues. This setting is useful for troubleshooting and should be disabled when not needed.</source>
-        <translation type="vanished">Si se activa, Playback mostrará registros más detallados para ayudar a diagnosticar problemas. Este ajuste es útil para solucionar problemas y debe desactivarse cuando no sea necesario.</translation>
+        <translation>Si se activa, Playback mostrará registros más detallados para ayudar a diagnosticar problemas. Este ajuste es útil para solucionar problemas y debe desactivarse cuando no sea necesario.</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="49"/>

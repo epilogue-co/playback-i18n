@@ -804,7 +804,7 @@ Dacă dorești să elimini cu ușurință toate imaginile din cameră, fără a 
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="139"/>
-        <source>Allows you to select the preferred emulation core for running games. Different cores may offer varying levels of accuracy, performance, or compatibility with specific games. Choose the core that best suits your needs and the game you&apos;re playing. </source>
+        <source>Allows you to select the preferred emulation core for running games. Different cores may offer varying levels of accuracy, performance, or compatibility with specific games. Choose the core that best suits your needs and the game you&apos;re playing.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -859,12 +859,8 @@ Dacă dorești să elimini cu ușurință toate imaginile din cameră, fără a 
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="201"/>
-        <source>When enabled, the Playback software will output more detailed logs to help diagnose issues. This setting is useful for troubleshooting and should be disabled when not needed. </source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>When enabled, the Playback software will output more detailed logs to help diagnose issues. This setting is useful for troubleshooting and should be disabled when not needed.</source>
-        <translation type="vanished">Atunci când este activat, Playback va emite log-uri mai detaliate pentru a ajuta la diagnosticarea problemelor. Această setare este utilă pentru depanare și trebuie dezactivată atunci când nu este necesară.</translation>
+        <translation>Atunci când este activat, Playback va emite log-uri mai detaliate pentru a ajuta la diagnosticarea problemelor. Această setare este utilă pentru depanare și trebuie dezactivată atunci când nu este necesară.</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="49"/>
