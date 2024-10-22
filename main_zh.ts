@@ -29,7 +29,7 @@
     <message>
         <location filename="../src/UIComponents.cpp" line="118"/>
         <source>beta</source>
-        <translation type="unfinished"></translation>
+        <translation>测试版</translation>
     </message>
 </context>
 <context>
@@ -246,7 +246,7 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/DeviceSharedMemory.cpp" line="16"/>
         <source>Shared Memory Error</source>
-        <translation type="unfinished"></translation>
+        <translation>共享内存错误</translation>
     </message>
 </context>
 <context>
@@ -337,7 +337,7 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/EmulatorSettingsScreen.h" line="198"/>
         <source>In-game save verifications</source>
-        <translation type="unfinished"></translation>
+        <translation>游戏内存档验证</translation>
     </message>
     <message>
         <source>Enable in-game save verifications (beta)</source>
@@ -561,7 +561,7 @@ You can try cleaning then re-inserting the cartridge into the device.
     <message>
         <location filename="../src/Navbar.h" line="150"/>
         <source>Press TAB to exit mouse capture mode</source>
-        <translation type="unfinished"></translation>
+        <translation>按下TAB键退出鼠标捕获模式</translation>
     </message>
     <message>
         <location filename="../src/Navbar.h" line="151"/>
@@ -755,7 +755,7 @@ If you&apos;d like to easily remove all the pictures from your camera, without h
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="151"/>
         <source>Once you save in-game, or the game modifies the save internally, your Operator device will automatically write the save to the cartridge. This feature is still in development.</source>
-        <translation>当您在游戏中存档，或游戏自行修改存档时，你的设备将自动将存档写入卡带。此功能仍在开发中。</translation>
+        <translation>当你在游戏中存档，或游戏自行修改存档时，你的设备将自动将存档写入卡带。此功能仍在开发中。</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="154"/>
@@ -800,27 +800,27 @@ If you&apos;d like to easily remove all the pictures from your camera, without h
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="138"/>
         <source>Preferred emulator core</source>
-        <translation type="unfinished"></translation>
+        <translation>首选模拟器核心</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="139"/>
         <source>Allows you to select the preferred emulation core for running games. Different cores may offer varying levels of accuracy, performance, or compatibility with specific games. Choose the core that best suits your needs and the game you&apos;re playing.</source>
-        <translation type="unfinished"></translation>
+        <translation>允许你选择运行游戏时的首选模拟器核心。不同的核心在准确性、性能或与特定游戏的兼容性方面可能有所不同。请选择最适合你的需求和所玩游戏的核心。</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="150"/>
         <source>Autosave to cartridge</source>
-        <translation type="unfinished"></translation>
+        <translation>自动保存到卡带</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="166"/>
         <source>RTC data in save file</source>
-        <translation type="unfinished"></translation>
+        <translation>在存档中包含RTC数据</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="167"/>
         <source>When enabled and supported by the game, Playback adds real-time clock (RTC) data to the save file. This ensures accurate preservation of time-based events. Note that this will increase the file size and might make it incompatible with other software.</source>
-        <translation type="unfinished"></translation>
+        <translation>当启用且游戏支持时，Playback软件会在存档中包含实时时钟（RTC）数据。这确保了时间事件的准确保存。请注意，这将增加文件大小，并可能导致与其他软件不兼容。</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="175"/>
@@ -865,22 +865,22 @@ If you&apos;d like to easily remove all the pictures from your camera, without h
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="49"/>
         <source>General</source>
-        <translation type="unfinished"></translation>
+        <translation>通用</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="49"/>
         <source>Customize general settings to offer a personalized experience.</source>
-        <translation type="unfinished"></translation>
+        <translation>自定义通用设置，以提供个性化体验</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="52"/>
         <source>Data</source>
-        <translation type="unfinished"></translation>
+        <translation>数据</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="52"/>
         <source>Configure how transfers are handled in the Data section of Playback.</source>
-        <translation type="unfinished"></translation>
+        <translation>在Playback的数据部分配置传输处理方式。</translation>
     </message>
 </context>
 <context>
@@ -888,12 +888,12 @@ If you&apos;d like to easily remove all the pictures from your camera, without h
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="196"/>
         <source>Open Log Directory</source>
-        <translation type="unfinished"></translation>
+        <translation>打开日志目录</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="202"/>
         <source>Open Cores Directory</source>
-        <translation type="unfinished"></translation>
+        <translation>打开核心目录</translation>
     </message>
 </context>
 <context>
