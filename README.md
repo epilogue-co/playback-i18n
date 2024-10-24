@@ -4,8 +4,8 @@
 
 | Language            | Type          | Complete    | Missing Strings  |
 | ------------------- | ------------- | --------    | ---------------  |
-| Simplified Chinese  | Human         | ⚠️           | 15               |
-| German              | Human         | ⚠️           | 15               |
+| Simplified Chinese  | Human         | ✅          | 0                |
+| German              | Human         | ⚠️          | 15               |
 | French              | DeepL         | ✅          | 0                |
 | Spanish             | Human         | ✅          | 0                |
 | Italian             | DeepL         | ✅          | 0                |
