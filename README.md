@@ -29,14 +29,14 @@ You will need to change the name of the branch accordingly. Once your work is do
 > Please pay attention to possible references from one translation to another.
 
 
-### Updating translation files with a GUI 🖼️
+### 🖼️ Updating translation files with a GUI
 
 Download and install QtLinguist, use it to edit the translation files.
 
 You can download it from [here](https://download.qt.io/linguist_releases/) for Windows. For other OSes you'll need to download Qt6 via a package manager or the online installer Qt provides.
 
 
-### Updating translation files with a code editor 📝
+### 📝 Updating translation files with a code editor
 
 > [!Tip]
 > Use XML Syntax highlighting for a great visual feedback.
@@ -64,7 +64,7 @@ You need to update the `translation` XML property by removing the `unfinished` v
 If you're correcting a translation, you can simply update the contents inside the `translation` XML tag.
 
 
-### Optional compilation ⚙️
+### ⚙️ Optional compilation
 
 Once you're done updating all entries you need to recompile the translation file and generate a `qm` file by running the command:
 
