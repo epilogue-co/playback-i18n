@@ -29,7 +29,7 @@
     <message>
         <location filename="../src/UIComponents.cpp" line="118"/>
         <source>beta</source>
-        <translation type="unfinished"></translation>
+        <translation>Beta</translation>
     </message>
 </context>
 <context>
@@ -246,7 +246,7 @@ Entfernen Sie das Modul nicht, während ein Vorgang ausgeführt wird.</translati
     <message>
         <location filename="../src/DeviceSharedMemory.cpp" line="16"/>
         <source>Shared Memory Error</source>
-        <translation type="unfinished"></translation>
+        <translation>Fehler im geteilten Speicher</translation>
     </message>
 </context>
 <context>
@@ -312,7 +312,7 @@ Entfernen Sie das Modul nicht, während ein Vorgang ausgeführt wird.</translati
     <message>
         <location filename="../src/EmulatorSettingsScreen.h" line="139"/>
         <source>A fast-forward speed higher than 2x can cause unexpected bugs in combination with the &apos;Autosave to cartridge&apos; feature. You will need to disable and enable it by clicking the fast-forward button.</source>
-        <translation>Eine Schnellvorlaufgeschwindigkeit von mehr als 2x kann in Verbindung mit der Funktion &quot;automatisches Speichern auf dem Modul&quot; zu unerwarteten Fehlern führen. Sie müssen diese Funktion deaktivieren und aktivieren, indem Sie auf die Schaltfläche &quot;Schnellvorlauf&quot; klicken.</translation>
+        <translation>Eine Schnellvorlaufgeschwindigkeit von mehr als 2x kann in Verbindung mit der Funktion &quot;Automatisch auf Modul speichern&quot; zu unerwarteten Fehlern führen. Sie müssen diese Funktion deaktivieren und aktivieren, indem Sie auf die Schaltfläche &quot;Schnellvorlauf&quot; klicken.</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.h" line="164"/>
@@ -337,7 +337,7 @@ Entfernen Sie das Modul nicht, während ein Vorgang ausgeführt wird.</translati
     <message>
         <location filename="../src/EmulatorSettingsScreen.h" line="198"/>
         <source>In-game save verifications</source>
-        <translation type="unfinished"></translation>
+        <translation>In-Game Spielstandüberprüfungen</translation>
     </message>
     <message>
         <source>Enable in-game save verifications (beta)</source>
@@ -561,7 +561,7 @@ Sie können versuchen, das Modul zu reinigen und erneut in das Gerät einzusetze
     <message>
         <location filename="../src/Navbar.h" line="150"/>
         <source>Press TAB to exit mouse capture mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Drücke TAB (&#8677;) um den Maus-Erfassungsmodus zu beenden</translation>
     </message>
     <message>
         <location filename="../src/Navbar.h" line="151"/>
@@ -576,7 +576,7 @@ Sie können versuchen, das Modul zu reinigen und erneut in das Gerät einzusetze
     <message>
         <location filename="../src/Navbar.h" line="153"/>
         <source>Loading save...</source>
-        <translation>Laden des Spielstands...</translation>
+        <translation>Lade Spielstand...</translation>
     </message>
     <message>
         <location filename="../src/Navbar.h" line="154"/>
@@ -800,27 +800,27 @@ Wenn Sie alle Bilder von Ihrer Kamera entfernen möchten, ohne diese einzeln in 
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="138"/>
         <source>Preferred emulator core</source>
-        <translation type="unfinished"></translation>
+        <translation>Bevorzugter Emulator</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="139"/>
         <source>Allows you to select the preferred emulation core for running games. Different cores may offer varying levels of accuracy, performance, or compatibility with specific games. Choose the core that best suits your needs and the game you&apos;re playing.</source>
-        <translation type="unfinished"></translation>
+        <translation>Erlaubt Ihnen, den bevorzugten zugrundeliegenden Emulator zum Ausführen von Spielen auszuwählen. Verschiedene Emulatoren bieten möglicherweise unterschiedliche Genauigkeits-, Leistungs- oder Kompatibilitätsgrade mit bestimmten Spielen. Wählen Sie den Emulator, der am besten zu Ihren Anforderungen und dem Spiel, das Sie spielen passt.</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="150"/>
         <source>Autosave to cartridge</source>
-        <translation type="unfinished"></translation>
+        <translation>Automatisch auf Modul speichern</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="166"/>
         <source>RTC data in save file</source>
-        <translation type="unfinished"></translation>
+        <translation>RTC-Daten in Spielstand speichern</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="167"/>
         <source>When enabled and supported by the game, Playback adds real-time clock (RTC) data to the save file. This ensures accurate preservation of time-based events. Note that this will increase the file size and might make it incompatible with other software.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wenn diese Option aktiviert ist und vom Spiel unterstützt wird, fügt die Playback-Software den Speicherstand Echtzeitdaten (RTC) hinzu. Dadurch wird eine genaue Speicherung zeitbasierter Events sicher gestellt. Beachten Sie, dass dadurch die Dateigröße zunimmt und die Datei möglicherweise nicht mit anderer Software kompatibel ist.</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="175"/>
@@ -835,7 +835,7 @@ Wenn Sie alle Bilder von Ihrer Kamera entfernen möchten, ohne diese einzeln in 
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="183"/>
         <source>Verify Save is Read Properly</source>
-        <translation>Gelesen Spielstand überprüfen</translation>
+        <translation>Gelesenen Spielstand überprüfen</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="184"/>
@@ -865,22 +865,22 @@ Wenn Sie alle Bilder von Ihrer Kamera entfernen möchten, ohne diese einzeln in 
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="49"/>
         <source>General</source>
-        <translation type="unfinished"></translation>
+        <translation>Allgemein</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="49"/>
         <source>Customize general settings to offer a personalized experience.</source>
-        <translation type="unfinished"></translation>
+        <translation>Personalisierien Sie Ihr Spielerlebnis, indem Sie allgemeine Einstellungen anpassen.</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="52"/>
         <source>Data</source>
-        <translation type="unfinished"></translation>
+        <translation>Daten</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="52"/>
         <source>Configure how transfers are handled in the Data section of Playback.</source>
-        <translation type="unfinished"></translation>
+        <translation>Konfigurieren Sie im Bereich &apos;Daten&apos; der Playback-Software, wie mit Übertragungen umgegangen wird.</translation>
     </message>
 </context>
 <context>
@@ -888,12 +888,12 @@ Wenn Sie alle Bilder von Ihrer Kamera entfernen möchten, ohne diese einzeln in 
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="196"/>
         <source>Open Log Directory</source>
-        <translation type="unfinished"></translation>
+        <translation>Logverzeichnis öffnen</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="202"/>
         <source>Open Cores Directory</source>
-        <translation type="unfinished"></translation>
+        <translation>Emulator-Verzeichnis</translation>
     </message>
 </context>
 <context>
@@ -1010,7 +1010,7 @@ Tipp: Übertragen Sie Ihren Spielstand auf den Computer, tauschen Sie die Batter
 Tip: Use external programs to trigger in-game events or customize gameplay.</source>
         <translation>Übertragen Sie ein Duplikat Ihres Spielstands von Ihrem Computer auf das Modul und machen Sie dort weiter, wo Sie aufgehört haben.
 
-Tipp: Verwenden Sie externe Programme, um Ereignisse im Spiel auszulösen oder das Gameplay anzupassen.</translation>
+Tipp: Verwenden Sie externe Programme, um Events im Spiel auszulösen oder das Gameplay anzupassen.</translation>
     </message>
     <message>
         <location filename="../src/ErrorMessages.h" line="26"/>
