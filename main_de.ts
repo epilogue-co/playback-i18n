@@ -170,7 +170,7 @@ Entfernen Sie das Modul nicht, während ein Vorgang ausgeführt wird.</translati
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="145"/>
         <source>Upload Homebrew Command Failed!</source>
-        <translation>Upload des Homebrew-Befehls fehlgeschlagen!</translation>
+        <translation>Homebrew Upload Befehl fehlgeschlagen!</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="146"/>
@@ -830,7 +830,7 @@ Wenn Sie alle Bilder von Ihrer Kamera entfernen möchten, ohne diese einzeln in 
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="176"/>
         <source>Activating this setting prompts Playback to check that the save file remains uncorrupted after being written to the cartridge. It ensures your game progress has been safely stored.</source>
-        <translation>Wenn Sie diese Einstellung aktivieren, prüft die Playback-Software, ob die Sicherungsdatei nach dem Schreiben auf das Modul unbeschädigt ist. So wird sichergestellt, dass Ihr Spielfortschritt sicher gespeichert wurde.</translation>
+        <translation>Wenn Sie diese Einstellung aktivieren, prüft die Playback-Software, ob der Spielstand nach dem Schreiben des Modul unbeschädigt ist. So wird sichergestellt, dass Ihr Spielfortschritt sicher gespeichert wurde.</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="183"/>
@@ -845,7 +845,7 @@ Wenn Sie alle Bilder von Ihrer Kamera entfernen möchten, ohne diese einzeln in 
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="192"/>
         <source>Verify Homebrew File Integrity</source>
-        <translation>Homebrew Datei Integritätsprüfung</translation>
+        <translation>Homebrew Integritätsprüfung</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="193"/>
@@ -880,7 +880,7 @@ Wenn Sie alle Bilder von Ihrer Kamera entfernen möchten, ohne diese einzeln in 
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="52"/>
         <source>Configure how transfers are handled in the Data section of Playback.</source>
-        <translation>Konfigurieren Sie im Bereich &apos;Daten&apos; der Playback-Software, wie mit Übertragungen umgegangen wird.</translation>
+        <translation>Konfigurieren Sie, wie Übertragungen gehandhabt werden sollen.</translation>
     </message>
 </context>
 <context>
@@ -893,7 +893,7 @@ Wenn Sie alle Bilder von Ihrer Kamera entfernen möchten, ohne diese einzeln in 
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="202"/>
         <source>Open Cores Directory</source>
-        <translation>Emulator-Verzeichnis</translation>
+        <translation>Emulatorverzeichnis öffnen</translation>
     </message>
 </context>
 <context>
@@ -992,7 +992,7 @@ Tipp: Unsere App führt einen Datenintegritätstest durch, um sicherzustellen, d
 Tip: Transfer your homebrew game to a cartridge and play it on original hardware.</source>
         <translation>Überschreiben Sie die Spieldaten auf Ihrem Modul mit einer anderen Datei. Vergewissern Sie sich, dass die zu schreibende Spieldatei gültig ist, indem Sie sie diese zuerst in einem externen Emulator testen.
 
-Tipp: Übertragen Sie Ihr Homebrew-Spiel auf ein Modul und spielen Sie es auf der Originalhardware.</translation>
+Tipp: Übertragen Sie Ihr Homebrew-Spiel auf ein Modul und spielen Sie es auf Originalhardware.</translation>
     </message>
     <message>
         <location filename="../src/ViewRouter.h" line="58"/>
@@ -1033,7 +1033,7 @@ Tipp: Verwenden Sie externe Programme, um Events im Spiel auszulösen oder das G
     <message>
         <location filename="../src/UIComponents.cpp" line="26"/>
         <source>You are about to quit.</source>
-        <translation>Sie sind dabei zu beenden.</translation>
+        <translation>Sie sind dabei die Emulation zu beenden.</translation>
     </message>
     <message>
         <location filename="../src/UIComponents.cpp" line="27"/>
