@@ -29,7 +29,7 @@
     <message>
         <location filename="../src/UIComponents.cpp" line="118"/>
         <source>beta</source>
-        <translation>ベータ</translation>
+        <translation>β版</translation>
     </message>
 </context>
 <context>
@@ -98,7 +98,7 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/ControlsWidget.cpp" line="135"/>
         <source>Input: </source>
-        <translation>インプット： </translation>
+        <translation>入力： </translation>
     </message>
 </context>
 <context>
@@ -106,7 +106,7 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/CustomCheatCodesWidget.cpp" line="9"/>
         <source>Custom Cheats</source>
-        <translation>カスタム・チート</translation>
+        <translation>カスタムチート</translation>
     </message>
     <message>
         <location filename="../src/CustomCheatCodesWidget.cpp" line="35"/>
@@ -160,7 +160,7 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="133"/>
         <source>Empty File Was Provided!</source>
-        <translation>空のファイルが提供された！</translation>
+        <translation>空のファイルが指定されました！</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="134"/>
@@ -170,7 +170,7 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="145"/>
         <source>Upload Homebrew Command Failed!</source>
-        <translation>Homebrewコマンドのアップロードに失敗しました！</translation>
+        <translation>Homebrewのアップロードコマンドに失敗しました！</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="146"/>
@@ -200,7 +200,7 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="233"/>
         <source>Written game data integrity check failed</source>
-        <translation>対局データの整合性チェックに失敗</translation>
+        <translation>ゲームデータの整合性チェックに失敗</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="233"/>
@@ -210,7 +210,7 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="340"/>
         <source>Write save failed</source>
-        <translation>書き込み保存に失敗</translation>
+        <translation>セーブの書き込みに失敗しました。</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="340"/>
@@ -225,7 +225,7 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="372"/>
         <source>The save data written to the cartridge does not match the data read back. Please clean the cartridge pins and try again to ensure consistency.</source>
-        <translation>カートリッジに書き込まれた保存デー タと読み込まれたデータが一致し ない。カートリッジのピンを清掃し、整合性を確認するためにもう一度やり直してください。</translation>
+        <translation>カートリッジに書き込まれた保存データと読み込まれたデータが一致しない。カートリッジのピンを清掃し、整合性を確認するためにもう一度やり直してください。</translation>
     </message>
 </context>
 <context>
@@ -270,7 +270,7 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/Emulator.cpp" line="265"/>
         <source>Failed to load game!</source>
-        <translation>ゲームのロードに失敗しました！</translation>
+        <translation>ゲームをロードできませんでした。</translation>
     </message>
     <message>
         <location filename="../src/Emulator.cpp" line="266"/>
@@ -280,7 +280,7 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/Emulator.cpp" line="272"/>
         <source>Failed to load save data!</source>
-        <translation>セーブデータのロードに失敗しました！</translation>
+        <translation>セーブデータをロードできませんでした。</translation>
     </message>
     <message>
         <location filename="../src/Emulator.cpp" line="272"/>
@@ -327,12 +327,12 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/EmulatorSettingsScreen.h" line="182"/>
         <source>Gamepad rumble</source>
-        <translation>ゲームパッドランブル</translation>
+        <translation>ゲームパッド振動</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.h" line="184"/>
         <source>Enable rumble support for games that support it, for more compatibility make sure you also enable Game Boy Player Rumble.</source>
-        <translation>ランブルサポートに対応しているゲームではランブルサポートを有効にし、より高い互換性を得るにはゲームボーイプレイヤーランブルも有効にしてください。</translation>
+        <translation>対応しているゲームでゲームパッドの振動を有効にします。より高い互換性を得るために、Game Boy Playerの振動も有効にしてください。</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.h" line="198"/>
@@ -379,7 +379,7 @@ please do not disconnect the device.</source>
     <message>
         <location filename="../src/FirmwareUpdateWindow.h" line="24"/>
         <source>Not working?</source>
-        <translation>機能していない？</translation>
+        <translation>うまくいきませんか？</translation>
     </message>
 </context>
 <context>
@@ -388,12 +388,12 @@ please do not disconnect the device.</source>
         <location filename="../src/InputBindingsScreen.cpp" line="17"/>
         <location filename="../src/InputBindingsScreen.h" line="69"/>
         <source>Rebind keys</source>
-        <translation>リバインド・キー</translation>
+        <translation>キーの再設定</translation>
     </message>
     <message>
         <location filename="../src/InputBindingsScreen.cpp" line="29"/>
         <source>Need help?</source>
-        <translation>お困りですか？</translation>
+        <translation>サポートが必要ですか？</translation>
     </message>
     <message>
         <location filename="../src/InputBindingsScreen.h" line="61"/>
@@ -460,7 +460,7 @@ You can try cleaning then re-inserting the cartridge into the device.
     <message>
         <location filename="../src/UIComponents.cpp" line="87"/>
         <source>tutorial</source>
-        <translation>チュートリアル</translation>
+        <translation>操作ガイド</translation>
     </message>
     <message>
         <location filename="../src/UIComponents.cpp" line="87"/>
@@ -478,7 +478,7 @@ You can try cleaning then re-inserting the cartridge into the device.
     <message>
         <location filename="../src/UIComponents.cpp" line="65"/>
         <source>Your Operator device did not manage to read your cartridge properly. Please make sure that the cartridge is clean and try again.</source>
-        <translation>Operator装置がカートリッジを正しく読み取れませんでした。カートリッジが汚れていないことを確認して、もう。</translation>
+        <translation>Operator装置がカートリッジを正しく読み取れませんでした。カートリッジが汚れていないことを確認して、もう一度お試しください。</translation>
     </message>
 </context>
 <context>
@@ -486,12 +486,12 @@ You can try cleaning then re-inserting the cartridge into the device.
     <message>
         <location filename="../src/ManagePage.cpp" line="9"/>
         <source>START</source>
-        <translation>スタート</translation>
+        <translation>開始</translation>
     </message>
     <message>
         <location filename="../src/ManagePage.cpp" line="18"/>
         <source>Data Flow:</source>
-        <translation>データの流れ：</translation>
+        <translation>データビュー：</translation>
     </message>
     <message>
         <location filename="../src/ManagePage.cpp" line="96"/>
@@ -524,18 +524,18 @@ You can try cleaning then re-inserting the cartridge into the device.
     <message>
         <location filename="../src/ManagePageOperation.cpp" line="50"/>
         <source>STOP</source>
-        <translation>ストップ</translation>
+        <translation>停止</translation>
     </message>
     <message>
         <location filename="../src/ManagePageOperation.cpp" line="185"/>
         <location filename="../src/ManagePageOperation.cpp" line="190"/>
         <source>Game Data</source>
-        <translation>試合データ</translation>
+        <translation>ゲームデータ</translation>
     </message>
     <message>
         <location filename="../src/ManagePageOperation.cpp" line="311"/>
         <source>START</source>
-        <translation>スタート</translation>
+        <translation>開始</translation>
     </message>
 </context>
 <context>
@@ -571,7 +571,7 @@ You can try cleaning then re-inserting the cartridge into the device.
     <message>
         <location filename="../src/Navbar.h" line="152"/>
         <source>Writing game...</source>
-        <translation>ライティングゲーム...</translation>
+        <translation>ゲームを記録中...</translation>
     </message>
     <message>
         <location filename="../src/Navbar.h" line="153"/>
@@ -581,7 +581,7 @@ You can try cleaning then re-inserting the cartridge into the device.
     <message>
         <location filename="../src/Navbar.h" line="154"/>
         <source>Writing save...</source>
-        <translation>ライティング・セーブ...</translation>
+        <translation>保存を記録中...</translation>
     </message>
     <message>
         <location filename="../src/Navbar.h" line="155"/>
@@ -594,7 +594,7 @@ You can try cleaning then re-inserting the cartridge into the device.
     <message>
         <location filename="../src/NavbarComponents.cpp" line="88"/>
         <source>Nightly</source>
-        <translation>毎晩</translation>
+        <translation>ナイトリービルド</translation>
     </message>
     <message>
         <location filename="../src/NavbarComponents.cpp" line="100"/>
@@ -627,7 +627,7 @@ You can try cleaning then re-inserting the cartridge into the device.
     <message>
         <location filename="../src/NavbarLogoDropdown.cpp" line="44"/>
         <source>Report a Bug</source>
-        <translation>バグを報告する</translation>
+        <translation>不具合を報告</translation>
     </message>
     <message>
         <location filename="../src/NavbarLogoDropdown.cpp" line="48"/>
@@ -637,7 +637,7 @@ You can try cleaning then re-inserting the cartridge into the device.
     <message>
         <location filename="../src/NavbarLogoDropdown.cpp" line="49"/>
         <source>Exit</source>
-        <translation>出口</translation>
+        <translation>終了</translation>
     </message>
 </context>
 <context>
@@ -668,7 +668,7 @@ You can try cleaning then re-inserting the cartridge into the device.
     <message>
         <location filename="../src/Navbar.h" line="62"/>
         <source>Backup Save</source>
-        <translation>バックアップ・セーブ</translation>
+        <translation>バックアップ保存</translation>
     </message>
     <message>
         <location filename="../src/Navbar.h" line="63"/>
@@ -691,7 +691,7 @@ You can try cleaning then re-inserting the cartridge into the device.
     <message>
         <location filename="../src/PhotosPage.cpp" line="168"/>
         <source>Open Directory</source>
-        <translation>オープンディレクトリ</translation>
+        <translation>フォルダを開く</translation>
     </message>
     <message>
         <location filename="../src/PhotosPage.cpp" line="186"/>
@@ -720,7 +720,7 @@ If you&apos;d like to easily remove all the pictures from your camera, without h
     <message>
         <location filename="../src/PhotosPage.cpp" line="13"/>
         <source>SAVE ALL</source>
-        <translation>すべて保存</translation>
+        <translation>すべてを保存</translation>
     </message>
     <message>
         <location filename="../src/PhotosPage.cpp" line="14"/>
@@ -800,7 +800,7 @@ If you&apos;d like to easily remove all the pictures from your camera, without h
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="138"/>
         <source>Preferred emulator core</source>
-        <translation>優先エミュレーターコア</translation>
+        <translation>お好みのエミュレーターコアを選択</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="139"/>
@@ -901,7 +901,7 @@ If you&apos;d like to easily remove all the pictures from your camera, without h
     <message>
         <location filename="../src/ProgressGridWidget.cpp" line="17"/>
         <source>Data Grid:</source>
-        <translation>データグリッド：</translation>
+        <translation>データマトリックス：</translation>
     </message>
 </context>
 <context>
@@ -929,7 +929,7 @@ If you&apos;d like to easily remove all the pictures from your camera, without h
     <message>
         <location filename="../src/DeviceSettingsScreen.cpp" line="4"/>
         <source>Static</source>
-        <translation>静的</translation>
+        <translation>点灯</translation>
     </message>
     <message>
         <location filename="../src/DeviceSettingsScreen.cpp" line="5"/>
@@ -1020,7 +1020,7 @@ Tip: Use external programs to trigger in-game events or customize gameplay.</sou
     <message>
         <location filename="../src/ErrorMessages.h" line="30"/>
         <source>tutorial</source>
-        <translation>チュートリアル</translation>
+        <translation>操作ガイド</translation>
     </message>
     <message>
         <location filename="../src/ErrorMessages.h" line="30"/>
@@ -1033,12 +1033,12 @@ Tip: Use external programs to trigger in-game events or customize gameplay.</sou
     <message>
         <location filename="../src/UIComponents.cpp" line="26"/>
         <source>You are about to quit.</source>
-        <translation>あなたは辞めようとしている。</translation>
+        <translation>エミュレーションを終了しようとしています。</translation>
     </message>
     <message>
         <location filename="../src/UIComponents.cpp" line="27"/>
         <source>Are you sure you want to exit?</source>
-        <translation>本当に出たいのか？</translation>
+        <translation>終了してもよろしいですか？</translation>
     </message>
 </context>
 <context>
@@ -1075,13 +1075,13 @@ Would you like to proceed?
         <location filename="../src/SearchWindow.h" line="24"/>
         <source>Looking for your Operator device.
 Please make sure it&apos;s connected.</source>
-        <translation>オペレーター装置がカートリッジを正しく読み取れませんでした。
-カートリッジが汚れていないことを確認して、もう一度やり直してください。</translation>
+        <translation>Operatorデバイスを探しています。
+デバイスが接続されているか確認してください。</translation>
     </message>
     <message>
         <location filename="../src/SearchWindow.h" line="28"/>
         <source>Not working?</source>
-        <translation>機能していない？</translation>
+        <translation>うまくいきませんか？</translation>
     </message>
 </context>
 <context>
@@ -1104,7 +1104,7 @@ Please make sure it&apos;s connected.</source>
     <message>
         <location filename="../src/EmulatorSettingsScreen.h" line="132"/>
         <source>Configure controller and controller rumble settings.</source>
-        <translation>コントローラーとコントローラーのランブル設定を行う。</translation>
+        <translation>コントローラーとコントローラーの振動設定を行う。</translation>
     </message>
 </context>
 <context>
@@ -1158,7 +1158,7 @@ Please make sure it&apos;s connected.</source>
     <message>
         <location filename="../src/StartControllerWidget.cpp" line="138"/>
         <source>STOP</source>
-        <translation>ストップ</translation>
+        <translation>停止</translation>
     </message>
     <message>
         <location filename="../src/StartControllerWidget.cpp" line="138"/>
@@ -1190,7 +1190,7 @@ Please make sure it&apos;s connected.</source>
     <message>
         <location filename="../src/UIComponents.cpp" line="34"/>
         <source>You are about to quit.</source>
-        <translation>あなたは辞めようとしている。</translation>
+        <translation>エミュレーションを終了しようとしています。</translation>
     </message>
     <message>
         <location filename="../src/UIComponents.cpp" line="35"/>
@@ -1215,12 +1215,12 @@ Please make sure it&apos;s connected.</source>
     <message>
         <location filename="../src/ViewRouter.cpp" line="15"/>
         <source>Backup Save</source>
-        <translation>バックアップ・セーブ</translation>
+        <translation>バックアップ保存</translation>
     </message>
     <message>
         <location filename="../src/ViewRouter.cpp" line="17"/>
         <source>Upload Save</source>
-        <translation>アップロード 保存</translation>
+        <translation>アップロード保存</translation>
     </message>
 </context>
 <context>
@@ -1233,7 +1233,7 @@ Please make sure it&apos;s connected.</source>
     <message>
         <location filename="../src/Window.cpp" line="128"/>
         <source>Open</source>
-        <translation>オープン</translation>
+        <translation>実行</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="144"/>
