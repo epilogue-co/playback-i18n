@@ -32,12 +32,12 @@
     <message>
         <location filename="../src/AppTour.cpp" line="64"/>
         <source>Welcome to the App Tour</source>
-        <translation>Bienvenue au tour guidé de l'app</translation>
+        <translation>Bienvenue au tour guidé de l&apos;app</translation>
     </message>
     <message>
         <location filename="../src/AppTour.cpp" line="65"/>
         <source>This tour will guide you through the app&apos;s features.</source>
-        <translation>Ce tour guidé de l'application vous fera découvrir ses fonctions.</translation>
+        <translation>Ce tour guidé de l&apos;application vous fera découvrir ses fonctions.</translation>
     </message>
     <message>
         <location filename="../src/AppTour.cpp" line="67"/>
@@ -107,7 +107,7 @@
         <source>Make sure your cartridge is properly inserted and its pins are clean.
 Do not remove the cartridge while any operation is running.</source>
         <translation>Assurez-vous que votre cartouche est correctement insérée et que ses broches sont propres.
-Ne retirez pas la cartouche pendant qu'une opération est en cours.</translation>
+Ne retirez pas la cartouche pendant qu&apos;une opération est en cours.</translation>
     </message>
 </context>
 <context>
@@ -119,8 +119,8 @@ Ne retirez pas la cartouche pendant qu'une opération est en cours.</translation
     </message>
     <message>
         <location filename="../src/CheatCodesScreen.cpp" line="101"/>
-        <source>Enable predefined cheats or use cheats from the internet to transform how you play, from abilities and mechanics to audio effects. Make sure you have autosave disabled so that your cartridge's save isn't overwritten while you're running cheats.</source>
-        <translation>Activez des codes prédéfinis pour tricher ou entrez des codes de triche venant du net pour transformer votre façon de jouer, allant d'une modification des capacités et mécanismes du jeu jusqu'à des changements sonores. Veuillez désactiver la sauvegarde automatique lorsque vous utilisez des codes de triche afin que la sauvegarde de votre cartouche ne soit pas écrasée en exécutant des codes.</translation>
+        <source>Enable predefined cheats or use cheats from the internet to transform how you play, from abilities and mechanics to audio effects. Make sure you have autosave disabled so that your cartridge&apos;s save isn&apos;t overwritten while you&apos;re running cheats.</source>
+        <translation>Activez des codes prédéfinis pour tricher ou entrez des codes de triche venant du net pour transformer votre façon de jouer, allant d&apos;une modification des capacités et mécanismes du jeu jusqu&apos;à des changements sonores. Veuillez désactiver la sauvegarde automatique lorsque vous utilisez des codes de triche afin que la sauvegarde de votre cartouche ne soit pas écrasée en exécutant des codes.</translation>
     </message>
 </context>
 <context>
@@ -174,17 +174,17 @@ Ne retirez pas la cartouche pendant qu'une opération est en cours.</translation
     <message>
         <location filename="../src/CoreCardWidget.cpp" line="277"/>
         <source>Failed to download core</source>
-        <translation>Le cœur n'a pas pu être téléchargé</translation>
+        <translation>Le cœur n&apos;a pas pu être téléchargé</translation>
     </message>
     <message>
         <location filename="../src/CoreCardWidget.cpp" line="284"/>
         <source>Failed to open file for writing</source>
-        <translation>Le fichier n'a pas pu être ouvert pour l'écriture</translation>
+        <translation>Le fichier n&apos;a pas pu être ouvert pour l&apos;écriture</translation>
     </message>
     <message>
         <location filename="../src/CoreCardWidget.cpp" line="294"/>
         <source>Failed to open zip file</source>
-        <translation>Le fichier zip n'a pas pu être ouvert</translation>
+        <translation>Le fichier zip n&apos;a pas pu être ouvert</translation>
     </message>
     <message>
         <location filename="../src/CoreCardWidget.cpp" line="336"/>
@@ -222,7 +222,7 @@ Ne retirez pas la cartouche pendant qu'une opération est en cours.</translation
     <message>
         <location filename="../src/CoreSelectorScreen.cpp" line="210"/>
         <source>You can change the emulation core for your Operator device. Download a core online or provide your own, but remember: only some cores are fully supported by Epilogue ensure complete feature compatibility.</source>
-        <translation>Vous pouvez changer le cœur d'émulation pour votre appareil Operator. Vous pouvez télécharger un cœur en ligne ou utiliser le votre, mais attention : seuls certains cœurs sont pleinement supportés par Epilogue pour s'assurer d'une compatibilité totale des fonctionnalités.</translation>
+        <translation>Vous pouvez changer le cœur d&apos;émulation pour votre appareil Operator. Vous pouvez télécharger un cœur en ligne ou utiliser le votre, mais attention : seuls certains cœurs sont pleinement supportés par Epilogue pour s&apos;assurer d&apos;une compatibilité totale des fonctionnalités.</translation>
     </message>
     <message>
         <location filename="../src/CoreSelectorScreen.cpp" line="212"/>
@@ -284,7 +284,7 @@ Ne retirez pas la cartouche pendant qu'une opération est en cours.</translation
     <message>
         <location filename="../src/DeviceBase.cpp" line="270"/>
         <source>Save data integrity check failed!</source>
-        <translation>La vérification de l'intégrité des données de sauvegarde a échoué !</translation>
+        <translation>La vérification de l&apos;intégrité des données de sauvegarde a échoué !</translation>
     </message>
     <message>
         <location filename="../src/DeviceBase.cpp" line="271"/>
@@ -297,12 +297,12 @@ Ne retirez pas la cartouche pendant qu'une opération est en cours.</translation
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="98"/>
         <source>Game Data Integrity Check Failed!</source>
-        <translation>La vérification de l'intégrité des données du jeu a échoué !</translation>
+        <translation>La vérification de l&apos;intégrité des données du jeu a échoué !</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="99"/>
         <source>Playback detected a discrepancy between the expected game data and the backed up data. Please clean the cartridge pins and try again to ensure accuracy.</source>
-        <translation>Playback a détecté une différence entre les données du jeu attendues et les données copiées. Veuillez nettoyer les broches de la cartouche et réessayer pour assurer l'authenticité des données.</translation>
+        <translation>Playback a détecté une différence entre les données du jeu attendues et les données copiées. Veuillez nettoyer les broches de la cartouche et réessayer pour assurer l&apos;authenticité des données.</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="132"/>
@@ -311,43 +311,43 @@ Ne retirez pas la cartouche pendant qu'une opération est en cours.</translation
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="133"/>
-        <source> It looks like the homebrew game you're trying to upload has been detected by Playback as having 0 bytes. Please verify that the data you're attempting to upload is accurate.</source>
+        <source> It looks like the homebrew game you&apos;re trying to upload has been detected by Playback as having 0 bytes. Please verify that the data you&apos;re attempting to upload is accurate.</source>
         <translation> Il semble que le jeu homebrew que vous essayez de téléverser ait été détecté par Playback comme ayant 0 octet. Veuillez vérifier que les données que vous essayez de téléverser sont correctes.</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="143"/>
         <source>Upload Homebrew Command Failed!</source>
-        <translation>La commande de téléversement d'homebrew a échoué !</translation>
+        <translation>La commande de téléversement d&apos;homebrew a échoué !</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="144"/>
         <source>An error occurred while attempting to start the homebrew upload command. Please restart the application and reconnect the Operator device. If the problem continues, contact our Support team.</source>
-        <translation>Une erreur s'est produite lors du lancement de la commande de téléversement d'homebrew. Veuillez redémarrer l'application et reconnecter l'appareil Operator. Si le problème persiste, contactez notre équipe d'assistance.</translation>
+        <translation>Une erreur s&apos;est produite lors du lancement de la commande de téléversement d&apos;homebrew. Veuillez redémarrer l&apos;application et reconnecter l&apos;appareil Operator. Si le problème persiste, contactez notre équipe d&apos;assistance.</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="173"/>
         <source>Homebrew Cartridge Erase Failed!</source>
-        <translation>L'effacement des données de la cartouche homebrew a échoué !</translation>
+        <translation>L&apos;effacement des données de la cartouche homebrew a échoué !</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="174"/>
-        <source>Playback couldn't delete the contents of the homebrew cartridge. Please clean the cartridge pins and try again. If the issue persists, contact our Support team.</source>
-        <translation>Playback n'a pas pu supprimer le contenu de la cartouche homebrew. Veuillez nettoyer les broches de la cartouche et réessayer. Si le problème persiste, contactez notre équipe d'assistance.</translation>
+        <source>Playback couldn&apos;t delete the contents of the homebrew cartridge. Please clean the cartridge pins and try again. If the issue persists, contact our Support team.</source>
+        <translation>Playback n&apos;a pas pu supprimer le contenu de la cartouche homebrew. Veuillez nettoyer les broches de la cartouche et réessayer. Si le problème persiste, contactez notre équipe d&apos;assistance.</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="193"/>
         <source>Homebrew Cartridge Data Integrity Check Failed!</source>
-        <translation>La vérification de l'intégrité des données de la cartouche homebrew a échoué !</translation>
+        <translation>La vérification de l&apos;intégrité des données de la cartouche homebrew a échoué !</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="194"/>
         <source>The cartridge was erased successfully, but the data written does not match the data read back. This issue might occur with some homebrew cartridges. Make sure the game is playable, either by testing on an original console or in the Playback app.</source>
-        <translation>Les données de la cartouche ont été effacées, mais les données écrites ne correspondent pas aux données relues. Ce problème peut se produire avec certaines cartouches homebrew. Assurez-vous que le jeu est jouable, soit en le testant sur une console d'origine, soit dans l'application Playback.</translation>
+        <translation>Les données de la cartouche ont été effacées, mais les données écrites ne correspondent pas aux données relues. Ce problème peut se produire avec certaines cartouches homebrew. Assurez-vous que le jeu est jouable, soit en le testant sur une console d&apos;origine, soit dans l&apos;application Playback.</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="228"/>
         <source>Written game data integrity check failed</source>
-        <translation>La vérification de l'intégrité des données du jeu écrit a échoué</translation>
+        <translation>La vérification de l&apos;intégrité des données du jeu écrit a échoué</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="228"/>
@@ -357,22 +357,22 @@ Ne retirez pas la cartouche pendant qu'une opération est en cours.</translation
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="334"/>
         <source>Write save failed</source>
-        <translation>L'écriture de la sauvegarde a échoué</translation>
+        <translation>L&apos;écriture de la sauvegarde a échoué</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="334"/>
         <source>Failed to send write save command to device.</source>
-        <translation>Échec de l'envoi de l'écriture de la sauvegarde à l'appareil.</translation>
+        <translation>Échec de l&apos;envoi de l&apos;écriture de la sauvegarde à l&apos;appareil.</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="363"/>
         <source>Save Data Integrity Check Failed!</source>
-        <translation>La vérification de l'intégrité des données de sauvegarde a échoué !</translation>
+        <translation>La vérification de l&apos;intégrité des données de sauvegarde a échoué !</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="364"/>
         <source>The save data written to the cartridge does not match the data read back. Please clean the cartridge pins and try again to ensure consistency.</source>
-        <translation>Les données de sauvegarde écrites dans la cartouche ne correspondent pas aux données relues. Veuillez nettoyer les broches de la cartouche et réessayer pour assurer l'authenticité des données.</translation>
+        <translation>Les données de sauvegarde écrites dans la cartouche ne correspondent pas aux données relues. Veuillez nettoyer les broches de la cartouche et réessayer pour assurer l&apos;authenticité des données.</translation>
     </message>
 </context>
 <context>
@@ -385,7 +385,7 @@ Ne retirez pas la cartouche pendant qu'une opération est en cours.</translation
     <message>
         <location filename="../src/DeviceSettingsScreen.cpp" line="69"/>
         <source>Choose one of the options below to set the status of your device’s LED light. Select ‘Static’ to keep the light on or ‘Dark’ to shut it off. Pulse and Strobe coming soon.</source>
-        <translation>Choisissez l'une des options ci-dessous pour changer l'état de la lumière LED de votre appareil. Sélectionnez « Statique » pour que la lumière reste allumée ou « Sombre » pour l'éteindre. Les options « Pulsation » et « Stroboscopique » seront bientôt disponibles.</translation>
+        <translation>Choisissez l&apos;une des options ci-dessous pour changer l&apos;état de la lumière LED de votre appareil. Sélectionnez « Statique » pour que la lumière reste allumée ou « Sombre » pour l&apos;éteindre. Les options « Pulsation » et « Stroboscopique » seront bientôt disponibles.</translation>
     </message>
 </context>
 <context>
@@ -421,7 +421,7 @@ Ne retirez pas la cartouche pendant qu'une opération est en cours.</translation
     <message>
         <location filename="../src/Emulator.cpp" line="262"/>
         <source>Unable to launch the game, please make sure that the cartridge is clean.</source>
-        <translation>Le jeu n'a pas pu être démarré : assurez-vous que la cartouche est propre.</translation>
+        <translation>Le jeu n&apos;a pas pu être démarré : assurez-vous que la cartouche est propre.</translation>
     </message>
     <message>
         <location filename="../src/Emulator.cpp" line="268"/>
@@ -431,7 +431,7 @@ Ne retirez pas la cartouche pendant qu'une opération est en cours.</translation
     <message>
         <location filename="../src/Emulator.cpp" line="268"/>
         <source>The core failed to load the save data.</source>
-        <translation>Le cœur n'a pas réussi à charger les données de sauvegarde.</translation>
+        <translation>Le cœur n&apos;a pas réussi à charger les données de sauvegarde.</translation>
     </message>
 </context>
 <context>
@@ -453,12 +453,12 @@ Ne retirez pas la cartouche pendant qu'une opération est en cours.</translation
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="251"/>
         <source>Fast-forward speed multiplier (Re-enable)</source>
-        <translation>Multiplicateur de vitesse de l'avance rapide (Réactivation)</translation>
+        <translation>Multiplicateur de vitesse de l&apos;avance rapide (Réactivation)</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="260"/>
-        <source>A fast-forward speed higher than 2x can cause unexpected bugs in combination with the 'Autosave to cartridge' feature. You will need to disable and enable it by clicking the fast-forward button.</source>
-        <translation>Une avance rapide supérieure à 2x peut provoquer des bugs inattendus en combinaison avec la fonction « Sauvegarder automatiquement sur la cartouche ». Vous devrez désactiver et activer l'avance rapide en appuyant sur le bouton d'avance rapide en jouant.</translation>
+        <source>A fast-forward speed higher than 2x can cause unexpected bugs in combination with the &apos;Autosave to cartridge&apos; feature. You will need to disable and enable it by clicking the fast-forward button.</source>
+        <translation>Une avance rapide supérieure à 2x peut provoquer des bugs inattendus en combinaison avec la fonction « Sauvegarder automatiquement sur la cartouche ». Vous devrez désactiver et activer l&apos;avance rapide en appuyant sur le bouton d&apos;avance rapide en jouant.</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="252"/>
@@ -473,7 +473,7 @@ Ne retirez pas la cartouche pendant qu'une opération est en cours.</translation
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="238"/>
         <source>Input &amp; Auxiliary Devices</source>
-        <translation>Dispositifs d'entrée et auxiliaires</translation>
+        <translation>Dispositifs d&apos;entrée et auxiliaires</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="239"/>
@@ -498,7 +498,7 @@ Ne retirez pas la cartouche pendant qu'une opération est en cours.</translation
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="265"/>
         <source>Enables high-fidelity mode, making audio and video run at rates close to what you would encounter on the original hardware. This will increase CPU usage, disable it if you notice low framerates.</source>
-        <translation>Active le mode haute fidélité, permettant de faire fonctionner l'audio et la vidéo à des taux proches de ceux que vous rencontreriez sur la console d'origine. Cela augmentera l'utilisation du processeur, donc désactivez cette option si vous remarquez des taux d'images faibles.</translation>
+        <translation>Active le mode haute fidélité, permettant de faire fonctionner l&apos;audio et la vidéo à des taux proches de ceux que vous rencontreriez sur la console d&apos;origine. Cela augmentera l&apos;utilisation du processeur, donc désactivez cette option si vous remarquez des taux d&apos;images faibles.</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="300"/>
@@ -518,7 +518,7 @@ Ne retirez pas la cartouche pendant qu'une opération est en cours.</translation
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="270"/>
         <source>Enable rumble support for games that support it, for more compatibility make sure you also enable Game Boy Player Rumble.</source>
-        <translation>Activez les vibrations pour les jeux compatibles. Pour fonctionner avec le plus de jeux compatibles, assurez-vous d'activer également la Vibration Game Boy Player.</translation>
+        <translation>Activez les vibrations pour les jeux compatibles. Pour fonctionner avec le plus de jeux compatibles, assurez-vous d&apos;activer également la Vibration Game Boy Player.</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="254"/>
@@ -528,7 +528,7 @@ Ne retirez pas la cartouche pendant qu'une opération est en cours.</translation
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="273"/>
         <source>Enable in-game integrity checks for save data. This feature is still in beta and may not work with all games.</source>
-        <translation>Activer les vérifications d'intégrité en jeu pour les données de sauvegarde. Cette fonctionnalité est encore en version bêta et peut ne pas fonctionner avec tous les jeux.</translation>
+        <translation>Activer les vérifications d&apos;intégrité en jeu pour les données de sauvegarde. Cette fonctionnalité est encore en version bêta et peut ne pas fonctionner avec tous les jeux.</translation>
     </message>
 </context>
 <context>
@@ -541,7 +541,7 @@ Ne retirez pas la cartouche pendant qu'une opération est en cours.</translation
     <message>
         <location filename="../src/UIComponents.cpp" line="130"/>
         <source>Please DO NOT disconnect or turn off your device during the update process. The LED will turn off during the update. Interruption will lead to your device becoming unusable and void warranty. By agreeing to this message box you confirm your understanding of these instructions.</source>
-        <translation>Veuillez NE PAS déconnecter ou éteindre votre appareil pendant la mise à jour. La LED s'éteindra pendant la mise à jour. Toute interruption rendra votre appareil inutilisable et annulera la garantie. En acceptant cette boîte de message, vous confirmez votre compréhension de ces instructions.</translation>
+        <translation>Veuillez NE PAS déconnecter ou éteindre votre appareil pendant la mise à jour. La LED s&apos;éteindra pendant la mise à jour. Toute interruption rendra votre appareil inutilisable et annulera la garantie. En acceptant cette boîte de message, vous confirmez votre compréhension de ces instructions.</translation>
     </message>
 </context>
 <context>
@@ -556,7 +556,7 @@ Ne retirez pas la cartouche pendant qu'une opération est en cours.</translation
         <source>This may take up to a minute,
 please do not disconnect the device.</source>
         <translation>Cela peut prendre une minute,
-veuillez ne pas déconnectez l'appareil.</translation>
+veuillez ne pas déconnectez l&apos;appareil.</translation>
     </message>
     <message>
         <location filename="../src/FirmwareUpdateWindow.cpp" line="60"/>
@@ -574,7 +574,7 @@ veuillez ne pas déconnectez l'appareil.</translation>
     <message>
         <location filename="../src/InputBindingsScreen.cpp" line="178"/>
         <source>Need help?</source>
-        <translation>Besoin d'aide ?</translation>
+        <translation>Besoin d&apos;aide ?</translation>
     </message>
     <message>
         <location filename="../src/InputBindingsScreen.cpp" line="179"/>
@@ -584,11 +584,11 @@ veuillez ne pas déconnectez l'appareil.</translation>
     <message>
         <location filename="../src/InputBindingsScreen.cpp" line="170"/>
         <source>The Playback software comes with pre-configured bindings for most gamepads. Try pressing buttons on your controller or keyboard to test them.</source>
-        <translation>Le logiciel Playback contient des configurations par défaut pour la plupart des manettes de jeu. Essayez d'appuyer sur les boutons de votre manette ou sur les touches de votre clavier pour les tester.</translation>
+        <translation>Le logiciel Playback contient des configurations par défaut pour la plupart des manettes de jeu. Essayez d&apos;appuyer sur les boutons de votre manette ou sur les touches de votre clavier pour les tester.</translation>
     </message>
     <message>
         <source>No gamepads connected.</source>
-        <translation type="vanished">Aucune manette n'est connectée.</translation>
+        <translation type="vanished">Aucune manette n&apos;est connectée.</translation>
     </message>
     <message>
         <source>Select a gamepad</source>
@@ -605,7 +605,7 @@ veuillez ne pas déconnectez l'appareil.</translation>
     <message>
         <location filename="../src/UIComponents.cpp" line="59"/>
         <source>Integrity check failed!</source>
-        <translation>Le contrôle d'intégrité a échoué !</translation>
+        <translation>Le contrôle d&apos;intégrité a échoué !</translation>
     </message>
     <message>
         <location filename="../src/UIComponents.cpp" line="60"/>
@@ -613,9 +613,9 @@ veuillez ne pas déconnectez l'appareil.</translation>
 
 You can try cleaning then re-inserting the cartridge into the device.
 </source>
-        <translation>Nous n'avons pas pu confirmer l'intégrité des données de cette cartouche, souhaitez-vous quand même continuer ? Il se peut que le jeu ne fonctionne pas ou ne sauvegarde pas correctement.
+        <translation>Nous n&apos;avons pas pu confirmer l&apos;intégrité des données de cette cartouche, souhaitez-vous quand même continuer ? Il se peut que le jeu ne fonctionne pas ou ne sauvegarde pas correctement.
 
-Vous pouvez essayer de nettoyer puis de réinsérer la cartouche dans l'appareil.
+Vous pouvez essayer de nettoyer puis de réinsérer la cartouche dans l&apos;appareil.
 </translation>
     </message>
 </context>
@@ -624,12 +624,12 @@ Vous pouvez essayer de nettoyer puis de réinsérer la cartouche dans l'appareil
     <message>
         <location filename="../src/UIComponents.cpp" line="113"/>
         <source>Permission denied. Unable to open device.</source>
-        <translation>Permission refusée. Impossible d'ouvrir l'appareil.</translation>
+        <translation>Permission refusée. Impossible d&apos;ouvrir l&apos;appareil.</translation>
     </message>
     <message>
         <location filename="../src/UIComponents.cpp" line="115"/>
         <source>Please make sure you configure your Linux system to allow unprivileged access to serial ports.</source>
-        <translation>Veuillez configurer votre système Linux afin d'autoriser l'accès non privilégié aux ports série.</translation>
+        <translation>Veuillez configurer votre système Linux afin d&apos;autoriser l&apos;accès non privilégié aux ports série.</translation>
     </message>
     <message>
         <location filename="../src/UIComponents.cpp" line="116"/>
@@ -644,7 +644,7 @@ Vous pouvez essayer de nettoyer puis de réinsérer la cartouche dans l'appareil
     <message>
         <location filename="../src/UIComponents.cpp" line="117"/>
         <source>to configure your Operator device.</source>
-        <translation>pour configurer l'Operator.</translation>
+        <translation>pour configurer l&apos;Operator.</translation>
     </message>
 </context>
 <context>
@@ -652,12 +652,12 @@ Vous pouvez essayer de nettoyer puis de réinsérer la cartouche dans l'appareil
     <message>
         <location filename="../src/UIComponents.cpp" line="87"/>
         <source>Integrity check failed!</source>
-        <translation>Le contrôle d'intégrité a échoué !</translation>
+        <translation>Le contrôle d&apos;intégrité a échoué !</translation>
     </message>
     <message>
         <location filename="../src/UIComponents.cpp" line="88"/>
         <source>Your Operator device did not manage to read your cartridge properly. Please make sure that the cartridge is clean and try again.</source>
-        <translation>Votre appareil Operator n'a pas réussi à lire correctement votre cartouche. Assurez-vous que la cartouche est propre et réessayez.</translation>
+        <translation>Votre appareil Operator n&apos;a pas réussi à lire correctement votre cartouche. Assurez-vous que la cartouche est propre et réessayez.</translation>
     </message>
 </context>
 <context>
@@ -731,7 +731,7 @@ Vous pouvez essayer de nettoyer puis de réinsérer la cartouche dans l'appareil
     <message>
         <location filename="../src/UIComponents.cpp" line="102"/>
         <source>It looks like there is another instance of the software running on this computer. Closing this instance.</source>
-        <translation>Il semble qu'une autre instance du logiciel soit en cours d'exécution sur cet ordinateur. Veuillez fermer cette instance.</translation>
+        <translation>Il semble qu&apos;une autre instance du logiciel soit en cours d&apos;exécution sur cet ordinateur. Veuillez fermer cette instance.</translation>
     </message>
 </context>
 <context>
@@ -740,7 +740,7 @@ Vous pouvez essayer de nettoyer puis de réinsérer la cartouche dans l'appareil
         <location filename="../src/Navbar.cpp" line="207"/>
         <location filename="../src/Navbar.cpp" line="242"/>
         <source>Press ESC to exit emulation</source>
-        <translation>Appuyez sur ÉCHAP pour quitter l'émulation</translation>
+        <translation>Appuyez sur ÉCHAP pour quitter l&apos;émulation</translation>
     </message>
     <message>
         <location filename="../src/Navbar.cpp" line="241"/>
@@ -805,7 +805,7 @@ Vous pouvez essayer de nettoyer puis de réinsérer la cartouche dans l'appareil
     </message>
     <message>
         <location filename="../src/NavbarLogoDropdown.cpp" line="123"/>
-        <source>What's New</source>
+        <source>What&apos;s New</source>
         <translation>Nouveautés</translation>
     </message>
     <message>
@@ -913,7 +913,7 @@ Vous pouvez essayer de nettoyer puis de réinsérer la cartouche dans l'appareil
     <message>
         <location filename="../src/PhotosPage.cpp" line="322"/>
         <source>Found no photos on your Game Boy Camera.</source>
-        <translation>Aucune photo n'a été trouvée sur votre Game Boy Camera.</translation>
+        <translation>Aucune photo n&apos;a été trouvée sur votre Game Boy Camera.</translation>
     </message>
     <message>
         <location filename="../src/PhotosPage.cpp" line="350"/>
@@ -924,7 +924,7 @@ Vous pouvez essayer de nettoyer puis de réinsérer la cartouche dans l'appareil
         <location filename="../src/PhotosPage.cpp" line="344"/>
         <source>Transfer your pics from your Game Boy Camera to your PC in just two clicks. The images are stored as PNGs of 128x112 pixels. You can scale this using the scaling function.
 
-If you'd like to easily remove all the pictures from your camera, without having to manually delete them one by one in the camera software, you can use the delete button below.</source>
+If you&apos;d like to easily remove all the pictures from your camera, without having to manually delete them one by one in the camera software, you can use the delete button below.</source>
         <translation>Transférez vos photos de votre Game Boy Camera vers votre PC en deux clics. Les images sont stockées au format PNG en 128x112 pixels. Vous pouvez ajuster leur taille en sélectionnant le bouton Taille.
 
 Si vous souhaitez supprimer facilement toutes les images de votre caméra sans avoir à les supprimer manuellement une par une dans le logiciel de la caméra, vous pouvez utiliser le bouton de suppression ci-dessous.</translation>
@@ -953,7 +953,7 @@ Si vous souhaitez supprimer facilement toutes les images de votre caméra sans a
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="105"/>
         <source>Allows you to change the language in which the Playback software is presented. It requires an application restart in order to update the language accross the entire application.</source>
-        <translation>Permet de changer la langue dans laquelle le logiciel Playback est affiché. Un redémarrage de l'application est nécessaire pour mettre à jour la langue dans l'ensemble de l'application.</translation>
+        <translation>Permet de changer la langue dans laquelle le logiciel Playback est affiché. Un redémarrage de l&apos;application est nécessaire pour mettre à jour la langue dans l&apos;ensemble de l&apos;application.</translation>
     </message>
     <message>
         <source>Autosave to cartridge (beta)</source>
@@ -975,20 +975,20 @@ Si vous souhaitez supprimer facilement toutes les images de votre caméra sans a
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="93"/>
         <source>FPS Counter</source>
-        <translation>Compteur d'IPS</translation>
+        <translation>Compteur d&apos;IPS</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="113"/>
         <source>Displays the current frames per second (FPS) of the game being played.</source>
-        <translation>Affiche le nombre d'images par seconde (IPS) du jeu en cours.</translation>
+        <translation>Affiche le nombre d&apos;images par seconde (IPS) du jeu en cours.</translation>
     </message>
     <message>
         <source>Preferred emulator core</source>
-        <translation type="obsolete">Cœur d'émulateur préféré</translation>
+        <translation type="obsolete">Cœur d&apos;émulateur préféré</translation>
     </message>
     <message>
-        <source>Allows you to select the preferred emulation core for running games. Different cores may offer varying levels of accuracy, performance, or compatibility with specific games. Choose the core that best suits your needs and the game you're playing.</source>
-        <translation type="obsolete">Permet de sélectionner le cœur d'émulation préféré pour l'exécution des jeux. Les différents cœurs peuvent offrir différents niveaux de précision, de performance ou de compatibilité avec des jeux spécifiques. Choisissez le cœur correspondant au mieux à vos besoins et au jeu auquel vous jouez.</translation>
+        <source>Allows you to select the preferred emulation core for running games. Different cores may offer varying levels of accuracy, performance, or compatibility with specific games. Choose the core that best suits your needs and the game you&apos;re playing.</source>
+        <translation type="obsolete">Permet de sélectionner le cœur d&apos;émulation préféré pour l&apos;exécution des jeux. Les différents cœurs peuvent offrir différents niveaux de précision, de performance ou de compatibilité avec des jeux spécifiques. Choisissez le cœur correspondant au mieux à vos besoins et au jeu auquel vous jouez.</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="92"/>
@@ -1003,12 +1003,12 @@ Si vous souhaitez supprimer facilement toutes les images de votre caméra sans a
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="115"/>
         <source>When enabled and supported by the game, Playback adds real-time clock (RTC) data to the save file. This ensures accurate preservation of time-based events. Note that this will increase the file size and might make it incompatible with other software.</source>
-        <translation>Lorsqu'activé et pris en charge par le jeu, Playback ajoute les données de l'horloge temps réel (HTR) au fichier de sauvegarde. Cela permet de conserver fidèlement les événements liés au temps. Notez que cela augmente la taille du fichier et peut le rendre incompatible avec d'autres logiciels.</translation>
+        <translation>Lorsqu&apos;activé et pris en charge par le jeu, Playback ajoute les données de l&apos;horloge temps réel (HTR) au fichier de sauvegarde. Cela permet de conserver fidèlement les événements liés au temps. Notez que cela augmente la taille du fichier et peut le rendre incompatible avec d&apos;autres logiciels.</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="95"/>
         <source>Verify Save After Writing Process</source>
-        <translation>Vérifier la sauvegarde après l'écriture</translation>
+        <translation>Vérifier la sauvegarde après l&apos;écriture</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="91"/>
@@ -1018,7 +1018,7 @@ Si vous souhaitez supprimer facilement toutes les images de votre caméra sans a
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="119"/>
         <source>Activating this setting prompts Playback to check that the save file remains uncorrupted after being written to the cartridge. It ensures your game progress has been safely stored.</source>
-        <translation>Activer ce paramètre force Playback à vérifier que le fichier de sauvegarde n'a pas été corrompu après avoir été écrit sur la cartouche. Cela permet de s'assurer que les données du jeu ont été sauvegardées en toute sécurité.</translation>
+        <translation>Activer ce paramètre force Playback à vérifier que le fichier de sauvegarde n&apos;a pas été corrompu après avoir été écrit sur la cartouche. Cela permet de s&apos;assurer que les données du jeu ont été sauvegardées en toute sécurité.</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="96"/>
@@ -1028,17 +1028,17 @@ Si vous souhaitez supprimer facilement toutes les images de votre caméra sans a
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="122"/>
         <source>When this setting is enabled, Playback reads the save file from the cartridge multiple times and reviews any discrepancies to prevent data corruption.</source>
-        <translation>Lorsque ce paramètre est activé, l'application lit plusieurs fois la sauvegarde de la cartouche et examine toute anomalie afin d'éviter la corruption des données.</translation>
+        <translation>Lorsque ce paramètre est activé, l&apos;application lit plusieurs fois la sauvegarde de la cartouche et examine toute anomalie afin d&apos;éviter la corruption des données.</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="97"/>
         <source>Verify Homebrew File Integrity</source>
-        <translation>Vérifier l'intégrité des données du fichier homebrew</translation>
+        <translation>Vérifier l&apos;intégrité des données du fichier homebrew</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="125"/>
         <source>This setting enables Playback to confirm the integrity of a homebrew game after transferring it to the cartridge, making sure there are no issues affecting your work.</source>
-        <translation>Ce paramètre force Playback à confirmer l'intégrité d'un jeu homebrew après l'avoir transféré sur la cartouche, afin de s'assurer qu'aucun problème n'affecte votre travail.</translation>
+        <translation>Ce paramètre force Playback à confirmer l&apos;intégrité d&apos;un jeu homebrew après l&apos;avoir transféré sur la cartouche, afin de s&apos;assurer qu&apos;aucun problème n&apos;affecte votre travail.</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="98"/>
@@ -1048,7 +1048,7 @@ Si vous souhaitez supprimer facilement toutes les images de votre caméra sans a
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="128"/>
         <source>When enabled, the Playback software will output more detailed logs to help diagnose issues. This setting is useful for troubleshooting and should be disabled when not needed.</source>
-        <translation>Lorsque cette option est activée, Playback produit des journaux plus détaillés pour aider à diagnostiquer les problèmes. Ce paramètre est utile pour le dépannage et doit être désactivé lorsqu'il n'est pas nécessaire.</translation>
+        <translation>Lorsque cette option est activée, Playback produit des journaux plus détaillés pour aider à diagnostiquer les problèmes. Ce paramètre est utile pour le dépannage et doit être désactivé lorsqu&apos;il n&apos;est pas nécessaire.</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="78"/>
@@ -1121,7 +1121,7 @@ Si vous souhaitez supprimer facilement toutes les images de votre caméra sans a
     <message>
         <location filename="../src/AboutWindow.cpp" line="153"/>
         <source>Device Version</source>
-        <translation>Version de l'appareil</translation>
+        <translation>Version de l&apos;appareil</translation>
     </message>
     <message>
         <location filename="../src/AboutWindow.cpp" line="154"/>
@@ -1141,7 +1141,7 @@ Si vous souhaitez supprimer facilement toutes les images de votre caméra sans a
     <message>
         <location filename="../src/CartDetailsWidget.cpp" line="292"/>
         <source>The description of this cartridge can’t be displayed since it’s not in our database. You can use the link below to open a ticket and we’ll add the game info to the database. Please feel free to contact us even if it’s a homebrew game you made if you’d like to have your artwork displayed here.</source>
-        <translation>La description de cette cartouche ne peut être affichée car elle n'est pas dans notre base de données. Vous pouvez utiliser le lien ci-dessous pour ouvrir un ticket et nous ajouterons les informations du jeu dans la base de données. N'hésitez pas à nous contacter même s'il s'agit d'un jeu homebrew que vous avez créé si vous souhaitez que votre jaquette soit affichée ici.</translation>
+        <translation>La description de cette cartouche ne peut être affichée car elle n&apos;est pas dans notre base de données. Vous pouvez utiliser le lien ci-dessous pour ouvrir un ticket et nous ajouterons les informations du jeu dans la base de données. N&apos;hésitez pas à nous contacter même s&apos;il s&apos;agit d&apos;un jeu homebrew que vous avez créé si vous souhaitez que votre jaquette soit affichée ici.</translation>
     </message>
     <message>
         <location filename="../src/CartDetailsWidget.cpp" line="299"/>
@@ -1178,18 +1178,18 @@ Si vous souhaitez supprimer facilement toutes les images de votre caméra sans a
         <source>Archive your game data securely on your computer, making a digital equivalent of your game collection. Game files are compatible with your chosen emulator.
 
 Tip: Our app runs a Data Integrity Test to make sure that you are getting an accurate reproduction of the cartridge’s content.</source>
-        <translation>Archivez vos données de jeu en toute sécurité sur votre ordinateur et créez un équivalent numérique de votre collection de jeux. Les fichiers de jeu sont compatibles avec l'émulateur de votre choix.
+        <translation>Archivez vos données de jeu en toute sécurité sur votre ordinateur et créez un équivalent numérique de votre collection de jeux. Les fichiers de jeu sont compatibles avec l&apos;émulateur de votre choix.
 
-Astuce : Notre application effectue une vérification de l'intégrité des données pour s'assurer que vous obtenez une reproduction exacte du contenu de la cartouche.</translation>
+Astuce : Notre application effectue une vérification de l&apos;intégrité des données pour s&apos;assurer que vous obtenez une reproduction exacte du contenu de la cartouche.</translation>
     </message>
     <message>
         <location filename="../src/ViewRouter.cpp" line="119"/>
         <source>Overwrite the game data on your cartridge with a different file. Make sure the game file you’re writing is valid by testing it in an external emulator first.
 
 Tip: Transfer your homebrew game to a cartridge and play it on original hardware.</source>
-        <translation>Remplacez les données de jeu de votre cartouche par un autre fichier. Assurez-vous que le fichier de jeu que vous écrivez est valide en le testant d'abord dans un émulateur externe.
+        <translation>Remplacez les données de jeu de votre cartouche par un autre fichier. Assurez-vous que le fichier de jeu que vous écrivez est valide en le testant d&apos;abord dans un émulateur externe.
 
-Astuce : transférez votre jeu homebrew sur une cartouche et jouez-y sur la console d'origine.</translation>
+Astuce : transférez votre jeu homebrew sur une cartouche et jouez-y sur la console d&apos;origine.</translation>
     </message>
     <message>
         <location filename="../src/ViewRouter.cpp" line="125"/>
@@ -1198,14 +1198,14 @@ Astuce : transférez votre jeu homebrew sur une cartouche et jouez-y sur la cons
 Tip: Transfer your save to the computer, replace the battery and transfer it back to the cartridge safely.</source>
         <translation>Transférez une copie de vos données de sauvegarde de votre cartouche vers votre ordinateur. Vous pourrez alors sauvegarder votre fichier de sauvegarde ou le modifier avec un programme externe.
 
-Astuce : transférez votre sauvegarde sur l'ordinateur, remplacez la batterie et transférez-la à nouveau sur la cartouche en toute sécurité.</translation>
+Astuce : transférez votre sauvegarde sur l&apos;ordinateur, remplacez la batterie et transférez-la à nouveau sur la cartouche en toute sécurité.</translation>
     </message>
     <message>
         <location filename="../src/ViewRouter.cpp" line="134"/>
         <source>Transfer a duplicate of your save data from your computer to the cartridge and pick the game up right where you left off.
 
 Tip: Use external programs to trigger in-game events or customize gameplay.</source>
-        <translation>Transférez une copie de vos données de sauvegarde de votre ordinateur vers la cartouche et reprenez le jeu là où vous l'avez laissé.
+        <translation>Transférez une copie de vos données de sauvegarde de votre ordinateur vers la cartouche et reprenez le jeu là où vous l&apos;avez laissé.
 
 Astuce : utilisez des programmes externes pour déclencher des événements dans le jeu ou en modifier le gameplay.</translation>
     </message>
@@ -1253,7 +1253,7 @@ You can read more about this issue here. Backups of the original save on the car
 
 Would you like to proceed?
 </source>
-        <translation>Le cœur de l'émulateur signale actuellement une taille de sauvegarde différente de celle que nous avons détectée sur la cartouche.
+        <translation>Le cœur de l&apos;émulateur signale actuellement une taille de sauvegarde différente de celle que nous avons détectée sur la cartouche.
 
 Vous pouvez en savoir plus sur ce problème ici. Des copies de la sauvegarde originale sur la cartouche sont effectuées dans le coffre-fort, mais continuer pourrait créer des sauvegardes inutilisables.
 
@@ -1271,9 +1271,9 @@ Souhaitez-vous tout de même continuer ?
     <message>
         <location filename="../src/SearchWindow.cpp" line="53"/>
         <source>Looking for your Operator device.
-Please make sure it's connected.</source>
-        <translation>Recherche de l'appareil Operator.
-Assurez-vous qu'il est connecté.</translation>
+Please make sure it&apos;s connected.</source>
+        <translation>Recherche de l&apos;appareil Operator.
+Assurez-vous qu&apos;il est connecté.</translation>
     </message>
     <message>
         <location filename="../src/SearchWindow.cpp" line="55"/>
@@ -1293,7 +1293,7 @@ Assurez-vous qu'il est connecté.</translation>
     </message>
     <message>
         <source>Input &amp; Auxiliary Devices</source>
-        <translation type="obsolete">Dispositifs d'entrée et auxiliaires</translation>
+        <translation type="obsolete">Dispositifs d&apos;entrée et auxiliaires</translation>
     </message>
     <message>
         <source>Configure controller and controller rumble settings.</source>
@@ -1310,7 +1310,7 @@ Assurez-vous qu'il est connecté.</translation>
     <message>
         <location filename="../src/SettingsWindow.cpp" line="246"/>
         <source>Failed to load core. Please load a valid core.</source>
-        <translation>Le cœur n'a pas pu être chargé. Veuillez charger un cœur valide.</translation>
+        <translation>Le cœur n&apos;a pas pu être chargé. Veuillez charger un cœur valide.</translation>
     </message>
     <message>
         <location filename="../src/SettingsWindow.cpp" line="276"/>
@@ -1325,12 +1325,12 @@ Assurez-vous qu'il est connecté.</translation>
     <message>
         <location filename="../src/SettingsWindow.cpp" line="279"/>
         <source>Emulator Settings</source>
-        <translation>Paramètres de l'émulateur</translation>
+        <translation>Paramètres de l&apos;émulateur</translation>
     </message>
     <message>
         <location filename="../src/SettingsWindow.cpp" line="280"/>
         <source>Device Settings</source>
-        <translation>Paramètres de l'appareil</translation>
+        <translation>Paramètres de l&apos;appareil</translation>
     </message>
     <message>
         <location filename="../src/SettingsWindow.cpp" line="281"/>
@@ -1438,7 +1438,7 @@ Assurez-vous qu'il est connecté.</translation>
         <location filename="../src/Window.cpp" line="138"/>
         <location filename="../src/Window.cpp" line="368"/>
         <source>A new app update is available</source>
-        <translation>Une nouvelle mise à jour de l'application est disponible</translation>
+        <translation>Une nouvelle mise à jour de l&apos;application est disponible</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="138"/>
@@ -1450,7 +1450,7 @@ Assurez-vous qu'il est connecté.</translation>
         <location filename="../src/Window.cpp" line="159"/>
         <location filename="../src/Window.cpp" line="366"/>
         <source>A new device update is available</source>
-        <translation>Une nouvelle mise à jour de l'appareil est disponible</translation>
+        <translation>Une nouvelle mise à jour de l&apos;appareil est disponible</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="159"/>
@@ -1476,7 +1476,7 @@ Assurez-vous qu'il est connecté.</translation>
     <message>
         <location filename="../src/Window.cpp" line="402"/>
         <source>Experience original console behavior with cycle-accurate emulation settings</source>
-        <translation>Vivez le comportement de la console d'origine avec des paramètres d'émulation aux cycles fidèles</translation>
+        <translation>Vivez le comportement de la console d&apos;origine avec des paramètres d&apos;émulation aux cycles fidèles</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="409"/>
