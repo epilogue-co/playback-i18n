@@ -34,9 +34,8 @@
         <translation>À propos</translation>
     </message>
     <message>
-        <location filename="../src/AboutWindow.cpp" line="184"/>
         <source> Agreement</source>
-        <translation> Accord</translation>
+        <translation type="vanished"> Accord</translation>
     </message>
     <message>
         <location filename="../src/AboutWindow.cpp" line="187"/>
@@ -49,8 +48,9 @@
         <translation>Mentions de copyright</translation>
     </message>
     <message>
+        <location filename="../src/AboutWindow.cpp" line="184"/>
         <source>Software License Agreement</source>
-        <translation type="vanished">Accord de licence logiciel</translation>
+        <translation>Accord de licence logiciel</translation>
     </message>
 </context>
 <context>

@@ -26,7 +26,7 @@
     <message>
         <location filename="../src/AboutWindow.cpp" line="179"/>
         <source>Software License</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Software License</translation>
     </message>
     <message>
         <location filename="../src/AboutWindow.cpp" line="182"/>
@@ -34,9 +34,8 @@
         <translation>Circa</translation>
     </message>
     <message>
-        <location filename="../src/AboutWindow.cpp" line="184"/>
         <source> Agreement</source>
-        <translation> Contratto</translation>
+        <translation type="vanished"> Contratto</translation>
     </message>
     <message>
         <location filename="../src/AboutWindow.cpp" line="187"/>
@@ -49,8 +48,9 @@
         <translation>Avvertenze sul copyright</translation>
     </message>
     <message>
+        <location filename="../src/AboutWindow.cpp" line="184"/>
         <source>Software License Agreement</source>
-        <translation type="vanished">Contratto di licenza software</translation>
+        <translation>Contratto di licenza software</translation>
     </message>
 </context>
 <context>

@@ -34,9 +34,8 @@
         <translation>关于</translation>
     </message>
     <message>
-        <location filename="../src/AboutWindow.cpp" line="184"/>
         <source> Agreement</source>
-        <translation> 协议</translation>
+        <translation type="vanished"> 协议</translation>
     </message>
     <message>
         <location filename="../src/AboutWindow.cpp" line="187"/>
@@ -49,8 +48,9 @@
         <translation>版权声明</translation>
     </message>
     <message>
+        <location filename="../src/AboutWindow.cpp" line="184"/>
         <source>Software License Agreement</source>
-        <translation type="vanished">软件许可协议</translation>
+        <translation>软件许可协议</translation>
     </message>
 </context>
 <context>

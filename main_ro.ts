@@ -34,9 +34,8 @@
         <translation>Despre</translation>
     </message>
     <message>
-        <location filename="../src/AboutWindow.cpp" line="184"/>
         <source> Agreement</source>
-        <translation> Acord</translation>
+        <translation type="vanished"> Acord</translation>
     </message>
     <message>
         <location filename="../src/AboutWindow.cpp" line="187"/>
@@ -49,8 +48,9 @@
         <translation>Drepturi de autor</translation>
     </message>
     <message>
+        <location filename="../src/AboutWindow.cpp" line="184"/>
         <source>Software License Agreement</source>
-        <translation type="vanished">Licență software</translation>
+        <translation>Licență software</translation>
     </message>
 </context>
 <context>

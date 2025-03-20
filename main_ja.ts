@@ -34,9 +34,8 @@
         <translation>概要</translation>
     </message>
     <message>
-        <location filename="../src/AboutWindow.cpp" line="184"/>
         <source> Agreement</source>
-        <translation> 契約</translation>
+        <translation type="vanished"> 契約</translation>
     </message>
     <message>
         <location filename="../src/AboutWindow.cpp" line="187"/>
@@ -49,8 +48,9 @@
         <translation>著作権について</translation>
     </message>
     <message>
+        <location filename="../src/AboutWindow.cpp" line="184"/>
         <source>Software License Agreement</source>
-        <translation type="vanished">ソフトウェア使用許諾契約</translation>
+        <translation>ソフトウェア使用許諾契約</translation>
     </message>
 </context>
 <context>

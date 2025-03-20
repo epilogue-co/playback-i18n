@@ -34,9 +34,8 @@
         <translation>정보</translation>
     </message>
     <message>
-        <location filename="../src/AboutWindow.cpp" line="184"/>
         <source> Agreement</source>
-        <translation> 계약</translation>
+        <translation type="vanished"> 계약</translation>
     </message>
     <message>
         <location filename="../src/AboutWindow.cpp" line="187"/>
@@ -49,8 +48,9 @@
         <translation>저작권 고지</translation>
     </message>
     <message>
+        <location filename="../src/AboutWindow.cpp" line="184"/>
         <source>Software License Agreement</source>
-        <translation type="vanished">소프트웨어 라이선스 계약</translation>
+        <translation>소프트웨어 라이선스 계약</translation>
     </message>
 </context>
 <context>
