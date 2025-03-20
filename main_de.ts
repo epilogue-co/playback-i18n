@@ -340,10 +340,6 @@ Entfernen Sie das Modul nicht, während ein Vorgang ausgeführt wird.</translati
         <translation>In-Game Spielstandüberprüfungen</translation>
     </message>
     <message>
-        <source>Enable in-game save verifications (beta)</source>
-        <translation type="vanished">Speicherüberprüfungen im Spiel aktivieren (Beta)</translation>
-    </message>
-    <message>
         <location filename="../src/EmulatorSettingsScreen.h" line="200"/>
         <source>Enable in-game integrity checks for save data. This feature is still in beta and may not work with all games.</source>
         <translation>Aktiviert In-Game-Integritätsprüfungen für Spielstände. Diese Funktion befindet sich noch in der Betaphase und funktioniert möglicherweise nicht mit allen Spielen.</translation>
@@ -367,7 +363,7 @@ Entfernen Sie das Modul nicht, während ein Vorgang ausgeführt wird.</translati
     <message>
         <location filename="../src/FirmwareUpdateWindow.h" line="21"/>
         <source>Updating...</source>
-        <translation>Aktualisieren...</translation>
+        <translation>Aktualisierung...</translation>
     </message>
     <message>
         <location filename="../src/FirmwareUpdateWindow.h" line="22"/>
@@ -731,14 +727,6 @@ Wenn Sie alle Bilder von Ihrer Kamera entfernen möchten, ohne diese einzeln in 
 <context>
     <name>PlaybackSettingsScreen</name>
     <message>
-        <source>Settings</source>
-        <translation type="vanished">Einstellungen</translation>
-    </message>
-    <message>
-        <source>Configure system settings.</source>
-        <translation type="vanished">Konfigurieren Sie die Systemeinstellungen.</translation>
-    </message>
-    <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="116"/>
         <source>Preferred Language (requires restart)</source>
         <translation>Bevorzugte Sprache (Neustart erforderlich)</translation>
@@ -747,10 +735,6 @@ Wenn Sie alle Bilder von Ihrer Kamera entfernen möchten, ohne diese einzeln in 
         <location filename="../src/PlaybackSettingsScreen.h" line="117"/>
         <source>Allows you to change the language in which the Playback software is presented. It requires an application restart in order to update the language accross the entire application.</source>
         <translation>Hiermit können Sie die Sprache ändern, in der die Playback-Software angezeigt wird. Um die Sprache in der gesamten Anwendung zu aktualisieren, ist ein Neustart der Anwendung erforderlich.</translation>
-    </message>
-    <message>
-        <source>Autosave to cartridge (beta)</source>
-        <translation type="vanished">Automatisches Speichern auf dem Modul (beta)</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="151"/>
@@ -788,14 +772,6 @@ Wenn Sie alle Bilder von Ihrer Kamera entfernen möchten, ohne diese einzeln in 
         <location filename="../src/PlaybackSettingsScreen.h" line="160"/>
         <source>Displays the current frames per second (FPS) of the game being played.</source>
         <translation>Zeigt die aktuellen Bilder pro Sekunde (FPS) des gespielten Spiels an.</translation>
-    </message>
-    <message>
-        <source>Include RTC data in save file</source>
-        <translation type="vanished">RTC-Daten in Speicherstand übernehmen</translation>
-    </message>
-    <message>
-        <source>When enabled, the Playback software includes the real-time clock (RTC) data in the save file. This ensures that the game&apos;s time-based events are correctly saved and restored.</source>
-        <translation type="vanished">Wenn diese Option aktiviert ist, fügt die Playback-Software die Echtzeitdaten (real-time clock) in den Spielstand ein. Dadurch wird sichergestellt, dass die zeitbasierten Ereignisse des Spiels korrekt gespeichert und wiederhergestellt werden.</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="138"/>
@@ -855,12 +831,12 @@ Wenn Sie alle Bilder von Ihrer Kamera entfernen möchten, ohne diese einzeln in 
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="200"/>
         <source>Enable verbose debug logs (requires restart)</source>
-        <translation>Ausführliche Debugprotokolle aktivieren (Neustart erforderlich)</translation>
+        <translation>Ausführliche Debuglogs aktivieren (Neustart erforderlich)</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.h" line="201"/>
         <source>When enabled, the Playback software will output more detailed logs to help diagnose issues. This setting is useful for troubleshooting and should be disabled when not needed.</source>
-        <translation>Wenn diese Option aktiviert ist, gibt die Playback-Software detailliertere Protokolle aus, um die Diagnose von Problemen zu erleichtern. Diese Einstellung ist für die Fehlerbehebung nützlich und sollte deaktiviert werden, wenn sie nicht benötigt wird.</translation>
+        <translation>Wenn diese Option aktiviert ist, gibt die Playback-Software detailliertere Logs aus, um die Diagnose von Problemen zu erleichtern. Diese Einstellung ist für die Fehlerbehebung nützlich und sollte deaktiviert werden, wenn sie nicht benötigt wird.</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="49"/>
@@ -1025,7 +1001,7 @@ Tipp: Verwenden Sie externe Programme, um Events im Spiel auszulösen oder das G
     <message>
         <location filename="../src/ErrorMessages.h" line="30"/>
         <source>for cleaning your cartridge pins.</source>
-        <translation>zum Reinigen der Konakte.</translation>
+        <translation>zum Reinigen der Kontakte.</translation>
     </message>
 </context>
 <context>
@@ -1190,7 +1166,7 @@ Bitte stellen Sie sicher, dass es angeschlossen ist.</translation>
     <message>
         <location filename="../src/UIComponents.cpp" line="34"/>
         <source>You are about to quit.</source>
-        <translation>Sie sind dabei zu beenden.</translation>
+        <translation>Sie sind dabei die Emulation zu beenden.</translation>
     </message>
     <message>
         <location filename="../src/UIComponents.cpp" line="35"/>
@@ -1210,7 +1186,7 @@ Bitte stellen Sie sicher, dass es angeschlossen ist.</translation>
     <message>
         <location filename="../src/ViewRouter.cpp" line="13"/>
         <source>Upload Homebrew</source>
-        <translation>Homebrew aufspielen</translation>
+        <translation>Homebrew hochladen</translation>
     </message>
     <message>
         <location filename="../src/ViewRouter.cpp" line="15"/>
@@ -1233,7 +1209,7 @@ Bitte stellen Sie sicher, dass es angeschlossen ist.</translation>
     <message>
         <location filename="../src/Window.cpp" line="128"/>
         <source>Open</source>
-        <translation>Öffnen Sie</translation>
+        <translation>Öffnen</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="144"/>
