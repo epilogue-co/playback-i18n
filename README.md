@@ -8,7 +8,7 @@
 | 🇨🇳 Simplified Chinese  | Human         | ⛔          | 55               |
 | 🇫🇷 French              | Human         | ✅          | 0                |
 | 🇪🇸 Spanish             | Human         | ✅          | 0                |
-| 🇮🇹 Italian             | AI            | ⛔          | 76               |
+| 🇮🇹 Italian             | AI            | ✅          | 0                |
 | 🇯🇵 Japanese            | Human         | ✅          | 0                |
 | 🇰🇷 Korean              | Human         | ✅          | 0                |
 | 🇳🇱 Dutch               | AI            | ✅          | 0                |
