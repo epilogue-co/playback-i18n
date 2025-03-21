@@ -40,7 +40,7 @@
     <message>
         <location filename="../src/AboutWindow.cpp" line="187"/>
         <source>™ and © 2020-2024 Epilogue. &lt;br&gt;All rights reserved. </source>
-        <translation>and © 2020-2024 Epilogue.&lt;br&gt;版权所有。 </translation>
+        <translation>™ and © 2020-2024 Epilogue.&lt;br&gt;版权所有。 </translation>
     </message>
     <message>
         <location filename="../src/AboutWindow.cpp" line="178"/>
