@@ -57,7 +57,7 @@
     <name>AppTour</name>
     <message>
         <source>Welcome to the App Tour</source>
-        <translation type="vanished">Bienvenue au tour guidé de l&apos;app</translation>
+        <translation type="vanished">Bienvenue au tour guidé de l&apos;application</translation>
     </message>
     <message>
         <source>This tour will guide you through the app&apos;s features.</source>
@@ -66,14 +66,16 @@
     <message>
         <location filename="../src/AppTour.cpp" line="65"/>
         <source>Welcome to the Playback Tour!</source>
-        <translation type="unfinished"></translation>
+        <translation>Bienvenue au tour guidé de Playback !</translation>
     </message>
     <message>
         <location filename="../src/AppTour.cpp" line="66"/>
         <source>Let’s check out some of the app’s main features.
 
 P.S. If you choose to skip the tour now, you won’t be prompted to take it again.</source>
-        <translation type="unfinished"></translation>
+        <translation>Regardons ensemble certaines des fonctionnalités principales de l&apos;application.
+
+PS : Si vous décidez de passer le tour guidé, vous ne serez pas demandé à le revoir par la suite.</translation>
     </message>
     <message>
         <location filename="../src/AppTour.cpp" line="69"/>
@@ -93,7 +95,7 @@ P.S. If you choose to skip the tour now, you won’t be prompted to take it agai
     <message>
         <location filename="../src/AppTour.cpp" line="77"/>
         <source>End Tour</source>
-        <translation type="unfinished"></translation>
+        <translation>Terminer</translation>
     </message>
 </context>
 <context>
@@ -366,12 +368,12 @@ Ne retirez pas la cartouche pendant qu&apos;une opération est en cours.</transl
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="65"/>
         <source>Cartridge Connection Unstable!</source>
-        <translation type="unfinished"></translation>
+        <translation>Connexion avec la cartouche instable !</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="66"/>
         <source>Playback detected a contact connection issue. Please clean the cartridge pins, reinsert the cartridge properly, and try again for improved accuracy.</source>
-        <translation type="unfinished"></translation>
+        <translation>Playback a détecté un problème de contact avec la cartouche. Veuillez nettoyer les broches de la cartouche, réinsérer la cartouche correctement, et réessayer pour une meilleure précision.</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="110"/>
@@ -579,7 +581,7 @@ Ne retirez pas la cartouche pendant qu&apos;une opération est en cours.</transl
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="253"/>
         <source>RTC Battery State Emulation</source>
-        <translation type="unfinished"></translation>
+        <translation>Émulation de l&apos;état de la batterie HTR</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="266"/>
@@ -589,7 +591,7 @@ Ne retirez pas la cartouche pendant qu&apos;une opération est en cours.</transl
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="271"/>
         <source>With this setting Enabled, the in-app emulator will match the state of your cartridge’s battery (dry/not dry). Leave the option Disabled if your cartridge battery is dry, but you still want the emulated game to offer in-game time-based events.</source>
-        <translation type="unfinished"></translation>
+        <translation>Lorsque ce paramètre est activé, l&apos;émulateur de l&apos;application fera fonctionner sa batterie de la même façon que celle dans la cartouche (épuisée/pas épuisée). Désactivez cette option si la batterie de votre cartouche est épuisée, mais que vous souhaitez quand même profiter des événements liés au temps réel sur l&apos;émulateur.</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="306"/>
@@ -1139,7 +1141,7 @@ Si vous souhaitez supprimer facilement toutes les images de votre caméra sans a
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="128"/>
         <source>When enabled, the Playback software will output more detailed logs to help diagnose issues. This setting is useful for troubleshooting and should be disabled when not needed.</source>
-        <translation>Lorsque cette option est activée, Playback produit des journaux plus détaillés pour aider à diagnostiquer les problèmes. Ce paramètre est utile pour le dépannage et doit être désactivé lorsqu&apos;il n&apos;est pas nécessaire.</translation>
+        <translation>Lorsque ce paramètre est activé, Playback produit des journaux plus détaillés pour aider à diagnostiquer les problèmes. Ce paramètre est utile pour le dépannage et doit être désactivé lorsqu&apos;il n&apos;est pas nécessaire.</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="78"/>
@@ -1435,7 +1437,7 @@ Assurez-vous qu&apos;il est connecté.</translation>
     <message>
         <location filename="../src/SettingsWindowUIComponents.cpp" line="51"/>
         <source>Restore defaults</source>
-        <translation>Réinitialiser options</translation>
+        <translation>Réinitialiser paramètres</translation>
     </message>
 </context>
 <context>
@@ -1574,32 +1576,32 @@ Astuce : utilisez des programmes externes pour déclencher des événements dans
     <message>
         <location filename="../src/Window.cpp" line="393"/>
         <source>Main Hub</source>
-        <translation type="unfinished"></translation>
+        <translation>Place centrale</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="394"/>
         <source>Choose between playing the game, transferring data or accessing more info.</source>
-        <translation type="unfinished"></translation>
+        <translation>Choisissez entre jouer au jeu, transférer les données ou accéder à plus d&apos;infos.</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="401"/>
         <source>Play Tab</source>
-        <translation type="unfinished"></translation>
+        <translation>Onglet Jouer</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="402"/>
         <source>Learn more about your game, or have a play session on the in-app emulator.</source>
-        <translation type="unfinished"></translation>
+        <translation>Apprenez-en plus sur votre jeu, ou faites une session de jeu en utilisant l&apos;émulateur de l&apos;application.</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="409"/>
         <source>Start Play Session</source>
-        <translation type="unfinished"></translation>
+        <translation>Commencer une session de jeu</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="410"/>
         <source>Launch the in-app emulator for an authentic, accurate experience.</source>
-        <translation type="unfinished"></translation>
+        <translation>Démarrez l&apos;émulateur de l&apos;application pour une expérience de jeu authentique et fidèle.</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="417"/>
@@ -1609,57 +1611,57 @@ Astuce : utilisez des programmes externes pour déclencher des événements dans
     <message>
         <location filename="../src/Window.cpp" line="418"/>
         <source>Configure parameters to make the app your own.</source>
-        <translation type="unfinished"></translation>
+        <translation>Modifiez les paramètres de l&apos;application selon vos goûts.</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="426"/>
         <source>Access and manage saves created automatically in the &lt;a href=&quot;#&quot; style=&apos;color: white&apos;&gt;Save Vault&lt;/a&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Accédez et gérez les sauvegardes créées automatiquement dans le &lt;a href=&quot;#&quot; style=&apos;color: white&apos;&gt;coffre-fort des sauvegardes&lt;/a&gt;.</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="434"/>
         <source>Device Switcher</source>
-        <translation type="unfinished"></translation>
+        <translation>Changement d&apos;appareil</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="435"/>
         <source>Select between multiple Operator devices connected to the same computer.</source>
-        <translation type="unfinished"></translation>
+        <translation>Choisissez entre plusieurs appareils Operator connectés au même ordinateur.</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="442"/>
         <source>Counterfeit Detection</source>
-        <translation type="unfinished"></translation>
+        <translation>Détection des contrefaçons</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="443"/>
         <source>Your cartridge has been analysed for some of the most common counterfeit markers.</source>
-        <translation type="unfinished"></translation>
+        <translation>Votre cartouche a été analysée pour certaines des caractéristiques les plus communes présentes sur les cartouches contrefaites.</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="450"/>
         <source>Data Tab</source>
-        <translation type="unfinished"></translation>
+        <translation>Onglet Données</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="451"/>
         <source>Backup, transfer and manage official/homebrew game and save data.</source>
-        <translation type="unfinished"></translation>
+        <translation>Copiez, transférez et gérez vos jeux officiels ou homebrew et leurs données de sauvegarde.</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="459"/>
         <source>Create digital copies of your save data.</source>
-        <translation type="unfinished"></translation>
+        <translation>Créez des copies digitales de vos données de sauvegarde.</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="466"/>
         <source>Start Backup Session</source>
-        <translation type="unfinished"></translation>
+        <translation>Commencer une copie des données</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="467"/>
         <source>Begin archiving the save data.</source>
-        <translation type="unfinished"></translation>
+        <translation>Début de l&apos;archivage des données de sauvegarde.</translation>
     </message>
     <message>
         <source>Control Hub</source>
