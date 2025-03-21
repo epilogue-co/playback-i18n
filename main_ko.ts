@@ -180,7 +180,7 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/ControlsWidget.cpp" line="549"/>
         <source>Player: </source>
-        <translation>Player: </translation>
+        <translation>플레이어: </translation>
     </message>
     <message>
         <location filename="../src/ControlsWidget.cpp" line="548"/>
@@ -374,7 +374,7 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="145"/>
         <source> It looks like the homebrew game you&apos;re trying to upload has been detected by Playback as having 0 bytes. Please verify that the data you&apos;re attempting to upload is accurate.</source>
-        <translation> 업로드하려는 Homebrew게임의 바이트가 0바이트인 것으로 Playback에서 감지된 것 같습니다. 업로드하려는 데이터가 정확한지 확인해 주세요.</translation>
+        <translation> 업로드하려는 Homebrew 게임의 바이트가 0바이트인 것으로 Playback에서 감지된 것 같습니다. 업로드하려는 데이터가 정확한지 확인해 주세요.</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="155"/>
@@ -504,7 +504,7 @@ Do not remove the cartridge while any operation is running.</source>
         <location filename="../src/EmulatorSettingsScreen.h" line="167"/>
         <location filename="../src/EmulatorSettingsScreen.h" line="182"/>
         <source>enabled</source>
-        <translation>활성화</translation>
+        <translation>활성화됨</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.h" line="138"/>
@@ -577,7 +577,7 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="307"/>
         <source>Disabled</source>
-        <translation>장애인</translation>
+        <translation>비활성화됨</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="254"/>
@@ -587,7 +587,7 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="271"/>
         <source>With this setting Enabled, the in-app emulator will match the state of your cartridge’s battery (dry/not dry). Leave the option Disabled if your cartridge battery is dry, but you still want the emulated game to offer in-game time-based events.</source>
-        <translation> 이 설정을 활성화하면, 앱 내 에뮬레이터가 카트리지 배터리의 상태(방전/비방전)와 일치하게 됩니다. 카트리지 배터리가 방전되었지만 에뮬레이트된 게임에서 시간 기반 이벤트를 제공하기를 원하는 경우 이 옵션을 비활성화하세요.</translation>
+        <translation>이 설정을 활성화하면, 앱 내 에뮬레이터가 카트리지 배터리의 상태(방전/비방전)와 일치하게 됩니다. 카트리지 배터리가 방전되었지만 에뮬레이트된 게임에서 시간 기반 이벤트를 제공하기를 원하는 경우 이 옵션을 비활성화하세요.</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="276"/>
@@ -1048,7 +1048,7 @@ If you&apos;d like to easily remove all the pictures from your camera, without h
     </message>
     <message>
         <source>Disabled</source>
-        <translation type="vanished">장애인</translation>
+        <translation type="vanished">비활성화됨</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="93"/>
@@ -1229,7 +1229,7 @@ If you&apos;d like to easily remove all the pictures from your camera, without h
     <message>
         <location filename="../src/DeviceSettingsScreen.cpp" line="5"/>
         <source>Dark</source>
-        <translation>Dark</translation>
+        <translation>어둡게</translation>
     </message>
     <message>
         <location filename="../src/DeviceSettingsScreen.cpp" line="6"/>
@@ -1431,14 +1431,14 @@ Please make sure it&apos;s connected.</source>
         <location filename="../src/StartControllerWidget.cpp" line="159"/>
         <location filename="../src/StartControllerWidget.cpp" line="170"/>
         <source>STOP</source>
-        <translation>STOP</translation>
+        <translation>중지</translation>
     </message>
     <message>
         <location filename="../src/StartControllerWidget.cpp" line="159"/>
         <location filename="../src/StartControllerWidget.cpp" line="164"/>
         <location filename="../src/StartControllerWidget.cpp" line="170"/>
         <source>START</source>
-        <translation>START</translation>
+        <translation>시작</translation>
     </message>
 </context>
 <context>
