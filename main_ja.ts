@@ -587,9 +587,7 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="271"/>
         <source>With this setting Enabled, the in-app emulator will match the state of your cartridge’s battery (dry/not dry). Leave the option Disabled if your cartridge battery is dry, but you still want the emulated game to offer in-game time-based events.</source>
-        <translation>この設定を有効にすると、アプリ内エミュレーターはカートリッジのバッテリー状態（消耗/未消耗）に合わせます。カートリ
-  ッジのバッテリーが消耗していても、エミュレートされたゲーム内で時間ベースのイベントを提供したい場合は、このオプショ
-  ンを無効のままにしておいてください。</translation>
+        <translation>この設定を有効にすると、アプリ内エミュレーターはカートリッジのバッテリー状態（消耗/未消耗）に合わせます。カートリッジのバッテリーが消耗していても、エミュレートされたゲーム内で時間ベースのイベントを提供したい場合は、このオプションを無効のままにしておいてください。</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="276"/>
