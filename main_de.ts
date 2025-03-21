@@ -67,7 +67,7 @@
 P.S. If you choose to skip the tour now, you won’t be prompted to take it again.</source>
         <translation>Lass uns ein Paar der Features auschecken!
 
-P.S. Wenn Sie die Tour überspringsen, werden Sie nicht mehr gefragt Sie zu nehmen.</translation>
+P.S. Wenn Sie die Tour überspringen, werden Sie nicht mehr gefragt Sie zu nehmen.</translation>
     </message>
     <message>
         <location filename="../src/AppTour.cpp" line="69"/>
@@ -1638,7 +1638,7 @@ Tipp: Verwenden Sie externe Programme, um Events im Spiel auszulösen oder das G
     <message>
         <location filename="../src/Window.cpp" line="443"/>
         <source>Your cartridge has been analysed for some of the most common counterfeit markers.</source>
-        <translation>Ihr Modul wurde auf die häufigsten vorkommenden Fälschungsanzeichen uberprüft.</translation>
+        <translation>Ihr Modul wurde auf die häufigsten vorkommenden Fälschungsanzeichen überprüft.</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="450"/>
