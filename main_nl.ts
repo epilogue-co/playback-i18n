@@ -58,14 +58,17 @@
     <message>
         <location filename="../src/AppTour.cpp" line="65"/>
         <source>Welcome to the Playback Tour!</source>
-        <translation type="unfinished"></translation>
+        <translation>Welkom bij de Playback Tour!</translation>
     </message>
     <message>
         <location filename="../src/AppTour.cpp" line="66"/>
         <source>Let’s check out some of the app’s main features.
 
 P.S. If you choose to skip the tour now, you won’t be prompted to take it again.</source>
-        <translation type="unfinished"></translation>
+        <translation>Laten we enkele hoofdfuncties van de app bekijken.
+
+P.S. Als je de tour nu overslaat, wordt deze niet opnieuw aangeboden.
+        </translation>
     </message>
     <message>
         <location filename="../src/AppTour.cpp" line="69"/>
@@ -75,17 +78,17 @@ P.S. If you choose to skip the tour now, you won’t be prompted to take it agai
     <message>
         <location filename="../src/AppTour.cpp" line="69"/>
         <source>Skip Tour</source>
-        <translation type="unfinished"></translation>
+        <translation>Tour overslaan</translation>
     </message>
     <message>
         <location filename="../src/AppTour.cpp" line="77"/>
         <source>Next</source>
-        <translation type="unfinished"></translation>
+        <translation>Volgende</translation>
     </message>
     <message>
         <location filename="../src/AppTour.cpp" line="77"/>
         <source>End Tour</source>
-        <translation type="unfinished"></translation>
+        <translation>Tour beëindigen</translation>
     </message>
 </context>
 <context>
@@ -191,32 +194,32 @@ Verwijder de cartridge niet terwijl er een bewerking bezig is.</translation>
     <message>
         <location filename="../src/CoreCardWidget.cpp" line="181"/>
         <source>Load Custom Core</source>
-        <translation type="unfinished"></translation>
+        <translation>Aangepaste core laden</translation>
     </message>
     <message>
         <location filename="../src/CoreCardWidget.cpp" line="182"/>
         <source>Cores (*%1)</source>
-        <translation type="unfinished"></translation>
+        <translation>Cores (*%1)</translation>
     </message>
     <message>
         <location filename="../src/CoreCardWidget.cpp" line="244"/>
         <source>Active</source>
-        <translation type="unfinished"></translation>
+        <translation>Actief</translation>
     </message>
     <message>
         <location filename="../src/CoreCardWidget.cpp" line="245"/>
         <source>Enable</source>
-        <translation type="unfinished"></translation>
+        <translation>Inschakelen</translation>
     </message>
     <message>
         <location filename="../src/CoreCardWidget.cpp" line="246"/>
         <source>Browse</source>
-        <translation type="unfinished"></translation>
+        <translation>Bladeren</translation>
     </message>
     <message>
         <location filename="../src/CoreCardWidget.cpp" line="247"/>
         <source>Learn More</source>
-        <translation type="unfinished"></translation>
+        <translation>Meer informatie</translation>
     </message>
 </context>
 <context>
@@ -224,22 +227,22 @@ Verwijder de cartridge niet terwijl er een bewerking bezig is.</translation>
     <message>
         <location filename="../src/CoreCardWidget.cpp" line="277"/>
         <source>Failed to download core</source>
-        <translation type="unfinished"></translation>
+        <translation>Core downloaden mislukt</translation>
     </message>
     <message>
         <location filename="../src/CoreCardWidget.cpp" line="284"/>
         <source>Failed to open file for writing</source>
-        <translation type="unfinished"></translation>
+        <translation>Kan bestand niet openen om te schrijven</translation>
     </message>
     <message>
         <location filename="../src/CoreCardWidget.cpp" line="294"/>
         <source>Failed to open zip file</source>
-        <translation type="unfinished"></translation>
+        <translation>Kan zip-bestand niet openen</translation>
     </message>
     <message>
         <location filename="../src/CoreCardWidget.cpp" line="336"/>
         <source>Download Error</source>
-        <translation type="unfinished"></translation>
+        <translation>Downloadfout</translation>
     </message>
 </context>
 <context>
@@ -247,7 +250,7 @@ Verwijder de cartridge niet terwijl er een bewerking bezig is.</translation>
     <message>
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="127"/>
         <source>Supported Features</source>
-        <translation type="unfinished"></translation>
+        <translation>Ondersteunde functies</translation>
     </message>
 </context>
 <context>
@@ -256,33 +259,33 @@ Verwijder de cartridge niet terwijl er een bewerking bezig is.</translation>
         <location filename="../src/CoreSelectorScreen.cpp" line="75"/>
         <location filename="../src/CoreSelectorScreen.cpp" line="216"/>
         <source>Officially supported</source>
-        <translation type="unfinished"></translation>
+        <translation>Officieel ondersteund</translation>
     </message>
     <message>
         <location filename="../src/CoreSelectorScreen.cpp" line="75"/>
         <location filename="../src/CoreSelectorScreen.cpp" line="216"/>
         <source>Alternative Core</source>
-        <translation type="unfinished"></translation>
+        <translation>Alternatieve core</translation>
     </message>
     <message>
         <location filename="../src/CoreSelectorScreen.cpp" line="208"/>
         <source>Select Core</source>
-        <translation type="unfinished"></translation>
+        <translation>Core selecteren</translation>
     </message>
     <message>
         <location filename="../src/CoreSelectorScreen.cpp" line="210"/>
         <source>You can change the emulation core for your Operator device. Download a core online or provide your own, but remember: only some cores are fully supported by Epilogue ensure complete feature compatibility.</source>
-        <translation type="unfinished"></translation>
+        <translation>Je kunt de emulatie-core voor je Operator-apparaat wijzigen. Download een core online of gebruik je eigen core, maar onthoud: slechts enkele cores worden volledig ondersteund door Epilogue om volledige functiecompatibiliteit te garanderen.</translation>
     </message>
     <message>
         <location filename="../src/CoreSelectorScreen.cpp" line="212"/>
         <source>Custom Core</source>
-        <translation type="unfinished"></translation>
+        <translation>Aangepaste core</translation>
     </message>
     <message>
         <location filename="../src/CoreSelectorScreen.cpp" line="213"/>
         <source>Your own core</source>
-        <translation type="unfinished"></translation>
+        <translation>Je eigen core</translation>
     </message>
 </context>
 <context>
@@ -290,7 +293,7 @@ Verwijder de cartridge niet terwijl er een bewerking bezig is.</translation>
     <message>
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="105"/>
         <source>Supported Systems</source>
-        <translation type="unfinished"></translation>
+        <translation>Ondersteunde systemen</translation>
     </message>
 </context>
 <context>
@@ -321,7 +324,7 @@ Verwijder de cartridge niet terwijl er een bewerking bezig is.</translation>
     <message>
         <location filename="../src/DatabaseCheatCodesWidget.cpp" line="37"/>
         <source>Search cheats</source>
-        <translation type="unfinished"></translation>
+        <translation>Cheats zoeken</translation>
     </message>
     <message>
         <location filename="../src/DatabaseCheatCodesWidget.cpp" line="104"/>
@@ -347,12 +350,12 @@ Verwijder de cartridge niet terwijl er een bewerking bezig is.</translation>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="65"/>
         <source>Cartridge Connection Unstable!</source>
-        <translation type="unfinished"></translation>
+        <translation>Cartridge-verbinding onstabiel!</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="66"/>
         <source>Playback detected a contact connection issue. Please clean the cartridge pins, reinsert the cartridge properly, and try again for improved accuracy.</source>
-        <translation type="unfinished"></translation>
+        <translation>Playback heeft een probleem met de contactverbinding gedetecteerd. Reinig de pennen van de cartridge, plaats de cartridge correct terug en probeer het opnieuw voor een betere nauwkeurigheid.</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="110"/>
@@ -520,7 +523,7 @@ Verwijder de cartridge niet terwijl er een bewerking bezig is.</translation>
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="261"/>
         <source>A fast-forward speed higher than 2x can cause unexpected bugs in combination with the &apos;Autosave to cartridge&apos; feature. You will need to disable and enable it by clicking the fast-forward button.</source>
-        <translation>Een fast-forward snelheid hoger dan 2x kan onverwachte bugs veroorzaken in combinatie met de &apos;Autosave to cartridge&apos; functie. Je moet deze functie uitschakelen en inschakelen door op de vooruitspoelknop te klikken.</translation>
+        <translation>Een fast-forward snelheid hoger dan 2x kan onverwachte bugs veroorzaken in combinatie met de &apos;Automatisch opslaan naar cartridge&apos; functie. Je moet deze functie uitschakelen en inschakelen door op de vooruitspoelknop te klikken.</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="252"/>
@@ -540,7 +543,7 @@ Verwijder de cartridge niet terwijl er een bewerking bezig is.</translation>
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="239"/>
         <source>Core</source>
-        <translation type="unfinished"></translation>
+        <translation>Core</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="244"/>
@@ -555,12 +558,12 @@ Verwijder de cartridge niet terwijl er een bewerking bezig is.</translation>
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="246"/>
         <source>Core settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Core-instellingen</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="253"/>
         <source>RTC Battery State Emulation</source>
-        <translation type="unfinished"></translation>
+        <translation>RTC-batterijstaat emulatie</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="266"/>
@@ -585,7 +588,7 @@ Verwijder de cartridge niet terwijl er een bewerking bezig is.</translation>
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="271"/>
         <source>With this setting Enabled, the in-app emulator will match the state of your cartridge’s battery (dry/not dry). Leave the option Disabled if your cartridge battery is dry, but you still want the emulated game to offer in-game time-based events.</source>
-        <translation type="unfinished"></translation>
+        <translation>Als deze instelling is ingeschakeld, komt de in-app emulator overeen met de staat van de batterij van je cartridge (leeg/niet leeg). Laat de optie uitgeschakeld als de cartridgebatterij leeg is, maar je nog steeds wilt dat het geëmuleerde spel tijdgebonden in-game evenementen aanbiedt.</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="276"/>
@@ -803,7 +806,7 @@ Je kunt proberen de cartridge schoon te maken en vervolgens opnieuw in het appar
     <message>
         <location filename="../src/UIComponents.cpp" line="102"/>
         <source>It looks like there is another instance of the software running on this computer. Closing this instance.</source>
-        <translation>Het lijkt erop dat er een andere instantie van de software op deze computer draait. Sluit deze instantie.</translation>
+        <translation>Het lijkt erop dat er een andere instantie van de software op deze computer draait. Deze instantie wordt gesloten.</translation>
     </message>
 </context>
 <context>
@@ -837,7 +840,7 @@ Je kunt proberen de cartridge schoon te maken en vervolgens opnieuw in het appar
     <message>
         <location filename="../src/Navbar.cpp" line="215"/>
         <source>Writing save...</source>
-        <translation>Schrijven redden...</translation>
+        <translation>Opslaan schrijven...</translation>
     </message>
     <message>
         <location filename="../src/Navbar.cpp" line="217"/>
@@ -898,7 +901,7 @@ Je kunt proberen de cartridge schoon te maken en vervolgens opnieuw in het appar
     <message>
         <location filename="../src/NavbarLogoDropdown.cpp" line="127"/>
         <source>Vault</source>
-        <translation type="unfinished"></translation>
+        <translation>Vault</translation>
     </message>
     <message>
         <location filename="../src/NavbarLogoDropdown.cpp" line="128"/>
@@ -908,7 +911,7 @@ Je kunt proberen de cartridge schoon te maken en vervolgens opnieuw in het appar
     <message>
         <location filename="../src/NavbarLogoDropdown.cpp" line="129"/>
         <source>Exit</source>
-        <translation>Ga naar</translation>
+        <translation>Afsluiten</translation>
     </message>
 </context>
 <context>
@@ -942,7 +945,7 @@ Je kunt proberen de cartridge schoon te maken en vervolgens opnieuw in het appar
     <message>
         <location filename="../src/Navbar.cpp" line="427"/>
         <source>Upload Save</source>
-        <translation>Uploaden Opslaan</translation>
+        <translation>Opslag uploaden</translation>
     </message>
     <message>
         <location filename="../src/Navbar.cpp" line="428"/>
@@ -960,7 +963,7 @@ Je kunt proberen de cartridge schoon te maken en vervolgens opnieuw in het appar
     <message>
         <location filename="../src/PhotosPage.cpp" line="176"/>
         <source>Open Directory</source>
-        <translation>Open Directory</translation>
+        <translation>Map openen</translation>
     </message>
     <message>
         <location filename="../src/PhotosPage.cpp" line="196"/>
@@ -975,17 +978,17 @@ Je kunt proberen de cartridge schoon te maken en vervolgens opnieuw in het appar
     <message>
         <location filename="../src/PhotosPage.cpp" line="315"/>
         <source>Found %1 photos on your Game Boy Camera.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 foto's gevonden op je Game Boy Camera.</translation>
     </message>
     <message>
         <location filename="../src/PhotosPage.cpp" line="318"/>
         <source>Found 1 photo on your Game Boy Camera.</source>
-        <translation type="unfinished"></translation>
+        <translation>1 foto gevonden op je Game Boy Camera.</translation>
     </message>
     <message>
         <location filename="../src/PhotosPage.cpp" line="322"/>
         <source>Found no photos on your Game Boy Camera.</source>
-        <translation type="unfinished"></translation>
+        <translation>Geen foto's gevonden op je Game Boy Camera.</translation>
     </message>
     <message>
         <location filename="../src/PhotosPage.cpp" line="350"/>
@@ -1085,7 +1088,7 @@ Als je gemakkelijk alle foto&apos;s van je camera wilt verwijderen, zonder ze é
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="91"/>
         <source>Preferred Language</source>
-        <translation type="unfinished"></translation>
+        <translation>Voorkeurstaal</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="119"/>
@@ -1148,7 +1151,7 @@ Als je gemakkelijk alle foto&apos;s van je camera wilt verwijderen, zonder ze é
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="185"/>
         <source>Open Log Directory</source>
-        <translation>Open Logboek Directory</translation>
+        <translation>Open logboekmap</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="191"/>
@@ -1363,12 +1366,12 @@ Controleer of het is aangesloten.</translation>
     <message>
         <location filename="../src/SettingsWindow.cpp" line="246"/>
         <source>Core Load Failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Core laden mislukt</translation>
     </message>
     <message>
         <location filename="../src/SettingsWindow.cpp" line="246"/>
         <source>Failed to load core. Please load a valid core.</source>
-        <translation type="unfinished"></translation>
+        <translation>Core laden mislukt. Laad een geldige core.</translation>
     </message>
     <message>
         <location filename="../src/SettingsWindow.cpp" line="276"/>
@@ -1378,7 +1381,7 @@ Controleer of het is aangesloten.</translation>
     <message>
         <location filename="../src/SettingsWindow.cpp" line="278"/>
         <source>Core Selector</source>
-        <translation type="unfinished"></translation>
+        <translation>Core-kiezer</translation>
     </message>
     <message>
         <location filename="../src/SettingsWindow.cpp" line="279"/>
@@ -1411,7 +1414,7 @@ Controleer of het is aangesloten.</translation>
     <message>
         <location filename="../src/SettingsWindowUIComponents.cpp" line="50"/>
         <source>Save</source>
-        <translation>Sla</translation>
+        <translation>Opslaan</translation>
     </message>
     <message>
         <location filename="../src/SettingsWindowUIComponents.cpp" line="51"/>
@@ -1523,7 +1526,7 @@ Tip: Gebruik externe programma&apos;s om gebeurtenissen in het spel te activeren
     <message>
         <location filename="../src/ViewRouter.cpp" line="137"/>
         <source>Upload Save</source>
-        <translation>Uploaden Opslaan</translation>
+        <translation>Opslag uploaden</translation>
     </message>
 </context>
 <context>
@@ -1555,32 +1558,32 @@ Tip: Gebruik externe programma&apos;s om gebeurtenissen in het spel te activeren
     <message>
         <location filename="../src/Window.cpp" line="393"/>
         <source>Main Hub</source>
-        <translation type="unfinished"></translation>
+        <translation>Hoofdhub</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="394"/>
         <source>Choose between playing the game, transferring data or accessing more info.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kies tussen het spelen van het spel, het overdragen van gegevens of het raadplegen van meer informatie.</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="401"/>
         <source>Play Tab</source>
-        <translation type="unfinished"></translation>
+        <translation>Speel-tab</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="402"/>
         <source>Learn more about your game, or have a play session on the in-app emulator.</source>
-        <translation type="unfinished"></translation>
+        <translation>Lees meer over je spel of speel een sessie op de in-app emulator.</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="409"/>
         <source>Start Play Session</source>
-        <translation type="unfinished"></translation>
+        <translation>Start speelsessie</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="410"/>
         <source>Launch the in-app emulator for an authentic, accurate experience.</source>
-        <translation type="unfinished"></translation>
+        <translation>Start de in-app emulator voor een authentieke, nauwkeurige ervaring.</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="417"/>
@@ -1590,47 +1593,47 @@ Tip: Gebruik externe programma&apos;s om gebeurtenissen in het spel te activeren
     <message>
         <location filename="../src/Window.cpp" line="418"/>
         <source>Configure parameters to make the app your own.</source>
-        <translation type="unfinished"></translation>
+        <translation>Configureer parameters om de app naar wens aan te passen.</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="425"/>
         <source>Save Vault</source>
-        <translation type="unfinished"></translation>
+        <translation>Save Vault</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="426"/>
         <source>Access and manage saves created automatically in the &lt;a href=&quot;#&quot; style=&apos;color: white&apos;&gt;Save Vault&lt;/a&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Toegang tot en beheer van automatisch gemaakte saves in de &lt;a href=&quot;#&quot; style=&apos;color: white&apos;&gt;Save Vault&lt;/a&gt;.</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="434"/>
         <source>Device Switcher</source>
-        <translation type="unfinished"></translation>
+        <translation>Apparaatwisselaar</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="435"/>
         <source>Select between multiple Operator devices connected to the same computer.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kies tussen meerdere Operator-apparaten die op dezelfde computer zijn aangesloten.</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="442"/>
         <source>Counterfeit Detection</source>
-        <translation type="unfinished"></translation>
+        <translation>Namaakdetectie</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="443"/>
         <source>Your cartridge has been analysed for some of the most common counterfeit markers.</source>
-        <translation type="unfinished"></translation>
+        <translation>Je cartridge is geanalyseerd op enkele van de meest voorkomende vervalsingskenmerken.</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="450"/>
         <source>Data Tab</source>
-        <translation type="unfinished"></translation>
+        <translation>Data-tab</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="451"/>
         <source>Backup, transfer and manage official/homebrew game and save data.</source>
-        <translation type="unfinished"></translation>
+        <translation>Maak back-ups, draag over en beheer officiële/homebrew spel- en opslaggegevens.</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="458"/>
@@ -1640,17 +1643,17 @@ Tip: Gebruik externe programma&apos;s om gebeurtenissen in het spel te activeren
     <message>
         <location filename="../src/Window.cpp" line="459"/>
         <source>Create digital copies of your save data.</source>
-        <translation type="unfinished"></translation>
+        <translation>Maak digitale kopieën van je opslaggegevens.</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="466"/>
         <source>Start Backup Session</source>
-        <translation type="unfinished"></translation>
+        <translation>Start back-upsessie</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="467"/>
         <source>Begin archiving the save data.</source>
-        <translation type="unfinished"></translation>
+        <translation>Begin met het archiveren van de opslaggegevens.</translation>
     </message>
 </context>
 </TS>

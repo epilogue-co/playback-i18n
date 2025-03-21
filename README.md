@@ -7,11 +7,11 @@
 | 🇩🇪 German              | Human         | ✅          | 0                |
 | 🇨🇳 Simplified Chinese  | Human         | ⛔          | 55               |
 | 🇫🇷 French              | Human         | ✅          | 0                |
-| 🇪🇸 Spanish             | Human         | ⛔          | 56               |
-| 🇮🇹 Italian             | DeepL         | ⛔          | 76               |
-| 🇯🇵 Japanese            | Human         | ⛔          | 56               |
-| 🇰🇷 Korean              | Human         | ⛔          | 56               |
-| 🇳🇱 Dutch               | DeepL         | ⛔          | 56               |
+| 🇪🇸 Spanish             | Human         | ✅          | 0                |
+| 🇮🇹 Italian             | AI            | ✅          | 0                |
+| 🇯🇵 Japanese            | Human         | ✅          | 0                |
+| 🇰🇷 Korean              | Human         | ✅          | 0                |
+| 🇳🇱 Dutch               | AI            | ✅          | 0                |
 | 🇷🇴 Romanian            | Human         | ✅          | 0                |
 
 ## Translation files (i18n)
