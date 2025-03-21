@@ -34,6 +34,10 @@
         <translation>Über</translation>
     </message>
     <message>
+        <source> Agreement</source>
+        <translation type="vanished"> Vertrag</translation>
+    </message>
+    <message>
         <location filename="../src/AboutWindow.cpp" line="187"/>
         <source>™ and © 2020-2024 Epilogue. &lt;br&gt;All rights reserved. </source>
         <translation>™ und © 2020-2024 Epilogue. &lt;br&gt;Alle Rechte vorbehalten. </translation>
@@ -54,14 +58,16 @@
     <message>
         <location filename="../src/AppTour.cpp" line="65"/>
         <source>Welcome to the Playback Tour!</source>
-        <translation type="unfinished"></translation>
+        <translation>Willkommen zur Playback Tour!</translation>
     </message>
     <message>
         <location filename="../src/AppTour.cpp" line="66"/>
         <source>Let’s check out some of the app’s main features.
 
 P.S. If you choose to skip the tour now, you won’t be prompted to take it again.</source>
-        <translation type="unfinished"></translation>
+        <translation>Lass uns ein Paar der Features auschecken!
+
+P.S. Wenn Sie die Tour überspringsen, werden Sie nicht mehr gefragt Sie zu nehmen.</translation>
     </message>
     <message>
         <location filename="../src/AppTour.cpp" line="69"/>
@@ -71,17 +77,17 @@ P.S. If you choose to skip the tour now, you won’t be prompted to take it agai
     <message>
         <location filename="../src/AppTour.cpp" line="69"/>
         <source>Skip Tour</source>
-        <translation type="unfinished"></translation>
+        <translation>Überspringe Tour</translation>
     </message>
     <message>
         <location filename="../src/AppTour.cpp" line="77"/>
         <source>Next</source>
-        <translation type="unfinished"></translation>
+        <translation>Weiter</translation>
     </message>
     <message>
         <location filename="../src/AppTour.cpp" line="77"/>
         <source>End Tour</source>
-        <translation type="unfinished"></translation>
+        <translation>Beende Tour</translation>
     </message>
 </context>
 <context>
@@ -187,32 +193,32 @@ Entfernen Sie das Modul nicht, während ein Vorgang ausgeführt wird.</translati
     <message>
         <location filename="../src/CoreCardWidget.cpp" line="181"/>
         <source>Load Custom Core</source>
-        <translation type="unfinished"></translation>
+        <translation>Lade Benutzerdefinierter Kern</translation>
     </message>
     <message>
         <location filename="../src/CoreCardWidget.cpp" line="182"/>
         <source>Cores (*%1)</source>
-        <translation type="unfinished"></translation>
+        <translation>Kerne (*%1)</translation>
     </message>
     <message>
         <location filename="../src/CoreCardWidget.cpp" line="244"/>
         <source>Active</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktiv</translation>
     </message>
     <message>
         <location filename="../src/CoreCardWidget.cpp" line="245"/>
         <source>Enable</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktivieren</translation>
     </message>
     <message>
         <location filename="../src/CoreCardWidget.cpp" line="246"/>
         <source>Browse</source>
-        <translation type="unfinished"></translation>
+        <translation>Wählen</translation>
     </message>
     <message>
         <location filename="../src/CoreCardWidget.cpp" line="247"/>
         <source>Learn More</source>
-        <translation type="unfinished"></translation>
+        <translation>Mehr Erfahren</translation>
     </message>
 </context>
 <context>
@@ -220,22 +226,22 @@ Entfernen Sie das Modul nicht, während ein Vorgang ausgeführt wird.</translati
     <message>
         <location filename="../src/CoreCardWidget.cpp" line="277"/>
         <source>Failed to download core</source>
-        <translation type="unfinished"></translation>
+        <translation>Fehler beim herunterladen des Kerns</translation>
     </message>
     <message>
         <location filename="../src/CoreCardWidget.cpp" line="284"/>
         <source>Failed to open file for writing</source>
-        <translation type="unfinished"></translation>
+        <translation>Fehler beim Öffnen der Datei zum Schreiben</translation>
     </message>
     <message>
         <location filename="../src/CoreCardWidget.cpp" line="294"/>
         <source>Failed to open zip file</source>
-        <translation type="unfinished"></translation>
+        <translation>Fehler beim Öffnen der Zip-datei</translation>
     </message>
     <message>
         <location filename="../src/CoreCardWidget.cpp" line="336"/>
         <source>Download Error</source>
-        <translation type="unfinished"></translation>
+        <translation>Fehler beim herunterladen</translation>
     </message>
 </context>
 <context>
@@ -243,7 +249,7 @@ Entfernen Sie das Modul nicht, während ein Vorgang ausgeführt wird.</translati
     <message>
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="127"/>
         <source>Supported Features</source>
-        <translation type="unfinished"></translation>
+        <translation>Unterstützte Features</translation>
     </message>
 </context>
 <context>
@@ -252,33 +258,33 @@ Entfernen Sie das Modul nicht, während ein Vorgang ausgeführt wird.</translati
         <location filename="../src/CoreSelectorScreen.cpp" line="75"/>
         <location filename="../src/CoreSelectorScreen.cpp" line="216"/>
         <source>Officially supported</source>
-        <translation type="unfinished"></translation>
+        <translation>Offiziell unterstützt</translation>
     </message>
     <message>
         <location filename="../src/CoreSelectorScreen.cpp" line="75"/>
         <location filename="../src/CoreSelectorScreen.cpp" line="216"/>
         <source>Alternative Core</source>
-        <translation type="unfinished"></translation>
+        <translation>Alternativer Kern</translation>
     </message>
     <message>
         <location filename="../src/CoreSelectorScreen.cpp" line="208"/>
         <source>Select Core</source>
-        <translation type="unfinished"></translation>
+        <translation>Wähler Kern</translation>
     </message>
     <message>
         <location filename="../src/CoreSelectorScreen.cpp" line="210"/>
         <source>You can change the emulation core for your Operator device. Download a core online or provide your own, but remember: only some cores are fully supported by Epilogue ensure complete feature compatibility.</source>
-        <translation type="unfinished"></translation>
+        <translation>Sie können den Emulationskern für Ihr Operator-Gerät ändern. Laden Sie einen Kern online herunter oder stellen Sie Ihren eigenen bereit, aber denken Sie daran: Nur einige Kerne werden von Epilogue vollständig unterstützt.</translation>
     </message>
     <message>
         <location filename="../src/CoreSelectorScreen.cpp" line="212"/>
         <source>Custom Core</source>
-        <translation type="unfinished"></translation>
+        <translation>Benutzerdefinierter Kern</translation>
     </message>
     <message>
         <location filename="../src/CoreSelectorScreen.cpp" line="213"/>
         <source>Your own core</source>
-        <translation type="unfinished"></translation>
+        <translation>Ihr Eigener Kern</translation>
     </message>
 </context>
 <context>
@@ -286,7 +292,7 @@ Entfernen Sie das Modul nicht, während ein Vorgang ausgeführt wird.</translati
     <message>
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="105"/>
         <source>Supported Systems</source>
-        <translation type="unfinished"></translation>
+        <translation>Unterstützte Systeme</translation>
     </message>
 </context>
 <context>
@@ -317,7 +323,7 @@ Entfernen Sie das Modul nicht, während ein Vorgang ausgeführt wird.</translati
     <message>
         <location filename="../src/DatabaseCheatCodesWidget.cpp" line="37"/>
         <source>Search cheats</source>
-        <translation type="unfinished"></translation>
+        <translation>Suche Cheats</translation>
     </message>
     <message>
         <location filename="../src/DatabaseCheatCodesWidget.cpp" line="104"/>
@@ -343,12 +349,12 @@ Entfernen Sie das Modul nicht, während ein Vorgang ausgeführt wird.</translati
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="65"/>
         <source>Cartridge Connection Unstable!</source>
-        <translation type="unfinished"></translation>
+        <translation>Modulverbindung Instabil!</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="66"/>
         <source>Playback detected a contact connection issue. Please clean the cartridge pins, reinsert the cartridge properly, and try again for improved accuracy.</source>
-        <translation type="unfinished"></translation>
+        <translation>Playback hat ein Problem mit der Kontaktverbindung erkannt. Bitte reinige die Modulpins, setze das Modul richtig ein und versuche erneut.</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="110"/>
@@ -536,7 +542,7 @@ Entfernen Sie das Modul nicht, während ein Vorgang ausgeführt wird.</translati
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="239"/>
         <source>Core</source>
-        <translation type="unfinished"></translation>
+        <translation>Kern</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="244"/>
@@ -551,12 +557,12 @@ Entfernen Sie das Modul nicht, während ein Vorgang ausgeführt wird.</translati
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="246"/>
         <source>Core settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Kern Einstellungen</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="253"/>
         <source>RTC Battery State Emulation</source>
-        <translation type="unfinished"></translation>
+        <translation>RTC Batterie Status Emulation</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="266"/>
@@ -566,7 +572,7 @@ Entfernen Sie das Modul nicht, während ein Vorgang ausgeführt wird.</translati
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="306"/>
         <source>Enabled</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktiviert</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="307"/>
@@ -581,7 +587,7 @@ Entfernen Sie das Modul nicht, während ein Vorgang ausgeführt wird.</translati
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="271"/>
         <source>With this setting Enabled, the in-app emulator will match the state of your cartridge’s battery (dry/not dry). Leave the option Disabled if your cartridge battery is dry, but you still want the emulated game to offer in-game time-based events.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wenn diese Einstellung aktiviert ist, passt sich der In-App Emulator dem Zustand des Akkus Ihres Moduls an (trocken/nicht trocken). Lassen Sie die Option Deaktiviert, wenn Ihre Modul-Batterie trocken ist, Sie aber dennoch möchten, dass das emulierte Spiel zeitbasierte Ereignisse im Spiel bietet.</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="276"/>
@@ -592,6 +598,10 @@ Entfernen Sie das Modul nicht, während ein Vorgang ausgeführt wird.</translati
         <location filename="../src/EmulatorSettingsScreen.cpp" line="255"/>
         <source>In-game save verifications</source>
         <translation>In-Game Spielstandüberprüfungen</translation>
+    </message>
+    <message>
+        <source>Enable in-game save verifications (beta)</source>
+        <translation type="vanished">Speicherüberprüfungen im Spiel aktivieren (Beta)</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="279"/>
@@ -894,7 +904,7 @@ Sie können versuchen, das Modul zu reinigen und erneut in das Gerät einzusetze
     <message>
         <location filename="../src/NavbarLogoDropdown.cpp" line="127"/>
         <source>Vault</source>
-        <translation type="unfinished"></translation>
+        <translation>Vault</translation>
     </message>
     <message>
         <location filename="../src/NavbarLogoDropdown.cpp" line="128"/>
@@ -971,17 +981,17 @@ Sie können versuchen, das Modul zu reinigen und erneut in das Gerät einzusetze
     <message>
         <location filename="../src/PhotosPage.cpp" line="315"/>
         <source>Found %1 photos on your Game Boy Camera.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 Foto wurde auf Ihrer Game Boy Camera gefunden.</translation>
     </message>
     <message>
         <location filename="../src/PhotosPage.cpp" line="318"/>
         <source>Found 1 photo on your Game Boy Camera.</source>
-        <translation type="unfinished"></translation>
+        <translation>1 Foto wurde auf Ihrer Game Boy Camera gefunden.</translation>
     </message>
     <message>
         <location filename="../src/PhotosPage.cpp" line="322"/>
         <source>Found no photos on your Game Boy Camera.</source>
-        <translation type="unfinished"></translation>
+        <translation>Keine Fotos wurden auf ihrer Game Boy Camera gefunden.</translation>
     </message>
     <message>
         <location filename="../src/PhotosPage.cpp" line="350"/>
@@ -1010,6 +1020,18 @@ Wenn Sie alle Bilder von Ihrer Kamera entfernen möchten, ohne diese einzeln in 
 </context>
 <context>
     <name>PlaybackSettingsScreen</name>
+    <message>
+        <source>Settings</source>
+        <translation type="vanished">Einstellungen</translation>
+    </message>
+    <message>
+        <source>Configure system settings.</source>
+        <translation type="vanished">Konfigurieren Sie die Systemeinstellungen.</translation>
+    </message>
+    <message>
+        <source>Preferred Language (requires restart)</source>
+        <translation type="vanished">Bevorzugte Sprache (Neustart erforderlich)</translation>
+    </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="105"/>
         <source>Allows you to change the language in which the Playback software is presented. It requires an application restart in order to update the language accross the entire application.</source>
@@ -1041,6 +1063,22 @@ Wenn Sie alle Bilder von Ihrer Kamera entfernen möchten, ohne diese einzeln in 
         <location filename="../src/PlaybackSettingsScreen.cpp" line="113"/>
         <source>Displays the current frames per second (FPS) of the game being played.</source>
         <translation>Zeigt die aktuellen Bilder pro Sekunde (FPS) des gespielten Spiels an.</translation>
+    </message>
+    <message>
+        <source>Include RTC data in save file</source>
+        <translation type="vanished">RTC-Daten in Speicherstand übernehmen</translation>
+    </message>
+    <message>
+        <source>When enabled, the Playback software includes the real-time clock (RTC) data in the save file. This ensures that the game&apos;s time-based events are correctly saved and restored.</source>
+        <translation type="vanished">Wenn diese Option aktiviert ist, fügt die Playback-Software die Echtzeitdaten (real-time clock) in den Spielstand ein. Dadurch wird sichergestellt, dass die zeitbasierten Ereignisse des Spiels korrekt gespeichert und wiederhergestellt werden.</translation>
+    </message>
+    <message>
+        <source>Preferred emulator core</source>
+        <translation type="vanished">Bevorzugter Emulator</translation>
+    </message>
+    <message>
+        <source>Allows you to select the preferred emulation core for running games. Different cores may offer varying levels of accuracy, performance, or compatibility with specific games. Choose the core that best suits your needs and the game you&apos;re playing.</source>
+        <translation type="vanished">Erlaubt Ihnen, den bevorzugten zugrundeliegenden Emulator zum Ausführen von Spielen auszuwählen. Verschiedene Emulatoren bieten möglicherweise unterschiedliche Genauigkeits-, Leistungs- oder Kompatibilitätsgrade mit bestimmten Spielen. Wählen Sie den Emulator, der am besten zu Ihren Anforderungen und dem Spiel, das Sie spielen passt.</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="92"/>
@@ -1343,12 +1381,12 @@ Bitte stellen Sie sicher, dass es angeschlossen ist.</translation>
     <message>
         <location filename="../src/SettingsWindow.cpp" line="246"/>
         <source>Core Load Failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Laden des Kerns fehlgeschlagen</translation>
     </message>
     <message>
         <location filename="../src/SettingsWindow.cpp" line="246"/>
         <source>Failed to load core. Please load a valid core.</source>
-        <translation type="unfinished"></translation>
+        <translation>Fehler beim laden des Kerns. Bitte wähle einen gültigen Kern.</translation>
     </message>
     <message>
         <location filename="../src/SettingsWindow.cpp" line="276"/>
@@ -1358,7 +1396,7 @@ Bitte stellen Sie sicher, dass es angeschlossen ist.</translation>
     <message>
         <location filename="../src/SettingsWindow.cpp" line="278"/>
         <source>Core Selector</source>
-        <translation type="unfinished"></translation>
+        <translation>Kern-Selektor</translation>
     </message>
     <message>
         <location filename="../src/SettingsWindow.cpp" line="279"/>
@@ -1535,32 +1573,32 @@ Tipp: Verwenden Sie externe Programme, um Events im Spiel auszulösen oder das G
     <message>
         <location filename="../src/Window.cpp" line="393"/>
         <source>Main Hub</source>
-        <translation type="unfinished"></translation>
+        <translation>Main Hub</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="394"/>
         <source>Choose between playing the game, transferring data or accessing more info.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wähle zwischen spielen des Spiels, Datenübertragung oder Zugriff auf weiteren Informationen.</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="401"/>
         <source>Play Tab</source>
-        <translation type="unfinished"></translation>
+        <translation>Spiel Tab</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="402"/>
         <source>Learn more about your game, or have a play session on the in-app emulator.</source>
-        <translation type="unfinished"></translation>
+        <translation>Lerne mehr über Ihr Spiel oder spiele mit einem In-App Emulator.</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="409"/>
         <source>Start Play Session</source>
-        <translation type="unfinished"></translation>
+        <translation>Starte Spiel Session</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="410"/>
         <source>Launch the in-app emulator for an authentic, accurate experience.</source>
-        <translation type="unfinished"></translation>
+        <translation>Starte den In-App Emulator für ein authentisches, akkurates Erlebnis.</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="417"/>
@@ -1570,47 +1608,47 @@ Tipp: Verwenden Sie externe Programme, um Events im Spiel auszulösen oder das G
     <message>
         <location filename="../src/Window.cpp" line="418"/>
         <source>Configure parameters to make the app your own.</source>
-        <translation type="unfinished"></translation>
+        <translation>Konfiguriere Parameter um die App an Ihren Bedürfnissen anzupassen.</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="425"/>
         <source>Save Vault</source>
-        <translation type="unfinished"></translation>
+        <translation>Spielstand Vault</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="426"/>
         <source>Access and manage saves created automatically in the &lt;a href=&quot;#&quot; style=&apos;color: white&apos;&gt;Save Vault&lt;/a&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Zugriff auf und Verwaltung von automatisch im &lt;a href=&quot;#&quot; style=&apos;color: white&apos;&gt;Save Vault&lt;/a&gt; erstellten Spielständen.</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="434"/>
         <source>Device Switcher</source>
-        <translation type="unfinished"></translation>
+        <translation>Geräte Wechsler</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="435"/>
         <source>Select between multiple Operator devices connected to the same computer.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wähle zwischen mehreren verbundenen Operator Geräten.</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="442"/>
         <source>Counterfeit Detection</source>
-        <translation type="unfinished"></translation>
+        <translation>Fälschungserkennung</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="443"/>
         <source>Your cartridge has been analysed for some of the most common counterfeit markers.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ihr Modul wurde auf die häufigsten vorkommenden Fälschungsanzeichen uberprüft.</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="450"/>
         <source>Data Tab</source>
-        <translation type="unfinished"></translation>
+        <translation>Daten Tab</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="451"/>
         <source>Backup, transfer and manage official/homebrew game and save data.</source>
-        <translation type="unfinished"></translation>
+        <translation>Sichern, übertragen und verwalten Sie offizielle/homebrew Spiel- und Speicherdaten.</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="458"/>
@@ -1620,17 +1658,17 @@ Tipp: Verwenden Sie externe Programme, um Events im Spiel auszulösen oder das G
     <message>
         <location filename="../src/Window.cpp" line="459"/>
         <source>Create digital copies of your save data.</source>
-        <translation type="unfinished"></translation>
+        <translation>Erstelle digitale Kopien deiner Spielstände.</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="466"/>
         <source>Start Backup Session</source>
-        <translation type="unfinished"></translation>
+        <translation>Starte Backup</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="467"/>
         <source>Begin archiving the save data.</source>
-        <translation type="unfinished"></translation>
+        <translation>Beginne Archivierung des Spielstands.</translation>
     </message>
 </context>
 </TS>
