@@ -7,7 +7,7 @@
 | 🇩🇪 German              | Human         | ✅          | 0                |
 | 🇨🇳 Simplified Chinese  | Human         | ⛔          | 55               |
 | 🇫🇷 French              | Human         | ✅          | 0                |
-| 🇪🇸 Spanish             | Human         | ⛔          | 56               |
+| 🇪🇸 Spanish             | Human         | ✅          | 0                |
 | 🇮🇹 Italian             | DeepL         | ⛔          | 76               |
 | 🇯🇵 Japanese            | Human         | ✅          | 0                |
 | 🇰🇷 Korean              | Human         | ✅          | 0                |

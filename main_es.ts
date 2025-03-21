@@ -58,14 +58,16 @@
     <message>
         <location filename="../src/AppTour.cpp" line="65"/>
         <source>Welcome to the Playback Tour!</source>
-        <translation type="unfinished"></translation>
+        <translation>¡Bienvenido al recorrido de Playback!</translation>
     </message>
     <message>
         <location filename="../src/AppTour.cpp" line="66"/>
         <source>Let’s check out some of the app’s main features.
 
 P.S. If you choose to skip the tour now, you won’t be prompted to take it again.</source>
-        <translation type="unfinished"></translation>
+        <translation>Veamos algunas de las características principales de la aplicación.
+
+P.D. Si decides omitir el recorrido ahora, no se te volverá a solicitar.</translation>
     </message>
     <message>
         <location filename="../src/AppTour.cpp" line="69"/>
@@ -75,17 +77,17 @@ P.S. If you choose to skip the tour now, you won’t be prompted to take it agai
     <message>
         <location filename="../src/AppTour.cpp" line="69"/>
         <source>Skip Tour</source>
-        <translation type="unfinished"></translation>
+        <translation>Omitir recorrido</translation>
     </message>
     <message>
         <location filename="../src/AppTour.cpp" line="77"/>
         <source>Next</source>
-        <translation type="unfinished"></translation>
+        <translation>Siguiente</translation>
     </message>
     <message>
         <location filename="../src/AppTour.cpp" line="77"/>
         <source>End Tour</source>
-        <translation type="unfinished"></translation>
+        <translation>Finalizar recorrido</translation>
     </message>
 </context>
 <context>
@@ -191,32 +193,32 @@ No extraiga el cartucho mientras se esté realizando alguna operación.</transla
     <message>
         <location filename="../src/CoreCardWidget.cpp" line="181"/>
         <source>Load Custom Core</source>
-        <translation type="unfinished"></translation>
+        <translation>Cargar núcleo personalizado</translation>
     </message>
     <message>
         <location filename="../src/CoreCardWidget.cpp" line="182"/>
         <source>Cores (*%1)</source>
-        <translation type="unfinished"></translation>
+        <translation>Núcleos (*%1)</translation>
     </message>
     <message>
         <location filename="../src/CoreCardWidget.cpp" line="244"/>
         <source>Active</source>
-        <translation type="unfinished"></translation>
+        <translation>Activo</translation>
     </message>
     <message>
         <location filename="../src/CoreCardWidget.cpp" line="245"/>
         <source>Enable</source>
-        <translation type="unfinished"></translation>
+        <translation>Habilitar</translation>
     </message>
     <message>
         <location filename="../src/CoreCardWidget.cpp" line="246"/>
         <source>Browse</source>
-        <translation type="unfinished"></translation>
+        <translation>Explorar</translation>
     </message>
     <message>
         <location filename="../src/CoreCardWidget.cpp" line="247"/>
         <source>Learn More</source>
-        <translation type="unfinished"></translation>
+        <translation>Más información</translation>
     </message>
 </context>
 <context>
@@ -224,22 +226,22 @@ No extraiga el cartucho mientras se esté realizando alguna operación.</transla
     <message>
         <location filename="../src/CoreCardWidget.cpp" line="277"/>
         <source>Failed to download core</source>
-        <translation type="unfinished"></translation>
+        <translation>Error al descargar el núcleo</translation>
     </message>
     <message>
         <location filename="../src/CoreCardWidget.cpp" line="284"/>
         <source>Failed to open file for writing</source>
-        <translation type="unfinished"></translation>
+        <translation>Error al abrir el archivo para escritura</translation>
     </message>
     <message>
         <location filename="../src/CoreCardWidget.cpp" line="294"/>
         <source>Failed to open zip file</source>
-        <translation type="unfinished"></translation>
+        <translation>Error al abrir el archivo zip</translation>
     </message>
     <message>
         <location filename="../src/CoreCardWidget.cpp" line="336"/>
         <source>Download Error</source>
-        <translation type="unfinished"></translation>
+        <translation>Error de descarga</translation>
     </message>
 </context>
 <context>
@@ -247,7 +249,7 @@ No extraiga el cartucho mientras se esté realizando alguna operación.</transla
     <message>
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="127"/>
         <source>Supported Features</source>
-        <translation type="unfinished"></translation>
+        <translation>Características compatibles</translation>
     </message>
 </context>
 <context>
@@ -256,33 +258,33 @@ No extraiga el cartucho mientras se esté realizando alguna operación.</transla
         <location filename="../src/CoreSelectorScreen.cpp" line="75"/>
         <location filename="../src/CoreSelectorScreen.cpp" line="216"/>
         <source>Officially supported</source>
-        <translation type="unfinished"></translation>
+        <translation>Compatible oficialmente</translation>
     </message>
     <message>
         <location filename="../src/CoreSelectorScreen.cpp" line="75"/>
         <location filename="../src/CoreSelectorScreen.cpp" line="216"/>
         <source>Alternative Core</source>
-        <translation type="unfinished"></translation>
+        <translation>Núcleo alternativo</translation>
     </message>
     <message>
         <location filename="../src/CoreSelectorScreen.cpp" line="208"/>
         <source>Select Core</source>
-        <translation type="unfinished"></translation>
+        <translation>Seleccionar núcleo</translation>
     </message>
     <message>
         <location filename="../src/CoreSelectorScreen.cpp" line="210"/>
         <source>You can change the emulation core for your Operator device. Download a core online or provide your own, but remember: only some cores are fully supported by Epilogue ensure complete feature compatibility.</source>
-        <translation type="unfinished"></translation>
+        <translation>Puedes cambiar el núcleo de emulación para tu dispositivo Operator. Descarga un núcleo en línea o proporciona el tuyo propio, pero recuerda: solo algunos núcleos son totalmente compatibles con Epilogue para garantizar la compatibilidad completa de características.</translation>
     </message>
     <message>
         <location filename="../src/CoreSelectorScreen.cpp" line="212"/>
         <source>Custom Core</source>
-        <translation type="unfinished"></translation>
+        <translation>Núcleo personalizado</translation>
     </message>
     <message>
         <location filename="../src/CoreSelectorScreen.cpp" line="213"/>
         <source>Your own core</source>
-        <translation type="unfinished"></translation>
+        <translation>Tu propio núcleo</translation>
     </message>
 </context>
 <context>
@@ -290,7 +292,7 @@ No extraiga el cartucho mientras se esté realizando alguna operación.</transla
     <message>
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="105"/>
         <source>Supported Systems</source>
-        <translation type="unfinished"></translation>
+        <translation>Sistemas compatibles</translation>
     </message>
 </context>
 <context>
@@ -321,7 +323,7 @@ No extraiga el cartucho mientras se esté realizando alguna operación.</transla
     <message>
         <location filename="../src/DatabaseCheatCodesWidget.cpp" line="37"/>
         <source>Search cheats</source>
-        <translation type="unfinished"></translation>
+        <translation>Buscar trucos</translation>
     </message>
     <message>
         <location filename="../src/DatabaseCheatCodesWidget.cpp" line="104"/>
@@ -347,12 +349,12 @@ No extraiga el cartucho mientras se esté realizando alguna operación.</transla
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="65"/>
         <source>Cartridge Connection Unstable!</source>
-        <translation type="unfinished"></translation>
+        <translation>¡Conexión del cartucho inestable!</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="66"/>
         <source>Playback detected a contact connection issue. Please clean the cartridge pins, reinsert the cartridge properly, and try again for improved accuracy.</source>
-        <translation type="unfinished"></translation>
+        <translation>Playback detectó un problema en la conexión. Por favor, limpia los pines del cartucho, reinsértalo correctamente y vuelve a intentarlo para mejorar la precisión.</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="110"/>
@@ -417,7 +419,7 @@ No extraiga el cartucho mientras se esté realizando alguna operación.</transla
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="347"/>
         <source>Write save failed</source>
-        <translation>&quot;Cargar Guardada&quot; ha fallado</translation>
+        <translation>Ha fallado la escritura de la partida guardada</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="347"/>
@@ -540,7 +542,7 @@ No extraiga el cartucho mientras se esté realizando alguna operación.</transla
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="239"/>
         <source>Core</source>
-        <translation type="unfinished"></translation>
+        <translation>Núcleo</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="244"/>
@@ -555,12 +557,12 @@ No extraiga el cartucho mientras se esté realizando alguna operación.</transla
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="246"/>
         <source>Core settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Ajustes de núcleo</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="253"/>
         <source>RTC Battery State Emulation</source>
-        <translation type="unfinished"></translation>
+        <translation>Emulación del estado de la batería RTC</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="266"/>
@@ -575,17 +577,17 @@ No extraiga el cartucho mientras se esté realizando alguna operación.</transla
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="307"/>
         <source>Disabled</source>
-        <translation>Discapacitados</translation>
+        <translation>Desactivado</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="254"/>
         <source>Gamepad rumble</source>
-        <translation>Rumor del gamepad</translation>
+        <translation>Vibración del mando</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="271"/>
         <source>With this setting Enabled, the in-app emulator will match the state of your cartridge’s battery (dry/not dry). Leave the option Disabled if your cartridge battery is dry, but you still want the emulated game to offer in-game time-based events.</source>
-        <translation type="unfinished"></translation>
+        <translation>Con esta opción activada, el emulador de la aplicación coincidirá con el estado de la batería de tu cartucho (agotada/no agotada). Deja la opción desactivada si la batería de tu cartucho está agotada, pero aún quieres que el juego emulado ofrezca eventos basados en el tiempo del juego.</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="276"/>
@@ -645,7 +647,7 @@ por favor, no desconecte el dispositivo.</translation>
     <message>
         <location filename="../src/InputBindingsScreen.cpp" line="172"/>
         <source>Rebind keys</source>
-        <translation>Rebobinar llaves</translation>
+        <translation>Reasignar teclas</translation>
     </message>
     <message>
         <location filename="../src/InputBindingsScreen.cpp" line="178"/>
@@ -673,7 +675,7 @@ por favor, no desconecte el dispositivo.</translation>
     <message>
         <location filename="../src/InputBindingsScreen.cpp" line="173"/>
         <source>Cancel rebind</source>
-        <translation>Cancelar reencuadernación</translation>
+        <translation>Cancelar reasignación</translation>
     </message>
 </context>
 <context>
@@ -831,22 +833,22 @@ Puedes intentar limpiar el cartucho y volver a insertarlo en el dispositivo.
     <message>
         <location filename="../src/Navbar.cpp" line="211"/>
         <source>Writing game...</source>
-        <translation>Juego de escritura...</translation>
+        <translation>Escribiendo juego...</translation>
     </message>
     <message>
         <location filename="../src/Navbar.cpp" line="213"/>
         <source>Loading save...</source>
-        <translation>Cargando guardar...</translation>
+        <translation>Cargando partida guardada...</translation>
     </message>
     <message>
         <location filename="../src/Navbar.cpp" line="215"/>
         <source>Writing save...</source>
-        <translation>Escribir salvar...</translation>
+        <translation>Escribiendo partida guardada...</translation>
     </message>
     <message>
         <location filename="../src/Navbar.cpp" line="217"/>
         <source>Erasing data...</source>
-        <translation>Borrar datos...</translation>
+        <translation>Borrando datos...</translation>
     </message>
     <message>
         <location filename="../src/Navbar.cpp" line="248"/>
@@ -864,7 +866,7 @@ Puedes intentar limpiar el cartucho y volver a insertarlo en el dispositivo.
     <message>
         <location filename="../src/NavbarComponents.cpp" line="120"/>
         <source>Nightly</source>
-        <translation>Por la noche</translation>
+        <translation>Nightly</translation>
     </message>
     <message>
         <location filename="../src/NavbarComponents.cpp" line="118"/>
@@ -902,7 +904,7 @@ Puedes intentar limpiar el cartucho y volver a insertarlo en el dispositivo.
     <message>
         <location filename="../src/NavbarLogoDropdown.cpp" line="127"/>
         <source>Vault</source>
-        <translation type="unfinished"></translation>
+        <translation>Vault</translation>
     </message>
     <message>
         <location filename="../src/NavbarLogoDropdown.cpp" line="128"/>
@@ -941,12 +943,12 @@ Puedes intentar limpiar el cartucho y volver a insertarlo en el dispositivo.
     <message>
         <location filename="../src/Navbar.cpp" line="426"/>
         <source>Backup Save</source>
-        <translation>Descargar Guardada</translation>
+        <translation>Descargar partida</translation>
     </message>
     <message>
         <location filename="../src/Navbar.cpp" line="427"/>
         <source>Upload Save</source>
-        <translation>Cargar Guardada</translation>
+        <translation>Cargar partida</translation>
     </message>
     <message>
         <location filename="../src/Navbar.cpp" line="428"/>
@@ -979,17 +981,17 @@ Puedes intentar limpiar el cartucho y volver a insertarlo en el dispositivo.
     <message>
         <location filename="../src/PhotosPage.cpp" line="315"/>
         <source>Found %1 photos on your Game Boy Camera.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se encontraron %1 fotos en tu Game Boy Camera.</translation>
     </message>
     <message>
         <location filename="../src/PhotosPage.cpp" line="318"/>
         <source>Found 1 photo on your Game Boy Camera.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se encontró 1 foto en tu Game Boy Camera.</translation>
     </message>
     <message>
         <location filename="../src/PhotosPage.cpp" line="322"/>
         <source>Found no photos on your Game Boy Camera.</source>
-        <translation type="unfinished"></translation>
+        <translation>No se encontraron fotos en tu Game Boy Camera.</translation>
     </message>
     <message>
         <location filename="../src/PhotosPage.cpp" line="350"/>
@@ -1050,7 +1052,7 @@ Si quieres eliminar fácilmente todas las fotos de tu cámara, sin tener que bor
     </message>
     <message>
         <source>Disabled</source>
-        <translation type="vanished">Discapacitados</translation>
+        <translation type="vanished">Desactivado</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="93"/>
@@ -1166,7 +1168,7 @@ Si quieres eliminar fácilmente todas las fotos de tu cámara, sin tener que bor
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="192"/>
         <source>Disabled</source>
-        <translation>Discapacitados</translation>
+        <translation>Desactivado</translation>
     </message>
     <message>
         <source>Open Cores Directory</source>
@@ -1371,12 +1373,12 @@ Por favor, asegúrese de que está conectado.</translation>
     <message>
         <location filename="../src/SettingsWindow.cpp" line="246"/>
         <source>Core Load Failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Error al cargar el núcleo</translation>
     </message>
     <message>
         <location filename="../src/SettingsWindow.cpp" line="246"/>
         <source>Failed to load core. Please load a valid core.</source>
-        <translation type="unfinished"></translation>
+        <translation>Error al cargar el núcleo. Por favor, carga un núcleo válido.</translation>
     </message>
     <message>
         <location filename="../src/SettingsWindow.cpp" line="276"/>
@@ -1386,7 +1388,7 @@ Por favor, asegúrese de que está conectado.</translation>
     <message>
         <location filename="../src/SettingsWindow.cpp" line="278"/>
         <source>Core Selector</source>
-        <translation type="unfinished"></translation>
+        <translation>Selector de núcleo</translation>
     </message>
     <message>
         <location filename="../src/SettingsWindow.cpp" line="279"/>
@@ -1440,7 +1442,7 @@ Por favor, asegúrese de que está conectado.</translation>
         <location filename="../src/StartControllerWidget.cpp" line="164"/>
         <location filename="../src/StartControllerWidget.cpp" line="170"/>
         <source>START</source>
-        <translation>START</translation>
+        <translation>INICIO</translation>
     </message>
 </context>
 <context>
@@ -1563,32 +1565,32 @@ Consejo: Utiliza programas externos para activar eventos del juego o personaliza
     <message>
         <location filename="../src/Window.cpp" line="393"/>
         <source>Main Hub</source>
-        <translation type="unfinished"></translation>
+        <translation>Centro principal</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="394"/>
         <source>Choose between playing the game, transferring data or accessing more info.</source>
-        <translation type="unfinished"></translation>
+        <translation>Elige entre jugar, transferir datos o acceder a más información.</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="401"/>
         <source>Play Tab</source>
-        <translation type="unfinished"></translation>
+        <translation>Pestaña de juego</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="402"/>
         <source>Learn more about your game, or have a play session on the in-app emulator.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aprende más sobre tu juego o inicia una sesión de juego en el emulador de la aplicación.</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="409"/>
         <source>Start Play Session</source>
-        <translation type="unfinished"></translation>
+        <translation>Iniciar sesión de juego</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="410"/>
         <source>Launch the in-app emulator for an authentic, accurate experience.</source>
-        <translation type="unfinished"></translation>
+        <translation>Inicia el emulador de la aplicación para una experiencia auténtica y precisa.</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="417"/>
@@ -1598,67 +1600,67 @@ Consejo: Utiliza programas externos para activar eventos del juego o personaliza
     <message>
         <location filename="../src/Window.cpp" line="418"/>
         <source>Configure parameters to make the app your own.</source>
-        <translation type="unfinished"></translation>
+        <translation>Configura los parámetros para personalizar la aplicación.</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="425"/>
         <source>Save Vault</source>
-        <translation type="unfinished"></translation>
+        <translation>Vault de guardados</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="426"/>
         <source>Access and manage saves created automatically in the &lt;a href=&quot;#&quot; style=&apos;color: white&apos;&gt;Save Vault&lt;/a&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Accede y gestiona los guardados creados automáticamente en el &lt;a href=&quot;#&quot; style=&apos;color: white&apos;&gt;Vault&lt;/a&gt;.</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="434"/>
         <source>Device Switcher</source>
-        <translation type="unfinished"></translation>
+        <translation>Selector de dispositivos</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="435"/>
         <source>Select between multiple Operator devices connected to the same computer.</source>
-        <translation type="unfinished"></translation>
+        <translation>Selecciona entre múltiples dispositivos Operator conectados al mismo ordenador.</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="442"/>
         <source>Counterfeit Detection</source>
-        <translation type="unfinished"></translation>
+        <translation>Detección de falsificaciones</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="443"/>
         <source>Your cartridge has been analysed for some of the most common counterfeit markers.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tu cartucho ha sido analizado para detectar algunos de los indicadores de falsificación más comunes.</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="450"/>
         <source>Data Tab</source>
-        <translation type="unfinished"></translation>
+        <translation>Pestaña de datos</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="451"/>
         <source>Backup, transfer and manage official/homebrew game and save data.</source>
-        <translation type="unfinished"></translation>
+        <translation>Copia de seguridad, transferencia y gestión de datos de juegos oficiales/homebrew y datos guardados.</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="458"/>
         <source>Backup Save</source>
-        <translation type="unfinished"></translation>
+        <translation>Copia de seguridad del guardado</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="459"/>
         <source>Create digital copies of your save data.</source>
-        <translation type="unfinished"></translation>
+        <translation>Crea copias digitales de tus datos guardados.</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="466"/>
         <source>Start Backup Session</source>
-        <translation type="unfinished"></translation>
+        <translation>Iniciar sesión de copia de seguridad</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="467"/>
         <source>Begin archiving the save data.</source>
-        <translation type="unfinished"></translation>
+        <translation>Comienza a archivar los datos guardados.</translation>
     </message>
 </context>
 </TS>
