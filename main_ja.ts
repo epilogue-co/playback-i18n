@@ -274,7 +274,7 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/CoreSelectorScreen.cpp" line="210"/>
         <source>You can change the emulation core for your Operator device. Download a core online or provide your own, but remember: only some cores are fully supported by Epilogue ensure complete feature compatibility.</source>
-        <translation>Operatorデバイス用のエミュレーションコアを変更できます。オンラインでコアをダウンロードするか独自のコアを使用できますが、完全な機能互換性を確保するためには、Epilogueが完全にサポートしているコアのみを使用することをお勧めします。</translation>
+        <translation>Operatorデバイス用のエミュレーションコアを変更できます。オンラインでコアをダウンロードするか独自のコアを使用できますが、完全な機能互換性を確保するためには、Epilogueが完全にサポートしているコアのみ使用してください。</translation>
     </message>
     <message>
         <location filename="../src/CoreSelectorScreen.cpp" line="212"/>
@@ -404,7 +404,7 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="206"/>
         <source>The cartridge was erased successfully, but the data written does not match the data read back. This issue might occur with some homebrew cartridges. Make sure the game is playable, either by testing on an original console or in the Playback app.</source>
-        <translation>カートリッジは正常に消去されたが、書き込まれたデータと読み出されたデータが一致しない。この問題は一部の自作カートリッジで発生する可能性があります。オリジナルのゲーム機、またはプレイバックアプリでテストして、ゲームがプレイ可能であることを確認してください。</translation>
+        <translation>カートリッジは正常に消去されましたが、書き込まれたデータと読み出されたデータが一致しません。この問題は一部の自作カートリッジで発生する可能性があります。オリジナルのゲーム機、またはPlaybackアプリでテストして、ゲームがプレイ可能であることを確認してください。</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="240"/>
@@ -414,7 +414,7 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="240"/>
         <source>Read data does not match written data.</source>
-        <translation>読み取りデータと書き込みデータが一致しない。</translation>
+        <translation>読み取りデータと書き込みデータが一致しません。</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="347"/>
@@ -434,7 +434,7 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="377"/>
         <source>The save data written to the cartridge does not match the data read back. Please clean the cartridge pins and try again to ensure consistency.</source>
-        <translation>カートリッジに書き込まれた保存データと読み込まれたデータが一致しない。カートリッジのピンを清掃し、整合性を確認するためにもう一度やり直してください。</translation>
+        <translation>カートリッジに書き込まれた保存データと読み込まれたデータが一致しません。カートリッジのピンを清掃し、整合性を確認するためにもう一度やり直してください。</translation>
     </message>
 </context>
 <context>
@@ -683,7 +683,7 @@ please do not disconnect the device.</source>
     <message>
         <location filename="../src/UIComponents.cpp" line="59"/>
         <source>Integrity check failed!</source>
-        <translation>整合性チェックに失敗した！</translation>
+        <translation>整合性チェックに失敗しました！</translation>
     </message>
     <message>
         <location filename="../src/UIComponents.cpp" line="60"/>
@@ -730,7 +730,7 @@ You can try cleaning then re-inserting the cartridge into the device.
     <message>
         <location filename="../src/UIComponents.cpp" line="87"/>
         <source>Integrity check failed!</source>
-        <translation>整合性チェックに失敗した！</translation>
+        <translation>整合性チェックに失敗しました！</translation>
     </message>
     <message>
         <location filename="../src/UIComponents.cpp" line="88"/>
@@ -748,7 +748,7 @@ You can try cleaning then re-inserting the cartridge into the device.
     <message>
         <location filename="../src/ManagePage.cpp" line="224"/>
         <source>Data Flow:</source>
-        <translation>データビュー：</translation>
+        <translation>データフロー：</translation>
     </message>
     <message>
         <location filename="../src/ManagePage.cpp" line="99"/>
@@ -1133,7 +1133,7 @@ If you&apos;d like to easily remove all the pictures from your camera, without h
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="98"/>
         <source>Enable verbose debug logs (requires restart)</source>
-        <translation>冗長なデバッグ・ログを有効にする（再起動が必要</translation>
+        <translation>冗長なデバッグ・ログを有効にする（再起動が必要）</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="128"/>
@@ -1143,7 +1143,7 @@ If you&apos;d like to easily remove all the pictures from your camera, without h
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="78"/>
         <source>General</source>
-        <translation>ジェネラル設定</translation>
+        <translation>一般設定</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="84"/>
@@ -1217,7 +1217,7 @@ If you&apos;d like to easily remove all the pictures from your camera, without h
     <message>
         <location filename="../src/DeviceSettingsScreen.cpp" line="5"/>
         <source>Dark</source>
-        <translation>暗い</translation>
+        <translation>消灯</translation>
     </message>
     <message>
         <location filename="../src/DeviceSettingsScreen.cpp" line="6"/>
