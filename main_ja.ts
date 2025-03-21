@@ -21,7 +21,7 @@
     <message>
         <location filename="../src/AboutWindow.cpp" line="155"/>
         <source>Core Version</source>
-        <translation>コア・バージョン</translation>
+        <translation>コアバージョン</translation>
     </message>
     <message>
         <location filename="../src/AboutWindow.cpp" line="179"/>
@@ -58,14 +58,16 @@
     <message>
         <location filename="../src/AppTour.cpp" line="65"/>
         <source>Welcome to the Playback Tour!</source>
-        <translation type="unfinished"></translation>
+        <translation>Playbackツアーへようこそ！</translation>
     </message>
     <message>
         <location filename="../src/AppTour.cpp" line="66"/>
         <source>Let’s check out some of the app’s main features.
 
 P.S. If you choose to skip the tour now, you won’t be prompted to take it again.</source>
-        <translation type="unfinished"></translation>
+        <translation>アプリの主な機能をいくつか見てみましょう。
+
+注：今ツアーをスキップすると、再度表示されません。</translation>
     </message>
     <message>
         <location filename="../src/AppTour.cpp" line="69"/>
@@ -75,17 +77,17 @@ P.S. If you choose to skip the tour now, you won’t be prompted to take it agai
     <message>
         <location filename="../src/AppTour.cpp" line="69"/>
         <source>Skip Tour</source>
-        <translation type="unfinished"></translation>
+        <translation>ツアーをスキップ</translation>
     </message>
     <message>
         <location filename="../src/AppTour.cpp" line="77"/>
         <source>Next</source>
-        <translation type="unfinished"></translation>
+        <translation>次へ</translation>
     </message>
     <message>
         <location filename="../src/AppTour.cpp" line="77"/>
         <source>End Tour</source>
-        <translation type="unfinished"></translation>
+        <translation>ツアーを終了</translation>
     </message>
 </context>
 <context>
@@ -191,32 +193,32 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/CoreCardWidget.cpp" line="181"/>
         <source>Load Custom Core</source>
-        <translation type="unfinished"></translation>
+        <translation>カスタムコアをロード</translation>
     </message>
     <message>
         <location filename="../src/CoreCardWidget.cpp" line="182"/>
         <source>Cores (*%1)</source>
-        <translation type="unfinished"></translation>
+        <translation>コア (*%1)</translation>
     </message>
     <message>
         <location filename="../src/CoreCardWidget.cpp" line="244"/>
         <source>Active</source>
-        <translation type="unfinished"></translation>
+        <translation>アクティブ</translation>
     </message>
     <message>
         <location filename="../src/CoreCardWidget.cpp" line="245"/>
         <source>Enable</source>
-        <translation type="unfinished"></translation>
+        <translation>有効化</translation>
     </message>
     <message>
         <location filename="../src/CoreCardWidget.cpp" line="246"/>
         <source>Browse</source>
-        <translation type="unfinished"></translation>
+        <translation>参照</translation>
     </message>
     <message>
         <location filename="../src/CoreCardWidget.cpp" line="247"/>
         <source>Learn More</source>
-        <translation type="unfinished"></translation>
+        <translation>詳細情報</translation>
     </message>
 </context>
 <context>
@@ -224,22 +226,22 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/CoreCardWidget.cpp" line="277"/>
         <source>Failed to download core</source>
-        <translation type="unfinished"></translation>
+        <translation>コアのダウンロードに失敗しました</translation>
     </message>
     <message>
         <location filename="../src/CoreCardWidget.cpp" line="284"/>
         <source>Failed to open file for writing</source>
-        <translation type="unfinished"></translation>
+        <translation>書き込み用のファイルを開けませんでした</translation>
     </message>
     <message>
         <location filename="../src/CoreCardWidget.cpp" line="294"/>
         <source>Failed to open zip file</source>
-        <translation type="unfinished"></translation>
+        <translation>ZIPファイルを開けませんでした</translation>
     </message>
     <message>
         <location filename="../src/CoreCardWidget.cpp" line="336"/>
         <source>Download Error</source>
-        <translation type="unfinished"></translation>
+        <translation>ダウンロードエラー</translation>
     </message>
 </context>
 <context>
@@ -247,7 +249,7 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="127"/>
         <source>Supported Features</source>
-        <translation type="unfinished"></translation>
+        <translation>サポートされている機能</translation>
     </message>
 </context>
 <context>
@@ -256,33 +258,33 @@ Do not remove the cartridge while any operation is running.</source>
         <location filename="../src/CoreSelectorScreen.cpp" line="75"/>
         <location filename="../src/CoreSelectorScreen.cpp" line="216"/>
         <source>Officially supported</source>
-        <translation type="unfinished"></translation>
+        <translation>公式サポート</translation>
     </message>
     <message>
         <location filename="../src/CoreSelectorScreen.cpp" line="75"/>
         <location filename="../src/CoreSelectorScreen.cpp" line="216"/>
         <source>Alternative Core</source>
-        <translation type="unfinished"></translation>
+        <translation>代替コア</translation>
     </message>
     <message>
         <location filename="../src/CoreSelectorScreen.cpp" line="208"/>
         <source>Select Core</source>
-        <translation type="unfinished"></translation>
+        <translation>コアを選択</translation>
     </message>
     <message>
         <location filename="../src/CoreSelectorScreen.cpp" line="210"/>
         <source>You can change the emulation core for your Operator device. Download a core online or provide your own, but remember: only some cores are fully supported by Epilogue ensure complete feature compatibility.</source>
-        <translation type="unfinished"></translation>
+        <translation>Operatorデバイス用のエミュレーションコアを変更できます。オンラインでコアをダウンロードするか独自のコアを使用できますが、完全な機能互換性を確保するためには、Epilogueが完全にサポートしているコアのみを使用することをお勧めします。</translation>
     </message>
     <message>
         <location filename="../src/CoreSelectorScreen.cpp" line="212"/>
         <source>Custom Core</source>
-        <translation type="unfinished"></translation>
+        <translation>カスタムコア</translation>
     </message>
     <message>
         <location filename="../src/CoreSelectorScreen.cpp" line="213"/>
         <source>Your own core</source>
-        <translation type="unfinished"></translation>
+        <translation>カスタムコア</translation>
     </message>
 </context>
 <context>
@@ -290,7 +292,7 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="105"/>
         <source>Supported Systems</source>
-        <translation type="unfinished"></translation>
+        <translation>サポートされているシステム</translation>
     </message>
 </context>
 <context>
@@ -321,7 +323,7 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/DatabaseCheatCodesWidget.cpp" line="37"/>
         <source>Search cheats</source>
-        <translation type="unfinished"></translation>
+        <translation>チートを検索</translation>
     </message>
     <message>
         <location filename="../src/DatabaseCheatCodesWidget.cpp" line="104"/>
@@ -347,12 +349,12 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="65"/>
         <source>Cartridge Connection Unstable!</source>
-        <translation type="unfinished"></translation>
+        <translation>カートリッジの接続が不安定です！</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="66"/>
         <source>Playback detected a contact connection issue. Please clean the cartridge pins, reinsert the cartridge properly, and try again for improved accuracy.</source>
-        <translation type="unfinished"></translation>
+        <translation>Playbackが接触接続の問題を検出しました。カートリッジの端子をクリーニングし、カートリッジを正しく挿入し直して、精度を向上させるためにもう一度お試しください。</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="110"/>
@@ -540,7 +542,7 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="239"/>
         <source>Core</source>
-        <translation type="unfinished"></translation>
+        <translation>コア</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="244"/>
@@ -555,12 +557,12 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="246"/>
         <source>Core settings</source>
-        <translation type="unfinished"></translation>
+        <translation>コア設定</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="253"/>
         <source>RTC Battery State Emulation</source>
-        <translation type="unfinished"></translation>
+        <translation>RTCバッテリー状態エミュレーション</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="266"/>
@@ -585,7 +587,7 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="271"/>
         <source>With this setting Enabled, the in-app emulator will match the state of your cartridge’s battery (dry/not dry). Leave the option Disabled if your cartridge battery is dry, but you still want the emulated game to offer in-game time-based events.</source>
-        <translation type="unfinished"></translation>
+        <translation>この設定を有効にすると、アプリ内エミュレーターはカートリッジのバッテリー状態（消耗/未消耗）に合わせます。カートリッジのバッテリーが消耗していても、エミュレートされたゲーム内で時間ベースのイベントを提供したい場合は、このオプションを無効のままにしておいてください。</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="276"/>
@@ -902,7 +904,7 @@ You can try cleaning then re-inserting the cartridge into the device.
     <message>
         <location filename="../src/NavbarLogoDropdown.cpp" line="127"/>
         <source>Vault</source>
-        <translation type="unfinished"></translation>
+        <translation>Vault</translation>
     </message>
     <message>
         <location filename="../src/NavbarLogoDropdown.cpp" line="128"/>
@@ -941,12 +943,12 @@ You can try cleaning then re-inserting the cartridge into the device.
     <message>
         <location filename="../src/Navbar.cpp" line="426"/>
         <source>Backup Save</source>
-        <translation>バックアップ保存</translation>
+        <translation>セーブバックアップ</translation>
     </message>
     <message>
         <location filename="../src/Navbar.cpp" line="427"/>
         <source>Upload Save</source>
-        <translation>アップロード・セーブ</translation>
+        <translation>セーブアップロード</translation>
     </message>
     <message>
         <location filename="../src/Navbar.cpp" line="428"/>
@@ -979,17 +981,17 @@ You can try cleaning then re-inserting the cartridge into the device.
     <message>
         <location filename="../src/PhotosPage.cpp" line="315"/>
         <source>Found %1 photos on your Game Boy Camera.</source>
-        <translation type="unfinished"></translation>
+        <translation>ゲームボーイカメラで%1枚の写真が見つかりました。</translation>
     </message>
     <message>
         <location filename="../src/PhotosPage.cpp" line="318"/>
         <source>Found 1 photo on your Game Boy Camera.</source>
-        <translation type="unfinished"></translation>
+        <translation>ゲームボーイカメラで1枚の写真が見つかりました。</translation>
     </message>
     <message>
         <location filename="../src/PhotosPage.cpp" line="322"/>
         <source>Found no photos on your Game Boy Camera.</source>
-        <translation type="unfinished"></translation>
+        <translation>ゲームボーイカメラに写真が見つかりませんでした。</translation>
     </message>
     <message>
         <location filename="../src/PhotosPage.cpp" line="350"/>
@@ -1379,12 +1381,12 @@ Please make sure it&apos;s connected.</source>
     <message>
         <location filename="../src/SettingsWindow.cpp" line="246"/>
         <source>Core Load Failed</source>
-        <translation type="unfinished"></translation>
+        <translation>コアの読み込みに失敗しました</translation>
     </message>
     <message>
         <location filename="../src/SettingsWindow.cpp" line="246"/>
         <source>Failed to load core. Please load a valid core.</source>
-        <translation type="unfinished"></translation>
+        <translation>コアの読み込みに失敗しました。有効なコアを読み込んでください。</translation>
     </message>
     <message>
         <location filename="../src/SettingsWindow.cpp" line="276"/>
@@ -1394,7 +1396,7 @@ Please make sure it&apos;s connected.</source>
     <message>
         <location filename="../src/SettingsWindow.cpp" line="278"/>
         <source>Core Selector</source>
-        <translation type="unfinished"></translation>
+        <translation>コアセレクター</translation>
     </message>
     <message>
         <location filename="../src/SettingsWindow.cpp" line="279"/>
@@ -1525,7 +1527,7 @@ Tip: Transfer your save to the computer, replace the battery and transfer it bac
     <message>
         <location filename="../src/ViewRouter.cpp" line="130"/>
         <source>Backup Save</source>
-        <translation>バックアップ保存</translation>
+        <translation>セーブバックアップ</translation>
     </message>
     <message>
         <location filename="../src/ViewRouter.cpp" line="134"/>
@@ -1539,7 +1541,7 @@ Tip: Use external programs to trigger in-game events or customize gameplay.</sou
     <message>
         <location filename="../src/ViewRouter.cpp" line="137"/>
         <source>Upload Save</source>
-        <translation>アップロード保存</translation>
+        <translation>セーブアップロード</translation>
     </message>
 </context>
 <context>
@@ -1571,32 +1573,32 @@ Tip: Use external programs to trigger in-game events or customize gameplay.</sou
     <message>
         <location filename="../src/Window.cpp" line="393"/>
         <source>Main Hub</source>
-        <translation type="unfinished"></translation>
+        <translation>メインハブ</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="394"/>
         <source>Choose between playing the game, transferring data or accessing more info.</source>
-        <translation type="unfinished"></translation>
+        <translation>ゲームをプレイ、データを転送、または詳細情報にアクセスするかを選択します。</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="401"/>
         <source>Play Tab</source>
-        <translation type="unfinished"></translation>
+        <translation>プレイタブ</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="402"/>
         <source>Learn more about your game, or have a play session on the in-app emulator.</source>
-        <translation type="unfinished"></translation>
+        <translation>ゲームについて詳しく知るか、アプリ内エミュレーターでプレイセッションを行います。</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="409"/>
         <source>Start Play Session</source>
-        <translation type="unfinished"></translation>
+        <translation>プレイセッションを開始</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="410"/>
         <source>Launch the in-app emulator for an authentic, accurate experience.</source>
-        <translation type="unfinished"></translation>
+        <translation>本物の正確な体験のためにアプリ内エミュレーターを起動します。</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="417"/>
@@ -1606,67 +1608,67 @@ Tip: Use external programs to trigger in-game events or customize gameplay.</sou
     <message>
         <location filename="../src/Window.cpp" line="418"/>
         <source>Configure parameters to make the app your own.</source>
-        <translation type="unfinished"></translation>
+        <translation>アプリを自分好みにカスタマイズするパラメーターを設定します。</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="425"/>
         <source>Save Vault</source>
-        <translation type="unfinished"></translation>
+        <translation>Save Vault</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="426"/>
         <source>Access and manage saves created automatically in the &lt;a href=&quot;#&quot; style=&apos;color: white&apos;&gt;Save Vault&lt;/a&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;a href=&quot;#&quot; style=&apos;color: white&apos;&gt;Save Vault&lt;/a&gt;に自動的に作成されたセーブデータにアクセスし、管理します。</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="434"/>
         <source>Device Switcher</source>
-        <translation type="unfinished"></translation>
+        <translation>デバイススイッチャー</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="435"/>
         <source>Select between multiple Operator devices connected to the same computer.</source>
-        <translation type="unfinished"></translation>
+        <translation>同じコンピューターに接続された複数のOperatorデバイス間で切り替えます。</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="442"/>
         <source>Counterfeit Detection</source>
-        <translation type="unfinished"></translation>
+        <translation>偽造品チェック</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="443"/>
         <source>Your cartridge has been analysed for some of the most common counterfeit markers.</source>
-        <translation type="unfinished"></translation>
+        <translation>カートリッジが一般的な偽造品の特徴について分析されました。</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="450"/>
         <source>Data Tab</source>
-        <translation type="unfinished"></translation>
+        <translation>データタブ</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="451"/>
         <source>Backup, transfer and manage official/homebrew game and save data.</source>
-        <translation type="unfinished"></translation>
+        <translation>公式/ホームブリューゲームとセーブデータのバックアップ、転送、管理を行います。</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="458"/>
         <source>Backup Save</source>
-        <translation>バックアップ保存</translation>
+        <translation>セーブバックアップ</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="459"/>
         <source>Create digital copies of your save data.</source>
-        <translation type="unfinished"></translation>
+        <translation>セーブデータのデジタルコピーを作成します。</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="466"/>
         <source>Start Backup Session</source>
-        <translation type="unfinished"></translation>
+        <translation>バックアップセッションを開始</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="467"/>
         <source>Begin archiving the save data.</source>
-        <translation type="unfinished"></translation>
+        <translation>セーブデータのアーカイブを開始します。</translation>
     </message>
 </context>
 </TS>
