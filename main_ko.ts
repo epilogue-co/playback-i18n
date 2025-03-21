@@ -512,7 +512,7 @@ Do not remove the cartridge while any operation is running.</source>
         <location filename="../src/EmulatorSettingsScreen.h" line="168"/>
         <location filename="../src/EmulatorSettingsScreen.h" line="183"/>
         <source>disabled</source>
-        <translation>disabled</translation>
+        <translation>비활성화됨</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="251"/>
@@ -829,12 +829,12 @@ You can try cleaning then re-inserting the cartridge into the device.
     <message>
         <location filename="../src/Navbar.cpp" line="211"/>
         <source>Writing game...</source>
-        <translation>글쓰기 게임...</translation>
+        <translation>게임 기록 중...</translation>
     </message>
     <message>
         <location filename="../src/Navbar.cpp" line="213"/>
         <source>Loading save...</source>
-        <translation>로드 중 저장...</translation>
+        <translation>저장 데이터 로드 중...</translation>
     </message>
     <message>
         <location filename="../src/Navbar.cpp" line="215"/>
@@ -1164,7 +1164,7 @@ If you&apos;d like to easily remove all the pictures from your camera, without h
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="192"/>
         <source>Disabled</source>
-        <translation>장애인</translation>
+        <translation>비활성화됨</translation>
     </message>
     <message>
         <source>Open Cores Directory</source>
