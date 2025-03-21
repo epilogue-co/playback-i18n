@@ -65,9 +65,9 @@
         <source>Let’s check out some of the app’s main features.
 
 P.S. If you choose to skip the tour now, you won’t be prompted to take it again.</source>
-        <translation>Acum îți vom arăta câteva dintre feature-urile aplicației.
+        <translation>Hai să vedem câteva dintre funcționalitățile principale ale aplicației.
 
-P.S. Dacă decizi să dai skip la tur, nu-l vei putea vedea încă o data în viitor.</translation>
+P.S. Dacă alegi să sari peste tur acum, nu vei mai fi întrebat să-l parcurgi din nou.</translation>
     </message>
     <message>
         <location filename="../src/AppTour.cpp" line="69"/>
@@ -77,7 +77,7 @@ P.S. Dacă decizi să dai skip la tur, nu-l vei putea vedea încă o data în vi
     <message>
         <location filename="../src/AppTour.cpp" line="69"/>
         <source>Skip Tour</source>
-        <translation>Skip</translation>
+        <translation>Sari peste tur</translation>
     </message>
     <message>
         <location filename="../src/AppTour.cpp" line="77"/>
@@ -124,7 +124,7 @@ P.S. Dacă decizi să dai skip la tur, nu-l vei putea vedea încă o data în vi
     <message>
         <location filename="../src/CartDetailsWidget.cpp" line="292"/>
         <source>The description of this cartridge can’t be displayed since it’s not in our database. You can use the link below to open a ticket and we’ll add the game info to the database. Please feel free to contact us even if it’s a homebrew game you made if you’d like to have your artwork displayed here.</source>
-        <translation>Descrierea acestei casete nu poate fi afișată deoarece nu se află în baza noastră de date. Poți folosi linkul de mai jos pentru a deschide un tichet și vom adăuga informațiile despre joc în baza de date. Te rugăm să nu eziți să ne contactezi chiar dacă este un joc homebrew făcut de tine.</translation>
+        <translation>Descrierea acestei casete nu poate fi afișată deoarece nu se află în baza noastră de date. Poți folosi linkul de mai jos pentru a deschide un tichet și vom adăuga informațiile despre joc în baza de date. Te rugăm să nu eziți să ne contactezi chiar dacă este un joc homebrew făcut de tine și dorești să-ți afișăm artwork-ul aici.</translation>
     </message>
     <message>
         <location filename="../src/CartDetailsWidget.cpp" line="299"/>
@@ -249,7 +249,7 @@ Nu scoate caseta în timp ce se desfășoară orice operațiune.</translation>
     <message>
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="127"/>
         <source>Supported Features</source>
-        <translation>Feature-uri suportate</translation>
+        <translation>Funcționalități suportate</translation>
     </message>
 </context>
 <context>
@@ -274,7 +274,7 @@ Nu scoate caseta în timp ce se desfășoară orice operațiune.</translation>
     <message>
         <location filename="../src/CoreSelectorScreen.cpp" line="210"/>
         <source>You can change the emulation core for your Operator device. Download a core online or provide your own, but remember: only some cores are fully supported by Epilogue ensure complete feature compatibility.</source>
-        <translation>Poți să modifici core-ul folosit la emulație pe device-ul tău Operator. Descarcă un core sau încarcă-l pe al tău. Atenție, doar core-urile oferite în mod oficial de Epilogue asigură compatibilitatea cu toate funcționalitățile aplicației.</translation>
+        <translation>Poți să modifici core-ul folosit pentru emulație pe dispozitivul tău Operator. Descarcă un core online sau încarcă-l pe al tău, dar ține minte: doar core-urile oferite în mod oficial de Epilogue asigură compatibilitatea completă cu toate funcționalitățile aplicației.</translation>
     </message>
     <message>
         <location filename="../src/CoreSelectorScreen.cpp" line="212"/>
@@ -374,7 +374,7 @@ Nu scoate caseta în timp ce se desfășoară orice operațiune.</translation>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="145"/>
         <source> It looks like the homebrew game you&apos;re trying to upload has been detected by Playback as having 0 bytes. Please verify that the data you&apos;re attempting to upload is accurate.</source>
-        <translation> Pare că jocul pe care încerci să-l încarci a fost detectat de Playback ca având 0 bytes. Te rugăm să verifici că datele pe care încerci să le încarci sunt corecte.</translation>
+        <translation> Se pare că jocul homebrew pe care încerci să-l încarci a fost detectat de Playback ca având 0 bytes. Te rugăm să verifici că datele pe care încerci să le încarci sunt corecte.</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="155"/>
@@ -566,17 +566,17 @@ Nu scoate caseta în timp ce se desfășoară orice operațiune.</translation>
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="254"/>
         <source>Gamepad rumble</source>
-        <translation>Rumble de controler</translation>
+        <translation>Vibrații gamepad</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="271"/>
         <source>With this setting Enabled, the in-app emulator will match the state of your cartridge’s battery (dry/not dry). Leave the option Disabled if your cartridge battery is dry, but you still want the emulated game to offer in-game time-based events.</source>
-        <translation>Cu această setare activată, emulatorul din aplicație va corespunde stării bateriei cartușului dvs. (epuizată/neepuizată). Lasă opțiunea dezactivată dacă bateria ta este epuizată, dar dorești în continuare ca jocul emulat să ofere evenimente bazate pe timp.</translation>
+        <translation>Cu această setare activată, emulatorul din aplicație va corespunde stării bateriei casetei tale (epuizată/neepuizată). Lasă opțiunea dezactivată dacă bateria casetei tale este epuizată, dar dorești în continuare ca jocul emulat să ofere evenimente bazate pe timp.</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="276"/>
         <source>Enable rumble support for games that support it, for more compatibility make sure you also enable Game Boy Player Rumble.</source>
-        <translation>Activează suportul rumble pentru jocurile care îl acceptă, pentru mai multă compatibilitate, asigură-te că activezi și Game Boy Player Rumble.</translation>
+        <translation>Activează suportul de vibrații pentru jocurile care îl acceptă, pentru mai multă compatibilitate, asigură-te că activezi și vibrațiile Game Boy Player.</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="255"/>
@@ -619,7 +619,7 @@ Nu scoate caseta în timp ce se desfășoară orice operațiune.</translation>
     <message>
         <location filename="../src/UIComponents.cpp" line="130"/>
         <source>Please DO NOT disconnect or turn off your device during the update process. The LED will turn off during the update. Interruption will lead to your device becoming unusable and void warranty. By agreeing to this message box you confirm your understanding of these instructions.</source>
-        <translation>Te rugăm să NU deconectezi sau stinge dispozitivul în timpul procesului de update. LED-ul o să se stingă in timpul lui. Orice intrerupere o sa ducă la pierderea garanției. Prin acceptarea acestui mesaj, declari că ești de acord cu aceste instrucțiuni.</translation>
+        <translation>Te rugăm să NU deconectezi sau să oprești dispozitivul în timpul procesului de actualizare. LED-ul se va stinge în timpul actualizării. Orice întrerupere va duce la inutilizarea dispozitivului și pierderea garanției. Prin acceptarea acestui mesaj, confirmi că ai înțeles aceste instrucțiuni.</translation>
     </message>
 </context>
 <context>
@@ -670,7 +670,7 @@ te rugăm să nu deconectezi dispozitivul.</translation>
     <message>
         <location filename="../src/InputBindingsScreen.cpp" line="172"/>
         <source>Rebind keys</source>
-        <translation>Refacerea cheilor</translation>
+        <translation>Reconfigurare taste</translation>
     </message>
     <message>
         <location filename="../src/InputBindingsScreen.cpp" line="178"/>
@@ -1035,7 +1035,7 @@ Dacă dorești să elimini cu ușurință toate imaginile din cameră, fără a 
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="105"/>
         <source>Allows you to change the language in which the Playback software is presented. It requires an application restart in order to update the language accross the entire application.</source>
-        <translation>Îți permite să schimbi limba în care Playback este prezentat. Necesită să restartezi aplicația pentru a updata limba în aplicație.</translation>
+        <translation>Îți permite să schimbi limba în care este prezentat software-ul Playback. Este necesară repornirea aplicației pentru a actualiza limba în întreaga aplicație.</translation>
     </message>
     <message>
         <source>Autosave to cartridge (beta)</source>
@@ -1475,7 +1475,7 @@ Te rugăm să te asiguri că acesta este conectat.</translation>
     <message>
         <location filename="../src/UIComponents.cpp" line="48"/>
         <source>You are about to quit.</source>
-        <translation>Eși pe cale de a ieși.</translation>
+        <translation>Ești pe cale de a ieși.</translation>
     </message>
     <message>
         <location filename="../src/UIComponents.cpp" line="49"/>
@@ -1556,7 +1556,7 @@ Sfat: Folosește programe externe pentru a declanșa evenimente în joc sau pent
         <location filename="../src/Window.cpp" line="138"/>
         <location filename="../src/Window.cpp" line="368"/>
         <source>Open</source>
-        <translation>Deschideți</translation>
+        <translation>Deschide</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="159"/>
@@ -1628,7 +1628,7 @@ Sfat: Folosește programe externe pentru a declanșa evenimente în joc sau pent
     <message>
         <location filename="../src/Window.cpp" line="435"/>
         <source>Select between multiple Operator devices connected to the same computer.</source>
-        <translation>Selectează între mai multe dispozitive Operator care sunt conectate pe calculatorul tău.</translation>
+        <translation>Comută între mai multe dispozitive Operator conectate la același calculator.</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="442"/>
