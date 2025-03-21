@@ -547,12 +547,12 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="244"/>
         <source>Configure base hardware selection.</source>
-        <translation>ベースとなるハードウェアの選択を設定する。</translation>
+        <translation>ベースとなるハードウェアの選択を設定します。</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="245"/>
         <source>Configure controller and controller rumble settings.</source>
-        <translation>コントローラーとコントローラーの振動設定を行う。</translation>
+        <translation>コントローラーとコントローラーの振動設定を行います。</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="246"/>
@@ -606,7 +606,7 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="279"/>
         <source>Enable in-game integrity checks for save data. This feature is still in beta and may not work with all games.</source>
-        <translation>セーブデータのゲーム内整合性チェックを有効にする。この機能はまだベータ版であり、すべてのゲームで動作するとは限りません。</translation>
+        <translation>セーブデータのゲーム内整合性チェックを有効にします。この機能はまだベータ版であり、すべてのゲームで動作するとは限りません。</translation>
     </message>
 </context>
 <context>
@@ -1508,7 +1508,7 @@ Tip: Our app runs a Data Integrity Test to make sure that you are getting an acc
 Tip: Transfer your homebrew game to a cartridge and play it on original hardware.</source>
         <translation>カートリッジのゲームデータを別のファイルで上書きします。外部エミュレーターでテストして、書き込むゲームファイルが有効であることを確認してください。
 
-ヒント：自作ゲームをカートリッジに移し、オリジナルのハードウェアでプレイする。</translation>
+ヒント：自作ゲームをカートリッジに移し、オリジナルのハードウェアでプレイします。</translation>
     </message>
     <message>
         <location filename="../src/ViewRouter.cpp" line="122"/>
