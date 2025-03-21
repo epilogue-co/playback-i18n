@@ -10,7 +10,7 @@
 | 🇪🇸 Spanish             | Human         | ⛔          | 56               |
 | 🇮🇹 Italian             | DeepL         | ⛔          | 76               |
 | 🇯🇵 Japanese            | Human         | ⛔          | 56               |
-| 🇰🇷 Korean              | Human         | ⛔          | 56               |
+| 🇰🇷 Korean              | Human         | ✅          | 0                |
 | 🇳🇱 Dutch               | DeepL         | ⛔          | 56               |
 | 🇷🇴 Romanian            | Human         | ⛔          | 55               |
 
