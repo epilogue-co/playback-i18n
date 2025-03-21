@@ -11,7 +11,7 @@
 | 🇮🇹 Italian             | DeepL         | ⛔          | 76               |
 | 🇯🇵 Japanese            | Human         | ✅          | 0                |
 | 🇰🇷 Korean              | Human         | ✅          | 0                |
-| 🇳🇱 Dutch               | DeepL         | ⛔          | 56               |
+| 🇳🇱 Dutch               | DeepL         | ✅          | 0                |
 | 🇷🇴 Romanian            | Human         | ⛔          | 55               |
 
 ## Translation files (i18n)
