@@ -58,14 +58,16 @@
     <message>
         <location filename="../src/AppTour.cpp" line="65"/>
         <source>Welcome to the Playback Tour!</source>
-        <translation type="unfinished"></translation>
+        <translation>Playback 투어에 오신 것을 환영합니다!</translation>
     </message>
     <message>
         <location filename="../src/AppTour.cpp" line="66"/>
         <source>Let’s check out some of the app’s main features.
 
 P.S. If you choose to skip the tour now, you won’t be prompted to take it again.</source>
-        <translation type="unfinished"></translation>
+        <translation>앱의 주요 기능을 살펴보겠습니다.
+
+P.S. 지금 투어를 건너뛰면 다시 투어를 진행하라는 메시지가 표시되지 않습니다.</translation>
     </message>
     <message>
         <location filename="../src/AppTour.cpp" line="69"/>
@@ -75,17 +77,17 @@ P.S. If you choose to skip the tour now, you won’t be prompted to take it agai
     <message>
         <location filename="../src/AppTour.cpp" line="69"/>
         <source>Skip Tour</source>
-        <translation type="unfinished"></translation>
+        <translation>투어 건너뛰기</translation>
     </message>
     <message>
         <location filename="../src/AppTour.cpp" line="77"/>
         <source>Next</source>
-        <translation type="unfinished"></translation>
+        <translation>다음</translation>
     </message>
     <message>
         <location filename="../src/AppTour.cpp" line="77"/>
         <source>End Tour</source>
-        <translation type="unfinished"></translation>
+        <translation>투어 종료</translation>
     </message>
 </context>
 <context>
@@ -178,7 +180,7 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/ControlsWidget.cpp" line="549"/>
         <source>Player: </source>
-        <translation>Player: </translation>
+        <translation>플레이어: </translation>
     </message>
     <message>
         <location filename="../src/ControlsWidget.cpp" line="548"/>
@@ -191,32 +193,32 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/CoreCardWidget.cpp" line="181"/>
         <source>Load Custom Core</source>
-        <translation type="unfinished"></translation>
+        <translation>사용자 정의 코어 로드</translation>
     </message>
     <message>
         <location filename="../src/CoreCardWidget.cpp" line="182"/>
         <source>Cores (*%1)</source>
-        <translation type="unfinished"></translation>
+        <translation>코어 (*%1)</translation>
     </message>
     <message>
         <location filename="../src/CoreCardWidget.cpp" line="244"/>
         <source>Active</source>
-        <translation type="unfinished"></translation>
+        <translation>활성</translation>
     </message>
     <message>
         <location filename="../src/CoreCardWidget.cpp" line="245"/>
         <source>Enable</source>
-        <translation type="unfinished"></translation>
+        <translation>활성화</translation>
     </message>
     <message>
         <location filename="../src/CoreCardWidget.cpp" line="246"/>
         <source>Browse</source>
-        <translation type="unfinished"></translation>
+        <translation>찾아보기</translation>
     </message>
     <message>
         <location filename="../src/CoreCardWidget.cpp" line="247"/>
         <source>Learn More</source>
-        <translation type="unfinished"></translation>
+        <translation>더 알아보기</translation>
     </message>
 </context>
 <context>
@@ -224,22 +226,22 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/CoreCardWidget.cpp" line="277"/>
         <source>Failed to download core</source>
-        <translation type="unfinished"></translation>
+        <translation>코어 다운로드 실패</translation>
     </message>
     <message>
         <location filename="../src/CoreCardWidget.cpp" line="284"/>
         <source>Failed to open file for writing</source>
-        <translation type="unfinished"></translation>
+        <translation>쓰기용 파일 열기 실패</translation>
     </message>
     <message>
         <location filename="../src/CoreCardWidget.cpp" line="294"/>
         <source>Failed to open zip file</source>
-        <translation type="unfinished"></translation>
+        <translation>zip 파일 열기 실패</translation>
     </message>
     <message>
         <location filename="../src/CoreCardWidget.cpp" line="336"/>
         <source>Download Error</source>
-        <translation type="unfinished"></translation>
+        <translation>다운로드 오류</translation>
     </message>
 </context>
 <context>
@@ -247,7 +249,7 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="127"/>
         <source>Supported Features</source>
-        <translation type="unfinished"></translation>
+        <translation>지원되는 기능</translation>
     </message>
 </context>
 <context>
@@ -256,33 +258,33 @@ Do not remove the cartridge while any operation is running.</source>
         <location filename="../src/CoreSelectorScreen.cpp" line="75"/>
         <location filename="../src/CoreSelectorScreen.cpp" line="216"/>
         <source>Officially supported</source>
-        <translation type="unfinished"></translation>
+        <translation>공식 지원</translation>
     </message>
     <message>
         <location filename="../src/CoreSelectorScreen.cpp" line="75"/>
         <location filename="../src/CoreSelectorScreen.cpp" line="216"/>
         <source>Alternative Core</source>
-        <translation type="unfinished"></translation>
+        <translation>대체 코어</translation>
     </message>
     <message>
         <location filename="../src/CoreSelectorScreen.cpp" line="208"/>
         <source>Select Core</source>
-        <translation type="unfinished"></translation>
+        <translation>코어 선택</translation>
     </message>
     <message>
         <location filename="../src/CoreSelectorScreen.cpp" line="210"/>
         <source>You can change the emulation core for your Operator device. Download a core online or provide your own, but remember: only some cores are fully supported by Epilogue ensure complete feature compatibility.</source>
-        <translation type="unfinished"></translation>
+        <translation>Operator 기기의 에뮬레이션 코어를 변경할 수 있습니다. 코어를 온라인으로 다운로드하거나 직접 제공할 수 있지만, 주의하세요: 일부 코어만 Epilogue에서 완전히 지원되어 완전한 기능 호환성을 보장합니다.</translation>
     </message>
     <message>
         <location filename="../src/CoreSelectorScreen.cpp" line="212"/>
         <source>Custom Core</source>
-        <translation type="unfinished"></translation>
+        <translation>사용자 정의 코어</translation>
     </message>
     <message>
         <location filename="../src/CoreSelectorScreen.cpp" line="213"/>
         <source>Your own core</source>
-        <translation type="unfinished"></translation>
+        <translation>나만의 코어</translation>
     </message>
 </context>
 <context>
@@ -290,7 +292,7 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="105"/>
         <source>Supported Systems</source>
-        <translation type="unfinished"></translation>
+        <translation>지원되는 시스템</translation>
     </message>
 </context>
 <context>
@@ -321,7 +323,7 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/DatabaseCheatCodesWidget.cpp" line="37"/>
         <source>Search cheats</source>
-        <translation type="unfinished"></translation>
+        <translation>치트 검색</translation>
     </message>
     <message>
         <location filename="../src/DatabaseCheatCodesWidget.cpp" line="104"/>
@@ -347,12 +349,12 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="65"/>
         <source>Cartridge Connection Unstable!</source>
-        <translation type="unfinished"></translation>
+        <translation>카트리지 연결이 불안정합니다!</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="66"/>
         <source>Playback detected a contact connection issue. Please clean the cartridge pins, reinsert the cartridge properly, and try again for improved accuracy.</source>
-        <translation type="unfinished"></translation>
+        <translation>Playback이 접촉 연결 문제를 감지했습니다. 정확도를 높이기 위해 카트리지 핀을 청소하고, 카트리지를 제대로 다시 삽입하고 다시 시도해주세요.</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="110"/>
@@ -372,7 +374,7 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="145"/>
         <source> It looks like the homebrew game you&apos;re trying to upload has been detected by Playback as having 0 bytes. Please verify that the data you&apos;re attempting to upload is accurate.</source>
-        <translation> 업로드하려는 Homebrew게임의 바이트가 0바이트인 것으로 Playback에서 감지된 것 같습니다. 업로드하려는 데이터가 정확한지 확인해 주세요.</translation>
+        <translation> 업로드하려는 Homebrew 게임의 바이트가 0바이트인 것으로 Playback에서 감지된 것 같습니다. 업로드하려는 데이터가 정확한지 확인해 주세요.</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="155"/>
@@ -502,7 +504,7 @@ Do not remove the cartridge while any operation is running.</source>
         <location filename="../src/EmulatorSettingsScreen.h" line="167"/>
         <location filename="../src/EmulatorSettingsScreen.h" line="182"/>
         <source>enabled</source>
-        <translation>활성화</translation>
+        <translation>활성화됨</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.h" line="138"/>
@@ -510,7 +512,7 @@ Do not remove the cartridge while any operation is running.</source>
         <location filename="../src/EmulatorSettingsScreen.h" line="168"/>
         <location filename="../src/EmulatorSettingsScreen.h" line="183"/>
         <source>disabled</source>
-        <translation>disabled</translation>
+        <translation>비활성화됨</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="251"/>
@@ -540,7 +542,7 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="239"/>
         <source>Core</source>
-        <translation type="unfinished"></translation>
+        <translation>코어</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="244"/>
@@ -555,12 +557,12 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="246"/>
         <source>Core settings</source>
-        <translation type="unfinished"></translation>
+        <translation>코어 설정</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="253"/>
         <source>RTC Battery State Emulation</source>
-        <translation type="unfinished"></translation>
+        <translation>RTC 배터리 상태 에뮬레이션</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="266"/>
@@ -575,7 +577,7 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="307"/>
         <source>Disabled</source>
-        <translation>장애인</translation>
+        <translation>비활성화됨</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="254"/>
@@ -585,7 +587,7 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="271"/>
         <source>With this setting Enabled, the in-app emulator will match the state of your cartridge’s battery (dry/not dry). Leave the option Disabled if your cartridge battery is dry, but you still want the emulated game to offer in-game time-based events.</source>
-        <translation type="unfinished"></translation>
+        <translation>이 설정을 활성화하면, 앱 내 에뮬레이터가 카트리지 배터리의 상태(방전/비방전)와 일치하게 됩니다. 카트리지 배터리가 방전되었지만 에뮬레이트된 게임에서 시간 기반 이벤트를 제공하기를 원하는 경우 이 옵션을 비활성화하세요.</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="276"/>
@@ -827,12 +829,12 @@ You can try cleaning then re-inserting the cartridge into the device.
     <message>
         <location filename="../src/Navbar.cpp" line="211"/>
         <source>Writing game...</source>
-        <translation>글쓰기 게임...</translation>
+        <translation>게임 기록 중...</translation>
     </message>
     <message>
         <location filename="../src/Navbar.cpp" line="213"/>
         <source>Loading save...</source>
-        <translation>로드 중 저장...</translation>
+        <translation>저장 데이터 로드 중...</translation>
     </message>
     <message>
         <location filename="../src/Navbar.cpp" line="215"/>
@@ -898,7 +900,7 @@ You can try cleaning then re-inserting the cartridge into the device.
     <message>
         <location filename="../src/NavbarLogoDropdown.cpp" line="127"/>
         <source>Vault</source>
-        <translation type="unfinished"></translation>
+        <translation>Vault</translation>
     </message>
     <message>
         <location filename="../src/NavbarLogoDropdown.cpp" line="128"/>
@@ -975,17 +977,17 @@ You can try cleaning then re-inserting the cartridge into the device.
     <message>
         <location filename="../src/PhotosPage.cpp" line="315"/>
         <source>Found %1 photos on your Game Boy Camera.</source>
-        <translation type="unfinished"></translation>
+        <translation>게임보이 카메라에서 %1개의 사진을 발견했습니다.</translation>
     </message>
     <message>
         <location filename="../src/PhotosPage.cpp" line="318"/>
         <source>Found 1 photo on your Game Boy Camera.</source>
-        <translation type="unfinished"></translation>
+        <translation>게임보이 카메라에서 1개의 사진을 발견했습니다.</translation>
     </message>
     <message>
         <location filename="../src/PhotosPage.cpp" line="322"/>
         <source>Found no photos on your Game Boy Camera.</source>
-        <translation type="unfinished"></translation>
+        <translation>게임보이 카메라에서 사진을 발견하지 못했습니다.</translation>
     </message>
     <message>
         <location filename="../src/PhotosPage.cpp" line="350"/>
@@ -1046,7 +1048,7 @@ If you&apos;d like to easily remove all the pictures from your camera, without h
     </message>
     <message>
         <source>Disabled</source>
-        <translation type="vanished">장애인</translation>
+        <translation type="vanished">비활성화됨</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="93"/>
@@ -1089,7 +1091,7 @@ If you&apos;d like to easily remove all the pictures from your camera, without h
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="91"/>
         <source>Preferred Language</source>
-        <translation type="unfinished"></translation>
+        <translation>선호하는 언어</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="119"/>
@@ -1162,7 +1164,7 @@ If you&apos;d like to easily remove all the pictures from your camera, without h
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="192"/>
         <source>Disabled</source>
-        <translation>장애인</translation>
+        <translation>비활성화됨</translation>
     </message>
     <message>
         <source>Open Cores Directory</source>
@@ -1227,7 +1229,7 @@ If you&apos;d like to easily remove all the pictures from your camera, without h
     <message>
         <location filename="../src/DeviceSettingsScreen.cpp" line="5"/>
         <source>Dark</source>
-        <translation>Dark</translation>
+        <translation>어둡게</translation>
     </message>
     <message>
         <location filename="../src/DeviceSettingsScreen.cpp" line="6"/>
@@ -1367,12 +1369,12 @@ Please make sure it&apos;s connected.</source>
     <message>
         <location filename="../src/SettingsWindow.cpp" line="246"/>
         <source>Core Load Failed</source>
-        <translation type="unfinished"></translation>
+        <translation>코어 로드 실패</translation>
     </message>
     <message>
         <location filename="../src/SettingsWindow.cpp" line="246"/>
         <source>Failed to load core. Please load a valid core.</source>
-        <translation type="unfinished"></translation>
+        <translation>코어를 로드하지 못했습니다. 유효한 코어를 로드해 주세요.</translation>
     </message>
     <message>
         <location filename="../src/SettingsWindow.cpp" line="276"/>
@@ -1382,7 +1384,7 @@ Please make sure it&apos;s connected.</source>
     <message>
         <location filename="../src/SettingsWindow.cpp" line="278"/>
         <source>Core Selector</source>
-        <translation type="unfinished"></translation>
+        <translation>코어 선택기</translation>
     </message>
     <message>
         <location filename="../src/SettingsWindow.cpp" line="279"/>
@@ -1429,14 +1431,14 @@ Please make sure it&apos;s connected.</source>
         <location filename="../src/StartControllerWidget.cpp" line="159"/>
         <location filename="../src/StartControllerWidget.cpp" line="170"/>
         <source>STOP</source>
-        <translation>STOP</translation>
+        <translation>중지</translation>
     </message>
     <message>
         <location filename="../src/StartControllerWidget.cpp" line="159"/>
         <location filename="../src/StartControllerWidget.cpp" line="164"/>
         <location filename="../src/StartControllerWidget.cpp" line="170"/>
         <source>START</source>
-        <translation>START</translation>
+        <translation>시작</translation>
     </message>
 </context>
 <context>
@@ -1559,32 +1561,32 @@ Tip: Use external programs to trigger in-game events or customize gameplay.</sou
     <message>
         <location filename="../src/Window.cpp" line="393"/>
         <source>Main Hub</source>
-        <translation type="unfinished"></translation>
+        <translation>메인 허브</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="394"/>
         <source>Choose between playing the game, transferring data or accessing more info.</source>
-        <translation type="unfinished"></translation>
+        <translation>게임 플레이, 데이터 전송 또는 추가 정보 액세스 중에 선택하세요.</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="401"/>
         <source>Play Tab</source>
-        <translation type="unfinished"></translation>
+        <translation>플레이 탭</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="402"/>
         <source>Learn more about your game, or have a play session on the in-app emulator.</source>
-        <translation type="unfinished"></translation>
+        <translation>게임에 대해 자세히 알아보거나 앱 내 에뮬레이터에서 플레이하세요.</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="409"/>
         <source>Start Play Session</source>
-        <translation type="unfinished"></translation>
+        <translation>플레이 세션 시작</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="410"/>
         <source>Launch the in-app emulator for an authentic, accurate experience.</source>
-        <translation type="unfinished"></translation>
+        <translation>정확한 경험을 위해 앱 내 에뮬레이터를 실행합니다.</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="417"/>
@@ -1594,47 +1596,47 @@ Tip: Use external programs to trigger in-game events or customize gameplay.</sou
     <message>
         <location filename="../src/Window.cpp" line="418"/>
         <source>Configure parameters to make the app your own.</source>
-        <translation type="unfinished"></translation>
+        <translation>앱을 나만의 것으로 만들기 위한 파라미터를 구성합니다.</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="425"/>
         <source>Save Vault</source>
-        <translation type="unfinished"></translation>
+        <translation>Save Vault</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="426"/>
         <source>Access and manage saves created automatically in the &lt;a href=&quot;#&quot; style=&apos;color: white&apos;&gt;Save Vault&lt;/a&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;a href=&quot;#&quot; style=&apos;color: white&apos;&gt;Save Vault&lt;/a&gt;에서 자동으로 생성된 저장 파일에 액세스하고 관리합니다.</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="434"/>
         <source>Device Switcher</source>
-        <translation type="unfinished"></translation>
+        <translation>기기 스위처</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="435"/>
         <source>Select between multiple Operator devices connected to the same computer.</source>
-        <translation type="unfinished"></translation>
+        <translation>동일한 컴퓨터에 연결된 여러 Operator 장치 중에서 선택합니다.</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="442"/>
         <source>Counterfeit Detection</source>
-        <translation type="unfinished"></translation>
+        <translation>복제품 감지</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="443"/>
         <source>Your cartridge has been analysed for some of the most common counterfeit markers.</source>
-        <translation type="unfinished"></translation>
+        <translation>카트리지가 가장 일반적인 복제품 표시에 대해 분석되었습니다.</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="450"/>
         <source>Data Tab</source>
-        <translation type="unfinished"></translation>
+        <translation>데이터 탭</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="451"/>
         <source>Backup, transfer and manage official/homebrew game and save data.</source>
-        <translation type="unfinished"></translation>
+        <translation>공식/홀브루 게임과 저장 데이터를 백업, 전송 및 관리합니다.</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="458"/>
@@ -1644,17 +1646,17 @@ Tip: Use external programs to trigger in-game events or customize gameplay.</sou
     <message>
         <location filename="../src/Window.cpp" line="459"/>
         <source>Create digital copies of your save data.</source>
-        <translation type="unfinished"></translation>
+        <translation>저장 데이터의 디지털 복사본을 생성합니다.</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="466"/>
         <source>Start Backup Session</source>
-        <translation type="unfinished"></translation>
+        <translation>백업 세션 시작</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="467"/>
         <source>Begin archiving the save data.</source>
-        <translation type="unfinished"></translation>
+        <translation>저장 데이터 보관을 시작합니다.</translation>
     </message>
 </context>
 </TS>
