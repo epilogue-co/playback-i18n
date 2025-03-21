@@ -12,7 +12,7 @@
 | 🇯🇵 Japanese            | Human         | ⛔          | 56               |
 | 🇰🇷 Korean              | Human         | ⛔          | 56               |
 | 🇳🇱 Dutch               | DeepL         | ⛔          | 56               |
-| 🇷🇴 Romanian            | Human         | ⛔          | 55               |
+| 🇷🇴 Romanian            | Human         | ✅          | 0                |
 
 ## Translation files (i18n)
 
