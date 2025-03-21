@@ -67,7 +67,7 @@
 P.S. If you choose to skip the tour now, you won’t be prompted to take it again.</source>
         <translation>アプリの主な機能をいくつか見てみましょう。
 
-注：今ツアーをスキップすると、再度表示されません。</translation>
+注意：今回ツアーをスキップすると、今後表示されなくなります。</translation>
     </message>
     <message>
         <location filename="../src/AppTour.cpp" line="69"/>
@@ -109,7 +109,7 @@ P.S. If you choose to skip the tour now, you won’t be prompted to take it agai
     <message>
         <location filename="../src/CartDetailsWidget.cpp" line="292"/>
         <source>The description of this cartridge can’t be displayed since it’s not in our database. You can use the link below to open a ticket and we’ll add the game info to the database. Please feel free to contact us even if it’s a homebrew game you made if you’d like to have your artwork displayed here.</source>
-        <translation>このカートリッジの説明は、それが私たちのデータベースにないため、表示することはできません。下のリンクからチケットを申請していただければ、データベースにゲーム情報を追加します。また、自作ゲームであっても、ここに作品を展示したい場合は、お気軽にご連絡ください。</translation>
+        <translation>このカートリッジの説明はデータベースに登録されていないため表示できません。下のリンクからチケットを申請いただければ、データベースにゲーム情報を追加いたします。自作ゲームをここに表示したい場合も、お気軽にご連絡ください。</translation>
     </message>
     <message>
         <location filename="../src/CartDetailsWidget.cpp" line="299"/>
@@ -172,7 +172,7 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/CheatCodesScreen.cpp" line="101"/>
         <source>Enable predefined cheats or use cheats from the internet to transform how you play, from abilities and mechanics to audio effects. Make sure you have autosave disabled so that your cartridge&apos;s save isn&apos;t overwritten while you&apos;re running cheats.</source>
-        <translation>あらかじめ設定されたチートを有効にするか、インターネット上のチートを使用することで、アビリティやメカニクスからオーディオ効果に至るまで、プレイ方法を変えることができます。チート実行中にカートリッジのセーブが上書きされないよう、オートセーブが無効になっていることを確認してください。</translation>
+        <translation>あらかじめ設定されたチートを有効にするか、インターネット上のチートを使用することで、アビリティやメカニクスからオーディオ効果に至るまで、プレイ方法を変えることができます。チート実行中にカートリッジのセーブが上書きされないよう、カートリッジへの自動保存が無効になっていることを確認してください。</translation>
     </message>
 </context>
 <context>
@@ -241,7 +241,7 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/CoreCardWidget.cpp" line="336"/>
         <source>Download Error</source>
-        <translation>ダウンロードエラー</translation>
+        <translation>ダウンロード失敗</translation>
     </message>
 </context>
 <context>
@@ -592,7 +592,7 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="276"/>
         <source>Enable rumble support for games that support it, for more compatibility make sure you also enable Game Boy Player Rumble.</source>
-        <translation>対応しているゲームでゲームパッドの振動を有効にします。より高い互換性を得るために、Game Boy Playerの振動も有効にしてください。</translation>
+        <translation>エミュレータの振動に対応しているゲームでは振動機能を有効にします。より高い互換性を得るために、Game Boy Playerの振動も有効にしてください。</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="255"/>
@@ -614,7 +614,7 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/UIComponents.cpp" line="128"/>
         <source>Warning! Do not disconnect your device.</source>
-        <translation>警告デバイスを切断しないでください。</translation>
+        <translation>警告！デバイスを切断しないでください。</translation>
     </message>
     <message>
         <location filename="../src/UIComponents.cpp" line="130"/>
@@ -633,7 +633,7 @@ Do not remove the cartridge while any operation is running.</source>
         <location filename="../src/FirmwareUpdateWindow.cpp" line="59"/>
         <source>This may take up to a minute,
 please do not disconnect the device.</source>
-        <translation>分ほどかかる場合があります、
+        <translation>最大1分ほどかかる場合があります、
 デバイスを切断しないでください。</translation>
     </message>
     <message>
@@ -1481,7 +1481,7 @@ Please make sure it&apos;s connected.</source>
         <location filename="../src/UIComponents.cpp" line="49"/>
         <source>Do you want to overwrite the current save to your cartridge?
 </source>
-        <translation>現在保存しているものをカートリッジに上書きしますか？
+        <translation>現在のセーブデータをカートリッジに上書きしますか？
 </translation>
     </message>
 </context>
