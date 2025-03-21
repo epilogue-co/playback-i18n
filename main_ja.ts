@@ -21,7 +21,7 @@
     <message>
         <location filename="../src/AboutWindow.cpp" line="155"/>
         <source>Core Version</source>
-        <translation>コア・バージョン</translation>
+        <translation>コアバージョン</translation>
     </message>
     <message>
         <location filename="../src/AboutWindow.cpp" line="179"/>
@@ -284,7 +284,7 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/CoreSelectorScreen.cpp" line="213"/>
         <source>Your own core</source>
-        <translation>自分自身のコア</translation>
+        <translation>カスタムコア</translation>
     </message>
 </context>
 <context>
@@ -943,12 +943,12 @@ You can try cleaning then re-inserting the cartridge into the device.
     <message>
         <location filename="../src/Navbar.cpp" line="426"/>
         <source>Backup Save</source>
-        <translation>バックアップ保存</translation>
+        <translation>セーブバックアップ</translation>
     </message>
     <message>
         <location filename="../src/Navbar.cpp" line="427"/>
         <source>Upload Save</source>
-        <translation>アップロード・セーブ</translation>
+        <translation>セーブアップロード</translation>
     </message>
     <message>
         <location filename="../src/Navbar.cpp" line="428"/>
@@ -1527,7 +1527,7 @@ Tip: Transfer your save to the computer, replace the battery and transfer it bac
     <message>
         <location filename="../src/ViewRouter.cpp" line="130"/>
         <source>Backup Save</source>
-        <translation>バックアップ保存</translation>
+        <translation>セーブバックアップ</translation>
     </message>
     <message>
         <location filename="../src/ViewRouter.cpp" line="134"/>
@@ -1541,7 +1541,7 @@ Tip: Use external programs to trigger in-game events or customize gameplay.</sou
     <message>
         <location filename="../src/ViewRouter.cpp" line="137"/>
         <source>Upload Save</source>
-        <translation>アップロード保存</translation>
+        <translation>セーブアップロード</translation>
     </message>
 </context>
 <context>
@@ -1633,7 +1633,7 @@ Tip: Use external programs to trigger in-game events or customize gameplay.</sou
     <message>
         <location filename="../src/Window.cpp" line="442"/>
         <source>Counterfeit Detection</source>
-        <translation>偉造品チェック</translation>
+        <translation>偽造品チェック</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="443"/>
@@ -1653,7 +1653,7 @@ Tip: Use external programs to trigger in-game events or customize gameplay.</sou
     <message>
         <location filename="../src/Window.cpp" line="458"/>
         <source>Backup Save</source>
-        <translation>バックアップ保存</translation>
+        <translation>セーブバックアップ</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="459"/>
