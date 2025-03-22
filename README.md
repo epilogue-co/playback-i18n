@@ -12,6 +12,7 @@
 | 🇯🇵 Japanese            | Human         | ✅          | 0                |
 | 🇰🇷 Korean              | Human         | ✅          | 0                |
 | 🇳🇱 Dutch               | AI            | ✅          | 0                |
+| 🇵🇹 Portugue            | AI            | ✅          | 0                |
 | 🇷🇴 Romanian            | Human         | ⛔          | 55               |
 
 ## Translation files (i18n)
