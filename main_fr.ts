@@ -293,7 +293,7 @@ Ne retirez pas la cartouche pendant qu&apos;une opération est en cours.</transl
     <message>
         <location filename="../src/CoreSelectorScreen.cpp" line="210"/>
         <source>You can change the emulation core for your Operator device. Download a core online or provide your own, but remember: only some cores are fully supported by Epilogue ensure complete feature compatibility.</source>
-        <translation>Vous pouvez changer le cœur d&apos;émulation pour votre appareil Operator. Vous pouvez télécharger un cœur en ligne ou utiliser le votre, mais attention : seuls certains cœurs sont pleinement supportés par Epilogue pour s&apos;assurer d&apos;une compatibilité totale des fonctionnalités.</translation>
+        <translation>Vous pouvez changer le cœur d&apos;émulation pour votre appareil Operator. Vous pouvez télécharger un cœur en ligne ou utiliser le vôtre, mais attention : seuls certains cœurs sont pleinement supportés par Epilogue pour s&apos;assurer d&apos;une compatibilité totale des fonctionnalités.</translation>
     </message>
     <message>
         <location filename="../src/CoreSelectorScreen.cpp" line="212"/>
@@ -541,7 +541,7 @@ Ne retirez pas la cartouche pendant qu&apos;une opération est en cours.</transl
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="261"/>
         <source>A fast-forward speed higher than 2x can cause unexpected bugs in combination with the &apos;Autosave to cartridge&apos; feature. You will need to disable and enable it by clicking the fast-forward button.</source>
-        <translation>Une avance rapide supérieure à 2x peut provoquer des bugs inattendus en combinaison avec la fonction « Sauvegarder automatiquement sur la cartouche ». Vous devrez désactiver et activer l&apos;avance rapide en appuyant sur le bouton d&apos;avance rapide en jouant.</translation>
+        <translation>Une avance rapide supérieure à 2.0x peut provoquer des bugs inattendus en combinaison avec la fonction « Sauvegarder automatiquement sur la cartouche ». Vous devrez désactiver et activer l&apos;avance rapide en appuyant sur le bouton d&apos;avance rapide en jouant.</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="252"/>
@@ -672,7 +672,7 @@ veuillez ne pas déconnectez l&apos;appareil.</translation>
     <message>
         <location filename="../src/InputBindingsScreen.cpp" line="179"/>
         <source>Controls Settings</source>
-        <translation>Configuration des touches</translation>
+        <translation>Paramètres des touches</translation>
     </message>
     <message>
         <location filename="../src/InputBindingsScreen.cpp" line="170"/>
@@ -779,13 +779,13 @@ Vous pouvez essayer de nettoyer puis de réinsérer la cartouche dans l&apos;app
         <location filename="../src/ManagePage.cpp" line="102"/>
         <location filename="../src/ManagePage.cpp" line="225"/>
         <source>Title</source>
-        <translation>Titre</translation>
+        <translation>Titre </translation>
     </message>
     <message>
         <location filename="../src/ManagePage.cpp" line="103"/>
         <location filename="../src/ManagePage.cpp" line="226"/>
         <source>Game Data Checksum</source>
-        <translation>Somme de contrôle des données de jeu</translation>
+        <translation>Somme de contrôle des données de jeu </translation>
     </message>
 </context>
 <context>
@@ -909,7 +909,7 @@ Vous pouvez essayer de nettoyer puis de réinsérer la cartouche dans l&apos;app
     <message>
         <location filename="../src/NavbarLogoDropdown.cpp" line="125"/>
         <source>Send Feedback</source>
-        <translation>Envoyer des retours</translation>
+        <translation>Envoyer commentaires</translation>
     </message>
     <message>
         <location filename="../src/NavbarLogoDropdown.cpp" line="126"/>
@@ -924,7 +924,7 @@ Vous pouvez essayer de nettoyer puis de réinsérer la cartouche dans l&apos;app
     <message>
         <location filename="../src/NavbarLogoDropdown.cpp" line="128"/>
         <source>About</source>
-        <translation>À propos de</translation>
+        <translation>À propos</translation>
     </message>
     <message>
         <location filename="../src/NavbarLogoDropdown.cpp" line="129"/>
@@ -948,7 +948,7 @@ Vous pouvez essayer de nettoyer puis de réinsérer la cartouche dans l&apos;app
     <message>
         <location filename="../src/Navbar.cpp" line="424"/>
         <source>Backup Game</source>
-        <translation>Télécharger le jeu</translation>
+        <translation>Copier le jeu</translation>
     </message>
     <message>
         <location filename="../src/Navbar.cpp" line="425"/>
@@ -958,7 +958,7 @@ Vous pouvez essayer de nettoyer puis de réinsérer la cartouche dans l&apos;app
     <message>
         <location filename="../src/Navbar.cpp" line="426"/>
         <source>Backup Save</source>
-        <translation>Télécharger la sauvegarde</translation>
+        <translation>Copier la sauvegarde</translation>
     </message>
     <message>
         <location filename="../src/Navbar.cpp" line="427"/>
@@ -1101,7 +1101,7 @@ Si vous souhaitez supprimer facilement toutes les images de votre caméra sans a
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="95"/>
         <source>Verify Save After Writing Process</source>
-        <translation>Vérifier la sauvegarde après l&apos;écriture</translation>
+        <translation>Vérifier la sauvegarde après écriture</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="91"/>
@@ -1502,7 +1502,7 @@ Astuce : Notre application effectue une vérification de l&apos;intégrité des 
     <message>
         <location filename="../src/ViewRouter.cpp" line="115"/>
         <source>Backup Game</source>
-        <translation>Télécharger le jeu</translation>
+        <translation>Copier le jeu</translation>
     </message>
     <message>
         <location filename="../src/ViewRouter.cpp" line="119"/>
@@ -1530,7 +1530,7 @@ Astuce : transférez votre sauvegarde sur l&apos;ordinateur, remplacez la batter
     <message>
         <location filename="../src/ViewRouter.cpp" line="130"/>
         <source>Backup Save</source>
-        <translation>Télécharger la sauvegarde</translation>
+        <translation>Copier la sauvegarde</translation>
     </message>
     <message>
         <location filename="../src/ViewRouter.cpp" line="134"/>
@@ -1539,7 +1539,7 @@ Astuce : transférez votre sauvegarde sur l&apos;ordinateur, remplacez la batter
 Tip: Use external programs to trigger in-game events or customize gameplay.</source>
         <translation>Transférez une copie de vos données de sauvegarde de votre ordinateur vers la cartouche et reprenez le jeu là où vous l&apos;avez laissé.
 
-Astuce : utilisez des programmes externes pour déclencher des événements dans le jeu ou en modifier le gameplay.</translation>
+Astuce : utilisez des programmes externes pour déclencher des événements dans le jeu ou pour en modifier le gameplay.</translation>
     </message>
     <message>
         <location filename="../src/ViewRouter.cpp" line="137"/>
