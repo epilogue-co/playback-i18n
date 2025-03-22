@@ -5,7 +5,7 @@
 | Language               | Type          | Complete    | Missing Strings  |
 | ---------------------- | ------------- | --------    | ---------------  |
 | 🇩🇪 German              | Human         | ✅          | 0                |
-| 🇨🇳 Simplified Chinese  | Human         | ⛔          | 55               |
+| 🇨🇳 Simplified Chinese  | Human         | ✅          | 0                |
 | 🇫🇷 French              | Human         | ✅          | 0                |
 | 🇪🇸 Spanish             | Human         | ✅          | 0                |
 | 🇮🇹 Italian             | AI            | ✅          | 0                |
