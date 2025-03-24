@@ -58,14 +58,16 @@
     <message>
         <location filename="../src/AppTour.cpp" line="65"/>
         <source>Welcome to the Playback Tour!</source>
-        <translation type="unfinished"></translation>
+        <translation>Bine ai venit la turul aplicației Playback!</translation>
     </message>
     <message>
         <location filename="../src/AppTour.cpp" line="66"/>
         <source>Let’s check out some of the app’s main features.
 
 P.S. If you choose to skip the tour now, you won’t be prompted to take it again.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hai să vedem câteva dintre funcționalitățile principale ale aplicației.
+
+P.S. Dacă alegi să sari peste tur acum, nu vei mai fi întrebat să-l parcurgi din nou.</translation>
     </message>
     <message>
         <location filename="../src/AppTour.cpp" line="69"/>
@@ -75,17 +77,17 @@ P.S. If you choose to skip the tour now, you won’t be prompted to take it agai
     <message>
         <location filename="../src/AppTour.cpp" line="69"/>
         <source>Skip Tour</source>
-        <translation type="unfinished"></translation>
+        <translation>Sari peste tur</translation>
     </message>
     <message>
         <location filename="../src/AppTour.cpp" line="77"/>
         <source>Next</source>
-        <translation type="unfinished"></translation>
+        <translation>Mai departe</translation>
     </message>
     <message>
         <location filename="../src/AppTour.cpp" line="77"/>
         <source>End Tour</source>
-        <translation type="unfinished"></translation>
+        <translation>Închide turul</translation>
     </message>
 </context>
 <context>
@@ -122,7 +124,7 @@ P.S. If you choose to skip the tour now, you won’t be prompted to take it agai
     <message>
         <location filename="../src/CartDetailsWidget.cpp" line="292"/>
         <source>The description of this cartridge can’t be displayed since it’s not in our database. You can use the link below to open a ticket and we’ll add the game info to the database. Please feel free to contact us even if it’s a homebrew game you made if you’d like to have your artwork displayed here.</source>
-        <translation>Descrierea acestei casete nu poate fi afișată deoarece nu se află în baza noastră de date. Poți folosi linkul de mai jos pentru a deschide un tichet și vom adăuga informațiile despre joc în baza de date. Te rugăm să nu eziți să ne contactezi chiar dacă este un joc homebrew făcut de tine.</translation>
+        <translation>Descrierea acestei casete nu poate fi afișată deoarece nu se află în baza noastră de date. Poți folosi linkul de mai jos pentru a deschide un tichet și vom adăuga informațiile despre joc în baza de date. Te rugăm să nu eziți să ne contactezi chiar dacă este un joc homebrew făcut de tine și dorești să-ți afișăm artwork-ul aici.</translation>
     </message>
     <message>
         <location filename="../src/CartDetailsWidget.cpp" line="299"/>
@@ -142,7 +144,7 @@ P.S. If you choose to skip the tour now, you won’t be prompted to take it agai
     <message>
         <location filename="../src/CartDetailsWidget.cpp" line="455"/>
         <source>Rewritable cartridge</source>
-        <translation>Joc rescriptibil</translation>
+        <translation>Joc reinscriptibil</translation>
     </message>
 </context>
 <context>
@@ -191,32 +193,32 @@ Nu scoate caseta în timp ce se desfășoară orice operațiune.</translation>
     <message>
         <location filename="../src/CoreCardWidget.cpp" line="181"/>
         <source>Load Custom Core</source>
-        <translation type="unfinished"></translation>
+        <translation>Încarcă core-ul tău</translation>
     </message>
     <message>
         <location filename="../src/CoreCardWidget.cpp" line="182"/>
         <source>Cores (*%1)</source>
-        <translation type="unfinished"></translation>
+        <translation>Core-uri (*%1)</translation>
     </message>
     <message>
         <location filename="../src/CoreCardWidget.cpp" line="244"/>
         <source>Active</source>
-        <translation type="unfinished"></translation>
+        <translation>Activ</translation>
     </message>
     <message>
         <location filename="../src/CoreCardWidget.cpp" line="245"/>
         <source>Enable</source>
-        <translation type="unfinished"></translation>
+        <translation>Activat</translation>
     </message>
     <message>
         <location filename="../src/CoreCardWidget.cpp" line="246"/>
         <source>Browse</source>
-        <translation type="unfinished"></translation>
+        <translation>Browse</translation>
     </message>
     <message>
         <location filename="../src/CoreCardWidget.cpp" line="247"/>
         <source>Learn More</source>
-        <translation type="unfinished"></translation>
+        <translation>Mai mult</translation>
     </message>
 </context>
 <context>
@@ -224,22 +226,22 @@ Nu scoate caseta în timp ce se desfășoară orice operațiune.</translation>
     <message>
         <location filename="../src/CoreCardWidget.cpp" line="277"/>
         <source>Failed to download core</source>
-        <translation type="unfinished"></translation>
+        <translation>Nu s-a putut descărca core-ul</translation>
     </message>
     <message>
         <location filename="../src/CoreCardWidget.cpp" line="284"/>
         <source>Failed to open file for writing</source>
-        <translation type="unfinished"></translation>
+        <translation>Nu s-a putut scrie fișierul</translation>
     </message>
     <message>
         <location filename="../src/CoreCardWidget.cpp" line="294"/>
         <source>Failed to open zip file</source>
-        <translation type="unfinished"></translation>
+        <translation>Nu s-a putut deschide fișierul zip</translation>
     </message>
     <message>
         <location filename="../src/CoreCardWidget.cpp" line="336"/>
         <source>Download Error</source>
-        <translation type="unfinished"></translation>
+        <translation>Eroare de descărcare</translation>
     </message>
 </context>
 <context>
@@ -247,7 +249,7 @@ Nu scoate caseta în timp ce se desfășoară orice operațiune.</translation>
     <message>
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="127"/>
         <source>Supported Features</source>
-        <translation type="unfinished"></translation>
+        <translation>Funcționalități suportate</translation>
     </message>
 </context>
 <context>
@@ -256,33 +258,33 @@ Nu scoate caseta în timp ce se desfășoară orice operațiune.</translation>
         <location filename="../src/CoreSelectorScreen.cpp" line="75"/>
         <location filename="../src/CoreSelectorScreen.cpp" line="216"/>
         <source>Officially supported</source>
-        <translation type="unfinished"></translation>
+        <translation>Suportat oficial</translation>
     </message>
     <message>
         <location filename="../src/CoreSelectorScreen.cpp" line="75"/>
         <location filename="../src/CoreSelectorScreen.cpp" line="216"/>
         <source>Alternative Core</source>
-        <translation type="unfinished"></translation>
+        <translation>Core alternativ</translation>
     </message>
     <message>
         <location filename="../src/CoreSelectorScreen.cpp" line="208"/>
         <source>Select Core</source>
-        <translation type="unfinished"></translation>
+        <translation>Alege core-ul</translation>
     </message>
     <message>
         <location filename="../src/CoreSelectorScreen.cpp" line="210"/>
         <source>You can change the emulation core for your Operator device. Download a core online or provide your own, but remember: only some cores are fully supported by Epilogue ensure complete feature compatibility.</source>
-        <translation type="unfinished"></translation>
+        <translation>Poți să modifici core-ul folosit pentru emulație pe dispozitivul tău Operator. Descarcă un core online sau încarcă-l pe al tău, dar ține minte: doar core-urile oferite în mod oficial de Epilogue asigură compatibilitatea completă cu toate funcționalitățile aplicației.</translation>
     </message>
     <message>
         <location filename="../src/CoreSelectorScreen.cpp" line="212"/>
         <source>Custom Core</source>
-        <translation type="unfinished"></translation>
+        <translation>Core personalizat</translation>
     </message>
     <message>
         <location filename="../src/CoreSelectorScreen.cpp" line="213"/>
         <source>Your own core</source>
-        <translation type="unfinished"></translation>
+        <translation>Core-ul tău</translation>
     </message>
 </context>
 <context>
@@ -290,7 +292,7 @@ Nu scoate caseta în timp ce se desfășoară orice operațiune.</translation>
     <message>
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="105"/>
         <source>Supported Systems</source>
-        <translation type="unfinished"></translation>
+        <translation>Sisteme suportate</translation>
     </message>
 </context>
 <context>
@@ -321,7 +323,7 @@ Nu scoate caseta în timp ce se desfășoară orice operațiune.</translation>
     <message>
         <location filename="../src/DatabaseCheatCodesWidget.cpp" line="37"/>
         <source>Search cheats</source>
-        <translation type="unfinished"></translation>
+        <translation>Caută coduri</translation>
     </message>
     <message>
         <location filename="../src/DatabaseCheatCodesWidget.cpp" line="104"/>
@@ -347,12 +349,12 @@ Nu scoate caseta în timp ce se desfășoară orice operațiune.</translation>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="65"/>
         <source>Cartridge Connection Unstable!</source>
-        <translation type="unfinished"></translation>
+        <translation>Conexiunea la casetă instabilă!</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="66"/>
         <source>Playback detected a contact connection issue. Please clean the cartridge pins, reinsert the cartridge properly, and try again for improved accuracy.</source>
-        <translation type="unfinished"></translation>
+        <translation>Playback a detectat o eroare de conexiune. Te rugăm să cureți pinii casetei, reintrodu caseta și încearcă din nou.</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="110"/>
@@ -372,7 +374,7 @@ Nu scoate caseta în timp ce se desfășoară orice operațiune.</translation>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="145"/>
         <source> It looks like the homebrew game you&apos;re trying to upload has been detected by Playback as having 0 bytes. Please verify that the data you&apos;re attempting to upload is accurate.</source>
-        <translation> Pare că jocul pe care încerci să-l încarci a fost detectat de Playback ca având 0 bytes. Te rugăm să verifici că datele pe care încerci să le încarci sunt corecte.</translation>
+        <translation> Se pare că jocul homebrew pe care încerci să-l încarci a fost detectat de Playback ca având 0 bytes. Te rugăm să verifici că datele pe care încerci să le încarci sunt corecte.</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="155"/>
@@ -524,7 +526,7 @@ Nu scoate caseta în timp ce se desfășoară orice operațiune.</translation>
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="239"/>
         <source>Core</source>
-        <translation type="unfinished"></translation>
+        <translation>Core</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="244"/>
@@ -539,12 +541,12 @@ Nu scoate caseta în timp ce se desfășoară orice operațiune.</translation>
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="246"/>
         <source>Core settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Setări de core</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="253"/>
         <source>RTC Battery State Emulation</source>
-        <translation type="unfinished"></translation>
+        <translation>Emulare de stare a bateriei</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="266"/>
@@ -564,17 +566,17 @@ Nu scoate caseta în timp ce se desfășoară orice operațiune.</translation>
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="254"/>
         <source>Gamepad rumble</source>
-        <translation>Rumble de controler</translation>
+        <translation>Vibrații gamepad</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="271"/>
         <source>With this setting Enabled, the in-app emulator will match the state of your cartridge’s battery (dry/not dry). Leave the option Disabled if your cartridge battery is dry, but you still want the emulated game to offer in-game time-based events.</source>
-        <translation type="unfinished"></translation>
+        <translation>Cu această setare activată, emulatorul din aplicație va corespunde stării bateriei casetei tale (epuizată/neepuizată). Lasă opțiunea dezactivată dacă bateria casetei tale este epuizată, dar dorești în continuare ca jocul emulat să ofere evenimente bazate pe timp.</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="276"/>
         <source>Enable rumble support for games that support it, for more compatibility make sure you also enable Game Boy Player Rumble.</source>
-        <translation>Activează suportul rumble pentru jocurile care îl acceptă, pentru mai multă compatibilitate, asigură-te că activezi și Game Boy Player Rumble.</translation>
+        <translation>Activează suportul de vibrații pentru jocurile care îl acceptă, pentru mai multă compatibilitate, asigură-te că activezi și vibrațiile Game Boy Player.</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="255"/>
@@ -617,7 +619,7 @@ Nu scoate caseta în timp ce se desfășoară orice operațiune.</translation>
     <message>
         <location filename="../src/UIComponents.cpp" line="130"/>
         <source>Please DO NOT disconnect or turn off your device during the update process. The LED will turn off during the update. Interruption will lead to your device becoming unusable and void warranty. By agreeing to this message box you confirm your understanding of these instructions.</source>
-        <translation>Te rugăm să NU deconectezi sau stinge dispozitivul în timpul procesului de update. LED-ul o să se stingă in timpul lui. Orice intrerupere o sa ducă la pierderea garanției. Prin acceptarea acestui mesaj, declari că ești de acord cu aceste instrucțiuni.</translation>
+        <translation>Te rugăm să NU deconectezi sau să oprești dispozitivul în timpul procesului de actualizare. LED-ul se va stinge în timpul actualizării. Orice întrerupere va duce la inutilizarea dispozitivului și pierderea garanției. Prin acceptarea acestui mesaj, confirmi că ai înțeles aceste instrucțiuni.</translation>
     </message>
 </context>
 <context>
@@ -668,7 +670,7 @@ te rugăm să nu deconectezi dispozitivul.</translation>
     <message>
         <location filename="../src/InputBindingsScreen.cpp" line="172"/>
         <source>Rebind keys</source>
-        <translation>Refacerea cheilor</translation>
+        <translation>Reconfigurare taste</translation>
     </message>
     <message>
         <location filename="../src/InputBindingsScreen.cpp" line="178"/>
@@ -902,7 +904,7 @@ Poți încerca să cureți și apoi să reintroduci caseta în dispozitiv.
     <message>
         <location filename="../src/NavbarLogoDropdown.cpp" line="127"/>
         <source>Vault</source>
-        <translation type="unfinished"></translation>
+        <translation>Vault</translation>
     </message>
     <message>
         <location filename="../src/NavbarLogoDropdown.cpp" line="128"/>
@@ -979,17 +981,17 @@ Poți încerca să cureți și apoi să reintroduci caseta în dispozitiv.
     <message>
         <location filename="../src/PhotosPage.cpp" line="315"/>
         <source>Found %1 photos on your Game Boy Camera.</source>
-        <translation type="unfinished"></translation>
+        <translation>S-au găsit %1 fotografii pe Game Boy Camera.</translation>
     </message>
     <message>
         <location filename="../src/PhotosPage.cpp" line="318"/>
         <source>Found 1 photo on your Game Boy Camera.</source>
-        <translation type="unfinished"></translation>
+        <translation>S-a găsit o fotografie pe Game Boy Camera.</translation>
     </message>
     <message>
         <location filename="../src/PhotosPage.cpp" line="322"/>
         <source>Found no photos on your Game Boy Camera.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nu s-au găsit fotografii pe Game Boy Camera.</translation>
     </message>
     <message>
         <location filename="../src/PhotosPage.cpp" line="350"/>
@@ -1033,7 +1035,7 @@ Dacă dorești să elimini cu ușurință toate imaginile din cameră, fără a 
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="105"/>
         <source>Allows you to change the language in which the Playback software is presented. It requires an application restart in order to update the language accross the entire application.</source>
-        <translation>Îți permite să schimbi limba în care Playback este prezentat. Necesită să restartezi aplicația pentru a updata limba în aplicație.</translation>
+        <translation>Îți permite să schimbi limba în care este prezentat software-ul Playback. Este necesară repornirea aplicației pentru a actualiza limba în întreaga aplicație.</translation>
     </message>
     <message>
         <source>Autosave to cartridge (beta)</source>
@@ -1379,12 +1381,12 @@ Te rugăm să te asiguri că acesta este conectat.</translation>
     <message>
         <location filename="../src/SettingsWindow.cpp" line="246"/>
         <source>Core Load Failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Nu s-a putut încărca core-ul</translation>
     </message>
     <message>
         <location filename="../src/SettingsWindow.cpp" line="246"/>
         <source>Failed to load core. Please load a valid core.</source>
-        <translation type="unfinished"></translation>
+        <translation>Te rugăm să încarci un core valid.</translation>
     </message>
     <message>
         <location filename="../src/SettingsWindow.cpp" line="276"/>
@@ -1394,7 +1396,7 @@ Te rugăm să te asiguri că acesta este conectat.</translation>
     <message>
         <location filename="../src/SettingsWindow.cpp" line="278"/>
         <source>Core Selector</source>
-        <translation type="unfinished"></translation>
+        <translation>Selector de core-uri</translation>
     </message>
     <message>
         <location filename="../src/SettingsWindow.cpp" line="279"/>
@@ -1473,7 +1475,7 @@ Te rugăm să te asiguri că acesta este conectat.</translation>
     <message>
         <location filename="../src/UIComponents.cpp" line="48"/>
         <source>You are about to quit.</source>
-        <translation>Eși pe cale de a ieși.</translation>
+        <translation>Ești pe cale de a ieși.</translation>
     </message>
     <message>
         <location filename="../src/UIComponents.cpp" line="49"/>
@@ -1554,7 +1556,7 @@ Sfat: Folosește programe externe pentru a declanșa evenimente în joc sau pent
         <location filename="../src/Window.cpp" line="138"/>
         <location filename="../src/Window.cpp" line="368"/>
         <source>Open</source>
-        <translation>Deschideți</translation>
+        <translation>Deschide</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="159"/>
@@ -1571,32 +1573,32 @@ Sfat: Folosește programe externe pentru a declanșa evenimente în joc sau pent
     <message>
         <location filename="../src/Window.cpp" line="393"/>
         <source>Main Hub</source>
-        <translation type="unfinished"></translation>
+        <translation>Hub principal</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="394"/>
         <source>Choose between playing the game, transferring data or accessing more info.</source>
-        <translation type="unfinished"></translation>
+        <translation>Alege între a juca jocul, transfer de date sau accesarea a mai multe informații.</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="401"/>
         <source>Play Tab</source>
-        <translation type="unfinished"></translation>
+        <translation>Tab-ul de joc</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="402"/>
         <source>Learn more about your game, or have a play session on the in-app emulator.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vezi mai multe despre jocul tău, sau pornește o sesiune de joc în emulator.</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="409"/>
         <source>Start Play Session</source>
-        <translation type="unfinished"></translation>
+        <translation>Începe o sesiune de joc</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="410"/>
         <source>Launch the in-app emulator for an authentic, accurate experience.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pornește emulatorul din aplicație pentru o experiență precisă și apropriată de consola originală.</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="417"/>
@@ -1606,47 +1608,47 @@ Sfat: Folosește programe externe pentru a declanșa evenimente în joc sau pent
     <message>
         <location filename="../src/Window.cpp" line="418"/>
         <source>Configure parameters to make the app your own.</source>
-        <translation type="unfinished"></translation>
+        <translation>Configurează parametrii și fă aplicația pe placul tău.</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="425"/>
         <source>Save Vault</source>
-        <translation type="unfinished"></translation>
+        <translation>Vault-ul de salvări</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="426"/>
         <source>Access and manage saves created automatically in the &lt;a href=&quot;#&quot; style=&apos;color: white&apos;&gt;Save Vault&lt;/a&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Accesează și gestionează salvările create automat in &lt;a href=&quot;#&quot; style=&apos;color:white&apos;&gt;Vault-ul de salvări&lt;/a&gt;.</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="434"/>
         <source>Device Switcher</source>
-        <translation type="unfinished"></translation>
+        <translation>Switcher-ul de device-uri</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="435"/>
         <source>Select between multiple Operator devices connected to the same computer.</source>
-        <translation type="unfinished"></translation>
+        <translation>Comută între mai multe dispozitive Operator conectate la același calculator.</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="442"/>
         <source>Counterfeit Detection</source>
-        <translation type="unfinished"></translation>
+        <translation>Detecție casetă contrafăcută</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="443"/>
         <source>Your cartridge has been analysed for some of the most common counterfeit markers.</source>
-        <translation type="unfinished"></translation>
+        <translation>Caseta ta este analizată pentru cele mai comune semne de casetă contrafăcută.</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="450"/>
         <source>Data Tab</source>
-        <translation type="unfinished"></translation>
+        <translation>Tab-ul de date</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="451"/>
         <source>Backup, transfer and manage official/homebrew game and save data.</source>
-        <translation type="unfinished"></translation>
+        <translation>Arhivează, transferă și gestionează jocuri oficiale, homebrew și datele salvărilor tale.</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="458"/>
@@ -1656,17 +1658,17 @@ Sfat: Folosește programe externe pentru a declanșa evenimente în joc sau pent
     <message>
         <location filename="../src/Window.cpp" line="459"/>
         <source>Create digital copies of your save data.</source>
-        <translation type="unfinished"></translation>
+        <translation>Creează arhive digitale ale salvărilor tale.</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="466"/>
         <source>Start Backup Session</source>
-        <translation type="unfinished"></translation>
+        <translation>Începe un backup</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="467"/>
         <source>Begin archiving the save data.</source>
-        <translation type="unfinished"></translation>
+        <translation>Începe arhivarea salvării.</translation>
     </message>
 </context>
 </TS>
