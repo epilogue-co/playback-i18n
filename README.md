@@ -6,12 +6,13 @@
 | ---------------------- | ------------- | --------    | ---------------  |
 | 🇩🇪 German              | Human         | ✅          | 0                |
 | 🇨🇳 Simplified Chinese  | Human         | ✅          | 0                |
-| 🇫🇷 French              | DeepL         | ✅          | 0                |
+| 🇫🇷 French              | Human         | ✅          | 0                |
 | 🇪🇸 Spanish             | Human         | ✅          | 0                |
-| 🇮🇹 Italian             | DeepL         | ✅          | 0                |
+| 🇮🇹 Italian             | AI            | ✅          | 0                |
 | 🇯🇵 Japanese            | Human         | ✅          | 0                |
 | 🇰🇷 Korean              | Human         | ✅          | 0                |
-| 🇳🇱 Dutch               | DeepL         | ✅          | 0                |
+| 🇳🇱 Dutch               | AI            | ✅          | 0                |
+| 🇵🇹 Portuguese          | AI            | ✅          | 0                |
 | 🇷🇴 Romanian            | Human         | ✅          | 0                |
 
 ## Translation files (i18n)
@@ -22,19 +23,16 @@ All translation modifications need to be created on a separate branch by running
     git checkout -b i18n/update-ja-translation
 ```
 
-
 You will need to change the name of the branch accordingly. Once your work is done you need to run `git push` and create a PR out of the changes.
 
 > [!NOTE]
 > Please pay attention to possible references from one translation to another.
-
 
 ### 🖼️ Updating translation files with a GUI
 
 Download and install QtLinguist, use it to edit the translation files.
 
 You can download it from [here](https://download.qt.io/linguist_releases/) for Windows. For other OSes you'll need to download Qt6 via a package manager or the online installer Qt provides.
-
 
 ### 📝 Updating translation files with a code editor
 
@@ -51,7 +49,7 @@ In order to translate an `unfinished` entry:
 </message>
 ```
 
-You need to update the `translation` XML property by removing the `unfinished` value: 
+You need to update the `translation` XML property by removing the `unfinished` value:
 
 ```XML
 <message>
@@ -62,7 +60,6 @@ You need to update the `translation` XML property by removing the `unfinished` v
 ```
 
 If you're correcting a translation, you can simply update the contents inside the `translation` XML tag.
-
 
 ### ⚙️ Optional compilation
 
