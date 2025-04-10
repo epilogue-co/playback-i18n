@@ -46,7 +46,7 @@
     <message>
         <location filename="../src/AboutWindow.cpp" line="192"/>
         <source>™ and © 2020-2025 Epilogue. &lt;br&gt;All rights reserved. </source>
-        <translation type="unfinished"></translation>
+        <translation>™ e © 2020-2025 Epilogue. &lt;br&gt;Todos os direitos reservados. </translation>
     </message>
 </context>
 <context>

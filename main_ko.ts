@@ -36,7 +36,7 @@
     <message>
         <location filename="../src/AboutWindow.cpp" line="192"/>
         <source>™ and © 2020-2025 Epilogue. &lt;br&gt;All rights reserved. </source>
-        <translation type="unfinished"></translation>
+        <translation>™ 및 © 2020-2025 에필로그. &lt;br&gt;판권 소유. </translation>
     </message>
     <message>
         <location filename="../src/AboutWindow.cpp" line="183"/>
