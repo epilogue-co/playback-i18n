@@ -6,22 +6,22 @@
     <message>
         <location filename="../src/AboutWindow.cpp" line="157"/>
         <source>Playback</source>
-        <translation type="unfinished"></translation>
+        <translation>Playback</translation>
     </message>
     <message>
         <location filename="../src/AboutWindow.cpp" line="158"/>
         <source>Firmware</source>
-        <translation type="unfinished"></translation>
+        <translation>ファームウェア</translation>
     </message>
     <message>
         <location filename="../src/AboutWindow.cpp" line="159"/>
         <source>System</source>
-        <translation type="unfinished">システム</translation>
+        <translation>システム</translation>
     </message>
     <message>
         <location filename="../src/AboutWindow.cpp" line="160"/>
         <source>Serial</source>
-        <translation type="unfinished"></translation>
+        <translation>シリアル</translation>
     </message>
     <message>
         <location filename="../src/AboutWindow.cpp" line="184"/>
@@ -250,32 +250,32 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="150"/>
         <source>Cartridge Autosave</source>
-        <translation type="unfinished"></translation>
+        <translation>カートリッジ自動保存</translation>
     </message>
     <message>
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="151"/>
         <source>Emulator Settings</source>
-        <translation type="unfinished">エミュレータの設定</translation>
+        <translation>エミュレータの設定</translation>
     </message>
     <message>
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="152"/>
         <source>Cheats</source>
-        <translation type="unfinished"></translation>
+        <translation>チート</translation>
     </message>
     <message>
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="153"/>
         <source>Controller Support</source>
-        <translation type="unfinished"></translation>
+        <translation>コントローラーサポート</translation>
     </message>
     <message>
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="154"/>
         <source>Shaders</source>
-        <translation type="unfinished"></translation>
+        <translation>シェーダー</translation>
     </message>
     <message>
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="155"/>
         <source>Rumble</source>
-        <translation type="unfinished"></translation>
+        <translation>振動</translation>
     </message>
 </context>
 <context>
@@ -324,27 +324,27 @@ Do not remove the cartridge while any operation is running.</source>
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="107"/>
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="109"/>
         <source>Game Boy</source>
-        <translation type="unfinished"></translation>
+        <translation>ゲームボーイ</translation>
     </message>
     <message>
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="110"/>
         <source>Game Boy Color</source>
-        <translation type="unfinished"></translation>
+        <translation>ゲームボーイカラー</translation>
     </message>
     <message>
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="111"/>
         <source>Game Boy Advance</source>
-        <translation type="unfinished"></translation>
+        <translation>ゲームボーイアドバンス</translation>
     </message>
     <message>
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="112"/>
         <source>Super Nintendo</source>
-        <translation type="unfinished"></translation>
+        <translation>スーパーファミコン</translation>
     </message>
     <message>
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="113"/>
         <source>Nintendo 64</source>
-        <translation type="unfinished"></translation>
+        <translation>Nintendo 64</translation>
     </message>
 </context>
 <context>
@@ -401,22 +401,22 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/DeviceSettingsScreen.cpp" line="131"/>
         <source>Static</source>
-        <translation type="unfinished">点灯</translation>
+        <translation>点灯</translation>
     </message>
     <message>
         <location filename="../src/DeviceSettingsScreen.cpp" line="133"/>
         <source>Dark</source>
-        <translation type="unfinished">消灯</translation>
+        <translation>消灯</translation>
     </message>
     <message>
         <location filename="../src/DeviceSettingsScreen.cpp" line="135"/>
         <source>Pulse</source>
-        <translation type="unfinished">パルス</translation>
+        <translation>パルス</translation>
     </message>
     <message>
         <location filename="../src/DeviceSettingsScreen.cpp" line="137"/>
         <source>Strobe</source>
-        <translation type="unfinished">ストロボ</translation>
+        <translation>ストロボ</translation>
     </message>
 </context>
 <context>
@@ -547,7 +547,7 @@ Do not remove the cartridge while any operation is running.</source>
         <location filename="../src/Emulator.cpp" line="39"/>
         <location filename="../src/Emulator.cpp" line="753"/>
         <source>Graphics Hardware Not Supported</source>
-        <translation type="unfinished"></translation>
+        <translation>グラフィックスハードウェアがサポートされていません</translation>
     </message>
     <message>
         <location filename="../src/Emulator.cpp" line="40"/>
@@ -559,17 +559,24 @@ Renderer: %2
 Vendor: %3
 
 Please ensure your graphics drivers are up to date.</source>
-        <translation type="unfinished"></translation>
+        <translation>ご利用のグラフィックスハードウェアが最小要件を満たしていません。
+
+OpenGL詳細:
+バージョン: %1
+レンダラー: %2
+ベンダー: %3
+
+グラフィックドライバーが最新であることを確認してください。</translation>
     </message>
     <message>
         <location filename="../src/Emulator.cpp" line="54"/>
         <source>OpenGL Initialization Error</source>
-        <translation type="unfinished"></translation>
+        <translation>OpenGL初期化エラー</translation>
     </message>
     <message>
         <location filename="../src/Emulator.cpp" line="55"/>
         <source>Failed to initialize OpenGL context. This application requires OpenGL 3.2 or higher (or OpenGL ES 2.0+). Please ensure your graphics drivers are up to date.</source>
-        <translation type="unfinished"></translation>
+        <translation>OpenGLコンテキストの初期化に失敗しました。このアプリケーションは、OpenGL 3.2以上（またはOpenGL ES 2.0+）が必要です。グラフィックドライバーが最新であることを確認してください。</translation>
     </message>
     <message>
         <location filename="../src/Emulator.cpp" line="531"/>
@@ -600,7 +607,13 @@ OpenGL Details:
 Version: %2
 Renderer: %3
 Vendor: %4</source>
-        <translation type="unfinished"></translation>
+        <translation>ご利用のグラフィックスハードウェアが最小要件を満たしていません:
+
+%1
+OpenGL詳細:
+バージョン: %2
+レンダラー: %3
+ベンダー: %4</translation>
     </message>
 </context>
 <context>
@@ -609,7 +622,7 @@ Vendor: %4</source>
         <location filename="../src/EmulatorControlsDropdownWidget.cpp" line="146"/>
         <location filename="../src/EmulatorControlsDropdownWidget.cpp" line="169"/>
         <source>  Install shaders...</source>
-        <translation type="unfinished"></translation>
+        <translation>  シェーダーをインストール...</translation>
     </message>
 </context>
 <context>
@@ -893,7 +906,7 @@ You can try cleaning then re-inserting the cartridge into the device.
     <message>
         <location filename="../src/ManagePageOperation.cpp" line="117"/>
         <source>The file you have selected is %0, while the memory on the device is reported as %1. Would you like to proceed?</source>
-        <translation type="unfinished"></translation>
+        <translation>選択したファイルは%0ですが、デバイスのメモリは%1と報告されています。続行しますか？</translation>
     </message>
     <message>
         <location filename="../src/ManagePageOperation.cpp" line="211"/>
@@ -1146,7 +1159,7 @@ If you&apos;d like to easily remove all the pictures from your camera, without h
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="94"/>
         <source>Pixel Perfect Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>ピクセルパーフェクトモード</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="95"/>
@@ -1156,7 +1169,7 @@ If you&apos;d like to easily remove all the pictures from your camera, without h
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="116"/>
         <source>When enabled, games are displayed with integer scaling to ensure pixels are displayed at exact multiples of their original size. This eliminates graphical artifacts and preserves the authentic look of retro games at the expense of some screen space.</source>
-        <translation type="unfinished"></translation>
+        <translation>有効にすると、ゲームは整数倍のスケーリングで表示され、ピクセルが元のサイズの正確な倍数で表示されます。これにより、画面スペースが多少犯牲になるものの、グラフィックの乱れが解消され、レトロゲームの本来の見た目が保たれます。</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="120"/>
