@@ -6,12 +6,12 @@
     <message>
         <location filename="../src/AboutWindow.cpp" line="157"/>
         <source>Playback</source>
-        <translation type="unfinished"></translation>
+        <translation>Playback</translation>
     </message>
     <message>
         <location filename="../src/AboutWindow.cpp" line="158"/>
         <source>Firmware</source>
-        <translation type="unfinished"></translation>
+        <translation>Firmware</translation>
     </message>
     <message>
         <location filename="../src/AboutWindow.cpp" line="159"/>
@@ -21,7 +21,7 @@
     <message>
         <location filename="../src/AboutWindow.cpp" line="160"/>
         <source>Serial</source>
-        <translation type="unfinished"></translation>
+        <translation>Serial</translation>
     </message>
     <message>
         <location filename="../src/AboutWindow.cpp" line="183"/>
@@ -250,7 +250,7 @@ Não remova o cartucho enquanto qualquer operação estiver em execução.</tran
     <message>
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="150"/>
         <source>Cartridge Autosave</source>
-        <translation type="unfinished"></translation>
+        <translation>Salvamento Automático no Cartucho</translation>
     </message>
     <message>
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="151"/>
@@ -260,22 +260,22 @@ Não remova o cartucho enquanto qualquer operação estiver em execução.</tran
     <message>
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="152"/>
         <source>Cheats</source>
-        <translation type="unfinished"></translation>
+        <translation>Trapaças</translation>
     </message>
     <message>
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="153"/>
         <source>Controller Support</source>
-        <translation type="unfinished"></translation>
+        <translation>Suporte a Controles</translation>
     </message>
     <message>
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="154"/>
         <source>Shaders</source>
-        <translation type="unfinished"></translation>
+        <translation>Shaders</translation>
     </message>
     <message>
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="155"/>
         <source>Rumble</source>
-        <translation type="unfinished"></translation>
+        <translation>Vibração</translation>
     </message>
 </context>
 <context>
@@ -324,27 +324,27 @@ Não remova o cartucho enquanto qualquer operação estiver em execução.</tran
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="107"/>
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="109"/>
         <source>Game Boy</source>
-        <translation type="unfinished"></translation>
+        <translation>Game Boy</translation>
     </message>
     <message>
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="110"/>
         <source>Game Boy Color</source>
-        <translation type="unfinished"></translation>
+        <translation>Game Boy Color</translation>
     </message>
     <message>
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="111"/>
         <source>Game Boy Advance</source>
-        <translation type="unfinished"></translation>
+        <translation>Game Boy Advance</translation>
     </message>
     <message>
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="112"/>
         <source>Super Nintendo</source>
-        <translation type="unfinished"></translation>
+        <translation>Super Nintendo</translation>
     </message>
     <message>
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="113"/>
         <source>Nintendo 64</source>
-        <translation type="unfinished"></translation>
+        <translation>Nintendo 64</translation>
     </message>
 </context>
 <context>
@@ -547,7 +547,7 @@ Não remova o cartucho enquanto qualquer operação estiver em execução.</tran
         <location filename="../src/Emulator.cpp" line="39"/>
         <location filename="../src/Emulator.cpp" line="753"/>
         <source>Graphics Hardware Not Supported</source>
-        <translation type="unfinished"></translation>
+        <translation>Hardware Gráfico Não Suportado</translation>
     </message>
     <message>
         <location filename="../src/Emulator.cpp" line="40"/>
@@ -559,17 +559,24 @@ Renderer: %2
 Vendor: %3
 
 Please ensure your graphics drivers are up to date.</source>
-        <translation type="unfinished"></translation>
+        <translation>Seu hardware gráfico não atende aos requisitos mínimos.
+
+Detalhes do OpenGL:
+Versão: %1
+Renderizador: %2
+Fabricante: %3
+
+Por favor, certifique-se de que seus drivers gráficos estão atualizados.</translation>
     </message>
     <message>
         <location filename="../src/Emulator.cpp" line="54"/>
         <source>OpenGL Initialization Error</source>
-        <translation type="unfinished"></translation>
+        <translation>Erro de Inicialização do OpenGL</translation>
     </message>
     <message>
         <location filename="../src/Emulator.cpp" line="55"/>
         <source>Failed to initialize OpenGL context. This application requires OpenGL 3.2 or higher (or OpenGL ES 2.0+). Please ensure your graphics drivers are up to date.</source>
-        <translation type="unfinished"></translation>
+        <translation>Falha ao inicializar o contexto OpenGL. Esta aplicação requer OpenGL 3.2 ou superior (ou OpenGL ES 2.0+). Por favor, certifique-se de que seus drivers gráficos estão atualizados.</translation>
     </message>
     <message>
         <location filename="../src/Emulator.cpp" line="531"/>
@@ -600,7 +607,13 @@ OpenGL Details:
 Version: %2
 Renderer: %3
 Vendor: %4</source>
-        <translation type="unfinished"></translation>
+        <translation>Seu hardware gráfico não atende aos requisitos mínimos:
+
+%1
+Detalhes do OpenGL:
+Versão: %2
+Renderizador: %3
+Fabricante: %4</translation>
     </message>
 </context>
 <context>
@@ -609,7 +622,7 @@ Vendor: %4</source>
         <location filename="../src/EmulatorControlsDropdownWidget.cpp" line="146"/>
         <location filename="../src/EmulatorControlsDropdownWidget.cpp" line="169"/>
         <source>  Install shaders...</source>
-        <translation type="unfinished"></translation>
+        <translation>  Instalar shaders...</translation>
     </message>
 </context>
 <context>
@@ -888,7 +901,7 @@ Você pode tentar limpar e reinseri-lo no dispositivo.
     <message>
         <location filename="../src/ManagePageOperation.cpp" line="117"/>
         <source>The file you have selected is %0, while the memory on the device is reported as %1. Would you like to proceed?</source>
-        <translation type="unfinished"></translation>
+        <translation>O arquivo selecionado é %0, enquanto a memória no dispositivo é relatada como %1. Deseja continuar?</translation>
     </message>
     <message>
         <location filename="../src/ManagePageOperation.cpp" line="211"/>
@@ -1156,7 +1169,7 @@ Se você quiser remover facilmente todas as fotos da sua câmera, sem precisar e
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="94"/>
         <source>Pixel Perfect Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Modo Pixel Perfeito</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="95"/>
@@ -1201,7 +1214,7 @@ Se você quiser remover facilmente todas as fotos da sua câmera, sem precisar e
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="116"/>
         <source>When enabled, games are displayed with integer scaling to ensure pixels are displayed at exact multiples of their original size. This eliminates graphical artifacts and preserves the authentic look of retro games at the expense of some screen space.</source>
-        <translation type="unfinished"></translation>
+        <translation>Quando ativado, os jogos são exibidos com escala de números inteiros para garantir que os pixels sejam exibidos em múltiplos exatos de seu tamanho original. Isso elimina artefatos gráficos e preserva a aparência autêntica dos jogos retrô, à custa de algum espaço na tela.</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="120"/>
