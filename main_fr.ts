@@ -11,7 +11,7 @@
     <message>
         <location filename="../src/AboutWindow.cpp" line="158"/>
         <source>Firmware</source>
-        <translation>Firmware</translation>
+        <translation>Microprogramme</translation>
     </message>
     <message>
         <location filename="../src/AboutWindow.cpp" line="159"/>
@@ -265,7 +265,7 @@ Ne retirez pas la cartouche pendant qu&apos;une opération est en cours.</transl
     <message>
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="153"/>
         <source>Controller Support</source>
-        <translation>Support des manettes</translation>
+        <translation>Support manette</translation>
     </message>
     <message>
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="154"/>
@@ -324,27 +324,27 @@ Ne retirez pas la cartouche pendant qu&apos;une opération est en cours.</transl
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="107"/>
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="109"/>
         <source>Game Boy</source>
-        <translation></translation>
+        <translation>Game Boy</translation>
     </message>
     <message>
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="110"/>
         <source>Game Boy Color</source>
-        <translation></translation>
+        <translation>Game Boy Color</translation>
     </message>
     <message>
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="111"/>
         <source>Game Boy Advance</source>
-        <translation></translation>
+        <translation>Game Boy Advance</translation>
     </message>
     <message>
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="112"/>
         <source>Super Nintendo</source>
-        <translation></translation>
+        <translation>Super Nintendo</translation>
     </message>
     <message>
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="113"/>
         <source>Nintendo 64</source>
-        <translation></translation>
+        <translation>Nintendo 64</translation>
     </message>
 </context>
 <context>
@@ -559,24 +559,24 @@ Renderer: %2
 Vendor: %3
 
 Please ensure your graphics drivers are up to date.</source>
-        <translation>Votre matériel graphique ne répond pas aux exigences minimales.
+        <translation>Votre matériel graphique ne correspond pas aux critères requis.
 
 Détails OpenGL :
 Version : %1
 Rendu : %2
-Fabricant : %3
+Vendeur : %3
 
-Veuillez vous assurer que vos pilotes graphiques sont à jour.</translation>
+Assurez-vous que vos pilotes graphiques sont à jour.</translation>
     </message>
     <message>
         <location filename="../src/Emulator.cpp" line="54"/>
         <source>OpenGL Initialization Error</source>
-        <translation>Erreur d'initialisation OpenGL</translation>
+        <translation>Erreur d&apos;initialisation d&apos;OpenGL</translation>
     </message>
     <message>
         <location filename="../src/Emulator.cpp" line="55"/>
         <source>Failed to initialize OpenGL context. This application requires OpenGL 3.2 or higher (or OpenGL ES 2.0+). Please ensure your graphics drivers are up to date.</source>
-        <translation>Impossible d'initialiser le contexte OpenGL. Cette application nécessite OpenGL 3.2 ou supérieur (ou OpenGL ES 2.0+). Veuillez vous assurer que vos pilotes graphiques sont à jour.</translation>
+        <translation>Le contexte OpenGL n&apos;a pas pu être initialisé. Cette application nécessite OpenGL 3.2 ou plus (ou OpenGL ES 2.0+). Assurez-vous que vos pilotes graphiques sont à jour.</translation>
     </message>
     <message>
         <location filename="../src/Emulator.cpp" line="531"/>
@@ -607,13 +607,13 @@ OpenGL Details:
 Version: %2
 Renderer: %3
 Vendor: %4</source>
-        <translation>Votre matériel graphique ne répond pas aux exigences minimales :
+        <translation>Votre matériel graphique ne correspond pas aux critères requis :
 
 %1
 Détails OpenGL :
 Version : %2
 Rendu : %3
-Fabricant : %4</translation>
+Vendeur : %4</translation>
     </message>
 </context>
 <context>
@@ -622,7 +622,7 @@ Fabricant : %4</translation>
         <location filename="../src/EmulatorControlsDropdownWidget.cpp" line="146"/>
         <location filename="../src/EmulatorControlsDropdownWidget.cpp" line="169"/>
         <source>  Install shaders...</source>
-        <translation>  Installer des shaders...</translation>
+        <translation>  Installation des shaders...</translation>
     </message>
 </context>
 <context>
@@ -906,7 +906,7 @@ Vous pouvez essayer de nettoyer puis de réinsérer la cartouche dans l&apos;app
     <message>
         <location filename="../src/ManagePageOperation.cpp" line="117"/>
         <source>The file you have selected is %0, while the memory on the device is reported as %1. Would you like to proceed?</source>
-        <translation>Le fichier que vous avez sélectionné est de %0, alors que la mémoire sur l'appareil est indiquée comme %1. Voulez-vous continuer ?</translation>
+        <translation>Le fichier que vous avez sélectionné est %0, tandis que la mémoire signalée sur l&apos;appareil est signalée comme étant %1. Souhaitez-vous continuer ?</translation>
     </message>
     <message>
         <location filename="../src/ManagePageOperation.cpp" line="211"/>
@@ -1169,7 +1169,7 @@ Si vous souhaitez supprimer facilement toutes les images de votre caméra sans a
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="116"/>
         <source>When enabled, games are displayed with integer scaling to ensure pixels are displayed at exact multiples of their original size. This eliminates graphical artifacts and preserves the authentic look of retro games at the expense of some screen space.</source>
-        <translation>Lorsqu'il est activé, les jeux sont affichés avec une mise à l'échelle par nombres entiers pour garantir que les pixels soient affichés à des multiples exacts de leur taille d'origine. Cela élimine les artefacts graphiques et préserve l'aspect authentique des jeux rétro au prix d'une partie de l'espace d'écran.</translation>
+        <translation>Lorsqu&apos;activé, les jeux sont affichés avec un agrandissement consistant pour s&apos;assurer que les pixels soient affichés à un multiple exact de leur taille d&apos;origine. Cela élimine les artefacts graphiques et conserve l&apos;aspect authentique des jeux rétros au prix d&apos;un peu d&apos;espace de l&apos;écran restant inutilisé.</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="120"/>
@@ -1474,7 +1474,7 @@ Assurez-vous qu&apos;il est connecté.</translation>
         <source>Archive your game data securely on your computer, making a digital equivalent of your game collection. Game files are compatible with your chosen emulator.
 
 Tip: Our app runs a Data Integrity Test to make sure that you are getting an accurate reproduction of the cartridge’s content.</source>
-        <translation>Archivez vos données de jeu en toute sécurité sur votre ordinateur et créez un équivalent numérique de votre collection de jeux. Les fichiers de jeu sont compatibles avec l&apos;émulateur de votre choix.
+        <translation>Archivez vos données de jeu en toute sécurité sur votre ordinateur et créez un équivalent numérique de votre collection de jeux, compatible avec l&apos;émulateur de votre choix.
 
 Astuce : Notre application effectue une vérification de l&apos;intégrité des données pour s&apos;assurer que vous obtenez une reproduction exacte du contenu de la cartouche.</translation>
     </message>
@@ -1502,7 +1502,7 @@ Astuce : transférez votre jeu homebrew sur une cartouche et jouez-y sur la cons
         <source>Transfer a duplicate of your save data from the cartridge to your computer. You can then back up your save file or edit it with an external program.
 
 Tip: Transfer your save to the computer, replace the battery and transfer it back to the cartridge safely.</source>
-        <translation>Transférez une copie de vos données de sauvegarde de votre cartouche vers votre ordinateur. Vous pourrez alors sauvegarder votre fichier de sauvegarde ou le modifier avec un programme externe.
+        <translation>Transférez une copie de vos données de sauvegarde de votre cartouche vers votre ordinateur. Vous pourrez alors la sauvegarder ou la modifier avec un programme externe.
 
 Astuce : transférez votre sauvegarde sur l&apos;ordinateur, remplacez la batterie et transférez-la à nouveau sur la cartouche en toute sécurité.</translation>
     </message>
