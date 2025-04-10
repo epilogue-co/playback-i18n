@@ -6,12 +6,12 @@
     <message>
         <location filename="../src/AboutWindow.cpp" line="157"/>
         <source>Playback</source>
-        <translation type="unfinished"></translation>
+        <translation>Playback</translation>
     </message>
     <message>
         <location filename="../src/AboutWindow.cpp" line="158"/>
         <source>Firmware</source>
-        <translation type="unfinished"></translation>
+        <translation>Firmware</translation>
     </message>
     <message>
         <location filename="../src/AboutWindow.cpp" line="159"/>
@@ -21,7 +21,7 @@
     <message>
         <location filename="../src/AboutWindow.cpp" line="160"/>
         <source>Serial</source>
-        <translation type="unfinished"></translation>
+        <translation>Serial</translation>
     </message>
     <message>
         <location filename="../src/AboutWindow.cpp" line="184"/>
@@ -189,12 +189,12 @@ No extraiga el cartucho mientras se esté realizando alguna operación.</transla
     <message>
         <location filename="../src/CoreCardWidget.cpp" line="181"/>
         <source>Load Custom Core</source>
-        <translation>Cargar núcleo personalizado</translation>
+        <translation>Cargar Core personalizado</translation>
     </message>
     <message>
         <location filename="../src/CoreCardWidget.cpp" line="182"/>
         <source>Cores (*%1)</source>
-        <translation>Núcleos (*%1)</translation>
+        <translation>Cores (*%1)</translation>
     </message>
     <message>
         <location filename="../src/CoreCardWidget.cpp" line="244"/>
@@ -222,7 +222,7 @@ No extraiga el cartucho mientras se esté realizando alguna operación.</transla
     <message>
         <location filename="../src/CoreCardWidget.cpp" line="278"/>
         <source>Failed to download core</source>
-        <translation>Error al descargar el núcleo</translation>
+        <translation>Error al descargar el Core</translation>
     </message>
     <message>
         <location filename="../src/CoreCardWidget.cpp" line="285"/>
@@ -250,7 +250,7 @@ No extraiga el cartucho mientras se esté realizando alguna operación.</transla
     <message>
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="150"/>
         <source>Cartridge Autosave</source>
-        <translation type="unfinished"></translation>
+        <translation>Autoguardado en cartucho</translation>
     </message>
     <message>
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="151"/>
@@ -260,22 +260,22 @@ No extraiga el cartucho mientras se esté realizando alguna operación.</transla
     <message>
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="152"/>
         <source>Cheats</source>
-        <translation type="unfinished"></translation>
+        <translation>Trucos</translation>
     </message>
     <message>
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="153"/>
         <source>Controller Support</source>
-        <translation type="unfinished"></translation>
+        <translation>Soporte para mandos</translation>
     </message>
     <message>
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="154"/>
         <source>Shaders</source>
-        <translation type="unfinished"></translation>
+        <translation>Shaders</translation>
     </message>
     <message>
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="155"/>
         <source>Rumble</source>
-        <translation type="unfinished"></translation>
+        <translation>Rumble</translation>
     </message>
 </context>
 <context>
@@ -290,27 +290,27 @@ No extraiga el cartucho mientras se esté realizando alguna operación.</transla
         <location filename="../src/CoreSelectorScreen.cpp" line="77"/>
         <location filename="../src/CoreSelectorScreen.cpp" line="235"/>
         <source>Alternative Core</source>
-        <translation>Núcleo alternativo</translation>
+        <translation>Core alternativo</translation>
     </message>
     <message>
         <location filename="../src/CoreSelectorScreen.cpp" line="224"/>
         <source>Select Core</source>
-        <translation>Seleccionar núcleo</translation>
+        <translation>Seleccionar Core</translation>
     </message>
     <message>
         <location filename="../src/CoreSelectorScreen.cpp" line="226"/>
         <source>You can change the emulation core for your Operator device. Download a core online or provide your own, but remember: only some cores are fully supported by Epilogue ensure complete feature compatibility.</source>
-        <translation>Puedes cambiar el núcleo de emulación para tu dispositivo Operator. Descarga un núcleo en línea o proporciona el tuyo propio, pero recuerda: solo algunos núcleos son totalmente compatibles con Epilogue para garantizar la compatibilidad completa de características.</translation>
+        <translation>Puedes cambiar el Core de emulación para tu dispositivo Operator. Descarga un Core en línea o proporciona el tuyo propio, pero recuerda: solo algunos Cores son totalmente compatibles con Epilogue para garantizar la compatibilidad completa de características.</translation>
     </message>
     <message>
         <location filename="../src/CoreSelectorScreen.cpp" line="230"/>
         <source>Custom Core</source>
-        <translation>Núcleo personalizado</translation>
+        <translation>Core personalizado</translation>
     </message>
     <message>
         <location filename="../src/CoreSelectorScreen.cpp" line="231"/>
         <source>Your own core</source>
-        <translation>Tu propio núcleo</translation>
+        <translation>Tu propio Core</translation>
     </message>
 </context>
 <context>
@@ -547,7 +547,7 @@ No extraiga el cartucho mientras se esté realizando alguna operación.</transla
         <location filename="../src/Emulator.cpp" line="39"/>
         <location filename="../src/Emulator.cpp" line="753"/>
         <source>Graphics Hardware Not Supported</source>
-        <translation type="unfinished"></translation>
+        <translation>Tarjeta gráfica no compatible</translation>
     </message>
     <message>
         <location filename="../src/Emulator.cpp" line="40"/>
@@ -559,17 +559,24 @@ Renderer: %2
 Vendor: %3
 
 Please ensure your graphics drivers are up to date.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tu tarjeta gráfica no cumple con los requisitos mínimos.
+
+Detalles de OpenGL:
+Versión: %1
+Renderer: %2
+Proveedor: %3
+
+Asegúrate de que tus controladores gráficos estén actualizados.</translation>
     </message>
     <message>
         <location filename="../src/Emulator.cpp" line="54"/>
         <source>OpenGL Initialization Error</source>
-        <translation type="unfinished"></translation>
+        <translation>Error de inicialización de OpenGL</translation>
     </message>
     <message>
         <location filename="../src/Emulator.cpp" line="55"/>
         <source>Failed to initialize OpenGL context. This application requires OpenGL 3.2 or higher (or OpenGL ES 2.0+). Please ensure your graphics drivers are up to date.</source>
-        <translation type="unfinished"></translation>
+        <translation>Error al inicializar el contexto de OpenGL. Esta aplicación requiere OpenGL 3.2 o superior (u OpenGL ES 2.0+). Por favor, asegúrate de que tus controladores gráficos estén actualizados.</translation>
     </message>
     <message>
         <location filename="../src/Emulator.cpp" line="531"/>
@@ -589,7 +596,7 @@ Please ensure your graphics drivers are up to date.</source>
     <message>
         <location filename="../src/Emulator.cpp" line="539"/>
         <source>The core failed to load the save data.</source>
-        <translation>El núcleo no ha podido cargar los datos guardados.</translation>
+        <translation>El Core no ha podido cargar los datos guardados.</translation>
     </message>
     <message>
         <location filename="../src/Emulator.cpp" line="743"/>
@@ -600,7 +607,13 @@ OpenGL Details:
 Version: %2
 Renderer: %3
 Vendor: %4</source>
-        <translation type="unfinished"></translation>
+        <translation>Tu tarjeta gráfica no cumple con los requisitos mínimos:
+
+%1
+Detalles de OpenGL:
+Versión: %2
+Renderer: %3
+Proveedor: %4</translation>
     </message>
 </context>
 <context>
@@ -609,7 +622,7 @@ Vendor: %4</source>
         <location filename="../src/EmulatorControlsDropdownWidget.cpp" line="146"/>
         <location filename="../src/EmulatorControlsDropdownWidget.cpp" line="169"/>
         <source>  Install shaders...</source>
-        <translation type="unfinished"></translation>
+        <translation>  Instalar shaders...</translation>
     </message>
 </context>
 <context>
@@ -658,7 +671,7 @@ Vendor: %4</source>
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="239"/>
         <source>Core</source>
-        <translation>Núcleo</translation>
+        <translation>Core</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="244"/>
@@ -673,7 +686,7 @@ Vendor: %4</source>
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="246"/>
         <source>Core settings</source>
-        <translation>Ajustes de núcleo</translation>
+        <translation>Ajustes de Core</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="253"/>
@@ -698,7 +711,7 @@ Vendor: %4</source>
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="254"/>
         <source>Gamepad rumble</source>
-        <translation>Vibración del mando</translation>
+        <translation>Rumble del mando</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="271"/>
@@ -708,7 +721,7 @@ Vendor: %4</source>
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="276"/>
         <source>Enable rumble support for games that support it, for more compatibility make sure you also enable Game Boy Player Rumble.</source>
-        <translation>Activa el rumble para los juegos que lo soporten, para mayor compatibilidad asegúrate de activar también Game Boy Player Rumble.</translation>
+        <translation>Activa el Rumble para los juegos que lo soporten, para mayor compatibilidad asegúrate de activar también Game Boy Player Rumble.</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="255"/>
@@ -893,7 +906,7 @@ Puedes intentar limpiar el cartucho y volver a insertarlo en el dispositivo.
     <message>
         <location filename="../src/ManagePageOperation.cpp" line="117"/>
         <source>The file you have selected is %0, while the memory on the device is reported as %1. Would you like to proceed?</source>
-        <translation type="unfinished"></translation>
+        <translation>El archivo que has seleccionado es %0, mientras que la memoria en el dispositivo se reporta como %1. ¿Deseas continuar?</translation>
     </message>
     <message>
         <location filename="../src/ManagePageOperation.cpp" line="211"/>
@@ -1146,7 +1159,7 @@ Si quieres eliminar fácilmente todas las fotos de tu cámara, sin tener que bor
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="94"/>
         <source>Pixel Perfect Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Modo Píxel Perfecto</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="95"/>
@@ -1156,7 +1169,7 @@ Si quieres eliminar fácilmente todas las fotos de tu cámara, sin tener que bor
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="116"/>
         <source>When enabled, games are displayed with integer scaling to ensure pixels are displayed at exact multiples of their original size. This eliminates graphical artifacts and preserves the authentic look of retro games at the expense of some screen space.</source>
-        <translation type="unfinished"></translation>
+        <translation>Cuando está activado, los juegos se muestran con escalado de números enteros para garantizar que los píxeles se muestren en múltiplos exactos de su tamaño original. Esto elimina los artefactos gráficos y preserva el aspecto auténtico de los juegos retro a costa de algo de espacio en pantalla.</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="120"/>
@@ -1354,12 +1367,12 @@ Por favor, asegúrese de que está conectado.</translation>
     <message>
         <location filename="../src/SettingsWindow.cpp" line="247"/>
         <source>Core Load Failed</source>
-        <translation>Error al cargar el núcleo</translation>
+        <translation>Error al cargar el Core</translation>
     </message>
     <message>
         <location filename="../src/SettingsWindow.cpp" line="247"/>
         <source>Failed to load core. Please load a valid core.</source>
-        <translation>Error al cargar el núcleo. Por favor, carga un núcleo válido.</translation>
+        <translation>Error al cargar el Core. Por favor, carga un Core válido.</translation>
     </message>
     <message>
         <location filename="../src/SettingsWindow.cpp" line="277"/>
@@ -1369,7 +1382,7 @@ Por favor, asegúrese de que está conectado.</translation>
     <message>
         <location filename="../src/SettingsWindow.cpp" line="279"/>
         <source>Core Selector</source>
-        <translation>Selector de núcleo</translation>
+        <translation>Selector de Core</translation>
     </message>
     <message>
         <location filename="../src/SettingsWindow.cpp" line="280"/>
