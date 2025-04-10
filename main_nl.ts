@@ -16,7 +16,7 @@
     <message>
         <location filename="../src/AboutWindow.cpp" line="159"/>
         <source>System</source>
-        <translation type="unfinished">Systeem</translation>
+        <translation>Systeem</translation>
     </message>
     <message>
         <location filename="../src/AboutWindow.cpp" line="160"/>
@@ -256,7 +256,7 @@ Verwijder de cartridge niet terwijl er een bewerking bezig is.</translation>
     <message>
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="151"/>
         <source>Emulator Settings</source>
-        <translation type="unfinished">Emulatorinstellingen</translation>
+        <translation>Emulatorinstellingen</translation>
     </message>
     <message>
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="152"/>
@@ -402,22 +402,22 @@ Verwijder de cartridge niet terwijl er een bewerking bezig is.</translation>
     <message>
         <location filename="../src/DeviceSettingsScreen.cpp" line="131"/>
         <source>Static</source>
-        <translation type="unfinished">Statisch</translation>
+        <translation>Statisch</translation>
     </message>
     <message>
         <location filename="../src/DeviceSettingsScreen.cpp" line="133"/>
         <source>Dark</source>
-        <translation type="unfinished">Donker</translation>
+        <translation>Donker</translation>
     </message>
     <message>
         <location filename="../src/DeviceSettingsScreen.cpp" line="135"/>
         <source>Pulse</source>
-        <translation type="unfinished">Puls</translation>
+        <translation>Puls</translation>
     </message>
     <message>
         <location filename="../src/DeviceSettingsScreen.cpp" line="137"/>
         <source>Strobe</source>
-        <translation type="unfinished">Stroboscoop</translation>
+        <translation>Stroboscoop</translation>
     </message>
 </context>
 <context>
