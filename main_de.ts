@@ -16,7 +16,7 @@
     <message>
         <location filename="../src/AboutWindow.cpp" line="159"/>
         <source>System</source>
-        <translation type="unfinished">System</translation>
+        <translation>System</translation>
     </message>
     <message>
         <location filename="../src/AboutWindow.cpp" line="160"/>
@@ -255,7 +255,7 @@ Entfernen Sie das Modul nicht, während ein Vorgang ausgeführt wird.</translati
     <message>
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="151"/>
         <source>Emulator Settings</source>
-        <translation type="unfinished">Emulator Einstellungen</translation>
+        <translation>Emulator Einstellungen</translation>
     </message>
     <message>
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="152"/>
@@ -324,27 +324,27 @@ Entfernen Sie das Modul nicht, während ein Vorgang ausgeführt wird.</translati
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="107"/>
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="109"/>
         <source>Game Boy</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="110"/>
         <source>Game Boy Color</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="111"/>
         <source>Game Boy Advance</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="112"/>
         <source>Super Nintendo</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="113"/>
         <source>Nintendo 64</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
 </context>
 <context>
@@ -401,22 +401,22 @@ Entfernen Sie das Modul nicht, während ein Vorgang ausgeführt wird.</translati
     <message>
         <location filename="../src/DeviceSettingsScreen.cpp" line="131"/>
         <source>Static</source>
-        <translation type="unfinished">Statisch</translation>
+        <translation>Statisch</translation>
     </message>
     <message>
         <location filename="../src/DeviceSettingsScreen.cpp" line="133"/>
         <source>Dark</source>
-        <translation type="unfinished">Dunkel</translation>
+        <translation>Dunkel</translation>
     </message>
     <message>
         <location filename="../src/DeviceSettingsScreen.cpp" line="135"/>
         <source>Pulse</source>
-        <translation type="unfinished">Pulsierend</translation>
+        <translation>Pulsierend</translation>
     </message>
     <message>
         <location filename="../src/DeviceSettingsScreen.cpp" line="137"/>
         <source>Strobe</source>
-        <translation type="unfinished">Stroboskop</translation>
+        <translation>Stroboskop</translation>
     </message>
 </context>
 <context>
