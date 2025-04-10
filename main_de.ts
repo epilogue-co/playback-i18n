@@ -6,12 +6,12 @@
     <message>
         <location filename="../src/AboutWindow.cpp" line="157"/>
         <source>Playback</source>
-        <translation type="unfinished"></translation>
+        <translation>Playback</translation>
     </message>
     <message>
         <location filename="../src/AboutWindow.cpp" line="158"/>
         <source>Firmware</source>
-        <translation type="unfinished"></translation>
+        <translation>Firmware</translation>
     </message>
     <message>
         <location filename="../src/AboutWindow.cpp" line="159"/>
@@ -21,7 +21,7 @@
     <message>
         <location filename="../src/AboutWindow.cpp" line="160"/>
         <source>Serial</source>
-        <translation type="unfinished"></translation>
+        <translation>Seriennummer</translation>
     </message>
     <message>
         <location filename="../src/AboutWindow.cpp" line="184"/>
@@ -250,7 +250,7 @@ Entfernen Sie das Modul nicht, während ein Vorgang ausgeführt wird.</translati
     <message>
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="150"/>
         <source>Cartridge Autosave</source>
-        <translation type="unfinished"></translation>
+        <translation>Automatische Speicherung auf Modul</translation>
     </message>
     <message>
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="151"/>
@@ -260,22 +260,22 @@ Entfernen Sie das Modul nicht, während ein Vorgang ausgeführt wird.</translati
     <message>
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="152"/>
         <source>Cheats</source>
-        <translation type="unfinished"></translation>
+        <translation>Cheats</translation>
     </message>
     <message>
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="153"/>
         <source>Controller Support</source>
-        <translation type="unfinished"></translation>
+        <translation>Controller-Unterstützung</translation>
     </message>
     <message>
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="154"/>
         <source>Shaders</source>
-        <translation type="unfinished"></translation>
+        <translation>Shader</translation>
     </message>
     <message>
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="155"/>
         <source>Rumble</source>
-        <translation type="unfinished"></translation>
+        <translation>Rumble</translation>
     </message>
 </context>
 <context>
@@ -547,7 +547,7 @@ Entfernen Sie das Modul nicht, während ein Vorgang ausgeführt wird.</translati
         <location filename="../src/Emulator.cpp" line="39"/>
         <location filename="../src/Emulator.cpp" line="753"/>
         <source>Graphics Hardware Not Supported</source>
-        <translation type="unfinished"></translation>
+        <translation>Grafikhardware wird nicht unterstützt</translation>
     </message>
     <message>
         <location filename="../src/Emulator.cpp" line="40"/>
@@ -559,17 +559,24 @@ Renderer: %2
 Vendor: %3
 
 Please ensure your graphics drivers are up to date.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ihre Grafikhardware erfüllt nicht die Mindestanforderungen.
+
+OpenGL Details:
+Version: %1
+Renderer: %2
+Anbieter: %3
+
+Bitte stellen Sie sicher, dass Ihre Grafiktreiber auf dem neuesten Stand sind.</translation>
     </message>
     <message>
         <location filename="../src/Emulator.cpp" line="54"/>
         <source>OpenGL Initialization Error</source>
-        <translation type="unfinished"></translation>
+        <translation>OpenGL-Initialisierungsfehler</translation>
     </message>
     <message>
         <location filename="../src/Emulator.cpp" line="55"/>
         <source>Failed to initialize OpenGL context. This application requires OpenGL 3.2 or higher (or OpenGL ES 2.0+). Please ensure your graphics drivers are up to date.</source>
-        <translation type="unfinished"></translation>
+        <translation>Der OpenGL-Kontext konnte nicht initialisiert werden. Diese Anwendung erfordert OpenGL 3.2 oder höher (oder OpenGL ES 2.0+). Bitte stellen Sie sicher, dass Ihre Grafiktreiber auf dem neuesten Stand sind.</translation>
     </message>
     <message>
         <location filename="../src/Emulator.cpp" line="531"/>
@@ -600,7 +607,13 @@ OpenGL Details:
 Version: %2
 Renderer: %3
 Vendor: %4</source>
-        <translation type="unfinished"></translation>
+        <translation>Ihre Grafikhardware erfüllt nicht die Mindestanforderungen:
+
+%1
+OpenGL Details:
+Version: %2
+Renderer: %3
+Anbieter: %4</translation>
     </message>
 </context>
 <context>
@@ -609,7 +622,7 @@ Vendor: %4</source>
         <location filename="../src/EmulatorControlsDropdownWidget.cpp" line="146"/>
         <location filename="../src/EmulatorControlsDropdownWidget.cpp" line="169"/>
         <source>  Install shaders...</source>
-        <translation type="unfinished"></translation>
+        <translation>  Shader installieren...</translation>
     </message>
 </context>
 <context>
@@ -893,7 +906,7 @@ Sie können versuchen, das Modul zu reinigen und erneut in das Gerät einzusetze
     <message>
         <location filename="../src/ManagePageOperation.cpp" line="117"/>
         <source>The file you have selected is %0, while the memory on the device is reported as %1. Would you like to proceed?</source>
-        <translation type="unfinished"></translation>
+        <translation>Die von Ihnen ausgewählte Datei ist %0, während der Speicher auf dem Gerät als %1 angegeben wird. Möchten Sie fortfahren?</translation>
     </message>
     <message>
         <location filename="../src/ManagePageOperation.cpp" line="211"/>
@@ -1146,7 +1159,7 @@ Wenn Sie alle Bilder von Ihrer Kamera entfernen möchten, ohne diese einzeln in 
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="94"/>
         <source>Pixel Perfect Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Pixel-Perfect-Modus</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="95"/>
@@ -1156,7 +1169,7 @@ Wenn Sie alle Bilder von Ihrer Kamera entfernen möchten, ohne diese einzeln in 
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="116"/>
         <source>When enabled, games are displayed with integer scaling to ensure pixels are displayed at exact multiples of their original size. This eliminates graphical artifacts and preserves the authentic look of retro games at the expense of some screen space.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wenn diese Option aktiviert ist, werden Spiele mit ganzzahliger Skalierung angezeigt, um sicherzustellen, dass Pixel in exakten Vielfachen ihrer ursprünglichen Größe dargestellt werden. Dies beseitigt grafische Artefakte und bewahrt das authentische Aussehen von Retro-Spielen auf Kosten von etwas Bildschirmfläche.</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="120"/>
