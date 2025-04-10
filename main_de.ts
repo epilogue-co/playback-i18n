@@ -21,7 +21,7 @@
     <message>
         <location filename="../src/AboutWindow.cpp" line="155"/>
         <source>Core Version</source>
-        <translation>Kernversion</translation>
+        <translation>Emulatorversion</translation>
     </message>
     <message>
         <location filename="../src/AboutWindow.cpp" line="179"/>
@@ -67,7 +67,7 @@
 P.S. If you choose to skip the tour now, you won’t be prompted to take it again.</source>
         <translation>Lass uns ein Paar der Features auschecken!
 
-P.S. Wenn Sie die Tour überspringen, werden Sie nicht mehr gefragt Sie zu nehmen.</translation>
+P.S. Wenn Sie die Tour überspringen wird sie Ihnen nicht mehr angezeigt.</translation>
     </message>
     <message>
         <location filename="../src/AppTour.cpp" line="69"/>
@@ -77,7 +77,7 @@ P.S. Wenn Sie die Tour überspringen, werden Sie nicht mehr gefragt Sie zu nehme
     <message>
         <location filename="../src/AppTour.cpp" line="69"/>
         <source>Skip Tour</source>
-        <translation>Überspringe Tour</translation>
+        <translation>Überspringen</translation>
     </message>
     <message>
         <location filename="../src/AppTour.cpp" line="77"/>
@@ -87,7 +87,7 @@ P.S. Wenn Sie die Tour überspringen, werden Sie nicht mehr gefragt Sie zu nehme
     <message>
         <location filename="../src/AppTour.cpp" line="77"/>
         <source>End Tour</source>
-        <translation>Beende Tour</translation>
+        <translation>Beenden</translation>
     </message>
 </context>
 <context>
@@ -109,7 +109,7 @@ P.S. Wenn Sie die Tour überspringen, werden Sie nicht mehr gefragt Sie zu nehme
     <message>
         <location filename="../src/CartDetailsWidget.cpp" line="292"/>
         <source>The description of this cartridge can’t be displayed since it’s not in our database. You can use the link below to open a ticket and we’ll add the game info to the database. Please feel free to contact us even if it’s a homebrew game you made if you’d like to have your artwork displayed here.</source>
-        <translation>Die Beschreibung dieses Moduls kann nicht angezeigt werden, da sie sich nicht in unserer Datenbank befindet. Du kannst den untenstehenden Link benutzen, um ein Ticket zu öffnen, und wir werden das Spiel in die Datenbank aufnehmen. Bitte kontaktieren Sie uns, auch wenn es sich um ein selbst entwickeltes Spiel handelt, wenn Sie Ihr Artwork hier anzeigen lassen möchten.</translation>
+        <translation>Die Beschreibung dieses Moduls kann nicht angezeigt werden, da sie sich nicht in unserer Datenbank befindet. Sie können den untenstehenden Link benutzen, um ein Ticket zu öffnen, und wir werden das Spiel in die Datenbank aufnehmen. Bitte kontaktieren Sie uns, auch wenn es sich um ein selbst entwickeltes Spiel handelt, wenn Sie Ihr Artwork hier anzeigen lassen möchten.</translation>
     </message>
     <message>
         <location filename="../src/CartDetailsWidget.cpp" line="299"/>
@@ -193,12 +193,12 @@ Entfernen Sie das Modul nicht, während ein Vorgang ausgeführt wird.</translati
     <message>
         <location filename="../src/CoreCardWidget.cpp" line="181"/>
         <source>Load Custom Core</source>
-        <translation>Lade Benutzerdefinierter Kern</translation>
+        <translation>Lade benutzerdefinierten Emulator</translation>
     </message>
     <message>
         <location filename="../src/CoreCardWidget.cpp" line="182"/>
         <source>Cores (*%1)</source>
-        <translation>Kerne (*%1)</translation>
+        <translation>Emulatoren (*%1)</translation>
     </message>
     <message>
         <location filename="../src/CoreCardWidget.cpp" line="244"/>
@@ -226,7 +226,7 @@ Entfernen Sie das Modul nicht, während ein Vorgang ausgeführt wird.</translati
     <message>
         <location filename="../src/CoreCardWidget.cpp" line="277"/>
         <source>Failed to download core</source>
-        <translation>Fehler beim herunterladen des Kerns</translation>
+        <translation>Fehler beim herunterladen des Emulators</translation>
     </message>
     <message>
         <location filename="../src/CoreCardWidget.cpp" line="284"/>
@@ -264,27 +264,27 @@ Entfernen Sie das Modul nicht, während ein Vorgang ausgeführt wird.</translati
         <location filename="../src/CoreSelectorScreen.cpp" line="75"/>
         <location filename="../src/CoreSelectorScreen.cpp" line="216"/>
         <source>Alternative Core</source>
-        <translation>Alternativer Kern</translation>
+        <translation>Alternativer Emulator</translation>
     </message>
     <message>
         <location filename="../src/CoreSelectorScreen.cpp" line="208"/>
         <source>Select Core</source>
-        <translation>Wähler Kern</translation>
+        <translation>Emulator wählen</translation>
     </message>
     <message>
         <location filename="../src/CoreSelectorScreen.cpp" line="210"/>
         <source>You can change the emulation core for your Operator device. Download a core online or provide your own, but remember: only some cores are fully supported by Epilogue ensure complete feature compatibility.</source>
-        <translation>Sie können den Emulationskern für Ihr Operator-Gerät ändern. Laden Sie einen Kern online herunter oder stellen Sie Ihren eigenen bereit, aber denken Sie daran: Nur einige Kerne werden von Epilogue vollständig unterstützt.</translation>
+        <translation>Sie können den Emulator für Ihren Operator ändern. Laden Sie einen Emulator online herunter oder stellen Sie Ihren eigenen bereit, doch bedenken Sie, dass nur einige Emulatoren vollständig von Epilogue unterstützt werden.</translation>
     </message>
     <message>
         <location filename="../src/CoreSelectorScreen.cpp" line="212"/>
         <source>Custom Core</source>
-        <translation>Benutzerdefinierter Kern</translation>
+        <translation>Benutzerdefinierter Emulator</translation>
     </message>
     <message>
         <location filename="../src/CoreSelectorScreen.cpp" line="213"/>
         <source>Your own core</source>
-        <translation>Ihr Eigener Kern</translation>
+        <translation>Ihr eigener Emulator</translation>
     </message>
 </context>
 <context>
@@ -354,7 +354,7 @@ Entfernen Sie das Modul nicht, während ein Vorgang ausgeführt wird.</translati
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="66"/>
         <source>Playback detected a contact connection issue. Please clean the cartridge pins, reinsert the cartridge properly, and try again for improved accuracy.</source>
-        <translation>Playback hat ein Problem mit der Kontaktverbindung erkannt. Bitte reinige die Modulpins, setze das Modul richtig ein und versuche erneut.</translation>
+        <translation>Playback hat ein Problem mit der Kontaktverbindung erkannt. Bitte reinigen Sie die Modulpins, setze das Modul richtig ein und versuchen Sie es erneut.</translation>
     </message>
     <message>
         <location filename="../src/DeviceHardwareOperations.cpp" line="110"/>
@@ -542,7 +542,7 @@ Entfernen Sie das Modul nicht, während ein Vorgang ausgeführt wird.</translati
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="239"/>
         <source>Core</source>
-        <translation>Kern</translation>
+        <translation>Emulator</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="244"/>
@@ -557,12 +557,12 @@ Entfernen Sie das Modul nicht, während ein Vorgang ausgeführt wird.</translati
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="246"/>
         <source>Core settings</source>
-        <translation>Kern Einstellungen</translation>
+        <translation>Emulator Einstellungen</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="253"/>
         <source>RTC Battery State Emulation</source>
-        <translation>RTC Batterie Status Emulation</translation>
+        <translation>RTC Batterie Emulation</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="266"/>
@@ -587,7 +587,7 @@ Entfernen Sie das Modul nicht, während ein Vorgang ausgeführt wird.</translati
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="271"/>
         <source>With this setting Enabled, the in-app emulator will match the state of your cartridge’s battery (dry/not dry). Leave the option Disabled if your cartridge battery is dry, but you still want the emulated game to offer in-game time-based events.</source>
-        <translation>Wenn diese Einstellung aktiviert ist, passt sich der In-App Emulator dem Zustand des Akkus Ihres Moduls an (trocken/nicht trocken). Lassen Sie die Option Deaktiviert, wenn Ihre Modul-Batterie trocken ist, Sie aber dennoch möchten, dass das emulierte Spiel zeitbasierte Ereignisse im Spiel bietet.</translation>
+        <translation>Wenn diese Einstellung aktiviert ist, passt sich der In-App Emulator dem Zustand der internen Batterie Ihres Moduls an (leer / voll). Lassen Sie die Option deaktiviert, wenn Ihre Modul-Batterie leer ist, Sie aber dennoch möchten, dass das emulierte Spiel zeitbasierte Ereignisse im Spiel bietet.</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="276"/>
@@ -839,6 +839,7 @@ Sie können versuchen, das Modul zu reinigen und erneut in das Gerät einzusetze
         <location filename="../src/Navbar.cpp" line="213"/>
         <source>Loading save...</source>
         <translation>Lade Spielstand...</translation>
+        <translation>Lade Spielstand...</translation>
     </message>
     <message>
         <location filename="../src/Navbar.cpp" line="215"/>
@@ -904,7 +905,7 @@ Sie können versuchen, das Modul zu reinigen und erneut in das Gerät einzusetze
     <message>
         <location filename="../src/NavbarLogoDropdown.cpp" line="127"/>
         <source>Vault</source>
-        <translation>Vault</translation>
+        <translation>Tresor</translation>
     </message>
     <message>
         <location filename="../src/NavbarLogoDropdown.cpp" line="128"/>
@@ -981,7 +982,7 @@ Sie können versuchen, das Modul zu reinigen und erneut in das Gerät einzusetze
     <message>
         <location filename="../src/PhotosPage.cpp" line="315"/>
         <source>Found %1 photos on your Game Boy Camera.</source>
-        <translation>%1 Foto wurde auf Ihrer Game Boy Camera gefunden.</translation>
+        <translation>%1 Fotos wurden auf Ihrer Game Boy Camera gefunden.</translation>
     </message>
     <message>
         <location filename="../src/PhotosPage.cpp" line="318"/>
@@ -991,7 +992,7 @@ Sie können versuchen, das Modul zu reinigen und erneut in das Gerät einzusetze
     <message>
         <location filename="../src/PhotosPage.cpp" line="322"/>
         <source>Found no photos on your Game Boy Camera.</source>
-        <translation>Keine Fotos wurden auf ihrer Game Boy Camera gefunden.</translation>
+        <translation>Es wurden keine Fotos auf Ihrer Game Boy Camera gefunden.</translation>
     </message>
     <message>
         <location filename="../src/PhotosPage.cpp" line="350"/>
@@ -1215,7 +1216,7 @@ Wenn Sie alle Bilder von Ihrer Kamera entfernen möchten, ohne diese einzeln in 
     </message>
     <message>
         <source>Core Version</source>
-        <translation type="vanished">Kernversion</translation>
+        <translation type="vanished">Emulatorversion</translation>
     </message>
     <message>
         <source>Unknown title</source>
@@ -1223,7 +1224,7 @@ Wenn Sie alle Bilder von Ihrer Kamera entfernen möchten, ohne diese einzeln in 
     </message>
     <message>
         <source>The description of this cartridge can’t be displayed since it’s not in our database. You can use the link below to open a ticket and we’ll add the game info to the database. Please feel free to contact us even if it’s a homebrew game you made if you’d like to have your artwork displayed here.</source>
-        <translation type="vanished">Die Beschreibung dieses Moduls kann nicht angezeigt werden, da sie sich nicht in unserer Datenbank befindet. Du kannst den untenstehenden Link benutzen, um ein Ticket zu öffnen, und wir werden das Spiel in die Datenbank aufnehmen. Bitte kontaktieren Sie uns, auch wenn es sich um ein selbst entwickeltes Spiel handelt, wenn Sie Ihr Artwork hier anzeigen lassen möchten.</translation>
+        <translation type="vanished">Die Beschreibung dieses Moduls kann nicht angezeigt werden, da sie sich nicht in unserer Datenbank befindet. Sie können den untenstehenden Link benutzen, um ein Ticket zu öffnen, und wir werden das Spiel in die Datenbank aufnehmen. Bitte kontaktieren Sie uns, auch wenn es sich um ein selbst entwickeltes Spiel handelt, wenn Sie Ihr Artwork hier anzeigen lassen möchten.</translation>
     </message>
     <message>
         <source>Submit cartridge information</source>
@@ -1381,12 +1382,12 @@ Bitte stellen Sie sicher, dass es angeschlossen ist.</translation>
     <message>
         <location filename="../src/SettingsWindow.cpp" line="246"/>
         <source>Core Load Failed</source>
-        <translation>Laden des Kerns fehlgeschlagen</translation>
+        <translation>Laden des Emulators fehlgeschlagen</translation>
     </message>
     <message>
         <location filename="../src/SettingsWindow.cpp" line="246"/>
         <source>Failed to load core. Please load a valid core.</source>
-        <translation>Fehler beim laden des Kerns. Bitte wähle einen gültigen Kern.</translation>
+        <translation>Fehler beim laden des Emulators. Bitte wähle einen gültigen Emulator.</translation>
     </message>
     <message>
         <location filename="../src/SettingsWindow.cpp" line="276"/>
@@ -1396,12 +1397,12 @@ Bitte stellen Sie sicher, dass es angeschlossen ist.</translation>
     <message>
         <location filename="../src/SettingsWindow.cpp" line="278"/>
         <source>Core Selector</source>
-        <translation>Kern-Selektor</translation>
+        <translation>Emulator Auswahl</translation>
     </message>
     <message>
         <location filename="../src/SettingsWindow.cpp" line="279"/>
         <source>Emulator Settings</source>
-        <translation>Emulator-Einstellungen</translation>
+        <translation>Emulator Einstellungen</translation>
     </message>
     <message>
         <location filename="../src/SettingsWindow.cpp" line="280"/>
@@ -1562,7 +1563,7 @@ Tipp: Verwenden Sie externe Programme, um Events im Spiel auszulösen oder das G
         <location filename="../src/Window.cpp" line="159"/>
         <location filename="../src/Window.cpp" line="366"/>
         <source>A new device update is available</source>
-        <translation>Ein neues Geräte-Update ist verfügbar</translation>
+        <translation>Ein neues Geräteupdate ist verfügbar</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="159"/>
@@ -1608,22 +1609,22 @@ Tipp: Verwenden Sie externe Programme, um Events im Spiel auszulösen oder das G
     <message>
         <location filename="../src/Window.cpp" line="418"/>
         <source>Configure parameters to make the app your own.</source>
-        <translation>Konfiguriere Parameter um die App an Ihren Bedürfnissen anzupassen.</translation>
+        <translation>Konfigurieren Sie Parameter um die App an Ihre Bedürfnisse anzupassen.</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="425"/>
         <source>Save Vault</source>
-        <translation>Spielstand Vault</translation>
+        <translation>Spielstand Tresor</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="426"/>
         <source>Access and manage saves created automatically in the &lt;a href=&quot;#&quot; style=&apos;color: white&apos;&gt;Save Vault&lt;/a&gt;.</source>
-        <translation>Zugriff auf und Verwaltung von automatisch im &lt;a href=&quot;#&quot; style=&apos;color: white&apos;&gt;Save Vault&lt;/a&gt; erstellten Spielständen.</translation>
+        <translation>Zugriff und Verwaltung von automatisch im &lt;a href=&quot;#&quot; style=&apos;color: white&apos;&gt;Spielstand Tresor&lt;/a&gt; erstellten Spielständen.</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="434"/>
         <source>Device Switcher</source>
-        <translation>Geräte Wechsler</translation>
+        <translation>Geräte Auswahl</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="435"/>
@@ -1638,7 +1639,7 @@ Tipp: Verwenden Sie externe Programme, um Events im Spiel auszulösen oder das G
     <message>
         <location filename="../src/Window.cpp" line="443"/>
         <source>Your cartridge has been analysed for some of the most common counterfeit markers.</source>
-        <translation>Ihr Modul wurde auf die häufigsten vorkommenden Fälschungsanzeichen überprüft.</translation>
+        <translation>Ihr Modul wurde auf die am häufigsten auftrenden Fälschungsanzeichen überprüft.</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="450"/>
@@ -1648,7 +1649,7 @@ Tipp: Verwenden Sie externe Programme, um Events im Spiel auszulösen oder das G
     <message>
         <location filename="../src/Window.cpp" line="451"/>
         <source>Backup, transfer and manage official/homebrew game and save data.</source>
-        <translation>Sichern, übertragen und verwalten Sie offizielle/homebrew Spiel- und Speicherdaten.</translation>
+        <translation>Sichern, übertragen und verwalten Sie offizielle oder homebrew Spiel- und Spielstände.</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="458"/>
@@ -1658,7 +1659,7 @@ Tipp: Verwenden Sie externe Programme, um Events im Spiel auszulösen oder das G
     <message>
         <location filename="../src/Window.cpp" line="459"/>
         <source>Create digital copies of your save data.</source>
-        <translation>Erstelle digitale Kopien deiner Spielstände.</translation>
+        <translation>Erstelle Sie digitale Kopien Ihrer Spielstände.</translation>
     </message>
     <message>
         <location filename="../src/Window.cpp" line="466"/>
@@ -1668,7 +1669,7 @@ Tipp: Verwenden Sie externe Programme, um Events im Spiel auszulösen oder das G
     <message>
         <location filename="../src/Window.cpp" line="467"/>
         <source>Begin archiving the save data.</source>
-        <translation>Beginne Archivierung des Spielstands.</translation>
+        <translation>Beginnt die Archivierung des Spielstands.</translation>
     </message>
 </context>
 </TS>
