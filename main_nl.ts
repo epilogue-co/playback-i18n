@@ -6,12 +6,12 @@
     <message>
         <location filename="../src/AboutWindow.cpp" line="157"/>
         <source>Playback</source>
-        <translation type="unfinished"></translation>
+        <translation>Playback</translation>
     </message>
     <message>
         <location filename="../src/AboutWindow.cpp" line="158"/>
         <source>Firmware</source>
-        <translation type="unfinished"></translation>
+        <translation>Firmware</translation>
     </message>
     <message>
         <location filename="../src/AboutWindow.cpp" line="159"/>
@@ -21,7 +21,7 @@
     <message>
         <location filename="../src/AboutWindow.cpp" line="160"/>
         <source>Serial</source>
-        <translation type="unfinished"></translation>
+        <translation>Serienummer</translation>
     </message>
     <message>
         <location filename="../src/AboutWindow.cpp" line="184"/>
@@ -251,7 +251,7 @@ Verwijder de cartridge niet terwijl er een bewerking bezig is.</translation>
     <message>
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="150"/>
         <source>Cartridge Autosave</source>
-        <translation type="unfinished"></translation>
+        <translation>Automatisch opslaan cartridge</translation>
     </message>
     <message>
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="151"/>
@@ -261,22 +261,22 @@ Verwijder de cartridge niet terwijl er een bewerking bezig is.</translation>
     <message>
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="152"/>
         <source>Cheats</source>
-        <translation type="unfinished"></translation>
+        <translation>Cheats</translation>
     </message>
     <message>
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="153"/>
         <source>Controller Support</source>
-        <translation type="unfinished"></translation>
+        <translation>Controllerondersteuning</translation>
     </message>
     <message>
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="154"/>
         <source>Shaders</source>
-        <translation type="unfinished"></translation>
+        <translation>Shaders</translation>
     </message>
     <message>
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="155"/>
         <source>Rumble</source>
-        <translation type="unfinished"></translation>
+        <translation>Trilfunctie</translation>
     </message>
 </context>
 <context>
@@ -325,27 +325,27 @@ Verwijder de cartridge niet terwijl er een bewerking bezig is.</translation>
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="107"/>
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="109"/>
         <source>Game Boy</source>
-        <translation type="unfinished"></translation>
+        <translation>Game Boy</translation>
     </message>
     <message>
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="110"/>
         <source>Game Boy Color</source>
-        <translation type="unfinished"></translation>
+        <translation>Game Boy Color</translation>
     </message>
     <message>
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="111"/>
         <source>Game Boy Advance</source>
-        <translation type="unfinished"></translation>
+        <translation>Game Boy Advance</translation>
     </message>
     <message>
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="112"/>
         <source>Super Nintendo</source>
-        <translation type="unfinished"></translation>
+        <translation>Super Nintendo</translation>
     </message>
     <message>
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="113"/>
         <source>Nintendo 64</source>
-        <translation type="unfinished"></translation>
+        <translation>Nintendo 64</translation>
     </message>
 </context>
 <context>
@@ -548,7 +548,7 @@ Verwijder de cartridge niet terwijl er een bewerking bezig is.</translation>
         <location filename="../src/Emulator.cpp" line="39"/>
         <location filename="../src/Emulator.cpp" line="753"/>
         <source>Graphics Hardware Not Supported</source>
-        <translation type="unfinished"></translation>
+        <translation>Grafische hardware niet ondersteund</translation>
     </message>
     <message>
         <location filename="../src/Emulator.cpp" line="40"/>
@@ -560,17 +560,24 @@ Renderer: %2
 Vendor: %3
 
 Please ensure your graphics drivers are up to date.</source>
-        <translation type="unfinished"></translation>
+        <translation>Uw grafische hardware voldoet niet aan de minimale vereisten.
+
+OpenGL details:
+Versie: %1
+Renderer: %2
+Leverancier: %3
+
+Zorg ervoor dat uw grafische stuurprogramma's up-to-date zijn.</translation>
     </message>
     <message>
         <location filename="../src/Emulator.cpp" line="54"/>
         <source>OpenGL Initialization Error</source>
-        <translation type="unfinished"></translation>
+        <translation>OpenGL-initialisatiefout</translation>
     </message>
     <message>
         <location filename="../src/Emulator.cpp" line="55"/>
         <source>Failed to initialize OpenGL context. This application requires OpenGL 3.2 or higher (or OpenGL ES 2.0+). Please ensure your graphics drivers are up to date.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kan OpenGL-context niet initialiseren. Deze applicatie vereist OpenGL 3.2 of hoger (of OpenGL ES 2.0+). Zorg ervoor dat uw grafische stuurprogramma's up-to-date zijn.</translation>
     </message>
     <message>
         <location filename="../src/Emulator.cpp" line="531"/>
@@ -601,7 +608,13 @@ OpenGL Details:
 Version: %2
 Renderer: %3
 Vendor: %4</source>
-        <translation type="unfinished"></translation>
+        <translation>Uw grafische hardware voldoet niet aan de minimale vereisten:
+
+%1
+OpenGL details:
+Versie: %2
+Renderer: %3
+Leverancier: %4</translation>
     </message>
 </context>
 <context>
@@ -610,7 +623,7 @@ Vendor: %4</source>
         <location filename="../src/EmulatorControlsDropdownWidget.cpp" line="146"/>
         <location filename="../src/EmulatorControlsDropdownWidget.cpp" line="169"/>
         <source>  Install shaders...</source>
-        <translation type="unfinished"></translation>
+        <translation>  Shaders installeren...</translation>
     </message>
 </context>
 <context>
@@ -894,7 +907,7 @@ Je kunt proberen de cartridge schoon te maken en vervolgens opnieuw in het appar
     <message>
         <location filename="../src/ManagePageOperation.cpp" line="117"/>
         <source>The file you have selected is %0, while the memory on the device is reported as %1. Would you like to proceed?</source>
-        <translation type="unfinished"></translation>
+        <translation>Het bestand dat u hebt geselecteerd is %0, terwijl het geheugen op het apparaat wordt gerapporteerd als %1. Wilt u doorgaan?</translation>
     </message>
     <message>
         <location filename="../src/ManagePageOperation.cpp" line="211"/>
@@ -1147,7 +1160,7 @@ Als je gemakkelijk alle foto&apos;s van je camera wilt verwijderen, zonder ze é
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="94"/>
         <source>Pixel Perfect Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Pixel Perfect-modus</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="95"/>
@@ -1157,7 +1170,7 @@ Als je gemakkelijk alle foto&apos;s van je camera wilt verwijderen, zonder ze é
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="116"/>
         <source>When enabled, games are displayed with integer scaling to ensure pixels are displayed at exact multiples of their original size. This eliminates graphical artifacts and preserves the authentic look of retro games at the expense of some screen space.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wanneer ingeschakeld, worden spellen weergegeven met gehele getallen als schaalfactor om ervoor te zorgen dat pixels worden weergegeven op exacte veelvouden van hun oorspronkelijke grootte. Dit elimineert grafische artefacten en behoudt de authentieke look van retrospellen ten koste van wat schermruimte.</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="120"/>
