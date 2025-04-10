@@ -4,51 +4,47 @@
 <context>
     <name>AboutWindow</name>
     <message>
-        <location filename="../src/AboutWindow.cpp" line="152"/>
-        <source>Software</source>
-        <translation>Software</translation>
+        <location filename="../src/AboutWindow.cpp" line="157"/>
+        <source>Playback</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/AboutWindow.cpp" line="153"/>
-        <source>Device Version</source>
-        <translation>Versiunea dispozitivului</translation>
+        <location filename="../src/AboutWindow.cpp" line="158"/>
+        <source>Firmware</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/AboutWindow.cpp" line="154"/>
-        <source>Serial Number</source>
-        <translation>Număr de serie</translation>
+        <location filename="../src/AboutWindow.cpp" line="159"/>
+        <source>System</source>
+        <translation type="unfinished">Sistem</translation>
     </message>
     <message>
-        <location filename="../src/AboutWindow.cpp" line="155"/>
-        <source>Core Version</source>
-        <translation>Versiunea de bază</translation>
+        <location filename="../src/AboutWindow.cpp" line="160"/>
+        <source>Serial</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/AboutWindow.cpp" line="179"/>
+        <location filename="../src/AboutWindow.cpp" line="184"/>
         <source>Software License</source>
         <translation>Licență software</translation>
     </message>
     <message>
-        <location filename="../src/AboutWindow.cpp" line="182"/>
+        <location filename="../src/AboutWindow.cpp" line="187"/>
         <source>About</source>
         <translation>Despre</translation>
     </message>
     <message>
-        <source> Agreement</source>
-        <translation type="vanished"> Acord</translation>
+        <location filename="../src/AboutWindow.cpp" line="192"/>
+        <source>™ and © 2020-2025 Epilogue. &lt;br&gt;All rights reserved. </source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/AboutWindow.cpp" line="187"/>
-        <source>™ and © 2020-2024 Epilogue. &lt;br&gt;All rights reserved. </source>
-        <translation>™ și © 2020-2024 Epilogue. &lt;br&gt;Toate drepturile rezervate. </translation>
-    </message>
-    <message>
-        <location filename="../src/AboutWindow.cpp" line="178"/>
+        <location filename="../src/AboutWindow.cpp" line="183"/>
         <source>Copyright Notices</source>
         <translation>Drepturi de autor</translation>
     </message>
     <message>
-        <location filename="../src/AboutWindow.cpp" line="184"/>
+        <location filename="../src/AboutWindow.cpp" line="189"/>
         <source>Software License Agreement</source>
         <translation>Licență software</translation>
     </message>
@@ -102,47 +98,47 @@ P.S. Dacă alegi să sari peste tur acum, nu vei mai fi întrebat să-l parcurgi
 <context>
     <name>CartDetailsWidget</name>
     <message>
-        <location filename="../src/CartDetailsWidget.cpp" line="451"/>
+        <location filename="../src/CartDetailsWidget.cpp" line="539"/>
         <source>Official cartridge</source>
         <translation>Joc oficial</translation>
     </message>
     <message>
-        <location filename="../src/CartDetailsWidget.cpp" line="453"/>
+        <location filename="../src/CartDetailsWidget.cpp" line="541"/>
         <source>Unrecognized cartridge</source>
         <translation>Joc nerecunoscut</translation>
     </message>
     <message>
-        <location filename="../src/CartDetailsWidget.cpp" line="452"/>
+        <location filename="../src/CartDetailsWidget.cpp" line="540"/>
         <source>Unofficial cartridge</source>
         <translation>Joc neoficial</translation>
     </message>
     <message>
-        <location filename="../src/CartDetailsWidget.cpp" line="286"/>
+        <location filename="../src/CartDetailsWidget.cpp" line="360"/>
         <source>Unknown title</source>
         <translation>Titlu necunoscut</translation>
     </message>
     <message>
-        <location filename="../src/CartDetailsWidget.cpp" line="292"/>
+        <location filename="../src/CartDetailsWidget.cpp" line="366"/>
         <source>The description of this cartridge can’t be displayed since it’s not in our database. You can use the link below to open a ticket and we’ll add the game info to the database. Please feel free to contact us even if it’s a homebrew game you made if you’d like to have your artwork displayed here.</source>
         <translation>Descrierea acestei casete nu poate fi afișată deoarece nu se află în baza noastră de date. Poți folosi linkul de mai jos pentru a deschide un tichet și vom adăuga informațiile despre joc în baza de date. Te rugăm să nu eziți să ne contactezi chiar dacă este un joc homebrew făcut de tine și dorești să-ți afișăm artwork-ul aici.</translation>
     </message>
     <message>
-        <location filename="../src/CartDetailsWidget.cpp" line="299"/>
+        <location filename="../src/CartDetailsWidget.cpp" line="373"/>
         <source>Submit cartridge information</source>
         <translation>Trimite informații despre casetă</translation>
     </message>
     <message>
-        <location filename="../src/CartDetailsWidget.cpp" line="314"/>
+        <location filename="../src/CartDetailsWidget.cpp" line="388"/>
         <source>Unknown developer</source>
         <translation>Dezvoltator necunoscut</translation>
     </message>
     <message>
-        <location filename="../src/CartDetailsWidget.cpp" line="454"/>
+        <location filename="../src/CartDetailsWidget.cpp" line="542"/>
         <source>Read-only cartridge</source>
         <translation>Joc read-only</translation>
     </message>
     <message>
-        <location filename="../src/CartDetailsWidget.cpp" line="455"/>
+        <location filename="../src/CartDetailsWidget.cpp" line="543"/>
         <source>Rewritable cartridge</source>
         <translation>Joc reinscriptibil</translation>
     </message>
@@ -150,12 +146,12 @@ P.S. Dacă alegi să sari peste tur acum, nu vei mai fi întrebat să-l parcurgi
 <context>
     <name>CartSearchPage</name>
     <message>
-        <location filename="../src/CartSearchPage.cpp" line="56"/>
+        <location filename="../src/CartSearchPage.cpp" line="58"/>
         <source>Please insert a cartridge</source>
         <translation>Introdu o casetă</translation>
     </message>
     <message>
-        <location filename="../src/CartSearchPage.cpp" line="54"/>
+        <location filename="../src/CartSearchPage.cpp" line="56"/>
         <source>Make sure your cartridge is properly inserted and its pins are clean.
 Do not remove the cartridge while any operation is running.</source>
         <translation>Asigură-te că caseta este introdusă corect și că pinii acesteia sunt curați.
@@ -224,22 +220,22 @@ Nu scoate caseta în timp ce se desfășoară orice operațiune.</translation>
 <context>
     <name>CoreDownloader</name>
     <message>
-        <location filename="../src/CoreCardWidget.cpp" line="277"/>
+        <location filename="../src/CoreCardWidget.cpp" line="278"/>
         <source>Failed to download core</source>
         <translation>Nu s-a putut descărca core-ul</translation>
     </message>
     <message>
-        <location filename="../src/CoreCardWidget.cpp" line="284"/>
+        <location filename="../src/CoreCardWidget.cpp" line="285"/>
         <source>Failed to open file for writing</source>
         <translation>Nu s-a putut scrie fișierul</translation>
     </message>
     <message>
-        <location filename="../src/CoreCardWidget.cpp" line="294"/>
+        <location filename="../src/CoreCardWidget.cpp" line="295"/>
         <source>Failed to open zip file</source>
         <translation>Nu s-a putut deschide fișierul zip</translation>
     </message>
     <message>
-        <location filename="../src/CoreCardWidget.cpp" line="336"/>
+        <location filename="../src/CoreCardWidget.cpp" line="337"/>
         <source>Download Error</source>
         <translation>Eroare de descărcare</translation>
     </message>
@@ -247,42 +243,72 @@ Nu scoate caseta în timp ce se desfășoară orice operațiune.</translation>
 <context>
     <name>CoreFeaturesWidget</name>
     <message>
-        <location filename="../src/CoreCapabilitiesWidget.cpp" line="127"/>
+        <location filename="../src/CoreCapabilitiesWidget.cpp" line="148"/>
         <source>Supported Features</source>
         <translation>Funcționalități suportate</translation>
+    </message>
+    <message>
+        <location filename="../src/CoreCapabilitiesWidget.cpp" line="150"/>
+        <source>Cartridge Autosave</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/CoreCapabilitiesWidget.cpp" line="151"/>
+        <source>Emulator Settings</source>
+        <translation type="unfinished">Setări emulator</translation>
+    </message>
+    <message>
+        <location filename="../src/CoreCapabilitiesWidget.cpp" line="152"/>
+        <source>Cheats</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/CoreCapabilitiesWidget.cpp" line="153"/>
+        <source>Controller Support</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/CoreCapabilitiesWidget.cpp" line="154"/>
+        <source>Shaders</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/CoreCapabilitiesWidget.cpp" line="155"/>
+        <source>Rumble</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>CoreSelectorScreen</name>
     <message>
-        <location filename="../src/CoreSelectorScreen.cpp" line="75"/>
-        <location filename="../src/CoreSelectorScreen.cpp" line="216"/>
+        <location filename="../src/CoreSelectorScreen.cpp" line="77"/>
+        <location filename="../src/CoreSelectorScreen.cpp" line="235"/>
         <source>Officially supported</source>
         <translation>Suportat oficial</translation>
     </message>
     <message>
-        <location filename="../src/CoreSelectorScreen.cpp" line="75"/>
-        <location filename="../src/CoreSelectorScreen.cpp" line="216"/>
+        <location filename="../src/CoreSelectorScreen.cpp" line="77"/>
+        <location filename="../src/CoreSelectorScreen.cpp" line="235"/>
         <source>Alternative Core</source>
         <translation>Core alternativ</translation>
     </message>
     <message>
-        <location filename="../src/CoreSelectorScreen.cpp" line="208"/>
+        <location filename="../src/CoreSelectorScreen.cpp" line="224"/>
         <source>Select Core</source>
         <translation>Alege core-ul</translation>
     </message>
     <message>
-        <location filename="../src/CoreSelectorScreen.cpp" line="210"/>
+        <location filename="../src/CoreSelectorScreen.cpp" line="226"/>
         <source>You can change the emulation core for your Operator device. Download a core online or provide your own, but remember: only some cores are fully supported by Epilogue ensure complete feature compatibility.</source>
         <translation>Poți să modifici core-ul folosit pentru emulație pe dispozitivul tău Operator. Descarcă un core online sau încarcă-l pe al tău, dar ține minte: doar core-urile oferite în mod oficial de Epilogue asigură compatibilitatea completă cu toate funcționalitățile aplicației.</translation>
     </message>
     <message>
-        <location filename="../src/CoreSelectorScreen.cpp" line="212"/>
+        <location filename="../src/CoreSelectorScreen.cpp" line="230"/>
         <source>Custom Core</source>
         <translation>Core personalizat</translation>
     </message>
     <message>
-        <location filename="../src/CoreSelectorScreen.cpp" line="213"/>
+        <location filename="../src/CoreSelectorScreen.cpp" line="231"/>
         <source>Your own core</source>
         <translation>Core-ul tău</translation>
     </message>
@@ -293,6 +319,32 @@ Nu scoate caseta în timp ce se desfășoară orice operațiune.</translation>
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="105"/>
         <source>Supported Systems</source>
         <translation>Sisteme suportate</translation>
+    </message>
+    <message>
+        <location filename="../src/CoreCapabilitiesWidget.cpp" line="107"/>
+        <location filename="../src/CoreCapabilitiesWidget.cpp" line="109"/>
+        <source>Game Boy</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/CoreCapabilitiesWidget.cpp" line="110"/>
+        <source>Game Boy Color</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/CoreCapabilitiesWidget.cpp" line="111"/>
+        <source>Game Boy Advance</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/CoreCapabilitiesWidget.cpp" line="112"/>
+        <source>Super Nintendo</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/CoreCapabilitiesWidget.cpp" line="113"/>
+        <source>Nintendo 64</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -334,105 +386,128 @@ Nu scoate caseta în timp ce se desfășoară orice operațiune.</translation>
 <context>
     <name>DeviceBase</name>
     <message>
-        <location filename="../src/DeviceBase.cpp" line="288"/>
+        <location filename="../src/DeviceBase.cpp" line="290"/>
         <source>Save data integrity check failed!</source>
         <translation>Verificarea integrității datelor de salvare a eșuat!</translation>
     </message>
     <message>
-        <location filename="../src/DeviceBase.cpp" line="289"/>
+        <location filename="../src/DeviceBase.cpp" line="291"/>
         <source>The save data appears to be inconsistent between read cycles. Please clean the cartridge pins and try again.</source>
         <translation>Datele de salvare par a fi incoerente între ciclurile de citire. Te rugăm să cureți pinii casetei și să încerci din nou.</translation>
     </message>
 </context>
 <context>
+    <name>DeviceEffectConfigurator</name>
+    <message>
+        <location filename="../src/DeviceSettingsScreen.cpp" line="131"/>
+        <source>Static</source>
+        <translation type="unfinished">Static</translation>
+    </message>
+    <message>
+        <location filename="../src/DeviceSettingsScreen.cpp" line="133"/>
+        <source>Dark</source>
+        <translation type="unfinished">Stins</translation>
+    </message>
+    <message>
+        <location filename="../src/DeviceSettingsScreen.cpp" line="135"/>
+        <source>Pulse</source>
+        <translation type="unfinished">Puls</translation>
+    </message>
+    <message>
+        <location filename="../src/DeviceSettingsScreen.cpp" line="137"/>
+        <source>Strobe</source>
+        <translation type="unfinished">Stroboscop</translation>
+    </message>
+</context>
+<context>
     <name>DeviceHardware</name>
     <message>
-        <location filename="../src/DeviceHardwareOperations.cpp" line="65"/>
+        <location filename="../src/DeviceHardwareOperations.cpp" line="73"/>
         <source>Cartridge Connection Unstable!</source>
         <translation>Conexiunea la casetă instabilă!</translation>
     </message>
     <message>
-        <location filename="../src/DeviceHardwareOperations.cpp" line="66"/>
+        <location filename="../src/DeviceHardwareOperations.cpp" line="74"/>
         <source>Playback detected a contact connection issue. Please clean the cartridge pins, reinsert the cartridge properly, and try again for improved accuracy.</source>
         <translation>Playback a detectat o eroare de conexiune. Te rugăm să cureți pinii casetei, reintrodu caseta și încearcă din nou.</translation>
     </message>
     <message>
-        <location filename="../src/DeviceHardwareOperations.cpp" line="110"/>
+        <location filename="../src/DeviceHardwareOperations.cpp" line="125"/>
         <source>Game Data Integrity Check Failed!</source>
         <translation>Verificarea de date nu a reușit!</translation>
     </message>
     <message>
-        <location filename="../src/DeviceHardwareOperations.cpp" line="111"/>
+        <location filename="../src/DeviceHardwareOperations.cpp" line="126"/>
         <source>Playback detected a discrepancy between the expected game data and the backed up data. Please clean the cartridge pins and try again to ensure accuracy.</source>
         <translation>Playback a detectat o discrepanță a datelor. Te rugăm să cureți pinii și să încerci din nou.</translation>
     </message>
     <message>
-        <location filename="../src/DeviceHardwareOperations.cpp" line="144"/>
+        <location filename="../src/DeviceHardwareOperations.cpp" line="159"/>
         <source>Empty File Was Provided!</source>
         <translation>Ai furnizat un fișier gol!</translation>
     </message>
     <message>
-        <location filename="../src/DeviceHardwareOperations.cpp" line="145"/>
+        <location filename="../src/DeviceHardwareOperations.cpp" line="160"/>
         <source> It looks like the homebrew game you&apos;re trying to upload has been detected by Playback as having 0 bytes. Please verify that the data you&apos;re attempting to upload is accurate.</source>
         <translation> Se pare că jocul homebrew pe care încerci să-l încarci a fost detectat de Playback ca având 0 bytes. Te rugăm să verifici că datele pe care încerci să le încarci sunt corecte.</translation>
     </message>
     <message>
-        <location filename="../src/DeviceHardwareOperations.cpp" line="155"/>
+        <location filename="../src/DeviceHardwareOperations.cpp" line="170"/>
         <source>Upload Homebrew Command Failed!</source>
         <translation>Încărcarea nu a funcționat!</translation>
     </message>
     <message>
-        <location filename="../src/DeviceHardwareOperations.cpp" line="156"/>
+        <location filename="../src/DeviceHardwareOperations.cpp" line="171"/>
         <source>An error occurred while attempting to start the homebrew upload command. Please restart the application and reconnect the Operator device. If the problem continues, contact our Support team.</source>
         <translation>O eroare a apărut în timp ce am trimis comanda de scriere de joc. Te rugăm să dai restart la aplicație și să reconectezi dispozitivul Operator. Dacă problema persistă, contactează echipa noastră de suport.</translation>
     </message>
     <message>
-        <location filename="../src/DeviceHardwareOperations.cpp" line="185"/>
+        <location filename="../src/DeviceHardwareOperations.cpp" line="200"/>
         <source>Homebrew Cartridge Erase Failed!</source>
         <translation>Ștergerea datelor de pe casetă a eșuat!</translation>
     </message>
     <message>
-        <location filename="../src/DeviceHardwareOperations.cpp" line="186"/>
+        <location filename="../src/DeviceHardwareOperations.cpp" line="201"/>
         <source>Playback couldn&apos;t delete the contents of the homebrew cartridge. Please clean the cartridge pins and try again. If the issue persists, contact our Support team.</source>
         <translation>Playback nu a reușit să șteargă datele jocului de pe casetă. Te rugăm să cureți pinii casetei și să încerci din nou. Dacă problema persistă, contactează echipa de suport.</translation>
     </message>
     <message>
-        <location filename="../src/DeviceHardwareOperations.cpp" line="205"/>
+        <location filename="../src/DeviceHardwareOperations.cpp" line="220"/>
         <source>Homebrew Cartridge Data Integrity Check Failed!</source>
         <translation>Verificarea datelor homebrew a eșuat!</translation>
     </message>
     <message>
-        <location filename="../src/DeviceHardwareOperations.cpp" line="206"/>
+        <location filename="../src/DeviceHardwareOperations.cpp" line="221"/>
         <source>The cartridge was erased successfully, but the data written does not match the data read back. This issue might occur with some homebrew cartridges. Make sure the game is playable, either by testing on an original console or in the Playback app.</source>
         <translation>Jocul de pe casetă a fost șters cu succes, dar datele scrise nu coincid cu datele citite în procesul de verificare. Aceasta eroare este acceptabilă pe unele casete de homebrew. Te rugăm să te asiguri că jocul functionează, fie pe consola originală, fie în Playback.</translation>
     </message>
     <message>
-        <location filename="../src/DeviceHardwareOperations.cpp" line="240"/>
+        <location filename="../src/DeviceHardwareOperations.cpp" line="255"/>
         <source>Written game data integrity check failed</source>
         <translation>Eroare în verificarea datelor jocului</translation>
     </message>
     <message>
-        <location filename="../src/DeviceHardwareOperations.cpp" line="240"/>
+        <location filename="../src/DeviceHardwareOperations.cpp" line="255"/>
         <source>Read data does not match written data.</source>
         <translation>Datele citite nu coincid cu datele scrise.</translation>
     </message>
     <message>
-        <location filename="../src/DeviceHardwareOperations.cpp" line="347"/>
+        <location filename="../src/DeviceHardwareOperations.cpp" line="362"/>
         <source>Write save failed</source>
         <translation>Nu a reușit scrierea salvării</translation>
     </message>
     <message>
-        <location filename="../src/DeviceHardwareOperations.cpp" line="347"/>
+        <location filename="../src/DeviceHardwareOperations.cpp" line="362"/>
         <source>Failed to send write save command to device.</source>
         <translation>Nu a reușit trimiterea comenzii de scriere de salvare pe device.</translation>
     </message>
     <message>
-        <location filename="../src/DeviceHardwareOperations.cpp" line="376"/>
+        <location filename="../src/DeviceHardwareOperations.cpp" line="391"/>
         <source>Save Data Integrity Check Failed!</source>
         <translation>Verificarea de integritate a salvării a eșuat!</translation>
     </message>
     <message>
-        <location filename="../src/DeviceHardwareOperations.cpp" line="377"/>
+        <location filename="../src/DeviceHardwareOperations.cpp" line="392"/>
         <source>The save data written to the cartridge does not match the data read back. Please clean the cartridge pins and try again to ensure consistency.</source>
         <translation>Datele scrise din salvare nu coincid cu datele de pe joc. Te rugăm să cureți pinii casetei și să încerci din nou.</translation>
     </message>
@@ -448,13 +523,6 @@ Nu scoate caseta în timp ce se desfășoară orice operațiune.</translation>
         <location filename="../src/DeviceSettingsScreen.cpp" line="69"/>
         <source>Choose one of the options below to set the status of your device’s LED light. Select ‘Static’ to keep the light on or ‘Dark’ to shut it off. Pulse and Strobe coming soon.</source>
         <translation>Alege una dintre opțiunile de mai jos pentru a seta starea luminii LED a dispozitivului. Selectează &quot;Static&quot; pentru a menține lumina aprinsă sau &quot;Dark&quot; pentru a o opri. Puls și Strobe vin în curând.</translation>
-    </message>
-</context>
-<context>
-    <name>DeviceSharedMemory</name>
-    <message>
-        <source>Shared Memory Error</source>
-        <translation type="vanished">Eroare de memorie</translation>
     </message>
 </context>
 <context>
@@ -476,24 +544,72 @@ Nu scoate caseta în timp ce se desfășoară orice operațiune.</translation>
 <context>
     <name>Emulator</name>
     <message>
-        <location filename="../src/Emulator.cpp" line="261"/>
+        <location filename="../src/Emulator.cpp" line="39"/>
+        <location filename="../src/Emulator.cpp" line="753"/>
+        <source>Graphics Hardware Not Supported</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/Emulator.cpp" line="40"/>
+        <source>Your graphics hardware does not meet the minimum requirements.
+
+OpenGL Details:
+Version: %1
+Renderer: %2
+Vendor: %3
+
+Please ensure your graphics drivers are up to date.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/Emulator.cpp" line="54"/>
+        <source>OpenGL Initialization Error</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/Emulator.cpp" line="55"/>
+        <source>Failed to initialize OpenGL context. This application requires OpenGL 3.2 or higher (or OpenGL ES 2.0+). Please ensure your graphics drivers are up to date.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/Emulator.cpp" line="531"/>
         <source>Failed to load game!</source>
         <translation>Nu s-a reușit să se încarce jocul!</translation>
     </message>
     <message>
-        <location filename="../src/Emulator.cpp" line="262"/>
+        <location filename="../src/Emulator.cpp" line="532"/>
         <source>Unable to launch the game, please make sure that the cartridge is clean.</source>
         <translation>Nu se poate lansa jocul, asigură-te că caseta are pinii curați.</translation>
     </message>
     <message>
-        <location filename="../src/Emulator.cpp" line="268"/>
+        <location filename="../src/Emulator.cpp" line="539"/>
         <source>Failed to load save data!</source>
         <translation>Nu am reușit să încărcăm salvarea!</translation>
     </message>
     <message>
-        <location filename="../src/Emulator.cpp" line="268"/>
+        <location filename="../src/Emulator.cpp" line="539"/>
         <source>The core failed to load the save data.</source>
         <translation>Core-ul nu a reușit să încarce salvearea.</translation>
+    </message>
+    <message>
+        <location filename="../src/Emulator.cpp" line="743"/>
+        <source>Your graphics hardware does not meet the minimum requirements:
+
+%1
+OpenGL Details:
+Version: %2
+Renderer: %3
+Vendor: %4</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>EmulatorControlsDropdownWidget</name>
+    <message>
+        <location filename="../src/EmulatorControlsDropdownWidget.cpp" line="146"/>
+        <location filename="../src/EmulatorControlsDropdownWidget.cpp" line="169"/>
+        <source>  Install shaders...</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -584,27 +700,23 @@ Nu scoate caseta în timp ce se desfășoară orice operațiune.</translation>
         <translation>Verificarea salvării în timpul jocului</translation>
     </message>
     <message>
-        <source>Enable in-game save verifications (beta)</source>
-        <translation type="vanished">Activează verificarea salvării în timpul jocului (beta)</translation>
-    </message>
-    <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="279"/>
         <source>Enable in-game integrity checks for save data. This feature is still in beta and may not work with all games.</source>
         <translation>Activează verificările de integritate în joc pentru datele de salvare. Această funcție este încă în versiune beta și este posibil să nu funcționeze cu toate jocurile.</translation>
+    </message>
+    <message>
+        <location filename="../src/EmulatorSettingsScreen.h" line="136"/>
+        <location filename="../src/EmulatorSettingsScreen.h" line="151"/>
+        <location filename="../src/EmulatorSettingsScreen.h" line="166"/>
+        <location filename="../src/EmulatorSettingsScreen.h" line="181"/>
+        <source>enabled</source>
+        <translation>activat</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.h" line="137"/>
         <location filename="../src/EmulatorSettingsScreen.h" line="152"/>
         <location filename="../src/EmulatorSettingsScreen.h" line="167"/>
         <location filename="../src/EmulatorSettingsScreen.h" line="182"/>
-        <source>enabled</source>
-        <translation>activat</translation>
-    </message>
-    <message>
-        <location filename="../src/EmulatorSettingsScreen.h" line="138"/>
-        <location filename="../src/EmulatorSettingsScreen.h" line="153"/>
-        <location filename="../src/EmulatorSettingsScreen.h" line="168"/>
-        <location filename="../src/EmulatorSettingsScreen.h" line="183"/>
         <source>disabled</source>
         <translation>dezactivat</translation>
     </message>
@@ -625,19 +737,19 @@ Nu scoate caseta în timp ce se desfășoară orice operațiune.</translation>
 <context>
     <name>FirmwareUpdateWindow</name>
     <message>
-        <location filename="../src/FirmwareUpdateWindow.cpp" line="58"/>
+        <location filename="../src/FirmwareUpdateWindow.cpp" line="64"/>
         <source>Updating...</source>
         <translation>Actualizare...</translation>
     </message>
     <message>
-        <location filename="../src/FirmwareUpdateWindow.cpp" line="59"/>
+        <location filename="../src/FirmwareUpdateWindow.cpp" line="65"/>
         <source>This may take up to a minute,
 please do not disconnect the device.</source>
         <translation>Acest lucru poate dura până la un minut,
 te rugăm să nu deconectezi dispozitivul.</translation>
     </message>
     <message>
-        <location filename="../src/FirmwareUpdateWindow.cpp" line="60"/>
+        <location filename="../src/FirmwareUpdateWindow.cpp" line="66"/>
         <source>Not working?</source>
         <translation>Nu funcționează?</translation>
     </message>
@@ -653,14 +765,6 @@ te rugăm să nu deconectezi dispozitivul.</translation>
         <location filename="../src/InputBindingsScreen.cpp" line="170"/>
         <source>The Playback software comes with pre-configured bindings for most gamepads. Try pressing buttons on your controller or keyboard to test them.</source>
         <translation>Softul Playback vine cu setări pre-configurate pentru mare parte din controlere. Încearcă-le apăsând pe butoane pe controlerul tău sau tastatură.</translation>
-    </message>
-    <message>
-        <source>No gamepads connected.</source>
-        <translation type="vanished">Nu sunt conectate controlere.</translation>
-    </message>
-    <message>
-        <source>Select a gamepad</source>
-        <translation type="vanished">Selectați un controler</translation>
     </message>
     <message>
         <location filename="../src/InputBindingsScreen.cpp" line="173"/>
@@ -741,34 +845,34 @@ Poți încerca să cureți și apoi să reintroduci caseta în dispozitiv.
 <context>
     <name>ManagePage</name>
     <message>
-        <location filename="../src/ManagePage.cpp" line="223"/>
+        <location filename="../src/ManagePage.cpp" line="245"/>
         <source>START</source>
         <translation>START</translation>
     </message>
     <message>
-        <location filename="../src/ManagePage.cpp" line="224"/>
+        <location filename="../src/ManagePage.cpp" line="246"/>
         <source>Data Flow:</source>
         <translation>Date Binare:</translation>
     </message>
     <message>
-        <location filename="../src/ManagePage.cpp" line="99"/>
+        <location filename="../src/ManagePage.cpp" line="120"/>
         <source>Unknown title</source>
         <translation>Titlu necunoscut</translation>
     </message>
     <message>
-        <location filename="../src/ManagePage.cpp" line="100"/>
+        <location filename="../src/ManagePage.cpp" line="121"/>
         <source>[no checksum available]</source>
         <translation>[checksum indisponibil]</translation>
     </message>
     <message>
-        <location filename="../src/ManagePage.cpp" line="102"/>
-        <location filename="../src/ManagePage.cpp" line="225"/>
+        <location filename="../src/ManagePage.cpp" line="123"/>
+        <location filename="../src/ManagePage.cpp" line="247"/>
         <source>Title</source>
         <translation>Titlu</translation>
     </message>
     <message>
-        <location filename="../src/ManagePage.cpp" line="103"/>
-        <location filename="../src/ManagePage.cpp" line="226"/>
+        <location filename="../src/ManagePage.cpp" line="124"/>
+        <location filename="../src/ManagePage.cpp" line="248"/>
         <source>Game Data Checksum</source>
         <translation>Checksum al jocului</translation>
     </message>
@@ -785,6 +889,11 @@ Poți încerca să cureți și apoi să reintroduci caseta în dispozitiv.
         <location filename="../src/ManagePageOperation.cpp" line="347"/>
         <source>STOP</source>
         <translation>STOP</translation>
+    </message>
+    <message>
+        <location filename="../src/ManagePageOperation.cpp" line="117"/>
+        <source>The file you have selected is %0, while the memory on the device is reported as %1. Would you like to proceed?</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/ManagePageOperation.cpp" line="211"/>
@@ -815,48 +924,48 @@ Poți încerca să cureți și apoi să reintroduci caseta în dispozitiv.
 <context>
     <name>Navbar</name>
     <message>
-        <location filename="../src/Navbar.cpp" line="207"/>
-        <location filename="../src/Navbar.cpp" line="242"/>
+        <location filename="../src/Navbar.cpp" line="208"/>
+        <location filename="../src/Navbar.cpp" line="243"/>
         <source>Press ESC to exit emulation</source>
         <translation>Apasă ESC pentru a ieși din emulare</translation>
     </message>
     <message>
-        <location filename="../src/Navbar.cpp" line="241"/>
+        <location filename="../src/Navbar.cpp" line="242"/>
         <source>Press TAB to exit mouse capture mode</source>
         <translation>Apasă TAB pentru a ieși din captura mouse-ului</translation>
     </message>
     <message>
-        <location filename="../src/Navbar.cpp" line="209"/>
+        <location filename="../src/Navbar.cpp" line="210"/>
         <source>Loading game...</source>
         <translation>Se încarcă jocul...</translation>
     </message>
     <message>
-        <location filename="../src/Navbar.cpp" line="211"/>
+        <location filename="../src/Navbar.cpp" line="212"/>
         <source>Writing game...</source>
         <translation>Se scrie jocul...</translation>
     </message>
     <message>
-        <location filename="../src/Navbar.cpp" line="213"/>
+        <location filename="../src/Navbar.cpp" line="214"/>
         <source>Loading save...</source>
         <translation>Se încarcă salvarea...</translation>
     </message>
     <message>
-        <location filename="../src/Navbar.cpp" line="215"/>
+        <location filename="../src/Navbar.cpp" line="216"/>
         <source>Writing save...</source>
         <translation>Se scrie salvarea...</translation>
     </message>
     <message>
-        <location filename="../src/Navbar.cpp" line="217"/>
+        <location filename="../src/Navbar.cpp" line="218"/>
         <source>Erasing data...</source>
         <translation>Se șterg datele...</translation>
     </message>
     <message>
-        <location filename="../src/Navbar.cpp" line="248"/>
+        <location filename="../src/Navbar.cpp" line="249"/>
         <source>PLAY</source>
         <translation>JOC</translation>
     </message>
     <message>
-        <location filename="../src/Navbar.cpp" line="249"/>
+        <location filename="../src/Navbar.cpp" line="250"/>
         <source>DATA</source>
         <translation>DATE</translation>
     </message>
@@ -918,40 +1027,29 @@ Poți încerca să cureți și apoi să reintroduci caseta în dispozitiv.
     </message>
 </context>
 <context>
-    <name>NavbarMenu</name>
-    <message>
-        <source>PLAY</source>
-        <translation type="vanished">JOC</translation>
-    </message>
-    <message>
-        <source>DATA</source>
-        <translation type="vanished">DATE</translation>
-    </message>
-</context>
-<context>
     <name>NavbarSubmenu</name>
     <message>
-        <location filename="../src/Navbar.cpp" line="424"/>
+        <location filename="../src/Navbar.cpp" line="425"/>
         <source>Backup Game</source>
         <translation>Arhivează jocul</translation>
     </message>
     <message>
-        <location filename="../src/Navbar.cpp" line="425"/>
+        <location filename="../src/Navbar.cpp" line="426"/>
         <source>Upload Homebrew</source>
         <translation>Încărcă Homebrew</translation>
     </message>
     <message>
-        <location filename="../src/Navbar.cpp" line="426"/>
+        <location filename="../src/Navbar.cpp" line="427"/>
         <source>Backup Save</source>
         <translation>Arhivează salvarea</translation>
     </message>
     <message>
-        <location filename="../src/Navbar.cpp" line="427"/>
+        <location filename="../src/Navbar.cpp" line="428"/>
         <source>Upload Save</source>
         <translation>Încarcă salvarea</translation>
     </message>
     <message>
-        <location filename="../src/Navbar.cpp" line="428"/>
+        <location filename="../src/Navbar.cpp" line="429"/>
         <source>Photo Gallery</source>
         <translation>Galerie foto</translation>
     </message>
@@ -959,47 +1057,47 @@ Poți încerca să cureți și apoi să reintroduci caseta în dispozitiv.
 <context>
     <name>PhotosPage</name>
     <message>
-        <location filename="../src/PhotosPage.cpp" line="351"/>
+        <location filename="../src/PhotosPage.cpp" line="353"/>
         <source>Scaling factor:</source>
         <translation>Factor de scalare:</translation>
     </message>
     <message>
-        <location filename="../src/PhotosPage.cpp" line="176"/>
+        <location filename="../src/PhotosPage.cpp" line="178"/>
         <source>Open Directory</source>
         <translation>Deschide folder</translation>
     </message>
     <message>
-        <location filename="../src/PhotosPage.cpp" line="196"/>
+        <location filename="../src/PhotosPage.cpp" line="198"/>
         <source>Warning, permanent deletion</source>
         <translation>Avertisment, ștergere permanentă</translation>
     </message>
     <message>
-        <location filename="../src/PhotosPage.cpp" line="197"/>
+        <location filename="../src/PhotosPage.cpp" line="199"/>
         <source>This will permanently delete all the pictures on your Game Boy Camera. Are you sure?</source>
         <translation>Acest lucru va șterge definitiv toate imaginile de pe Game Boy Camera. Ești sigur?</translation>
     </message>
     <message>
-        <location filename="../src/PhotosPage.cpp" line="315"/>
+        <location filename="../src/PhotosPage.cpp" line="317"/>
         <source>Found %1 photos on your Game Boy Camera.</source>
         <translation>S-au găsit %1 fotografii pe Game Boy Camera.</translation>
     </message>
     <message>
-        <location filename="../src/PhotosPage.cpp" line="318"/>
+        <location filename="../src/PhotosPage.cpp" line="320"/>
         <source>Found 1 photo on your Game Boy Camera.</source>
         <translation>S-a găsit o fotografie pe Game Boy Camera.</translation>
     </message>
     <message>
-        <location filename="../src/PhotosPage.cpp" line="322"/>
+        <location filename="../src/PhotosPage.cpp" line="324"/>
         <source>Found no photos on your Game Boy Camera.</source>
         <translation>Nu s-au găsit fotografii pe Game Boy Camera.</translation>
     </message>
     <message>
-        <location filename="../src/PhotosPage.cpp" line="350"/>
+        <location filename="../src/PhotosPage.cpp" line="352"/>
         <source>Photo Gallery</source>
         <translation>Galerie foto</translation>
     </message>
     <message>
-        <location filename="../src/PhotosPage.cpp" line="344"/>
+        <location filename="../src/PhotosPage.cpp" line="346"/>
         <source>Transfer your pics from your Game Boy Camera to your PC in just two clicks. The images are stored as PNGs of 128x112 pixels. You can scale this using the scaling function.
 
 If you&apos;d like to easily remove all the pictures from your camera, without having to manually delete them one by one in the camera software, you can use the delete button below.</source>
@@ -1008,12 +1106,12 @@ If you&apos;d like to easily remove all the pictures from your camera, without h
 Dacă dorești să elimini cu ușurință toate imaginile din cameră, fără a fi nevoie să le ștergeți manual una câte una în software-ul camerei, puteți folosi butonul de ștergere de mai jos.</translation>
     </message>
     <message>
-        <location filename="../src/PhotosPage.cpp" line="348"/>
+        <location filename="../src/PhotosPage.cpp" line="350"/>
         <source>SAVE ALL</source>
         <translation>SALVEAZĂ</translation>
     </message>
     <message>
-        <location filename="../src/PhotosPage.cpp" line="349"/>
+        <location filename="../src/PhotosPage.cpp" line="351"/>
         <source>DELETE ALL</source>
         <translation>ȘTERGE TOT</translation>
     </message>
@@ -1021,38 +1119,14 @@ Dacă dorești să elimini cu ușurință toate imaginile din cameră, fără a 
 <context>
     <name>PlaybackSettingsScreen</name>
     <message>
-        <source>Settings</source>
-        <translation type="vanished">Setări</translation>
-    </message>
-    <message>
-        <source>Configure system settings.</source>
-        <translation type="vanished">Configurează setările sistemului.</translation>
-    </message>
-    <message>
-        <source>Preferred Language (requires restart)</source>
-        <translation type="vanished">Limba preferată (necesită repornire)</translation>
-    </message>
-    <message>
-        <location filename="../src/PlaybackSettingsScreen.cpp" line="105"/>
+        <location filename="../src/PlaybackSettingsScreen.cpp" line="106"/>
         <source>Allows you to change the language in which the Playback software is presented. It requires an application restart in order to update the language accross the entire application.</source>
         <translation>Îți permite să schimbi limba în care este prezentat software-ul Playback. Este necesară repornirea aplicației pentru a actualiza limba în întreaga aplicație.</translation>
     </message>
     <message>
-        <source>Autosave to cartridge (beta)</source>
-        <translation type="vanished">Salvarea automată pe casetă (beta)</translation>
-    </message>
-    <message>
-        <location filename="../src/PlaybackSettingsScreen.cpp" line="109"/>
+        <location filename="../src/PlaybackSettingsScreen.cpp" line="110"/>
         <source>Once you save in-game, or the game modifies the save internally, your Operator device will automatically write the save to the cartridge. This feature is still in development.</source>
         <translation>O dată ce salvezi în timp ce joci, sau jocul modifică salvarea în mod intern, dispozitivul tău Operator o să scrie automat salvarea pe caseta. Acest feature este încă în dezvoltare.</translation>
-    </message>
-    <message>
-        <source>Enabled</source>
-        <translation type="vanished">Activat</translation>
-    </message>
-    <message>
-        <source>Disabled</source>
-        <translation type="vanished">Dezactivat</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="93"/>
@@ -1060,25 +1134,9 @@ Dacă dorești să elimini cu ușurință toate imaginile din cameră, fără a 
         <translation>Display de FPS</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.cpp" line="113"/>
+        <location filename="../src/PlaybackSettingsScreen.cpp" line="114"/>
         <source>Displays the current frames per second (FPS) of the game being played.</source>
         <translation>Îți arată numărul de frame-uri pe secundă (FPS) al jocului pe care-l joci.</translation>
-    </message>
-    <message>
-        <source>Include RTC data in save file</source>
-        <translation type="vanished">Include datele RTC în fișierul de salvare</translation>
-    </message>
-    <message>
-        <source>When enabled, the Playback software includes the real-time clock (RTC) data in the save file. This ensures that the game&apos;s time-based events are correctly saved and restored.</source>
-        <translation type="vanished">Atunci când este activat, Playback include datele ceasului în timp real (RTC) în fișierul de salvare. Acest lucru asigură că evenimentele bazate pe timp ale jocului sunt salvate și restaurate corect.</translation>
-    </message>
-    <message>
-        <source>Preferred emulator core</source>
-        <translation type="vanished">Nucleu de emulator preferat</translation>
-    </message>
-    <message>
-        <source>Allows you to select the preferred emulation core for running games. Different cores may offer varying levels of accuracy, performance, or compatibility with specific games. Choose the core that best suits your needs and the game you&apos;re playing.</source>
-        <translation type="vanished">Îți permite să selectezi nucleul de emulare preferat pentru rularea jocurilor. Diferite nuclee pot oferi niveluri variate de acuratețe, performanță sau compatibilitate cu jocuri specifice. Alege nucleul care se potrivește cel mai bine nevoilor tale și jocului pe care îl joci.</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="92"/>
@@ -1087,16 +1145,26 @@ Dacă dorești să elimini cu ușurință toate imaginile din cameră, fără a 
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="94"/>
+        <source>Pixel Perfect Mode</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/PlaybackSettingsScreen.cpp" line="95"/>
         <source>RTC data in save file</source>
         <translation>Date RTC în salvare</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.cpp" line="115"/>
+        <location filename="../src/PlaybackSettingsScreen.cpp" line="116"/>
+        <source>When enabled, games are displayed with integer scaling to ensure pixels are displayed at exact multiples of their original size. This eliminates graphical artifacts and preserves the authentic look of retro games at the expense of some screen space.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/PlaybackSettingsScreen.cpp" line="120"/>
         <source>When enabled and supported by the game, Playback adds real-time clock (RTC) data to the save file. This ensures accurate preservation of time-based events. Note that this will increase the file size and might make it incompatible with other software.</source>
         <translation>Atunci când această optiune este activată și suportată de joc, Playback adaugă datele din real-time clock (RTC) în fișierul de salvare. Acest lucru asigură un backup complet al jocului, împreună cu evenimentele bazate pe calendar. Notă: această funcționalitate va crește dimensiunea fișierului de salvare și s-ar putea sa-l facă incompatibil cu alte softuri.</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.cpp" line="95"/>
+        <location filename="../src/PlaybackSettingsScreen.cpp" line="96"/>
         <source>Verify Save After Writing Process</source>
         <translation>Verificarea salvării după scrierea ei</translation>
     </message>
@@ -1106,37 +1174,37 @@ Dacă dorești să elimini cu ușurință toate imaginile din cameră, fără a 
         <translation>Limba preferată</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.cpp" line="119"/>
+        <location filename="../src/PlaybackSettingsScreen.cpp" line="124"/>
         <source>Activating this setting prompts Playback to check that the save file remains uncorrupted after being written to the cartridge. It ensures your game progress has been safely stored.</source>
         <translation>Activarea acestei setări face ca Playback să verifice că salvarea nu este coruptă după ce a fost scrisă pe casetă. Ne asigurăm că progresul tău în joc este salvat și pe casetă în mod corect.</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.cpp" line="96"/>
+        <location filename="../src/PlaybackSettingsScreen.cpp" line="97"/>
         <source>Verify Save is Read Properly</source>
         <translation>Verificarea de citire a salvarii</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.cpp" line="122"/>
+        <location filename="../src/PlaybackSettingsScreen.cpp" line="127"/>
         <source>When this setting is enabled, Playback reads the save file from the cartridge multiple times and reviews any discrepancies to prevent data corruption.</source>
         <translation>Când această setare este activată, Playback citeste salvarea de pe casetă de mai multe ori și caută orice discrepanță între citiri pentru a preveni pierderea datelor.</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.cpp" line="97"/>
+        <location filename="../src/PlaybackSettingsScreen.cpp" line="98"/>
         <source>Verify Homebrew File Integrity</source>
         <translation>Verificarea fișierelor de joc</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.cpp" line="125"/>
+        <location filename="../src/PlaybackSettingsScreen.cpp" line="130"/>
         <source>This setting enables Playback to confirm the integrity of a homebrew game after transferring it to the cartridge, making sure there are no issues affecting your work.</source>
         <translation>Această setare activează confirmarea de integritate a jocurilor homebrew încărcate pe casetă, asigurându-se că nu există inconsistențe în date.</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.cpp" line="98"/>
+        <location filename="../src/PlaybackSettingsScreen.cpp" line="99"/>
         <source>Enable verbose debug logs (requires restart)</source>
         <translation>Activează log-urile de debug (necesită repornire)</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.cpp" line="128"/>
+        <location filename="../src/PlaybackSettingsScreen.cpp" line="133"/>
         <source>When enabled, the Playback software will output more detailed logs to help diagnose issues. This setting is useful for troubleshooting and should be disabled when not needed.</source>
         <translation>Atunci când este activat, Playback va emite log-uri mai detaliate pentru a ajuta la diagnosticarea problemelor. Această setare este utilă pentru depanare și trebuie dezactivată atunci când nu este necesară.</translation>
     </message>
@@ -1164,23 +1232,19 @@ Dacă dorești să elimini cu ușurință toate imaginile din cameră, fără a 
 <context>
     <name>PlaybackSettingsScreenOption</name>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.cpp" line="185"/>
+        <location filename="../src/PlaybackSettingsScreen.cpp" line="190"/>
         <source>Open Log Directory</source>
         <translation>Deschide folder</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.cpp" line="191"/>
+        <location filename="../src/PlaybackSettingsScreen.cpp" line="196"/>
         <source>Enabled</source>
         <translation>Activat</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.cpp" line="192"/>
+        <location filename="../src/PlaybackSettingsScreen.cpp" line="197"/>
         <source>Disabled</source>
         <translation>Dezactivat</translation>
-    </message>
-    <message>
-        <source>Open Cores Directory</source>
-        <translation type="vanished">Deschide folder</translation>
     </message>
 </context>
 <context>
@@ -1193,22 +1257,6 @@ Dacă dorești să elimini cu ușurință toate imaginile din cameră, fără a 
 </context>
 <context>
     <name>QObject</name>
-    <message>
-        <source>Unknown title</source>
-        <translation type="vanished">Titlu necunoscut</translation>
-    </message>
-    <message>
-        <source>The description of this cartridge can’t be displayed since it’s not in our database. You can use the link below to open a ticket and we’ll add the game info to the database. Please feel free to contact us even if it’s a homebrew game you made if you’d like to have your artwork displayed here.</source>
-        <translation type="vanished">Descrierea acestei casete nu poate fi afișată deoarece nu se află în baza noastră de date. Poți folosi linkul de mai jos pentru a deschide un tichet și vom adăuga informațiile despre joc în baza de date. Te rugăm să nu eziți să ne contactezi chiar dacă este un joc homebrew făcut de tine.</translation>
-    </message>
-    <message>
-        <source>Submit cartridge information</source>
-        <translation type="vanished">Trimite informații despre casetă</translation>
-    </message>
-    <message>
-        <source>Unknown developer</source>
-        <translation type="vanished">Dezvoltator necunoscut</translation>
-    </message>
     <message>
         <location filename="../src/DeviceSettingsScreen.cpp" line="4"/>
         <source>Static</source>
@@ -1228,62 +1276,6 @@ Dacă dorești să elimini cu ușurință toate imaginile din cameră, fără a 
         <location filename="../src/DeviceSettingsScreen.cpp" line="7"/>
         <source>Strobe</source>
         <translation>Stroboscop</translation>
-    </message>
-    <message>
-        <source>Copyright Notices</source>
-        <translation type="vanished">Drepturi de autor</translation>
-    </message>
-    <message>
-        <source>Software License</source>
-        <translation type="vanished">Licență software</translation>
-    </message>
-    <message>
-        <source>Software</source>
-        <translation type="vanished">Software</translation>
-    </message>
-    <message>
-        <source>Device Version</source>
-        <translation type="vanished">Versiunea dispozitivului</translation>
-    </message>
-    <message>
-        <source>Serial Number</source>
-        <translation type="vanished">Număr de serie</translation>
-    </message>
-    <message>
-        <source>Core Version</source>
-        <translation type="vanished">Versiunea de bază</translation>
-    </message>
-    <message>
-        <source>Archive your game data securely on your computer, making a digital equivalent of your game collection. Game files are compatible with your chosen emulator.
-
-Tip: Our app runs a Data Integrity Test to make sure that you are getting an accurate reproduction of the cartridge’s content.</source>
-        <translation type="vanished">Arhivează-ți datele jocului în siguranță pe computer, creând un echivalent digital al colecției tale de jocuri. Fișierele sunt compatibile cu emulatoare externe.
-
-Sfat: Aplicația noastră execută un test de integritate a datelor pentru a te asigura că obți o reproducere exactă a conținutului casetei.</translation>
-    </message>
-    <message>
-        <source>Overwrite the game data on your cartridge with a different file. Make sure the game file you’re writing is valid by testing it in an external emulator first.
-
-Tip: Transfer your homebrew game to a cartridge and play it on original hardware.</source>
-        <translation type="vanished">Suprascrie-ți datele jocului de pe casetă cu un alt joc. Asigură-te că fișierul de joc pe care îl scrieți este valid, testându-l mai întâi într-un emulator extern.
-
-Sfat: Transferă-ți jocul homebrew pe o casetă și joacă-l pe hardware-ul original.</translation>
-    </message>
-    <message>
-        <source>Transfer a duplicate of your save data from the cartridge to your computer. You can then back up your save file or edit it with an external program.
-
-Tip: Transfer your save to the computer, replace the battery and transfer it back to the cartridge safely.</source>
-        <translation type="vanished">Transferă-ți un duplicat al datelor de salvare de pe casetă pe computer. Apoi poți face o copie de rezervă a fișierului de salvare sau îl poți edita cu un program extern.
-
-Sfat: Transferă-ți salvarea pe computer, înlocuiește bateria și transferă înapoi pe casetă în siguranță.</translation>
-    </message>
-    <message>
-        <source>Transfer a duplicate of your save data from your computer to the cartridge and pick the game up right where you left off.
-
-Tip: Use external programs to trigger in-game events or customize gameplay.</source>
-        <translation type="vanished">Transferă-ți un duplicat al datelor de salvare de pe computer pe casetă și reia jocul chiar de unde l-ai lăsat.
-
-Sfat: Folosește programe externe pentru a declanșa evenimente în joc sau pentru a personaliza jocul.</translation>
     </message>
     <message>
         <location filename="../src/ErrorMessages.h" line="26"/>
@@ -1340,86 +1332,67 @@ Vrei să continui?
 <context>
     <name>SearchWindow</name>
     <message>
-        <location filename="../src/SearchWindow.cpp" line="52"/>
+        <location filename="../src/SearchWindow.cpp" line="59"/>
         <source>Searching...</source>
         <translation>Se caută...</translation>
     </message>
     <message>
-        <location filename="../src/SearchWindow.cpp" line="53"/>
+        <location filename="../src/SearchWindow.cpp" line="60"/>
         <source>Looking for your Operator device.
 Please make sure it&apos;s connected.</source>
         <translation>Se caută dispozitivul Operator.
 Te rugăm să te asiguri că acesta este conectat.</translation>
     </message>
     <message>
-        <location filename="../src/SearchWindow.cpp" line="55"/>
+        <location filename="../src/SearchWindow.cpp" line="62"/>
         <source>Not working?</source>
         <translation>Nu funcționează?</translation>
     </message>
 </context>
 <context>
-    <name>SettingsScreenOption</name>
-    <message>
-        <source>System</source>
-        <translation type="vanished">Sistem</translation>
-    </message>
-    <message>
-        <source>Configure base hardware selection.</source>
-        <translation type="vanished">Configurează setările de bază al hardware-ului.</translation>
-    </message>
-    <message>
-        <source>Input &amp; Auxiliary Devices</source>
-        <translation type="vanished">Dispozitive de intrare și auxiliare</translation>
-    </message>
-    <message>
-        <source>Configure controller and controller rumble settings.</source>
-        <translation type="vanished">Configurează manetele și setările de rumble.</translation>
-    </message>
-</context>
-<context>
     <name>SettingsWindow</name>
     <message>
-        <location filename="../src/SettingsWindow.cpp" line="246"/>
+        <location filename="../src/SettingsWindow.cpp" line="247"/>
         <source>Core Load Failed</source>
         <translation>Nu s-a putut încărca core-ul</translation>
     </message>
     <message>
-        <location filename="../src/SettingsWindow.cpp" line="246"/>
+        <location filename="../src/SettingsWindow.cpp" line="247"/>
         <source>Failed to load core. Please load a valid core.</source>
         <translation>Te rugăm să încarci un core valid.</translation>
     </message>
     <message>
-        <location filename="../src/SettingsWindow.cpp" line="276"/>
+        <location filename="../src/SettingsWindow.cpp" line="277"/>
         <source>Settings</source>
         <translation>Setări</translation>
     </message>
     <message>
-        <location filename="../src/SettingsWindow.cpp" line="278"/>
+        <location filename="../src/SettingsWindow.cpp" line="279"/>
         <source>Core Selector</source>
         <translation>Selector de core-uri</translation>
     </message>
     <message>
-        <location filename="../src/SettingsWindow.cpp" line="279"/>
+        <location filename="../src/SettingsWindow.cpp" line="280"/>
         <source>Emulator Settings</source>
         <translation>Setări emulator</translation>
     </message>
     <message>
-        <location filename="../src/SettingsWindow.cpp" line="280"/>
+        <location filename="../src/SettingsWindow.cpp" line="281"/>
         <source>Device Settings</source>
         <translation>Setări dispozitiv</translation>
     </message>
     <message>
-        <location filename="../src/SettingsWindow.cpp" line="281"/>
+        <location filename="../src/SettingsWindow.cpp" line="282"/>
         <source>Controls Settings</source>
         <translation>Setări controller</translation>
     </message>
     <message>
-        <location filename="../src/SettingsWindow.cpp" line="282"/>
+        <location filename="../src/SettingsWindow.cpp" line="283"/>
         <source>Cheat Codes</source>
         <translation>Coduri</translation>
     </message>
     <message>
-        <location filename="../src/SettingsWindow.cpp" line="277"/>
+        <location filename="../src/SettingsWindow.cpp" line="278"/>
         <source>Playback Settings</source>
         <translation>Setări Playback</translation>
     </message>
@@ -1456,10 +1429,6 @@ Te rugăm să te asiguri că acesta este conectat.</translation>
 <context>
     <name>StartControllerWidget</name>
     <message>
-        <source>START</source>
-        <translation type="vanished">START</translation>
-    </message>
-    <message>
         <location filename="../src/StartControllerWidget.cpp" line="57"/>
         <source>Settings</source>
         <translation>Setări</translation>
@@ -1488,7 +1457,7 @@ Te rugăm să te asiguri că acesta este conectat.</translation>
 <context>
     <name>ViewRouter</name>
     <message>
-        <location filename="../src/ViewRouter.cpp" line="111"/>
+        <location filename="../src/ViewRouter.cpp" line="107"/>
         <source>Archive your game data securely on your computer, making a digital equivalent of your game collection. Game files are compatible with your chosen emulator.
 
 Tip: Our app runs a Data Integrity Test to make sure that you are getting an accurate reproduction of the cartridge’s content.</source>
@@ -1497,12 +1466,12 @@ Tip: Our app runs a Data Integrity Test to make sure that you are getting an acc
 Sfat: Aplicația noastră execută un test de integritate a datelor pentru a te asigura că obți o reproducere exactă a conținutului casetei.</translation>
     </message>
     <message>
-        <location filename="../src/ViewRouter.cpp" line="115"/>
+        <location filename="../src/ViewRouter.cpp" line="111"/>
         <source>Backup Game</source>
         <translation>Arhivează jocul</translation>
     </message>
     <message>
-        <location filename="../src/ViewRouter.cpp" line="119"/>
+        <location filename="../src/ViewRouter.cpp" line="115"/>
         <source>Overwrite the game data on your cartridge with a different file. Make sure the game file you’re writing is valid by testing it in an external emulator first.
 
 Tip: Transfer your homebrew game to a cartridge and play it on original hardware.</source>
@@ -1511,12 +1480,12 @@ Tip: Transfer your homebrew game to a cartridge and play it on original hardware
 Sfat: Transferă-ți jocul homebrew pe o casetă și joacă-l pe hardware-ul original.</translation>
     </message>
     <message>
-        <location filename="../src/ViewRouter.cpp" line="122"/>
+        <location filename="../src/ViewRouter.cpp" line="118"/>
         <source>Upload Homebrew</source>
         <translation>Încărcă Homebrew</translation>
     </message>
     <message>
-        <location filename="../src/ViewRouter.cpp" line="125"/>
+        <location filename="../src/ViewRouter.cpp" line="121"/>
         <source>Transfer a duplicate of your save data from the cartridge to your computer. You can then back up your save file or edit it with an external program.
 
 Tip: Transfer your save to the computer, replace the battery and transfer it back to the cartridge safely.</source>
@@ -1525,12 +1494,12 @@ Tip: Transfer your save to the computer, replace the battery and transfer it bac
 Sfat: Transferă-ți salvarea pe computer, înlocuiește bateria și transferă înapoi pe casetă în siguranță.</translation>
     </message>
     <message>
-        <location filename="../src/ViewRouter.cpp" line="130"/>
+        <location filename="../src/ViewRouter.cpp" line="126"/>
         <source>Backup Save</source>
         <translation>Arhivează salvarea</translation>
     </message>
     <message>
-        <location filename="../src/ViewRouter.cpp" line="134"/>
+        <location filename="../src/ViewRouter.cpp" line="130"/>
         <source>Transfer a duplicate of your save data from your computer to the cartridge and pick the game up right where you left off.
 
 Tip: Use external programs to trigger in-game events or customize gameplay.</source>
@@ -1539,7 +1508,7 @@ Tip: Use external programs to trigger in-game events or customize gameplay.</sou
 Sfat: Folosește programe externe pentru a declanșa evenimente în joc sau pentru a personaliza jocul.</translation>
     </message>
     <message>
-        <location filename="../src/ViewRouter.cpp" line="137"/>
+        <location filename="../src/ViewRouter.cpp" line="133"/>
         <source>Upload Save</source>
         <translation>Încarcă salvarea</translation>
     </message>
@@ -1547,126 +1516,126 @@ Sfat: Folosește programe externe pentru a declanșa evenimente în joc sau pent
 <context>
     <name>Window</name>
     <message>
-        <location filename="../src/Window.cpp" line="138"/>
-        <location filename="../src/Window.cpp" line="368"/>
+        <location filename="../src/Window.cpp" line="161"/>
+        <location filename="../src/Window.cpp" line="411"/>
         <source>A new app update is available</source>
         <translation>O nouă actualizare a aplicației este disponibilă</translation>
     </message>
     <message>
-        <location filename="../src/Window.cpp" line="138"/>
-        <location filename="../src/Window.cpp" line="368"/>
+        <location filename="../src/Window.cpp" line="161"/>
+        <location filename="../src/Window.cpp" line="411"/>
         <source>Open</source>
         <translation>Deschide</translation>
     </message>
     <message>
-        <location filename="../src/Window.cpp" line="159"/>
-        <location filename="../src/Window.cpp" line="366"/>
+        <location filename="../src/Window.cpp" line="182"/>
+        <location filename="../src/Window.cpp" line="409"/>
         <source>A new device update is available</source>
         <translation>Este disponibilă o nouă actualizare a dispozitivului</translation>
     </message>
     <message>
-        <location filename="../src/Window.cpp" line="159"/>
-        <location filename="../src/Window.cpp" line="366"/>
+        <location filename="../src/Window.cpp" line="182"/>
+        <location filename="../src/Window.cpp" line="409"/>
         <source>Start</source>
         <translation>Start</translation>
     </message>
     <message>
-        <location filename="../src/Window.cpp" line="393"/>
+        <location filename="../src/Window.cpp" line="441"/>
         <source>Main Hub</source>
         <translation>Hub principal</translation>
     </message>
     <message>
-        <location filename="../src/Window.cpp" line="394"/>
+        <location filename="../src/Window.cpp" line="442"/>
         <source>Choose between playing the game, transferring data or accessing more info.</source>
         <translation>Alege între a juca jocul, transfer de date sau accesarea a mai multe informații.</translation>
     </message>
     <message>
-        <location filename="../src/Window.cpp" line="401"/>
+        <location filename="../src/Window.cpp" line="449"/>
         <source>Play Tab</source>
         <translation>Tab-ul de joc</translation>
     </message>
     <message>
-        <location filename="../src/Window.cpp" line="402"/>
+        <location filename="../src/Window.cpp" line="450"/>
         <source>Learn more about your game, or have a play session on the in-app emulator.</source>
         <translation>Vezi mai multe despre jocul tău, sau pornește o sesiune de joc în emulator.</translation>
     </message>
     <message>
-        <location filename="../src/Window.cpp" line="409"/>
+        <location filename="../src/Window.cpp" line="457"/>
         <source>Start Play Session</source>
         <translation>Începe o sesiune de joc</translation>
     </message>
     <message>
-        <location filename="../src/Window.cpp" line="410"/>
+        <location filename="../src/Window.cpp" line="458"/>
         <source>Launch the in-app emulator for an authentic, accurate experience.</source>
         <translation>Pornește emulatorul din aplicație pentru o experiență precisă și apropriată de consola originală.</translation>
     </message>
     <message>
-        <location filename="../src/Window.cpp" line="417"/>
+        <location filename="../src/Window.cpp" line="465"/>
         <source>Playback Settings</source>
         <translation>Setări Playback</translation>
     </message>
     <message>
-        <location filename="../src/Window.cpp" line="418"/>
+        <location filename="../src/Window.cpp" line="466"/>
         <source>Configure parameters to make the app your own.</source>
         <translation>Configurează parametrii și fă aplicația pe placul tău.</translation>
     </message>
     <message>
-        <location filename="../src/Window.cpp" line="425"/>
+        <location filename="../src/Window.cpp" line="473"/>
         <source>Save Vault</source>
         <translation>Vault-ul de salvări</translation>
     </message>
     <message>
-        <location filename="../src/Window.cpp" line="426"/>
+        <location filename="../src/Window.cpp" line="474"/>
         <source>Access and manage saves created automatically in the &lt;a href=&quot;#&quot; style=&apos;color: white&apos;&gt;Save Vault&lt;/a&gt;.</source>
         <translation>Accesează și gestionează salvările create automat in &lt;a href=&quot;#&quot; style=&apos;color:white&apos;&gt;Vault-ul de salvări&lt;/a&gt;.</translation>
     </message>
     <message>
-        <location filename="../src/Window.cpp" line="434"/>
+        <location filename="../src/Window.cpp" line="482"/>
         <source>Device Switcher</source>
         <translation>Switcher-ul de device-uri</translation>
     </message>
     <message>
-        <location filename="../src/Window.cpp" line="435"/>
+        <location filename="../src/Window.cpp" line="483"/>
         <source>Select between multiple Operator devices connected to the same computer.</source>
         <translation>Comută între mai multe dispozitive Operator conectate la același calculator.</translation>
     </message>
     <message>
-        <location filename="../src/Window.cpp" line="442"/>
+        <location filename="../src/Window.cpp" line="490"/>
         <source>Counterfeit Detection</source>
         <translation>Detecție casetă contrafăcută</translation>
     </message>
     <message>
-        <location filename="../src/Window.cpp" line="443"/>
+        <location filename="../src/Window.cpp" line="491"/>
         <source>Your cartridge has been analysed for some of the most common counterfeit markers.</source>
         <translation>Caseta ta este analizată pentru cele mai comune semne de casetă contrafăcută.</translation>
     </message>
     <message>
-        <location filename="../src/Window.cpp" line="450"/>
+        <location filename="../src/Window.cpp" line="498"/>
         <source>Data Tab</source>
         <translation>Tab-ul de date</translation>
     </message>
     <message>
-        <location filename="../src/Window.cpp" line="451"/>
+        <location filename="../src/Window.cpp" line="499"/>
         <source>Backup, transfer and manage official/homebrew game and save data.</source>
         <translation>Arhivează, transferă și gestionează jocuri oficiale, homebrew și datele salvărilor tale.</translation>
     </message>
     <message>
-        <location filename="../src/Window.cpp" line="458"/>
+        <location filename="../src/Window.cpp" line="506"/>
         <source>Backup Save</source>
         <translation>Arhivează salvarea</translation>
     </message>
     <message>
-        <location filename="../src/Window.cpp" line="459"/>
+        <location filename="../src/Window.cpp" line="507"/>
         <source>Create digital copies of your save data.</source>
         <translation>Creează arhive digitale ale salvărilor tale.</translation>
     </message>
     <message>
-        <location filename="../src/Window.cpp" line="466"/>
+        <location filename="../src/Window.cpp" line="514"/>
         <source>Start Backup Session</source>
         <translation>Începe un backup</translation>
     </message>
     <message>
-        <location filename="../src/Window.cpp" line="467"/>
+        <location filename="../src/Window.cpp" line="515"/>
         <source>Begin archiving the save data.</source>
         <translation>Începe arhivarea salvării.</translation>
     </message>

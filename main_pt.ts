@@ -4,49 +4,49 @@
 <context>
     <name>AboutWindow</name>
     <message>
-        <location filename="../src/AboutWindow.cpp" line="152"/>
-        <source>Software</source>
-        <translation>Software</translation>
+        <location filename="../src/AboutWindow.cpp" line="157"/>
+        <source>Playback</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/AboutWindow.cpp" line="153"/>
-        <source>Device Version</source>
-        <translation>Versão do Dispositivo</translation>
+        <location filename="../src/AboutWindow.cpp" line="158"/>
+        <source>Firmware</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/AboutWindow.cpp" line="154"/>
-        <source>Serial Number</source>
-        <translation>Número de Série</translation>
+        <location filename="../src/AboutWindow.cpp" line="159"/>
+        <source>System</source>
+        <translation type="unfinished">Sistema</translation>
     </message>
     <message>
-        <location filename="../src/AboutWindow.cpp" line="155"/>
-        <source>Core Version</source>
-        <translation>Versão do Core</translation>
+        <location filename="../src/AboutWindow.cpp" line="160"/>
+        <source>Serial</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/AboutWindow.cpp" line="178"/>
+        <location filename="../src/AboutWindow.cpp" line="183"/>
         <source>Copyright Notices</source>
         <translation>Avisos de Copyright</translation>
     </message>
     <message>
-        <location filename="../src/AboutWindow.cpp" line="179"/>
+        <location filename="../src/AboutWindow.cpp" line="184"/>
         <source>Software License</source>
         <translation>Licença do Software</translation>
     </message>
     <message>
-        <location filename="../src/AboutWindow.cpp" line="182"/>
+        <location filename="../src/AboutWindow.cpp" line="187"/>
         <source>About</source>
         <translation>Sobre</translation>
     </message>
     <message>
-        <location filename="../src/AboutWindow.cpp" line="184"/>
+        <location filename="../src/AboutWindow.cpp" line="189"/>
         <source>Software License Agreement</source>
         <translation>Contrato de Licença do Software</translation>
     </message>
     <message>
-        <location filename="../src/AboutWindow.cpp" line="187"/>
-        <source>™ and © 2020-2024 Epilogue. &lt;br&gt;All rights reserved. </source>
-        <translation>™ e © 2020-2024 Epilogue. &lt;br&gt;Todos os direitos reservados. </translation>
+        <location filename="../src/AboutWindow.cpp" line="192"/>
+        <source>™ and © 2020-2025 Epilogue. &lt;br&gt;All rights reserved. </source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -98,47 +98,47 @@ P.S. Se você optar por pular o tour agora, não será solicitado a fazê-lo nov
 <context>
     <name>CartDetailsWidget</name>
     <message>
-        <location filename="../src/CartDetailsWidget.cpp" line="286"/>
+        <location filename="../src/CartDetailsWidget.cpp" line="360"/>
         <source>Unknown title</source>
         <translation>Título desconhecido</translation>
     </message>
     <message>
-        <location filename="../src/CartDetailsWidget.cpp" line="292"/>
+        <location filename="../src/CartDetailsWidget.cpp" line="366"/>
         <source>The description of this cartridge can’t be displayed since it’s not in our database. You can use the link below to open a ticket and we’ll add the game info to the database. Please feel free to contact us even if it’s a homebrew game you made if you’d like to have your artwork displayed here.</source>
         <translation>A descrição deste cartucho não pode ser exibida pois ele não está em nosso banco de dados. Você pode usar o link abaixo para abrir um ticket e adicionaremos as informações do jogo ao banco de dados. Fique à vontade para nos contatar mesmo que seja um jogo homebrew criado por você, caso queira que sua arte seja exibida aqui.</translation>
     </message>
     <message>
-        <location filename="../src/CartDetailsWidget.cpp" line="299"/>
+        <location filename="../src/CartDetailsWidget.cpp" line="373"/>
         <source>Submit cartridge information</source>
         <translation>Enviar informações do cartucho</translation>
     </message>
     <message>
-        <location filename="../src/CartDetailsWidget.cpp" line="314"/>
+        <location filename="../src/CartDetailsWidget.cpp" line="388"/>
         <source>Unknown developer</source>
         <translation>Desenvolvedor desconhecido</translation>
     </message>
     <message>
-        <location filename="../src/CartDetailsWidget.cpp" line="451"/>
+        <location filename="../src/CartDetailsWidget.cpp" line="539"/>
         <source>Official cartridge</source>
         <translation>Cartucho oficial</translation>
     </message>
     <message>
-        <location filename="../src/CartDetailsWidget.cpp" line="452"/>
+        <location filename="../src/CartDetailsWidget.cpp" line="540"/>
         <source>Unofficial cartridge</source>
         <translation>Cartucho não oficial</translation>
     </message>
     <message>
-        <location filename="../src/CartDetailsWidget.cpp" line="453"/>
+        <location filename="../src/CartDetailsWidget.cpp" line="541"/>
         <source>Unrecognized cartridge</source>
         <translation>Cartucho não reconhecido</translation>
     </message>
     <message>
-        <location filename="../src/CartDetailsWidget.cpp" line="454"/>
+        <location filename="../src/CartDetailsWidget.cpp" line="542"/>
         <source>Read-only cartridge</source>
         <translation>Cartucho somente leitura</translation>
     </message>
     <message>
-        <location filename="../src/CartDetailsWidget.cpp" line="455"/>
+        <location filename="../src/CartDetailsWidget.cpp" line="543"/>
         <source>Rewritable cartridge</source>
         <translation>Cartucho regravável</translation>
     </message>
@@ -146,14 +146,14 @@ P.S. Se você optar por pular o tour agora, não será solicitado a fazê-lo nov
 <context>
     <name>CartSearchPage</name>
     <message>
-        <location filename="../src/CartSearchPage.cpp" line="54"/>
+        <location filename="../src/CartSearchPage.cpp" line="56"/>
         <source>Make sure your cartridge is properly inserted and its pins are clean.
 Do not remove the cartridge while any operation is running.</source>
         <translation>Certifique-se de que seu cartucho está inserido corretamente e seus pinos estão limpos.
 Não remova o cartucho enquanto qualquer operação estiver em execução.</translation>
     </message>
     <message>
-        <location filename="../src/CartSearchPage.cpp" line="56"/>
+        <location filename="../src/CartSearchPage.cpp" line="58"/>
         <source>Please insert a cartridge</source>
         <translation>Por favor, insira um cartucho</translation>
     </message>
@@ -243,42 +243,72 @@ Não remova o cartucho enquanto qualquer operação estiver em execução.</tran
 <context>
     <name>CoreFeaturesWidget</name>
     <message>
-        <location filename="../src/CoreCapabilitiesWidget.cpp" line="127"/>
+        <location filename="../src/CoreCapabilitiesWidget.cpp" line="148"/>
         <source>Supported Features</source>
         <translation>Recursos Suportados</translation>
+    </message>
+    <message>
+        <location filename="../src/CoreCapabilitiesWidget.cpp" line="150"/>
+        <source>Cartridge Autosave</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/CoreCapabilitiesWidget.cpp" line="151"/>
+        <source>Emulator Settings</source>
+        <translation type="unfinished">Configurações do Emulador</translation>
+    </message>
+    <message>
+        <location filename="../src/CoreCapabilitiesWidget.cpp" line="152"/>
+        <source>Cheats</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/CoreCapabilitiesWidget.cpp" line="153"/>
+        <source>Controller Support</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/CoreCapabilitiesWidget.cpp" line="154"/>
+        <source>Shaders</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/CoreCapabilitiesWidget.cpp" line="155"/>
+        <source>Rumble</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>CoreSelectorScreen</name>
     <message>
-        <location filename="../src/CoreSelectorScreen.cpp" line="75"/>
-        <location filename="../src/CoreSelectorScreen.cpp" line="216"/>
+        <location filename="../src/CoreSelectorScreen.cpp" line="77"/>
+        <location filename="../src/CoreSelectorScreen.cpp" line="235"/>
         <source>Officially supported</source>
         <translation>Oficialmente suportado</translation>
     </message>
     <message>
-        <location filename="../src/CoreSelectorScreen.cpp" line="75"/>
-        <location filename="../src/CoreSelectorScreen.cpp" line="216"/>
+        <location filename="../src/CoreSelectorScreen.cpp" line="77"/>
+        <location filename="../src/CoreSelectorScreen.cpp" line="235"/>
         <source>Alternative Core</source>
         <translation>Core Alternativo</translation>
     </message>
     <message>
-        <location filename="../src/CoreSelectorScreen.cpp" line="208"/>
+        <location filename="../src/CoreSelectorScreen.cpp" line="224"/>
         <source>Select Core</source>
         <translation>Selecionar Core</translation>
     </message>
     <message>
-        <location filename="../src/CoreSelectorScreen.cpp" line="210"/>
+        <location filename="../src/CoreSelectorScreen.cpp" line="226"/>
         <source>You can change the emulation core for your Operator device. Download a core online or provide your own, but remember: only some cores are fully supported by Epilogue ensure complete feature compatibility.</source>
         <translation>Você pode alterar o core de emulação do seu dispositivo Operator. Baixe um core online ou forneça o seu próprio, mas lembre-se: apenas alguns cores são totalmente suportados pela Epilogue para garantir compatibilidade completa de recursos.</translation>
     </message>
     <message>
-        <location filename="../src/CoreSelectorScreen.cpp" line="212"/>
+        <location filename="../src/CoreSelectorScreen.cpp" line="230"/>
         <source>Custom Core</source>
         <translation>Core Personalizado</translation>
     </message>
     <message>
-        <location filename="../src/CoreSelectorScreen.cpp" line="213"/>
+        <location filename="../src/CoreSelectorScreen.cpp" line="231"/>
         <source>Your own core</source>
         <translation>Seu próprio core</translation>
     </message>
@@ -289,6 +319,32 @@ Não remova o cartucho enquanto qualquer operação estiver em execução.</tran
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="105"/>
         <source>Supported Systems</source>
         <translation>Sistemas Suportados</translation>
+    </message>
+    <message>
+        <location filename="../src/CoreCapabilitiesWidget.cpp" line="107"/>
+        <location filename="../src/CoreCapabilitiesWidget.cpp" line="109"/>
+        <source>Game Boy</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/CoreCapabilitiesWidget.cpp" line="110"/>
+        <source>Game Boy Color</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/CoreCapabilitiesWidget.cpp" line="111"/>
+        <source>Game Boy Advance</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/CoreCapabilitiesWidget.cpp" line="112"/>
+        <source>Super Nintendo</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/CoreCapabilitiesWidget.cpp" line="113"/>
+        <source>Nintendo 64</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -338,6 +394,29 @@ Não remova o cartucho enquanto qualquer operação estiver em execução.</tran
         <location filename="../src/DeviceBase.cpp" line="291"/>
         <source>The save data appears to be inconsistent between read cycles. Please clean the cartridge pins and try again.</source>
         <translation>Os dados de salvamento parecem estar inconsistentes entre os ciclos de leitura. Por favor, limpe os pinos do cartucho e tente novamente.</translation>
+    </message>
+</context>
+<context>
+    <name>DeviceEffectConfigurator</name>
+    <message>
+        <location filename="../src/DeviceSettingsScreen.cpp" line="131"/>
+        <source>Static</source>
+        <translation type="unfinished">Estático</translation>
+    </message>
+    <message>
+        <location filename="../src/DeviceSettingsScreen.cpp" line="133"/>
+        <source>Dark</source>
+        <translation type="unfinished">Escuro</translation>
+    </message>
+    <message>
+        <location filename="../src/DeviceSettingsScreen.cpp" line="135"/>
+        <source>Pulse</source>
+        <translation type="unfinished">Pulso</translation>
+    </message>
+    <message>
+        <location filename="../src/DeviceSettingsScreen.cpp" line="137"/>
+        <source>Strobe</source>
+        <translation type="unfinished">Estroboscópio</translation>
     </message>
 </context>
 <context>
@@ -443,7 +522,7 @@ Não remova o cartucho enquanto qualquer operação estiver em execução.</tran
     <message>
         <location filename="../src/DeviceSettingsScreen.cpp" line="69"/>
         <source>Choose one of the options below to set the status of your device’s LED light. Select ‘Static’ to keep the light on or ‘Dark’ to shut it off. Pulse and Strobe coming soon.</source>
-        <translation>Escolha uma das opções abaixo para definir o status da luz LED do seu dispositivo. Selecione 'Estático' para manter a luz acesa ou 'Escuro' para desligá-la. Pulsação e Estroboscópio em breve.</translation>
+        <translation>Escolha uma das opções abaixo para definir o status da luz LED do seu dispositivo. Selecione &apos;Estático&apos; para manter a luz acesa ou &apos;Escuro&apos; para desligá-la. Pulsação e Estroboscópio em breve.</translation>
     </message>
 </context>
 <context>
@@ -465,24 +544,72 @@ Não remova o cartucho enquanto qualquer operação estiver em execução.</tran
 <context>
     <name>Emulator</name>
     <message>
-        <location filename="../src/Emulator.cpp" line="261"/>
+        <location filename="../src/Emulator.cpp" line="39"/>
+        <location filename="../src/Emulator.cpp" line="753"/>
+        <source>Graphics Hardware Not Supported</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/Emulator.cpp" line="40"/>
+        <source>Your graphics hardware does not meet the minimum requirements.
+
+OpenGL Details:
+Version: %1
+Renderer: %2
+Vendor: %3
+
+Please ensure your graphics drivers are up to date.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/Emulator.cpp" line="54"/>
+        <source>OpenGL Initialization Error</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/Emulator.cpp" line="55"/>
+        <source>Failed to initialize OpenGL context. This application requires OpenGL 3.2 or higher (or OpenGL ES 2.0+). Please ensure your graphics drivers are up to date.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/Emulator.cpp" line="531"/>
         <source>Failed to load game!</source>
         <translation>Falha ao carregar o jogo!</translation>
     </message>
     <message>
-        <location filename="../src/Emulator.cpp" line="262"/>
+        <location filename="../src/Emulator.cpp" line="532"/>
         <source>Unable to launch the game, please make sure that the cartridge is clean.</source>
         <translation>Não foi possível iniciar o jogo, certifique-se de que o cartucho está limpo.</translation>
     </message>
     <message>
-        <location filename="../src/Emulator.cpp" line="268"/>
+        <location filename="../src/Emulator.cpp" line="539"/>
         <source>Failed to load save data!</source>
         <translation>Falha ao carregar dados de salvamento!</translation>
     </message>
     <message>
-        <location filename="../src/Emulator.cpp" line="268"/>
+        <location filename="../src/Emulator.cpp" line="539"/>
         <source>The core failed to load the save data.</source>
         <translation>O core falhou ao carregar os dados de salvamento.</translation>
+    </message>
+    <message>
+        <location filename="../src/Emulator.cpp" line="743"/>
+        <source>Your graphics hardware does not meet the minimum requirements:
+
+%1
+OpenGL Details:
+Version: %2
+Renderer: %3
+Vendor: %4</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>EmulatorControlsDropdownWidget</name>
+    <message>
+        <location filename="../src/EmulatorControlsDropdownWidget.cpp" line="146"/>
+        <location filename="../src/EmulatorControlsDropdownWidget.cpp" line="169"/>
+        <source>  Install shaders...</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -545,7 +672,7 @@ Não remova o cartucho enquanto qualquer operação estiver em execução.</tran
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="261"/>
         <source>A fast-forward speed higher than 2x can cause unexpected bugs in combination with the &apos;Autosave to cartridge&apos; feature. You will need to disable and enable it by clicking the fast-forward button.</source>
-        <translation>Uma velocidade de avanço rápido superior a 2x pode causar bugs inesperados em combinação com o recurso 'Salvamento automático para o cartucho'. Você precisará desativar e reativar clicando no botão de avanço rápido.</translation>
+        <translation>Uma velocidade de avanço rápido superior a 2x pode causar bugs inesperados em combinação com o recurso &apos;Salvamento automático para o cartucho&apos;. Você precisará desativar e reativar clicando no botão de avanço rápido.</translation>
     </message>
     <message>
         <location filename="../src/EmulatorSettingsScreen.cpp" line="266"/>
@@ -578,18 +705,18 @@ Não remova o cartucho enquanto qualquer operação estiver em execução.</tran
         <translation>Desativado</translation>
     </message>
     <message>
-        <location filename="../src/EmulatorSettingsScreen.h" line="137"/>
-        <location filename="../src/EmulatorSettingsScreen.h" line="152"/>
-        <location filename="../src/EmulatorSettingsScreen.h" line="167"/>
-        <location filename="../src/EmulatorSettingsScreen.h" line="182"/>
+        <location filename="../src/EmulatorSettingsScreen.h" line="136"/>
+        <location filename="../src/EmulatorSettingsScreen.h" line="151"/>
+        <location filename="../src/EmulatorSettingsScreen.h" line="166"/>
+        <location filename="../src/EmulatorSettingsScreen.h" line="181"/>
         <source>enabled</source>
         <translation>ativado</translation>
     </message>
     <message>
-        <location filename="../src/EmulatorSettingsScreen.h" line="138"/>
-        <location filename="../src/EmulatorSettingsScreen.h" line="153"/>
-        <location filename="../src/EmulatorSettingsScreen.h" line="168"/>
-        <location filename="../src/EmulatorSettingsScreen.h" line="183"/>
+        <location filename="../src/EmulatorSettingsScreen.h" line="137"/>
+        <location filename="../src/EmulatorSettingsScreen.h" line="152"/>
+        <location filename="../src/EmulatorSettingsScreen.h" line="167"/>
+        <location filename="../src/EmulatorSettingsScreen.h" line="182"/>
         <source>disabled</source>
         <translation>desativado</translation>
     </message>
@@ -610,19 +737,19 @@ Não remova o cartucho enquanto qualquer operação estiver em execução.</tran
 <context>
     <name>FirmwareUpdateWindow</name>
     <message>
-        <location filename="../src/FirmwareUpdateWindow.cpp" line="58"/>
+        <location filename="../src/FirmwareUpdateWindow.cpp" line="64"/>
         <source>Updating...</source>
         <translation>Atualizando...</translation>
     </message>
     <message>
-        <location filename="../src/FirmwareUpdateWindow.cpp" line="59"/>
+        <location filename="../src/FirmwareUpdateWindow.cpp" line="65"/>
         <source>This may take up to a minute,
 please do not disconnect the device.</source>
         <translation>Isso pode levar até um minuto,
 por favor, não desconecte o dispositivo.</translation>
     </message>
     <message>
-        <location filename="../src/FirmwareUpdateWindow.cpp" line="60"/>
+        <location filename="../src/FirmwareUpdateWindow.cpp" line="66"/>
         <source>Not working?</source>
         <translation>Não está funcionando?</translation>
     </message>
@@ -718,34 +845,34 @@ Você pode tentar limpar e reinseri-lo no dispositivo.
 <context>
     <name>ManagePage</name>
     <message>
-        <location filename="../src/ManagePage.cpp" line="99"/>
+        <location filename="../src/ManagePage.cpp" line="120"/>
         <source>Unknown title</source>
         <translation>Título desconhecido</translation>
     </message>
     <message>
-        <location filename="../src/ManagePage.cpp" line="100"/>
+        <location filename="../src/ManagePage.cpp" line="121"/>
         <source>[no checksum available]</source>
         <translation>[nenhum checksum disponível]</translation>
     </message>
     <message>
-        <location filename="../src/ManagePage.cpp" line="102"/>
-        <location filename="../src/ManagePage.cpp" line="225"/>
+        <location filename="../src/ManagePage.cpp" line="123"/>
+        <location filename="../src/ManagePage.cpp" line="247"/>
         <source>Title</source>
         <translation>Título</translation>
     </message>
     <message>
-        <location filename="../src/ManagePage.cpp" line="103"/>
-        <location filename="../src/ManagePage.cpp" line="226"/>
+        <location filename="../src/ManagePage.cpp" line="124"/>
+        <location filename="../src/ManagePage.cpp" line="248"/>
         <source>Game Data Checksum</source>
         <translation>Checksum de Dados do Jogo</translation>
     </message>
     <message>
-        <location filename="../src/ManagePage.cpp" line="223"/>
+        <location filename="../src/ManagePage.cpp" line="245"/>
         <source>START</source>
         <translation>INICIAR</translation>
     </message>
     <message>
-        <location filename="../src/ManagePage.cpp" line="224"/>
+        <location filename="../src/ManagePage.cpp" line="246"/>
         <source>Data Flow:</source>
         <translation>Fluxo de Dados:</translation>
     </message>
@@ -757,6 +884,11 @@ Você pode tentar limpar e reinseri-lo no dispositivo.
         <location filename="../src/ManagePageOperation.cpp" line="347"/>
         <source>STOP</source>
         <translation>PARAR</translation>
+    </message>
+    <message>
+        <location filename="../src/ManagePageOperation.cpp" line="117"/>
+        <source>The file you have selected is %0, while the memory on the device is reported as %1. Would you like to proceed?</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/ManagePageOperation.cpp" line="211"/>
@@ -792,48 +924,48 @@ Você pode tentar limpar e reinseri-lo no dispositivo.
 <context>
     <name>Navbar</name>
     <message>
-        <location filename="../src/Navbar.cpp" line="207"/>
-        <location filename="../src/Navbar.cpp" line="242"/>
+        <location filename="../src/Navbar.cpp" line="208"/>
+        <location filename="../src/Navbar.cpp" line="243"/>
         <source>Press ESC to exit emulation</source>
         <translation>Pressione ESC para sair da emulação</translation>
     </message>
     <message>
-        <location filename="../src/Navbar.cpp" line="209"/>
+        <location filename="../src/Navbar.cpp" line="210"/>
         <source>Loading game...</source>
         <translation>Carregando jogo...</translation>
     </message>
     <message>
-        <location filename="../src/Navbar.cpp" line="211"/>
+        <location filename="../src/Navbar.cpp" line="212"/>
         <source>Writing game...</source>
         <translation>Gravando jogo...</translation>
     </message>
     <message>
-        <location filename="../src/Navbar.cpp" line="213"/>
+        <location filename="../src/Navbar.cpp" line="214"/>
         <source>Loading save...</source>
         <translation>Carregando salvamento...</translation>
     </message>
     <message>
-        <location filename="../src/Navbar.cpp" line="215"/>
+        <location filename="../src/Navbar.cpp" line="216"/>
         <source>Writing save...</source>
         <translation>Gravando salvamento...</translation>
     </message>
     <message>
-        <location filename="../src/Navbar.cpp" line="217"/>
+        <location filename="../src/Navbar.cpp" line="218"/>
         <source>Erasing data...</source>
         <translation>Apagando dados...</translation>
     </message>
     <message>
-        <location filename="../src/Navbar.cpp" line="241"/>
+        <location filename="../src/Navbar.cpp" line="242"/>
         <source>Press TAB to exit mouse capture mode</source>
         <translation>Pressione TAB para sair do modo de captura de mouse</translation>
     </message>
     <message>
-        <location filename="../src/Navbar.cpp" line="248"/>
+        <location filename="../src/Navbar.cpp" line="249"/>
         <source>PLAY</source>
         <translation>JOGAR</translation>
     </message>
     <message>
-        <location filename="../src/Navbar.cpp" line="249"/>
+        <location filename="../src/Navbar.cpp" line="250"/>
         <source>DATA</source>
         <translation>DADOS</translation>
     </message>
@@ -897,27 +1029,27 @@ Você pode tentar limpar e reinseri-lo no dispositivo.
 <context>
     <name>NavbarSubmenu</name>
     <message>
-        <location filename="../src/Navbar.cpp" line="424"/>
+        <location filename="../src/Navbar.cpp" line="425"/>
         <source>Backup Game</source>
         <translation>Backup do Jogo</translation>
     </message>
     <message>
-        <location filename="../src/Navbar.cpp" line="425"/>
+        <location filename="../src/Navbar.cpp" line="426"/>
         <source>Upload Homebrew</source>
         <translation>Enviar Homebrew</translation>
     </message>
     <message>
-        <location filename="../src/Navbar.cpp" line="426"/>
+        <location filename="../src/Navbar.cpp" line="427"/>
         <source>Backup Save</source>
         <translation>Backup do Salvamento</translation>
     </message>
     <message>
-        <location filename="../src/Navbar.cpp" line="427"/>
+        <location filename="../src/Navbar.cpp" line="428"/>
         <source>Upload Save</source>
         <translation>Enviar Salvamento</translation>
     </message>
     <message>
-        <location filename="../src/Navbar.cpp" line="428"/>
+        <location filename="../src/Navbar.cpp" line="429"/>
         <source>Photo Gallery</source>
         <translation>Galeria de Fotos</translation>
     </message>
@@ -925,37 +1057,37 @@ Você pode tentar limpar e reinseri-lo no dispositivo.
 <context>
     <name>PhotosPage</name>
     <message>
-        <location filename="../src/PhotosPage.cpp" line="176"/>
+        <location filename="../src/PhotosPage.cpp" line="178"/>
         <source>Open Directory</source>
         <translation>Abrir Diretório</translation>
     </message>
     <message>
-        <location filename="../src/PhotosPage.cpp" line="196"/>
+        <location filename="../src/PhotosPage.cpp" line="198"/>
         <source>Warning, permanent deletion</source>
         <translation>Atenção, exclusão permanente</translation>
     </message>
     <message>
-        <location filename="../src/PhotosPage.cpp" line="197"/>
+        <location filename="../src/PhotosPage.cpp" line="199"/>
         <source>This will permanently delete all the pictures on your Game Boy Camera. Are you sure?</source>
         <translation>Isto excluirá permanentemente todas as fotos da sua Game Boy Camera. Tem certeza?</translation>
     </message>
     <message>
-        <location filename="../src/PhotosPage.cpp" line="315"/>
+        <location filename="../src/PhotosPage.cpp" line="317"/>
         <source>Found %1 photos on your Game Boy Camera.</source>
         <translation>Encontradas %1 fotos na sua Game Boy Camera.</translation>
     </message>
     <message>
-        <location filename="../src/PhotosPage.cpp" line="318"/>
+        <location filename="../src/PhotosPage.cpp" line="320"/>
         <source>Found 1 photo on your Game Boy Camera.</source>
         <translation>Encontrada 1 foto na sua Game Boy Camera.</translation>
     </message>
     <message>
-        <location filename="../src/PhotosPage.cpp" line="322"/>
+        <location filename="../src/PhotosPage.cpp" line="324"/>
         <source>Found no photos on your Game Boy Camera.</source>
         <translation>Nenhuma foto encontrada na sua Game Boy Camera.</translation>
     </message>
     <message>
-        <location filename="../src/PhotosPage.cpp" line="344"/>
+        <location filename="../src/PhotosPage.cpp" line="346"/>
         <source>Transfer your pics from your Game Boy Camera to your PC in just two clicks. The images are stored as PNGs of 128x112 pixels. You can scale this using the scaling function.
 
 If you&apos;d like to easily remove all the pictures from your camera, without having to manually delete them one by one in the camera software, you can use the delete button below.</source>
@@ -964,22 +1096,22 @@ If you&apos;d like to easily remove all the pictures from your camera, without h
 Se você quiser remover facilmente todas as fotos da sua câmera, sem precisar excluí-las manualmente uma por uma no software da câmera, você pode usar o botão de exclusão abaixo.</translation>
     </message>
     <message>
-        <location filename="../src/PhotosPage.cpp" line="348"/>
+        <location filename="../src/PhotosPage.cpp" line="350"/>
         <source>SAVE ALL</source>
         <translation>SALVAR TODAS</translation>
     </message>
     <message>
-        <location filename="../src/PhotosPage.cpp" line="349"/>
+        <location filename="../src/PhotosPage.cpp" line="351"/>
         <source>DELETE ALL</source>
         <translation>EXCLUIR TODAS</translation>
     </message>
     <message>
-        <location filename="../src/PhotosPage.cpp" line="350"/>
+        <location filename="../src/PhotosPage.cpp" line="352"/>
         <source>Photo Gallery</source>
         <translation>Galeria de Fotos</translation>
     </message>
     <message>
-        <location filename="../src/PhotosPage.cpp" line="351"/>
+        <location filename="../src/PhotosPage.cpp" line="353"/>
         <source>Scaling factor:</source>
         <translation>Fator de escala:</translation>
     </message>
@@ -1023,66 +1155,76 @@ Se você quiser remover facilmente todas as fotos da sua câmera, sem precisar e
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="94"/>
+        <source>Pixel Perfect Mode</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/PlaybackSettingsScreen.cpp" line="95"/>
         <source>RTC data in save file</source>
         <translation>Dados RTC no arquivo de salvamento</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.cpp" line="95"/>
+        <location filename="../src/PlaybackSettingsScreen.cpp" line="96"/>
         <source>Verify Save After Writing Process</source>
         <translation>Verificar Salvamento Após Processo de Escrita</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.cpp" line="96"/>
+        <location filename="../src/PlaybackSettingsScreen.cpp" line="97"/>
         <source>Verify Save is Read Properly</source>
         <translation>Verificar se o Salvamento é Lido Corretamente</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.cpp" line="97"/>
+        <location filename="../src/PlaybackSettingsScreen.cpp" line="98"/>
         <source>Verify Homebrew File Integrity</source>
         <translation>Verificar Integridade do Arquivo Homebrew</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.cpp" line="98"/>
+        <location filename="../src/PlaybackSettingsScreen.cpp" line="99"/>
         <source>Enable verbose debug logs (requires restart)</source>
         <translation>Ativar logs de depuração detalhados (requer reinicialização)</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.cpp" line="105"/>
+        <location filename="../src/PlaybackSettingsScreen.cpp" line="106"/>
         <source>Allows you to change the language in which the Playback software is presented. It requires an application restart in order to update the language accross the entire application.</source>
         <translation>Permite alterar o idioma em que o software Playback é apresentado. É necessário reiniciar o aplicativo para atualizar o idioma em toda a aplicação.</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.cpp" line="109"/>
+        <location filename="../src/PlaybackSettingsScreen.cpp" line="110"/>
         <source>Once you save in-game, or the game modifies the save internally, your Operator device will automatically write the save to the cartridge. This feature is still in development.</source>
         <translation>Quando você salvar no jogo, ou o jogo modificar o salvamento internamente, seu dispositivo Operator gravará automaticamente o salvamento no cartucho. Este recurso ainda está em desenvolvimento.</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.cpp" line="113"/>
+        <location filename="../src/PlaybackSettingsScreen.cpp" line="114"/>
         <source>Displays the current frames per second (FPS) of the game being played.</source>
         <translation>Exibe os quadros por segundo (FPS) atuais do jogo sendo jogado.</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.cpp" line="115"/>
+        <location filename="../src/PlaybackSettingsScreen.cpp" line="116"/>
+        <source>When enabled, games are displayed with integer scaling to ensure pixels are displayed at exact multiples of their original size. This eliminates graphical artifacts and preserves the authentic look of retro games at the expense of some screen space.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/PlaybackSettingsScreen.cpp" line="120"/>
         <source>When enabled and supported by the game, Playback adds real-time clock (RTC) data to the save file. This ensures accurate preservation of time-based events. Note that this will increase the file size and might make it incompatible with other software.</source>
         <translation>Quando ativado e suportado pelo jogo, o Playback adiciona dados de relógio em tempo real (RTC) ao arquivo de salvamento. Isso garante a preservação precisa de eventos baseados em tempo. Note que isso aumentará o tamanho do arquivo e pode torná-lo incompatível com outros softwares.</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.cpp" line="119"/>
+        <location filename="../src/PlaybackSettingsScreen.cpp" line="124"/>
         <source>Activating this setting prompts Playback to check that the save file remains uncorrupted after being written to the cartridge. It ensures your game progress has been safely stored.</source>
         <translation>Ativar esta configuração faz com que o Playback verifique se o arquivo de salvamento permanece não corrompido após ser gravado no cartucho. Isso garante que seu progresso no jogo foi armazenado com segurança.</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.cpp" line="122"/>
+        <location filename="../src/PlaybackSettingsScreen.cpp" line="127"/>
         <source>When this setting is enabled, Playback reads the save file from the cartridge multiple times and reviews any discrepancies to prevent data corruption.</source>
         <translation>Quando esta configuração está ativada, o Playback lê o arquivo de salvamento do cartucho várias vezes e revisa quaisquer discrepâncias para evitar corrupção de dados.</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.cpp" line="125"/>
+        <location filename="../src/PlaybackSettingsScreen.cpp" line="130"/>
         <source>This setting enables Playback to confirm the integrity of a homebrew game after transferring it to the cartridge, making sure there are no issues affecting your work.</source>
         <translation>Esta configuração permite que o Playback confirme a integridade de um jogo homebrew após transferí-lo para o cartucho, garantindo que não haja problemas que afetem seu trabalho.</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.cpp" line="128"/>
+        <location filename="../src/PlaybackSettingsScreen.cpp" line="133"/>
         <source>When enabled, the Playback software will output more detailed logs to help diagnose issues. This setting is useful for troubleshooting and should be disabled when not needed.</source>
         <translation>Quando ativado, o software Playback produzirá logs mais detalhados para ajudar a diagnosticar problemas. Esta configuração é útil para solução de problemas e deve ser desativada quando não for necessária.</translation>
     </message>
@@ -1090,17 +1232,17 @@ Se você quiser remover facilmente todas as fotos da sua câmera, sem precisar e
 <context>
     <name>PlaybackSettingsScreenOption</name>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.cpp" line="185"/>
+        <location filename="../src/PlaybackSettingsScreen.cpp" line="190"/>
         <source>Open Log Directory</source>
         <translation>Abrir Diretório de Logs</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.cpp" line="191"/>
+        <location filename="../src/PlaybackSettingsScreen.cpp" line="196"/>
         <source>Enabled</source>
         <translation>Ativado</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.cpp" line="192"/>
+        <location filename="../src/PlaybackSettingsScreen.cpp" line="197"/>
         <source>Disabled</source>
         <translation>Desativado</translation>
     </message>
@@ -1190,19 +1332,19 @@ Deseja continuar?
 <context>
     <name>SearchWindow</name>
     <message>
-        <location filename="../src/SearchWindow.cpp" line="52"/>
+        <location filename="../src/SearchWindow.cpp" line="59"/>
         <source>Searching...</source>
         <translation>Buscando...</translation>
     </message>
     <message>
-        <location filename="../src/SearchWindow.cpp" line="53"/>
+        <location filename="../src/SearchWindow.cpp" line="60"/>
         <source>Looking for your Operator device.
 Please make sure it&apos;s connected.</source>
         <translation>Procurando seu dispositivo Operator.
 Certifique-se de que ele está conectado.</translation>
     </message>
     <message>
-        <location filename="../src/SearchWindow.cpp" line="55"/>
+        <location filename="../src/SearchWindow.cpp" line="62"/>
         <source>Not working?</source>
         <translation>Não está funcionando?</translation>
     </message>
@@ -1210,47 +1352,47 @@ Certifique-se de que ele está conectado.</translation>
 <context>
     <name>SettingsWindow</name>
     <message>
-        <location filename="../src/SettingsWindow.cpp" line="246"/>
+        <location filename="../src/SettingsWindow.cpp" line="247"/>
         <source>Core Load Failed</source>
         <translation>Falha ao Carregar Core</translation>
     </message>
     <message>
-        <location filename="../src/SettingsWindow.cpp" line="246"/>
+        <location filename="../src/SettingsWindow.cpp" line="247"/>
         <source>Failed to load core. Please load a valid core.</source>
         <translation>Falha ao carregar core. Por favor, carregue um core válido.</translation>
     </message>
     <message>
-        <location filename="../src/SettingsWindow.cpp" line="276"/>
+        <location filename="../src/SettingsWindow.cpp" line="277"/>
         <source>Settings</source>
         <translation>Configurações</translation>
     </message>
     <message>
-        <location filename="../src/SettingsWindow.cpp" line="277"/>
+        <location filename="../src/SettingsWindow.cpp" line="278"/>
         <source>Playback Settings</source>
         <translation>Configurações do Playback</translation>
     </message>
     <message>
-        <location filename="../src/SettingsWindow.cpp" line="278"/>
+        <location filename="../src/SettingsWindow.cpp" line="279"/>
         <source>Core Selector</source>
         <translation>Seletor de Core</translation>
     </message>
     <message>
-        <location filename="../src/SettingsWindow.cpp" line="279"/>
+        <location filename="../src/SettingsWindow.cpp" line="280"/>
         <source>Emulator Settings</source>
         <translation>Configurações do Emulador</translation>
     </message>
     <message>
-        <location filename="../src/SettingsWindow.cpp" line="280"/>
+        <location filename="../src/SettingsWindow.cpp" line="281"/>
         <source>Device Settings</source>
         <translation>Configurações do Dispositivo</translation>
     </message>
     <message>
-        <location filename="../src/SettingsWindow.cpp" line="281"/>
+        <location filename="../src/SettingsWindow.cpp" line="282"/>
         <source>Controls Settings</source>
         <translation>Configurações de Controles</translation>
     </message>
     <message>
-        <location filename="../src/SettingsWindow.cpp" line="282"/>
+        <location filename="../src/SettingsWindow.cpp" line="283"/>
         <source>Cheat Codes</source>
         <translation>Códigos de Trapaça</translation>
     </message>
@@ -1315,7 +1457,7 @@ Certifique-se de que ele está conectado.</translation>
 <context>
     <name>ViewRouter</name>
     <message>
-        <location filename="../src/ViewRouter.cpp" line="111"/>
+        <location filename="../src/ViewRouter.cpp" line="107"/>
         <source>Archive your game data securely on your computer, making a digital equivalent of your game collection. Game files are compatible with your chosen emulator.
 
 Tip: Our app runs a Data Integrity Test to make sure that you are getting an accurate reproduction of the cartridge’s content.</source>
@@ -1324,12 +1466,12 @@ Tip: Our app runs a Data Integrity Test to make sure that you are getting an acc
 Dica: Nosso aplicativo executa um Teste de Integridade de Dados para garantir que você obtenha uma reprodução precisa do conteúdo do cartucho.</translation>
     </message>
     <message>
-        <location filename="../src/ViewRouter.cpp" line="115"/>
+        <location filename="../src/ViewRouter.cpp" line="111"/>
         <source>Backup Game</source>
         <translation>Backup do Jogo</translation>
     </message>
     <message>
-        <location filename="../src/ViewRouter.cpp" line="119"/>
+        <location filename="../src/ViewRouter.cpp" line="115"/>
         <source>Overwrite the game data on your cartridge with a different file. Make sure the game file you’re writing is valid by testing it in an external emulator first.
 
 Tip: Transfer your homebrew game to a cartridge and play it on original hardware.</source>
@@ -1338,12 +1480,12 @@ Tip: Transfer your homebrew game to a cartridge and play it on original hardware
 Dica: Transfira seu jogo homebrew para um cartucho e jogue-o no hardware original.</translation>
     </message>
     <message>
-        <location filename="../src/ViewRouter.cpp" line="122"/>
+        <location filename="../src/ViewRouter.cpp" line="118"/>
         <source>Upload Homebrew</source>
         <translation>Enviar Homebrew</translation>
     </message>
     <message>
-        <location filename="../src/ViewRouter.cpp" line="125"/>
+        <location filename="../src/ViewRouter.cpp" line="121"/>
         <source>Transfer a duplicate of your save data from the cartridge to your computer. You can then back up your save file or edit it with an external program.
 
 Tip: Transfer your save to the computer, replace the battery and transfer it back to the cartridge safely.</source>
@@ -1352,12 +1494,12 @@ Tip: Transfer your save to the computer, replace the battery and transfer it bac
 Dica: Transfira seu salvamento para o computador, substitua a bateria e transfira-o de volta para o cartucho com segurança.</translation>
     </message>
     <message>
-        <location filename="../src/ViewRouter.cpp" line="130"/>
+        <location filename="../src/ViewRouter.cpp" line="126"/>
         <source>Backup Save</source>
         <translation>Backup do Salvamento</translation>
     </message>
     <message>
-        <location filename="../src/ViewRouter.cpp" line="134"/>
+        <location filename="../src/ViewRouter.cpp" line="130"/>
         <source>Transfer a duplicate of your save data from your computer to the cartridge and pick the game up right where you left off.
 
 Tip: Use external programs to trigger in-game events or customize gameplay.</source>
@@ -1366,7 +1508,7 @@ Tip: Use external programs to trigger in-game events or customize gameplay.</sou
 Dica: Use programas externos para acionar eventos no jogo ou personalizar a jogabilidade.</translation>
     </message>
     <message>
-        <location filename="../src/ViewRouter.cpp" line="137"/>
+        <location filename="../src/ViewRouter.cpp" line="133"/>
         <source>Upload Save</source>
         <translation>Enviar Salvamento</translation>
     </message>
@@ -1374,126 +1516,126 @@ Dica: Use programas externos para acionar eventos no jogo ou personalizar a joga
 <context>
     <name>Window</name>
     <message>
-        <location filename="../src/Window.cpp" line="138"/>
-        <location filename="../src/Window.cpp" line="368"/>
+        <location filename="../src/Window.cpp" line="161"/>
+        <location filename="../src/Window.cpp" line="411"/>
         <source>A new app update is available</source>
         <translation>Uma nova atualização do aplicativo está disponível</translation>
     </message>
     <message>
-        <location filename="../src/Window.cpp" line="138"/>
-        <location filename="../src/Window.cpp" line="368"/>
+        <location filename="../src/Window.cpp" line="161"/>
+        <location filename="../src/Window.cpp" line="411"/>
         <source>Open</source>
         <translation>Abrir</translation>
     </message>
     <message>
-        <location filename="../src/Window.cpp" line="159"/>
-        <location filename="../src/Window.cpp" line="366"/>
+        <location filename="../src/Window.cpp" line="182"/>
+        <location filename="../src/Window.cpp" line="409"/>
         <source>A new device update is available</source>
         <translation>Uma nova atualização do dispositivo está disponível</translation>
     </message>
     <message>
-        <location filename="../src/Window.cpp" line="159"/>
-        <location filename="../src/Window.cpp" line="366"/>
+        <location filename="../src/Window.cpp" line="182"/>
+        <location filename="../src/Window.cpp" line="409"/>
         <source>Start</source>
         <translation>Iniciar</translation>
     </message>
     <message>
-        <location filename="../src/Window.cpp" line="393"/>
+        <location filename="../src/Window.cpp" line="441"/>
         <source>Main Hub</source>
         <translation>Hub Principal</translation>
     </message>
     <message>
-        <location filename="../src/Window.cpp" line="394"/>
+        <location filename="../src/Window.cpp" line="442"/>
         <source>Choose between playing the game, transferring data or accessing more info.</source>
         <translation>Escolha entre jogar o jogo, transferir dados ou acessar mais informações.</translation>
     </message>
     <message>
-        <location filename="../src/Window.cpp" line="401"/>
+        <location filename="../src/Window.cpp" line="449"/>
         <source>Play Tab</source>
         <translation>Aba Jogar</translation>
     </message>
     <message>
-        <location filename="../src/Window.cpp" line="402"/>
+        <location filename="../src/Window.cpp" line="450"/>
         <source>Learn more about your game, or have a play session on the in-app emulator.</source>
         <translation>Saiba mais sobre seu jogo ou inicie uma sessão de jogo no emulador integrado.</translation>
     </message>
     <message>
-        <location filename="../src/Window.cpp" line="409"/>
+        <location filename="../src/Window.cpp" line="457"/>
         <source>Start Play Session</source>
         <translation>Iniciar Sessão de Jogo</translation>
     </message>
     <message>
-        <location filename="../src/Window.cpp" line="410"/>
+        <location filename="../src/Window.cpp" line="458"/>
         <source>Launch the in-app emulator for an authentic, accurate experience.</source>
         <translation>Inicie o emulador integrado para uma experiência autêntica e precisa.</translation>
     </message>
     <message>
-        <location filename="../src/Window.cpp" line="417"/>
+        <location filename="../src/Window.cpp" line="465"/>
         <source>Playback Settings</source>
         <translation>Configurações do Playback</translation>
     </message>
     <message>
-        <location filename="../src/Window.cpp" line="418"/>
+        <location filename="../src/Window.cpp" line="466"/>
         <source>Configure parameters to make the app your own.</source>
         <translation>Configure parâmetros para personalizar o aplicativo ao seu gosto.</translation>
     </message>
     <message>
-        <location filename="../src/Window.cpp" line="425"/>
+        <location filename="../src/Window.cpp" line="473"/>
         <source>Save Vault</source>
         <translation>Vault de Salvamentos</translation>
     </message>
     <message>
-        <location filename="../src/Window.cpp" line="426"/>
+        <location filename="../src/Window.cpp" line="474"/>
         <source>Access and manage saves created automatically in the &lt;a href=&quot;#&quot; style=&apos;color: white&apos;&gt;Save Vault&lt;/a&gt;.</source>
         <translation>Acesse e gerencie salvamentos criados automaticamente no &lt;a href=&quot;#&quot; style=&apos;color: white&apos;&gt;Vault de Salvamentos&lt;/a&gt;.</translation>
     </message>
     <message>
-        <location filename="../src/Window.cpp" line="434"/>
+        <location filename="../src/Window.cpp" line="482"/>
         <source>Device Switcher</source>
         <translation>Alternador de Dispositivos</translation>
     </message>
     <message>
-        <location filename="../src/Window.cpp" line="435"/>
+        <location filename="../src/Window.cpp" line="483"/>
         <source>Select between multiple Operator devices connected to the same computer.</source>
         <translation>Selecione entre vários dispositivos Operator conectados ao mesmo computador.</translation>
     </message>
     <message>
-        <location filename="../src/Window.cpp" line="442"/>
+        <location filename="../src/Window.cpp" line="490"/>
         <source>Counterfeit Detection</source>
         <translation>Detecção de Falsificação</translation>
     </message>
     <message>
-        <location filename="../src/Window.cpp" line="443"/>
+        <location filename="../src/Window.cpp" line="491"/>
         <source>Your cartridge has been analysed for some of the most common counterfeit markers.</source>
         <translation>Seu cartucho foi analisado para detectar alguns dos marcadores de falsificação mais comuns.</translation>
     </message>
     <message>
-        <location filename="../src/Window.cpp" line="450"/>
+        <location filename="../src/Window.cpp" line="498"/>
         <source>Data Tab</source>
         <translation>Aba de Dados</translation>
     </message>
     <message>
-        <location filename="../src/Window.cpp" line="451"/>
+        <location filename="../src/Window.cpp" line="499"/>
         <source>Backup, transfer and manage official/homebrew game and save data.</source>
         <translation>Faça backup, transferência e gerenciamento de jogos oficiais/homebrew e dados de salvamento.</translation>
     </message>
     <message>
-        <location filename="../src/Window.cpp" line="458"/>
+        <location filename="../src/Window.cpp" line="506"/>
         <source>Backup Save</source>
         <translation>Backup do Salvamento</translation>
     </message>
     <message>
-        <location filename="../src/Window.cpp" line="459"/>
+        <location filename="../src/Window.cpp" line="507"/>
         <source>Create digital copies of your save data.</source>
         <translation>Crie cópias digitais dos seus dados de salvamento.</translation>
     </message>
     <message>
-        <location filename="../src/Window.cpp" line="466"/>
+        <location filename="../src/Window.cpp" line="514"/>
         <source>Start Backup Session</source>
         <translation>Iniciar Sessão de Backup</translation>
     </message>
     <message>
-        <location filename="../src/Window.cpp" line="467"/>
+        <location filename="../src/Window.cpp" line="515"/>
         <source>Begin archiving the save data.</source>
         <translation>Inicie o arquivamento dos dados de salvamento.</translation>
     </message>
