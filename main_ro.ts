@@ -16,7 +16,7 @@
     <message>
         <location filename="../src/AboutWindow.cpp" line="159"/>
         <source>System</source>
-        <translation type="unfinished">Sistem</translation>
+        <translation>Sistem</translation>
     </message>
     <message>
         <location filename="../src/AboutWindow.cpp" line="160"/>
@@ -255,7 +255,7 @@ Nu scoate caseta în timp ce se desfășoară orice operațiune.</translation>
     <message>
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="151"/>
         <source>Emulator Settings</source>
-        <translation type="unfinished">Setări emulator</translation>
+        <translation>Setări emulator</translation>
     </message>
     <message>
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="152"/>
@@ -401,22 +401,22 @@ Nu scoate caseta în timp ce se desfășoară orice operațiune.</translation>
     <message>
         <location filename="../src/DeviceSettingsScreen.cpp" line="131"/>
         <source>Static</source>
-        <translation type="unfinished">Static</translation>
+        <translation>Static</translation>
     </message>
     <message>
         <location filename="../src/DeviceSettingsScreen.cpp" line="133"/>
         <source>Dark</source>
-        <translation type="unfinished">Stins</translation>
+        <translation>Stins</translation>
     </message>
     <message>
         <location filename="../src/DeviceSettingsScreen.cpp" line="135"/>
         <source>Pulse</source>
-        <translation type="unfinished">Puls</translation>
+        <translation>Puls</translation>
     </message>
     <message>
         <location filename="../src/DeviceSettingsScreen.cpp" line="137"/>
         <source>Strobe</source>
-        <translation type="unfinished">Stroboscop</translation>
+        <translation>Stroboscop</translation>
     </message>
 </context>
 <context>

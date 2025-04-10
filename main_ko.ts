@@ -16,7 +16,7 @@
     <message>
         <location filename="../src/AboutWindow.cpp" line="159"/>
         <source>System</source>
-        <translation type="unfinished">시스템</translation>
+        <translation>시스템</translation>
     </message>
     <message>
         <location filename="../src/AboutWindow.cpp" line="160"/>
@@ -255,7 +255,7 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="151"/>
         <source>Emulator Settings</source>
-        <translation type="unfinished">에뮬레이터 설정</translation>
+        <translation>에뮬레이터 설정</translation>
     </message>
     <message>
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="152"/>
@@ -401,22 +401,22 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/DeviceSettingsScreen.cpp" line="131"/>
         <source>Static</source>
-        <translation type="unfinished">정적</translation>
+        <translation>정적</translation>
     </message>
     <message>
         <location filename="../src/DeviceSettingsScreen.cpp" line="133"/>
         <source>Dark</source>
-        <translation type="unfinished">어둡게</translation>
+        <translation>어둡게</translation>
     </message>
     <message>
         <location filename="../src/DeviceSettingsScreen.cpp" line="135"/>
         <source>Pulse</source>
-        <translation type="unfinished">펄스</translation>
+        <translation>펄스</translation>
     </message>
     <message>
         <location filename="../src/DeviceSettingsScreen.cpp" line="137"/>
         <source>Strobe</source>
-        <translation type="unfinished">스트로브</translation>
+        <translation>스트로브</translation>
     </message>
 </context>
 <context>
