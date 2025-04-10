@@ -6,12 +6,12 @@
     <message>
         <location filename="../src/AboutWindow.cpp" line="157"/>
         <source>Playback</source>
-        <translation type="unfinished"></translation>
+        <translation>Playback</translation>
     </message>
     <message>
         <location filename="../src/AboutWindow.cpp" line="158"/>
         <source>Firmware</source>
-        <translation type="unfinished"></translation>
+        <translation>Firmware</translation>
     </message>
     <message>
         <location filename="../src/AboutWindow.cpp" line="159"/>
@@ -21,7 +21,7 @@
     <message>
         <location filename="../src/AboutWindow.cpp" line="160"/>
         <source>Serial</source>
-        <translation type="unfinished"></translation>
+        <translation>Numero di serie</translation>
     </message>
     <message>
         <location filename="../src/AboutWindow.cpp" line="184"/>
@@ -250,7 +250,7 @@ Non rimuovere la cartuccia mentre è in corso un&apos;operazione.</translation>
     <message>
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="150"/>
         <source>Cartridge Autosave</source>
-        <translation type="unfinished"></translation>
+        <translation>Salvataggio automatico cartuccia</translation>
     </message>
     <message>
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="151"/>
@@ -260,22 +260,22 @@ Non rimuovere la cartuccia mentre è in corso un&apos;operazione.</translation>
     <message>
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="152"/>
         <source>Cheats</source>
-        <translation type="unfinished"></translation>
+        <translation>Trucchi</translation>
     </message>
     <message>
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="153"/>
         <source>Controller Support</source>
-        <translation type="unfinished"></translation>
+        <translation>Supporto controller</translation>
     </message>
     <message>
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="154"/>
         <source>Shaders</source>
-        <translation type="unfinished"></translation>
+        <translation>Shader</translation>
     </message>
     <message>
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="155"/>
         <source>Rumble</source>
-        <translation type="unfinished"></translation>
+        <translation>Vibrazione</translation>
     </message>
 </context>
 <context>
@@ -547,7 +547,7 @@ Non rimuovere la cartuccia mentre è in corso un&apos;operazione.</translation>
         <location filename="../src/Emulator.cpp" line="39"/>
         <location filename="../src/Emulator.cpp" line="753"/>
         <source>Graphics Hardware Not Supported</source>
-        <translation type="unfinished"></translation>
+        <translation>Hardware grafico non supportato</translation>
     </message>
     <message>
         <location filename="../src/Emulator.cpp" line="40"/>
@@ -559,17 +559,24 @@ Renderer: %2
 Vendor: %3
 
 Please ensure your graphics drivers are up to date.</source>
-        <translation type="unfinished"></translation>
+        <translation>Il tuo hardware grafico non soddisfa i requisiti minimi.
+
+Dettagli OpenGL:
+Versione: %1
+Renderer: %2
+Fornitore: %3
+
+Assicurati che i tuoi driver grafici siano aggiornati.</translation>
     </message>
     <message>
         <location filename="../src/Emulator.cpp" line="54"/>
         <source>OpenGL Initialization Error</source>
-        <translation type="unfinished"></translation>
+        <translation>Errore di inizializzazione OpenGL</translation>
     </message>
     <message>
         <location filename="../src/Emulator.cpp" line="55"/>
         <source>Failed to initialize OpenGL context. This application requires OpenGL 3.2 or higher (or OpenGL ES 2.0+). Please ensure your graphics drivers are up to date.</source>
-        <translation type="unfinished"></translation>
+        <translation>Impossibile inizializzare il contesto OpenGL. Questa applicazione richiede OpenGL 3.2 o superiore (o OpenGL ES 2.0+). Assicurati che i tuoi driver grafici siano aggiornati.</translation>
     </message>
     <message>
         <location filename="../src/Emulator.cpp" line="531"/>
@@ -600,7 +607,13 @@ OpenGL Details:
 Version: %2
 Renderer: %3
 Vendor: %4</source>
-        <translation type="unfinished"></translation>
+        <translation>Il tuo hardware grafico non soddisfa i requisiti minimi:
+
+%1
+Dettagli OpenGL:
+Versione: %2
+Renderer: %3
+Fornitore: %4</translation>
     </message>
 </context>
 <context>
@@ -609,7 +622,7 @@ Vendor: %4</source>
         <location filename="../src/EmulatorControlsDropdownWidget.cpp" line="146"/>
         <location filename="../src/EmulatorControlsDropdownWidget.cpp" line="169"/>
         <source>  Install shaders...</source>
-        <translation type="unfinished"></translation>
+        <translation>  Installa shader...</translation>
     </message>
 </context>
 <context>
@@ -893,7 +906,7 @@ You can try cleaning then re-inserting the cartridge into the device.
     <message>
         <location filename="../src/ManagePageOperation.cpp" line="117"/>
         <source>The file you have selected is %0, while the memory on the device is reported as %1. Would you like to proceed?</source>
-        <translation type="unfinished"></translation>
+        <translation>Il file selezionato è %0, mentre la memoria sul dispositivo è segnalata come %1. Vuoi procedere?</translation>
     </message>
     <message>
         <location filename="../src/ManagePageOperation.cpp" line="211"/>
@@ -1146,7 +1159,7 @@ Se si desidera rimuovere facilmente tutte le immagini dalla fotocamera, senza do
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="94"/>
         <source>Pixel Perfect Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Modalità Pixel Perfect</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="95"/>
@@ -1156,7 +1169,7 @@ Se si desidera rimuovere facilmente tutte le immagini dalla fotocamera, senza do
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="116"/>
         <source>When enabled, games are displayed with integer scaling to ensure pixels are displayed at exact multiples of their original size. This eliminates graphical artifacts and preserves the authentic look of retro games at the expense of some screen space.</source>
-        <translation type="unfinished"></translation>
+        <translation>Quando abilitata, i giochi vengono visualizzati con scaling a numeri interi per garantire che i pixel siano mostrati a multipli esatti della loro dimensione originale. Questo elimina gli artefatti grafici e preserva l'aspetto autentico dei giochi retro a discapito di un po' di spazio sullo schermo.</translation>
     </message>
     <message>
         <location filename="../src/PlaybackSettingsScreen.cpp" line="120"/>
