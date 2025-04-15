@@ -41,7 +41,7 @@
     <message>
         <location filename="../src/AboutWindow.cpp" line="183"/>
         <source>Copyright Notices</source>
-        <translation>Avvertenze sul copyright</translation>
+        <translation>Copyright</translation>
     </message>
     <message>
         <location filename="../src/AboutWindow.cpp" line="189"/>
