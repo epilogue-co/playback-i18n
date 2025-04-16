@@ -98,49 +98,54 @@ P.S. If you choose to skip the tour now, you won’t be prompted to take it agai
 <context>
     <name>CartDetailsWidget</name>
     <message>
-        <location filename="../src/CartDetailsWidget.cpp" line="360"/>
+        <location filename="../src/CartDetailsWidget.cpp" line="375"/>
         <source>Unknown title</source>
         <translation>未知标题</translation>
     </message>
     <message>
-        <location filename="../src/CartDetailsWidget.cpp" line="366"/>
+        <location filename="../src/CartDetailsWidget.cpp" line="381"/>
         <source>The description of this cartridge can’t be displayed since it’s not in our database. You can use the link below to open a ticket and we’ll add the game info to the database. Please feel free to contact us even if it’s a homebrew game you made if you’d like to have your artwork displayed here.</source>
         <translation>这个卡带不在我们的数据库中，因此无法显示其描述。你可以点击下面的链接提交工单，我们会将游戏信息添加到数据库中。即使是你自己制作的游戏，如果你想在这里展示你的作品，也请随时联系我们。</translation>
     </message>
     <message>
-        <location filename="../src/CartDetailsWidget.cpp" line="373"/>
+        <location filename="../src/CartDetailsWidget.cpp" line="388"/>
         <source>Submit cartridge information</source>
         <translation>提交卡带信息</translation>
     </message>
     <message>
-        <location filename="../src/CartDetailsWidget.cpp" line="388"/>
+        <location filename="../src/CartDetailsWidget.cpp" line="403"/>
         <source>Unknown developer</source>
         <translation>未知开发者</translation>
     </message>
     <message>
-        <location filename="../src/CartDetailsWidget.cpp" line="539"/>
+        <location filename="../src/CartDetailsWidget.cpp" line="562"/>
         <source>Official cartridge</source>
         <translation>官方卡带</translation>
     </message>
     <message>
-        <location filename="../src/CartDetailsWidget.cpp" line="540"/>
+        <location filename="../src/CartDetailsWidget.cpp" line="563"/>
         <source>Unofficial cartridge</source>
         <translation>非官方卡带</translation>
     </message>
     <message>
-        <location filename="../src/CartDetailsWidget.cpp" line="541"/>
+        <location filename="../src/CartDetailsWidget.cpp" line="564"/>
         <source>Unrecognized cartridge</source>
         <translation>未识别的卡带</translation>
     </message>
     <message>
-        <location filename="../src/CartDetailsWidget.cpp" line="542"/>
+        <location filename="../src/CartDetailsWidget.cpp" line="565"/>
         <source>Read-only cartridge</source>
         <translation>只读卡带</translation>
     </message>
     <message>
-        <location filename="../src/CartDetailsWidget.cpp" line="543"/>
+        <location filename="../src/CartDetailsWidget.cpp" line="566"/>
         <source>Rewritable cartridge</source>
         <translation>可擦写卡带</translation>
+    </message>
+    <message>
+        <location filename="../src/CartDetailsWidget.cpp" line="567"/>
+        <source>Tip: Learn how to use your GB Camera as a webcam &lt;a href=&apos;https://support.epilogue.co/hc/en-us/articles/19387756265244&apos; style=&apos;color:white;&apos;&gt;with this tutorial&lt;/a&gt;.</source>
+        <translation>提示：了解如何将GB Camera用作网络摄像头&lt;a href=&apos;https://support.epilogue.co/hc/en-us/articles/19387756265244&apos; style=&apos;color:white;&apos;&gt;请参阅此教程&lt;/a&gt;。</translation>
     </message>
 </context>
 <context>
@@ -282,33 +287,33 @@ Do not remove the cartridge while any operation is running.</source>
     <name>CoreSelectorScreen</name>
     <message>
         <location filename="../src/CoreSelectorScreen.cpp" line="77"/>
-        <location filename="../src/CoreSelectorScreen.cpp" line="235"/>
+        <location filename="../src/CoreSelectorScreen.cpp" line="239"/>
         <source>Officially supported</source>
         <translation>官方支持</translation>
     </message>
     <message>
         <location filename="../src/CoreSelectorScreen.cpp" line="77"/>
-        <location filename="../src/CoreSelectorScreen.cpp" line="235"/>
+        <location filename="../src/CoreSelectorScreen.cpp" line="239"/>
         <source>Alternative Core</source>
         <translation>替代内核</translation>
     </message>
     <message>
-        <location filename="../src/CoreSelectorScreen.cpp" line="224"/>
+        <location filename="../src/CoreSelectorScreen.cpp" line="228"/>
         <source>Select Core</source>
         <translation>选择内核</translation>
     </message>
     <message>
-        <location filename="../src/CoreSelectorScreen.cpp" line="226"/>
+        <location filename="../src/CoreSelectorScreen.cpp" line="230"/>
         <source>You can change the emulation core for your Operator device. Download a core online or provide your own, but remember: only some cores are fully supported by Epilogue ensure complete feature compatibility.</source>
         <translation>你可以更改Operator设备的模拟内核。从网上下载内核或提供自己的内核，但请记住：只有部分内核是完全由Epilogue支持的，从而确保完整的功能兼容性。</translation>
     </message>
     <message>
-        <location filename="../src/CoreSelectorScreen.cpp" line="230"/>
+        <location filename="../src/CoreSelectorScreen.cpp" line="234"/>
         <source>Custom Core</source>
         <translation>自定义内核</translation>
     </message>
     <message>
-        <location filename="../src/CoreSelectorScreen.cpp" line="231"/>
+        <location filename="../src/CoreSelectorScreen.cpp" line="235"/>
         <source>Your own core</source>
         <translation>你自己的内核</translation>
     </message>
@@ -374,6 +379,7 @@ Do not remove the cartridge while any operation is running.</source>
     <name>DatabaseCheatCodesWidget</name>
     <message>
         <location filename="../src/DatabaseCheatCodesWidget.cpp" line="37"/>
+        <location filename="../src/DatabaseCheatCodesWidget.cpp" line="106"/>
         <source>Search cheats</source>
         <translation>搜索作弊码</translation>
     </message>
@@ -386,12 +392,12 @@ Do not remove the cartridge while any operation is running.</source>
 <context>
     <name>DeviceBase</name>
     <message>
-        <location filename="../src/DeviceBase.cpp" line="290"/>
+        <location filename="../src/DeviceBase.cpp" line="297"/>
         <source>Save data integrity check failed!</source>
         <translation>存档数据完整性检查失败!</translation>
     </message>
     <message>
-        <location filename="../src/DeviceBase.cpp" line="291"/>
+        <location filename="../src/DeviceBase.cpp" line="298"/>
         <source>The save data appears to be inconsistent between read cycles. Please clean the cartridge pins and try again.</source>
         <translation>在读取周期之间，存档数据似乎不一致。请清洁游戏卡带的触点后重试。</translation>
     </message>
@@ -492,22 +498,22 @@ Do not remove the cartridge while any operation is running.</source>
         <translation>读取数据与写入数据不一致。</translation>
     </message>
     <message>
-        <location filename="../src/DeviceHardwareOperations.cpp" line="362"/>
+        <location filename="../src/DeviceHardwareOperations.cpp" line="368"/>
         <source>Write save failed</source>
         <translation>写入存档失败</translation>
     </message>
     <message>
-        <location filename="../src/DeviceHardwareOperations.cpp" line="362"/>
+        <location filename="../src/DeviceHardwareOperations.cpp" line="368"/>
         <source>Failed to send write save command to device.</source>
         <translation>无法向设备发送写入存档命令。</translation>
     </message>
     <message>
-        <location filename="../src/DeviceHardwareOperations.cpp" line="391"/>
+        <location filename="../src/DeviceHardwareOperations.cpp" line="397"/>
         <source>Save Data Integrity Check Failed!</source>
         <translation>存档数据完整性检查失败!</translation>
     </message>
     <message>
-        <location filename="../src/DeviceHardwareOperations.cpp" line="392"/>
+        <location filename="../src/DeviceHardwareOperations.cpp" line="398"/>
         <source>The save data written to the cartridge does not match the data read back. Please clean the cartridge pins and try again to ensure consistency.</source>
         <translation>写入的存档数据与读取的数据不一致。请清洁卡带的触点后重试，以确保数据的一致性。</translation>
     </message>
@@ -528,7 +534,7 @@ Do not remove the cartridge while any operation is running.</source>
 <context>
     <name>DeviceSwitcherDropdown</name>
     <message>
-        <location filename="../src/DeviceSwitcherDropdown.cpp" line="147"/>
+        <location filename="../src/DeviceSwitcherDropdown.cpp" line="148"/>
         <source>Expand your collection on epilogue.co</source>
         <translation>来epilogue.co拓展你的收藏</translation>
     </message>
@@ -536,7 +542,7 @@ Do not remove the cartridge while any operation is running.</source>
 <context>
     <name>DeviceSwitcherDropdownStoreItem</name>
     <message>
-        <location filename="../src/DeviceSwitcherDropdown.cpp" line="237"/>
+        <location filename="../src/DeviceSwitcherDropdown.cpp" line="238"/>
         <source>View more</source>
         <translation>查看更多</translation>
     </message>
@@ -545,7 +551,7 @@ Do not remove the cartridge while any operation is running.</source>
     <name>Emulator</name>
     <message>
         <location filename="../src/Emulator.cpp" line="39"/>
-        <location filename="../src/Emulator.cpp" line="753"/>
+        <location filename="../src/Emulator.cpp" line="776"/>
         <source>Graphics Hardware Not Supported</source>
         <translation>不支持的图形硬件</translation>
     </message>
@@ -579,27 +585,27 @@ OpenGL 详情:
         <translation>无法初始化OpenGL上下文。此应用程序需要OpenGL 3.2或更高版本（或OpenGL ES 2.0+）。请确保你的图形驱动程序是最新的。</translation>
     </message>
     <message>
-        <location filename="../src/Emulator.cpp" line="531"/>
+        <location filename="../src/Emulator.cpp" line="554"/>
         <source>Failed to load game!</source>
         <translation>游戏加载失败！</translation>
     </message>
     <message>
-        <location filename="../src/Emulator.cpp" line="532"/>
+        <location filename="../src/Emulator.cpp" line="555"/>
         <source>Unable to launch the game, please make sure that the cartridge is clean.</source>
         <translation>无法启动游戏，请确保卡带干净。</translation>
     </message>
     <message>
-        <location filename="../src/Emulator.cpp" line="539"/>
+        <location filename="../src/Emulator.cpp" line="562"/>
         <source>Failed to load save data!</source>
         <translation>载入存档失败！</translation>
     </message>
     <message>
-        <location filename="../src/Emulator.cpp" line="539"/>
+        <location filename="../src/Emulator.cpp" line="562"/>
         <source>The core failed to load the save data.</source>
         <translation>内核加载存档失败。</translation>
     </message>
     <message>
-        <location filename="../src/Emulator.cpp" line="743"/>
+        <location filename="../src/Emulator.cpp" line="766"/>
         <source>Your graphics hardware does not meet the minimum requirements:
 
 %1
@@ -619,8 +625,8 @@ OpenGL 详情:
 <context>
     <name>EmulatorControlsDropdownWidget</name>
     <message>
-        <location filename="../src/EmulatorControlsDropdownWidget.cpp" line="146"/>
-        <location filename="../src/EmulatorControlsDropdownWidget.cpp" line="169"/>
+        <location filename="../src/EmulatorControlsDropdownWidget.cpp" line="144"/>
+        <location filename="../src/EmulatorControlsDropdownWidget.cpp" line="167"/>
         <source>  Install shaders...</source>
         <translation>  安装着色器...</translation>
     </message>
@@ -699,12 +705,12 @@ OpenGL 详情:
         <translation>启用高保真模式可以使音频与视频以接近原始硬件的速率运行。这将增加CPU的使用率，如果你注意到帧率较低，请禁用它。</translation>
     </message>
     <message>
-        <location filename="../src/EmulatorSettingsScreen.cpp" line="306"/>
+        <location filename="../src/EmulatorSettingsScreen.cpp" line="307"/>
         <source>Enabled</source>
         <translation>启用</translation>
     </message>
     <message>
-        <location filename="../src/EmulatorSettingsScreen.cpp" line="307"/>
+        <location filename="../src/EmulatorSettingsScreen.cpp" line="308"/>
         <source>Disabled</source>
         <translation>禁用</translation>
     </message>
@@ -893,30 +899,30 @@ You can try cleaning then re-inserting the cartridge into the device.
 <context>
     <name>ManagePageOperation</name>
     <message>
-        <location filename="../src/ManagePageOperation.cpp" line="346"/>
+        <location filename="../src/ManagePageOperation.cpp" line="109"/>
         <source>Warning, the file selected is too large!</source>
         <translation>警告，选择的文件过大！</translation>
     </message>
     <message>
-        <location filename="../src/ManagePageOperation.cpp" line="50"/>
-        <location filename="../src/ManagePageOperation.cpp" line="347"/>
+        <location filename="../src/ManagePageOperation.cpp" line="47"/>
+        <location filename="../src/ManagePageOperation.cpp" line="110"/>
         <source>STOP</source>
         <translation>停止</translation>
     </message>
     <message>
-        <location filename="../src/ManagePageOperation.cpp" line="117"/>
+        <location filename="../src/ManagePageOperation.cpp" line="370"/>
         <source>The file you have selected is %0, while the memory on the device is reported as %1. Would you like to proceed?</source>
         <translation>你选择的文件大小为 %0，而设备上报告的内存大小为 %1。是否继续？</translation>
     </message>
     <message>
-        <location filename="../src/ManagePageOperation.cpp" line="211"/>
-        <location filename="../src/ManagePageOperation.cpp" line="216"/>
+        <location filename="../src/ManagePageOperation.cpp" line="136"/>
+        <location filename="../src/ManagePageOperation.cpp" line="140"/>
         <source>Game Data</source>
         <translation>游戏数据</translation>
     </message>
     <message>
-        <location filename="../src/ManagePageOperation.cpp" line="340"/>
-        <location filename="../src/ManagePageOperation.cpp" line="347"/>
+        <location filename="../src/ManagePageOperation.cpp" line="105"/>
+        <location filename="../src/ManagePageOperation.cpp" line="110"/>
         <source>START</source>
         <translation>开始</translation>
     </message>
@@ -986,12 +992,12 @@ You can try cleaning then re-inserting the cartridge into the device.
 <context>
     <name>NavbarDeviceStatus</name>
     <message>
-        <location filename="../src/NavbarComponents.cpp" line="120"/>
+        <location filename="../src/NavbarComponents.cpp" line="126"/>
         <source>Nightly</source>
         <translation>每晚</translation>
     </message>
     <message>
-        <location filename="../src/NavbarComponents.cpp" line="118"/>
+        <location filename="../src/NavbarComponents.cpp" line="124"/>
         <source>Debug</source>
         <translation>调试</translation>
     </message>
@@ -999,42 +1005,42 @@ You can try cleaning then re-inserting the cartridge into the device.
 <context>
     <name>NavbarLogoDropdown</name>
     <message>
-        <location filename="../src/NavbarLogoDropdown.cpp" line="122"/>
+        <location filename="../src/NavbarLogoDropdown.cpp" line="177"/>
         <source>Settings</source>
         <translation>设置</translation>
     </message>
     <message>
-        <location filename="../src/NavbarLogoDropdown.cpp" line="123"/>
+        <location filename="../src/NavbarLogoDropdown.cpp" line="178"/>
         <source>What&apos;s New</source>
         <translation>最新消息</translation>
     </message>
     <message>
-        <location filename="../src/NavbarLogoDropdown.cpp" line="124"/>
+        <location filename="../src/NavbarLogoDropdown.cpp" line="179"/>
         <source>Support</source>
         <translation>支持</translation>
     </message>
     <message>
-        <location filename="../src/NavbarLogoDropdown.cpp" line="125"/>
+        <location filename="../src/NavbarLogoDropdown.cpp" line="180"/>
         <source>Send Feedback</source>
         <translation>反馈</translation>
     </message>
     <message>
-        <location filename="../src/NavbarLogoDropdown.cpp" line="126"/>
+        <location filename="../src/NavbarLogoDropdown.cpp" line="181"/>
         <source>Report a Bug</source>
         <translation>报告错误</translation>
     </message>
     <message>
-        <location filename="../src/NavbarLogoDropdown.cpp" line="127"/>
+        <location filename="../src/NavbarLogoDropdown.cpp" line="182"/>
         <source>Vault</source>
         <translation>Vault</translation>
     </message>
     <message>
-        <location filename="../src/NavbarLogoDropdown.cpp" line="128"/>
+        <location filename="../src/NavbarLogoDropdown.cpp" line="183"/>
         <source>About</source>
         <translation>关于</translation>
     </message>
     <message>
-        <location filename="../src/NavbarLogoDropdown.cpp" line="129"/>
+        <location filename="../src/NavbarLogoDropdown.cpp" line="184"/>
         <source>Exit</source>
         <translation>退出</translation>
     </message>
@@ -1470,7 +1476,7 @@ Please make sure it&apos;s connected.</source>
 <context>
     <name>ViewRouter</name>
     <message>
-        <location filename="../src/ViewRouter.cpp" line="107"/>
+        <location filename="../src/ViewRouter.cpp" line="108"/>
         <source>Archive your game data securely on your computer, making a digital equivalent of your game collection. Game files are compatible with your chosen emulator.
 
 Tip: Our app runs a Data Integrity Test to make sure that you are getting an accurate reproduction of the cartridge’s content.</source>
@@ -1479,12 +1485,12 @@ Tip: Our app runs a Data Integrity Test to make sure that you are getting an acc
 提示：我们的应用会进行数据完整性检查，以确保卡带内容的精确复制。</translation>
     </message>
     <message>
-        <location filename="../src/ViewRouter.cpp" line="111"/>
+        <location filename="../src/ViewRouter.cpp" line="112"/>
         <source>Backup Game</source>
         <translation>备份游戏</translation>
     </message>
     <message>
-        <location filename="../src/ViewRouter.cpp" line="115"/>
+        <location filename="../src/ViewRouter.cpp" line="116"/>
         <source>Overwrite the game data on your cartridge with a different file. Make sure the game file you’re writing is valid by testing it in an external emulator first.
 
 Tip: Transfer your homebrew game to a cartridge and play it on original hardware.</source>
@@ -1493,12 +1499,12 @@ Tip: Transfer your homebrew game to a cartridge and play it on original hardware
 提示：将你的自制软件转移到卡带上，并在原始硬件上运行。</translation>
     </message>
     <message>
-        <location filename="../src/ViewRouter.cpp" line="118"/>
+        <location filename="../src/ViewRouter.cpp" line="119"/>
         <source>Upload Homebrew</source>
         <translation>上传自制软件</translation>
     </message>
     <message>
-        <location filename="../src/ViewRouter.cpp" line="121"/>
+        <location filename="../src/ViewRouter.cpp" line="122"/>
         <source>Transfer a duplicate of your save data from the cartridge to your computer. You can then back up your save file or edit it with an external program.
 
 Tip: Transfer your save to the computer, replace the battery and transfer it back to the cartridge safely.</source>
@@ -1507,12 +1513,12 @@ Tip: Transfer your save to the computer, replace the battery and transfer it bac
 提示：将存档传输到电脑，更换卡带电池，然后安全地将存档传输回卡带。</translation>
     </message>
     <message>
-        <location filename="../src/ViewRouter.cpp" line="126"/>
+        <location filename="../src/ViewRouter.cpp" line="127"/>
         <source>Backup Save</source>
         <translation>备份存档</translation>
     </message>
     <message>
-        <location filename="../src/ViewRouter.cpp" line="130"/>
+        <location filename="../src/ViewRouter.cpp" line="131"/>
         <source>Transfer a duplicate of your save data from your computer to the cartridge and pick the game up right where you left off.
 
 Tip: Use external programs to trigger in-game events or customize gameplay.</source>
@@ -1521,7 +1527,7 @@ Tip: Use external programs to trigger in-game events or customize gameplay.</sou
 提示：可以使用外部程序触发游戏内事件或自定义游戏玩法。</translation>
     </message>
     <message>
-        <location filename="../src/ViewRouter.cpp" line="133"/>
+        <location filename="../src/ViewRouter.cpp" line="134"/>
         <source>Upload Save</source>
         <translation>上传存档</translation>
     </message>
