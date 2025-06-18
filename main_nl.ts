@@ -271,7 +271,7 @@ Verwijder de cartridge niet terwijl er een bewerking bezig is.</translation>
     <message>
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="153"/>
         <source>Achievements Support</source>
-        <translation type="unfinished"></translation>
+        <translation>Prestatie-ondersteuning</translation>
     </message>
     <message>
         <source>Controller Support</source>
@@ -385,7 +385,7 @@ Verwijder de cartridge niet terwijl er een bewerking bezig is.</translation>
     <message>
         <location filename="../src/DataFlowWidget.cpp" line="82"/>
         <source>Data Flow:</source>
-        <translation type="unfinished">Gegevensstroom:</translation>
+        <translation>Gegevensstroom:</translation>
     </message>
 </context>
 <context>
@@ -1350,27 +1350,27 @@ Als je gemakkelijk alle foto&apos;s van je camera wilt verwijderen, zonder ze é
     <message>
         <location filename="../src/RAAchievementsWindow.cpp" line="447"/>
         <source>%1% of players have this achievement</source>
-        <translation type="unfinished"></translation>
+        <translation>%1% van de spelers heeft deze prestatie</translation>
     </message>
     <message>
         <location filename="../src/RAAchievementsWindow.cpp" line="451"/>
         <source>Missable</source>
-        <translation type="unfinished"></translation>
+        <translation>Misbbaar</translation>
     </message>
     <message>
         <location filename="../src/RAAchievementsWindow.cpp" line="452"/>
         <source>Progression</source>
-        <translation type="unfinished"></translation>
+        <translation>Voortgang</translation>
     </message>
     <message>
         <location filename="../src/RAAchievementsWindow.cpp" line="453"/>
         <source>Win Condition</source>
-        <translation type="unfinished"></translation>
+        <translation>Winvoorwaarde</translation>
     </message>
     <message>
         <location filename="../src/RAAchievementsWindow.cpp" line="454"/>
         <source>points</source>
-        <translation type="unfinished"></translation>
+        <translation>punten</translation>
     </message>
 </context>
 <context>
@@ -1379,30 +1379,30 @@ Als je gemakkelijk alle foto&apos;s van je camera wilt verwijderen, zonder ze é
         <location filename="../src/RAAchievementsWindow.cpp" line="93"/>
         <location filename="../src/RAAchievementsWindow.cpp" line="150"/>
         <source>Unsupported</source>
-        <translation type="unfinished"></translation>
+        <translation>Niet ondersteund</translation>
     </message>
     <message>
         <location filename="../src/RAAchievementsWindow.cpp" line="94"/>
         <location filename="../src/RAAchievementsWindow.cpp" line="152"/>
         <source>Active Challenges</source>
-        <translation type="unfinished"></translation>
+        <translation>Actieve uitdagingen</translation>
     </message>
     <message>
         <location filename="../src/RAAchievementsWindow.cpp" line="95"/>
         <location filename="../src/RAAchievementsWindow.cpp" line="153"/>
         <source>Locked</source>
-        <translation type="unfinished"></translation>
+        <translation>Vergrendeld</translation>
     </message>
     <message>
         <location filename="../src/RAAchievementsWindow.cpp" line="96"/>
         <location filename="../src/RAAchievementsWindow.cpp" line="155"/>
         <source>Unlocked</source>
-        <translation type="unfinished"></translation>
+        <translation>Ontgrendeld</translation>
     </message>
     <message>
         <location filename="../src/RAAchievementsWindow.cpp" line="143"/>
         <source>You have earned %1 of %2 achievements and %3 of %4 points.</source>
-        <translation type="unfinished"></translation>
+        <translation>Je hebt %1 van de %2 prestaties behaald en %3 van de %4 punten verdiend.</translation>
     </message>
 </context>
 <context>
@@ -1410,38 +1410,39 @@ Als je gemakkelijk alle foto&apos;s van je camera wilt verwijderen, zonder ze é
     <message>
         <location filename="../src/RAController.cpp" line="294"/>
         <source>You have earned %1 of %2 achievements and %3 of %4 points.</source>
-        <translation type="unfinished"></translation>
+        <translation>Je hebt %1 van de %2 prestaties behaald en %3 van de %4 punten verdiend.</translation>
     </message>
     <message>
         <location filename="../src/RAController.cpp" line="300"/>
         <source>
 Hardcore mode is active - cheats and slow motion are disabled.</source>
-        <translation type="unfinished"></translation>
+        <translation>
+Hardcore-modus is actief - cheats en vertraagde beweging zijn uitgeschakeld.</translation>
     </message>
     <message>
         <location filename="../src/RAController.cpp" line="338"/>
         <source>You have mastered %1 achievements and earned %2 points.</source>
-        <translation type="unfinished"></translation>
+        <translation>Je hebt %1 prestaties gemeesterd en %2 punten verdiend.</translation>
     </message>
     <message>
         <location filename="../src/RAController.cpp" line="367"/>
         <source>Leaderboard attempt started: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Ranglijstpoging gestart: %1</translation>
     </message>
     <message>
         <location filename="../src/RAController.cpp" line="380"/>
         <source>Leaderboard attempt failed: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Ranglijstpoging mislukt: %1</translation>
     </message>
     <message>
         <location filename="../src/RAController.cpp" line="393"/>
         <source>Leaderboard attempt submitted: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Ranglijstpoging ingediend: %1</translation>
     </message>
     <message>
         <location filename="../src/RAController.cpp" line="394"/>
         <source>Submitted: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Ingediend: %1</translation>
     </message>
 </context>
 <context>
@@ -1449,12 +1450,12 @@ Hardcore mode is active - cheats and slow motion are disabled.</source>
     <message>
         <location filename="../src/RASettingsScreen.cpp" line="369"/>
         <source>RetroAchievements</source>
-        <translation type="unfinished"></translation>
+        <translation>RetroAchievements</translation>
     </message>
     <message>
         <location filename="../src/RASettingsScreen.cpp" line="370"/>
         <source>Adding achievements to retro games since 2012</source>
-        <translation type="unfinished"></translation>
+        <translation>Prestaties toevoegen aan retrogames sinds 2012</translation>
     </message>
 </context>
 <context>
@@ -1462,12 +1463,12 @@ Hardcore mode is active - cheats and slow motion are disabled.</source>
     <message>
         <location filename="../src/RASettingsScreen.cpp" line="297"/>
         <source>Log Out</source>
-        <translation type="unfinished"></translation>
+        <translation>Afmelden</translation>
     </message>
     <message>
         <location filename="../src/RASettingsScreen.cpp" line="297"/>
         <source>Log In</source>
-        <translation type="unfinished"></translation>
+        <translation>Aanmelden</translation>
     </message>
 </context>
 <context>
@@ -1475,22 +1476,22 @@ Hardcore mode is active - cheats and slow motion are disabled.</source>
     <message>
         <location filename="../src/RALoginWindow.cpp" line="102"/>
         <source>Username</source>
-        <translation type="unfinished"></translation>
+        <translation>Gebruikersnaam</translation>
     </message>
     <message>
         <location filename="../src/RALoginWindow.cpp" line="103"/>
         <source>Password</source>
-        <translation type="unfinished"></translation>
+        <translation>Wachtwoord</translation>
     </message>
     <message>
         <location filename="../src/RALoginWindow.cpp" line="104"/>
         <source>Login</source>
-        <translation type="unfinished"></translation>
+        <translation>Inloggen</translation>
     </message>
     <message>
         <location filename="../src/RALoginWindow.cpp" line="106"/>
         <source>Don&apos;t have an account? &lt;a style=&apos;color: #158EFF&apos; href=&quot;%1&quot;&gt;Sign up&lt;/a&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>Nog geen account? &lt;a style=&apos;color: #158EFF&apos; href=&quot;%1&quot;&gt;Registreren&lt;/a&gt;</translation>
     </message>
 </context>
 <context>
@@ -1498,82 +1499,82 @@ Hardcore mode is active - cheats and slow motion are disabled.</source>
     <message>
         <location filename="../src/RASettingsScreen.cpp" line="65"/>
         <source>Achievements</source>
-        <translation type="unfinished"></translation>
+        <translation>Prestaties</translation>
     </message>
     <message>
         <location filename="../src/RASettingsScreen.cpp" line="71"/>
         <source>Earn and track achievements in classic games. We add custom challenges to retro titles, letting you revisit old favorites in new ways.</source>
-        <translation type="unfinished"></translation>
+        <translation>Verdien en volg prestaties in klassieke games. We voegen aangepaste uitdagingen toe aan retrotitels, zodat je oude favorieten op nieuwe manieren kunt herbeleven.</translation>
     </message>
     <message>
         <location filename="../src/RASettingsScreen.cpp" line="77"/>
         <source>Hardcore Mode (needs emulator restart)</source>
-        <translation type="unfinished"></translation>
+        <translation>Hardcore-modus (emulator herstart vereist)</translation>
     </message>
     <message>
         <location filename="../src/RASettingsScreen.cpp" line="78"/>
         <source>Encore Mode (needs emulator restart)</source>
-        <translation type="unfinished"></translation>
+        <translation>Encore-modus (emulator herstart vereist)</translation>
     </message>
     <message>
         <location filename="../src/RASettingsScreen.cpp" line="79"/>
         <source>Show Leaderboards Notifications</source>
-        <translation type="unfinished"></translation>
+        <translation>Ranglijstmeldingen tonen</translation>
     </message>
     <message>
         <location filename="../src/RASettingsScreen.cpp" line="80"/>
         <source>Show Leaderboards Tracker</source>
-        <translation type="unfinished"></translation>
+        <translation>Ranglijsttracker tonen</translation>
     </message>
     <message>
         <location filename="../src/RASettingsScreen.cpp" line="81"/>
         <source>Show Progress Indicator</source>
-        <translation type="unfinished"></translation>
+        <translation>Voortgangsindicator tonen</translation>
     </message>
     <message>
         <location filename="../src/RASettingsScreen.cpp" line="82"/>
         <source>Show Challenge Indicators</source>
-        <translation type="unfinished"></translation>
+        <translation>Uitdagingsindicatoren tonen</translation>
     </message>
     <message>
         <location filename="../src/RASettingsScreen.cpp" line="88"/>
         <source>Disables cheats, pausing and slow-motion. Achievements earned in hardcore mode are uniquely marked so that you can show others what you&apos;ve achieved without emulator assistance features.</source>
-        <translation type="unfinished"></translation>
+        <translation>Schakelt cheats, pauzeren en vertraagde beweging uit. Prestaties behaald in hardcore-modus zijn uniek gemarkeerd zodat je anderen kunt laten zien wat je hebt bereikt zonder hulpfuncties van de emulator.</translation>
     </message>
     <message>
         <location filename="../src/RASettingsScreen.cpp" line="91"/>
         <source>Re-activate previously earned achievements to experience them again. Note: Points are not re-awarded.</source>
-        <translation type="unfinished"></translation>
+        <translation>Heractiveer eerder verdiende prestaties om ze opnieuw te beleven. Let op: Punten worden niet opnieuw toegekend.</translation>
     </message>
     <message>
         <location filename="../src/RASettingsScreen.cpp" line="93"/>
         <source>Show leaderboards related notifications in the notification area.</source>
-        <translation type="unfinished"></translation>
+        <translation>Toon ranglijstgerelateerde meldingen in het meldingsgebied.</translation>
     </message>
     <message>
         <location filename="../src/RASettingsScreen.cpp" line="94"/>
         <source>Show leaderboards tracker in the notification area.</source>
-        <translation type="unfinished"></translation>
+        <translation>Toon ranglijsttracker in het meldingsgebied.</translation>
     </message>
     <message>
         <location filename="../src/RASettingsScreen.cpp" line="96"/>
         <source>Show progress indicator in the notification area when an achievement is being tracked.</source>
-        <translation type="unfinished"></translation>
+        <translation>Toon voortgangsindicator in het meldingsgebied wanneer een prestatie wordt gevolgd.</translation>
     </message>
     <message>
         <location filename="../src/RASettingsScreen.cpp" line="98"/>
         <source>Show challenge indicators in the notification area when an achievement is being tracked.</source>
-        <translation type="unfinished"></translation>
+        <translation>Toon uitdagingsindicatoren in het meldingsgebied wanneer een prestatie wordt gevolgd.</translation>
     </message>
     <message>
         <location filename="../src/RASettingsScreen.cpp" line="119"/>
         <source>Authentication Failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Authenticatie mislukt</translation>
     </message>
     <message>
         <location filename="../src/RASettingsScreen.cpp" line="120"/>
         <source>Invalid username or password. Please check your credentials and try again.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ongeldige gebruikersnaam of wachtwoord. Controleer je inloggegevens en probeer het opnieuw.</translation>
     </message>
 </context>
 <context>
@@ -1581,12 +1582,12 @@ Hardcore mode is active - cheats and slow motion are disabled.</source>
     <message>
         <location filename="../src/RASettingsScreen.cpp" line="257"/>
         <source>Enabled</source>
-        <translation type="unfinished">Ingeschakeld</translation>
+        <translation>Ingeschakeld</translation>
     </message>
     <message>
         <location filename="../src/RASettingsScreen.cpp" line="258"/>
         <source>Disabled</source>
-        <translation type="unfinished">Uitgeschakeld</translation>
+        <translation>Uitgeschakeld</translation>
     </message>
 </context>
 <context>
@@ -1672,7 +1673,7 @@ Controleer of het is aangesloten.</translation>
     <message>
         <location filename="../src/SettingsWindow.cpp" line="314"/>
         <source>Achievements</source>
-        <translation type="unfinished"></translation>
+        <translation>Prestaties</translation>
     </message>
     <message>
         <location filename="../src/SettingsWindow.cpp" line="315"/>

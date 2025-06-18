@@ -1402,7 +1402,7 @@ Dacă dorești să elimini cu ușurință toate imaginile din cameră, fără a 
         <location filename="../src/RAAchievementsWindow.cpp" line="143"/>
         <source>You have earned %1 of %2 achievements and %3 of %4 points.</source>
         <translatorcomment>Ai obținut %1 din %2 achievements și %3 din %4 puncte.</translatorcomment>
-        <translation></translation>
+        <translation>Ai obținut %1 din %2 achievements și %3 din %4 puncte.</translation>
     </message>
 </context>
 <context>
