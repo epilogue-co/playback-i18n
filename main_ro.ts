@@ -270,7 +270,7 @@ Nu scoate caseta în timp ce se desfășoară orice operațiune.</translation>
     <message>
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="153"/>
         <source>Achievements Support</source>
-        <translation type="unfinished"></translation>
+        <translation>Suportă achievements</translation>
     </message>
     <message>
         <source>Controller Support</source>
@@ -384,7 +384,7 @@ Nu scoate caseta în timp ce se desfășoară orice operațiune.</translation>
     <message>
         <location filename="../src/DataFlowWidget.cpp" line="82"/>
         <source>Data Flow:</source>
-        <translation type="unfinished">Date Binare:</translation>
+        <translation>Date Binare:</translation>
     </message>
 </context>
 <context>
@@ -1349,27 +1349,27 @@ Dacă dorești să elimini cu ușurință toate imaginile din cameră, fără a 
     <message>
         <location filename="../src/RAAchievementsWindow.cpp" line="447"/>
         <source>%1% of players have this achievement</source>
-        <translation type="unfinished"></translation>
+        <translation>%1% dintre jucători au aceast achievement</translation>
     </message>
     <message>
         <location filename="../src/RAAchievementsWindow.cpp" line="451"/>
         <source>Missable</source>
-        <translation type="unfinished"></translation>
+        <translation>Poate fi ratat</translation>
     </message>
     <message>
         <location filename="../src/RAAchievementsWindow.cpp" line="452"/>
         <source>Progression</source>
-        <translation type="unfinished"></translation>
+        <translation>Progres</translation>
     </message>
     <message>
         <location filename="../src/RAAchievementsWindow.cpp" line="453"/>
         <source>Win Condition</source>
-        <translation type="unfinished"></translation>
+        <translation>Condiție de victorie</translation>
     </message>
     <message>
         <location filename="../src/RAAchievementsWindow.cpp" line="454"/>
         <source>points</source>
-        <translation type="unfinished"></translation>
+        <translation>puncte</translation>
     </message>
 </context>
 <context>
@@ -1378,30 +1378,31 @@ Dacă dorești să elimini cu ușurință toate imaginile din cameră, fără a 
         <location filename="../src/RAAchievementsWindow.cpp" line="93"/>
         <location filename="../src/RAAchievementsWindow.cpp" line="150"/>
         <source>Unsupported</source>
-        <translation type="unfinished"></translation>
+        <translation>Nesuportat</translation>
     </message>
     <message>
         <location filename="../src/RAAchievementsWindow.cpp" line="94"/>
         <location filename="../src/RAAchievementsWindow.cpp" line="152"/>
         <source>Active Challenges</source>
-        <translation type="unfinished"></translation>
+        <translation>Provocări active</translation>
     </message>
     <message>
         <location filename="../src/RAAchievementsWindow.cpp" line="95"/>
         <location filename="../src/RAAchievementsWindow.cpp" line="153"/>
         <source>Locked</source>
-        <translation type="unfinished"></translation>
+        <translation>Blocat</translation>
     </message>
     <message>
         <location filename="../src/RAAchievementsWindow.cpp" line="96"/>
         <location filename="../src/RAAchievementsWindow.cpp" line="155"/>
         <source>Unlocked</source>
-        <translation type="unfinished"></translation>
+        <translation>Deblocat</translation>
     </message>
     <message>
         <location filename="../src/RAAchievementsWindow.cpp" line="143"/>
         <source>You have earned %1 of %2 achievements and %3 of %4 points.</source>
-        <translation type="unfinished"></translation>
+        <translatorcomment>Ai obținut %1 din %2 achievements și %3 din %4 puncte.</translatorcomment>
+        <translation></translation>
     </message>
 </context>
 <context>
@@ -1409,38 +1410,39 @@ Dacă dorești să elimini cu ușurință toate imaginile din cameră, fără a 
     <message>
         <location filename="../src/RAController.cpp" line="294"/>
         <source>You have earned %1 of %2 achievements and %3 of %4 points.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ai obținut %1 din %2 achievements și %3 din %4 puncte.</translation>
     </message>
     <message>
         <location filename="../src/RAController.cpp" line="300"/>
         <source>
 Hardcore mode is active - cheats and slow motion are disabled.</source>
-        <translation type="unfinished"></translation>
+        <translation>
+Modul hardcore este activ – codurile și slow motion sunt dezactivate.</translation>
     </message>
     <message>
         <location filename="../src/RAController.cpp" line="338"/>
         <source>You have mastered %1 achievements and earned %2 points.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ai stăpânit %1 achievements și ai obținut %2 puncte.</translation>
     </message>
     <message>
         <location filename="../src/RAController.cpp" line="367"/>
         <source>Leaderboard attempt started: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Încercare pe clasament începută: %1</translation>
     </message>
     <message>
         <location filename="../src/RAController.cpp" line="380"/>
         <source>Leaderboard attempt failed: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Încercarea pentru clasament a eșuat: %1</translation>
     </message>
     <message>
         <location filename="../src/RAController.cpp" line="393"/>
         <source>Leaderboard attempt submitted: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Încercarea pentru clasament a fost trimisă: %1</translation>
     </message>
     <message>
         <location filename="../src/RAController.cpp" line="394"/>
         <source>Submitted: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Trimis: %1</translation>
     </message>
 </context>
 <context>
@@ -1448,12 +1450,12 @@ Hardcore mode is active - cheats and slow motion are disabled.</source>
     <message>
         <location filename="../src/RASettingsScreen.cpp" line="369"/>
         <source>RetroAchievements</source>
-        <translation type="unfinished"></translation>
+        <translation>RetroAchievements</translation>
     </message>
     <message>
         <location filename="../src/RASettingsScreen.cpp" line="370"/>
         <source>Adding achievements to retro games since 2012</source>
-        <translation type="unfinished"></translation>
+        <translation>Adăugăm achievements jocurilor retro din 2012</translation>
     </message>
 </context>
 <context>
@@ -1461,12 +1463,12 @@ Hardcore mode is active - cheats and slow motion are disabled.</source>
     <message>
         <location filename="../src/RASettingsScreen.cpp" line="297"/>
         <source>Log Out</source>
-        <translation type="unfinished"></translation>
+        <translation>Deconectare</translation>
     </message>
     <message>
         <location filename="../src/RASettingsScreen.cpp" line="297"/>
         <source>Log In</source>
-        <translation type="unfinished"></translation>
+        <translation>Autentificare</translation>
     </message>
 </context>
 <context>
@@ -1474,22 +1476,22 @@ Hardcore mode is active - cheats and slow motion are disabled.</source>
     <message>
         <location filename="../src/RALoginWindow.cpp" line="102"/>
         <source>Username</source>
-        <translation type="unfinished"></translation>
+        <translation>Nume de utilizator</translation>
     </message>
     <message>
         <location filename="../src/RALoginWindow.cpp" line="103"/>
         <source>Password</source>
-        <translation type="unfinished"></translation>
+        <translation>Parolă</translation>
     </message>
     <message>
         <location filename="../src/RALoginWindow.cpp" line="104"/>
         <source>Login</source>
-        <translation type="unfinished"></translation>
+        <translation>Autentificare</translation>
     </message>
     <message>
         <location filename="../src/RALoginWindow.cpp" line="106"/>
         <source>Don&apos;t have an account? &lt;a style=&apos;color: #158EFF&apos; href=&quot;%1&quot;&gt;Sign up&lt;/a&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>Nu ai un cont? &lt;a style=&apos;color: #158EFF&apos; href=&quot;%1&quot;&gt;Înregistrează-te&lt;/a&gt;</translation>
     </message>
 </context>
 <context>
@@ -1497,82 +1499,82 @@ Hardcore mode is active - cheats and slow motion are disabled.</source>
     <message>
         <location filename="../src/RASettingsScreen.cpp" line="65"/>
         <source>Achievements</source>
-        <translation type="unfinished"></translation>
+        <translation>Achievements</translation>
     </message>
     <message>
         <location filename="../src/RASettingsScreen.cpp" line="71"/>
         <source>Earn and track achievements in classic games. We add custom challenges to retro titles, letting you revisit old favorites in new ways.</source>
-        <translation type="unfinished"></translation>
+        <translation>Câștigă și urmărește achievements în jocuri clasice. Adăugăm provocări personalizate titlurilor retro, permițându-ți să redescoperi jocurile preferate din trecut într-un mod nou.</translation>
     </message>
     <message>
         <location filename="../src/RASettingsScreen.cpp" line="77"/>
         <source>Hardcore Mode (needs emulator restart)</source>
-        <translation type="unfinished"></translation>
+        <translation>Mod Hardcore (necesită repornirea emulatorului)</translation>
     </message>
     <message>
         <location filename="../src/RASettingsScreen.cpp" line="78"/>
         <source>Encore Mode (needs emulator restart)</source>
-        <translation type="unfinished"></translation>
+        <translation>Mod Encore (necesită repornirea emulatorului)</translation>
     </message>
     <message>
         <location filename="../src/RASettingsScreen.cpp" line="79"/>
         <source>Show Leaderboards Notifications</source>
-        <translation type="unfinished"></translation>
+        <translation>Afișează notificările pentru clasamente</translation>
     </message>
     <message>
         <location filename="../src/RASettingsScreen.cpp" line="80"/>
         <source>Show Leaderboards Tracker</source>
-        <translation type="unfinished"></translation>
+        <translation>Afișează trackerul pentru clasamente</translation>
     </message>
     <message>
         <location filename="../src/RASettingsScreen.cpp" line="81"/>
         <source>Show Progress Indicator</source>
-        <translation type="unfinished"></translation>
+        <translation>Afișează indicatorul de progres</translation>
     </message>
     <message>
         <location filename="../src/RASettingsScreen.cpp" line="82"/>
         <source>Show Challenge Indicators</source>
-        <translation type="unfinished"></translation>
+        <translation>Afișează indicatorii de provocare</translation>
     </message>
     <message>
         <location filename="../src/RASettingsScreen.cpp" line="88"/>
         <source>Disables cheats, pausing and slow-motion. Achievements earned in hardcore mode are uniquely marked so that you can show others what you&apos;ve achieved without emulator assistance features.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dezactivează codurile, pauza și slow-motion. Achievements obținute în modul hardcore sunt marcate în mod unic, astfel încât să le poți arăta celorlalți ce ai realizat, fără a fi folosite funcțiile de asistență ale emulatorului.</translation>
     </message>
     <message>
         <location filename="../src/RASettingsScreen.cpp" line="91"/>
         <source>Re-activate previously earned achievements to experience them again. Note: Points are not re-awarded.</source>
-        <translation type="unfinished"></translation>
+        <translation>Reactivează achievements obținute anterior pentru a le retrăi. Notă: Punctele nu sunt acordate din nou.</translation>
     </message>
     <message>
         <location filename="../src/RASettingsScreen.cpp" line="93"/>
         <source>Show leaderboards related notifications in the notification area.</source>
-        <translation type="unfinished"></translation>
+        <translation>Afișează notificările legate de clasamente în zona de notificări.</translation>
     </message>
     <message>
         <location filename="../src/RASettingsScreen.cpp" line="94"/>
         <source>Show leaderboards tracker in the notification area.</source>
-        <translation type="unfinished"></translation>
+        <translation>Afișează trackerul de clasamente în zona de notificări.</translation>
     </message>
     <message>
         <location filename="../src/RASettingsScreen.cpp" line="96"/>
         <source>Show progress indicator in the notification area when an achievement is being tracked.</source>
-        <translation type="unfinished"></translation>
+        <translation>Afișează indicatorul de progres în zona de notificări atunci când un achievement este urmărit.</translation>
     </message>
     <message>
         <location filename="../src/RASettingsScreen.cpp" line="98"/>
         <source>Show challenge indicators in the notification area when an achievement is being tracked.</source>
-        <translation type="unfinished"></translation>
+        <translation>Afișează indicatorii de provocare în zona de notificări atunci când un achievement este urmărit.</translation>
     </message>
     <message>
         <location filename="../src/RASettingsScreen.cpp" line="119"/>
         <source>Authentication Failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Autentificare eșuată</translation>
     </message>
     <message>
         <location filename="../src/RASettingsScreen.cpp" line="120"/>
         <source>Invalid username or password. Please check your credentials and try again.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nume de utilizator sau parolă invalidă. Verifică-ți datele de autentificare și încearcă din nou.</translation>
     </message>
 </context>
 <context>
@@ -1580,12 +1582,12 @@ Hardcore mode is active - cheats and slow motion are disabled.</source>
     <message>
         <location filename="../src/RASettingsScreen.cpp" line="257"/>
         <source>Enabled</source>
-        <translation type="unfinished">Activat</translation>
+        <translation>Activat</translation>
     </message>
     <message>
         <location filename="../src/RASettingsScreen.cpp" line="258"/>
         <source>Disabled</source>
-        <translation type="unfinished">Dezactivat</translation>
+        <translation>Dezactivat</translation>
     </message>
 </context>
 <context>
@@ -1671,7 +1673,7 @@ Te rugăm să te asiguri că acesta este conectat.</translation>
     <message>
         <location filename="../src/SettingsWindow.cpp" line="314"/>
         <source>Achievements</source>
-        <translation type="unfinished"></translation>
+        <translation>Achievements</translation>
     </message>
     <message>
         <location filename="../src/SettingsWindow.cpp" line="315"/>
