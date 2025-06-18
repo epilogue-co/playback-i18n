@@ -89,8 +89,8 @@ P.S. If you choose to skip the tour now, you won’t be prompted to take it agai
 <context>
     <name>BetaLabel</name>
     <message>
-        <location filename="../src/UIComponents.cpp" line="150"/>
-        <location filename="../src/UIComponents.cpp" line="164"/>
+        <location filename="../src/UIComponents.cpp" line="159"/>
+        <location filename="../src/UIComponents.cpp" line="173"/>
         <source>beta</source>
         <translation>β版</translation>
     </message>
@@ -98,52 +98,52 @@ P.S. If you choose to skip the tour now, you won’t be prompted to take it agai
 <context>
     <name>CartDetailsWidget</name>
     <message>
-        <location filename="../src/CartDetailsWidget.cpp" line="375"/>
+        <location filename="../src/CartDetailsWidget.cpp" line="401"/>
         <source>Unknown title</source>
         <translation>タイトル不明</translation>
     </message>
     <message>
-        <location filename="../src/CartDetailsWidget.cpp" line="381"/>
+        <location filename="../src/CartDetailsWidget.cpp" line="412"/>
         <source>The description of this cartridge can’t be displayed since it’s not in our database. You can use the link below to open a ticket and we’ll add the game info to the database. Please feel free to contact us even if it’s a homebrew game you made if you’d like to have your artwork displayed here.</source>
         <translation>このカートリッジの説明はデータベースに登録されていないため表示できません。下のリンクからチケットを申請いただければ、データベースにゲーム情報を追加いたします。自作ゲームをここに表示したい場合も、お気軽にご連絡ください。</translation>
     </message>
     <message>
-        <location filename="../src/CartDetailsWidget.cpp" line="388"/>
+        <location filename="../src/CartDetailsWidget.cpp" line="419"/>
         <source>Submit cartridge information</source>
         <translation>カートリッジ情報の提出</translation>
     </message>
     <message>
-        <location filename="../src/CartDetailsWidget.cpp" line="403"/>
+        <location filename="../src/CartDetailsWidget.cpp" line="439"/>
         <source>Unknown developer</source>
         <translation>開発者不明</translation>
     </message>
     <message>
-        <location filename="../src/CartDetailsWidget.cpp" line="562"/>
+        <location filename="../src/CartDetailsWidget.cpp" line="603"/>
         <source>Official cartridge</source>
         <translation>公式カートリッジ</translation>
     </message>
     <message>
-        <location filename="../src/CartDetailsWidget.cpp" line="563"/>
+        <location filename="../src/CartDetailsWidget.cpp" line="604"/>
         <source>Unofficial cartridge</source>
         <translation>非公式カートリッジ</translation>
     </message>
     <message>
-        <location filename="../src/CartDetailsWidget.cpp" line="564"/>
+        <location filename="../src/CartDetailsWidget.cpp" line="605"/>
         <source>Unrecognized cartridge</source>
         <translation>未認識カートリッジ</translation>
     </message>
     <message>
-        <location filename="../src/CartDetailsWidget.cpp" line="565"/>
+        <location filename="../src/CartDetailsWidget.cpp" line="606"/>
         <source>Read-only cartridge</source>
         <translation>読み取り専用カートリッジ</translation>
     </message>
     <message>
-        <location filename="../src/CartDetailsWidget.cpp" line="566"/>
+        <location filename="../src/CartDetailsWidget.cpp" line="607"/>
         <source>Rewritable cartridge</source>
         <translation>書き換え可能カートリッジ</translation>
     </message>
     <message>
-        <location filename="../src/CartDetailsWidget.cpp" line="567"/>
+        <location filename="../src/CartDetailsWidget.cpp" line="608"/>
         <source>Tip: Learn how to use your GB Camera as a webcam &lt;a href=&apos;https://support.epilogue.co/hc/en-us/articles/19387756265244&apos; style=&apos;color:white;&apos;&gt;with this tutorial&lt;/a&gt;.</source>
         <translation>ヒント：GB Cameraをウェブカメラとして使用する方法は&lt;a href=&apos;https://support.epilogue.co/hc/en-us/articles/19387756265244&apos; style=&apos;color:white;&apos;&gt;このチュートリアル&lt;/a&gt;でご確認ください。</translation>
     </message>
@@ -269,8 +269,12 @@ Do not remove the cartridge while any operation is running.</source>
     </message>
     <message>
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="153"/>
+        <source>Achievements Support</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Controller Support</source>
-        <translation>コントローラーサポート</translation>
+        <translation type="vanished">コントローラーサポート</translation>
     </message>
     <message>
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="154"/>
@@ -286,34 +290,34 @@ Do not remove the cartridge while any operation is running.</source>
 <context>
     <name>CoreSelectorScreen</name>
     <message>
-        <location filename="../src/CoreSelectorScreen.cpp" line="77"/>
-        <location filename="../src/CoreSelectorScreen.cpp" line="239"/>
+        <location filename="../src/CoreSelectorScreen.cpp" line="71"/>
+        <location filename="../src/CoreSelectorScreen.cpp" line="211"/>
         <source>Officially supported</source>
         <translation>公式サポート</translation>
     </message>
     <message>
-        <location filename="../src/CoreSelectorScreen.cpp" line="77"/>
-        <location filename="../src/CoreSelectorScreen.cpp" line="239"/>
+        <location filename="../src/CoreSelectorScreen.cpp" line="71"/>
+        <location filename="../src/CoreSelectorScreen.cpp" line="211"/>
         <source>Alternative Core</source>
         <translation>代替コア</translation>
     </message>
     <message>
-        <location filename="../src/CoreSelectorScreen.cpp" line="228"/>
+        <location filename="../src/CoreSelectorScreen.cpp" line="200"/>
         <source>Select Core</source>
         <translation>コアを選択</translation>
     </message>
     <message>
-        <location filename="../src/CoreSelectorScreen.cpp" line="230"/>
+        <location filename="../src/CoreSelectorScreen.cpp" line="202"/>
         <source>You can change the emulation core for your Operator device. Download a core online or provide your own, but remember: only some cores are fully supported by Epilogue ensure complete feature compatibility.</source>
         <translation>Operatorデバイス用のエミュレーションコアを変更できます。オンラインでコアをダウンロードするか独自のコアを使用できますが、完全な機能互換性を確保するためには、Epilogueが完全にサポートしているコアのみ使用してください。</translation>
     </message>
     <message>
-        <location filename="../src/CoreSelectorScreen.cpp" line="234"/>
+        <location filename="../src/CoreSelectorScreen.cpp" line="206"/>
         <source>Custom Core</source>
         <translation>カスタムコア</translation>
     </message>
     <message>
-        <location filename="../src/CoreSelectorScreen.cpp" line="235"/>
+        <location filename="../src/CoreSelectorScreen.cpp" line="207"/>
         <source>Your own core</source>
         <translation>カスタムコア</translation>
     </message>
@@ -376,6 +380,14 @@ Do not remove the cartridge while any operation is running.</source>
     </message>
 </context>
 <context>
+    <name>DataFlowWidget</name>
+    <message>
+        <location filename="../src/DataFlowWidget.cpp" line="82"/>
+        <source>Data Flow:</source>
+        <translation type="unfinished">データフロー：</translation>
+    </message>
+</context>
+<context>
     <name>DatabaseCheatCodesWidget</name>
     <message>
         <location filename="../src/DatabaseCheatCodesWidget.cpp" line="37"/>
@@ -392,12 +404,12 @@ Do not remove the cartridge while any operation is running.</source>
 <context>
     <name>DeviceBase</name>
     <message>
-        <location filename="../src/DeviceBase.cpp" line="297"/>
+        <location filename="../src/DeviceBase.cpp" line="321"/>
         <source>Save data integrity check failed!</source>
         <translation>保存データの整合性チェックに失敗しました！</translation>
     </message>
     <message>
-        <location filename="../src/DeviceBase.cpp" line="298"/>
+        <location filename="../src/DeviceBase.cpp" line="322"/>
         <source>The save data appears to be inconsistent between read cycles. Please clean the cartridge pins and try again.</source>
         <translation>読み出しサイクルの間で保存データに一貫性がないようです。カートリッジのピンを清掃し、再度お試しください。</translation>
     </message>
@@ -448,72 +460,72 @@ Do not remove the cartridge while any operation is running.</source>
         <translation>プレイバックで、予想されるゲームデータとバックアップされたデータの不一致が検出されました。カートリッジのピンを清掃し、再度お試しください。</translation>
     </message>
     <message>
-        <location filename="../src/DeviceHardwareOperations.cpp" line="159"/>
+        <location filename="../src/DeviceHardwareOperations.cpp" line="158"/>
         <source>Empty File Was Provided!</source>
         <translation>空のファイルが指定されました！</translation>
     </message>
     <message>
-        <location filename="../src/DeviceHardwareOperations.cpp" line="160"/>
+        <location filename="../src/DeviceHardwareOperations.cpp" line="159"/>
         <source> It looks like the homebrew game you&apos;re trying to upload has been detected by Playback as having 0 bytes. Please verify that the data you&apos;re attempting to upload is accurate.</source>
         <translation> アップロードしようとしているHomebrewゲームは、Playbackによって0バイトと検出されたようです。アップロードしようとしているデータが正確かどうか確認してください。</translation>
     </message>
     <message>
-        <location filename="../src/DeviceHardwareOperations.cpp" line="170"/>
+        <location filename="../src/DeviceHardwareOperations.cpp" line="169"/>
         <source>Upload Homebrew Command Failed!</source>
         <translation>Homebrewのアップロードコマンドに失敗しました！</translation>
     </message>
     <message>
-        <location filename="../src/DeviceHardwareOperations.cpp" line="171"/>
+        <location filename="../src/DeviceHardwareOperations.cpp" line="170"/>
         <source>An error occurred while attempting to start the homebrew upload command. Please restart the application and reconnect the Operator device. If the problem continues, contact our Support team.</source>
         <translation>homebrewアップロードコマンドを開始しようとしてエラーが発生しました。アプリケーションを再起動し、Operatorデバイスを再接続してください。問題が解決しない場合は、サポートチームに連絡してください。</translation>
     </message>
     <message>
-        <location filename="../src/DeviceHardwareOperations.cpp" line="200"/>
+        <location filename="../src/DeviceHardwareOperations.cpp" line="199"/>
         <source>Homebrew Cartridge Erase Failed!</source>
         <translation>Homebrew カートリッジの消去に失敗しました！</translation>
     </message>
     <message>
-        <location filename="../src/DeviceHardwareOperations.cpp" line="201"/>
+        <location filename="../src/DeviceHardwareOperations.cpp" line="200"/>
         <source>Playback couldn&apos;t delete the contents of the homebrew cartridge. Please clean the cartridge pins and try again. If the issue persists, contact our Support team.</source>
         <translation>Playback が Homebrew カートリッジの内容を削除できませんでした。カートリッジのピンを清掃してから、もう一度お試しください。問題が解決しない場合は、サポートチームまでご連絡ください。</translation>
     </message>
     <message>
-        <location filename="../src/DeviceHardwareOperations.cpp" line="220"/>
+        <location filename="../src/DeviceHardwareOperations.cpp" line="219"/>
         <source>Homebrew Cartridge Data Integrity Check Failed!</source>
         <translation>Homebrew カートリッジのデータ整合性チェックに失敗しました！</translation>
     </message>
     <message>
-        <location filename="../src/DeviceHardwareOperations.cpp" line="221"/>
+        <location filename="../src/DeviceHardwareOperations.cpp" line="220"/>
         <source>The cartridge was erased successfully, but the data written does not match the data read back. This issue might occur with some homebrew cartridges. Make sure the game is playable, either by testing on an original console or in the Playback app.</source>
         <translation>カートリッジは正常に消去されましたが、書き込まれたデータと読み出されたデータが一致しません。この問題は一部の自作カートリッジで発生する可能性があります。オリジナルのゲーム機、またはPlaybackアプリでテストして、ゲームがプレイ可能であることを確認してください。</translation>
     </message>
     <message>
-        <location filename="../src/DeviceHardwareOperations.cpp" line="255"/>
+        <location filename="../src/DeviceHardwareOperations.cpp" line="254"/>
         <source>Written game data integrity check failed</source>
         <translation>ゲームデータの整合性チェックに失敗</translation>
     </message>
     <message>
-        <location filename="../src/DeviceHardwareOperations.cpp" line="255"/>
+        <location filename="../src/DeviceHardwareOperations.cpp" line="254"/>
         <source>Read data does not match written data.</source>
         <translation>読み取りデータと書き込みデータが一致しません。</translation>
     </message>
     <message>
-        <location filename="../src/DeviceHardwareOperations.cpp" line="368"/>
+        <location filename="../src/DeviceHardwareOperations.cpp" line="374"/>
         <source>Write save failed</source>
         <translation>セーブの書き込みに失敗しました</translation>
     </message>
     <message>
-        <location filename="../src/DeviceHardwareOperations.cpp" line="368"/>
+        <location filename="../src/DeviceHardwareOperations.cpp" line="374"/>
         <source>Failed to send write save command to device.</source>
         <translation>デバイスへの書き込み保存コマンドの送信に失敗しました。</translation>
     </message>
     <message>
-        <location filename="../src/DeviceHardwareOperations.cpp" line="397"/>
+        <location filename="../src/DeviceHardwareOperations.cpp" line="403"/>
         <source>Save Data Integrity Check Failed!</source>
         <translation>セーブデータの整合性チェックに失敗しました！</translation>
     </message>
     <message>
-        <location filename="../src/DeviceHardwareOperations.cpp" line="398"/>
+        <location filename="../src/DeviceHardwareOperations.cpp" line="404"/>
         <source>The save data written to the cartridge does not match the data read back. Please clean the cartridge pins and try again to ensure consistency.</source>
         <translation>カートリッジに書き込まれた保存データと読み込まれたデータが一致しません。カートリッジのピンを清掃し、整合性を確認するためにもう一度やり直してください。</translation>
     </message>
@@ -551,7 +563,7 @@ Do not remove the cartridge while any operation is running.</source>
     <name>Emulator</name>
     <message>
         <location filename="../src/Emulator.cpp" line="39"/>
-        <location filename="../src/Emulator.cpp" line="776"/>
+        <location filename="../src/Emulator.cpp" line="779"/>
         <source>Graphics Hardware Not Supported</source>
         <translation>グラフィックスハードウェアがサポートされていません</translation>
     </message>
@@ -585,27 +597,27 @@ OpenGL詳細:
         <translation>OpenGLコンテキストの初期化に失敗しました。このアプリケーションは、OpenGL 3.2以上（またはOpenGL ES 2.0+）が必要です。グラフィックドライバーが最新であることを確認してください。</translation>
     </message>
     <message>
-        <location filename="../src/Emulator.cpp" line="554"/>
+        <location filename="../src/Emulator.cpp" line="557"/>
         <source>Failed to load game!</source>
         <translation>ゲームをロードできませんでした!</translation>
     </message>
     <message>
-        <location filename="../src/Emulator.cpp" line="555"/>
+        <location filename="../src/Emulator.cpp" line="558"/>
         <source>Unable to launch the game, please make sure that the cartridge is clean.</source>
         <translation>ゲームが起動できません。カートリッジが汚れていないか確認してください。</translation>
     </message>
     <message>
-        <location filename="../src/Emulator.cpp" line="562"/>
+        <location filename="../src/Emulator.cpp" line="565"/>
         <source>Failed to load save data!</source>
         <translation>セーブデータをロードできませんでした!</translation>
     </message>
     <message>
-        <location filename="../src/Emulator.cpp" line="562"/>
+        <location filename="../src/Emulator.cpp" line="565"/>
         <source>The core failed to load the save data.</source>
         <translation>コアがセーブデータのロードに失敗しました。</translation>
     </message>
     <message>
-        <location filename="../src/Emulator.cpp" line="766"/>
+        <location filename="../src/Emulator.cpp" line="769"/>
         <source>Your graphics hardware does not meet the minimum requirements:
 
 %1
@@ -625,8 +637,8 @@ OpenGL詳細:
 <context>
     <name>EmulatorControlsDropdownWidget</name>
     <message>
-        <location filename="../src/EmulatorControlsDropdownWidget.cpp" line="144"/>
-        <location filename="../src/EmulatorControlsDropdownWidget.cpp" line="167"/>
+        <location filename="../src/EmulatorControlsDropdownWidget.cpp" line="171"/>
+        <location filename="../src/EmulatorControlsDropdownWidget.cpp" line="194"/>
         <source>  Install shaders...</source>
         <translation>  シェーダーをインストール...</translation>
     </message>
@@ -864,14 +876,13 @@ You can try cleaning then re-inserting the cartridge into the device.
 <context>
     <name>ManagePage</name>
     <message>
-        <location filename="../src/ManagePage.cpp" line="245"/>
+        <location filename="../src/ManagePage.cpp" line="208"/>
         <source>START</source>
         <translation>開始</translation>
     </message>
     <message>
-        <location filename="../src/ManagePage.cpp" line="246"/>
         <source>Data Flow:</source>
-        <translation>データフロー：</translation>
+        <translation type="vanished">データフロー：</translation>
     </message>
     <message>
         <location filename="../src/ManagePage.cpp" line="120"/>
@@ -885,13 +896,13 @@ You can try cleaning then re-inserting the cartridge into the device.
     </message>
     <message>
         <location filename="../src/ManagePage.cpp" line="123"/>
-        <location filename="../src/ManagePage.cpp" line="247"/>
+        <location filename="../src/ManagePage.cpp" line="209"/>
         <source>Title</source>
         <translation>タイトル</translation>
     </message>
     <message>
         <location filename="../src/ManagePage.cpp" line="124"/>
-        <location filename="../src/ManagePage.cpp" line="248"/>
+        <location filename="../src/ManagePage.cpp" line="210"/>
         <source>Game Data Checksum</source>
         <translation>ゲームデータのチェックサム</translation>
     </message>
@@ -943,48 +954,48 @@ You can try cleaning then re-inserting the cartridge into the device.
 <context>
     <name>Navbar</name>
     <message>
-        <location filename="../src/Navbar.cpp" line="208"/>
-        <location filename="../src/Navbar.cpp" line="243"/>
+        <location filename="../src/Navbar.cpp" line="206"/>
+        <location filename="../src/Navbar.cpp" line="241"/>
         <source>Press ESC to exit emulation</source>
         <translation>ESCキーを押してエミュレーションを終了する</translation>
     </message>
     <message>
-        <location filename="../src/Navbar.cpp" line="242"/>
+        <location filename="../src/Navbar.cpp" line="240"/>
         <source>Press TAB to exit mouse capture mode</source>
         <translation>TABキーを押してマウスキャプチャモードを終了する</translation>
     </message>
     <message>
-        <location filename="../src/Navbar.cpp" line="210"/>
+        <location filename="../src/Navbar.cpp" line="208"/>
         <source>Loading game...</source>
         <translation>ゲーム読み込み中...</translation>
     </message>
     <message>
-        <location filename="../src/Navbar.cpp" line="212"/>
+        <location filename="../src/Navbar.cpp" line="210"/>
         <source>Writing game...</source>
         <translation>ゲームを記録中...</translation>
     </message>
     <message>
-        <location filename="../src/Navbar.cpp" line="214"/>
+        <location filename="../src/Navbar.cpp" line="212"/>
         <source>Loading save...</source>
         <translation>保存の読み込み中...</translation>
     </message>
     <message>
-        <location filename="../src/Navbar.cpp" line="216"/>
+        <location filename="../src/Navbar.cpp" line="214"/>
         <source>Writing save...</source>
         <translation>保存を記録中...</translation>
     </message>
     <message>
-        <location filename="../src/Navbar.cpp" line="218"/>
+        <location filename="../src/Navbar.cpp" line="216"/>
         <source>Erasing data...</source>
         <translation>データの消去...</translation>
     </message>
     <message>
-        <location filename="../src/Navbar.cpp" line="249"/>
+        <location filename="../src/Navbar.cpp" line="247"/>
         <source>PLAY</source>
         <translation>プレー</translation>
     </message>
     <message>
-        <location filename="../src/Navbar.cpp" line="250"/>
+        <location filename="../src/Navbar.cpp" line="248"/>
         <source>DATA</source>
         <translation>データ</translation>
     </message>
@@ -1005,42 +1016,42 @@ You can try cleaning then re-inserting the cartridge into the device.
 <context>
     <name>NavbarLogoDropdown</name>
     <message>
-        <location filename="../src/NavbarLogoDropdown.cpp" line="177"/>
+        <location filename="../src/NavbarLogoDropdown.cpp" line="200"/>
         <source>Settings</source>
         <translation>設定</translation>
     </message>
     <message>
-        <location filename="../src/NavbarLogoDropdown.cpp" line="178"/>
+        <location filename="../src/NavbarLogoDropdown.cpp" line="201"/>
         <source>What&apos;s New</source>
         <translation>新着情報</translation>
     </message>
     <message>
-        <location filename="../src/NavbarLogoDropdown.cpp" line="179"/>
+        <location filename="../src/NavbarLogoDropdown.cpp" line="202"/>
         <source>Support</source>
         <translation>サポート</translation>
     </message>
     <message>
-        <location filename="../src/NavbarLogoDropdown.cpp" line="180"/>
+        <location filename="../src/NavbarLogoDropdown.cpp" line="203"/>
         <source>Send Feedback</source>
         <translation>フィードバックを送る</translation>
     </message>
     <message>
-        <location filename="../src/NavbarLogoDropdown.cpp" line="181"/>
+        <location filename="../src/NavbarLogoDropdown.cpp" line="204"/>
         <source>Report a Bug</source>
         <translation>不具合を報告</translation>
     </message>
     <message>
-        <location filename="../src/NavbarLogoDropdown.cpp" line="182"/>
+        <location filename="../src/NavbarLogoDropdown.cpp" line="205"/>
         <source>Vault</source>
         <translation>Vault</translation>
     </message>
     <message>
-        <location filename="../src/NavbarLogoDropdown.cpp" line="183"/>
+        <location filename="../src/NavbarLogoDropdown.cpp" line="206"/>
         <source>About</source>
         <translation>概要</translation>
     </message>
     <message>
-        <location filename="../src/NavbarLogoDropdown.cpp" line="184"/>
+        <location filename="../src/NavbarLogoDropdown.cpp" line="207"/>
         <source>Exit</source>
         <translation>終了</translation>
     </message>
@@ -1048,27 +1059,27 @@ You can try cleaning then re-inserting the cartridge into the device.
 <context>
     <name>NavbarSubmenu</name>
     <message>
-        <location filename="../src/Navbar.cpp" line="425"/>
+        <location filename="../src/Navbar.cpp" line="426"/>
         <source>Backup Game</source>
         <translation>バックアップゲーム</translation>
     </message>
     <message>
-        <location filename="../src/Navbar.cpp" line="426"/>
+        <location filename="../src/Navbar.cpp" line="427"/>
         <source>Upload Homebrew</source>
         <translation>Homebrewのアップロード</translation>
     </message>
     <message>
-        <location filename="../src/Navbar.cpp" line="427"/>
+        <location filename="../src/Navbar.cpp" line="428"/>
         <source>Backup Save</source>
         <translation>セーブバックアップ</translation>
     </message>
     <message>
-        <location filename="../src/Navbar.cpp" line="428"/>
+        <location filename="../src/Navbar.cpp" line="429"/>
         <source>Upload Save</source>
         <translation>セーブアップロード</translation>
     </message>
     <message>
-        <location filename="../src/Navbar.cpp" line="429"/>
+        <location filename="../src/Navbar.cpp" line="430"/>
         <source>Photo Gallery</source>
         <translation>フォトギャラリー</translation>
     </message>
@@ -1178,7 +1189,7 @@ If you&apos;d like to easily remove all the pictures from your camera, without h
         <translation>有効にすると、ゲームは整数倍のスケーリングで表示され、ピクセルが元のサイズの正確な倍数で表示されます。これにより、画面スペースが多少犯牲になるものの、グラフィックの乱れが解消され、レトロゲームの本来の見た目が保たれます。</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.cpp" line="120"/>
+        <location filename="../src/PlaybackSettingsScreen.cpp" line="121"/>
         <source>When enabled and supported by the game, Playback adds real-time clock (RTC) data to the save file. This ensures accurate preservation of time-based events. Note that this will increase the file size and might make it incompatible with other software.</source>
         <translation>有効にすると、ゲームが対応している場合、プレイバックはリアルタイムクロック (RTC) データをセーブファイルに追加します。これにより、時間に基づくイベントが正確に保存されます。ただし、ファイルサイズが増加し、他のソフトウェアと互換性がなくなる可能性があります。</translation>
     </message>
@@ -1193,7 +1204,7 @@ If you&apos;d like to easily remove all the pictures from your camera, without h
         <translation>希望言語</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.cpp" line="124"/>
+        <location filename="../src/PlaybackSettingsScreen.cpp" line="125"/>
         <source>Activating this setting prompts Playback to check that the save file remains uncorrupted after being written to the cartridge. It ensures your game progress has been safely stored.</source>
         <translation>この設定を有効にすると、カートリッジに書き込まれた後、セーブファイルが壊れていないことを確認するようPlaybackに要求します。これにより、ゲームの進行状況が安全に保存されます。</translation>
     </message>
@@ -1203,7 +1214,7 @@ If you&apos;d like to easily remove all the pictures from your camera, without h
         <translation>セーブが正しく読み込まれているか確認する</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.cpp" line="127"/>
+        <location filename="../src/PlaybackSettingsScreen.cpp" line="128"/>
         <source>When this setting is enabled, Playback reads the save file from the cartridge multiple times and reviews any discrepancies to prevent data corruption.</source>
         <translation>この設定を有効にすると、Playbackはカートリッジから保存ファイルを複数回読み込み、データの破損を防ぐために不一致がないか確認します。</translation>
     </message>
@@ -1213,7 +1224,7 @@ If you&apos;d like to easily remove all the pictures from your camera, without h
         <translation>Homebrewファイルの完全性を確認する</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.cpp" line="130"/>
+        <location filename="../src/PlaybackSettingsScreen.cpp" line="131"/>
         <source>This setting enables Playback to confirm the integrity of a homebrew game after transferring it to the cartridge, making sure there are no issues affecting your work.</source>
         <translation>この設定により、自作ゲームをカートリッジに移した後、Playbackが自作ゲームの完全性を確認し、作品に問題がないことを確認することができます。</translation>
     </message>
@@ -1223,7 +1234,7 @@ If you&apos;d like to easily remove all the pictures from your camera, without h
         <translation>冗長なデバッグ・ログを有効にする（再起動が必要）</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.cpp" line="133"/>
+        <location filename="../src/PlaybackSettingsScreen.cpp" line="134"/>
         <source>When enabled, the Playback software will output more detailed logs to help diagnose issues. This setting is useful for troubleshooting and should be disabled when not needed.</source>
         <translation>この設定を有効にすると、Playbackソフトウェアがより詳細なログを出力し、問題の診断に役立ちます。この設定はトラブルシューティングに役立ちますが、必要ない場合は無効にしてください。</translation>
     </message>
@@ -1251,17 +1262,17 @@ If you&apos;d like to easily remove all the pictures from your camera, without h
 <context>
     <name>PlaybackSettingsScreenOption</name>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.cpp" line="190"/>
+        <location filename="../src/PlaybackSettingsScreen.cpp" line="191"/>
         <source>Open Log Directory</source>
         <translation>ログディレクトリを開く</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.cpp" line="196"/>
+        <location filename="../src/PlaybackSettingsScreen.cpp" line="197"/>
         <source>Enabled</source>
         <translation>有効</translation>
     </message>
     <message>
-        <location filename="../src/PlaybackSettingsScreen.cpp" line="197"/>
+        <location filename="../src/PlaybackSettingsScreen.cpp" line="198"/>
         <source>Disabled</source>
         <translation>無効</translation>
     </message>
@@ -1269,7 +1280,7 @@ If you&apos;d like to easily remove all the pictures from your camera, without h
 <context>
     <name>ProgressGridWidget</name>
     <message>
-        <location filename="../src/ProgressGridWidget.cpp" line="148"/>
+        <location filename="../src/ProgressGridWidget.cpp" line="256"/>
         <source>Data Grid:</source>
         <translation>データマトリックス：</translation>
     </message>
@@ -1311,6 +1322,14 @@ If you&apos;d like to easily remove all the pictures from your camera, without h
         <source>for cleaning your cartridge pins.</source>
         <translation>カートリッジピンのクリーニング。</translation>
     </message>
+    <message>
+        <source>Enabled</source>
+        <translation type="obsolete">有効</translation>
+    </message>
+    <message>
+        <source>Disabled</source>
+        <translation type="obsolete">無効</translation>
+    </message>
 </context>
 <context>
     <name>QuitAlertBox</name>
@@ -1323,6 +1342,250 @@ If you&apos;d like to easily remove all the pictures from your camera, without h
         <location filename="../src/UIComponents.cpp" line="38"/>
         <source>Are you sure you want to exit?</source>
         <translation>終了してもよろしいですか？</translation>
+    </message>
+</context>
+<context>
+    <name>RAAchievementRowWidget</name>
+    <message>
+        <location filename="../src/RAAchievementsWindow.cpp" line="447"/>
+        <source>%1% of players have this achievement</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/RAAchievementsWindow.cpp" line="451"/>
+        <source>Missable</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/RAAchievementsWindow.cpp" line="452"/>
+        <source>Progression</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/RAAchievementsWindow.cpp" line="453"/>
+        <source>Win Condition</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/RAAchievementsWindow.cpp" line="454"/>
+        <source>points</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>RAAchievementsWindow</name>
+    <message>
+        <location filename="../src/RAAchievementsWindow.cpp" line="93"/>
+        <location filename="../src/RAAchievementsWindow.cpp" line="150"/>
+        <source>Unsupported</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/RAAchievementsWindow.cpp" line="94"/>
+        <location filename="../src/RAAchievementsWindow.cpp" line="152"/>
+        <source>Active Challenges</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/RAAchievementsWindow.cpp" line="95"/>
+        <location filename="../src/RAAchievementsWindow.cpp" line="153"/>
+        <source>Locked</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/RAAchievementsWindow.cpp" line="96"/>
+        <location filename="../src/RAAchievementsWindow.cpp" line="155"/>
+        <source>Unlocked</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/RAAchievementsWindow.cpp" line="143"/>
+        <source>You have earned %1 of %2 achievements and %3 of %4 points.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>RAController</name>
+    <message>
+        <location filename="../src/RAController.cpp" line="294"/>
+        <source>You have earned %1 of %2 achievements and %3 of %4 points.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/RAController.cpp" line="300"/>
+        <source>
+Hardcore mode is active - cheats and slow motion are disabled.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/RAController.cpp" line="338"/>
+        <source>You have mastered %1 achievements and earned %2 points.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/RAController.cpp" line="367"/>
+        <source>Leaderboard attempt started: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/RAController.cpp" line="380"/>
+        <source>Leaderboard attempt failed: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/RAController.cpp" line="393"/>
+        <source>Leaderboard attempt submitted: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/RAController.cpp" line="394"/>
+        <source>Submitted: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>RAInfoWidget</name>
+    <message>
+        <location filename="../src/RASettingsScreen.cpp" line="369"/>
+        <source>RetroAchievements</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/RASettingsScreen.cpp" line="370"/>
+        <source>Adding achievements to retro games since 2012</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>RALoginWidget</name>
+    <message>
+        <location filename="../src/RASettingsScreen.cpp" line="297"/>
+        <source>Log Out</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/RASettingsScreen.cpp" line="297"/>
+        <source>Log In</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>RALoginWindow</name>
+    <message>
+        <location filename="../src/RALoginWindow.cpp" line="102"/>
+        <source>Username</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/RALoginWindow.cpp" line="103"/>
+        <source>Password</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/RALoginWindow.cpp" line="104"/>
+        <source>Login</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/RALoginWindow.cpp" line="106"/>
+        <source>Don&apos;t have an account? &lt;a style=&apos;color: #158EFF&apos; href=&quot;%1&quot;&gt;Sign up&lt;/a&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>RASettingsScreen</name>
+    <message>
+        <location filename="../src/RASettingsScreen.cpp" line="65"/>
+        <source>Achievements</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/RASettingsScreen.cpp" line="71"/>
+        <source>Earn and track achievements in classic games. We add custom challenges to retro titles, letting you revisit old favorites in new ways.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/RASettingsScreen.cpp" line="77"/>
+        <source>Hardcore Mode (needs emulator restart)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/RASettingsScreen.cpp" line="78"/>
+        <source>Encore Mode (needs emulator restart)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/RASettingsScreen.cpp" line="79"/>
+        <source>Show Leaderboards Notifications</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/RASettingsScreen.cpp" line="80"/>
+        <source>Show Leaderboards Tracker</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/RASettingsScreen.cpp" line="81"/>
+        <source>Show Progress Indicator</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/RASettingsScreen.cpp" line="82"/>
+        <source>Show Challenge Indicators</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/RASettingsScreen.cpp" line="88"/>
+        <source>Disables cheats, pausing and slow-motion. Achievements earned in hardcore mode are uniquely marked so that you can show others what you&apos;ve achieved without emulator assistance features.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/RASettingsScreen.cpp" line="91"/>
+        <source>Re-activate previously earned achievements to experience them again. Note: Points are not re-awarded.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/RASettingsScreen.cpp" line="93"/>
+        <source>Show leaderboards related notifications in the notification area.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/RASettingsScreen.cpp" line="94"/>
+        <source>Show leaderboards tracker in the notification area.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/RASettingsScreen.cpp" line="96"/>
+        <source>Show progress indicator in the notification area when an achievement is being tracked.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/RASettingsScreen.cpp" line="98"/>
+        <source>Show challenge indicators in the notification area when an achievement is being tracked.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/RASettingsScreen.cpp" line="119"/>
+        <source>Authentication Failed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/RASettingsScreen.cpp" line="120"/>
+        <source>Invalid username or password. Please check your credentials and try again.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>RASettingsScreenOption</name>
+    <message>
+        <location filename="../src/RASettingsScreen.cpp" line="257"/>
+        <source>Enabled</source>
+        <translation type="unfinished">有効</translation>
+    </message>
+    <message>
+        <location filename="../src/RASettingsScreen.cpp" line="258"/>
+        <source>Disabled</source>
+        <translation type="unfinished">無効</translation>
     </message>
 </context>
 <context>
@@ -1351,19 +1614,19 @@ Would you like to proceed?
 <context>
     <name>SearchWindow</name>
     <message>
-        <location filename="../src/SearchWindow.cpp" line="59"/>
+        <location filename="../src/SearchWindow.cpp" line="60"/>
         <source>Searching...</source>
         <translation>検索...</translation>
     </message>
     <message>
-        <location filename="../src/SearchWindow.cpp" line="60"/>
+        <location filename="../src/SearchWindow.cpp" line="61"/>
         <source>Looking for your Operator device.
 Please make sure it&apos;s connected.</source>
         <translation>Operatorデバイスを探しています。
 デバイスが接続されているか確認してください。</translation>
     </message>
     <message>
-        <location filename="../src/SearchWindow.cpp" line="62"/>
+        <location filename="../src/SearchWindow.cpp" line="63"/>
         <source>Not working?</source>
         <translation>うまくいきませんか？</translation>
     </message>
@@ -1371,47 +1634,52 @@ Please make sure it&apos;s connected.</source>
 <context>
     <name>SettingsWindow</name>
     <message>
-        <location filename="../src/SettingsWindow.cpp" line="247"/>
+        <location filename="../src/SettingsWindow.cpp" line="276"/>
         <source>Core Load Failed</source>
         <translation>コアの読み込みに失敗しました</translation>
     </message>
     <message>
-        <location filename="../src/SettingsWindow.cpp" line="247"/>
+        <location filename="../src/SettingsWindow.cpp" line="276"/>
         <source>Failed to load core. Please load a valid core.</source>
         <translation>コアの読み込みに失敗しました。有効なコアを読み込んでください。</translation>
     </message>
     <message>
-        <location filename="../src/SettingsWindow.cpp" line="277"/>
+        <location filename="../src/SettingsWindow.cpp" line="308"/>
         <source>Settings</source>
         <translation>設定</translation>
     </message>
     <message>
-        <location filename="../src/SettingsWindow.cpp" line="279"/>
+        <location filename="../src/SettingsWindow.cpp" line="310"/>
         <source>Core Selector</source>
         <translation>コアセレクター</translation>
     </message>
     <message>
-        <location filename="../src/SettingsWindow.cpp" line="280"/>
+        <location filename="../src/SettingsWindow.cpp" line="311"/>
         <source>Emulator Settings</source>
         <translation>エミュレータの設定</translation>
     </message>
     <message>
-        <location filename="../src/SettingsWindow.cpp" line="281"/>
+        <location filename="../src/SettingsWindow.cpp" line="312"/>
         <source>Device Settings</source>
         <translation>デバイス設定</translation>
     </message>
     <message>
-        <location filename="../src/SettingsWindow.cpp" line="282"/>
+        <location filename="../src/SettingsWindow.cpp" line="313"/>
         <source>Controls Settings</source>
         <translation>コントロール設定</translation>
     </message>
     <message>
-        <location filename="../src/SettingsWindow.cpp" line="283"/>
+        <location filename="../src/SettingsWindow.cpp" line="314"/>
+        <source>Achievements</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/SettingsWindow.cpp" line="315"/>
         <source>Cheat Codes</source>
         <translation>チートコード</translation>
     </message>
     <message>
-        <location filename="../src/SettingsWindow.cpp" line="278"/>
+        <location filename="../src/SettingsWindow.cpp" line="309"/>
         <source>Playback Settings</source>
         <translation>Playbackの設定</translation>
     </message>
@@ -1535,126 +1803,126 @@ Tip: Use external programs to trigger in-game events or customize gameplay.</sou
 <context>
     <name>Window</name>
     <message>
-        <location filename="../src/Window.cpp" line="161"/>
-        <location filename="../src/Window.cpp" line="411"/>
+        <location filename="../src/Window.cpp" line="167"/>
+        <location filename="../src/Window.cpp" line="417"/>
         <source>A new app update is available</source>
         <translation>新しいアプリのアップデートが利用可能</translation>
     </message>
     <message>
-        <location filename="../src/Window.cpp" line="161"/>
-        <location filename="../src/Window.cpp" line="411"/>
+        <location filename="../src/Window.cpp" line="167"/>
+        <location filename="../src/Window.cpp" line="417"/>
         <source>Open</source>
         <translation>実行</translation>
     </message>
     <message>
-        <location filename="../src/Window.cpp" line="182"/>
-        <location filename="../src/Window.cpp" line="409"/>
+        <location filename="../src/Window.cpp" line="188"/>
+        <location filename="../src/Window.cpp" line="415"/>
         <source>A new device update is available</source>
         <translation>新しいデバイスのアップデートが利用可能</translation>
     </message>
     <message>
-        <location filename="../src/Window.cpp" line="182"/>
-        <location filename="../src/Window.cpp" line="409"/>
+        <location filename="../src/Window.cpp" line="188"/>
+        <location filename="../src/Window.cpp" line="415"/>
         <source>Start</source>
         <translation>スタート</translation>
     </message>
     <message>
-        <location filename="../src/Window.cpp" line="441"/>
+        <location filename="../src/Window.cpp" line="447"/>
         <source>Main Hub</source>
         <translation>メインハブ</translation>
     </message>
     <message>
-        <location filename="../src/Window.cpp" line="442"/>
+        <location filename="../src/Window.cpp" line="448"/>
         <source>Choose between playing the game, transferring data or accessing more info.</source>
         <translation>ゲームをプレイ、データを転送、または詳細情報にアクセスするかを選択します。</translation>
     </message>
     <message>
-        <location filename="../src/Window.cpp" line="449"/>
+        <location filename="../src/Window.cpp" line="455"/>
         <source>Play Tab</source>
         <translation>プレイタブ</translation>
     </message>
     <message>
-        <location filename="../src/Window.cpp" line="450"/>
+        <location filename="../src/Window.cpp" line="456"/>
         <source>Learn more about your game, or have a play session on the in-app emulator.</source>
         <translation>ゲームについて詳しく知るか、アプリ内エミュレーターでプレイセッションを行います。</translation>
     </message>
     <message>
-        <location filename="../src/Window.cpp" line="457"/>
+        <location filename="../src/Window.cpp" line="463"/>
         <source>Start Play Session</source>
         <translation>プレイセッションを開始</translation>
     </message>
     <message>
-        <location filename="../src/Window.cpp" line="458"/>
+        <location filename="../src/Window.cpp" line="464"/>
         <source>Launch the in-app emulator for an authentic, accurate experience.</source>
         <translation>本物の正確な体験のためにアプリ内エミュレーターを起動します。</translation>
     </message>
     <message>
-        <location filename="../src/Window.cpp" line="465"/>
+        <location filename="../src/Window.cpp" line="471"/>
         <source>Playback Settings</source>
         <translation>Playbackの設定</translation>
     </message>
     <message>
-        <location filename="../src/Window.cpp" line="466"/>
+        <location filename="../src/Window.cpp" line="472"/>
         <source>Configure parameters to make the app your own.</source>
         <translation>アプリを自分好みにカスタマイズするパラメーターを設定します。</translation>
     </message>
     <message>
-        <location filename="../src/Window.cpp" line="473"/>
+        <location filename="../src/Window.cpp" line="479"/>
         <source>Save Vault</source>
         <translation>Save Vault</translation>
     </message>
     <message>
-        <location filename="../src/Window.cpp" line="474"/>
+        <location filename="../src/Window.cpp" line="480"/>
         <source>Access and manage saves created automatically in the &lt;a href=&quot;#&quot; style=&apos;color: white&apos;&gt;Save Vault&lt;/a&gt;.</source>
         <translation>&lt;a href=&quot;#&quot; style=&apos;color: white&apos;&gt;Save Vault&lt;/a&gt;に自動的に作成されたセーブデータにアクセスし、管理します。</translation>
     </message>
     <message>
-        <location filename="../src/Window.cpp" line="482"/>
+        <location filename="../src/Window.cpp" line="488"/>
         <source>Device Switcher</source>
         <translation>デバイススイッチャー</translation>
     </message>
     <message>
-        <location filename="../src/Window.cpp" line="483"/>
+        <location filename="../src/Window.cpp" line="489"/>
         <source>Select between multiple Operator devices connected to the same computer.</source>
         <translation>同じコンピューターに接続された複数のOperatorデバイス間で切り替えます。</translation>
     </message>
     <message>
-        <location filename="../src/Window.cpp" line="490"/>
+        <location filename="../src/Window.cpp" line="496"/>
         <source>Counterfeit Detection</source>
         <translation>偽造品チェック</translation>
     </message>
     <message>
-        <location filename="../src/Window.cpp" line="491"/>
+        <location filename="../src/Window.cpp" line="497"/>
         <source>Your cartridge has been analysed for some of the most common counterfeit markers.</source>
         <translation>カートリッジが一般的な偽造品の特徴について分析されました。</translation>
     </message>
     <message>
-        <location filename="../src/Window.cpp" line="498"/>
+        <location filename="../src/Window.cpp" line="504"/>
         <source>Data Tab</source>
         <translation>データタブ</translation>
     </message>
     <message>
-        <location filename="../src/Window.cpp" line="499"/>
+        <location filename="../src/Window.cpp" line="505"/>
         <source>Backup, transfer and manage official/homebrew game and save data.</source>
         <translation>公式/ホームブリューゲームとセーブデータのバックアップ、転送、管理を行います。</translation>
     </message>
     <message>
-        <location filename="../src/Window.cpp" line="506"/>
+        <location filename="../src/Window.cpp" line="512"/>
         <source>Backup Save</source>
         <translation>セーブバックアップ</translation>
     </message>
     <message>
-        <location filename="../src/Window.cpp" line="507"/>
+        <location filename="../src/Window.cpp" line="513"/>
         <source>Create digital copies of your save data.</source>
         <translation>セーブデータのデジタルコピーを作成します。</translation>
     </message>
     <message>
-        <location filename="../src/Window.cpp" line="514"/>
+        <location filename="../src/Window.cpp" line="520"/>
         <source>Start Backup Session</source>
         <translation>バックアップセッションを開始</translation>
     </message>
     <message>
-        <location filename="../src/Window.cpp" line="515"/>
+        <location filename="../src/Window.cpp" line="521"/>
         <source>Begin archiving the save data.</source>
         <translation>セーブデータのアーカイブを開始します。</translation>
     </message>
