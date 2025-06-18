@@ -1675,7 +1675,7 @@ Assurez-vous qu&apos;il est connecté.</translation>
         <translation>Succès</translation>
     </message>
     <message>
-        <location filename="../src/SettingsWindow.cpp" line="315"
+        <location filename="../src/SettingsWindow.cpp" line="315"/>
         <source>Cheat Codes</source>
         <translation>Codes de triche</translation>
     </message>
