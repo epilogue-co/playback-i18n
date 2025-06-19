@@ -270,7 +270,7 @@ Ne retirez pas la cartouche pendant qu&apos;une opération est en cours.</transl
     <message>
         <location filename="../src/CoreCapabilitiesWidget.cpp" line="153"/>
         <source>Achievements Support</source>
-        <translation>Support des succès</translation>
+        <translation>Succès</translation>
     </message>
     <message>
         <source>Controller Support</source>
@@ -1416,7 +1416,7 @@ Si vous souhaitez supprimer facilement toutes les images de votre caméra sans a
         <source>
 Hardcore mode is active - cheats and slow motion are disabled.</source>
         <translation>
-Le mode hardcore est actif - les codes de triche et le ralenti sont désactivés.</translation>
+Le mode hardcore est actif - les codes de triche et le mode lent sont désactivés.</translation>
     </message>
     <message>
         <location filename="../src/RAController.cpp" line="338"/>
@@ -1475,7 +1475,7 @@ Le mode hardcore est actif - les codes de triche et le ralenti sont désactivés
     <message>
         <location filename="../src/RALoginWindow.cpp" line="102"/>
         <source>Username</source>
-        <translation>Nom d'utilisateur</translation>
+        <translation>Nom d&apos;utilisateur</translation>
     </message>
     <message>
         <location filename="../src/RALoginWindow.cpp" line="103"/>
@@ -1490,7 +1490,7 @@ Le mode hardcore est actif - les codes de triche et le ralenti sont désactivés
     <message>
         <location filename="../src/RALoginWindow.cpp" line="106"/>
         <source>Don&apos;t have an account? &lt;a style=&apos;color: #158EFF&apos; href=&quot;%1&quot;&gt;Sign up&lt;/a&gt;</source>
-        <translation>Vous n'avez pas de compte ? &lt;a style=&apos;color: #158EFF&apos; href=&quot;%1&quot;&gt;Inscrivez-vous&lt;/a&gt;</translation>
+        <translation>Vous n&apos;avez pas de compte ? &lt;a style=&apos;color: #158EFF&apos; href=&quot;%1&quot;&gt;S&apos;inscrire&lt;/a&gt;</translation>
     </message>
 </context>
 <context>
@@ -1503,17 +1503,17 @@ Le mode hardcore est actif - les codes de triche et le ralenti sont désactivés
     <message>
         <location filename="../src/RASettingsScreen.cpp" line="71"/>
         <source>Earn and track achievements in classic games. We add custom challenges to retro titles, letting you revisit old favorites in new ways.</source>
-        <translation>Gagnez et suivez des succès dans les jeux classiques. Nous ajoutons des défis personnalisés aux titres rétro, vous permettant de redécouvrir vos favoris d'une nouvelle manière.</translation>
+        <translation>Obtenez et suivez des succès dans des jeux classiques. RetroAchievements ajoute des défis personnalisés aux titres rétros, vous permettant de redécouvrir vos jeux favoris d&apos;une nouvelle manière.</translation>
     </message>
     <message>
         <location filename="../src/RASettingsScreen.cpp" line="77"/>
         <source>Hardcore Mode (needs emulator restart)</source>
-        <translation>Mode Hardcore (nécessite un redémarrage de l'émulateur)</translation>
+        <translation>Mode Hardcore (nécessite un redémarrage de l&apos;émulateur)</translation>
     </message>
     <message>
         <location filename="../src/RASettingsScreen.cpp" line="78"/>
         <source>Encore Mode (needs emulator restart)</source>
-        <translation>Mode Encore (nécessite un redémarrage de l'émulateur)</translation>
+        <translation>Mode Encore (nécessite un redémarrage de l&apos;émulateur)</translation>
     </message>
     <message>
         <location filename="../src/RASettingsScreen.cpp" line="79"/>
@@ -1528,7 +1528,7 @@ Le mode hardcore est actif - les codes de triche et le ralenti sont désactivés
     <message>
         <location filename="../src/RASettingsScreen.cpp" line="81"/>
         <source>Show Progress Indicator</source>
-        <translation>Afficher l'indicateur de progression</translation>
+        <translation>Afficher l&apos;indicateur de progression</translation>
     </message>
     <message>
         <location filename="../src/RASettingsScreen.cpp" line="82"/>
@@ -1538,7 +1538,7 @@ Le mode hardcore est actif - les codes de triche et le ralenti sont désactivés
     <message>
         <location filename="../src/RASettingsScreen.cpp" line="88"/>
         <source>Disables cheats, pausing and slow-motion. Achievements earned in hardcore mode are uniquely marked so that you can show others what you&apos;ve achieved without emulator assistance features.</source>
-        <translation>Désactive les codes de triche, la pause et le ralenti. Les succès obtenus en mode hardcore sont marqués de manière unique afin que vous puissiez montrer aux autres ce que vous avez accompli sans les fonctions d'assistance de l'émulateur.</translation>
+        <translation>Désactive les codes de triche, la pause et le mode lent. Les succès obtenus en mode hardcore sont marqués de manière unique afin que vous puissiez montrer aux autres ce que vous avez accompli sans les fonctions d&apos;assistance de l&apos;émulateur.</translation>
     </message>
     <message>
         <location filename="../src/RASettingsScreen.cpp" line="91"/>
@@ -1558,12 +1558,12 @@ Le mode hardcore est actif - les codes de triche et le ralenti sont désactivés
     <message>
         <location filename="../src/RASettingsScreen.cpp" line="96"/>
         <source>Show progress indicator in the notification area when an achievement is being tracked.</source>
-        <translation>Afficher l'indicateur de progression dans la zone de notification lorsqu'un succès est suivi.</translation>
+        <translation>Afficher l&apos;indicateur de progression dans la zone de notification lorsqu&apos;un succès est suivi.</translation>
     </message>
     <message>
         <location filename="../src/RASettingsScreen.cpp" line="98"/>
         <source>Show challenge indicators in the notification area when an achievement is being tracked.</source>
-        <translation>Afficher les indicateurs de défis dans la zone de notification lorsqu'un succès est suivi.</translation>
+        <translation>Afficher les indicateurs de défis dans la zone de notification lorsqu&apos;un succès est suivi.</translation>
     </message>
     <message>
         <location filename="../src/RASettingsScreen.cpp" line="119"/>
@@ -1573,7 +1573,7 @@ Le mode hardcore est actif - les codes de triche et le ralenti sont désactivés
     <message>
         <location filename="../src/RASettingsScreen.cpp" line="120"/>
         <source>Invalid username or password. Please check your credentials and try again.</source>
-        <translation>Nom d'utilisateur ou mot de passe incorrect. Veuillez vérifier vos identifiants et réessayer.</translation>
+        <translation>Nom d&apos;utilisateur ou mot de passe incorrect. Veuillez vérifier vos identifiants et réessayer.</translation>
     </message>
 </context>
 <context>
