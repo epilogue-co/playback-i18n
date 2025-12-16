@@ -5,7 +5,7 @@
 | Language               | Type          | Complete    | Missing Strings  |
 | ---------------------- | ------------- | --------    | ---------------  |
 | 🇳🇱 Dutch                 | AI            | ❌           | 96               |
-| 🇫🇷 French                | Human         | ❌           | 96               |
+| 🇫🇷 French                | Human         | ✅           | 96               |
 | 🇩🇪 German                | Human         | ❌           | 96               |
 | 🇮🇹 Italian               | AI            | ❌           | 96               |
 | 🇯🇵 Japanese              | Human         | ❌           | 96               |
