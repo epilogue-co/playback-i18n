@@ -189,7 +189,7 @@ Non rimuovere la cartuccia mentre è in corso un&apos;operazione.</translation>
     <message>
         <location filename="../src/platform/desktop/ControlsWidget.cpp" line="87"/>
         <source>Player</source>
-        <translation type="unfinished"></translation>
+        <translation>Giocatore</translation>
     </message>
 </context>
 <context>
@@ -222,7 +222,7 @@ Non rimuovere la cartuccia mentre è in corso un&apos;operazione.</translation>
     <message>
         <location filename="../src/platform/desktop/CoreCardWidget.cpp" line="305"/>
         <source>Remove</source>
-        <translation type="unfinished"></translation>
+        <translation>Rimuovi</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/CoreCardWidget.cpp" line="306"/>
@@ -341,27 +341,27 @@ Non rimuovere la cartuccia mentre è in corso un&apos;operazione.</translation>
         <location filename="../src/platform/desktop/CoreCapabilitiesWidget.cpp" line="107"/>
         <location filename="../src/platform/desktop/CoreCapabilitiesWidget.cpp" line="109"/>
         <source>Game Boy</source>
-        <translation></translation>
+        <translation>Game Boy</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/CoreCapabilitiesWidget.cpp" line="110"/>
         <source>Game Boy Color</source>
-        <translation></translation>
+        <translation>Game Boy Color</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/CoreCapabilitiesWidget.cpp" line="111"/>
         <source>Game Boy Advance</source>
-        <translation></translation>
+        <translation>Game Boy Advance</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/CoreCapabilitiesWidget.cpp" line="112"/>
         <source>Super Nintendo</source>
-        <translation></translation>
+        <translation>Super Nintendo</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/CoreCapabilitiesWidget.cpp" line="113"/>
         <source>Nintendo 64</source>
-        <translation></translation>
+        <translation>Nintendo 64</translation>
     </message>
 </context>
 <context>
@@ -374,7 +374,7 @@ Non rimuovere la cartuccia mentre è in corso un&apos;operazione.</translation>
     <message>
         <location filename="../src/platform/desktop/CustomCheatCodesWidget.cpp" line="178"/>
         <source>Add your own custom cheats...</source>
-        <translation type="unfinished"></translation>
+        <translation>Aggiungi i tuoi trucchi personalizzati...</translation>
     </message>
     <message>
         <source>Description</source>
@@ -394,12 +394,12 @@ Non rimuovere la cartuccia mentre è in corso un&apos;operazione.</translation>
     <message>
         <location filename="../src/platform/desktop/CustomCheatCodesWidget.cpp" line="277"/>
         <source>Description...</source>
-        <translation type="unfinished"></translation>
+        <translation>Descrizione...</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/CustomCheatCodesWidget.cpp" line="278"/>
         <source>Code...</source>
-        <translation type="unfinished"></translation>
+        <translation>Codice...</translation>
     </message>
 </context>
 <context>
@@ -423,12 +423,12 @@ Non rimuovere la cartuccia mentre è in corso un&apos;operazione.</translation>
     <message>
         <location filename="../src/platform/desktop/DatabaseCheatCodesWidget.cpp" line="112"/>
         <source> Default</source>
-        <translation type="unfinished"></translation>
+        <translation> Predefinito</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/DatabaseCheatCodesWidget.cpp" line="113"/>
         <source>Search...</source>
-        <translation type="unfinished"></translation>
+        <translation>Cerca...</translation>
     </message>
 </context>
 <context>
@@ -436,27 +436,27 @@ Non rimuovere la cartuccia mentre è in corso un&apos;operazione.</translation>
     <message>
         <location filename="../src/platform/desktop/DeadzoneWidget.cpp" line="26"/>
         <source>Joystick Deadzone</source>
-        <translation type="unfinished"></translation>
+        <translation>Zona morta del joystick</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/DeadzoneWidget.cpp" line="65"/>
         <source>Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Modalità</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/DeadzoneWidget.cpp" line="75"/>
         <source>Linear</source>
-        <translation type="unfinished"></translation>
+        <translation>Lineare</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/DeadzoneWidget.cpp" line="76"/>
         <source>Radial</source>
-        <translation type="unfinished"></translation>
+        <translation>Radiale</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/DeadzoneWidget.cpp" line="77"/>
         <source>Scaled</source>
-        <translation type="unfinished"></translation>
+        <translation>Scalato</translation>
     </message>
 </context>
 <context>
@@ -464,7 +464,7 @@ Non rimuovere la cartuccia mentre è in corso un&apos;operazione.</translation>
     <message>
         <location filename="../src/platform/desktop/DesktopEmulatorDialogs.cpp" line="111"/>
         <source>Load Failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Caricamento non riuscito</translation>
     </message>
 </context>
 <context>
@@ -523,7 +523,7 @@ Non rimuovere la cartuccia mentre è in corso un&apos;operazione.</translation>
     <message>
         <location filename="../src/core/DeviceHardwareOperations.cpp" line="130"/>
         <source>Playback detected a discrepancy between the expected game data and the backed up data. Please clean the cartridge pins and try again to ensure accuracy.</source>
-        <translation>La riproduzione ha rilevato una discrepanza tra i dati di gioco previsti e i dati di backup. Pulire i pin della cartuccia e riprovare per garantire la precisione.</translation>
+        <translation>Playback ha rilevato una discrepanza tra i dati di gioco previsti e i dati di backup. Pulire i pin della cartuccia e riprovare per garantire la precisione.</translation>
     </message>
     <message>
         <location filename="../src/core/DeviceHardwareOperations.cpp" line="167"/>
@@ -543,7 +543,7 @@ Non rimuovere la cartuccia mentre è in corso un&apos;operazione.</translation>
     <message>
         <location filename="../src/core/DeviceHardwareOperations.cpp" line="179"/>
         <source>An error occurred while attempting to start the homebrew upload command. Please restart the application and reconnect the Operator device. If the problem continues, contact our Support team.</source>
-        <translation>Si è verificato un errore durante il tentativo di avviare il comando di caricamento homebrew. Riavviare l&apos;applicazione e ricollegare il dispositivo dell&apos;operatore. Se il problema persiste, contattare il nostro team di assistenza.</translation>
+        <translation>Si è verificato un errore durante il tentativo di avviare il comando di caricamento homebrew. Riavviare l&apos;applicazione e ricollegare il dispositivo Operator. Se il problema persiste, contattare il nostro team di assistenza.</translation>
     </message>
     <message>
         <location filename="../src/core/DeviceHardwareOperations.cpp" line="207"/>
@@ -553,7 +553,7 @@ Non rimuovere la cartuccia mentre è in corso un&apos;operazione.</translation>
     <message>
         <location filename="../src/core/DeviceHardwareOperations.cpp" line="208"/>
         <source>Playback couldn&apos;t delete the contents of the homebrew cartridge. Please clean the cartridge pins and try again. If the issue persists, contact our Support team.</source>
-        <translation>La riproduzione non è riuscita a cancellare il contenuto della cartuccia homebrew. Pulire i pin della cartuccia e riprovare. Se il problema persiste, contattare il nostro team di assistenza.</translation>
+        <translation>Playback non è riuscita a cancellare il contenuto della cartuccia homebrew. Pulire i pin della cartuccia e riprovare. Se il problema persiste, contattare il nostro team di assistenza.</translation>
     </message>
     <message>
         <location filename="../src/core/DeviceHardwareOperations.cpp" line="227"/>
@@ -563,7 +563,7 @@ Non rimuovere la cartuccia mentre è in corso un&apos;operazione.</translation>
     <message>
         <location filename="../src/core/DeviceHardwareOperations.cpp" line="228"/>
         <source>The cartridge was erased successfully, but the data written does not match the data read back. This issue might occur with some homebrew cartridges. Make sure the game is playable, either by testing on an original console or in the Playback app.</source>
-        <translation>La cartuccia è stata cancellata con successo, ma i dati scritti non corrispondono a quelli letti. Questo problema potrebbe verificarsi con alcune cartucce homebrew. Assicurarsi che il gioco sia giocabile, effettuando un test su una console originale o nell&apos;applicazione Riproduzione.</translation>
+        <translation>La cartuccia è stata cancellata con successo, ma i dati scritti non corrispondono a quelli letti. Questo problema potrebbe verificarsi con alcune cartucce homebrew. Assicurarsi che il gioco sia giocabile, effettuando un test su una console originale o nell&apos;app Playback.</translation>
     </message>
     <message>
         <location filename="../src/core/DeviceHardwareOperations.cpp" line="263"/>
@@ -599,7 +599,7 @@ Non rimuovere la cartuccia mentre è in corso un&apos;operazione.</translation>
         <location filename="../src/core/DeviceHardware.cpp" line="201"/>
         <location filename="../src/core/DeviceHardware.cpp" line="250"/>
         <source>Device disconnected</source>
-        <translation type="unfinished"></translation>
+        <translation>Dispositivo disconnesso</translation>
     </message>
 </context>
 <context>
@@ -621,7 +621,8 @@ Non rimuovere la cartuccia mentre è in corso un&apos;operazione.</translation>
         <location filename="../src/platform/desktop/DeviceSwitcherDropdown.cpp" line="127"/>
         <source>The SN Operator is here!
 Get it on epilogue.co</source>
-        <translation type="unfinished"></translation>
+        <translation>È arrivato SN Operator!
+Lo trovi su epilogue.co</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/DeviceSwitcherDropdown.cpp" line="192"/>
@@ -688,22 +689,22 @@ Assicurati che i tuoi driver grafici siano aggiornati.</translation>
     <message>
         <location filename="../src/platform/common/Emulator.cpp" line="577"/>
         <source>ROM integrity check failed. Do you want to continue loading?</source>
-        <translation type="unfinished"></translation>
+        <translation>Controllo di integrità della ROM non riuscito. Vuoi continuare il caricamento?</translation>
     </message>
     <message>
         <location filename="../src/platform/common/Emulator.cpp" line="589"/>
         <source>Failed to load game! Unable to launch the game, please make sure that the cartridge is clean.</source>
-        <translation type="unfinished"></translation>
+        <translation>Caricamento del gioco non riuscito! Impossibile avviare il gioco; assicurati che la cartuccia sia pulita.</translation>
     </message>
     <message>
         <location filename="../src/platform/common/Emulator.cpp" line="594"/>
         <source>Failed to load save data! The core failed to load the save data.</source>
-        <translation type="unfinished"></translation>
+        <translation>Caricamento dei dati di salvataggio non riuscito! Il core non è riuscito a caricare i dati di salvataggio.</translation>
     </message>
     <message>
         <location filename="../src/platform/common/Emulator.cpp" line="600"/>
         <source>Save size mismatch detected. Do you want to continue loading?</source>
-        <translation type="unfinished"></translation>
+        <translation>Rilevata una differenza nella dimensione del salvataggio. Vuoi continuare il caricamento?</translation>
     </message>
     <message>
         <location filename="../src/platform/common/Emulator.cpp" line="791"/>
@@ -790,17 +791,17 @@ Fornitore: %4</translation>
     <message>
         <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="261"/>
         <source>Rewind Buffer Size (MB)</source>
-        <translation type="unfinished"></translation>
+        <translation>Dimensione buffer riavvolgimento (MB)</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="262"/>
         <source>Rewind Granularity</source>
-        <translation type="unfinished"></translation>
+        <translation>Granularità del riavvolgimento</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="263"/>
         <source>Rewind Speed</source>
-        <translation type="unfinished"></translation>
+        <translation>Velocità di riavvolgimento</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="265"/>
@@ -810,17 +811,17 @@ Fornitore: %4</translation>
     <message>
         <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="278"/>
         <source>The amount of memory (in MB) to reserve for the rewind buffer. A larger buffer allows for a longer rewind history but might also cause system instability.</source>
-        <translation type="unfinished"></translation>
+        <translation>La quantità di memoria (in MB) da riservare per il buffer di riavvolgimento. Un buffer più grande consente una cronologia di riavvolgimento più lunga, ma può anche causare instabilità del sistema.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="281"/>
         <source>Saves a state every N frames. Higher values use less memory but result in a less precise rewind.</source>
-        <translation type="unfinished"></translation>
+        <translation>Salva uno stato ogni N frame. Valori più alti usano meno memoria ma rendono il riavvolgimento meno preciso.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="283"/>
         <source>Controls the playback speed of the rewind animation. Higher values are faster.</source>
-        <translation type="unfinished"></translation>
+        <translation>Controlla la velocità di riproduzione dell&apos;animazione di riavvolgimento. Valori più alti sono più veloci.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="285"/>
@@ -830,17 +831,17 @@ Fornitore: %4</translation>
     <message>
         <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="305"/>
         <source>Every 1 frame (Smoothest)</source>
-        <translation type="unfinished"></translation>
+        <translation>Ogni 1 frame (più fluido)</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="306"/>
         <source>Every 6 frames (Least precise)</source>
-        <translation type="unfinished"></translation>
+        <translation>Ogni 6 frame (meno preciso)</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="307"/>
         <source>Every %1 frames</source>
-        <translation type="unfinished"></translation>
+        <translation>Ogni %1 frame</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="311"/>
@@ -916,12 +917,12 @@ non scollegare il dispositivo.</translation>
     <message>
         <location filename="../src/platform/desktop/InputBindingsScreen.cpp" line="235"/>
         <source>Mouse input uses pre-configured bindings. Move the mouse and use left/right click to test inputs. If inputs don&apos;t respond, make sure the game supports mouse controls.</source>
-        <translation type="unfinished"></translation>
+        <translation>L&apos;input del mouse usa associazioni preconfigurate. Muovi il mouse e usa clic sinistro/destro per testare gli input. Se gli input non rispondono, assicurati che il gioco supporti i controlli del mouse.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/InputBindingsScreen.cpp" line="240"/>
         <source>Lightgun input uses pre-configured mouse bindings. Aim: move mouse. Trigger: left click. Cursor: right click. Pause: middle click. Turbo: left + right click. If inputs don&apos;t respond, make sure the game supports lightgun controls.</source>
-        <translation type="unfinished"></translation>
+        <translation>L&apos;input della lightgun usa associazioni del mouse preconfigurate. Mira: muovi il mouse. Grilletto: clic sinistro. Cursore: clic destro. Pausa: clic centrale. Turbo: clic sinistro + destro. Se gli input non rispondono, assicurati che il gioco supporti i controlli lightgun.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/InputBindingsScreen.cpp" line="255"/>
@@ -936,7 +937,7 @@ non scollegare il dispositivo.</translation>
     <message>
         <location filename="../src/platform/desktop/InputBindingsScreen.cpp" line="262"/>
         <source>Controls</source>
-        <translation type="unfinished"></translation>
+        <translation>Controlli</translation>
     </message>
     <message>
         <source>Controls Settings</source>
@@ -958,7 +959,7 @@ non scollegare il dispositivo.</translation>
     <message>
         <location filename="../src/platform/desktop/IntegrationsAccordionWidget.cpp" line="182"/>
         <source>&lt;a href=&apos;login&apos; style=&apos;color: white;&apos;&gt;Log in&lt;/a&gt; with your %1 account.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;a href=&apos;login&apos; style=&apos;color: white;&apos;&gt;Accedi&lt;/a&gt; con il tuo account %1.</translation>
     </message>
 </context>
 <context>
@@ -966,27 +967,27 @@ non scollegare il dispositivo.</translation>
     <message>
         <location filename="../src/platform/desktop/IntegrationsLoginWindow.cpp" line="92"/>
         <source>Login to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Accedi a %1</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsLoginWindow.cpp" line="93"/>
         <source>Username</source>
-        <translation type="unfinished">Nome utente</translation>
+        <translation>Nome utente</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsLoginWindow.cpp" line="94"/>
         <source>Password</source>
-        <translation type="unfinished">Password</translation>
+        <translation>Password</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsLoginWindow.cpp" line="95"/>
         <source>Login</source>
-        <translation type="unfinished">Accedi</translation>
+        <translation>Accedi</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsLoginWindow.cpp" line="96"/>
         <source>Don&apos;t have a %1 account?&lt;br&gt;&lt;a style=&apos;color: #158EFF&apos; href=&quot;%2&quot;&gt;Sign up&lt;/a&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>Non hai un account %1?&lt;br&gt;&lt;a style=&apos;color: #158EFF&apos; href=&quot;%2&quot;&gt;Registrati&lt;/a&gt;</translation>
     </message>
 </context>
 <context>
@@ -995,107 +996,107 @@ non scollegare il dispositivo.</translation>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="200"/>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="214"/>
         <source>Authentication Failed</source>
-        <translation type="unfinished">Autenticazione fallita</translation>
+        <translation>Autenticazione fallita</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="200"/>
         <source>Invalid username or password. Please check your credentials and try again.</source>
-        <translation type="unfinished">Nome utente o password non validi. Controlla le tue credenziali e riprova.</translation>
+        <translation>Nome utente o password non validi. Controlla le tue credenziali e riprova.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="214"/>
         <source>Failed to authenticate with Discord. Please try again.</source>
-        <translation type="unfinished"></translation>
+        <translation>Autenticazione con Discord non riuscita. Riprova.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="257"/>
         <source>Hardcore Mode (needs emulator restart)</source>
-        <translation type="unfinished">Modalità Hardcore (richiede riavvio emulatore)</translation>
+        <translation>Modalità Hardcore (richiede riavvio emulatore)</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="258"/>
         <source>Encore Mode (needs emulator restart)</source>
-        <translation type="unfinished">Modalità Encore (richiede riavvio emulatore)</translation>
+        <translation>Modalità Encore (richiede riavvio emulatore)</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="259"/>
         <source>Show Leaderboards Notifications</source>
-        <translation type="unfinished">Mostra notifiche classifiche</translation>
+        <translation>Mostra notifiche classifiche</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="260"/>
         <source>Show Leaderboards Tracker</source>
-        <translation type="unfinished">Mostra tracker classifiche</translation>
+        <translation>Mostra tracker classifiche</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="261"/>
         <source>Show Progress Indicator</source>
-        <translation type="unfinished">Mostra indicatore progresso</translation>
+        <translation>Mostra indicatore progresso</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="262"/>
         <source>Show Challenge Indicators</source>
-        <translation type="unfinished">Mostra indicatori sfide</translation>
+        <translation>Mostra indicatori sfide</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="268"/>
         <source>Disables cheats, pausing and slow-motion. Achievements earned in hardcore mode are uniquely marked so that you can show others what you&apos;ve achieved without emulator assistance features.</source>
-        <translation type="unfinished">Disabilita trucchi, pausa e rallentatore. Gli achievement ottenuti in modalità hardcore sono contrassegnati in modo unico così puoi mostrare agli altri cosa hai raggiunto senza funzionalità di assistenza dell&apos;emulatore.</translation>
+        <translation>Disabilita trucchi, pausa e rallentatore. Gli achievement ottenuti in modalità hardcore sono contrassegnati in modo unico così puoi mostrare agli altri cosa hai raggiunto senza funzionalità di assistenza dell&apos;emulatore.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="271"/>
         <source>Re-activate previously earned achievements to experience them again. Note: Points are not re-awarded.</source>
-        <translation type="unfinished">Riattiva gli achievement precedentemente ottenuti per viverli di nuovo. Nota: i punti non vengono riassegnati.</translation>
+        <translation>Riattiva gli achievement precedentemente ottenuti per viverli di nuovo. Nota: i punti non vengono riassegnati.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="273"/>
         <source>Show leaderboards related notifications in the notification area.</source>
-        <translation type="unfinished">Mostra le notifiche relative alle classifiche nell&apos;area di notifica.</translation>
+        <translation>Mostra le notifiche relative alle classifiche nell&apos;area di notifica.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="275"/>
         <source>Show leaderboards tracker in the notification area.</source>
-        <translation type="unfinished">Mostra il tracker delle classifiche nell&apos;area di notifica.</translation>
+        <translation>Mostra il tracker delle classifiche nell&apos;area di notifica.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="277"/>
         <source>Show progress indicator in the notification area when an achievement is being tracked.</source>
-        <translation type="unfinished">Mostra l&apos;indicatore di progresso nell&apos;area di notifica quando un achievement viene tracciato.</translation>
+        <translation>Mostra l&apos;indicatore di progresso nell&apos;area di notifica quando un achievement viene tracciato.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="279"/>
         <source>Show challenge indicators in the notification area when achievements are being attempted.</source>
-        <translation type="unfinished"></translation>
+        <translation>Mostra gli indicatori delle sfide nell&apos;area di notifica quando si tenta di ottenere achievement.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="284"/>
         <source>Enabled</source>
-        <translation type="unfinished">Abilitato</translation>
+        <translation>Abilitato</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="285"/>
         <source>Disabled</source>
-        <translation type="unfinished">Disabilitato</translation>
+        <translation>Disabilitato</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="290"/>
         <source>Integrations</source>
-        <translation type="unfinished"></translation>
+        <translation>Integrazioni</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="292"/>
         <source>Unlock a new dimension to your Playback experience! As time goes on, there is an ever-growing list of integrations which allow you to customise and enhance your gaming sessions. Check out the available options below, and give any (or all) of them a try.</source>
-        <translation type="unfinished"></translation>
+        <translation>Sblocca una nuova dimensione della tua esperienza con Playback! Con il tempo, la lista di integrazioni cresce sempre di più e ti permette di personalizzare e migliorare le tue sessioni di gioco. Dai un&apos;occhiata alle opzioni disponibili qui sotto e provane qualcuna (o tutte).</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="296"/>
         <source>Link Playback to your RA account, and start earning achievements in your favorite classic games.</source>
-        <translation type="unfinished"></translation>
+        <translation>Collega Playback al tuo account RA e inizia a guadagnare achievement nei tuoi classici preferiti.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="298"/>
         <source>Link Playback to your Discord account, and share the exact game you’re playing with your friends!</source>
-        <translation type="unfinished"></translation>
+        <translation>Collega Playback al tuo account Discord e condividi con i tuoi amici esattamente a cosa stai giocando!</translation>
     </message>
 </context>
 <context>
@@ -1142,7 +1143,7 @@ You can try cleaning then re-inserting the cartridge into the device.
     <message>
         <location filename="../src/platform/desktop/UIComponents.cpp" line="166"/>
         <source>to configure your Operator device.</source>
-        <translation>per configurare il dispositivo dell&apos;operatore.</translation>
+        <translation>per configurare il dispositivo Operator.</translation>
     </message>
 </context>
 <context>
@@ -1155,7 +1156,7 @@ You can try cleaning then re-inserting the cartridge into the device.
     <message>
         <location filename="../src/platform/desktop/UIComponents.cpp" line="133"/>
         <source>Your Operator device did not manage to read your cartridge properly. Please make sure that the cartridge is clean and try again.</source>
-        <translation>Il dispositivo operatore non è riuscito a leggere correttamente la cartuccia. Assicurarsi che la cartuccia sia pulita e riprovare.</translation>
+        <translation>Il dispositivo Operator non è riuscito a leggere correttamente la cartuccia. Assicurarsi che la cartuccia sia pulita e riprovare.</translation>
     </message>
 </context>
 <context>
@@ -1382,12 +1383,12 @@ You can try cleaning then re-inserting the cartridge into the device.
     <message>
         <location filename="../src/platform/desktop/PhotosPage.cpp" line="174"/>
         <source>Select Directory to Save Photos</source>
-        <translation type="unfinished"></translation>
+        <translation>Seleziona la cartella in cui salvare le foto</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PhotosPage.cpp" line="177"/>
         <source>Save</source>
-        <translation type="unfinished">Salva</translation>
+        <translation>Salva</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PhotosPage.cpp" line="199"/>
@@ -1418,12 +1419,12 @@ You can try cleaning then re-inserting the cartridge into the device.
     <message>
         <location filename="../src/platform/desktop/PhotosPage.cpp" line="357"/>
         <source>SAVE</source>
-        <translation type="unfinished"></translation>
+        <translation>SALVA</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PhotosPage.cpp" line="358"/>
         <source>DELETE</source>
-        <translation type="unfinished"></translation>
+        <translation>ELIMINA</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PhotosPage.cpp" line="359"/>
@@ -1453,7 +1454,7 @@ Se si desidera rimuovere facilmente tutte le immagini dalla fotocamera, senza do
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="120"/>
         <source>Allows you to change the language in which the Playback software is presented. It requires an application restart in order to update the language accross the entire application.</source>
-        <translation>Permette di cambiare la lingua in cui viene presentato il software di riproduzione. Richiede il riavvio dell&apos;applicazione per aggiornare la lingua in tutta l&apos;applicazione.</translation>
+        <translation>Permette di cambiare la lingua in cui viene presentato il software Playback. Richiede il riavvio dell&apos;applicazione per aggiornare la lingua in tutta l&apos;applicazione.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="124"/>
@@ -1488,27 +1489,27 @@ Se si desidera rimuovere facilmente tutte le immagini dalla fotocamera, senza do
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="109"/>
         <source>Enable Rewind</source>
-        <translation type="unfinished"></translation>
+        <translation>Abilita riavvolgimento</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="110"/>
         <source>Enable Fast Forward</source>
-        <translation type="unfinished"></translation>
+        <translation>Abilita avanzamento rapido</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="111"/>
         <source>Enable Soft Reset</source>
-        <translation type="unfinished"></translation>
+        <translation>Abilita soft reset</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="112"/>
         <source>Enable Picture-in-Picture</source>
-        <translation type="unfinished"></translation>
+        <translation>Abilita Picture-in-Picture</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="113"/>
         <source>Photo Scaling</source>
-        <translation type="unfinished"></translation>
+        <translation>Ridimensionamento foto</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="130"/>
@@ -1518,32 +1519,32 @@ Se si desidera rimuovere facilmente tutte le immagini dalla fotocamera, senza do
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="135"/>
         <source>When enabled and supported by the game, Playback adds real-time clock (RTC) data to the save file. This ensures accurate preservation of time-based events. Note that this will increase the file size and might make it incompatible with other software.</source>
-        <translation>Se abilitata e supportata dal gioco, la riproduzione aggiunge i dati dell&apos;orologio in tempo reale (RTC) al file di salvataggio. Ciò garantisce una conservazione accurata degli eventi basati sul tempo. Si noti che questo aumenta le dimensioni del file e potrebbe renderlo incompatibile con altri software.</translation>
+        <translation>Se abilitata e supportata dal gioco, Playback aggiunge i dati dell&apos;orologio in tempo reale (RTC) al file di salvataggio. Ciò garantisce una conservazione accurata degli eventi basati sul tempo. Si noti che questo aumenta le dimensioni del file e potrebbe renderlo incompatibile con altri software.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="151"/>
         <source>Enables the rewind feature, allowing you to go back in time during gameplay. This is useful for correcting mistakes or exploring different game paths without starting over.</source>
-        <translation type="unfinished"></translation>
+        <translation>Abilita il riavvolgimento, permettendoti di tornare indietro nel tempo durante il gameplay. Utile per correggere errori o provare strade diverse senza ricominciare.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="154"/>
         <source>When enabled, this feature allows you to speed up the game playback, making it easier to skip through slower sections or quickly navigate through menus.</source>
-        <translation type="unfinished"></translation>
+        <translation>Quando abilitata, questa funzione ti consente di velocizzare il gioco, rendendo più facile saltare le sezioni lente o navigare rapidamente nei menu.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="157"/>
         <source>Enables the soft reset feature, allowing you to quickly reset the game without turning off the emulation. This is useful for quickly restarting a game or returning to the main menu.</source>
-        <translation type="unfinished"></translation>
+        <translation>Abilita il soft reset, permettendoti di resettare rapidamente il gioco senza spegnere l&apos;emulazione. Utile per riavviare al volo o tornare al menu principale.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="161"/>
         <source>Enables the Picture-in-Picture (PiP) mode, allowing you to view the game in a small window. This is useful for multitasking.</source>
-        <translation type="unfinished"></translation>
+        <translation>Abilita la modalità Picture-in-Picture (PiP), così puoi vedere il gioco in una piccola finestra. Utile per fare multitasking.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="164"/>
         <source>Scales GB Camera saved photos to the specified size.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ridimensiona le foto salvate da GB Camera alla dimensione specificata.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="103"/>
@@ -1568,7 +1569,7 @@ Se si desidera rimuovere facilmente tutte le immagini dalla fotocamera, senza do
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="142"/>
         <source>When this setting is enabled, Playback reads the save file from the cartridge multiple times and reviews any discrepancies to prevent data corruption.</source>
-        <translation>Quando questa impostazione è attivata, la riproduzione legge il file di salvataggio dalla cartuccia più volte ed esamina eventuali discrepanze per evitare la corruzione dei dati.</translation>
+        <translation>Quando questa impostazione è attivata, Playback legge il file di salvataggio dalla cartuccia più volte ed esamina eventuali discrepanze per evitare la corruzione dei dati.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="106"/>
@@ -1588,7 +1589,7 @@ Se si desidera rimuovere facilmente tutte le immagini dalla fotocamera, senza do
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="148"/>
         <source>When enabled, the Playback software will output more detailed logs to help diagnose issues. This setting is useful for troubleshooting and should be disabled when not needed.</source>
-        <translation>Quando è abilitato, il software di riproduzione emette registri più dettagliati per aiutare a diagnosticare i problemi. Questa impostazione è utile per la risoluzione dei problemi e deve essere disattivata quando non è necessaria.</translation>
+        <translation>Quando è abilitato, il software Playback emette registri più dettagliati per aiutare a diagnosticare i problemi. Questa impostazione è utile per la risoluzione dei problemi e deve essere disattivata quando non è necessaria.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="84"/>
@@ -1608,7 +1609,7 @@ Se si desidera rimuovere facilmente tutte le immagini dalla fotocamera, senza do
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="92"/>
         <source>Configure how transfers are handled in the Data section of Playback.</source>
-        <translation>Configurare la gestione dei trasferimenti nella sezione Dati di Riproduzione.</translation>
+        <translation>Configurare la gestione dei trasferimenti nella sezione Dati di Playback.</translation>
     </message>
 </context>
 <context>
@@ -1773,7 +1774,8 @@ La modalità hardcore è attiva - trucchi e rallentatore sono disabilitati.</tra
         <location filename="../src/core/RAController.cpp" line="349"/>
         <source>
 Hardcore mode is active - cheats, rewind and slow motion are disabled.</source>
-        <translation type="unfinished"></translation>
+        <translation>
+La modalità hardcore è attiva - trucchi, riavvolgimento e rallentatore sono disabilitati.</translation>
     </message>
     <message>
         <location filename="../src/core/RAController.cpp" line="387"/>
@@ -1935,7 +1937,12 @@ Backups of the original save on the cartridge is made to the vault, however proc
 
 Would you like to proceed?
 </source>
-        <translation type="unfinished"></translation>
+        <translation>Il core dell&apos;emulatore riporta attualmente una dimensione di salvataggio diversa da quella rilevata sulla cartuccia.
+
+I backup del salvataggio originale sulla cartuccia vengono salvati nel Vault, ma procedere potrebbe creare salvataggi inutilizzabili.
+
+Vuoi procedere?
+</translation>
     </message>
     <message>
         <source>The emulator core is currently reporting a save size which is different than what we detected on the cartridge.
@@ -1957,37 +1964,37 @@ Volete procedere?
     <message>
         <location filename="../src/platform/desktop/CartDetailsWidget.cpp" line="653"/>
         <source>Perfect, highly recommended!</source>
-        <translation type="unfinished"></translation>
+        <translation>Perfetto, consigliatissimo!</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/CartDetailsWidget.cpp" line="655"/>
         <source>Awesome, definitely a must-play!</source>
-        <translation type="unfinished"></translation>
+        <translation>Fantastico, assolutamente da giocare!</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/CartDetailsWidget.cpp" line="657"/>
         <source>Great, would replay more than once.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ottimo, lo rigiocarei più di una volta.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/CartDetailsWidget.cpp" line="659"/>
         <source>Best enjoyed in a full playthrough.</source>
-        <translation type="unfinished"></translation>
+        <translation>Da gustare al meglio in una run completa.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/CartDetailsWidget.cpp" line="661"/>
         <source>Good, worth giving it a try.</source>
-        <translation type="unfinished"></translation>
+        <translation>Buono, vale la pena provarlo.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/CartDetailsWidget.cpp" line="663"/>
         <source>Fun, but could be better.</source>
-        <translation type="unfinished"></translation>
+        <translation>Divertente, ma si può fare di meglio.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/CartDetailsWidget.cpp" line="665"/>
         <source>Not our no. 1 favorite.</source>
-        <translation type="unfinished"></translation>
+        <translation>Non è il nostro numero 1.</translation>
     </message>
 </context>
 <context>
@@ -2001,7 +2008,7 @@ Volete procedere?
         <location filename="../src/platform/desktop/SearchWindow.cpp" line="71"/>
         <source>Looking for your Operator device.
 Please make sure it&apos;s connected.</source>
-        <translation>Sta cercando il dispositivo dell&apos;operatore.
+        <translation>Sta cercando il dispositivo Operator.
 Assicurarsi che sia collegato.</translation>
     </message>
     <message>
@@ -2016,13 +2023,13 @@ Assicurarsi che sia collegato.</translation>
         <location filename="../src/platform/desktop/SettingsWindow.cpp" line="86"/>
         <location filename="../src/platform/desktop/SettingsWindow.cpp" line="435"/>
         <source>General</source>
-        <translation type="unfinished">Generale</translation>
+        <translation>Generale</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/SettingsWindow.cpp" line="89"/>
         <location filename="../src/platform/desktop/SettingsWindow.cpp" line="436"/>
         <source>Game</source>
-        <translation type="unfinished"></translation>
+        <translation>Gioco</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/SettingsWindow.cpp" line="394"/>
@@ -2042,7 +2049,7 @@ Assicurarsi che sia collegato.</translation>
     <message>
         <location filename="../src/platform/desktop/SettingsWindow.cpp" line="428"/>
         <source>Playback</source>
-        <translation type="unfinished">Playback</translation>
+        <translation>Playback</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/SettingsWindow.cpp" line="429"/>
@@ -2052,22 +2059,22 @@ Assicurarsi che sia collegato.</translation>
     <message>
         <location filename="../src/platform/desktop/SettingsWindow.cpp" line="430"/>
         <source>Emulator</source>
-        <translation type="unfinished"></translation>
+        <translation>Emulatore</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/SettingsWindow.cpp" line="431"/>
         <source>Device</source>
-        <translation type="unfinished"></translation>
+        <translation>Dispositivo</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/SettingsWindow.cpp" line="432"/>
         <source>Controls</source>
-        <translation type="unfinished"></translation>
+        <translation>Controlli</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/SettingsWindow.cpp" line="433"/>
         <source>Integrations</source>
-        <translation type="unfinished"></translation>
+        <translation>Integrazioni</translation>
     </message>
     <message>
         <source>Emulator Settings</source>
@@ -2092,7 +2099,7 @@ Assicurarsi che sia collegato.</translation>
     </message>
     <message>
         <source>Playback Settings</source>
-        <translation type="vanished">Impostazioni di riproduzione</translation>
+        <translation type="vanished">Impostazioni di Playback</translation>
     </message>
 </context>
 <context>
@@ -2100,17 +2107,17 @@ Assicurarsi che sia collegato.</translation>
     <message>
         <location filename="../src/platform/desktop/SettingsWindowUIComponents.cpp" line="135"/>
         <source>Save</source>
-        <translation type="unfinished">Salva</translation>
+        <translation>Salva</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/SettingsWindowUIComponents.cpp" line="136"/>
         <source>Restore defaults</source>
-        <translation type="unfinished">Ripristino delle impostazioni predefinite</translation>
+        <translation>Ripristina predefiniti</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/SettingsWindowUIComponents.cpp" line="137"/>
         <source>Rebind keys</source>
-        <translation type="unfinished">Riassegna tasti</translation>
+        <translation>Riassegna tasti</translation>
     </message>
 </context>
 <context>
@@ -2158,22 +2165,22 @@ Assicurarsi che sia collegato.</translation>
     <message>
         <location filename="../src/platform/desktop/TermsOfServiceWindow.cpp" line="78"/>
         <source>Error: Could not load Terms of Service.</source>
-        <translation type="unfinished"></translation>
+        <translation>Errore: impossibile caricare i Termini di servizio.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/TermsOfServiceWindow.cpp" line="206"/>
         <source>Terms of Service</source>
-        <translation type="unfinished"></translation>
+        <translation>Termini di servizio</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/TermsOfServiceWindow.cpp" line="232"/>
         <source>Decline</source>
-        <translation type="unfinished"></translation>
+        <translation>Rifiuta</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/TermsOfServiceWindow.cpp" line="236"/>
         <source>I Agree</source>
-        <translation type="unfinished"></translation>
+        <translation>Accetto</translation>
     </message>
 </context>
 <context>
@@ -2255,7 +2262,7 @@ Suggerimento: utilizzate programmi esterni per attivare eventi di gioco o person
     <message>
         <location filename="../src/platform/desktop/Window.cpp" line="73"/>
         <source>Graphics Hardware Not Supported</source>
-        <translation type="unfinished">Hardware grafico non supportato</translation>
+        <translation>Hardware grafico non supportato</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/Window.cpp" line="74"/>
@@ -2263,7 +2270,10 @@ Suggerimento: utilizzate programmi esterni per attivare eventi di gioco o person
 
 This application requires OpenGL 3.2 or higher (or OpenGL ES 2.0+).
 Please ensure your graphics drivers are up to date.</source>
-        <translation type="unfinished"></translation>
+        <translation>Il tuo hardware grafico non soddisfa i requisiti minimi.
+
+Questa applicazione richiede OpenGL 3.2 o superiore (o OpenGL ES 2.0+).
+Assicurati che i driver grafici siano aggiornati.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/Window.cpp" line="215"/>
@@ -2322,7 +2332,7 @@ Please ensure your graphics drivers are up to date.</source>
     <message>
         <location filename="../src/platform/desktop/Window.cpp" line="515"/>
         <source>Playback Settings</source>
-        <translation>Impostazioni di riproduzione</translation>
+        <translation>Impostazioni di Playback</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/Window.cpp" line="516"/>
