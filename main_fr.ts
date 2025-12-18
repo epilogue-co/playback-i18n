@@ -189,7 +189,7 @@ Ne retirez pas la cartouche pendant qu&apos;une opération est en cours.</transl
     <message>
         <location filename="../src/platform/desktop/ControlsWidget.cpp" line="87"/>
         <source>Player</source>
-        <translation type="unfinished"></translation>
+        <translation>Joueur</translation>
     </message>
 </context>
 <context>
@@ -222,7 +222,7 @@ Ne retirez pas la cartouche pendant qu&apos;une opération est en cours.</transl
     <message>
         <location filename="../src/platform/desktop/CoreCardWidget.cpp" line="305"/>
         <source>Remove</source>
-        <translation type="unfinished"></translation>
+        <translation>Retirer</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/CoreCardWidget.cpp" line="306"/>
@@ -374,7 +374,7 @@ Ne retirez pas la cartouche pendant qu&apos;une opération est en cours.</transl
     <message>
         <location filename="../src/platform/desktop/CustomCheatCodesWidget.cpp" line="178"/>
         <source>Add your own custom cheats...</source>
-        <translation type="unfinished"></translation>
+        <translation>Ajouter vos propres codes...</translation>
     </message>
     <message>
         <source>Description</source>
@@ -394,12 +394,12 @@ Ne retirez pas la cartouche pendant qu&apos;une opération est en cours.</transl
     <message>
         <location filename="../src/platform/desktop/CustomCheatCodesWidget.cpp" line="277"/>
         <source>Description...</source>
-        <translation type="unfinished"></translation>
+        <translation>Description...</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/CustomCheatCodesWidget.cpp" line="278"/>
         <source>Code...</source>
-        <translation type="unfinished"></translation>
+        <translation>Code...</translation>
     </message>
 </context>
 <context>
@@ -423,12 +423,12 @@ Ne retirez pas la cartouche pendant qu&apos;une opération est en cours.</transl
     <message>
         <location filename="../src/platform/desktop/DatabaseCheatCodesWidget.cpp" line="112"/>
         <source> Default</source>
-        <translation type="unfinished"></translation>
+        <translation>Défaut</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/DatabaseCheatCodesWidget.cpp" line="113"/>
         <source>Search...</source>
-        <translation type="unfinished"></translation>
+        <translation>Chercher...</translation>
     </message>
 </context>
 <context>
@@ -436,27 +436,27 @@ Ne retirez pas la cartouche pendant qu&apos;une opération est en cours.</transl
     <message>
         <location filename="../src/platform/desktop/DeadzoneWidget.cpp" line="26"/>
         <source>Joystick Deadzone</source>
-        <translation type="unfinished"></translation>
+        <translation>Zone morte du stick</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/DeadzoneWidget.cpp" line="65"/>
         <source>Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Mode</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/DeadzoneWidget.cpp" line="75"/>
         <source>Linear</source>
-        <translation type="unfinished"></translation>
+        <translation>Linéaire</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/DeadzoneWidget.cpp" line="76"/>
         <source>Radial</source>
-        <translation type="unfinished"></translation>
+        <translation>Radial</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/DeadzoneWidget.cpp" line="77"/>
         <source>Scaled</source>
-        <translation type="unfinished"></translation>
+        <translation>Par échelle</translation>
     </message>
 </context>
 <context>
@@ -464,7 +464,7 @@ Ne retirez pas la cartouche pendant qu&apos;une opération est en cours.</transl
     <message>
         <location filename="../src/platform/desktop/DesktopEmulatorDialogs.cpp" line="111"/>
         <source>Load Failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Le chargement a échoué</translation>
     </message>
 </context>
 <context>
@@ -599,7 +599,7 @@ Ne retirez pas la cartouche pendant qu&apos;une opération est en cours.</transl
         <location filename="../src/core/DeviceHardware.cpp" line="201"/>
         <location filename="../src/core/DeviceHardware.cpp" line="250"/>
         <source>Device disconnected</source>
-        <translation type="unfinished"></translation>
+        <translation>L&apos;appareil a été déconnecté</translation>
     </message>
 </context>
 <context>
@@ -621,7 +621,8 @@ Ne retirez pas la cartouche pendant qu&apos;une opération est en cours.</transl
         <location filename="../src/platform/desktop/DeviceSwitcherDropdown.cpp" line="127"/>
         <source>The SN Operator is here!
 Get it on epilogue.co</source>
-        <translation type="unfinished"></translation>
+        <translation>Le SN Operator est là !
+Obtenez-le sur epilogue.co</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/DeviceSwitcherDropdown.cpp" line="192"/>
@@ -688,22 +689,22 @@ Assurez-vous que vos pilotes graphiques sont à jour.</translation>
     <message>
         <location filename="../src/platform/common/Emulator.cpp" line="577"/>
         <source>ROM integrity check failed. Do you want to continue loading?</source>
-        <translation type="unfinished"></translation>
+        <translation>La vérification de l&apos;intégrité de la ROM a échoué. Souhaitez-vous continuer le chargement ?</translation>
     </message>
     <message>
         <location filename="../src/platform/common/Emulator.cpp" line="589"/>
         <source>Failed to load game! Unable to launch the game, please make sure that the cartridge is clean.</source>
-        <translation type="unfinished"></translation>
+        <translation>Échec du chargement du jeu ! Le jeu n&apos;a pas pu être lancé ; assurez-vous que la cartouche soit propre.</translation>
     </message>
     <message>
         <location filename="../src/platform/common/Emulator.cpp" line="594"/>
         <source>Failed to load save data! The core failed to load the save data.</source>
-        <translation type="unfinished"></translation>
+        <translation>Échec du chargement des données de sauvegarde ! Le cœur n&apos;a pas pu charger les données de sauvegarde.</translation>
     </message>
     <message>
         <location filename="../src/platform/common/Emulator.cpp" line="600"/>
         <source>Save size mismatch detected. Do you want to continue loading?</source>
-        <translation type="unfinished"></translation>
+        <translation>Une erreur sur la taille de la sauvegarde a été détectée.  Souhaitez-vous continuer le chargement ?</translation>
     </message>
     <message>
         <location filename="../src/platform/common/Emulator.cpp" line="791"/>
@@ -790,17 +791,17 @@ Vendeur : %4</translation>
     <message>
         <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="261"/>
         <source>Rewind Buffer Size (MB)</source>
-        <translation type="unfinished"></translation>
+        <translation>Taille du tampon pour le rembobinage (MB)</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="262"/>
         <source>Rewind Granularity</source>
-        <translation type="unfinished"></translation>
+        <translation>Granularité du rembobinage</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="263"/>
         <source>Rewind Speed</source>
-        <translation type="unfinished"></translation>
+        <translation>Vitesse du rembobinage</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="265"/>
@@ -810,17 +811,17 @@ Vendeur : %4</translation>
     <message>
         <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="278"/>
         <source>The amount of memory (in MB) to reserve for the rewind buffer. A larger buffer allows for a longer rewind history but might also cause system instability.</source>
-        <translation type="unfinished"></translation>
+        <translation>La quantité de mémoire (en MB) à assigner au tampon de rembobinage. Un tampon plus large permet de stocker un historique de rembobinage plus long, mais cela peut créer des instabilités.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="281"/>
         <source>Saves a state every N frames. Higher values use less memory but result in a less precise rewind.</source>
-        <translation type="unfinished"></translation>
+        <translation>Réalise une sauvegarde d&apos;état toutes les N frames. Les valeurs plus hautes sont moins gourmandes en mémoire, mais amènent à un rembobinage moins précis.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="283"/>
         <source>Controls the playback speed of the rewind animation. Higher values are faster.</source>
-        <translation type="unfinished"></translation>
+        <translation>Contrôle la vitesse de l&apos;animation de rembobinage. Les valeurs plus élevées sont plus rapides.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="285"/>
@@ -835,17 +836,17 @@ Vendeur : %4</translation>
     <message>
         <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="305"/>
         <source>Every 1 frame (Smoothest)</source>
-        <translation type="unfinished"></translation>
+        <translation>Toutes les 1 frames (plus fluide)</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="306"/>
         <source>Every 6 frames (Least precise)</source>
-        <translation type="unfinished"></translation>
+        <translation>Toutes les 6 frames (moins précis)</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="307"/>
         <source>Every %1 frames</source>
-        <translation type="unfinished"></translation>
+        <translation>Toutes les %1 frames</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="311"/>
@@ -916,12 +917,12 @@ veuillez ne pas déconnectez l&apos;appareil.</translation>
     <message>
         <location filename="../src/platform/desktop/InputBindingsScreen.cpp" line="235"/>
         <source>Mouse input uses pre-configured bindings. Move the mouse and use left/right click to test inputs. If inputs don&apos;t respond, make sure the game supports mouse controls.</source>
-        <translation type="unfinished"></translation>
+        <translation>Les commandes pour la souris utilisent des assignations prédéfinies. Déplacez la souris et faites un clic gauche ou droit pour tester les touches. Si les touches ne répondent pas, assurez-vous que le jeu supporte le contrôle par souris.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/InputBindingsScreen.cpp" line="240"/>
         <source>Lightgun input uses pre-configured mouse bindings. Aim: move mouse. Trigger: left click. Cursor: right click. Pause: middle click. Turbo: left + right click. If inputs don&apos;t respond, make sure the game supports lightgun controls.</source>
-        <translation type="unfinished"></translation>
+        <translation>Les commandes pour le pointeur optique utilisent des assignations prédéfinies. Viser : déplacer souris. Gâchette : clic gauche. Curseur : clic droit. Pause : clic central. Turbo : clic gauche et clic droit en même temps. Si les touches ne répondent pas, assurez-vous que le jeu supporte le contrôle par pointeur optique.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/InputBindingsScreen.cpp" line="255"/>
@@ -936,7 +937,7 @@ veuillez ne pas déconnectez l&apos;appareil.</translation>
     <message>
         <location filename="../src/platform/desktop/InputBindingsScreen.cpp" line="262"/>
         <source>Controls</source>
-        <translation type="unfinished"></translation>
+        <translation>Commandes</translation>
     </message>
     <message>
         <source>Controls Settings</source>
@@ -958,7 +959,7 @@ veuillez ne pas déconnectez l&apos;appareil.</translation>
     <message>
         <location filename="../src/platform/desktop/IntegrationsAccordionWidget.cpp" line="182"/>
         <source>&lt;a href=&apos;login&apos; style=&apos;color: white;&apos;&gt;Log in&lt;/a&gt; with your %1 account.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;a href=&apos;login&apos; style=&apos;color: white;&apos;&gt;Se connecter&lt;/a&gt; avec votre compte %1.</translation>
     </message>
 </context>
 <context>
@@ -966,27 +967,27 @@ veuillez ne pas déconnectez l&apos;appareil.</translation>
     <message>
         <location filename="../src/platform/desktop/IntegrationsLoginWindow.cpp" line="92"/>
         <source>Login to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Se connecter à %1</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsLoginWindow.cpp" line="93"/>
         <source>Username</source>
-        <translation type="unfinished">Nom d&apos;utilisateur</translation>
+        <translation>Nom d&apos;utilisateur</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsLoginWindow.cpp" line="94"/>
         <source>Password</source>
-        <translation type="unfinished">Mot de passe</translation>
+        <translation>Mot de passe</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsLoginWindow.cpp" line="95"/>
         <source>Login</source>
-        <translation type="unfinished">Connexion</translation>
+        <translation>Connexion</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsLoginWindow.cpp" line="96"/>
         <source>Don&apos;t have a %1 account?&lt;br&gt;&lt;a style=&apos;color: #158EFF&apos; href=&quot;%2&quot;&gt;Sign up&lt;/a&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>Vous n&apos;avez pas de compte %1 ?&lt;br&gt;&lt;a style=&apos;color: #158EFF&apos; href=&quot;%2&quot;&gt;S&apos;inscrire&lt;/a&gt;</translation>
     </message>
 </context>
 <context>
@@ -995,107 +996,107 @@ veuillez ne pas déconnectez l&apos;appareil.</translation>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="200"/>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="214"/>
         <source>Authentication Failed</source>
-        <translation type="unfinished">Authentification échouée</translation>
+        <translation>L&apos;authentification a échoué</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="200"/>
         <source>Invalid username or password. Please check your credentials and try again.</source>
-        <translation type="unfinished">Nom d&apos;utilisateur ou mot de passe incorrect. Veuillez vérifier vos identifiants et réessayer.</translation>
+        <translation>Nom d&apos;utilisateur ou mot de passe incorrect. Veuillez vérifier vos identifiants et réessayer.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="214"/>
         <source>Failed to authenticate with Discord. Please try again.</source>
-        <translation type="unfinished"></translation>
+        <translation>L&apos;authentification à Discord a échoué. Veuillez réessayer.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="257"/>
         <source>Hardcore Mode (needs emulator restart)</source>
-        <translation type="unfinished">Mode Hardcore (nécessite un redémarrage de l&apos;émulateur)</translation>
+        <translation>Mode Hardcore (nécessite un redémarrage de l&apos;émulateur)</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="258"/>
         <source>Encore Mode (needs emulator restart)</source>
-        <translation type="unfinished">Mode Encore (nécessite un redémarrage de l&apos;émulateur)</translation>
+        <translation>Mode Encore (nécessite un redémarrage de l&apos;émulateur)</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="259"/>
         <source>Show Leaderboards Notifications</source>
-        <translation type="unfinished">Afficher les notifications de classements</translation>
+        <translation>Afficher les notifications de classements</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="260"/>
         <source>Show Leaderboards Tracker</source>
-        <translation type="unfinished">Afficher le suivi des classements</translation>
+        <translation>Afficher le suivi des classements</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="261"/>
         <source>Show Progress Indicator</source>
-        <translation type="unfinished">Afficher l&apos;indicateur de progression</translation>
+        <translation>Afficher l&apos;indicateur de progression</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="262"/>
         <source>Show Challenge Indicators</source>
-        <translation type="unfinished">Afficher les indicateurs de défis</translation>
+        <translation>Afficher les indicateurs de défis</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="268"/>
         <source>Disables cheats, pausing and slow-motion. Achievements earned in hardcore mode are uniquely marked so that you can show others what you&apos;ve achieved without emulator assistance features.</source>
-        <translation type="unfinished">Désactive les codes de triche, la pause et le mode lent. Les succès obtenus en mode hardcore sont marqués de manière unique afin que vous puissiez montrer aux autres ce que vous avez accompli sans les fonctions d&apos;assistance de l&apos;émulateur.</translation>
+        <translation>Désactive les codes de triche, le rembobinage, la pause et le mode lent. Les succès obtenus en mode hardcore sont marqués de manière unique afin que vous puissiez montrer aux autres ce que vous avez accompli sans les fonctions d&apos;assistance de l&apos;émulateur.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="271"/>
         <source>Re-activate previously earned achievements to experience them again. Note: Points are not re-awarded.</source>
-        <translation type="unfinished">Réactivez les succès précédemment obtenus pour les vivre à nouveau. Note : Les points ne sont pas redonnés.</translation>
+        <translation>Réactive les succès précédemment obtenus pour pouvoir les refaire. Note : Les points ne sont pas redonnés.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="273"/>
         <source>Show leaderboards related notifications in the notification area.</source>
-        <translation type="unfinished">Afficher les notifications liées aux classements dans la zone de notification.</translation>
+        <translation>Affiche les notifications liées aux classements dans la zone de notification.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="275"/>
         <source>Show leaderboards tracker in the notification area.</source>
-        <translation type="unfinished">Afficher le suivi des classements dans la zone de notification.</translation>
+        <translation>Affiche le suivi des classements dans la zone de notification.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="277"/>
         <source>Show progress indicator in the notification area when an achievement is being tracked.</source>
-        <translation type="unfinished">Afficher l&apos;indicateur de progression dans la zone de notification lorsqu&apos;un succès est suivi.</translation>
+        <translation>Affiche l&apos;indicateur de progression dans la zone de notification lorsqu&apos;un succès est suivi.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="279"/>
         <source>Show challenge indicators in the notification area when achievements are being attempted.</source>
-        <translation type="unfinished"></translation>
+        <translation>Affiche les indicateurs de défis dans la zone de notification lorsque vous essayez d&apos;obtenir des succès.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="284"/>
         <source>Enabled</source>
-        <translation type="unfinished">Activé</translation>
+        <translation>Activé</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="285"/>
         <source>Disabled</source>
-        <translation type="unfinished">Désactivé</translation>
+        <translation>Désactivé</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="290"/>
         <source>Integrations</source>
-        <translation type="unfinished"></translation>
+        <translation>Intégrations</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="292"/>
         <source>Unlock a new dimension to your Playback experience! As time goes on, there is an ever-growing list of integrations which allow you to customise and enhance your gaming sessions. Check out the available options below, and give any (or all) of them a try.</source>
-        <translation type="unfinished"></translation>
+        <translation>Débloquez une toute nouvelle dimension pour votre expérience Playback ! Ces intégrations permettent de personnaliser et d&apos;enrichir vos sessions de jeux, dont certaines seront ajoutées dans le futur. Vous pouvez consulter les différentes options plus bas, et en tester certaines voire toutes si elles vous intéressent.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="296"/>
         <source>Link Playback to your RA account, and start earning achievements in your favorite classic games.</source>
-        <translation type="unfinished"></translation>
+        <translation>Liez votre compte Playback à votre compte RA, et commencez à obtenir des succès dans vos jeux classiques favoris.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="298"/>
         <source>Link Playback to your Discord account, and share the exact game you’re playing with your friends!</source>
-        <translation type="unfinished"></translation>
+        <translation>Liez votre compte Playback à votre compte Discord, et partagez le jeu que vous jouez sur votre statut avec vos amis !</translation>
     </message>
 </context>
 <context>
@@ -1382,12 +1383,12 @@ Vous pouvez essayer de nettoyer puis de réinsérer la cartouche dans l&apos;app
     <message>
         <location filename="../src/platform/desktop/PhotosPage.cpp" line="174"/>
         <source>Select Directory to Save Photos</source>
-        <translation type="unfinished"></translation>
+        <translation>Sélectionnez un répertoire pour sauvegarder les photos</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PhotosPage.cpp" line="177"/>
         <source>Save</source>
-        <translation type="unfinished">Sauvegarder</translation>
+        <translation>Sauvegarder</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PhotosPage.cpp" line="199"/>
@@ -1418,12 +1419,12 @@ Vous pouvez essayer de nettoyer puis de réinsérer la cartouche dans l&apos;app
     <message>
         <location filename="../src/platform/desktop/PhotosPage.cpp" line="357"/>
         <source>SAVE</source>
-        <translation type="unfinished"></translation>
+        <translation>SAUVEGARDER</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PhotosPage.cpp" line="358"/>
         <source>DELETE</source>
-        <translation type="unfinished"></translation>
+        <translation>EFFACER</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PhotosPage.cpp" line="359"/>
@@ -1488,27 +1489,27 @@ Si vous souhaitez supprimer facilement toutes les images de votre caméra sans a
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="109"/>
         <source>Enable Rewind</source>
-        <translation type="unfinished"></translation>
+        <translation>Activer le rembobinage</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="110"/>
         <source>Enable Fast Forward</source>
-        <translation type="unfinished"></translation>
+        <translation>Activer l&apos;avance rapide</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="111"/>
         <source>Enable Soft Reset</source>
-        <translation type="unfinished"></translation>
+        <translation>Activer le soft reset</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="112"/>
         <source>Enable Picture-in-Picture</source>
-        <translation type="unfinished"></translation>
+        <translation>Activer le picture-in-picture</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="113"/>
         <source>Photo Scaling</source>
-        <translation type="unfinished"></translation>
+        <translation>Taille des photos</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="130"/>
@@ -1523,27 +1524,27 @@ Si vous souhaitez supprimer facilement toutes les images de votre caméra sans a
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="151"/>
         <source>Enables the rewind feature, allowing you to go back in time during gameplay. This is useful for correcting mistakes or exploring different game paths without starting over.</source>
-        <translation type="unfinished"></translation>
+        <translation>Active la fonction de rembobinage, permettant de revenir en arrière pendant une partie. Utile pour corriger des erreurs ou explorer différents embranchements d&apos;un jeu sans avoir à tout recommencer.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="154"/>
         <source>When enabled, this feature allows you to speed up the game playback, making it easier to skip through slower sections or quickly navigate through menus.</source>
-        <translation type="unfinished"></translation>
+        <translation>Lorsqu&apos;activé, cette fonctionnalité vous permettra d&apos;augmenter la vitesse du jeu, permettant de passer plus facilement des sections plus lentes ou de naviguer plus rapidement dans les menus.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="157"/>
         <source>Enables the soft reset feature, allowing you to quickly reset the game without turning off the emulation. This is useful for quickly restarting a game or returning to the main menu.</source>
-        <translation type="unfinished"></translation>
+        <translation>Active la fonction de soft reset, permettant de redémarrer rapidement un jeu sans interrompre l&apos;émulation. Utile pour redémarrer rapidement un jeu ou retourner au menu principal.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="161"/>
         <source>Enables the Picture-in-Picture (PiP) mode, allowing you to view the game in a small window. This is useful for multitasking.</source>
-        <translation type="unfinished"></translation>
+        <translation>Activer le mode picture-in-picture (PiP), permettant de jouer au jeu dans une petite fenêtre. Utile pour faire du multitâche.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="164"/>
         <source>Scales GB Camera saved photos to the specified size.</source>
-        <translation type="unfinished"></translation>
+        <translation>Agrandit les photos enregistrées par la Game Boy Camera à la taille demandée.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="103"/>
@@ -1773,7 +1774,8 @@ Le mode hardcore est actif - les codes de triche et le mode lent sont désactiv�
         <location filename="../src/core/RAController.cpp" line="349"/>
         <source>
 Hardcore mode is active - cheats, rewind and slow motion are disabled.</source>
-        <translation type="unfinished"></translation>
+        <translation>
+Le mode hardcore est actif - les codes de triche, le rembobinage et le mode lent sont désactivés.</translation>
     </message>
     <message>
         <location filename="../src/core/RAController.cpp" line="387"/>
@@ -1935,7 +1937,12 @@ Backups of the original save on the cartridge is made to the vault, however proc
 
 Would you like to proceed?
 </source>
-        <translation type="unfinished"></translation>
+        <translation>Le cœur de l&apos;émulateur signale actuellement une taille de sauvegarde différente de celle que nous avons détectée sur la cartouche.
+
+Des copies de la sauvegarde originale de la cartouche sont faites dans le coffre-fort, cependant, continuer pourrait créer des sauvegardes inutilisables.
+
+Souhaitez-vous tout de même continuer ?
+</translation>
     </message>
     <message>
         <source>The emulator core is currently reporting a save size which is different than what we detected on the cartridge.
@@ -1957,37 +1964,37 @@ Souhaitez-vous tout de même continuer ?
     <message>
         <location filename="../src/platform/desktop/CartDetailsWidget.cpp" line="653"/>
         <source>Perfect, highly recommended!</source>
-        <translation type="unfinished"></translation>
+        <translation>Parfait, hautement recommandé !</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/CartDetailsWidget.cpp" line="655"/>
         <source>Awesome, definitely a must-play!</source>
-        <translation type="unfinished"></translation>
+        <translation>Génial, titre à ne pas manquer !</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/CartDetailsWidget.cpp" line="657"/>
         <source>Great, would replay more than once.</source>
-        <translation type="unfinished"></translation>
+        <translation>Très bon, pourquoi pas y rejouer à un moment.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/CartDetailsWidget.cpp" line="659"/>
         <source>Best enjoyed in a full playthrough.</source>
-        <translation type="unfinished"></translation>
+        <translation>À faire de préférence d&apos;une traite.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/CartDetailsWidget.cpp" line="661"/>
         <source>Good, worth giving it a try.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bon, ça vaut le coût de l&apos;essayer.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/CartDetailsWidget.cpp" line="663"/>
         <source>Fun, but could be better.</source>
-        <translation type="unfinished"></translation>
+        <translation>C&apos;est amusant, mais on peut trouver mieux.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/CartDetailsWidget.cpp" line="665"/>
         <source>Not our no. 1 favorite.</source>
-        <translation type="unfinished"></translation>
+        <translation>C&apos;est pas notre n°1.</translation>
     </message>
 </context>
 <context>
@@ -2016,13 +2023,13 @@ Assurez-vous qu&apos;il est connecté.</translation>
         <location filename="../src/platform/desktop/SettingsWindow.cpp" line="86"/>
         <location filename="../src/platform/desktop/SettingsWindow.cpp" line="435"/>
         <source>General</source>
-        <translation type="unfinished">Général</translation>
+        <translation>Général</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/SettingsWindow.cpp" line="89"/>
         <location filename="../src/platform/desktop/SettingsWindow.cpp" line="436"/>
         <source>Game</source>
-        <translation type="unfinished"></translation>
+        <translation>Jeu</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/SettingsWindow.cpp" line="394"/>
@@ -2042,7 +2049,7 @@ Assurez-vous qu&apos;il est connecté.</translation>
     <message>
         <location filename="../src/platform/desktop/SettingsWindow.cpp" line="428"/>
         <source>Playback</source>
-        <translation type="unfinished">Playback</translation>
+        <translation>Playback</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/SettingsWindow.cpp" line="429"/>
@@ -2052,22 +2059,22 @@ Assurez-vous qu&apos;il est connecté.</translation>
     <message>
         <location filename="../src/platform/desktop/SettingsWindow.cpp" line="430"/>
         <source>Emulator</source>
-        <translation type="unfinished"></translation>
+        <translation>Émulateur</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/SettingsWindow.cpp" line="431"/>
         <source>Device</source>
-        <translation type="unfinished"></translation>
+        <translation>Appareil</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/SettingsWindow.cpp" line="432"/>
         <source>Controls</source>
-        <translation type="unfinished"></translation>
+        <translation>Commandes</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/SettingsWindow.cpp" line="433"/>
         <source>Integrations</source>
-        <translation type="unfinished"></translation>
+        <translation>Intégrations</translation>
     </message>
     <message>
         <source>Emulator Settings</source>
@@ -2100,17 +2107,17 @@ Assurez-vous qu&apos;il est connecté.</translation>
     <message>
         <location filename="../src/platform/desktop/SettingsWindowUIComponents.cpp" line="135"/>
         <source>Save</source>
-        <translation type="unfinished">Sauvegarder</translation>
+        <translation>Sauvegarder</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/SettingsWindowUIComponents.cpp" line="136"/>
         <source>Restore defaults</source>
-        <translation type="unfinished">Réinitialiser paramètres</translation>
+        <translation>Réinitialiser paramètres</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/SettingsWindowUIComponents.cpp" line="137"/>
         <source>Rebind keys</source>
-        <translation type="unfinished">Configurer les touches</translation>
+        <translation>Configurer les touches</translation>
     </message>
 </context>
 <context>
@@ -2158,22 +2165,22 @@ Assurez-vous qu&apos;il est connecté.</translation>
     <message>
         <location filename="../src/platform/desktop/TermsOfServiceWindow.cpp" line="78"/>
         <source>Error: Could not load Terms of Service.</source>
-        <translation type="unfinished"></translation>
+        <translation>Erreur : Les Conditions d&apos;Utilisation n&apos;ont pas pu être chargées.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/TermsOfServiceWindow.cpp" line="206"/>
         <source>Terms of Service</source>
-        <translation type="unfinished"></translation>
+        <translation>Conditions d&apos;Utilisation</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/TermsOfServiceWindow.cpp" line="232"/>
         <source>Decline</source>
-        <translation type="unfinished"></translation>
+        <translation>Je refuse</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/TermsOfServiceWindow.cpp" line="236"/>
         <source>I Agree</source>
-        <translation type="unfinished"></translation>
+        <translation>J&apos;accepte</translation>
     </message>
 </context>
 <context>
@@ -2374,7 +2381,7 @@ Astuce : utilisez des programmes externes pour déclencher des événements dans
     <message>
         <location filename="../src/platform/desktop/Window.cpp" line="73"/>
         <source>Graphics Hardware Not Supported</source>
-        <translation type="unfinished">Matériel graphique non supporté</translation>
+        <translation>Matériel graphique non supporté</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/Window.cpp" line="74"/>
@@ -2382,7 +2389,10 @@ Astuce : utilisez des programmes externes pour déclencher des événements dans
 
 This application requires OpenGL 3.2 or higher (or OpenGL ES 2.0+).
 Please ensure your graphics drivers are up to date.</source>
-        <translation type="unfinished"></translation>
+        <translation>Votre matériel graphique ne correspond pas aux critères requis.
+
+Cette application nécessite OpenGL 3.2 ou plus (ou OpenGL ES 2.0+).
+Assurez-vous que vos pilotes graphiques sont à jour.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/Window.cpp" line="557"/>
