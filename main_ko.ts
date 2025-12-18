@@ -36,7 +36,7 @@
     <message>
         <location filename="../src/platform/desktop/AboutWindow.cpp" line="204"/>
         <source>™ and © 2020-2025 Epilogue. &lt;br&gt;All rights reserved. </source>
-        <translation>™ 및 © 2020-2025 에필로그. &lt;br&gt;판권 소유. </translation>
+        <translation>™ 및 © 2020-2025 Epilogue. &lt;br&gt;판권 소유. </translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/AboutWindow.cpp" line="195"/>
@@ -189,7 +189,7 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/platform/desktop/ControlsWidget.cpp" line="87"/>
         <source>Player</source>
-        <translation type="unfinished"></translation>
+        <translation>플레이어</translation>
     </message>
 </context>
 <context>
@@ -222,7 +222,7 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/platform/desktop/CoreCardWidget.cpp" line="305"/>
         <source>Remove</source>
-        <translation type="unfinished"></translation>
+        <translation>제거</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/CoreCardWidget.cpp" line="306"/>
@@ -374,7 +374,7 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/platform/desktop/CustomCheatCodesWidget.cpp" line="178"/>
         <source>Add your own custom cheats...</source>
-        <translation type="unfinished"></translation>
+        <translation>사용자 치트 추가...</translation>
     </message>
     <message>
         <source>Description</source>
@@ -394,12 +394,12 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/platform/desktop/CustomCheatCodesWidget.cpp" line="277"/>
         <source>Description...</source>
-        <translation type="unfinished"></translation>
+        <translation>설명...</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/CustomCheatCodesWidget.cpp" line="278"/>
         <source>Code...</source>
-        <translation type="unfinished"></translation>
+        <translation>코드...</translation>
     </message>
 </context>
 <context>
@@ -423,12 +423,12 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/platform/desktop/DatabaseCheatCodesWidget.cpp" line="112"/>
         <source> Default</source>
-        <translation type="unfinished"></translation>
+        <translation> 기본</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/DatabaseCheatCodesWidget.cpp" line="113"/>
         <source>Search...</source>
-        <translation type="unfinished"></translation>
+        <translation>검색...</translation>
     </message>
 </context>
 <context>
@@ -436,27 +436,27 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/platform/desktop/DeadzoneWidget.cpp" line="26"/>
         <source>Joystick Deadzone</source>
-        <translation type="unfinished"></translation>
+        <translation>조이스틱 데드존</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/DeadzoneWidget.cpp" line="65"/>
         <source>Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>모드</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/DeadzoneWidget.cpp" line="75"/>
         <source>Linear</source>
-        <translation type="unfinished"></translation>
+        <translation>선형</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/DeadzoneWidget.cpp" line="76"/>
         <source>Radial</source>
-        <translation type="unfinished"></translation>
+        <translation>방사형</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/DeadzoneWidget.cpp" line="77"/>
         <source>Scaled</source>
-        <translation type="unfinished"></translation>
+        <translation>스케일</translation>
     </message>
 </context>
 <context>
@@ -464,7 +464,7 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/platform/desktop/DesktopEmulatorDialogs.cpp" line="111"/>
         <source>Load Failed</source>
-        <translation type="unfinished"></translation>
+        <translation>로드 실패</translation>
     </message>
 </context>
 <context>
@@ -599,7 +599,7 @@ Do not remove the cartridge while any operation is running.</source>
         <location filename="../src/core/DeviceHardware.cpp" line="201"/>
         <location filename="../src/core/DeviceHardware.cpp" line="250"/>
         <source>Device disconnected</source>
-        <translation type="unfinished"></translation>
+        <translation>디바이스 연결 해제됨</translation>
     </message>
 </context>
 <context>
@@ -621,7 +621,8 @@ Do not remove the cartridge while any operation is running.</source>
         <location filename="../src/platform/desktop/DeviceSwitcherDropdown.cpp" line="127"/>
         <source>The SN Operator is here!
 Get it on epilogue.co</source>
-        <translation type="unfinished"></translation>
+        <translation>SN Operator 출시!
+epilogue.co에서 확인하세요</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/DeviceSwitcherDropdown.cpp" line="192"/>
@@ -688,22 +689,22 @@ OpenGL 세부 정보:
     <message>
         <location filename="../src/platform/common/Emulator.cpp" line="577"/>
         <source>ROM integrity check failed. Do you want to continue loading?</source>
-        <translation type="unfinished"></translation>
+        <translation>ROM 무결성 검사에 실패했습니다. 계속 로드할까요?</translation>
     </message>
     <message>
         <location filename="../src/platform/common/Emulator.cpp" line="589"/>
         <source>Failed to load game! Unable to launch the game, please make sure that the cartridge is clean.</source>
-        <translation type="unfinished"></translation>
+        <translation>게임을 로드하지 못했습니다! 게임을 실행할 수 없습니다. 카트리지가 깨끗한지 확인하세요.</translation>
     </message>
     <message>
         <location filename="../src/platform/common/Emulator.cpp" line="594"/>
         <source>Failed to load save data! The core failed to load the save data.</source>
-        <translation type="unfinished"></translation>
+        <translation>세이브 데이터를 로드하지 못했습니다! 코어가 세이브 데이터를 로드하지 못했습니다.</translation>
     </message>
     <message>
         <location filename="../src/platform/common/Emulator.cpp" line="600"/>
         <source>Save size mismatch detected. Do you want to continue loading?</source>
-        <translation type="unfinished"></translation>
+        <translation>세이브 크기 불일치가 감지되었습니다. 계속 로드할까요?</translation>
     </message>
     <message>
         <location filename="../src/platform/common/Emulator.cpp" line="791"/>
@@ -790,17 +791,17 @@ OpenGL 세부 정보:
     <message>
         <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="261"/>
         <source>Rewind Buffer Size (MB)</source>
-        <translation type="unfinished"></translation>
+        <translation>되감기 버퍼 크기(MB)</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="262"/>
         <source>Rewind Granularity</source>
-        <translation type="unfinished"></translation>
+        <translation>되감기 간격</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="263"/>
         <source>Rewind Speed</source>
-        <translation type="unfinished"></translation>
+        <translation>되감기 속도</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="265"/>
@@ -810,17 +811,17 @@ OpenGL 세부 정보:
     <message>
         <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="278"/>
         <source>The amount of memory (in MB) to reserve for the rewind buffer. A larger buffer allows for a longer rewind history but might also cause system instability.</source>
-        <translation type="unfinished"></translation>
+        <translation>되감기 버퍼에 예약할 메모리(MB) 양입니다. 버퍼가 클수록 더 오래 되감을 수 있지만 시스템이 불안정해질 수 있습니다.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="281"/>
         <source>Saves a state every N frames. Higher values use less memory but result in a less precise rewind.</source>
-        <translation type="unfinished"></translation>
+        <translation>N프레임마다 상태를 저장합니다. 값이 클수록 메모리 사용량은 줄지만 되감기 정밀도는 떨어집니다.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="283"/>
         <source>Controls the playback speed of the rewind animation. Higher values are faster.</source>
-        <translation type="unfinished"></translation>
+        <translation>되감기 애니메이션 재생 속도를 조절합니다. 값이 클수록 더 빠릅니다.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="285"/>
@@ -830,17 +831,17 @@ OpenGL 세부 정보:
     <message>
         <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="305"/>
         <source>Every 1 frame (Smoothest)</source>
-        <translation type="unfinished"></translation>
+        <translation>1프레임마다(가장 부드러움)</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="306"/>
         <source>Every 6 frames (Least precise)</source>
-        <translation type="unfinished"></translation>
+        <translation>6프레임마다(가장 덜 정밀)</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="307"/>
         <source>Every %1 frames</source>
-        <translation type="unfinished"></translation>
+        <translation>%1프레임마다</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="311"/>
@@ -916,12 +917,12 @@ please do not disconnect the device.</source>
     <message>
         <location filename="../src/platform/desktop/InputBindingsScreen.cpp" line="235"/>
         <source>Mouse input uses pre-configured bindings. Move the mouse and use left/right click to test inputs. If inputs don&apos;t respond, make sure the game supports mouse controls.</source>
-        <translation type="unfinished"></translation>
+        <translation>마우스 입력은 사전 설정된 바인딩을 사용합니다. 마우스를 움직이고 좌/우 클릭으로 입력을 테스트하세요. 입력이 반응하지 않으면 게임이 마우스 조작을 지원하는지 확인하세요.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/InputBindingsScreen.cpp" line="240"/>
         <source>Lightgun input uses pre-configured mouse bindings. Aim: move mouse. Trigger: left click. Cursor: right click. Pause: middle click. Turbo: left + right click. If inputs don&apos;t respond, make sure the game supports lightgun controls.</source>
-        <translation type="unfinished"></translation>
+        <translation>라이트건 입력은 사전 설정된 마우스 바인딩을 사용합니다. 조준: 마우스 이동. 트리거: 좌클릭. 커서: 우클릭. 일시정지: 가운데 클릭. 터보: 좌+우 클릭. 입력이 반응하지 않으면 게임이 라이트건 조작을 지원하는지 확인하세요.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/InputBindingsScreen.cpp" line="255"/>
@@ -936,7 +937,7 @@ please do not disconnect the device.</source>
     <message>
         <location filename="../src/platform/desktop/InputBindingsScreen.cpp" line="262"/>
         <source>Controls</source>
-        <translation type="unfinished"></translation>
+        <translation>컨트롤</translation>
     </message>
     <message>
         <source>Controls Settings</source>
@@ -958,7 +959,7 @@ please do not disconnect the device.</source>
     <message>
         <location filename="../src/platform/desktop/IntegrationsAccordionWidget.cpp" line="182"/>
         <source>&lt;a href=&apos;login&apos; style=&apos;color: white;&apos;&gt;Log in&lt;/a&gt; with your %1 account.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 계정으로 &lt;a href=&apos;login&apos; style=&apos;color: white;&apos;&gt;로그인&lt;/a&gt;.</translation>
     </message>
 </context>
 <context>
@@ -966,27 +967,27 @@ please do not disconnect the device.</source>
     <message>
         <location filename="../src/platform/desktop/IntegrationsLoginWindow.cpp" line="92"/>
         <source>Login to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>%1에 로그인</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsLoginWindow.cpp" line="93"/>
         <source>Username</source>
-        <translation type="unfinished">사용자명</translation>
+        <translation>사용자 이름</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsLoginWindow.cpp" line="94"/>
         <source>Password</source>
-        <translation type="unfinished">비밀번호</translation>
+        <translation>비밀번호</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsLoginWindow.cpp" line="95"/>
         <source>Login</source>
-        <translation type="unfinished">로그인</translation>
+        <translation>로그인</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsLoginWindow.cpp" line="96"/>
         <source>Don&apos;t have a %1 account?&lt;br&gt;&lt;a style=&apos;color: #158EFF&apos; href=&quot;%2&quot;&gt;Sign up&lt;/a&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 계정이 없나요?&lt;br&gt;&lt;a style=&apos;color: #158EFF&apos; href=&quot;%2&quot;&gt;가입하기&lt;/a&gt;</translation>
     </message>
 </context>
 <context>
@@ -995,107 +996,107 @@ please do not disconnect the device.</source>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="200"/>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="214"/>
         <source>Authentication Failed</source>
-        <translation type="unfinished">인증 실패</translation>
+        <translation>인증에 실패했습니다</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="200"/>
         <source>Invalid username or password. Please check your credentials and try again.</source>
-        <translation type="unfinished">잘못된 사용자명 또는 비밀번호입니다. 자격 증명을 확인한 후 다시 시도해 주세요.</translation>
+        <translation>잘못된 사용자 이름 또는 비밀번호입니다. 자격 증명을 확인한 후 다시 시도해 주세요.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="214"/>
         <source>Failed to authenticate with Discord. Please try again.</source>
-        <translation type="unfinished"></translation>
+        <translation>Discord 인증에 실패했습니다. 다시 시도하세요.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="257"/>
         <source>Hardcore Mode (needs emulator restart)</source>
-        <translation type="unfinished">하드코어 모드 (에뮬레이터 재시작 필요)</translation>
+        <translation>하드코어 모드 (에뮬레이터 재시작 필요)</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="258"/>
         <source>Encore Mode (needs emulator restart)</source>
-        <translation type="unfinished">앵코르 모드 (에뮬레이터 재시작 필요)</translation>
+        <translation>앵코르 모드 (에뮬레이터 재시작 필요)</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="259"/>
         <source>Show Leaderboards Notifications</source>
-        <translation type="unfinished">리더보드 알림 표시</translation>
+        <translation>리더보드 알림 표시</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="260"/>
         <source>Show Leaderboards Tracker</source>
-        <translation type="unfinished">리더보드 트래커 표시</translation>
+        <translation>리더보드 트래커 표시</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="261"/>
         <source>Show Progress Indicator</source>
-        <translation type="unfinished">진행 상황 표시기 표시</translation>
+        <translation>진행 상황 표시기 표시</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="262"/>
         <source>Show Challenge Indicators</source>
-        <translation type="unfinished">도전 과제 표시기 표시</translation>
+        <translation>도전 과제 표시기 표시</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="268"/>
         <source>Disables cheats, pausing and slow-motion. Achievements earned in hardcore mode are uniquely marked so that you can show others what you&apos;ve achieved without emulator assistance features.</source>
-        <translation type="unfinished">치트, 일시 정지, 슬로우 모션을 비활성화합니다. 하드코어 모드에서 달성한 업적은 고유하게 표시되어 에뮬레이터 보조 기능 없이 달성한 업적을 다른 사람들에게 보여줄 수 있습니다.</translation>
+        <translation>치트, 일시 정지, 슬로우 모션을 비활성화합니다. 하드코어 모드에서 달성한 업적은 고유하게 표시되어 에뮬레이터 보조 기능 없이 달성한 업적을 다른 사람들에게 보여줄 수 있습니다.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="271"/>
         <source>Re-activate previously earned achievements to experience them again. Note: Points are not re-awarded.</source>
-        <translation type="unfinished">이전에 달성한 업적을 다시 활성화하여 다시 경험할 수 있습니다. 참고: 포인트는 다시 지급되지 않습니다.</translation>
+        <translation>이전에 달성한 업적을 다시 활성화하여 다시 경험할 수 있습니다. 참고: 포인트는 다시 지급되지 않습니다.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="273"/>
         <source>Show leaderboards related notifications in the notification area.</source>
-        <translation type="unfinished">알림 영역에 리더보드 관련 알림을 표시합니다.</translation>
+        <translation>알림 영역에 리더보드 관련 알림을 표시합니다.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="275"/>
         <source>Show leaderboards tracker in the notification area.</source>
-        <translation type="unfinished">알림 영역에 리더보드 트래커를 표시합니다.</translation>
+        <translation>알림 영역에 리더보드 트래커를 표시합니다.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="277"/>
         <source>Show progress indicator in the notification area when an achievement is being tracked.</source>
-        <translation type="unfinished">업적을 추적 중일 때 알림 영역에 진행 상황 표시기를 표시합니다.</translation>
+        <translation>업적을 추적 중일 때 알림 영역에 진행 상황 표시기를 표시합니다.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="279"/>
         <source>Show challenge indicators in the notification area when achievements are being attempted.</source>
-        <translation type="unfinished"></translation>
+        <translation>업적을 시도하는 동안 알림 영역에 도전 지표를 표시합니다.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="284"/>
         <source>Enabled</source>
-        <translation type="unfinished">활성화됨</translation>
+        <translation>활성화됨</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="285"/>
         <source>Disabled</source>
-        <translation type="unfinished">비활성화됨</translation>
+        <translation>비활성화됨</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="290"/>
         <source>Integrations</source>
-        <translation type="unfinished"></translation>
+        <translation>연동</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="292"/>
         <source>Unlock a new dimension to your Playback experience! As time goes on, there is an ever-growing list of integrations which allow you to customise and enhance your gaming sessions. Check out the available options below, and give any (or all) of them a try.</source>
-        <translation type="unfinished"></translation>
+        <translation>Playback 경험을 한 단계 업그레이드하세요! 시간이 지날수록 더 많은 연동 기능이 추가되어 게임 세션을 커스터마이즈하고 강화할 수 있습니다. 아래의 옵션을 확인하고, 원하는 것(또는 전부)을 시도해 보세요.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="296"/>
         <source>Link Playback to your RA account, and start earning achievements in your favorite classic games.</source>
-        <translation type="unfinished"></translation>
+        <translation>Playback을 RA 계정과 연동하고, 좋아하는 클래식 게임에서 업적을 획득해 보세요.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="298"/>
         <source>Link Playback to your Discord account, and share the exact game you’re playing with your friends!</source>
-        <translation type="unfinished"></translation>
+        <translation>Playback을 Discord 계정과 연동해, 지금 플레이 중인 게임을 친구에게 공유하세요!</translation>
     </message>
 </context>
 <context>
@@ -1382,12 +1383,12 @@ You can try cleaning then re-inserting the cartridge into the device.
     <message>
         <location filename="../src/platform/desktop/PhotosPage.cpp" line="174"/>
         <source>Select Directory to Save Photos</source>
-        <translation type="unfinished"></translation>
+        <translation>사진 저장 폴더 선택</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PhotosPage.cpp" line="177"/>
         <source>Save</source>
-        <translation type="unfinished">저장</translation>
+        <translation>저장</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PhotosPage.cpp" line="199"/>
@@ -1418,12 +1419,12 @@ You can try cleaning then re-inserting the cartridge into the device.
     <message>
         <location filename="../src/platform/desktop/PhotosPage.cpp" line="357"/>
         <source>SAVE</source>
-        <translation type="unfinished"></translation>
+        <translation>저장</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PhotosPage.cpp" line="358"/>
         <source>DELETE</source>
-        <translation type="unfinished"></translation>
+        <translation>삭제</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PhotosPage.cpp" line="359"/>
@@ -1488,27 +1489,27 @@ If you&apos;d like to easily remove all the pictures from your camera, without h
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="109"/>
         <source>Enable Rewind</source>
-        <translation type="unfinished"></translation>
+        <translation>되감기 활성화</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="110"/>
         <source>Enable Fast Forward</source>
-        <translation type="unfinished"></translation>
+        <translation>빨리감기 활성화</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="111"/>
         <source>Enable Soft Reset</source>
-        <translation type="unfinished"></translation>
+        <translation>소프트 리셋 활성화</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="112"/>
         <source>Enable Picture-in-Picture</source>
-        <translation type="unfinished"></translation>
+        <translation>화면 속 화면(PiP) 활성화</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="113"/>
         <source>Photo Scaling</source>
-        <translation type="unfinished"></translation>
+        <translation>사진 스케일링</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="130"/>
@@ -1518,32 +1519,32 @@ If you&apos;d like to easily remove all the pictures from your camera, without h
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="135"/>
         <source>When enabled and supported by the game, Playback adds real-time clock (RTC) data to the save file. This ensures accurate preservation of time-based events. Note that this will increase the file size and might make it incompatible with other software.</source>
-        <translation>게임에서 지원되고 활성화된 경우, 플레이백이 실시간 시계 (RTC) 데이터를 저장 파일에 추가합니다. 이는 시간 기반 이벤트의 정확한 보존을 보장합니다. 이 기능은 파일 크기를 증가시키며, 다른 소프트웨어와 호환되지 않을 수 있습니다.</translation>
+        <translation>게임에서 지원되고 활성화된 경우, Playback이 실시간 시계 (RTC) 데이터를 저장 파일에 추가합니다. 이는 시간 기반 이벤트의 정확한 보존을 보장합니다. 이 기능은 파일 크기를 증가시키며, 다른 소프트웨어와 호환되지 않을 수 있습니다.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="151"/>
         <source>Enables the rewind feature, allowing you to go back in time during gameplay. This is useful for correcting mistakes or exploring different game paths without starting over.</source>
-        <translation type="unfinished"></translation>
+        <translation>되감기 기능을 활성화하여 플레이 중 시간을 되돌릴 수 있습니다. 실수를 바로잡거나 처음부터 다시 시작하지 않고 다른 루트를 탐색할 때 유용합니다.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="154"/>
         <source>When enabled, this feature allows you to speed up the game playback, making it easier to skip through slower sections or quickly navigate through menus.</source>
-        <translation type="unfinished"></translation>
+        <translation>활성화하면 게임을 더 빠르게 재생할 수 있어 느린 구간을 건너뛰거나 메뉴를 빠르게 탐색하기 쉬워집니다.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="157"/>
         <source>Enables the soft reset feature, allowing you to quickly reset the game without turning off the emulation. This is useful for quickly restarting a game or returning to the main menu.</source>
-        <translation type="unfinished"></translation>
+        <translation>소프트 리셋 기능을 활성화하여 에뮬레이션을 끄지 않고도 게임을 빠르게 리셋할 수 있습니다. 게임을 빠르게 재시작하거나 메인 메뉴로 돌아갈 때 유용합니다.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="161"/>
         <source>Enables the Picture-in-Picture (PiP) mode, allowing you to view the game in a small window. This is useful for multitasking.</source>
-        <translation type="unfinished"></translation>
+        <translation>화면 속 화면(PiP) 모드를 활성화하여 작은 창에서 게임을 볼 수 있습니다. 멀티태스킹에 유용합니다.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="164"/>
         <source>Scales GB Camera saved photos to the specified size.</source>
-        <translation type="unfinished"></translation>
+        <translation>GB Camera에 저장된 사진을 지정한 크기로 스케일링합니다.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="103"/>
@@ -1773,7 +1774,8 @@ Hardcore mode is active - cheats and slow motion are disabled.</source>
         <location filename="../src/core/RAController.cpp" line="349"/>
         <source>
 Hardcore mode is active - cheats, rewind and slow motion are disabled.</source>
-        <translation type="unfinished"></translation>
+        <translation>
+하드코어 모드가 활성화되었습니다 - 치트, 되감기, 슬로 모션이 비활성화됩니다.</translation>
     </message>
     <message>
         <location filename="../src/core/RAController.cpp" line="387"/>
@@ -1935,7 +1937,12 @@ Backups of the original save on the cartridge is made to the vault, however proc
 
 Would you like to proceed?
 </source>
-        <translation type="unfinished"></translation>
+        <translation>에뮬레이터 코어가 보고하는 세이브 크기가 카트리지에서 감지된 값과 다릅니다.
+
+카트리지의 원본 세이브는 Vault에 백업되지만, 계속 진행하면 사용할 수 없는 세이브가 생성될 수 있습니다.
+
+계속 진행할까요?
+</translation>
     </message>
     <message>
         <source>The emulator core is currently reporting a save size which is different than what we detected on the cartridge.
@@ -1957,37 +1964,37 @@ Would you like to proceed?
     <message>
         <location filename="../src/platform/desktop/CartDetailsWidget.cpp" line="653"/>
         <source>Perfect, highly recommended!</source>
-        <translation type="unfinished"></translation>
+        <translation>완벽, 강력 추천!</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/CartDetailsWidget.cpp" line="655"/>
         <source>Awesome, definitely a must-play!</source>
-        <translation type="unfinished"></translation>
+        <translation>최고, 꼭 플레이해 보세요!</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/CartDetailsWidget.cpp" line="657"/>
         <source>Great, would replay more than once.</source>
-        <translation type="unfinished"></translation>
+        <translation>아주 좋음, 여러 번 다시 할 만해요.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/CartDetailsWidget.cpp" line="659"/>
         <source>Best enjoyed in a full playthrough.</source>
-        <translation type="unfinished"></translation>
+        <translation>처음부터 끝까지 플레이하면 더 재밌어요.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/CartDetailsWidget.cpp" line="661"/>
         <source>Good, worth giving it a try.</source>
-        <translation type="unfinished"></translation>
+        <translation>괜찮음, 한 번쯤 해볼 만해요.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/CartDetailsWidget.cpp" line="663"/>
         <source>Fun, but could be better.</source>
-        <translation type="unfinished"></translation>
+        <translation>재밌지만 더 좋아질 수 있어요.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/CartDetailsWidget.cpp" line="665"/>
         <source>Not our no. 1 favorite.</source>
-        <translation type="unfinished"></translation>
+        <translation>1순위까진 아니에요.</translation>
     </message>
 </context>
 <context>
@@ -2016,13 +2023,13 @@ Please make sure it&apos;s connected.</source>
         <location filename="../src/platform/desktop/SettingsWindow.cpp" line="86"/>
         <location filename="../src/platform/desktop/SettingsWindow.cpp" line="435"/>
         <source>General</source>
-        <translation type="unfinished">일반 설정</translation>
+        <translation>일반</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/SettingsWindow.cpp" line="89"/>
         <location filename="../src/platform/desktop/SettingsWindow.cpp" line="436"/>
         <source>Game</source>
-        <translation type="unfinished"></translation>
+        <translation>게임</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/SettingsWindow.cpp" line="394"/>
@@ -2042,7 +2049,7 @@ Please make sure it&apos;s connected.</source>
     <message>
         <location filename="../src/platform/desktop/SettingsWindow.cpp" line="428"/>
         <source>Playback</source>
-        <translation type="unfinished">Playback</translation>
+        <translation>Playback</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/SettingsWindow.cpp" line="429"/>
@@ -2052,22 +2059,22 @@ Please make sure it&apos;s connected.</source>
     <message>
         <location filename="../src/platform/desktop/SettingsWindow.cpp" line="430"/>
         <source>Emulator</source>
-        <translation type="unfinished"></translation>
+        <translation>에뮬레이터</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/SettingsWindow.cpp" line="431"/>
         <source>Device</source>
-        <translation type="unfinished"></translation>
+        <translation>디바이스</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/SettingsWindow.cpp" line="432"/>
         <source>Controls</source>
-        <translation type="unfinished"></translation>
+        <translation>컨트롤</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/SettingsWindow.cpp" line="433"/>
         <source>Integrations</source>
-        <translation type="unfinished"></translation>
+        <translation>연동</translation>
     </message>
     <message>
         <source>Emulator Settings</source>
@@ -2100,17 +2107,17 @@ Please make sure it&apos;s connected.</source>
     <message>
         <location filename="../src/platform/desktop/SettingsWindowUIComponents.cpp" line="135"/>
         <source>Save</source>
-        <translation type="unfinished">저장</translation>
+        <translation>저장</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/SettingsWindowUIComponents.cpp" line="136"/>
         <source>Restore defaults</source>
-        <translation type="unfinished">기본값 복원</translation>
+        <translation>기본값 복원</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/SettingsWindowUIComponents.cpp" line="137"/>
         <source>Rebind keys</source>
-        <translation type="unfinished">키 리바인드</translation>
+        <translation>키 재바인딩</translation>
     </message>
 </context>
 <context>
@@ -2158,22 +2165,22 @@ Please make sure it&apos;s connected.</source>
     <message>
         <location filename="../src/platform/desktop/TermsOfServiceWindow.cpp" line="78"/>
         <source>Error: Could not load Terms of Service.</source>
-        <translation type="unfinished"></translation>
+        <translation>오류: 서비스 이용약관을 불러올 수 없습니다.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/TermsOfServiceWindow.cpp" line="206"/>
         <source>Terms of Service</source>
-        <translation type="unfinished"></translation>
+        <translation>서비스 이용약관</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/TermsOfServiceWindow.cpp" line="232"/>
         <source>Decline</source>
-        <translation type="unfinished"></translation>
+        <translation>거부</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/TermsOfServiceWindow.cpp" line="236"/>
         <source>I Agree</source>
-        <translation type="unfinished"></translation>
+        <translation>동의</translation>
     </message>
 </context>
 <context>
@@ -2255,7 +2262,7 @@ Tip: Use external programs to trigger in-game events or customize gameplay.</sou
     <message>
         <location filename="../src/platform/desktop/Window.cpp" line="73"/>
         <source>Graphics Hardware Not Supported</source>
-        <translation type="unfinished">그래픽 하드웨어가 지원되지 않음</translation>
+        <translation>그래픽 하드웨어가 지원되지 않습니다</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/Window.cpp" line="74"/>
@@ -2263,7 +2270,10 @@ Tip: Use external programs to trigger in-game events or customize gameplay.</sou
 
 This application requires OpenGL 3.2 or higher (or OpenGL ES 2.0+).
 Please ensure your graphics drivers are up to date.</source>
-        <translation type="unfinished"></translation>
+        <translation>그래픽 하드웨어가 최소 요구 사항을 충족하지 않습니다.
+
+이 앱은 OpenGL 3.2 이상(또는 OpenGL ES 2.0+)이 필요합니다.
+그래픽 드라이버가 최신인지 확인하세요.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/Window.cpp" line="215"/>
