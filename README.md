@@ -4,16 +4,16 @@
 
 | Language               | Type          | Complete    | Missing Strings  |
 | ---------------------- | ------------- | --------    | ---------------  |
-| 🇳🇱 Dutch                 | AI            | ❌           | 96               |
+| 🇳🇱 Dutch                 | AI            | ❌           | 97               |
 | 🇫🇷 French                | Human         | ✅           | 0               |
-| 🇩🇪 German                | Human         | ❌           | 96               |
-| 🇮🇹 Italian               | AI            | ❌           | 96               |
-| 🇯🇵 Japanese              | Human         | ❌           | 96               |
-| 🇰🇷 Korean                | Human         | ❌           | 96               |
-| 🇵🇹 Portuguese            | AI            | ❌           | 96               |
-| 🇷🇴 Romanian              | Human         | ❌           | 96               |
-| 🇨🇳 Simplified Chinese    | Human         | ❌           | 96               |
-| 🇪🇸 Spanish               | Human         | ❌           | 96               |
+| 🇩🇪 German                | Human         | ❌           | 97               |
+| 🇮🇹 Italian               | AI            | ❌           | 97               |
+| 🇯🇵 Japanese              | Human         | ❌           | 97               |
+| 🇰🇷 Korean                | Human         | ❌           | 97               |
+| 🇵🇹 Portuguese            | AI            | ❌           | 97               |
+| 🇷🇴 Romanian              | Human         | ❌           | 97               |
+| 🇨🇳 Simplified Chinese    | Human         | ❌           | 97               |
+| 🇪🇸 Spanish               | Human         | ❌           | 97               |
 
 ## Translation files (i18n)
 
