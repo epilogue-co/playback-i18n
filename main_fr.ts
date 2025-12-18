@@ -618,7 +618,14 @@ Ne retirez pas la cartouche pendant qu&apos;une opération est en cours.</transl
 <context>
     <name>DeviceSwitcherDropdown</name>
     <message>
-        <location filename="../src/platform/desktop/DeviceSwitcherDropdown.cpp" line="170"/>
+        <location filename="../src/platform/desktop/DeviceSwitcherDropdown.cpp" line="127"/>
+        <source>The SN Operator is here!
+Get it on epilogue.co</source>
+        <translation>Le SN Operator est là !
+Obtenez-le sur epilogue.co</translation>
+    </message>
+    <message>
+        <location filename="../src/platform/desktop/DeviceSwitcherDropdown.cpp" line="192"/>
         <source>Expand your collection on epilogue.co</source>
         <translation>Agrandissez votre collection sur epilogue.co</translation>
     </message>
@@ -626,7 +633,7 @@ Ne retirez pas la cartouche pendant qu&apos;une opération est en cours.</transl
 <context>
     <name>DeviceSwitcherDropdownStoreItem</name>
     <message>
-        <location filename="../src/platform/desktop/DeviceSwitcherDropdown.cpp" line="269"/>
+        <location filename="../src/platform/desktop/DeviceSwitcherDropdown.cpp" line="291"/>
         <source>View more</source>
         <translation>Voir plus</translation>
     </message>
@@ -1769,7 +1776,6 @@ Le mode hardcore est actif - les codes de triche et le mode lent sont désactiv�
 Hardcore mode is active - cheats, rewind and slow motion are disabled.</source>
         <translation>
 Le mode hardcore est actif - les codes de triche, le rembobinage et le mode lent sont désactivés.</translation>
-    </translation>
     </message>
     <message>
         <location filename="../src/core/RAController.cpp" line="387"/>
