@@ -523,7 +523,7 @@ Verwijder de cartridge niet terwijl er een bewerking bezig is.</translation>
     <message>
         <location filename="../src/core/DeviceHardwareOperations.cpp" line="130"/>
         <source>Playback detected a discrepancy between the expected game data and the backed up data. Please clean the cartridge pins and try again to ensure accuracy.</source>
-        <translation>Bij het afspelen is een discrepantie gedetecteerd tussen de verwachte spelgegevens en de gegevens waarvan een back-up is gemaakt. Maak de pennen van de cartridge schoon en probeer het opnieuw om de nauwkeurigheid te garanderen.</translation>
+        <translation>Playback heeft een discrepantie gedetecteerd tussen de verwachte spelgegevens en de back-upgegevens. Maak de pinnen van de cartridge schoon en probeer het opnieuw om de nauwkeurigheid te garanderen.</translation>
     </message>
     <message>
         <location filename="../src/core/DeviceHardwareOperations.cpp" line="167"/>
@@ -553,7 +553,7 @@ Verwijder de cartridge niet terwijl er een bewerking bezig is.</translation>
     <message>
         <location filename="../src/core/DeviceHardwareOperations.cpp" line="208"/>
         <source>Playback couldn&apos;t delete the contents of the homebrew cartridge. Please clean the cartridge pins and try again. If the issue persists, contact our Support team.</source>
-        <translation>Afspelen kon de inhoud van de homebrew-cartridge niet verwijderen. Maak de pinnen van de cartridge schoon en probeer het opnieuw. Als het probleem zich blijft voordoen, neem dan contact op met ons ondersteuningsteam.</translation>
+        <translation>Playback kon de inhoud van de homebrew-cartridge niet verwijderen. Maak de pinnen van de cartridge schoon en probeer het opnieuw. Als het probleem zich blijft voordoen, neem dan contact op met ons ondersteuningsteam.</translation>
     </message>
     <message>
         <location filename="../src/core/DeviceHardwareOperations.cpp" line="227"/>
@@ -563,7 +563,7 @@ Verwijder de cartridge niet terwijl er een bewerking bezig is.</translation>
     <message>
         <location filename="../src/core/DeviceHardwareOperations.cpp" line="228"/>
         <source>The cartridge was erased successfully, but the data written does not match the data read back. This issue might occur with some homebrew cartridges. Make sure the game is playable, either by testing on an original console or in the Playback app.</source>
-        <translation>De cartridge is succesvol gewist, maar de geschreven gegevens komen niet overeen met de teruggelezen gegevens. Dit probleem kan zich voordoen bij sommige homebrew-cartridges. Controleer of het spel speelbaar is, door het te testen op een originele console of in de app Afspelen.</translation>
+        <translation>De cartridge is succesvol gewist, maar de geschreven gegevens komen niet overeen met de teruggelezen gegevens. Dit probleem kan zich voordoen bij sommige homebrew-cartridges. Controleer of het spel speelbaar is, door het te testen op een originele console of in de Playback-app.</translation>
     </message>
     <message>
         <location filename="../src/core/DeviceHardwareOperations.cpp" line="263"/>
@@ -1454,7 +1454,7 @@ Als je gemakkelijk alle foto&apos;s van je camera wilt verwijderen, zonder ze é
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="120"/>
         <source>Allows you to change the language in which the Playback software is presented. It requires an application restart in order to update the language accross the entire application.</source>
-        <translation>Hiermee kunt u de taal wijzigen waarin de afspeelsoftware wordt weergegeven. De toepassing moet opnieuw worden opgestart om de taal in de hele toepassing bij te werken.</translation>
+        <translation>Hiermee kunt u de taal wijzigen waarin de Playback-software wordt weergegeven. De toepassing moet opnieuw worden opgestart om de taal in de hele toepassing bij te werken.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="124"/>
@@ -1589,7 +1589,7 @@ Als je gemakkelijk alle foto&apos;s van je camera wilt verwijderen, zonder ze é
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="148"/>
         <source>When enabled, the Playback software will output more detailed logs to help diagnose issues. This setting is useful for troubleshooting and should be disabled when not needed.</source>
-        <translation>Als deze optie is ingeschakeld, voert de afspeelsoftware gedetailleerdere logbestanden uit om te helpen bij het diagnosticeren van problemen. Deze instelling is nuttig voor het oplossen van problemen en moet worden uitgeschakeld als het niet nodig is.</translation>
+        <translation>Als deze optie is ingeschakeld, voert de Playback-software gedetailleerdere logbestanden uit om te helpen bij het diagnosticeren van problemen. Deze instelling is nuttig voor het oplossen van problemen en moet worden uitgeschakeld als het niet nodig is.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="84"/>
@@ -1953,7 +1953,7 @@ Would you like to proceed?
 </source>
         <translation type="vanished">De emulator core meldt momenteel een andere opslaggrootte dan we op de cartridge hebben gedetecteerd.
 
-Je kunt hier meer lezen over dit probleem. Er worden back-ups van de originele opslag op de cartridge gemaakt in de kluis, maar door het proces kunnen er onbruikbare saves ontstaan.
+Je kunt hier meer lezen over dit probleem. Er worden back-ups van de originele opslag op de cartridge gemaakt in de Vault, maar door het proces kunnen er onbruikbare saves ontstaan.
 
 Wilt u doorgaan?
 </translation>
@@ -2099,7 +2099,7 @@ Controleer of het is aangesloten.</translation>
     </message>
     <message>
         <source>Playback Settings</source>
-        <translation type="vanished">Afspeelinstellingen</translation>
+        <translation type="vanished">Playback-instellingen</translation>
     </message>
 </context>
 <context>
@@ -2157,7 +2157,7 @@ Controleer of het is aangesloten.</translation>
     <message>
         <location filename="../src/platform/desktop/StartControllerWidget.cpp" line="62"/>
         <source>Access the Vault for this game. The vault contains auto-saves created while playing the game.</source>
-        <translation>Ga naar de kluis van dit spel. De kluis bevat auto-saves die zijn gemaakt tijdens het spelen van het spel.</translation>
+        <translation>Ga naar de Vault van dit spel. De Vault bevat auto-saves die zijn gemaakt tijdens het spelen van het spel.</translation>
     </message>
 </context>
 <context>
@@ -2332,7 +2332,7 @@ Zorg dat je grafische drivers up-to-date zijn.</translation>
     <message>
         <location filename="../src/platform/desktop/Window.cpp" line="515"/>
         <source>Playback Settings</source>
-        <translation>Afspeelinstellingen</translation>
+        <translation>Playback-instellingen</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/Window.cpp" line="516"/>
