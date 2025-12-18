@@ -189,7 +189,7 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/platform/desktop/ControlsWidget.cpp" line="87"/>
         <source>Player</source>
-        <translation type="unfinished"></translation>
+        <translation>玩家</translation>
     </message>
 </context>
 <context>
@@ -222,7 +222,7 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/platform/desktop/CoreCardWidget.cpp" line="305"/>
         <source>Remove</source>
-        <translation type="unfinished"></translation>
+        <translation>移除</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/CoreCardWidget.cpp" line="306"/>
@@ -374,7 +374,7 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/platform/desktop/CustomCheatCodesWidget.cpp" line="178"/>
         <source>Add your own custom cheats...</source>
-        <translation type="unfinished"></translation>
+        <translation>添加自定义作弊码...</translation>
     </message>
     <message>
         <source>Description</source>
@@ -394,12 +394,12 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/platform/desktop/CustomCheatCodesWidget.cpp" line="277"/>
         <source>Description...</source>
-        <translation type="unfinished"></translation>
+        <translation>描述...</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/CustomCheatCodesWidget.cpp" line="278"/>
         <source>Code...</source>
-        <translation type="unfinished"></translation>
+        <translation>代码...</translation>
     </message>
 </context>
 <context>
@@ -423,12 +423,12 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/platform/desktop/DatabaseCheatCodesWidget.cpp" line="112"/>
         <source> Default</source>
-        <translation type="unfinished"></translation>
+        <translation> 默认</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/DatabaseCheatCodesWidget.cpp" line="113"/>
         <source>Search...</source>
-        <translation type="unfinished"></translation>
+        <translation>搜索...</translation>
     </message>
 </context>
 <context>
@@ -436,27 +436,27 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/platform/desktop/DeadzoneWidget.cpp" line="26"/>
         <source>Joystick Deadzone</source>
-        <translation type="unfinished"></translation>
+        <translation>摇杆死区</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/DeadzoneWidget.cpp" line="65"/>
         <source>Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>模式</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/DeadzoneWidget.cpp" line="75"/>
         <source>Linear</source>
-        <translation type="unfinished"></translation>
+        <translation>线性</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/DeadzoneWidget.cpp" line="76"/>
         <source>Radial</source>
-        <translation type="unfinished"></translation>
+        <translation>径向</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/DeadzoneWidget.cpp" line="77"/>
         <source>Scaled</source>
-        <translation type="unfinished"></translation>
+        <translation>缩放</translation>
     </message>
 </context>
 <context>
@@ -464,7 +464,7 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/platform/desktop/DesktopEmulatorDialogs.cpp" line="111"/>
         <source>Load Failed</source>
-        <translation type="unfinished"></translation>
+        <translation>加载失败</translation>
     </message>
 </context>
 <context>
@@ -599,7 +599,7 @@ Do not remove the cartridge while any operation is running.</source>
         <location filename="../src/core/DeviceHardware.cpp" line="201"/>
         <location filename="../src/core/DeviceHardware.cpp" line="250"/>
         <source>Device disconnected</source>
-        <translation type="unfinished"></translation>
+        <translation>设备已断开连接</translation>
     </message>
 </context>
 <context>
@@ -621,7 +621,8 @@ Do not remove the cartridge while any operation is running.</source>
         <location filename="../src/platform/desktop/DeviceSwitcherDropdown.cpp" line="127"/>
         <source>The SN Operator is here!
 Get it on epilogue.co</source>
-        <translation type="unfinished"></translation>
+        <translation>SN Operator 来了！
+前往 epilogue.co 购买</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/DeviceSwitcherDropdown.cpp" line="192"/>
@@ -688,22 +689,22 @@ OpenGL 详情:
     <message>
         <location filename="../src/platform/common/Emulator.cpp" line="577"/>
         <source>ROM integrity check failed. Do you want to continue loading?</source>
-        <translation type="unfinished"></translation>
+        <translation>ROM 完整性校验失败。要继续加载吗？</translation>
     </message>
     <message>
         <location filename="../src/platform/common/Emulator.cpp" line="589"/>
         <source>Failed to load game! Unable to launch the game, please make sure that the cartridge is clean.</source>
-        <translation type="unfinished"></translation>
+        <translation>游戏加载失败！无法启动游戏，请确保卡带干净。</translation>
     </message>
     <message>
         <location filename="../src/platform/common/Emulator.cpp" line="594"/>
         <source>Failed to load save data! The core failed to load the save data.</source>
-        <translation type="unfinished"></translation>
+        <translation>存档数据加载失败！核心无法加载存档数据。</translation>
     </message>
     <message>
         <location filename="../src/platform/common/Emulator.cpp" line="600"/>
         <source>Save size mismatch detected. Do you want to continue loading?</source>
-        <translation type="unfinished"></translation>
+        <translation>检测到存档大小不一致。要继续加载吗？</translation>
     </message>
     <message>
         <location filename="../src/platform/common/Emulator.cpp" line="791"/>
@@ -790,17 +791,17 @@ OpenGL 详情:
     <message>
         <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="261"/>
         <source>Rewind Buffer Size (MB)</source>
-        <translation type="unfinished"></translation>
+        <translation>倒带缓冲区大小（MB）</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="262"/>
         <source>Rewind Granularity</source>
-        <translation type="unfinished"></translation>
+        <translation>倒带粒度</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="263"/>
         <source>Rewind Speed</source>
-        <translation type="unfinished"></translation>
+        <translation>倒带速度</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="265"/>
@@ -810,17 +811,17 @@ OpenGL 详情:
     <message>
         <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="278"/>
         <source>The amount of memory (in MB) to reserve for the rewind buffer. A larger buffer allows for a longer rewind history but might also cause system instability.</source>
-        <translation type="unfinished"></translation>
+        <translation>为倒带缓冲区预留的内存（MB）。缓冲区越大，可倒带的历史越长，但也可能导致系统不稳定。</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="281"/>
         <source>Saves a state every N frames. Higher values use less memory but result in a less precise rewind.</source>
-        <translation type="unfinished"></translation>
+        <translation>每 N 帧保存一次状态。数值越大占用内存越少，但倒带精度越低。</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="283"/>
         <source>Controls the playback speed of the rewind animation. Higher values are faster.</source>
-        <translation type="unfinished"></translation>
+        <translation>控制倒带动画的播放速度。数值越大越快。</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="285"/>
@@ -830,17 +831,17 @@ OpenGL 详情:
     <message>
         <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="305"/>
         <source>Every 1 frame (Smoothest)</source>
-        <translation type="unfinished"></translation>
+        <translation>每 1 帧（最顺滑）</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="306"/>
         <source>Every 6 frames (Least precise)</source>
-        <translation type="unfinished"></translation>
+        <translation>每 6 帧（最不精确）</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="307"/>
         <source>Every %1 frames</source>
-        <translation type="unfinished"></translation>
+        <translation>每 %1 帧</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="311"/>
@@ -916,12 +917,12 @@ please do not disconnect the device.</source>
     <message>
         <location filename="../src/platform/desktop/InputBindingsScreen.cpp" line="235"/>
         <source>Mouse input uses pre-configured bindings. Move the mouse and use left/right click to test inputs. If inputs don&apos;t respond, make sure the game supports mouse controls.</source>
-        <translation type="unfinished"></translation>
+        <translation>鼠标输入使用预设绑定。移动鼠标并使用左/右键点击测试输入。如果没有响应，请确认游戏支持鼠标控制。</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/InputBindingsScreen.cpp" line="240"/>
         <source>Lightgun input uses pre-configured mouse bindings. Aim: move mouse. Trigger: left click. Cursor: right click. Pause: middle click. Turbo: left + right click. If inputs don&apos;t respond, make sure the game supports lightgun controls.</source>
-        <translation type="unfinished"></translation>
+        <translation>光枪输入使用预设鼠标绑定。瞄准：移动鼠标。扳机：左键。光标：右键。暂停：中键。Turbo：左键+右键。如果没有响应，请确认游戏支持光枪控制。</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/InputBindingsScreen.cpp" line="255"/>
@@ -936,7 +937,7 @@ please do not disconnect the device.</source>
     <message>
         <location filename="../src/platform/desktop/InputBindingsScreen.cpp" line="262"/>
         <source>Controls</source>
-        <translation type="unfinished"></translation>
+        <translation>控制</translation>
     </message>
     <message>
         <source>Controls Settings</source>
@@ -958,7 +959,7 @@ please do not disconnect the device.</source>
     <message>
         <location filename="../src/platform/desktop/IntegrationsAccordionWidget.cpp" line="182"/>
         <source>&lt;a href=&apos;login&apos; style=&apos;color: white;&apos;&gt;Log in&lt;/a&gt; with your %1 account.</source>
-        <translation type="unfinished"></translation>
+        <translation>使用你的 %1 账号&lt;a href=&apos;login&apos; style=&apos;color: white;&apos;&gt;登录&lt;/a&gt;.</translation>
     </message>
 </context>
 <context>
@@ -966,27 +967,27 @@ please do not disconnect the device.</source>
     <message>
         <location filename="../src/platform/desktop/IntegrationsLoginWindow.cpp" line="92"/>
         <source>Login to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>登录到 %1</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsLoginWindow.cpp" line="93"/>
         <source>Username</source>
-        <translation type="unfinished">用户名</translation>
+        <translation>用户名</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsLoginWindow.cpp" line="94"/>
         <source>Password</source>
-        <translation type="unfinished">密码</translation>
+        <translation>密码</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsLoginWindow.cpp" line="95"/>
         <source>Login</source>
-        <translation type="unfinished">登录</translation>
+        <translation>登录</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsLoginWindow.cpp" line="96"/>
         <source>Don&apos;t have a %1 account?&lt;br&gt;&lt;a style=&apos;color: #158EFF&apos; href=&quot;%2&quot;&gt;Sign up&lt;/a&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>还没有 %1 账号？&lt;br&gt;&lt;a style=&apos;color: #158EFF&apos; href=&quot;%2&quot;&gt;注册&lt;/a&gt;</translation>
     </message>
 </context>
 <context>
@@ -995,107 +996,107 @@ please do not disconnect the device.</source>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="200"/>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="214"/>
         <source>Authentication Failed</source>
-        <translation type="unfinished">身份验证失败</translation>
+        <translation>认证失败</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="200"/>
         <source>Invalid username or password. Please check your credentials and try again.</source>
-        <translation type="unfinished">用户名或密码无效。请检查你的凭据后重试。</translation>
+        <translation>用户名或密码无效。请检查你的凭据后重试。</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="214"/>
         <source>Failed to authenticate with Discord. Please try again.</source>
-        <translation type="unfinished"></translation>
+        <translation>Discord 认证失败。请重试。</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="257"/>
         <source>Hardcore Mode (needs emulator restart)</source>
-        <translation type="unfinished">硬核模式（需要重启模拟器）</translation>
+        <translation>硬核模式（需要重启模拟器）</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="258"/>
         <source>Encore Mode (needs emulator restart)</source>
-        <translation type="unfinished">再战模式（需要重启模拟器）</translation>
+        <translation>再战模式（需要重启模拟器）</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="259"/>
         <source>Show Leaderboards Notifications</source>
-        <translation type="unfinished">显示排行榜通知</translation>
+        <translation>显示排行榜通知</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="260"/>
         <source>Show Leaderboards Tracker</source>
-        <translation type="unfinished">显示排行榜追踪器</translation>
+        <translation>显示排行榜追踪器</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="261"/>
         <source>Show Progress Indicator</source>
-        <translation type="unfinished">显示进度指示器</translation>
+        <translation>显示进度指示器</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="262"/>
         <source>Show Challenge Indicators</source>
-        <translation type="unfinished">显示挑战指示器</translation>
+        <translation>显示挑战指示器</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="268"/>
         <source>Disables cheats, pausing and slow-motion. Achievements earned in hardcore mode are uniquely marked so that you can show others what you&apos;ve achieved without emulator assistance features.</source>
-        <translation type="unfinished">禁用作弊码、暂停和慢动作。在硬核模式下获得的成就会被特别标记，这样你就可以向他人展示在没有模拟器辅助功能下取得的成就。</translation>
+        <translation>禁用作弊码、暂停和慢动作。在硬核模式下获得的成就会被特别标记，这样你就可以向他人展示在没有模拟器辅助功能下取得的成就。</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="271"/>
         <source>Re-activate previously earned achievements to experience them again. Note: Points are not re-awarded.</source>
-        <translation type="unfinished">重新激活先前获得的成就以再次体验。注意：点数不会重复奖励。</translation>
+        <translation>重新激活先前获得的成就以再次体验。注意：点数不会重复奖励。</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="273"/>
         <source>Show leaderboards related notifications in the notification area.</source>
-        <translation type="unfinished">在通知区域显示排行榜相关通知。</translation>
+        <translation>在通知区域显示排行榜相关通知。</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="275"/>
         <source>Show leaderboards tracker in the notification area.</source>
-        <translation type="unfinished">在通知区域显示排行榜追踪器。</translation>
+        <translation>在通知区域显示排行榜追踪器。</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="277"/>
         <source>Show progress indicator in the notification area when an achievement is being tracked.</source>
-        <translation type="unfinished">追踪成就时在通知区域显示进度指示器。</translation>
+        <translation>追踪成就时在通知区域显示进度指示器。</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="279"/>
         <source>Show challenge indicators in the notification area when achievements are being attempted.</source>
-        <translation type="unfinished"></translation>
+        <translation>在尝试成就时，在通知区域显示挑战指示器。</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="284"/>
         <source>Enabled</source>
-        <translation type="unfinished">启用</translation>
+        <translation>启用</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="285"/>
         <source>Disabled</source>
-        <translation type="unfinished">禁用</translation>
+        <translation>禁用</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="290"/>
         <source>Integrations</source>
-        <translation type="unfinished"></translation>
+        <translation>集成</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="292"/>
         <source>Unlock a new dimension to your Playback experience! As time goes on, there is an ever-growing list of integrations which allow you to customise and enhance your gaming sessions. Check out the available options below, and give any (or all) of them a try.</source>
-        <translation type="unfinished"></translation>
+        <translation>解锁全新的 Playback 体验！随着时间推移，可用的集成会越来越多，让你自定义并增强游戏时光。看看下面的选项，试试其中一个（或全部）。</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="296"/>
         <source>Link Playback to your RA account, and start earning achievements in your favorite classic games.</source>
-        <translation type="unfinished"></translation>
+        <translation>将 Playback 与你的 RA 账号关联，在你最爱的经典游戏中开始赚取成就。</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="298"/>
         <source>Link Playback to your Discord account, and share the exact game you’re playing with your friends!</source>
-        <translation type="unfinished"></translation>
+        <translation>将 Playback 与你的 Discord 账号关联，把你正在玩的游戏准确分享给朋友！</translation>
     </message>
 </context>
 <context>
@@ -1382,12 +1383,12 @@ You can try cleaning then re-inserting the cartridge into the device.
     <message>
         <location filename="../src/platform/desktop/PhotosPage.cpp" line="174"/>
         <source>Select Directory to Save Photos</source>
-        <translation type="unfinished"></translation>
+        <translation>选择保存照片的文件夹</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PhotosPage.cpp" line="177"/>
         <source>Save</source>
-        <translation type="unfinished">保存</translation>
+        <translation>保存</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PhotosPage.cpp" line="199"/>
@@ -1418,12 +1419,12 @@ You can try cleaning then re-inserting the cartridge into the device.
     <message>
         <location filename="../src/platform/desktop/PhotosPage.cpp" line="357"/>
         <source>SAVE</source>
-        <translation type="unfinished"></translation>
+        <translation>保存</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PhotosPage.cpp" line="358"/>
         <source>DELETE</source>
-        <translation type="unfinished"></translation>
+        <translation>删除</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PhotosPage.cpp" line="359"/>
@@ -1488,27 +1489,27 @@ If you&apos;d like to easily remove all the pictures from your camera, without h
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="109"/>
         <source>Enable Rewind</source>
-        <translation type="unfinished"></translation>
+        <translation>启用倒带</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="110"/>
         <source>Enable Fast Forward</source>
-        <translation type="unfinished"></translation>
+        <translation>启用快进</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="111"/>
         <source>Enable Soft Reset</source>
-        <translation type="unfinished"></translation>
+        <translation>启用软复位</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="112"/>
         <source>Enable Picture-in-Picture</source>
-        <translation type="unfinished"></translation>
+        <translation>启用画中画</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="113"/>
         <source>Photo Scaling</source>
-        <translation type="unfinished"></translation>
+        <translation>照片缩放</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="130"/>
@@ -1523,27 +1524,27 @@ If you&apos;d like to easily remove all the pictures from your camera, without h
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="151"/>
         <source>Enables the rewind feature, allowing you to go back in time during gameplay. This is useful for correcting mistakes or exploring different game paths without starting over.</source>
-        <translation type="unfinished"></translation>
+        <translation>启用倒带功能，让你在游戏过程中回到之前的时间点。适合用来修正失误，或在不重新开始的情况下探索不同路线。</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="154"/>
         <source>When enabled, this feature allows you to speed up the game playback, making it easier to skip through slower sections or quickly navigate through menus.</source>
-        <translation type="unfinished"></translation>
+        <translation>启用后可加速游戏播放，更方便跳过较慢的段落或快速浏览菜单。</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="157"/>
         <source>Enables the soft reset feature, allowing you to quickly reset the game without turning off the emulation. This is useful for quickly restarting a game or returning to the main menu.</source>
-        <translation type="unfinished"></translation>
+        <translation>启用软复位功能，无需关闭模拟即可快速重置游戏。适合用来快速重开，或返回主菜单。</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="161"/>
         <source>Enables the Picture-in-Picture (PiP) mode, allowing you to view the game in a small window. This is useful for multitasking.</source>
-        <translation type="unfinished"></translation>
+        <translation>启用画中画（PiP）模式，让你在小窗口中查看游戏。适合多任务操作。</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="164"/>
         <source>Scales GB Camera saved photos to the specified size.</source>
-        <translation type="unfinished"></translation>
+        <translation>将 GB Camera 保存的照片缩放到指定尺寸。</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="103"/>
@@ -1773,7 +1774,8 @@ Hardcore mode is active - cheats and slow motion are disabled.</source>
         <location filename="../src/core/RAController.cpp" line="349"/>
         <source>
 Hardcore mode is active - cheats, rewind and slow motion are disabled.</source>
-        <translation type="unfinished"></translation>
+        <translation>
+硬核模式已开启 - 作弊、倒带和慢动作已禁用。</translation>
     </message>
     <message>
         <location filename="../src/core/RAController.cpp" line="387"/>
@@ -1935,7 +1937,12 @@ Backups of the original save on the cartridge is made to the vault, however proc
 
 Would you like to proceed?
 </source>
-        <translation type="unfinished"></translation>
+        <translation>模拟器核心报告的存档大小与我们在卡带上检测到的大小不同。
+
+卡带上的原始存档会备份到 Vault，但继续可能会生成无法使用的存档。
+
+要继续吗？
+</translation>
     </message>
     <message>
         <source>The emulator core is currently reporting a save size which is different than what we detected on the cartridge.
@@ -1946,7 +1953,7 @@ Would you like to proceed?
 </source>
         <translation type="vanished">模拟器内核当前报告的保存大小与我们在卡带上检测到的不同。
 
-你可以在此处阅读有关该问题的更多信息。卡带上原始存档的备份已保存到保险库中，但继续操作可能会创建无法使用的存档。
+	你可以在此处阅读有关该问题的更多信息。卡带上原始存档的备份已保存到Vault中，但继续操作可能会创建无法使用的存档。
 
 你要继续吗？
 </translation>
@@ -1957,37 +1964,37 @@ Would you like to proceed?
     <message>
         <location filename="../src/platform/desktop/CartDetailsWidget.cpp" line="653"/>
         <source>Perfect, highly recommended!</source>
-        <translation type="unfinished"></translation>
+        <translation>完美，强烈推荐！</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/CartDetailsWidget.cpp" line="655"/>
         <source>Awesome, definitely a must-play!</source>
-        <translation type="unfinished"></translation>
+        <translation>太棒了，必玩！</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/CartDetailsWidget.cpp" line="657"/>
         <source>Great, would replay more than once.</source>
-        <translation type="unfinished"></translation>
+        <translation>很棒，会反复玩。</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/CartDetailsWidget.cpp" line="659"/>
         <source>Best enjoyed in a full playthrough.</source>
-        <translation type="unfinished"></translation>
+        <translation>最适合完整通关体验。</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/CartDetailsWidget.cpp" line="661"/>
         <source>Good, worth giving it a try.</source>
-        <translation type="unfinished"></translation>
+        <translation>不错，值得一试。</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/CartDetailsWidget.cpp" line="663"/>
         <source>Fun, but could be better.</source>
-        <translation type="unfinished"></translation>
+        <translation>有趣，但还能更好。</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/CartDetailsWidget.cpp" line="665"/>
         <source>Not our no. 1 favorite.</source>
-        <translation type="unfinished"></translation>
+        <translation>不是我们的 No.1 最爱。</translation>
     </message>
 </context>
 <context>
@@ -2016,13 +2023,13 @@ Please make sure it&apos;s connected.</source>
         <location filename="../src/platform/desktop/SettingsWindow.cpp" line="86"/>
         <location filename="../src/platform/desktop/SettingsWindow.cpp" line="435"/>
         <source>General</source>
-        <translation type="unfinished">通用</translation>
+        <translation>通用</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/SettingsWindow.cpp" line="89"/>
         <location filename="../src/platform/desktop/SettingsWindow.cpp" line="436"/>
         <source>Game</source>
-        <translation type="unfinished"></translation>
+        <translation>游戏</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/SettingsWindow.cpp" line="394"/>
@@ -2042,7 +2049,7 @@ Please make sure it&apos;s connected.</source>
     <message>
         <location filename="../src/platform/desktop/SettingsWindow.cpp" line="428"/>
         <source>Playback</source>
-        <translation type="unfinished">Playback</translation>
+        <translation>Playback</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/SettingsWindow.cpp" line="429"/>
@@ -2052,22 +2059,22 @@ Please make sure it&apos;s connected.</source>
     <message>
         <location filename="../src/platform/desktop/SettingsWindow.cpp" line="430"/>
         <source>Emulator</source>
-        <translation type="unfinished"></translation>
+        <translation>模拟器</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/SettingsWindow.cpp" line="431"/>
         <source>Device</source>
-        <translation type="unfinished"></translation>
+        <translation>设备</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/SettingsWindow.cpp" line="432"/>
         <source>Controls</source>
-        <translation type="unfinished"></translation>
+        <translation>控制</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/SettingsWindow.cpp" line="433"/>
         <source>Integrations</source>
-        <translation type="unfinished"></translation>
+        <translation>集成</translation>
     </message>
     <message>
         <source>Emulator Settings</source>
@@ -2100,17 +2107,17 @@ Please make sure it&apos;s connected.</source>
     <message>
         <location filename="../src/platform/desktop/SettingsWindowUIComponents.cpp" line="135"/>
         <source>Save</source>
-        <translation type="unfinished">保存</translation>
+        <translation>保存</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/SettingsWindowUIComponents.cpp" line="136"/>
         <source>Restore defaults</source>
-        <translation type="unfinished">恢复默认设置</translation>
+        <translation>恢复默认设置</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/SettingsWindowUIComponents.cpp" line="137"/>
         <source>Rebind keys</source>
-        <translation type="unfinished">重新绑定按键</translation>
+        <translation>重新绑定按键</translation>
     </message>
 </context>
 <context>
@@ -2150,7 +2157,7 @@ Please make sure it&apos;s connected.</source>
     <message>
         <location filename="../src/platform/desktop/StartControllerWidget.cpp" line="62"/>
         <source>Access the Vault for this game. The vault contains auto-saves created while playing the game.</source>
-        <translation>访问此游戏的保险库。保险库包含游戏过程中创建的自动存档。</translation>
+        <translation>访问此游戏的Vault。Vault包含游戏过程中创建的自动存档。</translation>
     </message>
 </context>
 <context>
@@ -2158,22 +2165,22 @@ Please make sure it&apos;s connected.</source>
     <message>
         <location filename="../src/platform/desktop/TermsOfServiceWindow.cpp" line="78"/>
         <source>Error: Could not load Terms of Service.</source>
-        <translation type="unfinished"></translation>
+        <translation>错误：无法加载服务条款。</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/TermsOfServiceWindow.cpp" line="206"/>
         <source>Terms of Service</source>
-        <translation type="unfinished"></translation>
+        <translation>服务条款</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/TermsOfServiceWindow.cpp" line="232"/>
         <source>Decline</source>
-        <translation type="unfinished"></translation>
+        <translation>拒绝</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/TermsOfServiceWindow.cpp" line="236"/>
         <source>I Agree</source>
-        <translation type="unfinished"></translation>
+        <translation>同意</translation>
     </message>
 </context>
 <context>
@@ -2255,7 +2262,7 @@ Tip: Use external programs to trigger in-game events or customize gameplay.</sou
     <message>
         <location filename="../src/platform/desktop/Window.cpp" line="73"/>
         <source>Graphics Hardware Not Supported</source>
-        <translation type="unfinished">不支持的图形硬件</translation>
+        <translation>不支持的图形硬件</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/Window.cpp" line="74"/>
@@ -2263,7 +2270,10 @@ Tip: Use external programs to trigger in-game events or customize gameplay.</sou
 
 This application requires OpenGL 3.2 or higher (or OpenGL ES 2.0+).
 Please ensure your graphics drivers are up to date.</source>
-        <translation type="unfinished"></translation>
+        <translation>你的图形硬件不满足最低要求。
+
+此应用需要 OpenGL 3.2 或更高版本（或 OpenGL ES 2.0+）。
+请确保你的图形驱动为最新版本。</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/Window.cpp" line="215"/>
