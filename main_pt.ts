@@ -618,7 +618,13 @@ Não remova o cartucho enquanto qualquer operação estiver em execução.</tran
 <context>
     <name>DeviceSwitcherDropdown</name>
     <message>
-        <location filename="../src/platform/desktop/DeviceSwitcherDropdown.cpp" line="170"/>
+        <location filename="../src/platform/desktop/DeviceSwitcherDropdown.cpp" line="127"/>
+        <source>The SN Operator is here!
+Get it on epilogue.co</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/platform/desktop/DeviceSwitcherDropdown.cpp" line="192"/>
         <source>Expand your collection on epilogue.co</source>
         <translation>Expanda sua coleção em epilogue.co</translation>
     </message>
@@ -626,7 +632,7 @@ Não remova o cartucho enquanto qualquer operação estiver em execução.</tran
 <context>
     <name>DeviceSwitcherDropdownStoreItem</name>
     <message>
-        <location filename="../src/platform/desktop/DeviceSwitcherDropdown.cpp" line="269"/>
+        <location filename="../src/platform/desktop/DeviceSwitcherDropdown.cpp" line="291"/>
         <source>View more</source>
         <translation>Ver mais</translation>
     </message>

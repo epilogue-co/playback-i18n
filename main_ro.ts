@@ -618,7 +618,13 @@ Nu scoate caseta în timp ce se desfășoară orice operațiune.</translation>
 <context>
     <name>DeviceSwitcherDropdown</name>
     <message>
-        <location filename="../src/platform/desktop/DeviceSwitcherDropdown.cpp" line="170"/>
+        <location filename="../src/platform/desktop/DeviceSwitcherDropdown.cpp" line="127"/>
+        <source>The SN Operator is here!
+Get it on epilogue.co</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/platform/desktop/DeviceSwitcherDropdown.cpp" line="192"/>
         <source>Expand your collection on epilogue.co</source>
         <translation>Extinde colecția ta de dispozitive pe epilogue.co</translation>
     </message>
@@ -626,7 +632,7 @@ Nu scoate caseta în timp ce se desfășoară orice operațiune.</translation>
 <context>
     <name>DeviceSwitcherDropdownStoreItem</name>
     <message>
-        <location filename="../src/platform/desktop/DeviceSwitcherDropdown.cpp" line="269"/>
+        <location filename="../src/platform/desktop/DeviceSwitcherDropdown.cpp" line="291"/>
         <source>View more</source>
         <translation>Vezi mai multe</translation>
     </message>
