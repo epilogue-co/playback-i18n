@@ -11,7 +11,7 @@
 | 🇯🇵 Japanese              | Human         | ❌           | 97               |
 | 🇰🇷 Korean                | Human         | ❌           | 97               |
 | 🇵🇹 Portuguese            | AI            | ❌           | 97               |
-| 🇷🇴 Romanian              | Human         | ❌           | 97               |
+| 🇷🇴 Romanian              | Human         | ✅           | 0                |
 | 🇨🇳 Simplified Chinese    | Human         | ❌           | 97               |
 | 🇪🇸 Spanish               | Human         | ❌           | 97               |
 
