@@ -4,7 +4,7 @@
 
 | Language               | Type          | Complete    | Missing Strings  |
 | ---------------------- | ------------- | --------    | ---------------  |
-| 🇳🇱 Dutch                 | AI            | ❌           | 97               |
+| 🇳🇱 Dutch                 | AI            | ✅           | 0                |
 | 🇫🇷 French                | Human         | ❌           | 97               |
 | 🇩🇪 German                | Human         | ❌           | 97               |
 | 🇮🇹 Italian               | AI            | ❌           | 97               |
