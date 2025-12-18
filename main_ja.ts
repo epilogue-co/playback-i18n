@@ -36,7 +36,7 @@
     <message>
         <location filename="../src/platform/desktop/AboutWindow.cpp" line="204"/>
         <source>™ and © 2020-2025 Epilogue. &lt;br&gt;All rights reserved. </source>
-        <translation>™ and © 2020-2025 Epilogue.&lt;br&gt;無断複写・転載を禁じます。</translation>
+        <translation>™ and © 2020-2025 Epilogue.&lt;br&gt;無断複写・転載を禁じます. </translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/AboutWindow.cpp" line="195"/>
@@ -189,7 +189,7 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/platform/desktop/ControlsWidget.cpp" line="87"/>
         <source>Player</source>
-        <translation type="unfinished"></translation>
+        <translation>プレイヤー</translation>
     </message>
 </context>
 <context>
@@ -222,7 +222,7 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/platform/desktop/CoreCardWidget.cpp" line="305"/>
         <source>Remove</source>
-        <translation type="unfinished"></translation>
+        <translation>削除</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/CoreCardWidget.cpp" line="306"/>
@@ -374,7 +374,7 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/platform/desktop/CustomCheatCodesWidget.cpp" line="178"/>
         <source>Add your own custom cheats...</source>
-        <translation type="unfinished"></translation>
+        <translation>自分でチートを追加...</translation>
     </message>
     <message>
         <source>Description</source>
@@ -394,12 +394,12 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/platform/desktop/CustomCheatCodesWidget.cpp" line="277"/>
         <source>Description...</source>
-        <translation type="unfinished"></translation>
+        <translation>説明...</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/CustomCheatCodesWidget.cpp" line="278"/>
         <source>Code...</source>
-        <translation type="unfinished"></translation>
+        <translation>コード...</translation>
     </message>
 </context>
 <context>
@@ -423,12 +423,12 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/platform/desktop/DatabaseCheatCodesWidget.cpp" line="112"/>
         <source> Default</source>
-        <translation type="unfinished"></translation>
+        <translation> デフォルト</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/DatabaseCheatCodesWidget.cpp" line="113"/>
         <source>Search...</source>
-        <translation type="unfinished"></translation>
+        <translation>検索...</translation>
     </message>
 </context>
 <context>
@@ -436,27 +436,27 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/platform/desktop/DeadzoneWidget.cpp" line="26"/>
         <source>Joystick Deadzone</source>
-        <translation type="unfinished"></translation>
+        <translation>ジョイスティックのデッドゾーン</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/DeadzoneWidget.cpp" line="65"/>
         <source>Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>モード</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/DeadzoneWidget.cpp" line="75"/>
         <source>Linear</source>
-        <translation type="unfinished"></translation>
+        <translation>リニア</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/DeadzoneWidget.cpp" line="76"/>
         <source>Radial</source>
-        <translation type="unfinished"></translation>
+        <translation>放射状</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/DeadzoneWidget.cpp" line="77"/>
         <source>Scaled</source>
-        <translation type="unfinished"></translation>
+        <translation>スケール</translation>
     </message>
 </context>
 <context>
@@ -464,7 +464,7 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/platform/desktop/DesktopEmulatorDialogs.cpp" line="111"/>
         <source>Load Failed</source>
-        <translation type="unfinished"></translation>
+        <translation>読み込みに失敗しました</translation>
     </message>
 </context>
 <context>
@@ -523,7 +523,7 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/core/DeviceHardwareOperations.cpp" line="130"/>
         <source>Playback detected a discrepancy between the expected game data and the backed up data. Please clean the cartridge pins and try again to ensure accuracy.</source>
-        <translation>プレイバックで、予想されるゲームデータとバックアップされたデータの不一致が検出されました。カートリッジのピンを清掃し、再度お試しください。</translation>
+        <translation>Playback が、想定されるゲームデータとバックアップされたデータの不一致を検出しました。カートリッジのピンを清掃し、もう一度お試しください。</translation>
     </message>
     <message>
         <location filename="../src/core/DeviceHardwareOperations.cpp" line="167"/>
@@ -599,7 +599,7 @@ Do not remove the cartridge while any operation is running.</source>
         <location filename="../src/core/DeviceHardware.cpp" line="201"/>
         <location filename="../src/core/DeviceHardware.cpp" line="250"/>
         <source>Device disconnected</source>
-        <translation type="unfinished"></translation>
+        <translation>デバイスが切断されました</translation>
     </message>
 </context>
 <context>
@@ -621,7 +621,8 @@ Do not remove the cartridge while any operation is running.</source>
         <location filename="../src/platform/desktop/DeviceSwitcherDropdown.cpp" line="127"/>
         <source>The SN Operator is here!
 Get it on epilogue.co</source>
-        <translation type="unfinished"></translation>
+        <translation>SN Operatorが登場！
+epilogue.coで入手</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/DeviceSwitcherDropdown.cpp" line="192"/>
@@ -688,22 +689,22 @@ OpenGL詳細:
     <message>
         <location filename="../src/platform/common/Emulator.cpp" line="577"/>
         <source>ROM integrity check failed. Do you want to continue loading?</source>
-        <translation type="unfinished"></translation>
+        <translation>ROMの整合性チェックに失敗しました。読み込みを続行しますか？</translation>
     </message>
     <message>
         <location filename="../src/platform/common/Emulator.cpp" line="589"/>
         <source>Failed to load game! Unable to launch the game, please make sure that the cartridge is clean.</source>
-        <translation type="unfinished"></translation>
+        <translation>ゲームの読み込みに失敗しました！起動できません。カートリッジが汚れていないか確認してください。</translation>
     </message>
     <message>
         <location filename="../src/platform/common/Emulator.cpp" line="594"/>
         <source>Failed to load save data! The core failed to load the save data.</source>
-        <translation type="unfinished"></translation>
+        <translation>セーブデータの読み込みに失敗しました！コアがセーブデータを読み込めませんでした。</translation>
     </message>
     <message>
         <location filename="../src/platform/common/Emulator.cpp" line="600"/>
         <source>Save size mismatch detected. Do you want to continue loading?</source>
-        <translation type="unfinished"></translation>
+        <translation>セーブサイズの不一致が検出されました。読み込みを続行しますか？</translation>
     </message>
     <message>
         <location filename="../src/platform/common/Emulator.cpp" line="791"/>
@@ -790,17 +791,17 @@ OpenGL詳細:
     <message>
         <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="261"/>
         <source>Rewind Buffer Size (MB)</source>
-        <translation type="unfinished"></translation>
+        <translation>巻き戻しバッファサイズ (MB)</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="262"/>
         <source>Rewind Granularity</source>
-        <translation type="unfinished"></translation>
+        <translation>巻き戻し間隔</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="263"/>
         <source>Rewind Speed</source>
-        <translation type="unfinished"></translation>
+        <translation>巻き戻し速度</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="265"/>
@@ -810,17 +811,17 @@ OpenGL詳細:
     <message>
         <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="278"/>
         <source>The amount of memory (in MB) to reserve for the rewind buffer. A larger buffer allows for a longer rewind history but might also cause system instability.</source>
-        <translation type="unfinished"></translation>
+        <translation>巻き戻しバッファに予約するメモリ量（MB）。大きいほど巻き戻せる時間が長くなりますが、システムが不安定になる可能性があります。</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="281"/>
         <source>Saves a state every N frames. Higher values use less memory but result in a less precise rewind.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nフレームごとにステートを保存します。値が大きいほどメモリ使用量は減りますが、巻き戻しの精度が下がります。</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="283"/>
         <source>Controls the playback speed of the rewind animation. Higher values are faster.</source>
-        <translation type="unfinished"></translation>
+        <translation>巻き戻しアニメーションの再生速度を調整します。値が大きいほど速くなります。</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="285"/>
@@ -830,17 +831,17 @@ OpenGL詳細:
     <message>
         <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="305"/>
         <source>Every 1 frame (Smoothest)</source>
-        <translation type="unfinished"></translation>
+        <translation>1フレームごと（最も滑らか）</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="306"/>
         <source>Every 6 frames (Least precise)</source>
-        <translation type="unfinished"></translation>
+        <translation>6フレームごと（最も粗い）</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="307"/>
         <source>Every %1 frames</source>
-        <translation type="unfinished"></translation>
+        <translation>%1フレームごと</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="311"/>
@@ -916,12 +917,12 @@ please do not disconnect the device.</source>
     <message>
         <location filename="../src/platform/desktop/InputBindingsScreen.cpp" line="235"/>
         <source>Mouse input uses pre-configured bindings. Move the mouse and use left/right click to test inputs. If inputs don&apos;t respond, make sure the game supports mouse controls.</source>
-        <translation type="unfinished"></translation>
+        <translation>マウス入力は事前設定された割り当てを使用します。マウスを動かし、左/右クリックで入力をテストしてください。反応しない場合は、ゲームがマウス操作に対応しているか確認してください。</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/InputBindingsScreen.cpp" line="240"/>
         <source>Lightgun input uses pre-configured mouse bindings. Aim: move mouse. Trigger: left click. Cursor: right click. Pause: middle click. Turbo: left + right click. If inputs don&apos;t respond, make sure the game supports lightgun controls.</source>
-        <translation type="unfinished"></translation>
+        <translation>ライトガン入力は事前設定されたマウス割り当てを使用します。照準: マウス移動。トリガー: 左クリック。カーソル: 右クリック。ポーズ: 中クリック。ターボ: 左+右クリック。反応しない場合は、ゲームがライトガン操作に対応しているか確認してください。</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/InputBindingsScreen.cpp" line="255"/>
@@ -936,7 +937,7 @@ please do not disconnect the device.</source>
     <message>
         <location filename="../src/platform/desktop/InputBindingsScreen.cpp" line="262"/>
         <source>Controls</source>
-        <translation type="unfinished"></translation>
+        <translation>操作</translation>
     </message>
     <message>
         <source>Controls Settings</source>
@@ -958,7 +959,7 @@ please do not disconnect the device.</source>
     <message>
         <location filename="../src/platform/desktop/IntegrationsAccordionWidget.cpp" line="182"/>
         <source>&lt;a href=&apos;login&apos; style=&apos;color: white;&apos;&gt;Log in&lt;/a&gt; with your %1 account.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1アカウントで&lt;a href=&apos;login&apos; style=&apos;color: white;&apos;&gt;ログイン&lt;/a&gt;.</translation>
     </message>
 </context>
 <context>
@@ -966,27 +967,27 @@ please do not disconnect the device.</source>
     <message>
         <location filename="../src/platform/desktop/IntegrationsLoginWindow.cpp" line="92"/>
         <source>Login to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>%1にログイン</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsLoginWindow.cpp" line="93"/>
         <source>Username</source>
-        <translation type="unfinished">ユーザー名</translation>
+        <translation>ユーザー名</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsLoginWindow.cpp" line="94"/>
         <source>Password</source>
-        <translation type="unfinished">パスワード</translation>
+        <translation>パスワード</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsLoginWindow.cpp" line="95"/>
         <source>Login</source>
-        <translation type="unfinished">ログイン</translation>
+        <translation>ログイン</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsLoginWindow.cpp" line="96"/>
         <source>Don&apos;t have a %1 account?&lt;br&gt;&lt;a style=&apos;color: #158EFF&apos; href=&quot;%2&quot;&gt;Sign up&lt;/a&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>%1アカウントをお持ちでないですか？&lt;br&gt;&lt;a style=&apos;color: #158EFF&apos; href=&quot;%2&quot;&gt;登録&lt;/a&gt;</translation>
     </message>
 </context>
 <context>
@@ -995,107 +996,107 @@ please do not disconnect the device.</source>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="200"/>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="214"/>
         <source>Authentication Failed</source>
-        <translation type="unfinished">認証失敗</translation>
+        <translation>認証に失敗しました</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="200"/>
         <source>Invalid username or password. Please check your credentials and try again.</source>
-        <translation type="unfinished">ユーザー名またはパスワードが無効です。認証情報を確認して再度お試しください。</translation>
+        <translation>ユーザー名またはパスワードが無効です。認証情報を確認して再度お試しください。</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="214"/>
         <source>Failed to authenticate with Discord. Please try again.</source>
-        <translation type="unfinished"></translation>
+        <translation>Discordの認証に失敗しました。もう一度お試しください。</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="257"/>
         <source>Hardcore Mode (needs emulator restart)</source>
-        <translation type="unfinished">ハードコアモード（エミュレーターの再起動が必要）</translation>
+        <translation>ハードコアモード（エミュレーターの再起動が必要）</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="258"/>
         <source>Encore Mode (needs emulator restart)</source>
-        <translation type="unfinished">アンコールモード（エミュレーターの再起動が必要）</translation>
+        <translation>アンコールモード（エミュレーターの再起動が必要）</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="259"/>
         <source>Show Leaderboards Notifications</source>
-        <translation type="unfinished">リーダーボード通知を表示</translation>
+        <translation>リーダーボード通知を表示</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="260"/>
         <source>Show Leaderboards Tracker</source>
-        <translation type="unfinished">リーダーボードトラッカーを表示</translation>
+        <translation>リーダーボードトラッカーを表示</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="261"/>
         <source>Show Progress Indicator</source>
-        <translation type="unfinished">進行状況インジケーターを表示</translation>
+        <translation>進行状況インジケーターを表示</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="262"/>
         <source>Show Challenge Indicators</source>
-        <translation type="unfinished">チャレンジインジケーターを表示</translation>
+        <translation>チャレンジインジケーターを表示</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="268"/>
         <source>Disables cheats, pausing and slow-motion. Achievements earned in hardcore mode are uniquely marked so that you can show others what you&apos;ve achieved without emulator assistance features.</source>
-        <translation type="unfinished">チート、一時停止、スローモーションを無効化します。ハードコアモードで獲得したアチーブメントは特別にマークされ、エミュレーター支援機能なしで達成したことを他の人に示すことができます。</translation>
+        <translation>チート、一時停止、スローモーションを無効化します。ハードコアモードで獲得したアチーブメントは特別にマークされ、エミュレーター支援機能なしで達成したことを他の人に示すことができます。</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="271"/>
         <source>Re-activate previously earned achievements to experience them again. Note: Points are not re-awarded.</source>
-        <translation type="unfinished">以前に獲得したアチーブメントを再有効化し、再び体験することができます。注意：ポイントの再付与はありません。</translation>
+        <translation>以前に獲得したアチーブメントを再有効化し、再び体験することができます。注意：ポイントの再付与はありません。</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="273"/>
         <source>Show leaderboards related notifications in the notification area.</source>
-        <translation type="unfinished">通知エリアにリーダーボード関連の通知を表示します。</translation>
+        <translation>通知エリアにリーダーボード関連の通知を表示します。</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="275"/>
         <source>Show leaderboards tracker in the notification area.</source>
-        <translation type="unfinished">通知エリアにリーダーボードトラッカーを表示します。</translation>
+        <translation>通知エリアにリーダーボードトラッカーを表示します。</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="277"/>
         <source>Show progress indicator in the notification area when an achievement is being tracked.</source>
-        <translation type="unfinished">アチーブメントが追跡されているときに、通知エリアに進行状況インジケーターを表示します。</translation>
+        <translation>アチーブメントが追跡されているときに、通知エリアに進行状況インジケーターを表示します。</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="279"/>
         <source>Show challenge indicators in the notification area when achievements are being attempted.</source>
-        <translation type="unfinished"></translation>
+        <translation>アチーブメントに挑戦している間、通知エリアにチャレンジ指標を表示します。</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="284"/>
         <source>Enabled</source>
-        <translation type="unfinished">有効</translation>
+        <translation>有効</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="285"/>
         <source>Disabled</source>
-        <translation type="unfinished">無効</translation>
+        <translation>無効</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="290"/>
         <source>Integrations</source>
-        <translation type="unfinished"></translation>
+        <translation>連携</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="292"/>
         <source>Unlock a new dimension to your Playback experience! As time goes on, there is an ever-growing list of integrations which allow you to customise and enhance your gaming sessions. Check out the available options below, and give any (or all) of them a try.</source>
-        <translation type="unfinished"></translation>
+        <translation>Playback体験をさらに拡張！時間とともに増え続ける連携機能で、ゲームセッションをカスタマイズ＆強化できます。下のオプションをチェックして、ぜひ試してみてください。</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="296"/>
         <source>Link Playback to your RA account, and start earning achievements in your favorite classic games.</source>
-        <translation type="unfinished"></translation>
+        <translation>PlaybackをRAアカウントに連携して、お気に入りのクラシックゲームで実績を獲得しましょう。</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="298"/>
         <source>Link Playback to your Discord account, and share the exact game you’re playing with your friends!</source>
-        <translation type="unfinished"></translation>
+        <translation>PlaybackをDiscordアカウントに連携して、プレイ中のゲームを友だちに共有しましょう！</translation>
     </message>
 </context>
 <context>
@@ -1382,12 +1383,12 @@ You can try cleaning then re-inserting the cartridge into the device.
     <message>
         <location filename="../src/platform/desktop/PhotosPage.cpp" line="174"/>
         <source>Select Directory to Save Photos</source>
-        <translation type="unfinished"></translation>
+        <translation>写真を保存するフォルダーを選択</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PhotosPage.cpp" line="177"/>
         <source>Save</source>
-        <translation type="unfinished">セーブ</translation>
+        <translation>保存</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PhotosPage.cpp" line="199"/>
@@ -1418,12 +1419,12 @@ You can try cleaning then re-inserting the cartridge into the device.
     <message>
         <location filename="../src/platform/desktop/PhotosPage.cpp" line="357"/>
         <source>SAVE</source>
-        <translation type="unfinished"></translation>
+        <translation>保存</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PhotosPage.cpp" line="358"/>
         <source>DELETE</source>
-        <translation type="unfinished"></translation>
+        <translation>削除</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PhotosPage.cpp" line="359"/>
@@ -1488,27 +1489,27 @@ If you&apos;d like to easily remove all the pictures from your camera, without h
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="109"/>
         <source>Enable Rewind</source>
-        <translation type="unfinished"></translation>
+        <translation>巻き戻しを有効化</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="110"/>
         <source>Enable Fast Forward</source>
-        <translation type="unfinished"></translation>
+        <translation>早送りを有効化</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="111"/>
         <source>Enable Soft Reset</source>
-        <translation type="unfinished"></translation>
+        <translation>ソフトリセットを有効化</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="112"/>
         <source>Enable Picture-in-Picture</source>
-        <translation type="unfinished"></translation>
+        <translation>ピクチャーインピクチャーを有効化</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="113"/>
         <source>Photo Scaling</source>
-        <translation type="unfinished"></translation>
+        <translation>写真のスケーリング</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="130"/>
@@ -1518,32 +1519,32 @@ If you&apos;d like to easily remove all the pictures from your camera, without h
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="135"/>
         <source>When enabled and supported by the game, Playback adds real-time clock (RTC) data to the save file. This ensures accurate preservation of time-based events. Note that this will increase the file size and might make it incompatible with other software.</source>
-        <translation>有効にすると、ゲームが対応している場合、プレイバックはリアルタイムクロック (RTC) データをセーブファイルに追加します。これにより、時間に基づくイベントが正確に保存されます。ただし、ファイルサイズが増加し、他のソフトウェアと互換性がなくなる可能性があります。</translation>
+        <translation>有効にすると、ゲームが対応している場合、Playback はリアルタイムクロック (RTC) データをセーブファイルに追加します。これにより、時間に基づくイベントが正確に保存されます。ただし、ファイルサイズが増加し、他のソフトウェアと互換性がなくなる可能性があります。</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="151"/>
         <source>Enables the rewind feature, allowing you to go back in time during gameplay. This is useful for correcting mistakes or exploring different game paths without starting over.</source>
-        <translation type="unfinished"></translation>
+        <translation>巻き戻し機能を有効にし、プレイ中に時間を戻せます。ミスの修正や別ルートの試行に便利です。</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="154"/>
         <source>When enabled, this feature allows you to speed up the game playback, making it easier to skip through slower sections or quickly navigate through menus.</source>
-        <translation type="unfinished"></translation>
+        <translation>有効にするとゲームを高速化でき、遅い場面を飛ばしたりメニュー移動を素早く行えます。</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="157"/>
         <source>Enables the soft reset feature, allowing you to quickly reset the game without turning off the emulation. This is useful for quickly restarting a game or returning to the main menu.</source>
-        <translation type="unfinished"></translation>
+        <translation>ソフトリセットを有効にし、エミュレーションを止めずに素早くゲームをリセットできます。再スタートやメインメニューに戻るのに便利です。</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="161"/>
         <source>Enables the Picture-in-Picture (PiP) mode, allowing you to view the game in a small window. This is useful for multitasking.</source>
-        <translation type="unfinished"></translation>
+        <translation>PiPモードを有効にし、小さなウィンドウでゲームを表示できます。マルチタスクに便利です。</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="164"/>
         <source>Scales GB Camera saved photos to the specified size.</source>
-        <translation type="unfinished"></translation>
+        <translation>GB Cameraで保存した写真を指定サイズに拡大/縮小します。</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="103"/>
@@ -1608,7 +1609,7 @@ If you&apos;d like to easily remove all the pictures from your camera, without h
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="92"/>
         <source>Configure how transfers are handled in the Data section of Playback.</source>
-        <translation>プレイバックのデータセクションで、転送の処理方法を設定します。</translation>
+        <translation>Playback のデータセクションで、転送の処理方法を設定します。</translation>
     </message>
 </context>
 <context>
@@ -1773,7 +1774,8 @@ Hardcore mode is active - cheats and slow motion are disabled.</source>
         <location filename="../src/core/RAController.cpp" line="349"/>
         <source>
 Hardcore mode is active - cheats, rewind and slow motion are disabled.</source>
-        <translation type="unfinished"></translation>
+        <translation>
+ハードコアモードが有効です - チート、巻き戻し、スローモーションは無効になります。</translation>
     </message>
     <message>
         <location filename="../src/core/RAController.cpp" line="387"/>
@@ -1935,7 +1937,12 @@ Backups of the original save on the cartridge is made to the vault, however proc
 
 Would you like to proceed?
 </source>
-        <translation type="unfinished"></translation>
+        <translation>エミュレーターコアが報告しているセーブサイズが、カートリッジで検出したものと異なります。
+
+カートリッジ上の元のセーブはVaultにバックアップされますが、続行すると使用できないセーブが作成される可能性があります。
+
+続行しますか？
+</translation>
     </message>
     <message>
         <source>The emulator core is currently reporting a save size which is different than what we detected on the cartridge.
@@ -1946,7 +1953,7 @@ Would you like to proceed?
 </source>
         <translation type="vanished">エミュレータのコアは現在、カートリッジで検出されたものとは異なるセーブサイズを報告しています。
 
-この問題についてはこちらをご覧ください。カートリッジ上のオリジナルセーブは保管庫にバックアップされますが、バックアップを進めると使用できないセーブが作成される可能性があります。
+	この問題についてはこちらをご覧ください。カートリッジ上のオリジナルセーブはVaultにバックアップされますが、バックアップを進めると使用できないセーブが作成される可能性があります。
 
 続行しますか？
 </translation>
@@ -1957,37 +1964,37 @@ Would you like to proceed?
     <message>
         <location filename="../src/platform/desktop/CartDetailsWidget.cpp" line="653"/>
         <source>Perfect, highly recommended!</source>
-        <translation type="unfinished"></translation>
+        <translation>完璧、超おすすめ！</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/CartDetailsWidget.cpp" line="655"/>
         <source>Awesome, definitely a must-play!</source>
-        <translation type="unfinished"></translation>
+        <translation>最高、絶対にプレイすべき！</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/CartDetailsWidget.cpp" line="657"/>
         <source>Great, would replay more than once.</source>
-        <translation type="unfinished"></translation>
+        <translation>とても良い、何度でも遊びたい。</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/CartDetailsWidget.cpp" line="659"/>
         <source>Best enjoyed in a full playthrough.</source>
-        <translation type="unfinished"></translation>
+        <translation>通しプレイで楽しむのがおすすめ。</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/CartDetailsWidget.cpp" line="661"/>
         <source>Good, worth giving it a try.</source>
-        <translation type="unfinished"></translation>
+        <translation>良い、試す価値あり。</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/CartDetailsWidget.cpp" line="663"/>
         <source>Fun, but could be better.</source>
-        <translation type="unfinished"></translation>
+        <translation>楽しいけど、もう一歩。</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/CartDetailsWidget.cpp" line="665"/>
         <source>Not our no. 1 favorite.</source>
-        <translation type="unfinished"></translation>
+        <translation>一番のお気に入りではないかも。</translation>
     </message>
 </context>
 <context>
@@ -2016,13 +2023,13 @@ Please make sure it&apos;s connected.</source>
         <location filename="../src/platform/desktop/SettingsWindow.cpp" line="86"/>
         <location filename="../src/platform/desktop/SettingsWindow.cpp" line="435"/>
         <source>General</source>
-        <translation type="unfinished">一般設定</translation>
+        <translation>一般</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/SettingsWindow.cpp" line="89"/>
         <location filename="../src/platform/desktop/SettingsWindow.cpp" line="436"/>
         <source>Game</source>
-        <translation type="unfinished"></translation>
+        <translation>ゲーム</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/SettingsWindow.cpp" line="394"/>
@@ -2042,7 +2049,7 @@ Please make sure it&apos;s connected.</source>
     <message>
         <location filename="../src/platform/desktop/SettingsWindow.cpp" line="428"/>
         <source>Playback</source>
-        <translation type="unfinished">Playback</translation>
+        <translation>Playback</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/SettingsWindow.cpp" line="429"/>
@@ -2052,22 +2059,22 @@ Please make sure it&apos;s connected.</source>
     <message>
         <location filename="../src/platform/desktop/SettingsWindow.cpp" line="430"/>
         <source>Emulator</source>
-        <translation type="unfinished"></translation>
+        <translation>エミュレーター</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/SettingsWindow.cpp" line="431"/>
         <source>Device</source>
-        <translation type="unfinished"></translation>
+        <translation>デバイス</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/SettingsWindow.cpp" line="432"/>
         <source>Controls</source>
-        <translation type="unfinished"></translation>
+        <translation>操作</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/SettingsWindow.cpp" line="433"/>
         <source>Integrations</source>
-        <translation type="unfinished"></translation>
+        <translation>連携</translation>
     </message>
     <message>
         <source>Emulator Settings</source>
@@ -2100,17 +2107,17 @@ Please make sure it&apos;s connected.</source>
     <message>
         <location filename="../src/platform/desktop/SettingsWindowUIComponents.cpp" line="135"/>
         <source>Save</source>
-        <translation type="unfinished">セーブ</translation>
+        <translation>保存</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/SettingsWindowUIComponents.cpp" line="136"/>
         <source>Restore defaults</source>
-        <translation type="unfinished">デフォルトに戻す</translation>
+        <translation>デフォルトに戻す</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/SettingsWindowUIComponents.cpp" line="137"/>
         <source>Rebind keys</source>
-        <translation type="unfinished">キーの再設定</translation>
+        <translation>キーを再割り当て</translation>
     </message>
 </context>
 <context>
@@ -2150,7 +2157,7 @@ Please make sure it&apos;s connected.</source>
     <message>
         <location filename="../src/platform/desktop/StartControllerWidget.cpp" line="62"/>
         <source>Access the Vault for this game. The vault contains auto-saves created while playing the game.</source>
-        <translation>このゲームの保管庫にアクセスします。保管庫には、ゲームプレイ中に作成されたオートセーブが保存されています。</translation>
+        <translation>このゲームのVaultにアクセスします。Vaultには、ゲームプレイ中に作成されたオートセーブが保存されています。</translation>
     </message>
 </context>
 <context>
@@ -2158,22 +2165,22 @@ Please make sure it&apos;s connected.</source>
     <message>
         <location filename="../src/platform/desktop/TermsOfServiceWindow.cpp" line="78"/>
         <source>Error: Could not load Terms of Service.</source>
-        <translation type="unfinished"></translation>
+        <translation>エラー: 利用規約を読み込めませんでした。</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/TermsOfServiceWindow.cpp" line="206"/>
         <source>Terms of Service</source>
-        <translation type="unfinished"></translation>
+        <translation>利用規約</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/TermsOfServiceWindow.cpp" line="232"/>
         <source>Decline</source>
-        <translation type="unfinished"></translation>
+        <translation>同意しない</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/TermsOfServiceWindow.cpp" line="236"/>
         <source>I Agree</source>
-        <translation type="unfinished"></translation>
+        <translation>同意する</translation>
     </message>
 </context>
 <context>
@@ -2255,7 +2262,7 @@ Tip: Use external programs to trigger in-game events or customize gameplay.</sou
     <message>
         <location filename="../src/platform/desktop/Window.cpp" line="73"/>
         <source>Graphics Hardware Not Supported</source>
-        <translation type="unfinished">グラフィックスハードウェアがサポートされていません</translation>
+        <translation>グラフィックハードウェアが未対応です</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/Window.cpp" line="74"/>
@@ -2263,7 +2270,10 @@ Tip: Use external programs to trigger in-game events or customize gameplay.</sou
 
 This application requires OpenGL 3.2 or higher (or OpenGL ES 2.0+).
 Please ensure your graphics drivers are up to date.</source>
-        <translation type="unfinished"></translation>
+        <translation>お使いのグラフィックハードウェアは最小要件を満たしていません。
+
+このアプリはOpenGL 3.2以上（またはOpenGL ES 2.0+）が必要です。
+グラフィックドライバーが最新であることを確認してください。</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/Window.cpp" line="215"/>
