@@ -6,14 +6,14 @@
 | ---------------------- | ------------- | --------    | ---------------  |
 | 🇳🇱 Dutch                 | AI            | ✅           | 0                |
 | 🇫🇷 French                | Human         | ❌           | 97               |
-| 🇩🇪 German                | Human         | ❌           | 97               |
-| 🇮🇹 Italian               | AI            | ❌           | 97               |
-| 🇯🇵 Japanese              | Human         | ❌           | 97               |
-| 🇰🇷 Korean                | Human         | ❌           | 97               |
-| 🇵🇹 Portuguese            | AI            | ❌           | 97               |
+| 🇩🇪 German                | AI            | ✅           | 0                |
+| 🇮🇹 Italian               | AI            | ✅           | 0                |
+| 🇯🇵 Japanese              | AI            | ✅           | 0                |
+| 🇰🇷 Korean                | AI            | ✅           | 0                |
+| 🇵🇹 Portuguese            | AI            | ✅           | 0                |
 | 🇷🇴 Romanian              | Human         | ✅           | 0                |
-| 🇨🇳 Simplified Chinese    | Human         | ❌           | 97               |
-| 🇪🇸 Spanish               | Human         | ❌           | 97               |
+| 🇨🇳 Simplified Chinese    | AI            | ✅           | 0                |
+| 🇪🇸 Spanish               | AI            | ✅           | 0                |
 
 ## Translation files (i18n)
 
