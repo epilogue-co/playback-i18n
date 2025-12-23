@@ -100,17 +100,17 @@ P.S. Dacă alegi să sari peste tur acum, nu vei mai fi întrebat să-l parcurgi
     <message>
         <location filename="../src/platform/desktop/CartDetailsWidget.cpp" line="564"/>
         <source>Official cartridge</source>
-        <translation>Joc oficial</translation>
+        <translation>Casetă oficială</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/CartDetailsWidget.cpp" line="566"/>
         <source>Unrecognized cartridge</source>
-        <translation>Joc nerecunoscut</translation>
+        <translation>Casetă nerecunoscută</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/CartDetailsWidget.cpp" line="565"/>
         <source>Unofficial cartridge</source>
-        <translation>Joc neoficial</translation>
+        <translation>Casetă neoficială</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/CartDetailsWidget.cpp" line="376"/>
@@ -135,12 +135,12 @@ P.S. Dacă alegi să sari peste tur acum, nu vei mai fi întrebat să-l parcurgi
     <message>
         <location filename="../src/platform/desktop/CartDetailsWidget.cpp" line="567"/>
         <source>Read-only cartridge</source>
-        <translation>Joc read-only</translation>
+        <translation>Casetă read-only</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/CartDetailsWidget.cpp" line="568"/>
         <source>Rewritable cartridge</source>
-        <translation>Joc reinscriptibil</translation>
+        <translation>Casetă reinscriptibilă</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/CartDetailsWidget.cpp" line="569"/>
@@ -217,7 +217,7 @@ Nu scoate caseta în timp ce se desfășoară orice operațiune.</translation>
     <message>
         <location filename="../src/platform/desktop/CoreCardWidget.cpp" line="304"/>
         <source>Browse</source>
-        <translation>Browse</translation>
+        <translation>Răsfoiește</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/CoreCardWidget.cpp" line="305"/>
@@ -407,7 +407,7 @@ Nu scoate caseta în timp ce se desfășoară orice operațiune.</translation>
     <message>
         <location filename="../src/platform/desktop/DataFlowWidget.cpp" line="85"/>
         <source>Data Flow:</source>
-        <translation>Date Binare:</translation>
+        <translation>Flux de date:</translation>
     </message>
 </context>
 <context>
@@ -884,7 +884,7 @@ Vendor: %4</translation>
     <message>
         <location filename="../src/platform/desktop/UIComponents.cpp" line="179"/>
         <source>Warning! Do not disconnect your device.</source>
-        <translation>Atenție! Nu deconecta device-ul.</translation>
+        <translation>Atenție! Nu deconecta dispozitivul.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/UIComponents.cpp" line="181"/>
@@ -1702,7 +1702,7 @@ Dacă dorești să elimini cu ușurință toate imaginile din cameră, fără a 
     <message>
         <location filename="../src/platform/desktop/RAAchievementsWindow.cpp" line="470"/>
         <source>%1% of players have this achievement</source>
-        <translation>%1% dintre jucători au aceast achievement</translation>
+        <translation>%1% dintre jucători au acest achievement</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/RAAchievementsWindow.cpp" line="474"/>
