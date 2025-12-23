@@ -548,7 +548,7 @@ Verwijder de cartridge niet terwijl er een bewerking bezig is.</translation>
     <message>
         <location filename="../src/core/DeviceHardwareOperations.cpp" line="207"/>
         <source>Homebrew Cartridge Erase Failed!</source>
-        <translation>Wissen van zelfgebrouwen cartridge mislukt!</translation>
+        <translation>Wissen van homebrew-cartridge mislukt!</translation>
     </message>
     <message>
         <location filename="../src/core/DeviceHardwareOperations.cpp" line="208"/>
@@ -699,7 +699,7 @@ Zorg ervoor dat uw grafische stuurprogramma&apos;s up-to-date zijn.</translation
     <message>
         <location filename="../src/platform/common/Emulator.cpp" line="594"/>
         <source>Failed to load save data! The core failed to load the save data.</source>
-        <translation>Savegegevens laden mislukt! De core kon de savegegevens niet laden.</translation>
+        <translation>Opslaggegevens laden mislukt! De core kon de opslaggegevens niet laden.</translation>
     </message>
     <message>
         <location filename="../src/platform/common/Emulator.cpp" line="600"/>
@@ -856,7 +856,7 @@ Leverancier: %4</translation>
     <message>
         <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="266"/>
         <source>Gamepad rumble</source>
-        <translation>Gerommel op gamepad</translation>
+        <translation>Gamepad-trillen</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="290"/>
@@ -1128,7 +1128,7 @@ Je kunt proberen de cartridge schoon te maken en vervolgens opnieuw in het appar
     <message>
         <location filename="../src/platform/desktop/UIComponents.cpp" line="164"/>
         <source>Please make sure you configure your Linux system to allow unprivileged access to serial ports.</source>
-        <translation>Zorg ervoor dat uw Linux systeem geconfigureerd is om ongeprivilegieerde toegang tot seriële poorten toe te laten.</translation>
+        <translation>Zorg ervoor dat je Linux systeem geconfigureerd is om ongeprivilegieerde toegang tot seriële poorten toe te laten.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/UIComponents.cpp" line="165"/>
@@ -1143,7 +1143,7 @@ Je kunt proberen de cartridge schoon te maken en vervolgens opnieuw in het appar
     <message>
         <location filename="../src/platform/desktop/UIComponents.cpp" line="166"/>
         <source>to configure your Operator device.</source>
-        <translation>om uw Operator-apparaat te configureren.</translation>
+        <translation>om je Operator-apparaat te configureren.</translation>
     </message>
 </context>
 <context>
@@ -1707,7 +1707,7 @@ Als je gemakkelijk alle foto&apos;s van je camera wilt verwijderen, zonder ze é
     <message>
         <location filename="../src/platform/desktop/RAAchievementsWindow.cpp" line="474"/>
         <source>Missable</source>
-        <translation>Misbbaar</translation>
+        <translation>Misbaar</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/RAAchievementsWindow.cpp" line="475"/>
