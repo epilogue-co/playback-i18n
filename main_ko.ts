@@ -456,7 +456,7 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/platform/desktop/DeadzoneWidget.cpp" line="77"/>
         <source>Scaled</source>
-        <translation>스케일</translation>
+        <translation>스케일됨</translation>
     </message>
 </context>
 <context>
@@ -568,7 +568,7 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/core/DeviceHardwareOperations.cpp" line="263"/>
         <source>Written game data integrity check failed</source>
-        <translation>서면 게임 데이터 무결성 검사 실패</translation>
+        <translation>기록된 게임 데이터 무결성 검사 실패</translation>
     </message>
     <message>
         <location filename="../src/core/DeviceHardwareOperations.cpp" line="263"/>
@@ -1291,7 +1291,7 @@ You can try cleaning then re-inserting the cartridge into the device.
     <message>
         <location filename="../src/platform/desktop/NavbarComponents.cpp" line="129"/>
         <source>Nightly</source>
-        <translation>야간</translation>
+        <translation>Nightly</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/NavbarComponents.cpp" line="127"/>
