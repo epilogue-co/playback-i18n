@@ -1,0 +1,42 @@
+name: Valid Translations
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Qt6
+        uses: jurplel/install-qt-action@v4
+        with:
+          version: '6.5.*'
+          cache: true
+
+      - name: Compile translations
+        run: |
+          failed=0
+          for ts in *.ts; do
+            echo "Compiling $ts..."
+            if ! lrelease "$ts" -qm "${ts%.ts}.qm" 2>&1 | tee /tmp/output.txt; then
+              failed=1
+            fi
+            if grep -q "error" /tmp/output.txt; then
+              failed=1
+            fi
+          done
+          exit $failed
+
+      - name: Check for untranslated strings
+        run: |
+          echo "Checking for unfinished translations..."
+          for ts in *.ts; do
+            count=$(grep -c 'type="unfinished"' "$ts" || true)
+            if [ "$count" -gt 0 ]; then
+              echo "::warning file=$ts::$ts has $count unfinished translation(s)"
+            fi
+          done
