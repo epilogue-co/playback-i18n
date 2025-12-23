@@ -538,7 +538,7 @@ No extraiga el cartucho mientras se esté realizando alguna operación.</transla
     <message>
         <location filename="../src/core/DeviceHardwareOperations.cpp" line="178"/>
         <source>Upload Homebrew Command Failed!</source>
-        <translation>¡El comando Cargar Juego ha fallado!</translation>
+        <translation>¡El comando de carga Homebrew ha fallado!</translation>
     </message>
     <message>
         <location filename="../src/core/DeviceHardwareOperations.cpp" line="179"/>
@@ -781,7 +781,7 @@ Proveedor: %4</translation>
     <message>
         <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="253"/>
         <source>Configure controller and controller rumble settings.</source>
-        <translation>Configure los ajustes del controlador y del estruendo del controlador.</translation>
+        <translation>Configure los ajustes del mando y de la vibración.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="254"/>
