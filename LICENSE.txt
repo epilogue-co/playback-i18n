@@ -1,4 +1,4 @@
-Copyright (c) 2020-2024 Epilogue
+Copyright (c) 2020-2026 Epilogue
 
 The translation files provided in this repository are made available by Parametric Semiconductors Srl, the owner of the Epilogue brand and respective logos, which are trademarks registered in the United States of America and/or other countries worldwide. All rights related to the Playback Software, including its source code, remain with Parametric Semiconductors Srl, unless specified otherwise. All other trademarks mentioned herein are the property of their respective owners.
 

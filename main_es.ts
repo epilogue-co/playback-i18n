@@ -35,8 +35,8 @@
     </message>
     <message>
         <location filename="../src/platform/desktop/AboutWindow.cpp" line="204"/>
-        <source>™ and © 2020-2025 Epilogue. &lt;br&gt;All rights reserved. </source>
-        <translation>™ y © 2020-2025 Epilogue. &lt;br&gt;Todos los derechos reservados. </translation>
+        <source>™ and © 2020-2026 Epilogue. &lt;br&gt;All rights reserved. </source>
+        <translation>™ y © 2020-2026 Epilogue. &lt;br&gt;Todos los derechos reservados. </translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/AboutWindow.cpp" line="195"/>
