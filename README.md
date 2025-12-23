@@ -1,5 +1,7 @@
 # playback-i18n
 
+[![Valid Translations](https://github.com/epilogue-co/playback-i18n/actions/workflows/validate-translations.yml/badge.svg)](https://github.com/epilogue-co/playback-i18n/actions/workflows/validate-translations.yml)
+
 ## Translation status
 
 | Language               | Type          | Complete    | Missing Strings  |
@@ -20,7 +22,7 @@
 All translation modifications need to be created on a separate branch by running the following commands:
 
 ```Bash
-    git checkout -b i18n/update-ja-translation
+git checkout -b i18n/update-ja-translation
 ```
 
 You will need to change the name of the branch accordingly. Once your work is done you need to run `git push` and create a PR out of the changes.
@@ -66,5 +68,5 @@ If you're correcting a translation, you can simply update the contents inside th
 Once you're done updating all entries you need to recompile the translation file and generate a `qm` file by running the command:
 
 ```Bash
-    lrelease i18n/main_ja.ts i18n/main_ja.qm
+lrelease i18n/main_ja.ts i18n/main_ja.qm
 ```
