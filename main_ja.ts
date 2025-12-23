@@ -1143,7 +1143,7 @@ You can try cleaning then re-inserting the cartridge into the device.
     <message>
         <location filename="../src/platform/desktop/UIComponents.cpp" line="166"/>
         <source>to configure your Operator device.</source>
-        <translation>をクリックして、Operator デバイスを設定します。</translation>
+        <translation>をクリックして、Operatorデバイスを設定します。</translation>
     </message>
 </context>
 <context>
@@ -1156,7 +1156,7 @@ You can try cleaning then re-inserting the cartridge into the device.
     <message>
         <location filename="../src/platform/desktop/UIComponents.cpp" line="133"/>
         <source>Your Operator device did not manage to read your cartridge properly. Please make sure that the cartridge is clean and try again.</source>
-        <translation>Operator装置がカートリッジを正しく読み取れませんでした。カートリッジが汚れていないことを確認して、もう一度お試しください。</translation>
+        <translation>Operatorデバイスがカートリッジを正しく読み取れませんでした。カートリッジが汚れていないことを確認して、もう一度お試しください。</translation>
     </message>
 </context>
 <context>
@@ -1178,7 +1178,7 @@ You can try cleaning then re-inserting the cartridge into the device.
     <message>
         <location filename="../src/platform/desktop/ManagePage.cpp" line="116"/>
         <source>[no checksum available]</source>
-        <translation>[チェックサムなし］</translation>
+        <translation>[チェックサムなし]</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/ManagePage.cpp" line="118"/>
@@ -1514,7 +1514,7 @@ If you&apos;d like to easily remove all the pictures from your camera, without h
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="130"/>
         <source>When enabled, games are displayed with integer scaling to ensure pixels are displayed at exact multiples of their original size. This eliminates graphical artifacts and preserves the authentic look of retro games at the expense of some screen space.</source>
-        <translation>有効にすると、ゲームは整数倍のスケーリングで表示され、ピクセルが元のサイズの正確な倍数で表示されます。これにより、画面スペースが多少犯牲になるものの、グラフィックの乱れが解消され、レトロゲームの本来の見た目が保たれます。</translation>
+        <translation>有効にすると、ゲームは整数倍のスケーリングで表示され、ピクセルが元のサイズの正確な倍数で表示されます。これにより、画面スペースが多少犠牲になるものの、グラフィックの乱れが解消され、レトロゲームの本来の見た目が保たれます。</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="135"/>
@@ -2207,7 +2207,7 @@ Please make sure it&apos;s connected.</source>
 Tip: Our app runs a Data Integrity Test to make sure that you are getting an accurate reproduction of the cartridge’s content.</source>
         <translation>ゲームデータをコンピュータに安全にアーカイブし、ゲームコレクションのデジタル版を作成できます。ゲームファイルは、選択したエミュレータと互換性があります。
 
-ヒント当社のアプリは、カートリッジの内容を正確に再現していることを確認するために、データ完全性テストを実行します。</translation>
+ヒント：当社のアプリは、カートリッジの内容を正確に再現していることを確認するために、データ完全性テストを実行します。</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/ViewRouter.cpp" line="112"/>
