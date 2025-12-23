@@ -932,7 +932,7 @@ non scollegare il dispositivo.</translation>
     <message>
         <location filename="../src/platform/desktop/InputBindingsScreen.cpp" line="261"/>
         <source>Need help?</source>
-        <translation>Avete bisogno di aiuto?</translation>
+        <translation>Hai bisogno di aiuto?</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/InputBindingsScreen.cpp" line="262"/>
@@ -1362,7 +1362,7 @@ You can try cleaning then re-inserting the cartridge into the device.
     <message>
         <location filename="../src/platform/desktop/Navbar.cpp" line="456"/>
         <source>Upload Save</source>
-        <translation>Carica Salva</translation>
+        <translation>Carica Dati</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/Navbar.cpp" line="457"/>
@@ -1398,7 +1398,7 @@ You can try cleaning then re-inserting the cartridge into the device.
     <message>
         <location filename="../src/platform/desktop/PhotosPage.cpp" line="200"/>
         <source>This will permanently delete all the pictures on your Game Boy Camera. Are you sure?</source>
-        <translation>In questo modo verranno eliminate definitivamente tutte le immagini presenti nella fotocamera del Game Boy. Ne è sicuro?</translation>
+        <translation>In questo modo verranno eliminate definitivamente tutte le immagini presenti nella fotocamera del Game Boy. Sei sicuro?</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PhotosPage.cpp" line="324"/>
@@ -1635,7 +1635,7 @@ Se si desidera rimuovere facilmente tutte le immagini dalla fotocamera, senza do
     <message>
         <location filename="../src/platform/desktop/ProgressGridWidget.cpp" line="408"/>
         <source>Data Grid:</source>
-        <translation>Data Grid:</translation>
+        <translation>Griglia Dati:</translation>
     </message>
 </context>
 <context>
@@ -2254,7 +2254,7 @@ Suggerimento: utilizzate programmi esterni per attivare eventi di gioco o person
     <message>
         <location filename="../src/platform/desktop/ViewRouter.cpp" line="134"/>
         <source>Upload Save</source>
-        <translation>Carica Salva</translation>
+        <translation>Carica Dati</translation>
     </message>
 </context>
 <context>
