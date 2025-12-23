@@ -374,7 +374,7 @@ Não remova o cartucho enquanto qualquer operação estiver em execução.</tran
     <message>
         <location filename="../src/platform/desktop/CustomCheatCodesWidget.cpp" line="178"/>
         <source>Add your own custom cheats...</source>
-        <translation>Adicione seus próprios cheats...</translation>
+        <translation>Adicione suas próprias trapaças...</translation>
     </message>
     <message>
         <source>Description</source>
@@ -1091,7 +1091,7 @@ por favor, não desconecte o dispositivo.</translation>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="296"/>
         <source>Link Playback to your RA account, and start earning achievements in your favorite classic games.</source>
-        <translation>Vincule o Playback à sua conta RA e comece a ganhar achievements nos seus clássicos favoritos.</translation>
+        <translation>Vincule o Playback à sua conta RA e comece a ganhar conquistas nos seus clássicos favoritos.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="298"/>
@@ -1775,7 +1775,7 @@ Modo Hardcore está ativo - trapaças e câmera lenta estão desabilitadas.</tra
         <source>
 Hardcore mode is active - cheats, rewind and slow motion are disabled.</source>
         <translation>
-O modo Hardcore está ativo - cheats, rewind e câmera lenta estão desativados.</translation>
+O modo Hardcore está ativo - trapaças, rewind e câmera lenta estão desativados.</translation>
     </message>
     <message>
         <location filename="../src/core/RAController.cpp" line="387"/>
