@@ -781,7 +781,7 @@ OpenGL 详情:
     <message>
         <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="253"/>
         <source>Configure controller and controller rumble settings.</source>
-        <translation>配置手柄与手柄震动设置.</translation>
+        <translation>配置手柄与手柄震动设置。</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="254"/>
@@ -1599,7 +1599,7 @@ If you&apos;d like to easily remove all the pictures from your camera, without h
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="90"/>
         <source>Customize general settings to offer a personalized experience.</source>
-        <translation>自定义通用设置，以提供个性化体验.</translation>
+        <translation>自定义通用设置，以提供个性化体验。</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="85"/>
