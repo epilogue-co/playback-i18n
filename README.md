@@ -13,7 +13,7 @@
 | 🇯🇵 Japanese              | Human         | ❌           | 88               |
 | 🇰🇷 Korean                | Human         | ❌           | 88               |
 | 🇵🇹 Portuguese            | AI            | ❌           | 88               |
-| 🇷🇴 Romanian              | Human         | ❌           | 88               |
+| 🇷🇴 Romanian              | Human         | ✅           | 0                |
 | 🇨🇳 Simplified Chinese    | Human         | ❌           | 88               |
 | 🇪🇸 Spanish               | Human         | ❌           | 88               |
 
