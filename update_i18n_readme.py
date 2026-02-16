@@ -8,6 +8,7 @@ from pathlib import Path
 
 LANGUAGES = {
     "main_de.ts": ("🇩🇪", "German", "Human"),
+    "main_el.ts": ("🇬🇷", "Greek", "Human"),
     "main_zh.ts": ("🇨🇳", "Simplified Chinese", "Human"),
     "main_fr.ts": ("🇫🇷", "French", "Human"),
     "main_es.ts": ("🇪🇸", "Spanish", "Human"),

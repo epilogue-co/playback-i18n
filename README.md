@@ -9,6 +9,7 @@
 | 🇳🇱 Dutch                 | AI            | ❌           | 88               |
 | 🇫🇷 French                | Human         | ❌           | 88               |
 | 🇩🇪 German                | Human         | ❌           | 88               |
+| 🇬🇷 Greek                 | Human         | ✅           | 0                |
 | 🇮🇹 Italian               | AI            | ❌           | 88               |
 | 🇯🇵 Japanese              | Human         | ❌           | 88               |
 | 🇰🇷 Korean                | Human         | ❌           | 88               |
