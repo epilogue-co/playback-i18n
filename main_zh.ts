@@ -120,7 +120,7 @@ P.S. If you choose to skip the tour now, you won’t be prompted to take it agai
     <message>
         <location filename="../src/platform/desktop/CartDetailsWidget.cpp" line="457"/>
         <source>Unreleased</source>
-        <translation type="unfinished"></translation>
+        <translation>未发售</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/CartDetailsWidget.cpp" line="605"/>
@@ -186,7 +186,7 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/platform/desktop/ClickableLabel.cpp" line="25"/>
         <source>None</source>
-        <translation type="unfinished"></translation>
+        <translation>无</translation>
     </message>
 </context>
 <context>
@@ -207,7 +207,7 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/platform/desktop/ControlsWidget.cpp" line="779"/>
         <source>None</source>
-        <translation type="unfinished"></translation>
+        <translation>无</translation>
     </message>
 </context>
 <context>
@@ -626,79 +626,79 @@ Do not remove the cartridge while any operation is running.</source>
         <location filename="../src/core/DeviceHardwareStreaming.cpp" line="122"/>
         <location filename="../src/core/DeviceHardwareStreaming.cpp" line="161"/>
         <source>Device disconnected</source>
-        <translation type="unfinished">设备已断开连接</translation>
+        <translation>设备已断开连接</translation>
     </message>
     <message>
         <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="78"/>
         <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="281"/>
         <source>Cartridge Connection Unstable!</source>
-        <translation type="unfinished">卡带连接不稳定！</translation>
+        <translation>卡带连接不稳定！</translation>
     </message>
     <message>
         <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="79"/>
         <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="282"/>
         <source>Playback detected a contact connection issue. Please clean the cartridge pins, reinsert the cartridge properly, and try again for improved accuracy.</source>
-        <translation type="unfinished">Playback检测到触点连接问题。请清洁卡带针脚，正确重新插入卡带，然后再次尝试以提高准确性。</translation>
+        <translation>Playback检测到触点连接问题。请清洁卡带针脚，正确重新插入卡带，然后再次尝试以提高准确性。</translation>
     </message>
     <message>
         <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="133"/>
         <source>Game Data Integrity Check Failed!</source>
-        <translation type="unfinished">游戏数据完整性检查失败！</translation>
+        <translation>游戏数据完整性检查失败！</translation>
     </message>
     <message>
         <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="134"/>
         <source>Playback detected a discrepancy between the expected game data and the backed up data. Please clean the cartridge pins and try again to ensure accuracy.</source>
-        <translation type="unfinished">Playback发现预期游戏数据与备份数据不一致。请清洁游戏卡带的触点然后重试，以确保准确性。</translation>
+        <translation>Playback发现预期游戏数据与备份数据不一致。请清洁游戏卡带的触点然后重试，以确保准确性。</translation>
     </message>
     <message>
         <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="159"/>
         <source>Empty File Was Provided!</source>
-        <translation type="unfinished">提供的文件是空的！</translation>
+        <translation>提供的文件是空的！</translation>
     </message>
     <message>
         <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="160"/>
         <source> It looks like the homebrew game you&apos;re trying to upload has been detected by Playback as having 0 bytes. Please verify that the data you&apos;re attempting to upload is accurate.</source>
-        <translation type="unfinished"> 似乎你尝试上传的自制软件被Playback检测到大小为0字节。请核实你上传的数据是否正确。</translation>
+        <translation> 似乎你尝试上传的自制软件被Playback检测到大小为0字节。请核实你上传的数据是否正确。</translation>
     </message>
     <message>
         <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="170"/>
         <source>Upload Homebrew Command Failed!</source>
-        <translation type="unfinished">上传自制软件命令失败！</translation>
+        <translation>上传自制软件命令失败！</translation>
     </message>
     <message>
         <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="171"/>
         <source>An error occurred while attempting to start the homebrew upload command. Please restart the application and reconnect the Operator device. If the problem continues, contact our Support team.</source>
-        <translation type="unfinished">在尝试启动自制软件上传命令时发生错误。请重启应用程序并重新连接设备。如果问题仍然存在，请联系我们的支持团队。</translation>
+        <translation>在尝试启动自制软件上传命令时发生错误。请重启应用程序并重新连接设备。如果问题仍然存在，请联系我们的支持团队。</translation>
     </message>
     <message>
         <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="188"/>
         <source>Homebrew Cartridge Erase Failed!</source>
-        <translation type="unfinished">自制卡带擦除失败！</translation>
+        <translation>自制卡带擦除失败！</translation>
     </message>
     <message>
         <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="189"/>
         <source>Playback couldn&apos;t delete the contents of the homebrew cartridge. Please clean the cartridge pins and try again. If the issue persists, contact our Support team.</source>
-        <translation type="unfinished">Playback无法删除自制卡带的内容。请清洁卡带的触点并重试。如果问题仍然存在，请联系我们的支持团队。</translation>
+        <translation>Playback无法删除自制卡带的内容。请清洁卡带的触点并重试。如果问题仍然存在，请联系我们的支持团队。</translation>
     </message>
     <message>
         <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="351"/>
         <source>Write save failed</source>
-        <translation type="unfinished">写入存档失败</translation>
+        <translation>写入存档失败</translation>
     </message>
     <message>
         <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="351"/>
         <source>Failed to send write save command to device.</source>
-        <translation type="unfinished">无法向设备发送写入存档命令。</translation>
+        <translation>无法向设备发送写入存档命令。</translation>
     </message>
     <message>
         <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="406"/>
         <source>Save Data Integrity Check Failed!</source>
-        <translation type="unfinished">存档数据完整性检查失败!</translation>
+        <translation>存档数据完整性检查失败!</translation>
     </message>
     <message>
         <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="407"/>
         <source>The save data written to the cartridge does not match the data read back. Please clean the cartridge pins and try again to ensure consistency.</source>
-        <translation type="unfinished">写入的存档数据与读取的数据不一致。请清洁卡带的触点后重试，以确保数据的一致性。</translation>
+        <translation>写入的存档数据与读取的数据不一致。请清洁卡带的触点后重试，以确保数据的一致性。</translation>
     </message>
 </context>
 <context>
@@ -827,46 +827,46 @@ OpenGL 详情:
     <message>
         <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="208"/>
         <source>Save Failed</source>
-        <translation type="unfinished"></translation>
+        <translation>保存失败</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="208"/>
         <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="216"/>
         <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="224"/>
         <source>Slot %1: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>存档槽 %1: %2</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="216"/>
         <source>Load Failed</source>
-        <translation type="unfinished">加载失败</translation>
+        <translation>加载失败</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="224"/>
         <source>Delete Failed</source>
-        <translation type="unfinished"></translation>
+        <translation>删除失败</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="337"/>
         <source>State Saved</source>
-        <translation type="unfinished"></translation>
+        <translation>状态已保存</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="337"/>
         <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="342"/>
         <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="346"/>
         <source>Slot %1</source>
-        <translation type="unfinished"></translation>
+        <translation>存档槽 %1</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="342"/>
         <source>State Loaded</source>
-        <translation type="unfinished"></translation>
+        <translation>状态已加载</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="346"/>
         <source>State Deleted</source>
-        <translation type="unfinished"></translation>
+        <translation>状态已删除</translation>
     </message>
 </context>
 <context>
@@ -1062,42 +1062,42 @@ please do not disconnect the device.</source>
     <message>
         <location filename="../src/platform/desktop/HotkeyBindingRow.cpp" line="42"/>
         <source>None</source>
-        <translation type="unfinished"></translation>
+        <translation>无</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/HotkeyBindingRow.cpp" line="47"/>
         <source>...</source>
-        <translation type="unfinished"></translation>
+        <translation>...</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/HotkeyBindingRow.cpp" line="57"/>
         <source>Play</source>
-        <translation type="unfinished"></translation>
+        <translation>播放</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/HotkeyBindingRow.cpp" line="59"/>
         <source>Pause/Resume</source>
-        <translation type="unfinished"></translation>
+        <translation>暂停/继续</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/HotkeyBindingRow.cpp" line="61"/>
         <source>Restart</source>
-        <translation type="unfinished"></translation>
+        <translation>重新开始</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/HotkeyBindingRow.cpp" line="63"/>
         <source>Fast Forward</source>
-        <translation type="unfinished"></translation>
+        <translation>快进</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/HotkeyBindingRow.cpp" line="65"/>
         <source>Rewind</source>
-        <translation type="unfinished"></translation>
+        <translation>倒带</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/HotkeyBindingRow.cpp" line="67"/>
         <source>Fullscreen</source>
-        <translation type="unfinished"></translation>
+        <translation>全屏</translation>
     </message>
 </context>
 <context>
@@ -1105,7 +1105,7 @@ please do not disconnect the device.</source>
     <message>
         <location filename="../src/platform/desktop/HotkeyBindingWidget.cpp" line="112"/>
         <source>None</source>
-        <translation type="unfinished"></translation>
+        <translation>无</translation>
     </message>
 </context>
 <context>
@@ -1241,7 +1241,7 @@ please do not disconnect the device.</source>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="268"/>
         <source>Disables cheats, rewind, save states and slow-motion. Achievements earned in hardcore mode are uniquely marked so that you can show others what you&apos;ve achieved without emulator assistance features.</source>
-        <translation type="unfinished"></translation>
+        <translation>禁用作弊码、倒带、即时存档和慢动作。在硬核模式下获得的成就会被特别标记，这样你就可以向他人展示在没有模拟器辅助功能下取得的成就。</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="271"/>
@@ -1395,83 +1395,83 @@ You can try cleaning then re-inserting the cartridge into the device.
     <message>
         <location filename="../src/platform/desktop/ManagePage.cpp" line="186"/>
         <source>Backup Complete</source>
-        <translation type="unfinished"></translation>
+        <translation>备份完成</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/ManagePage.cpp" line="187"/>
         <location filename="../src/platform/desktop/ManagePage.cpp" line="195"/>
         <source>File was created: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>文件已创建: %1</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/ManagePage.cpp" line="190"/>
         <source>Write Complete</source>
-        <translation type="unfinished"></translation>
+        <translation>写入完成</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/ManagePage.cpp" line="191"/>
         <source>Game was written: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>游戏已写入: %1</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/ManagePage.cpp" line="194"/>
         <source>Save Backup Complete</source>
-        <translation type="unfinished"></translation>
+        <translation>存档备份完成</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/ManagePage.cpp" line="198"/>
         <source>Save Restored</source>
-        <translation type="unfinished"></translation>
+        <translation>存档已恢复</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/ManagePage.cpp" line="199"/>
         <source>Save was written: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>存档已写入: %1</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/ManagePage.cpp" line="210"/>
         <source>Show in Folder</source>
-        <translation type="unfinished"></translation>
+        <translation>在文件夹中显示</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/ManagePage.cpp" line="226"/>
         <source>Backup Failed</source>
-        <translation type="unfinished"></translation>
+        <translation>备份失败</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/ManagePage.cpp" line="227"/>
         <source>Failed to read game data from the cartridge.</source>
-        <translation type="unfinished"></translation>
+        <translation>无法从卡带读取游戏数据。</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/ManagePage.cpp" line="230"/>
         <source>Write Failed</source>
-        <translation type="unfinished"></translation>
+        <translation>写入失败</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/ManagePage.cpp" line="231"/>
         <source>Failed to write game data to the cartridge.</source>
-        <translation type="unfinished"></translation>
+        <translation>无法将游戏数据写入卡带。</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/ManagePage.cpp" line="234"/>
         <source>Save Backup Failed</source>
-        <translation type="unfinished"></translation>
+        <translation>存档备份失败</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/ManagePage.cpp" line="235"/>
         <source>Failed to read save data from the cartridge.</source>
-        <translation type="unfinished"></translation>
+        <translation>无法从卡带读取存档数据。</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/ManagePage.cpp" line="238"/>
         <source>Save Restore Failed</source>
-        <translation type="unfinished"></translation>
+        <translation>存档恢复失败</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/ManagePage.cpp" line="239"/>
         <source>Failed to write save data to the cartridge.</source>
-        <translation type="unfinished"></translation>
+        <translation>无法将存档数据写入卡带。</translation>
     </message>
 </context>
 <context>
@@ -1531,22 +1531,22 @@ You can try cleaning then re-inserting the cartridge into the device.
         <location filename="../src/platform/desktop/Navbar.cpp" line="239"/>
         <location filename="../src/platform/desktop/Navbar.cpp" line="241"/>
         <source>Preparing cartridge...</source>
-        <translation type="unfinished"></translation>
+        <translation>正在准备卡带...</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/Navbar.cpp" line="237"/>
         <source>Preparing...</source>
-        <translation type="unfinished"></translation>
+        <translation>正在准备...</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/Navbar.cpp" line="243"/>
         <source>Preparing cartridge... (this may take a moment)</source>
-        <translation type="unfinished"></translation>
+        <translation>正在准备卡带...（这可能需要一些时间）</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/Navbar.cpp" line="245"/>
         <source>Finishing up...</source>
-        <translation type="unfinished"></translation>
+        <translation>正在完成...</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/Navbar.cpp" line="268"/>
@@ -1649,37 +1649,37 @@ You can try cleaning then re-inserting the cartridge into the device.
     <message>
         <location filename="../src/platform/desktop/NavbarNotificationDropdown.cpp" line="20"/>
         <source>Clear all</source>
-        <translation type="unfinished"></translation>
+        <translation>清除全部</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/NavbarNotificationDropdown.cpp" line="40"/>
         <source>No notifications</source>
-        <translation type="unfinished"></translation>
+        <translation>暂无通知</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/NavbarNotificationDropdown.cpp" line="142"/>
         <source>Dismiss</source>
-        <translation type="unfinished"></translation>
+        <translation>忽略</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/NavbarNotificationDropdown.cpp" line="166"/>
         <source>Just now</source>
-        <translation type="unfinished"></translation>
+        <translation>刚刚</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/NavbarNotificationDropdown.cpp" line="167"/>
         <source>%1m ago</source>
-        <translation type="unfinished"></translation>
+        <translation>%1分钟前</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/NavbarNotificationDropdown.cpp" line="168"/>
         <source>%1h ago</source>
-        <translation type="unfinished"></translation>
+        <translation>%1小时前</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/NavbarNotificationDropdown.cpp" line="169"/>
         <source>%1d ago</source>
-        <translation type="unfinished"></translation>
+        <translation>%1天前</translation>
     </message>
 </context>
 <context>
@@ -1819,7 +1819,7 @@ If you&apos;d like to easily remove all the pictures from your camera, without h
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="101"/>
         <source>Replay App Tour</source>
-        <translation type="unfinished"></translation>
+        <translation>重新播放应用导览</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="104"/>
@@ -1854,12 +1854,12 @@ If you&apos;d like to easily remove all the pictures from your camera, without h
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="117"/>
         <source>Enable Save States</source>
-        <translation type="unfinished"></translation>
+        <translation>启用即时存档</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="118"/>
         <source>Always Show Controls</source>
-        <translation type="unfinished"></translation>
+        <translation>始终显示控制栏</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="119"/>
@@ -1869,7 +1869,7 @@ If you&apos;d like to easily remove all the pictures from your camera, without h
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="130"/>
         <source>When enabled, the app tour will be shown the next time you start the application. After the tour completes, this setting will be automatically disabled.</source>
-        <translation type="unfinished"></translation>
+        <translation>启用后，下次启动应用程序时将显示应用导览。导览完成后，此设置将自动禁用。</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="139"/>
@@ -1904,12 +1904,12 @@ If you&apos;d like to easily remove all the pictures from your camera, without h
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="173"/>
         <source>Enables save states, allowing you to save and load your game progress at any point. This is useful for preserving your progress or quickly retrying difficult sections.</source>
-        <translation type="unfinished"></translation>
+        <translation>启用即时存档功能，允许你在任何时刻保存和加载游戏进度。这对于保存进度或快速重试困难部分非常有用。</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="176"/>
         <source>When enabled, the emulation control bar remains visible at all times during gameplay. When disabled, the controls will automatically hide after a few seconds of inactivity.</source>
-        <translation type="unfinished"></translation>
+        <translation>启用后，模拟器控制栏在游戏过程中始终保持可见。禁用时，控制栏会在几秒钟无操作后自动隐藏。</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="179"/>
@@ -2150,7 +2150,8 @@ Hardcore mode is active - cheats, rewind and slow motion are disabled.</source>
         <location filename="../src/core/RAController.cpp" line="332"/>
         <source>
 Hardcore mode is active - cheats, rewind, save states and slow motion are disabled.</source>
-        <translation type="unfinished"></translation>
+        <translation>
+硬核模式已激活 - 作弊码、倒带、即时存档和慢动作已禁用。</translation>
     </message>
     <message>
         <location filename="../src/core/RAController.cpp" line="373"/>
@@ -2340,29 +2341,29 @@ Would you like to proceed?
         <location filename="../src/platform/desktop/SavestateDropdownWidget.cpp" line="133"/>
         <location filename="../src/platform/desktop/SavestateDropdownWidget.cpp" line="291"/>
         <source>Save State</source>
-        <translation type="unfinished"></translation>
+        <translation>保存状态</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/SavestateDropdownWidget.cpp" line="145"/>
         <location filename="../src/platform/desktop/SavestateDropdownWidget.cpp" line="292"/>
         <source>Load State</source>
-        <translation type="unfinished"></translation>
+        <translation>加载状态</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/SavestateDropdownWidget.cpp" line="158"/>
         <location filename="../src/platform/desktop/SavestateDropdownWidget.cpp" line="293"/>
         <source>Delete State</source>
-        <translation type="unfinished"></translation>
+        <translation>删除状态</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/SavestateDropdownWidget.cpp" line="263"/>
         <source>Slot %1</source>
-        <translation type="unfinished"></translation>
+        <translation>存档槽 %1</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/SavestateDropdownWidget.cpp" line="276"/>
         <source>Empty</source>
-        <translation type="unfinished"></translation>
+        <translation>空</translation>
     </message>
 </context>
 <context>
@@ -2372,40 +2373,40 @@ Would you like to proceed?
         <location filename="../src/core/SavestateManager.cpp" line="106"/>
         <location filename="../src/core/SavestateManager.cpp" line="134"/>
         <source>Invalid slot number</source>
-        <translation type="unfinished"></translation>
+        <translation>无效的存档槽编号</translation>
     </message>
     <message>
         <location filename="../src/core/SavestateManager.cpp" line="76"/>
         <location filename="../src/core/SavestateManager.cpp" line="110"/>
         <location filename="../src/core/SavestateManager.cpp" line="138"/>
         <source>No game loaded</source>
-        <translation type="unfinished"></translation>
+        <translation>没有加载游戏</translation>
     </message>
     <message>
         <location filename="../src/core/SavestateManager.cpp" line="81"/>
         <source>Failed to create savestates directory</source>
-        <translation type="unfinished"></translation>
+        <translation>无法创建即时存档目录</translation>
     </message>
     <message>
         <location filename="../src/core/SavestateManager.cpp" line="94"/>
         <source>Failed to serialize state</source>
-        <translation type="unfinished"></translation>
+        <translation>无法序列化状态</translation>
     </message>
     <message>
         <location filename="../src/core/SavestateManager.cpp" line="117"/>
         <location filename="../src/core/SavestateManager.cpp" line="145"/>
         <source>No savestate in slot %1</source>
-        <translation type="unfinished"></translation>
+        <translation>存档槽 %1 中没有即时存档</translation>
     </message>
     <message>
         <location filename="../src/core/SavestateManager.cpp" line="127"/>
         <source>Failed to load state</source>
-        <translation type="unfinished"></translation>
+        <translation>无法加载状态</translation>
     </message>
     <message>
         <location filename="../src/core/SavestateManager.cpp" line="160"/>
         <source>Failed to delete state</source>
-        <translation type="unfinished"></translation>
+        <translation>无法删除状态</translation>
     </message>
 </context>
 <context>
@@ -2743,32 +2744,32 @@ Please ensure your graphics drivers are up to date.</source>
     <message>
         <location filename="../src/platform/desktop/Window.cpp" line="224"/>
         <source>App Update Available</source>
-        <translation type="unfinished"></translation>
+        <translation>应用更新可用</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/Window.cpp" line="224"/>
         <source>A new version of Playback is available.</source>
-        <translation type="unfinished"></translation>
+        <translation>Playback 的新版本可用。</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/Window.cpp" line="225"/>
         <source>Download</source>
-        <translation type="unfinished"></translation>
+        <translation>下载</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/Window.cpp" line="236"/>
         <source>Device Update Available</source>
-        <translation type="unfinished"></translation>
+        <translation>设备更新可用</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/Window.cpp" line="237"/>
         <source>A firmware update is available for your Operator device.</source>
-        <translation type="unfinished"></translation>
+        <translation>你的 Operator 设备有固件更新可用。</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/Window.cpp" line="238"/>
         <source>Update</source>
-        <translation type="unfinished"></translation>
+        <translation>更新</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/Window.cpp" line="511"/>

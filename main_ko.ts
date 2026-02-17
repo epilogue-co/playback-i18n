@@ -120,7 +120,7 @@ P.S. 지금 투어를 건너뛰면 다시 투어를 진행하라는 메시지가
     <message>
         <location filename="../src/platform/desktop/CartDetailsWidget.cpp" line="457"/>
         <source>Unreleased</source>
-        <translation type="unfinished"></translation>
+        <translation>미출시</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/CartDetailsWidget.cpp" line="605"/>
@@ -186,7 +186,7 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/platform/desktop/ClickableLabel.cpp" line="25"/>
         <source>None</source>
-        <translation type="unfinished"></translation>
+        <translation>없음</translation>
     </message>
 </context>
 <context>
@@ -207,7 +207,7 @@ Do not remove the cartridge while any operation is running.</source>
     <message>
         <location filename="../src/platform/desktop/ControlsWidget.cpp" line="779"/>
         <source>None</source>
-        <translation type="unfinished"></translation>
+        <translation>없음</translation>
     </message>
 </context>
 <context>
@@ -626,79 +626,79 @@ Do not remove the cartridge while any operation is running.</source>
         <location filename="../src/core/DeviceHardwareStreaming.cpp" line="122"/>
         <location filename="../src/core/DeviceHardwareStreaming.cpp" line="161"/>
         <source>Device disconnected</source>
-        <translation type="unfinished">디바이스 연결 해제됨</translation>
+        <translation>디바이스 연결 해제됨</translation>
     </message>
     <message>
         <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="78"/>
         <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="281"/>
         <source>Cartridge Connection Unstable!</source>
-        <translation type="unfinished">카트리지 연결이 불안정합니다!</translation>
+        <translation>카트리지 연결이 불안정합니다!</translation>
     </message>
     <message>
         <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="79"/>
         <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="282"/>
         <source>Playback detected a contact connection issue. Please clean the cartridge pins, reinsert the cartridge properly, and try again for improved accuracy.</source>
-        <translation type="unfinished">Playback이 접촉 연결 문제를 감지했습니다. 정확도를 높이기 위해 카트리지 핀을 청소하고, 카트리지를 제대로 다시 삽입하고 다시 시도해주세요.</translation>
+        <translation>Playback이 접촉 연결 문제를 감지했습니다. 정확도를 높이기 위해 카트리지 핀을 청소하고, 카트리지를 제대로 다시 삽입하고 다시 시도해주세요.</translation>
     </message>
     <message>
         <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="133"/>
         <source>Game Data Integrity Check Failed!</source>
-        <translation type="unfinished">게임 데이터 무결성 검사 실패!</translation>
+        <translation>게임 데이터 무결성 검사 실패!</translation>
     </message>
     <message>
         <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="134"/>
         <source>Playback detected a discrepancy between the expected game data and the backed up data. Please clean the cartridge pins and try again to ensure accuracy.</source>
-        <translation type="unfinished">Playback에서 예상 게임 데이터와 백업된 데이터 간에 불일치가 감지되었습니다. 카트리지 핀을 청소하고 정확성을 위해 다시 시도하세요.</translation>
+        <translation>Playback에서 예상 게임 데이터와 백업된 데이터 간에 불일치가 감지되었습니다. 카트리지 핀을 청소하고 정확성을 위해 다시 시도하세요.</translation>
     </message>
     <message>
         <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="159"/>
         <source>Empty File Was Provided!</source>
-        <translation type="unfinished">빈 파일이 제공되었습니다!</translation>
+        <translation>빈 파일이 제공되었습니다!</translation>
     </message>
     <message>
         <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="160"/>
         <source> It looks like the homebrew game you&apos;re trying to upload has been detected by Playback as having 0 bytes. Please verify that the data you&apos;re attempting to upload is accurate.</source>
-        <translation type="unfinished"> 업로드하려는 Homebrew 게임의 바이트가 0바이트인 것으로 Playback에서 감지된 것 같습니다. 업로드하려는 데이터가 정확한지 확인해 주세요.</translation>
+        <translation> 업로드하려는 Homebrew 게임의 바이트가 0바이트인 것으로 Playback에서 감지된 것 같습니다. 업로드하려는 데이터가 정확한지 확인해 주세요.</translation>
     </message>
     <message>
         <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="170"/>
         <source>Upload Homebrew Command Failed!</source>
-        <translation type="unfinished">Homebrew 명령 업로드에 실패했습니다!</translation>
+        <translation>Homebrew 명령 업로드에 실패했습니다!</translation>
     </message>
     <message>
         <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="171"/>
         <source>An error occurred while attempting to start the homebrew upload command. Please restart the application and reconnect the Operator device. If the problem continues, contact our Support team.</source>
-        <translation type="unfinished">Homebrew 업로드 명령을 시작하는 동안 오류가 발생했습니다. 애플리케이션을 다시 시작하고 운영자 디바이스를 다시 연결하세요. 문제가 계속되면 지원팀에 문의하세요.</translation>
+        <translation>Homebrew 업로드 명령을 시작하는 동안 오류가 발생했습니다. 애플리케이션을 다시 시작하고 운영자 디바이스를 다시 연결하세요. 문제가 계속되면 지원팀에 문의하세요.</translation>
     </message>
     <message>
         <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="188"/>
         <source>Homebrew Cartridge Erase Failed!</source>
-        <translation type="unfinished">Homebrew 카트리지 지우기가 실패했습니다!</translation>
+        <translation>Homebrew 카트리지 지우기가 실패했습니다!</translation>
     </message>
     <message>
         <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="189"/>
         <source>Playback couldn&apos;t delete the contents of the homebrew cartridge. Please clean the cartridge pins and try again. If the issue persists, contact our Support team.</source>
-        <translation type="unfinished">Playback이 Homebrew 카트리지의 콘텐츠를 삭제할 수 없습니다. 카트리지 핀을 청소하고 다시 시도하세요. 문제가 지속되면 지원팀에 문의하세요.</translation>
+        <translation>Playback이 Homebrew 카트리지의 콘텐츠를 삭제할 수 없습니다. 카트리지 핀을 청소하고 다시 시도하세요. 문제가 지속되면 지원팀에 문의하세요.</translation>
     </message>
     <message>
         <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="351"/>
         <source>Write save failed</source>
-        <translation type="unfinished">쓰기 저장 실패</translation>
+        <translation>쓰기 저장 실패</translation>
     </message>
     <message>
         <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="351"/>
         <source>Failed to send write save command to device.</source>
-        <translation type="unfinished">장치에 쓰기 저장 명령을 보내지 못했습니다.</translation>
+        <translation>장치에 쓰기 저장 명령을 보내지 못했습니다.</translation>
     </message>
     <message>
         <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="406"/>
         <source>Save Data Integrity Check Failed!</source>
-        <translation type="unfinished">저장 데이터 무결성 검사에 실패했습니다!</translation>
+        <translation>저장 데이터 무결성 검사에 실패했습니다!</translation>
     </message>
     <message>
         <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="407"/>
         <source>The save data written to the cartridge does not match the data read back. Please clean the cartridge pins and try again to ensure consistency.</source>
-        <translation type="unfinished">카트리지에 기록된 저장 데이터가 다시 읽은 데이터와 일치하지 않습니다. 카트리지 핀을 청소하고 일관성을 유지하려면 다시 시도하세요.</translation>
+        <translation>카트리지에 기록된 저장 데이터가 다시 읽은 데이터와 일치하지 않습니다. 카트리지 핀을 청소하고 일관성을 유지하려면 다시 시도하세요.</translation>
     </message>
 </context>
 <context>
@@ -827,46 +827,46 @@ OpenGL 세부 정보:
     <message>
         <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="208"/>
         <source>Save Failed</source>
-        <translation type="unfinished"></translation>
+        <translation>저장 실패</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="208"/>
         <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="216"/>
         <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="224"/>
         <source>Slot %1: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>슬롯 %1: %2</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="216"/>
         <source>Load Failed</source>
-        <translation type="unfinished">로드 실패</translation>
+        <translation>로드 실패</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="224"/>
         <source>Delete Failed</source>
-        <translation type="unfinished"></translation>
+        <translation>삭제 실패</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="337"/>
         <source>State Saved</source>
-        <translation type="unfinished"></translation>
+        <translation>상태 저장됨</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="337"/>
         <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="342"/>
         <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="346"/>
         <source>Slot %1</source>
-        <translation type="unfinished"></translation>
+        <translation>슬롯 %1</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="342"/>
         <source>State Loaded</source>
-        <translation type="unfinished"></translation>
+        <translation>상태 로드됨</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="346"/>
         <source>State Deleted</source>
-        <translation type="unfinished"></translation>
+        <translation>상태 삭제됨</translation>
     </message>
 </context>
 <context>
@@ -1062,42 +1062,42 @@ please do not disconnect the device.</source>
     <message>
         <location filename="../src/platform/desktop/HotkeyBindingRow.cpp" line="42"/>
         <source>None</source>
-        <translation type="unfinished"></translation>
+        <translation>없음</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/HotkeyBindingRow.cpp" line="47"/>
         <source>...</source>
-        <translation type="unfinished"></translation>
+        <translation>...</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/HotkeyBindingRow.cpp" line="57"/>
         <source>Play</source>
-        <translation type="unfinished"></translation>
+        <translation>플레이</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/HotkeyBindingRow.cpp" line="59"/>
         <source>Pause/Resume</source>
-        <translation type="unfinished"></translation>
+        <translation>일시정지/재개</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/HotkeyBindingRow.cpp" line="61"/>
         <source>Restart</source>
-        <translation type="unfinished"></translation>
+        <translation>다시 시작</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/HotkeyBindingRow.cpp" line="63"/>
         <source>Fast Forward</source>
-        <translation type="unfinished"></translation>
+        <translation>빨리 감기</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/HotkeyBindingRow.cpp" line="65"/>
         <source>Rewind</source>
-        <translation type="unfinished"></translation>
+        <translation>되감기</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/HotkeyBindingRow.cpp" line="67"/>
         <source>Fullscreen</source>
-        <translation type="unfinished"></translation>
+        <translation>전체 화면</translation>
     </message>
 </context>
 <context>
@@ -1105,7 +1105,7 @@ please do not disconnect the device.</source>
     <message>
         <location filename="../src/platform/desktop/HotkeyBindingWidget.cpp" line="112"/>
         <source>None</source>
-        <translation type="unfinished"></translation>
+        <translation>없음</translation>
     </message>
 </context>
 <context>
@@ -1241,7 +1241,7 @@ please do not disconnect the device.</source>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="268"/>
         <source>Disables cheats, rewind, save states and slow-motion. Achievements earned in hardcore mode are uniquely marked so that you can show others what you&apos;ve achieved without emulator assistance features.</source>
-        <translation type="unfinished"></translation>
+        <translation>치트, 되감기, 상태 저장, 슬로우 모션을 비활성화합니다. 하드코어 모드에서 달성한 업적은 고유하게 표시되어 에뮬레이터 보조 기능 없이 달성한 업적을 다른 사람들에게 보여줄 수 있습니다.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="271"/>
@@ -1395,83 +1395,83 @@ You can try cleaning then re-inserting the cartridge into the device.
     <message>
         <location filename="../src/platform/desktop/ManagePage.cpp" line="186"/>
         <source>Backup Complete</source>
-        <translation type="unfinished"></translation>
+        <translation>백업 완료</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/ManagePage.cpp" line="187"/>
         <location filename="../src/platform/desktop/ManagePage.cpp" line="195"/>
         <source>File was created: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>파일이 생성되었습니다: %1</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/ManagePage.cpp" line="190"/>
         <source>Write Complete</source>
-        <translation type="unfinished"></translation>
+        <translation>쓰기 완료</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/ManagePage.cpp" line="191"/>
         <source>Game was written: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>게임이 기록되었습니다: %1</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/ManagePage.cpp" line="194"/>
         <source>Save Backup Complete</source>
-        <translation type="unfinished"></translation>
+        <translation>세이브 백업 완료</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/ManagePage.cpp" line="198"/>
         <source>Save Restored</source>
-        <translation type="unfinished"></translation>
+        <translation>세이브 복원됨</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/ManagePage.cpp" line="199"/>
         <source>Save was written: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>세이브가 기록되었습니다: %1</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/ManagePage.cpp" line="210"/>
         <source>Show in Folder</source>
-        <translation type="unfinished"></translation>
+        <translation>폴더에서 보기</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/ManagePage.cpp" line="226"/>
         <source>Backup Failed</source>
-        <translation type="unfinished"></translation>
+        <translation>백업 실패</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/ManagePage.cpp" line="227"/>
         <source>Failed to read game data from the cartridge.</source>
-        <translation type="unfinished"></translation>
+        <translation>카트리지에서 게임 데이터를 읽지 못했습니다.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/ManagePage.cpp" line="230"/>
         <source>Write Failed</source>
-        <translation type="unfinished"></translation>
+        <translation>쓰기 실패</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/ManagePage.cpp" line="231"/>
         <source>Failed to write game data to the cartridge.</source>
-        <translation type="unfinished"></translation>
+        <translation>카트리지에 게임 데이터를 쓰지 못했습니다.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/ManagePage.cpp" line="234"/>
         <source>Save Backup Failed</source>
-        <translation type="unfinished"></translation>
+        <translation>세이브 백업 실패</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/ManagePage.cpp" line="235"/>
         <source>Failed to read save data from the cartridge.</source>
-        <translation type="unfinished"></translation>
+        <translation>카트리지에서 세이브 데이터를 읽지 못했습니다.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/ManagePage.cpp" line="238"/>
         <source>Save Restore Failed</source>
-        <translation type="unfinished"></translation>
+        <translation>세이브 복원 실패</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/ManagePage.cpp" line="239"/>
         <source>Failed to write save data to the cartridge.</source>
-        <translation type="unfinished"></translation>
+        <translation>카트리지에 세이브 데이터를 쓰지 못했습니다.</translation>
     </message>
 </context>
 <context>
@@ -1531,22 +1531,22 @@ You can try cleaning then re-inserting the cartridge into the device.
         <location filename="../src/platform/desktop/Navbar.cpp" line="239"/>
         <location filename="../src/platform/desktop/Navbar.cpp" line="241"/>
         <source>Preparing cartridge...</source>
-        <translation type="unfinished"></translation>
+        <translation>카트리지 준비 중...</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/Navbar.cpp" line="237"/>
         <source>Preparing...</source>
-        <translation type="unfinished"></translation>
+        <translation>준비 중...</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/Navbar.cpp" line="243"/>
         <source>Preparing cartridge... (this may take a moment)</source>
-        <translation type="unfinished"></translation>
+        <translation>카트리지 준비 중... (잠시 기다려주세요)</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/Navbar.cpp" line="245"/>
         <source>Finishing up...</source>
-        <translation type="unfinished"></translation>
+        <translation>마무리 중...</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/Navbar.cpp" line="268"/>
@@ -1649,37 +1649,37 @@ You can try cleaning then re-inserting the cartridge into the device.
     <message>
         <location filename="../src/platform/desktop/NavbarNotificationDropdown.cpp" line="20"/>
         <source>Clear all</source>
-        <translation type="unfinished"></translation>
+        <translation>모두 지우기</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/NavbarNotificationDropdown.cpp" line="40"/>
         <source>No notifications</source>
-        <translation type="unfinished"></translation>
+        <translation>알림 없음</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/NavbarNotificationDropdown.cpp" line="142"/>
         <source>Dismiss</source>
-        <translation type="unfinished"></translation>
+        <translation>닫기</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/NavbarNotificationDropdown.cpp" line="166"/>
         <source>Just now</source>
-        <translation type="unfinished"></translation>
+        <translation>방금 전</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/NavbarNotificationDropdown.cpp" line="167"/>
         <source>%1m ago</source>
-        <translation type="unfinished"></translation>
+        <translation>%1분 전</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/NavbarNotificationDropdown.cpp" line="168"/>
         <source>%1h ago</source>
-        <translation type="unfinished"></translation>
+        <translation>%1시간 전</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/NavbarNotificationDropdown.cpp" line="169"/>
         <source>%1d ago</source>
-        <translation type="unfinished"></translation>
+        <translation>%1일 전</translation>
     </message>
 </context>
 <context>
@@ -1819,7 +1819,7 @@ If you&apos;d like to easily remove all the pictures from your camera, without h
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="101"/>
         <source>Replay App Tour</source>
-        <translation type="unfinished"></translation>
+        <translation>앱 투어 다시 보기</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="104"/>
@@ -1854,12 +1854,12 @@ If you&apos;d like to easily remove all the pictures from your camera, without h
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="117"/>
         <source>Enable Save States</source>
-        <translation type="unfinished"></translation>
+        <translation>상태 저장 활성화</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="118"/>
         <source>Always Show Controls</source>
-        <translation type="unfinished"></translation>
+        <translation>컨트롤 항상 표시</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="119"/>
@@ -1869,7 +1869,7 @@ If you&apos;d like to easily remove all the pictures from your camera, without h
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="130"/>
         <source>When enabled, the app tour will be shown the next time you start the application. After the tour completes, this setting will be automatically disabled.</source>
-        <translation type="unfinished"></translation>
+        <translation>활성화하면 다음에 애플리케이션을 시작할 때 앱 투어가 표시됩니다. 투어가 완료되면 이 설정은 자동으로 비활성화됩니다.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="139"/>
@@ -1904,12 +1904,12 @@ If you&apos;d like to easily remove all the pictures from your camera, without h
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="173"/>
         <source>Enables save states, allowing you to save and load your game progress at any point. This is useful for preserving your progress or quickly retrying difficult sections.</source>
-        <translation type="unfinished"></translation>
+        <translation>상태 저장을 활성화하여 언제든지 게임 진행 상황을 저장하고 불러올 수 있습니다. 진행 상황을 보존하거나 어려운 구간을 빠르게 다시 시도할 때 유용합니다.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="176"/>
         <source>When enabled, the emulation control bar remains visible at all times during gameplay. When disabled, the controls will automatically hide after a few seconds of inactivity.</source>
-        <translation type="unfinished"></translation>
+        <translation>활성화하면 게임 플레이 중 에뮬레이션 컨트롤 바가 항상 표시됩니다. 비활성화하면 몇 초간 활동이 없으면 컨트롤이 자동으로 숨겨집니다.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="179"/>
@@ -2150,7 +2150,8 @@ Hardcore mode is active - cheats, rewind and slow motion are disabled.</source>
         <location filename="../src/core/RAController.cpp" line="332"/>
         <source>
 Hardcore mode is active - cheats, rewind, save states and slow motion are disabled.</source>
-        <translation type="unfinished"></translation>
+        <translation>
+하드코어 모드가 활성화되었습니다 - 치트, 되감기, 상태 저장, 슬로 모션이 비활성화됩니다.</translation>
     </message>
     <message>
         <location filename="../src/core/RAController.cpp" line="373"/>
@@ -2340,29 +2341,29 @@ Would you like to proceed?
         <location filename="../src/platform/desktop/SavestateDropdownWidget.cpp" line="133"/>
         <location filename="../src/platform/desktop/SavestateDropdownWidget.cpp" line="291"/>
         <source>Save State</source>
-        <translation type="unfinished"></translation>
+        <translation>상태 저장</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/SavestateDropdownWidget.cpp" line="145"/>
         <location filename="../src/platform/desktop/SavestateDropdownWidget.cpp" line="292"/>
         <source>Load State</source>
-        <translation type="unfinished"></translation>
+        <translation>상태 불러오기</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/SavestateDropdownWidget.cpp" line="158"/>
         <location filename="../src/platform/desktop/SavestateDropdownWidget.cpp" line="293"/>
         <source>Delete State</source>
-        <translation type="unfinished"></translation>
+        <translation>상태 삭제</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/SavestateDropdownWidget.cpp" line="263"/>
         <source>Slot %1</source>
-        <translation type="unfinished"></translation>
+        <translation>슬롯 %1</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/SavestateDropdownWidget.cpp" line="276"/>
         <source>Empty</source>
-        <translation type="unfinished"></translation>
+        <translation>비어 있음</translation>
     </message>
 </context>
 <context>
@@ -2372,40 +2373,40 @@ Would you like to proceed?
         <location filename="../src/core/SavestateManager.cpp" line="106"/>
         <location filename="../src/core/SavestateManager.cpp" line="134"/>
         <source>Invalid slot number</source>
-        <translation type="unfinished"></translation>
+        <translation>잘못된 슬롯 번호</translation>
     </message>
     <message>
         <location filename="../src/core/SavestateManager.cpp" line="76"/>
         <location filename="../src/core/SavestateManager.cpp" line="110"/>
         <location filename="../src/core/SavestateManager.cpp" line="138"/>
         <source>No game loaded</source>
-        <translation type="unfinished"></translation>
+        <translation>게임이 로드되지 않음</translation>
     </message>
     <message>
         <location filename="../src/core/SavestateManager.cpp" line="81"/>
         <source>Failed to create savestates directory</source>
-        <translation type="unfinished"></translation>
+        <translation>상태 저장 디렉토리 생성 실패</translation>
     </message>
     <message>
         <location filename="../src/core/SavestateManager.cpp" line="94"/>
         <source>Failed to serialize state</source>
-        <translation type="unfinished"></translation>
+        <translation>상태 저장 실패</translation>
     </message>
     <message>
         <location filename="../src/core/SavestateManager.cpp" line="117"/>
         <location filename="../src/core/SavestateManager.cpp" line="145"/>
         <source>No savestate in slot %1</source>
-        <translation type="unfinished"></translation>
+        <translation>슬롯 %1에 저장된 상태가 없습니다</translation>
     </message>
     <message>
         <location filename="../src/core/SavestateManager.cpp" line="127"/>
         <source>Failed to load state</source>
-        <translation type="unfinished"></translation>
+        <translation>상태 불러오기 실패</translation>
     </message>
     <message>
         <location filename="../src/core/SavestateManager.cpp" line="160"/>
         <source>Failed to delete state</source>
-        <translation type="unfinished"></translation>
+        <translation>상태 삭제 실패</translation>
     </message>
 </context>
 <context>
@@ -2743,32 +2744,32 @@ Please ensure your graphics drivers are up to date.</source>
     <message>
         <location filename="../src/platform/desktop/Window.cpp" line="224"/>
         <source>App Update Available</source>
-        <translation type="unfinished"></translation>
+        <translation>앱 업데이트 가능</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/Window.cpp" line="224"/>
         <source>A new version of Playback is available.</source>
-        <translation type="unfinished"></translation>
+        <translation>Playback의 새 버전을 사용할 수 있습니다.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/Window.cpp" line="225"/>
         <source>Download</source>
-        <translation type="unfinished"></translation>
+        <translation>다운로드</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/Window.cpp" line="236"/>
         <source>Device Update Available</source>
-        <translation type="unfinished"></translation>
+        <translation>디바이스 업데이트 가능</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/Window.cpp" line="237"/>
         <source>A firmware update is available for your Operator device.</source>
-        <translation type="unfinished"></translation>
+        <translation>Operator 디바이스의 펌웨어 업데이트를 사용할 수 있습니다.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/Window.cpp" line="238"/>
         <source>Update</source>
-        <translation type="unfinished"></translation>
+        <translation>업데이트</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/Window.cpp" line="511"/>

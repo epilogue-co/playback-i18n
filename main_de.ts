@@ -120,7 +120,7 @@ P.S. Wenn Sie die Tour überspringen wird sie Ihnen nicht mehr angezeigt.</trans
     <message>
         <location filename="../src/platform/desktop/CartDetailsWidget.cpp" line="457"/>
         <source>Unreleased</source>
-        <translation type="unfinished"></translation>
+        <translation>Unveröffentlicht</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/CartDetailsWidget.cpp" line="605"/>
@@ -186,7 +186,7 @@ Entfernen Sie das Modul nicht, während ein Vorgang ausgeführt wird.</translati
     <message>
         <location filename="../src/platform/desktop/ClickableLabel.cpp" line="25"/>
         <source>None</source>
-        <translation type="unfinished"></translation>
+        <translation>Keine</translation>
     </message>
 </context>
 <context>
@@ -207,7 +207,7 @@ Entfernen Sie das Modul nicht, während ein Vorgang ausgeführt wird.</translati
     <message>
         <location filename="../src/platform/desktop/ControlsWidget.cpp" line="779"/>
         <source>None</source>
-        <translation type="unfinished"></translation>
+        <translation>Keine</translation>
     </message>
 </context>
 <context>
@@ -626,79 +626,79 @@ Entfernen Sie das Modul nicht, während ein Vorgang ausgeführt wird.</translati
         <location filename="../src/core/DeviceHardwareStreaming.cpp" line="122"/>
         <location filename="../src/core/DeviceHardwareStreaming.cpp" line="161"/>
         <source>Device disconnected</source>
-        <translation type="unfinished">Gerät getrennt</translation>
+        <translation>Gerät getrennt</translation>
     </message>
     <message>
         <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="78"/>
         <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="281"/>
         <source>Cartridge Connection Unstable!</source>
-        <translation type="unfinished">Modulverbindung Instabil!</translation>
+        <translation>Modulverbindung Instabil!</translation>
     </message>
     <message>
         <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="79"/>
         <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="282"/>
         <source>Playback detected a contact connection issue. Please clean the cartridge pins, reinsert the cartridge properly, and try again for improved accuracy.</source>
-        <translation type="unfinished">Playback hat ein Problem mit der Kontaktverbindung erkannt. Bitte reinigen Sie die Modulpins, setze das Modul richtig ein und versuchen Sie es erneut.</translation>
+        <translation>Playback hat ein Problem mit der Kontaktverbindung erkannt. Bitte reinigen Sie die Modulpins, setze das Modul richtig ein und versuchen Sie es erneut.</translation>
     </message>
     <message>
         <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="133"/>
         <source>Game Data Integrity Check Failed!</source>
-        <translation type="unfinished">Integritätsprüfung der Spieldaten ist fehlgeschlagen!</translation>
+        <translation>Integritätsprüfung der Spieldaten ist fehlgeschlagen!</translation>
     </message>
     <message>
         <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="134"/>
         <source>Playback detected a discrepancy between the expected game data and the backed up data. Please clean the cartridge pins and try again to ensure accuracy.</source>
-        <translation type="unfinished">Playback hat eine Abweichung zwischen den erwarteten Spieldaten und den gesicherten Daten festgestellt. Bitte reinigen Sie die Kontakte des Moduls und versuchen Sie es erneut, um die Genauigkeit sicherzustellen.</translation>
+        <translation>Playback hat eine Abweichung zwischen den erwarteten Spieldaten und den gesicherten Daten festgestellt. Bitte reinigen Sie die Kontakte des Moduls und versuchen Sie es erneut, um die Genauigkeit sicherzustellen.</translation>
     </message>
     <message>
         <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="159"/>
         <source>Empty File Was Provided!</source>
-        <translation type="unfinished">Es wurde eine leere Datei bereitgestellt!</translation>
+        <translation>Es wurde eine leere Datei bereitgestellt!</translation>
     </message>
     <message>
         <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="160"/>
         <source> It looks like the homebrew game you&apos;re trying to upload has been detected by Playback as having 0 bytes. Please verify that the data you&apos;re attempting to upload is accurate.</source>
-        <translation type="unfinished"> Es scheint so, als ob das Homebrew-Spiel, das Sie hochladen möchten, von Playback als 0 Byte erkannt wurde. Bitte überprüfen Sie, ob die Daten, die Sie hochladen möchten, korrekt sind.</translation>
+        <translation> Es scheint so, als ob das Homebrew-Spiel, das Sie hochladen möchten, von Playback als 0 Byte erkannt wurde. Bitte überprüfen Sie, ob die Daten, die Sie hochladen möchten, korrekt sind.</translation>
     </message>
     <message>
         <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="170"/>
         <source>Upload Homebrew Command Failed!</source>
-        <translation type="unfinished">Homebrew Upload Befehl fehlgeschlagen!</translation>
+        <translation>Homebrew Upload Befehl fehlgeschlagen!</translation>
     </message>
     <message>
         <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="171"/>
         <source>An error occurred while attempting to start the homebrew upload command. Please restart the application and reconnect the Operator device. If the problem continues, contact our Support team.</source>
-        <translation type="unfinished">Beim Versuch, den Homebrew-Upload-Befehl zu starten, ist ein Fehler aufgetreten. Bitte starten Sie die Anwendung neu und schließen Sie das Operator-Gerät erneut an. Wenn das Problem weiterhin besteht, wenden Sie sich an unser Support-Team.</translation>
+        <translation>Beim Versuch, den Homebrew-Upload-Befehl zu starten, ist ein Fehler aufgetreten. Bitte starten Sie die Anwendung neu und schließen Sie das Operator-Gerät erneut an. Wenn das Problem weiterhin besteht, wenden Sie sich an unser Support-Team.</translation>
     </message>
     <message>
         <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="188"/>
         <source>Homebrew Cartridge Erase Failed!</source>
-        <translation type="unfinished">Löschen des Homebrew Moduls fehlgeschlagen!</translation>
+        <translation>Löschen des Homebrew Moduls fehlgeschlagen!</translation>
     </message>
     <message>
         <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="189"/>
         <source>Playback couldn&apos;t delete the contents of the homebrew cartridge. Please clean the cartridge pins and try again. If the issue persists, contact our Support team.</source>
-        <translation type="unfinished">Playback konnte den Inhalt des Homebrew-Moduls nicht löschen. Bitte reinigen Sie die Kontakte und versuchen Sie es erneut. Wenn das Problem weiterhin besteht, wenden Sie sich an unser Support-Team.</translation>
+        <translation>Playback konnte den Inhalt des Homebrew-Moduls nicht löschen. Bitte reinigen Sie die Kontakte und versuchen Sie es erneut. Wenn das Problem weiterhin besteht, wenden Sie sich an unser Support-Team.</translation>
     </message>
     <message>
         <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="351"/>
         <source>Write save failed</source>
-        <translation type="unfinished">Schreiben des Spielstands fehlgeschlagen</translation>
+        <translation>Schreiben des Spielstands fehlgeschlagen</translation>
     </message>
     <message>
         <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="351"/>
         <source>Failed to send write save command to device.</source>
-        <translation type="unfinished">Der &quot;Spielstand schreiben&quot; - Befehl konnte nicht an das Gerät gesendet werden.</translation>
+        <translation>Der &quot;Spielstand schreiben&quot; - Befehl konnte nicht an das Gerät gesendet werden.</translation>
     </message>
     <message>
         <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="406"/>
         <source>Save Data Integrity Check Failed!</source>
-        <translation type="unfinished">Integritätsprüfung des Spielstands fehlgeschlagen!</translation>
+        <translation>Integritätsprüfung des Spielstands fehlgeschlagen!</translation>
     </message>
     <message>
         <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="407"/>
         <source>The save data written to the cartridge does not match the data read back. Please clean the cartridge pins and try again to ensure consistency.</source>
-        <translation type="unfinished">Die auf dem Modul geschriebenen Speicherdaten stimmen nicht mit den zurückgelesenen Daten überein. Bitte reinigen Sie die Kontakte und versuchen Sie es erneut, um die Konsistenz sicherzustellen.</translation>
+        <translation>Die auf dem Modul geschriebenen Speicherdaten stimmen nicht mit den zurückgelesenen Daten überein. Bitte reinigen Sie die Kontakte und versuchen Sie es erneut, um die Konsistenz sicherzustellen.</translation>
     </message>
 </context>
 <context>
@@ -827,46 +827,46 @@ Vendor: %4</translation>
     <message>
         <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="208"/>
         <source>Save Failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Speichern fehlgeschlagen</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="208"/>
         <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="216"/>
         <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="224"/>
         <source>Slot %1: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Slot %1: %2</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="216"/>
         <source>Load Failed</source>
-        <translation type="unfinished">Laden fehlgeschlagen</translation>
+        <translation>Laden fehlgeschlagen</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="224"/>
         <source>Delete Failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Löschen fehlgeschlagen</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="337"/>
         <source>State Saved</source>
-        <translation type="unfinished"></translation>
+        <translation>Zustand gespeichert</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="337"/>
         <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="342"/>
         <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="346"/>
         <source>Slot %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Slot %1</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="342"/>
         <source>State Loaded</source>
-        <translation type="unfinished"></translation>
+        <translation>Zustand geladen</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="346"/>
         <source>State Deleted</source>
-        <translation type="unfinished"></translation>
+        <translation>Zustand gelöscht</translation>
     </message>
 </context>
 <context>
@@ -1062,42 +1062,42 @@ bitte entfernen Sie das Gerät nicht.</translation>
     <message>
         <location filename="../src/platform/desktop/HotkeyBindingRow.cpp" line="42"/>
         <source>None</source>
-        <translation type="unfinished"></translation>
+        <translation>Keine</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/HotkeyBindingRow.cpp" line="47"/>
         <source>...</source>
-        <translation type="unfinished"></translation>
+        <translation>...</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/HotkeyBindingRow.cpp" line="57"/>
         <source>Play</source>
-        <translation type="unfinished"></translation>
+        <translation>Spielen</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/HotkeyBindingRow.cpp" line="59"/>
         <source>Pause/Resume</source>
-        <translation type="unfinished"></translation>
+        <translation>Pause/Fortsetzen</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/HotkeyBindingRow.cpp" line="61"/>
         <source>Restart</source>
-        <translation type="unfinished"></translation>
+        <translation>Neustart</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/HotkeyBindingRow.cpp" line="63"/>
         <source>Fast Forward</source>
-        <translation type="unfinished"></translation>
+        <translation>Schneller Vorlauf</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/HotkeyBindingRow.cpp" line="65"/>
         <source>Rewind</source>
-        <translation type="unfinished"></translation>
+        <translation>Zurückspulen</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/HotkeyBindingRow.cpp" line="67"/>
         <source>Fullscreen</source>
-        <translation type="unfinished"></translation>
+        <translation>Vollbild</translation>
     </message>
 </context>
 <context>
@@ -1105,7 +1105,7 @@ bitte entfernen Sie das Gerät nicht.</translation>
     <message>
         <location filename="../src/platform/desktop/HotkeyBindingWidget.cpp" line="112"/>
         <source>None</source>
-        <translation type="unfinished"></translation>
+        <translation>Keine</translation>
     </message>
 </context>
 <context>
@@ -1241,7 +1241,7 @@ bitte entfernen Sie das Gerät nicht.</translation>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="268"/>
         <source>Disables cheats, rewind, save states and slow-motion. Achievements earned in hardcore mode are uniquely marked so that you can show others what you&apos;ve achieved without emulator assistance features.</source>
-        <translation type="unfinished"></translation>
+        <translation>Deaktiviert Cheats, Zurückspulen, Speicherzustände und Zeitlupe. Im Hardcore-Modus erzielte Achievements werden eindeutig markiert, damit Sie anderen zeigen können, was Sie ohne Emulator-Hilfsfeatures erreicht haben.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="271"/>
@@ -1395,83 +1395,83 @@ Sie können versuchen, das Modul zu reinigen und erneut in das Gerät einzusetze
     <message>
         <location filename="../src/platform/desktop/ManagePage.cpp" line="186"/>
         <source>Backup Complete</source>
-        <translation type="unfinished"></translation>
+        <translation>Sicherung abgeschlossen</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/ManagePage.cpp" line="187"/>
         <location filename="../src/platform/desktop/ManagePage.cpp" line="195"/>
         <source>File was created: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Datei wurde erstellt: %1</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/ManagePage.cpp" line="190"/>
         <source>Write Complete</source>
-        <translation type="unfinished"></translation>
+        <translation>Schreiben abgeschlossen</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/ManagePage.cpp" line="191"/>
         <source>Game was written: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Spiel wurde geschrieben: %1</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/ManagePage.cpp" line="194"/>
         <source>Save Backup Complete</source>
-        <translation type="unfinished"></translation>
+        <translation>Spielstand-Sicherung abgeschlossen</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/ManagePage.cpp" line="198"/>
         <source>Save Restored</source>
-        <translation type="unfinished"></translation>
+        <translation>Spielstand wiederhergestellt</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/ManagePage.cpp" line="199"/>
         <source>Save was written: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Spielstand wurde geschrieben: %1</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/ManagePage.cpp" line="210"/>
         <source>Show in Folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Im Ordner anzeigen</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/ManagePage.cpp" line="226"/>
         <source>Backup Failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Sicherung fehlgeschlagen</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/ManagePage.cpp" line="227"/>
         <source>Failed to read game data from the cartridge.</source>
-        <translation type="unfinished"></translation>
+        <translation>Fehler beim Lesen der Spieldaten vom Modul.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/ManagePage.cpp" line="230"/>
         <source>Write Failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Schreiben fehlgeschlagen</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/ManagePage.cpp" line="231"/>
         <source>Failed to write game data to the cartridge.</source>
-        <translation type="unfinished"></translation>
+        <translation>Fehler beim Schreiben der Spieldaten auf das Modul.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/ManagePage.cpp" line="234"/>
         <source>Save Backup Failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Spielstand-Sicherung fehlgeschlagen</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/ManagePage.cpp" line="235"/>
         <source>Failed to read save data from the cartridge.</source>
-        <translation type="unfinished"></translation>
+        <translation>Fehler beim Lesen der Speicherdaten vom Modul.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/ManagePage.cpp" line="238"/>
         <source>Save Restore Failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Spielstand-Wiederherstellung fehlgeschlagen</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/ManagePage.cpp" line="239"/>
         <source>Failed to write save data to the cartridge.</source>
-        <translation type="unfinished"></translation>
+        <translation>Fehler beim Schreiben der Speicherdaten auf das Modul.</translation>
     </message>
 </context>
 <context>
@@ -1531,22 +1531,22 @@ Sie können versuchen, das Modul zu reinigen und erneut in das Gerät einzusetze
         <location filename="../src/platform/desktop/Navbar.cpp" line="239"/>
         <location filename="../src/platform/desktop/Navbar.cpp" line="241"/>
         <source>Preparing cartridge...</source>
-        <translation type="unfinished"></translation>
+        <translation>Modul wird vorbereitet...</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/Navbar.cpp" line="237"/>
         <source>Preparing...</source>
-        <translation type="unfinished"></translation>
+        <translation>Vorbereiten...</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/Navbar.cpp" line="243"/>
         <source>Preparing cartridge... (this may take a moment)</source>
-        <translation type="unfinished"></translation>
+        <translation>Modul wird vorbereitet... (das kann einen Moment dauern)</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/Navbar.cpp" line="245"/>
         <source>Finishing up...</source>
-        <translation type="unfinished"></translation>
+        <translation>Wird abgeschlossen...</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/Navbar.cpp" line="268"/>
@@ -1649,37 +1649,37 @@ Sie können versuchen, das Modul zu reinigen und erneut in das Gerät einzusetze
     <message>
         <location filename="../src/platform/desktop/NavbarNotificationDropdown.cpp" line="20"/>
         <source>Clear all</source>
-        <translation type="unfinished"></translation>
+        <translation>Alle löschen</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/NavbarNotificationDropdown.cpp" line="40"/>
         <source>No notifications</source>
-        <translation type="unfinished"></translation>
+        <translation>Keine Benachrichtigungen</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/NavbarNotificationDropdown.cpp" line="142"/>
         <source>Dismiss</source>
-        <translation type="unfinished"></translation>
+        <translation>Schließen</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/NavbarNotificationDropdown.cpp" line="166"/>
         <source>Just now</source>
-        <translation type="unfinished"></translation>
+        <translation>Gerade eben</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/NavbarNotificationDropdown.cpp" line="167"/>
         <source>%1m ago</source>
-        <translation type="unfinished"></translation>
+        <translation>Vor %1m</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/NavbarNotificationDropdown.cpp" line="168"/>
         <source>%1h ago</source>
-        <translation type="unfinished"></translation>
+        <translation>Vor %1h</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/NavbarNotificationDropdown.cpp" line="169"/>
         <source>%1d ago</source>
-        <translation type="unfinished"></translation>
+        <translation>Vor %1d</translation>
     </message>
 </context>
 <context>
@@ -1819,7 +1819,7 @@ Wenn Sie alle Bilder von Ihrer Kamera entfernen möchten, ohne diese einzeln in 
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="101"/>
         <source>Replay App Tour</source>
-        <translation type="unfinished"></translation>
+        <translation>App-Tour wiederholen</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="104"/>
@@ -1854,12 +1854,12 @@ Wenn Sie alle Bilder von Ihrer Kamera entfernen möchten, ohne diese einzeln in 
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="117"/>
         <source>Enable Save States</source>
-        <translation type="unfinished"></translation>
+        <translation>Speicherzustände aktivieren</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="118"/>
         <source>Always Show Controls</source>
-        <translation type="unfinished"></translation>
+        <translation>Steuerung immer anzeigen</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="119"/>
@@ -1869,7 +1869,7 @@ Wenn Sie alle Bilder von Ihrer Kamera entfernen möchten, ohne diese einzeln in 
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="130"/>
         <source>When enabled, the app tour will be shown the next time you start the application. After the tour completes, this setting will be automatically disabled.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wenn aktiviert, wird die App-Tour beim nächsten Start der Anwendung angezeigt. Nach Abschluss der Tour wird diese Einstellung automatisch deaktiviert.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="139"/>
@@ -1904,12 +1904,12 @@ Wenn Sie alle Bilder von Ihrer Kamera entfernen möchten, ohne diese einzeln in 
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="173"/>
         <source>Enables save states, allowing you to save and load your game progress at any point. This is useful for preserving your progress or quickly retrying difficult sections.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktiviert Speicherzustände, mit denen Sie Ihren Spielfortschritt jederzeit speichern und laden können. Nützlich, um Fortschritte zu sichern oder schwierige Abschnitte schnell erneut zu versuchen.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="176"/>
         <source>When enabled, the emulation control bar remains visible at all times during gameplay. When disabled, the controls will automatically hide after a few seconds of inactivity.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wenn aktiviert, bleibt die Emulations-Steuerleiste während des Spielens immer sichtbar. Wenn deaktiviert, werden die Steuerelemente nach einigen Sekunden Inaktivität automatisch ausgeblendet.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="179"/>
@@ -2146,7 +2146,8 @@ Hardcore-Modus ist aktiv - Cheats, Zurückspulen und Zeitlupe sind deaktiviert.<
         <location filename="../src/core/RAController.cpp" line="332"/>
         <source>
 Hardcore mode is active - cheats, rewind, save states and slow motion are disabled.</source>
-        <translation type="unfinished"></translation>
+        <translation>
+Hardcore-Modus ist aktiv - Cheats, Zurückspulen, Speicherzustände und Zeitlupe sind deaktiviert.</translation>
     </message>
     <message>
         <location filename="../src/core/RAController.cpp" line="373"/>
@@ -2336,29 +2337,29 @@ Möchten Sie fortfahren?
         <location filename="../src/platform/desktop/SavestateDropdownWidget.cpp" line="133"/>
         <location filename="../src/platform/desktop/SavestateDropdownWidget.cpp" line="291"/>
         <source>Save State</source>
-        <translation type="unfinished"></translation>
+        <translation>Zustand speichern</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/SavestateDropdownWidget.cpp" line="145"/>
         <location filename="../src/platform/desktop/SavestateDropdownWidget.cpp" line="292"/>
         <source>Load State</source>
-        <translation type="unfinished"></translation>
+        <translation>Zustand laden</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/SavestateDropdownWidget.cpp" line="158"/>
         <location filename="../src/platform/desktop/SavestateDropdownWidget.cpp" line="293"/>
         <source>Delete State</source>
-        <translation type="unfinished"></translation>
+        <translation>Zustand löschen</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/SavestateDropdownWidget.cpp" line="263"/>
         <source>Slot %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Slot %1</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/SavestateDropdownWidget.cpp" line="276"/>
         <source>Empty</source>
-        <translation type="unfinished"></translation>
+        <translation>Leer</translation>
     </message>
 </context>
 <context>
@@ -2368,40 +2369,40 @@ Möchten Sie fortfahren?
         <location filename="../src/core/SavestateManager.cpp" line="106"/>
         <location filename="../src/core/SavestateManager.cpp" line="134"/>
         <source>Invalid slot number</source>
-        <translation type="unfinished"></translation>
+        <translation>Ungültige Slot-Nummer</translation>
     </message>
     <message>
         <location filename="../src/core/SavestateManager.cpp" line="76"/>
         <location filename="../src/core/SavestateManager.cpp" line="110"/>
         <location filename="../src/core/SavestateManager.cpp" line="138"/>
         <source>No game loaded</source>
-        <translation type="unfinished"></translation>
+        <translation>Kein Spiel geladen</translation>
     </message>
     <message>
         <location filename="../src/core/SavestateManager.cpp" line="81"/>
         <source>Failed to create savestates directory</source>
-        <translation type="unfinished"></translation>
+        <translation>Speicherzustand-Verzeichnis konnte nicht erstellt werden</translation>
     </message>
     <message>
         <location filename="../src/core/SavestateManager.cpp" line="94"/>
         <source>Failed to serialize state</source>
-        <translation type="unfinished"></translation>
+        <translation>Zustand konnte nicht serialisiert werden</translation>
     </message>
     <message>
         <location filename="../src/core/SavestateManager.cpp" line="117"/>
         <location filename="../src/core/SavestateManager.cpp" line="145"/>
         <source>No savestate in slot %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Kein Speicherzustand in Slot %1</translation>
     </message>
     <message>
         <location filename="../src/core/SavestateManager.cpp" line="127"/>
         <source>Failed to load state</source>
-        <translation type="unfinished"></translation>
+        <translation>Zustand konnte nicht geladen werden</translation>
     </message>
     <message>
         <location filename="../src/core/SavestateManager.cpp" line="160"/>
         <source>Failed to delete state</source>
-        <translation type="unfinished"></translation>
+        <translation>Zustand konnte nicht gelöscht werden</translation>
     </message>
 </context>
 <context>
@@ -2739,32 +2740,32 @@ Bitte stellen Sie sicher, dass Ihre Grafiktreiber auf dem neuesten Stand sind.</
     <message>
         <location filename="../src/platform/desktop/Window.cpp" line="224"/>
         <source>App Update Available</source>
-        <translation type="unfinished"></translation>
+        <translation>App-Update verfügbar</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/Window.cpp" line="224"/>
         <source>A new version of Playback is available.</source>
-        <translation type="unfinished"></translation>
+        <translation>Eine neue Version von Playback ist verfügbar.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/Window.cpp" line="225"/>
         <source>Download</source>
-        <translation type="unfinished"></translation>
+        <translation>Herunterladen</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/Window.cpp" line="236"/>
         <source>Device Update Available</source>
-        <translation type="unfinished"></translation>
+        <translation>Geräte-Update verfügbar</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/Window.cpp" line="237"/>
         <source>A firmware update is available for your Operator device.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ein Firmware-Update ist für Ihr Operator-Gerät verfügbar.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/Window.cpp" line="238"/>
         <source>Update</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktualisieren</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/Window.cpp" line="511"/>
