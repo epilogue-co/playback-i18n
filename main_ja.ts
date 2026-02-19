@@ -171,12 +171,12 @@ Do not remove the cartridge while any operation is running.</source>
 <context>
     <name>CheatCodesScreen</name>
     <message>
-        <location filename="../src/platform/desktop/CheatCodesScreen.cpp" line="115"/>
+        <location filename="../src/platform/desktop/CheatCodesScreen.cpp" line="127"/>
         <source>Cheat Codes</source>
         <translation>チートコード</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/CheatCodesScreen.cpp" line="117"/>
+        <location filename="../src/platform/desktop/CheatCodesScreen.cpp" line="129"/>
         <source>Enable predefined cheats or use cheats from the internet to transform how you play, from abilities and mechanics to audio effects. Make sure you have autosave disabled so that your cartridge&apos;s save isn&apos;t overwritten while you&apos;re running cheats.</source>
         <translation>あらかじめ設定されたチートを有効にするか、インターネット上のチートを使用することで、アビリティやメカニクスからオーディオ効果に至るまで、プレイ方法を変えることができます。チート実行中にカートリッジのセーブが上書きされないよう、カートリッジへの自動保存が無効になっていることを確認してください。</translation>
     </message>
@@ -200,12 +200,12 @@ Do not remove the cartridge while any operation is running.</source>
         <translation type="vanished">入力： </translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/ControlsWidget.cpp" line="98"/>
+        <location filename="../src/platform/desktop/ControlsWidget.cpp" line="100"/>
         <source>Player</source>
         <translation>プレイヤー</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/ControlsWidget.cpp" line="779"/>
+        <location filename="../src/platform/desktop/ControlsWidget.cpp" line="795"/>
         <source>None</source>
         <translation>なし</translation>
     </message>
@@ -385,12 +385,12 @@ Do not remove the cartridge while any operation is running.</source>
 <context>
     <name>CustomCheatCodesWidget</name>
     <message>
-        <location filename="../src/platform/desktop/CustomCheatCodesWidget.cpp" line="177"/>
+        <location filename="../src/platform/desktop/CustomCheatCodesWidget.cpp" line="182"/>
         <source>Custom Cheats</source>
         <translation>カスタムチート</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/CustomCheatCodesWidget.cpp" line="178"/>
+        <location filename="../src/platform/desktop/CustomCheatCodesWidget.cpp" line="183"/>
         <source>Add your own custom cheats...</source>
         <translation>自分でチートを追加...</translation>
     </message>
@@ -410,12 +410,12 @@ Do not remove the cartridge while any operation is running.</source>
 <context>
     <name>CustomCheatInputWidget</name>
     <message>
-        <location filename="../src/platform/desktop/CustomCheatCodesWidget.cpp" line="277"/>
+        <location filename="../src/platform/desktop/CustomCheatCodesWidget.cpp" line="282"/>
         <source>Description...</source>
         <translation>説明...</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/CustomCheatCodesWidget.cpp" line="278"/>
+        <location filename="../src/platform/desktop/CustomCheatCodesWidget.cpp" line="283"/>
         <source>Code...</source>
         <translation>コード...</translation>
     </message>
@@ -439,12 +439,12 @@ Do not remove the cartridge while any operation is running.</source>
         <translation type="vanished"> デフォルトのチート</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/DatabaseCheatCodesWidget.cpp" line="112"/>
+        <location filename="../src/platform/desktop/DatabaseCheatCodesWidget.cpp" line="119"/>
         <source> Default</source>
         <translation> デフォルト</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/DatabaseCheatCodesWidget.cpp" line="113"/>
+        <location filename="../src/platform/desktop/DatabaseCheatCodesWidget.cpp" line="120"/>
         <source>Search...</source>
         <translation>検索...</translation>
     </message>
@@ -488,12 +488,12 @@ Do not remove the cartridge while any operation is running.</source>
 <context>
     <name>DeviceBase</name>
     <message>
-        <location filename="../src/core/DeviceBase.cpp" line="341"/>
+        <location filename="../src/core/DeviceBase.cpp" line="305"/>
         <source>Save data integrity check failed!</source>
         <translation>保存データの整合性チェックに失敗しました！</translation>
     </message>
     <message>
-        <location filename="../src/core/DeviceBase.cpp" line="342"/>
+        <location filename="../src/core/DeviceBase.cpp" line="306"/>
         <source>The save data appears to be inconsistent between read cycles. Please clean the cartridge pins and try again.</source>
         <translation>読み出しサイクルの間で保存データに一貫性がないようです。カートリッジのピンを清掃し、再度お試しください。</translation>
     </message>
@@ -594,22 +594,22 @@ Do not remove the cartridge while any operation is running.</source>
         <translation>読み取りデータと書き込みデータが一致しません。</translation>
     </message>
     <message>
-        <location filename="../src/core/DeviceHardwareOperations.cpp" line="377"/>
+        <location filename="../src/core/DeviceHardwareOperations.cpp" line="378"/>
         <source>Write save failed</source>
         <translation>セーブの書き込みに失敗しました</translation>
     </message>
     <message>
-        <location filename="../src/core/DeviceHardwareOperations.cpp" line="377"/>
+        <location filename="../src/core/DeviceHardwareOperations.cpp" line="378"/>
         <source>Failed to send write save command to device.</source>
         <translation>デバイスへの書き込み保存コマンドの送信に失敗しました。</translation>
     </message>
     <message>
-        <location filename="../src/core/DeviceHardwareOperations.cpp" line="415"/>
+        <location filename="../src/core/DeviceHardwareOperations.cpp" line="416"/>
         <source>Save Data Integrity Check Failed!</source>
         <translation>セーブデータの整合性チェックに失敗しました！</translation>
     </message>
     <message>
-        <location filename="../src/core/DeviceHardwareOperations.cpp" line="416"/>
+        <location filename="../src/core/DeviceHardwareOperations.cpp" line="417"/>
         <source>The save data written to the cartridge does not match the data read back. Please clean the cartridge pins and try again to ensure consistency.</source>
         <translation>カートリッジに書き込まれた保存データと読み込まれたデータが一致しません。カートリッジのピンを清掃し、整合性を確認するためにもう一度やり直してください。</translation>
     </message>
@@ -681,22 +681,22 @@ Do not remove the cartridge while any operation is running.</source>
         <translation>Playback が Homebrew カートリッジの内容を削除できませんでした。カートリッジのピンを清掃してから、もう一度お試しください。問題が解決しない場合は、サポートチームまでご連絡ください。</translation>
     </message>
     <message>
-        <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="351"/>
+        <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="352"/>
         <source>Write save failed</source>
         <translation>セーブの書き込みに失敗しました</translation>
     </message>
     <message>
-        <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="351"/>
+        <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="352"/>
         <source>Failed to send write save command to device.</source>
         <translation>デバイスへの書き込み保存コマンドの送信に失敗しました。</translation>
     </message>
     <message>
-        <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="406"/>
+        <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="407"/>
         <source>Save Data Integrity Check Failed!</source>
         <translation>セーブデータの整合性チェックに失敗しました！</translation>
     </message>
     <message>
-        <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="407"/>
+        <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="408"/>
         <source>The save data written to the cartridge does not match the data read back. Please clean the cartridge pins and try again to ensure consistency.</source>
         <translation>カートリッジに書き込まれた保存データと読み込まれたデータが一致しません。カートリッジのピンを清掃し、整合性を確認するためにもう一度やり直してください。</translation>
     </message>
@@ -785,27 +785,27 @@ OpenGL詳細:
         <translation type="vanished">コアがセーブデータのロードに失敗しました。</translation>
     </message>
     <message>
-        <location filename="../src/platform/common/Emulator.cpp" line="586"/>
+        <location filename="../src/platform/common/Emulator.cpp" line="593"/>
         <source>ROM integrity check failed. Do you want to continue loading?</source>
         <translation>ROMの整合性チェックに失敗しました。読み込みを続行しますか？</translation>
     </message>
     <message>
-        <location filename="../src/platform/common/Emulator.cpp" line="601"/>
+        <location filename="../src/platform/common/Emulator.cpp" line="608"/>
         <source>Failed to load game! Unable to launch the game, please make sure that the cartridge is clean.</source>
         <translation>ゲームの読み込みに失敗しました！起動できません。カートリッジが汚れていないか確認してください。</translation>
     </message>
     <message>
-        <location filename="../src/platform/common/Emulator.cpp" line="606"/>
+        <location filename="../src/platform/common/Emulator.cpp" line="613"/>
         <source>Failed to load save data! The core failed to load the save data.</source>
         <translation>セーブデータの読み込みに失敗しました！コアがセーブデータを読み込めませんでした。</translation>
     </message>
     <message>
-        <location filename="../src/platform/common/Emulator.cpp" line="612"/>
+        <location filename="../src/platform/common/Emulator.cpp" line="619"/>
         <source>Save size mismatch detected. Do you want to continue loading?</source>
         <translation>セーブサイズの不一致が検出されました。読み込みを続行しますか？</translation>
     </message>
     <message>
-        <location filename="../src/platform/common/Emulator.cpp" line="832"/>
+        <location filename="../src/platform/common/Emulator.cpp" line="839"/>
         <source>Your graphics hardware does not meet the minimum requirements:
 
 %1
@@ -825,46 +825,46 @@ OpenGL詳細:
 <context>
     <name>EmulatorContainer</name>
     <message>
-        <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="208"/>
+        <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="205"/>
         <source>Save Failed</source>
         <translation>保存に失敗しました</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="208"/>
-        <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="216"/>
-        <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="224"/>
+        <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="205"/>
+        <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="213"/>
+        <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="221"/>
         <source>Slot %1: %2</source>
         <translation>スロット %1: %2</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="216"/>
+        <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="213"/>
         <source>Load Failed</source>
         <translation>読み込みに失敗しました</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="224"/>
+        <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="221"/>
         <source>Delete Failed</source>
         <translation>削除に失敗しました</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="337"/>
+        <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="341"/>
         <source>State Saved</source>
         <translation>ステートを保存しました</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="337"/>
-        <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="342"/>
+        <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="341"/>
         <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="346"/>
+        <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="350"/>
         <source>Slot %1</source>
         <translation>スロット %1</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="342"/>
+        <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="346"/>
         <source>State Loaded</source>
         <translation>ステートを読み込みました</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="346"/>
+        <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="350"/>
         <source>State Deleted</source>
         <translation>ステートを削除しました</translation>
     </message>
@@ -1111,27 +1111,27 @@ please do not disconnect the device.</source>
 <context>
     <name>InputBindingsScreen</name>
     <message>
-        <location filename="../src/platform/desktop/InputBindingsScreen.cpp" line="235"/>
+        <location filename="../src/platform/desktop/InputBindingsScreen.cpp" line="238"/>
         <source>Mouse input uses pre-configured bindings. Move the mouse and use left/right click to test inputs. If inputs don&apos;t respond, make sure the game supports mouse controls.</source>
         <translation>マウス入力は事前設定された割り当てを使用します。マウスを動かし、左/右クリックで入力をテストしてください。反応しない場合は、ゲームがマウス操作に対応しているか確認してください。</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/InputBindingsScreen.cpp" line="240"/>
+        <location filename="../src/platform/desktop/InputBindingsScreen.cpp" line="243"/>
         <source>Lightgun input uses pre-configured mouse bindings. Aim: move mouse. Trigger: left click. Cursor: right click. Pause: middle click. Turbo: left + right click. If inputs don&apos;t respond, make sure the game supports lightgun controls.</source>
         <translation>ライトガン入力は事前設定されたマウス割り当てを使用します。照準: マウス移動。トリガー: 左クリック。カーソル: 右クリック。ポーズ: 中クリック。ターボ: 左+右クリック。反応しない場合は、ゲームがライトガン操作に対応しているか確認してください。</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/InputBindingsScreen.cpp" line="253"/>
+        <location filename="../src/platform/desktop/InputBindingsScreen.cpp" line="256"/>
         <source>Rebind keys</source>
         <translation>キーの再設定</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/InputBindingsScreen.cpp" line="259"/>
+        <location filename="../src/platform/desktop/InputBindingsScreen.cpp" line="262"/>
         <source>Need help?</source>
         <translation>サポートが必要ですか？</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/InputBindingsScreen.cpp" line="260"/>
+        <location filename="../src/platform/desktop/InputBindingsScreen.cpp" line="263"/>
         <source>Controls</source>
         <translation>操作</translation>
     </message>
@@ -1140,12 +1140,12 @@ please do not disconnect the device.</source>
         <translation type="vanished">コントロール設定</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/InputBindingsScreen.cpp" line="245"/>
+        <location filename="../src/platform/desktop/InputBindingsScreen.cpp" line="248"/>
         <source>The Playback software comes with pre-configured bindings for most gamepads. Try pressing buttons on your controller or keyboard to test them.</source>
         <translation>Playbackソフトウェアには、ほとんどのゲームパッド用のバインディングがあらかじめ設定されています。お使いのコントローラーやキーボードのボタンを押して試してみてください。</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/InputBindingsScreen.cpp" line="254"/>
+        <location filename="../src/platform/desktop/InputBindingsScreen.cpp" line="257"/>
         <source>Cancel rebind</source>
         <translation>リバインドのキャンセル</translation>
     </message>
@@ -1604,42 +1604,42 @@ You can try cleaning then re-inserting the cartridge into the device.
 <context>
     <name>NavbarLogoDropdown</name>
     <message>
-        <location filename="../src/platform/desktop/NavbarLogoDropdown.cpp" line="167"/>
+        <location filename="../src/platform/desktop/NavbarLogoDropdown.cpp" line="171"/>
         <source>Settings</source>
         <translation>設定</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/NavbarLogoDropdown.cpp" line="168"/>
+        <location filename="../src/platform/desktop/NavbarLogoDropdown.cpp" line="172"/>
         <source>What&apos;s New</source>
         <translation>新着情報</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/NavbarLogoDropdown.cpp" line="169"/>
+        <location filename="../src/platform/desktop/NavbarLogoDropdown.cpp" line="173"/>
         <source>Support</source>
         <translation>サポート</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/NavbarLogoDropdown.cpp" line="170"/>
+        <location filename="../src/platform/desktop/NavbarLogoDropdown.cpp" line="174"/>
         <source>Send Feedback</source>
         <translation>フィードバックを送る</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/NavbarLogoDropdown.cpp" line="171"/>
+        <location filename="../src/platform/desktop/NavbarLogoDropdown.cpp" line="175"/>
         <source>Report a Bug</source>
         <translation>不具合を報告</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/NavbarLogoDropdown.cpp" line="172"/>
+        <location filename="../src/platform/desktop/NavbarLogoDropdown.cpp" line="176"/>
         <source>Vault</source>
         <translation>Vault</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/NavbarLogoDropdown.cpp" line="173"/>
+        <location filename="../src/platform/desktop/NavbarLogoDropdown.cpp" line="177"/>
         <source>About</source>
         <translation>概要</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/NavbarLogoDropdown.cpp" line="174"/>
+        <location filename="../src/platform/desktop/NavbarLogoDropdown.cpp" line="178"/>
         <source>Exit</source>
         <translation>終了</translation>
     </message>
@@ -1787,6 +1787,29 @@ If you&apos;d like to easily remove all the pictures from your camera, without h
     <message>
         <source>DELETE ALL</source>
         <translation type="vanished">すべて削除</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackApp</name>
+    <message>
+        <location filename="../src/platform/desktop/PlaybackApp.cpp" line="193"/>
+        <source>Firmware Updated</source>
+        <translation>ファームウェア更新完了</translation>
+    </message>
+    <message>
+        <location filename="../src/platform/desktop/PlaybackApp.cpp" line="194"/>
+        <source>Your device firmware has been updated successfully.</source>
+        <translation>ファームウェアが正常に更新されました。</translation>
+    </message>
+    <message>
+        <location filename="../src/platform/desktop/PlaybackApp.cpp" line="196"/>
+        <source>Firmware Update Failed</source>
+        <translation>ファームウェアの更新に失敗しました</translation>
+    </message>
+    <message>
+        <location filename="../src/platform/desktop/PlaybackApp.cpp" line="197"/>
+        <source>The firmware update could not be completed. Please try again.</source>
+        <translation>ファームウェアの更新を完了できませんでした。もう一度お試しください。</translation>
     </message>
 </context>
 <context>
@@ -2471,58 +2494,58 @@ Please make sure it&apos;s connected.</source>
     <name>SettingsWindow</name>
     <message>
         <location filename="../src/platform/desktop/SettingsWindow.cpp" line="88"/>
-        <location filename="../src/platform/desktop/SettingsWindow.cpp" line="430"/>
+        <location filename="../src/platform/desktop/SettingsWindow.cpp" line="432"/>
         <source>General</source>
         <translation>一般</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/SettingsWindow.cpp" line="91"/>
-        <location filename="../src/platform/desktop/SettingsWindow.cpp" line="431"/>
+        <location filename="../src/platform/desktop/SettingsWindow.cpp" line="433"/>
         <source>Game</source>
         <translation>ゲーム</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/SettingsWindow.cpp" line="391"/>
+        <location filename="../src/platform/desktop/SettingsWindow.cpp" line="393"/>
         <source>Core Load Failed</source>
         <translation>コアの読み込みに失敗しました</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/SettingsWindow.cpp" line="391"/>
+        <location filename="../src/platform/desktop/SettingsWindow.cpp" line="393"/>
         <source>Failed to load core. Please load a valid core.</source>
         <translation>コアの読み込みに失敗しました。有効なコアを読み込んでください。</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/SettingsWindow.cpp" line="422"/>
+        <location filename="../src/platform/desktop/SettingsWindow.cpp" line="424"/>
         <source>Settings</source>
         <translation>設定</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/SettingsWindow.cpp" line="423"/>
+        <location filename="../src/platform/desktop/SettingsWindow.cpp" line="425"/>
         <source>Playback</source>
         <translation>Playback</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/SettingsWindow.cpp" line="424"/>
+        <location filename="../src/platform/desktop/SettingsWindow.cpp" line="426"/>
         <source>Core Selector</source>
         <translation>コアセレクター</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/SettingsWindow.cpp" line="425"/>
+        <location filename="../src/platform/desktop/SettingsWindow.cpp" line="427"/>
         <source>Emulator</source>
         <translation>エミュレーター</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/SettingsWindow.cpp" line="426"/>
+        <location filename="../src/platform/desktop/SettingsWindow.cpp" line="428"/>
         <source>Device</source>
         <translation>デバイス</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/SettingsWindow.cpp" line="427"/>
+        <location filename="../src/platform/desktop/SettingsWindow.cpp" line="429"/>
         <source>Controls</source>
         <translation>操作</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/SettingsWindow.cpp" line="428"/>
+        <location filename="../src/platform/desktop/SettingsWindow.cpp" line="430"/>
         <source>Integrations</source>
         <translation>連携</translation>
     </message>
@@ -2543,7 +2566,7 @@ Please make sure it&apos;s connected.</source>
         <translation type="vanished">アチーブメント</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/SettingsWindow.cpp" line="429"/>
+        <location filename="../src/platform/desktop/SettingsWindow.cpp" line="431"/>
         <source>Cheat Codes</source>
         <translation>チートコード</translation>
     </message>
@@ -2651,7 +2674,7 @@ Please make sure it&apos;s connected.</source>
 <context>
     <name>ViewRouter</name>
     <message>
-        <location filename="../src/platform/desktop/ViewRouter.cpp" line="124"/>
+        <location filename="../src/platform/desktop/ViewRouter.cpp" line="137"/>
         <source>Archive your game data securely on your computer, making a digital equivalent of your game collection. Game files are compatible with your chosen emulator.
 
 Tip: Our app runs a Data Integrity Test to make sure that you are getting an accurate reproduction of the cartridge’s content.</source>
@@ -2660,12 +2683,12 @@ Tip: Our app runs a Data Integrity Test to make sure that you are getting an acc
 ヒント：当社のアプリは、カートリッジの内容を正確に再現していることを確認するために、データ完全性テストを実行します。</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/ViewRouter.cpp" line="128"/>
+        <location filename="../src/platform/desktop/ViewRouter.cpp" line="141"/>
         <source>Backup Game</source>
         <translation>バックアップゲーム</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/ViewRouter.cpp" line="132"/>
+        <location filename="../src/platform/desktop/ViewRouter.cpp" line="145"/>
         <source>Overwrite the game data on your cartridge with a different file. Make sure the game file you’re writing is valid by testing it in an external emulator first.
 
 Tip: Transfer your homebrew game to a cartridge and play it on original hardware.</source>
@@ -2674,12 +2697,12 @@ Tip: Transfer your homebrew game to a cartridge and play it on original hardware
 ヒント：自作ゲームをカートリッジに移し、オリジナルのハードウェアでプレイします。</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/ViewRouter.cpp" line="135"/>
+        <location filename="../src/platform/desktop/ViewRouter.cpp" line="148"/>
         <source>Upload Homebrew</source>
         <translation>Homebrewのアップロード</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/ViewRouter.cpp" line="138"/>
+        <location filename="../src/platform/desktop/ViewRouter.cpp" line="151"/>
         <source>Transfer a duplicate of your save data from the cartridge to your computer. You can then back up your save file or edit it with an external program.
 
 Tip: Transfer your save to the computer, replace the battery and transfer it back to the cartridge safely.</source>
@@ -2688,12 +2711,12 @@ Tip: Transfer your save to the computer, replace the battery and transfer it bac
 ヒント：セーブデータをパソコンに移した後、電池を交換し、安全にカートリッジに戻してください。</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/ViewRouter.cpp" line="143"/>
+        <location filename="../src/platform/desktop/ViewRouter.cpp" line="156"/>
         <source>Backup Save</source>
         <translation>セーブバックアップ</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/ViewRouter.cpp" line="147"/>
+        <location filename="../src/platform/desktop/ViewRouter.cpp" line="160"/>
         <source>Transfer a duplicate of your save data from your computer to the cartridge and pick the game up right where you left off.
 
 Tip: Use external programs to trigger in-game events or customize gameplay.</source>
@@ -2702,7 +2725,7 @@ Tip: Use external programs to trigger in-game events or customize gameplay.</sou
 ヒント：外部プログラムを使用して、ゲーム内のイベントをトリガーしたり、ゲームプレイをカスタマイズすることができます。</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/ViewRouter.cpp" line="150"/>
+        <location filename="../src/platform/desktop/ViewRouter.cpp" line="163"/>
         <source>Upload Save</source>
         <translation>セーブアップロード</translation>
     </message>
@@ -2742,132 +2765,132 @@ Please ensure your graphics drivers are up to date.</source>
         <translation type="vanished">スタート</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="224"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="226"/>
         <source>App Update Available</source>
         <translation>アプリの更新があります</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="224"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="226"/>
         <source>A new version of Playback is available.</source>
         <translation>Playbackの新しいバージョンが利用可能です。</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="225"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="227"/>
         <source>Download</source>
         <translation>ダウンロード</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="236"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="238"/>
         <source>Device Update Available</source>
         <translation>デバイスの更新があります</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="237"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="239"/>
         <source>A firmware update is available for your Operator device.</source>
         <translation>Operatorデバイスのファームウェア更新が利用可能です。</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="238"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="240"/>
         <source>Update</source>
         <translation>更新</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="511"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="516"/>
         <source>Main Hub</source>
         <translation>メインハブ</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="512"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="517"/>
         <source>Choose between playing the game, transferring data or accessing more info.</source>
         <translation>ゲームをプレイ、データを転送、または詳細情報にアクセスするかを選択します。</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="519"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="524"/>
         <source>Play Tab</source>
         <translation>プレイタブ</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="520"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="525"/>
         <source>Learn more about your game, or have a play session on the in-app emulator.</source>
         <translation>ゲームについて詳しく知るか、アプリ内エミュレーターでプレイセッションを行います。</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="527"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="532"/>
         <source>Start Play Session</source>
         <translation>プレイセッションを開始</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="528"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="533"/>
         <source>Launch the in-app emulator for an authentic, accurate experience.</source>
         <translation>本物の正確な体験のためにアプリ内エミュレーターを起動します。</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="535"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="540"/>
         <source>Playback Settings</source>
         <translation>Playbackの設定</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="536"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="541"/>
         <source>Configure parameters to make the app your own.</source>
         <translation>アプリを自分好みにカスタマイズするパラメーターを設定します。</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="543"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="548"/>
         <source>Save Vault</source>
         <translation>Save Vault</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="544"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="549"/>
         <source>Access and manage saves created automatically in the &lt;a href=&quot;#&quot; style=&apos;color: white&apos;&gt;Save Vault&lt;/a&gt;.</source>
         <translation>&lt;a href=&quot;#&quot; style=&apos;color: white&apos;&gt;Save Vault&lt;/a&gt;に自動的に作成されたセーブデータにアクセスし、管理します。</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="553"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="558"/>
         <source>Device Switcher</source>
         <translation>デバイススイッチャー</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="554"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="559"/>
         <source>Select between multiple Operator devices connected to the same computer.</source>
         <translation>同じコンピューターに接続された複数のOperatorデバイス間で切り替えます。</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="561"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="566"/>
         <source>Counterfeit Detection</source>
         <translation>偽造品チェック</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="562"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="567"/>
         <source>Your cartridge has been analysed for some of the most common counterfeit markers.</source>
         <translation>カートリッジが一般的な偽造品の特徴について分析されました。</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="569"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="574"/>
         <source>Data Tab</source>
         <translation>データタブ</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="570"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="575"/>
         <source>Backup, transfer and manage official/homebrew game and save data.</source>
         <translation>公式/ホームブリューゲームとセーブデータのバックアップ、転送、管理を行います。</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="577"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="582"/>
         <source>Backup Save</source>
         <translation>セーブバックアップ</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="578"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="583"/>
         <source>Create digital copies of your save data.</source>
         <translation>セーブデータのデジタルコピーを作成します。</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="585"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="590"/>
         <source>Start Backup Session</source>
         <translation>バックアップセッションを開始</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="586"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="591"/>
         <source>Begin archiving the save data.</source>
         <translation>セーブデータのアーカイブを開始します。</translation>
     </message>
