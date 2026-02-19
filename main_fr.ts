@@ -171,12 +171,12 @@ Ne retirez pas la cartouche pendant qu&apos;une opération est en cours.</transl
 <context>
     <name>CheatCodesScreen</name>
     <message>
-        <location filename="../src/platform/desktop/CheatCodesScreen.cpp" line="115"/>
+        <location filename="../src/platform/desktop/CheatCodesScreen.cpp" line="127"/>
         <source>Cheat Codes</source>
         <translation>Codes de triche</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/CheatCodesScreen.cpp" line="117"/>
+        <location filename="../src/platform/desktop/CheatCodesScreen.cpp" line="129"/>
         <source>Enable predefined cheats or use cheats from the internet to transform how you play, from abilities and mechanics to audio effects. Make sure you have autosave disabled so that your cartridge&apos;s save isn&apos;t overwritten while you&apos;re running cheats.</source>
         <translation>Activez des codes prédéfinis pour tricher ou entrez des codes de triche venant du net pour transformer votre façon de jouer, allant d&apos;une modification des capacités et mécanismes du jeu jusqu&apos;à des changements sonores. Veuillez désactiver la sauvegarde automatique lorsque vous utilisez des codes de triche afin que la sauvegarde de votre cartouche ne soit pas écrasée en exécutant des codes.</translation>
     </message>
@@ -200,12 +200,12 @@ Ne retirez pas la cartouche pendant qu&apos;une opération est en cours.</transl
         <translation type="vanished">Entrée : </translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/ControlsWidget.cpp" line="98"/>
+        <location filename="../src/platform/desktop/ControlsWidget.cpp" line="100"/>
         <source>Player</source>
         <translation>Joueur</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/ControlsWidget.cpp" line="779"/>
+        <location filename="../src/platform/desktop/ControlsWidget.cpp" line="795"/>
         <source>None</source>
         <translation>Aucun</translation>
     </message>
@@ -385,12 +385,12 @@ Ne retirez pas la cartouche pendant qu&apos;une opération est en cours.</transl
 <context>
     <name>CustomCheatCodesWidget</name>
     <message>
-        <location filename="../src/platform/desktop/CustomCheatCodesWidget.cpp" line="177"/>
+        <location filename="../src/platform/desktop/CustomCheatCodesWidget.cpp" line="182"/>
         <source>Custom Cheats</source>
         <translation>Codes de triche personnalisés</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/CustomCheatCodesWidget.cpp" line="178"/>
+        <location filename="../src/platform/desktop/CustomCheatCodesWidget.cpp" line="183"/>
         <source>Add your own custom cheats...</source>
         <translation>Ajouter vos propres codes...</translation>
     </message>
@@ -410,12 +410,12 @@ Ne retirez pas la cartouche pendant qu&apos;une opération est en cours.</transl
 <context>
     <name>CustomCheatInputWidget</name>
     <message>
-        <location filename="../src/platform/desktop/CustomCheatCodesWidget.cpp" line="277"/>
+        <location filename="../src/platform/desktop/CustomCheatCodesWidget.cpp" line="282"/>
         <source>Description...</source>
         <translation>Description...</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/CustomCheatCodesWidget.cpp" line="278"/>
+        <location filename="../src/platform/desktop/CustomCheatCodesWidget.cpp" line="283"/>
         <source>Code...</source>
         <translation>Code...</translation>
     </message>
@@ -439,12 +439,12 @@ Ne retirez pas la cartouche pendant qu&apos;une opération est en cours.</transl
         <translation type="vanished"> - Codes prédéfinis</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/DatabaseCheatCodesWidget.cpp" line="112"/>
+        <location filename="../src/platform/desktop/DatabaseCheatCodesWidget.cpp" line="119"/>
         <source> Default</source>
         <translation>Défaut</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/DatabaseCheatCodesWidget.cpp" line="113"/>
+        <location filename="../src/platform/desktop/DatabaseCheatCodesWidget.cpp" line="120"/>
         <source>Search...</source>
         <translation>Chercher...</translation>
     </message>
@@ -488,12 +488,12 @@ Ne retirez pas la cartouche pendant qu&apos;une opération est en cours.</transl
 <context>
     <name>DeviceBase</name>
     <message>
-        <location filename="../src/core/DeviceBase.cpp" line="341"/>
+        <location filename="../src/core/DeviceBase.cpp" line="305"/>
         <source>Save data integrity check failed!</source>
         <translation>La vérification de l&apos;intégrité des données de sauvegarde a échoué !</translation>
     </message>
     <message>
-        <location filename="../src/core/DeviceBase.cpp" line="342"/>
+        <location filename="../src/core/DeviceBase.cpp" line="306"/>
         <source>The save data appears to be inconsistent between read cycles. Please clean the cartridge pins and try again.</source>
         <translation>Les données de sauvegarde semblent inconsistentes entre les différentes lectures. Veuillez nettoyer les broches de la cartouche et réessayer.</translation>
     </message>
@@ -594,22 +594,22 @@ Ne retirez pas la cartouche pendant qu&apos;une opération est en cours.</transl
         <translation>Les données lues ne correspondent pas aux données écrites.</translation>
     </message>
     <message>
-        <location filename="../src/core/DeviceHardwareOperations.cpp" line="377"/>
+        <location filename="../src/core/DeviceHardwareOperations.cpp" line="378"/>
         <source>Write save failed</source>
         <translation>L&apos;écriture de la sauvegarde a échoué</translation>
     </message>
     <message>
-        <location filename="../src/core/DeviceHardwareOperations.cpp" line="377"/>
+        <location filename="../src/core/DeviceHardwareOperations.cpp" line="378"/>
         <source>Failed to send write save command to device.</source>
         <translation>Échec de l&apos;envoi de l&apos;écriture de la sauvegarde à l&apos;appareil.</translation>
     </message>
     <message>
-        <location filename="../src/core/DeviceHardwareOperations.cpp" line="415"/>
+        <location filename="../src/core/DeviceHardwareOperations.cpp" line="416"/>
         <source>Save Data Integrity Check Failed!</source>
         <translation>La vérification de l&apos;intégrité des données de sauvegarde a échoué !</translation>
     </message>
     <message>
-        <location filename="../src/core/DeviceHardwareOperations.cpp" line="416"/>
+        <location filename="../src/core/DeviceHardwareOperations.cpp" line="417"/>
         <source>The save data written to the cartridge does not match the data read back. Please clean the cartridge pins and try again to ensure consistency.</source>
         <translation>Les données de sauvegarde écrites dans la cartouche ne correspondent pas aux données relues. Veuillez nettoyer les broches de la cartouche et réessayer pour assurer l&apos;authenticité des données.</translation>
     </message>
@@ -681,22 +681,22 @@ Ne retirez pas la cartouche pendant qu&apos;une opération est en cours.</transl
         <translation>Playback n&apos;a pas pu supprimer le contenu de la cartouche homebrew. Veuillez nettoyer les broches de la cartouche et réessayer. Si le problème persiste, contactez notre équipe d&apos;assistance.</translation>
     </message>
     <message>
-        <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="351"/>
+        <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="352"/>
         <source>Write save failed</source>
         <translation>L&apos;écriture de la sauvegarde a échoué</translation>
     </message>
     <message>
-        <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="351"/>
+        <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="352"/>
         <source>Failed to send write save command to device.</source>
         <translation>Échec de l&apos;envoi de l&apos;écriture de la sauvegarde à l&apos;appareil.</translation>
     </message>
     <message>
-        <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="406"/>
+        <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="407"/>
         <source>Save Data Integrity Check Failed!</source>
         <translation>La vérification de l&apos;intégrité des données de sauvegarde a échoué !</translation>
     </message>
     <message>
-        <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="407"/>
+        <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="408"/>
         <source>The save data written to the cartridge does not match the data read back. Please clean the cartridge pins and try again to ensure consistency.</source>
         <translation>Les données de sauvegarde écrites dans la cartouche ne correspondent pas aux données relues. Veuillez nettoyer les broches de la cartouche et réessayer pour assurer l&apos;authenticité des données.</translation>
     </message>
@@ -785,27 +785,27 @@ Assurez-vous que vos pilotes graphiques sont à jour.</translation>
         <translation type="vanished">Le cœur n&apos;a pas réussi à charger les données de sauvegarde.</translation>
     </message>
     <message>
-        <location filename="../src/platform/common/Emulator.cpp" line="586"/>
+        <location filename="../src/platform/common/Emulator.cpp" line="593"/>
         <source>ROM integrity check failed. Do you want to continue loading?</source>
         <translation>La vérification de l&apos;intégrité de la ROM a échoué. Souhaitez-vous continuer le chargement ?</translation>
     </message>
     <message>
-        <location filename="../src/platform/common/Emulator.cpp" line="601"/>
+        <location filename="../src/platform/common/Emulator.cpp" line="608"/>
         <source>Failed to load game! Unable to launch the game, please make sure that the cartridge is clean.</source>
         <translation>Échec du chargement du jeu ! Le jeu n&apos;a pas pu être lancé ; assurez-vous que la cartouche soit propre.</translation>
     </message>
     <message>
-        <location filename="../src/platform/common/Emulator.cpp" line="606"/>
+        <location filename="../src/platform/common/Emulator.cpp" line="613"/>
         <source>Failed to load save data! The core failed to load the save data.</source>
         <translation>Échec du chargement des données de sauvegarde ! Le cœur n&apos;a pas pu charger les données de sauvegarde.</translation>
     </message>
     <message>
-        <location filename="../src/platform/common/Emulator.cpp" line="612"/>
+        <location filename="../src/platform/common/Emulator.cpp" line="619"/>
         <source>Save size mismatch detected. Do you want to continue loading?</source>
         <translation>Une erreur sur la taille de la sauvegarde a été détectée.  Souhaitez-vous continuer le chargement ?</translation>
     </message>
     <message>
-        <location filename="../src/platform/common/Emulator.cpp" line="832"/>
+        <location filename="../src/platform/common/Emulator.cpp" line="839"/>
         <source>Your graphics hardware does not meet the minimum requirements:
 
 %1
@@ -825,46 +825,46 @@ Vendeur : %4</translation>
 <context>
     <name>EmulatorContainer</name>
     <message>
-        <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="208"/>
+        <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="205"/>
         <source>Save Failed</source>
         <translation>La sauvegarde a échoué</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="208"/>
-        <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="216"/>
-        <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="224"/>
+        <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="205"/>
+        <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="213"/>
+        <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="221"/>
         <source>Slot %1: %2</source>
         <translation>Emplacement %1 : %2</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="216"/>
+        <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="213"/>
         <source>Load Failed</source>
         <translation>Le chargement a échoué</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="224"/>
+        <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="221"/>
         <source>Delete Failed</source>
         <translation>La suppression a échoué</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="337"/>
+        <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="341"/>
         <source>State Saved</source>
         <translation>État sauvegardé</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="337"/>
-        <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="342"/>
+        <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="341"/>
         <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="346"/>
+        <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="350"/>
         <source>Slot %1</source>
         <translation>Emplacement %1</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="342"/>
+        <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="346"/>
         <source>State Loaded</source>
         <translation>État chargé</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="346"/>
+        <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="350"/>
         <source>State Deleted</source>
         <translation>État supprimé</translation>
     </message>
@@ -1111,27 +1111,27 @@ veuillez ne pas déconnectez l&apos;appareil.</translation>
 <context>
     <name>InputBindingsScreen</name>
     <message>
-        <location filename="../src/platform/desktop/InputBindingsScreen.cpp" line="235"/>
+        <location filename="../src/platform/desktop/InputBindingsScreen.cpp" line="238"/>
         <source>Mouse input uses pre-configured bindings. Move the mouse and use left/right click to test inputs. If inputs don&apos;t respond, make sure the game supports mouse controls.</source>
         <translation>Les commandes pour la souris utilisent des assignations prédéfinies. Déplacez la souris et faites un clic gauche ou droit pour tester les touches. Si les touches ne répondent pas, assurez-vous que le jeu supporte le contrôle par souris.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/InputBindingsScreen.cpp" line="240"/>
+        <location filename="../src/platform/desktop/InputBindingsScreen.cpp" line="243"/>
         <source>Lightgun input uses pre-configured mouse bindings. Aim: move mouse. Trigger: left click. Cursor: right click. Pause: middle click. Turbo: left + right click. If inputs don&apos;t respond, make sure the game supports lightgun controls.</source>
         <translation>Les commandes pour le pointeur optique utilisent des assignations prédéfinies. Viser : déplacer souris. Gâchette : clic gauche. Curseur : clic droit. Pause : clic central. Turbo : clic gauche et clic droit en même temps. Si les touches ne répondent pas, assurez-vous que le jeu supporte le contrôle par pointeur optique.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/InputBindingsScreen.cpp" line="253"/>
+        <location filename="../src/platform/desktop/InputBindingsScreen.cpp" line="256"/>
         <source>Rebind keys</source>
         <translation>Configurer les touches</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/InputBindingsScreen.cpp" line="259"/>
+        <location filename="../src/platform/desktop/InputBindingsScreen.cpp" line="262"/>
         <source>Need help?</source>
         <translation>Besoin d&apos;aide ?</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/InputBindingsScreen.cpp" line="260"/>
+        <location filename="../src/platform/desktop/InputBindingsScreen.cpp" line="263"/>
         <source>Controls</source>
         <translation>Commandes</translation>
     </message>
@@ -1140,12 +1140,12 @@ veuillez ne pas déconnectez l&apos;appareil.</translation>
         <translation type="vanished">Paramètres des touches</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/InputBindingsScreen.cpp" line="245"/>
+        <location filename="../src/platform/desktop/InputBindingsScreen.cpp" line="248"/>
         <source>The Playback software comes with pre-configured bindings for most gamepads. Try pressing buttons on your controller or keyboard to test them.</source>
         <translation>Le logiciel Playback contient des configurations par défaut pour la plupart des manettes de jeu. Essayez d&apos;appuyer sur les boutons de votre manette ou sur les touches de votre clavier pour les tester.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/InputBindingsScreen.cpp" line="254"/>
+        <location filename="../src/platform/desktop/InputBindingsScreen.cpp" line="257"/>
         <source>Cancel rebind</source>
         <translation>Annuler le remappage</translation>
     </message>
@@ -1604,42 +1604,42 @@ Vous pouvez essayer de nettoyer puis de réinsérer la cartouche dans l&apos;app
 <context>
     <name>NavbarLogoDropdown</name>
     <message>
-        <location filename="../src/platform/desktop/NavbarLogoDropdown.cpp" line="167"/>
+        <location filename="../src/platform/desktop/NavbarLogoDropdown.cpp" line="171"/>
         <source>Settings</source>
         <translation>Paramètres</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/NavbarLogoDropdown.cpp" line="168"/>
+        <location filename="../src/platform/desktop/NavbarLogoDropdown.cpp" line="172"/>
         <source>What&apos;s New</source>
         <translation>Nouveautés</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/NavbarLogoDropdown.cpp" line="169"/>
+        <location filename="../src/platform/desktop/NavbarLogoDropdown.cpp" line="173"/>
         <source>Support</source>
         <translation>Aide</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/NavbarLogoDropdown.cpp" line="170"/>
+        <location filename="../src/platform/desktop/NavbarLogoDropdown.cpp" line="174"/>
         <source>Send Feedback</source>
         <translation>Envoyer commentaires</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/NavbarLogoDropdown.cpp" line="171"/>
+        <location filename="../src/platform/desktop/NavbarLogoDropdown.cpp" line="175"/>
         <source>Report a Bug</source>
         <translation>Signaler un bug</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/NavbarLogoDropdown.cpp" line="172"/>
+        <location filename="../src/platform/desktop/NavbarLogoDropdown.cpp" line="176"/>
         <source>Vault</source>
         <translation>Coffre-fort</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/NavbarLogoDropdown.cpp" line="173"/>
+        <location filename="../src/platform/desktop/NavbarLogoDropdown.cpp" line="177"/>
         <source>About</source>
         <translation>À propos</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/NavbarLogoDropdown.cpp" line="174"/>
+        <location filename="../src/platform/desktop/NavbarLogoDropdown.cpp" line="178"/>
         <source>Exit</source>
         <translation>Quitter</translation>
     </message>
@@ -1787,6 +1787,29 @@ Si vous souhaitez supprimer facilement toutes les images de votre caméra sans a
     <message>
         <source>DELETE ALL</source>
         <translation type="vanished">TOUT SUPPRIMER</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackApp</name>
+    <message>
+        <location filename="../src/platform/desktop/PlaybackApp.cpp" line="193"/>
+        <source>Firmware Updated</source>
+        <translation>Firmware mis à jour</translation>
+    </message>
+    <message>
+        <location filename="../src/platform/desktop/PlaybackApp.cpp" line="194"/>
+        <source>Your device firmware has been updated successfully.</source>
+        <translation>Le firmware a été mis à jour avec succès.</translation>
+    </message>
+    <message>
+        <location filename="../src/platform/desktop/PlaybackApp.cpp" line="196"/>
+        <source>Firmware Update Failed</source>
+        <translation>La mise à jour du firmware a échoué</translation>
+    </message>
+    <message>
+        <location filename="../src/platform/desktop/PlaybackApp.cpp" line="197"/>
+        <source>The firmware update could not be completed. Please try again.</source>
+        <translation>La mise à jour du firmware n&apos;a pas pu être complétée. Veuillez réessayer.</translation>
     </message>
 </context>
 <context>
@@ -2471,58 +2494,58 @@ Assurez-vous qu&apos;il est connecté.</translation>
     <name>SettingsWindow</name>
     <message>
         <location filename="../src/platform/desktop/SettingsWindow.cpp" line="88"/>
-        <location filename="../src/platform/desktop/SettingsWindow.cpp" line="430"/>
+        <location filename="../src/platform/desktop/SettingsWindow.cpp" line="432"/>
         <source>General</source>
         <translation>Général</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/SettingsWindow.cpp" line="91"/>
-        <location filename="../src/platform/desktop/SettingsWindow.cpp" line="431"/>
+        <location filename="../src/platform/desktop/SettingsWindow.cpp" line="433"/>
         <source>Game</source>
         <translation>Jeu</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/SettingsWindow.cpp" line="391"/>
+        <location filename="../src/platform/desktop/SettingsWindow.cpp" line="393"/>
         <source>Core Load Failed</source>
         <translation>Le chargement du cœur a échoué</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/SettingsWindow.cpp" line="391"/>
+        <location filename="../src/platform/desktop/SettingsWindow.cpp" line="393"/>
         <source>Failed to load core. Please load a valid core.</source>
         <translation>Le cœur n&apos;a pas pu être chargé. Veuillez charger un cœur valide.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/SettingsWindow.cpp" line="422"/>
+        <location filename="../src/platform/desktop/SettingsWindow.cpp" line="424"/>
         <source>Settings</source>
         <translation>Paramètres</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/SettingsWindow.cpp" line="423"/>
+        <location filename="../src/platform/desktop/SettingsWindow.cpp" line="425"/>
         <source>Playback</source>
         <translation>Playback</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/SettingsWindow.cpp" line="424"/>
+        <location filename="../src/platform/desktop/SettingsWindow.cpp" line="426"/>
         <source>Core Selector</source>
         <translation>Choix du cœur</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/SettingsWindow.cpp" line="425"/>
+        <location filename="../src/platform/desktop/SettingsWindow.cpp" line="427"/>
         <source>Emulator</source>
         <translation>Émulateur</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/SettingsWindow.cpp" line="426"/>
+        <location filename="../src/platform/desktop/SettingsWindow.cpp" line="428"/>
         <source>Device</source>
         <translation>Appareil</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/SettingsWindow.cpp" line="427"/>
+        <location filename="../src/platform/desktop/SettingsWindow.cpp" line="429"/>
         <source>Controls</source>
         <translation>Commandes</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/SettingsWindow.cpp" line="428"/>
+        <location filename="../src/platform/desktop/SettingsWindow.cpp" line="430"/>
         <source>Integrations</source>
         <translation>Intégrations</translation>
     </message>
@@ -2543,7 +2566,7 @@ Assurez-vous qu&apos;il est connecté.</translation>
         <translation type="vanished">Succès</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/SettingsWindow.cpp" line="429"/>
+        <location filename="../src/platform/desktop/SettingsWindow.cpp" line="431"/>
         <source>Cheat Codes</source>
         <translation>Codes de triche</translation>
     </message>
@@ -2651,7 +2674,7 @@ Assurez-vous qu&apos;il est connecté.</translation>
 <context>
     <name>ViewRouter</name>
     <message>
-        <location filename="../src/platform/desktop/ViewRouter.cpp" line="124"/>
+        <location filename="../src/platform/desktop/ViewRouter.cpp" line="137"/>
         <source>Archive your game data securely on your computer, making a digital equivalent of your game collection. Game files are compatible with your chosen emulator.
 
 Tip: Our app runs a Data Integrity Test to make sure that you are getting an accurate reproduction of the cartridge’s content.</source>
@@ -2660,12 +2683,12 @@ Tip: Our app runs a Data Integrity Test to make sure that you are getting an acc
 Astuce : Notre application effectue une vérification de l&apos;intégrité des données pour s&apos;assurer que vous obtenez une reproduction exacte du contenu de la cartouche.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/ViewRouter.cpp" line="128"/>
+        <location filename="../src/platform/desktop/ViewRouter.cpp" line="141"/>
         <source>Backup Game</source>
         <translation>Copier le jeu</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/ViewRouter.cpp" line="132"/>
+        <location filename="../src/platform/desktop/ViewRouter.cpp" line="145"/>
         <source>Overwrite the game data on your cartridge with a different file. Make sure the game file you’re writing is valid by testing it in an external emulator first.
 
 Tip: Transfer your homebrew game to a cartridge and play it on original hardware.</source>
@@ -2674,12 +2697,12 @@ Tip: Transfer your homebrew game to a cartridge and play it on original hardware
 Astuce : transférez votre jeu homebrew sur une cartouche et jouez-y sur la console d&apos;origine.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/ViewRouter.cpp" line="135"/>
+        <location filename="../src/platform/desktop/ViewRouter.cpp" line="148"/>
         <source>Upload Homebrew</source>
         <translation>Téléverser un homebrew</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/ViewRouter.cpp" line="138"/>
+        <location filename="../src/platform/desktop/ViewRouter.cpp" line="151"/>
         <source>Transfer a duplicate of your save data from the cartridge to your computer. You can then back up your save file or edit it with an external program.
 
 Tip: Transfer your save to the computer, replace the battery and transfer it back to the cartridge safely.</source>
@@ -2688,12 +2711,12 @@ Tip: Transfer your save to the computer, replace the battery and transfer it bac
 Astuce : transférez votre sauvegarde sur l&apos;ordinateur, remplacez la batterie et transférez-la à nouveau sur la cartouche en toute sécurité.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/ViewRouter.cpp" line="143"/>
+        <location filename="../src/platform/desktop/ViewRouter.cpp" line="156"/>
         <source>Backup Save</source>
         <translation>Copier la sauvegarde</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/ViewRouter.cpp" line="147"/>
+        <location filename="../src/platform/desktop/ViewRouter.cpp" line="160"/>
         <source>Transfer a duplicate of your save data from your computer to the cartridge and pick the game up right where you left off.
 
 Tip: Use external programs to trigger in-game events or customize gameplay.</source>
@@ -2702,7 +2725,7 @@ Tip: Use external programs to trigger in-game events or customize gameplay.</sou
 Astuce : utilisez des programmes externes pour déclencher des événements dans le jeu ou pour en modifier le gameplay.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/ViewRouter.cpp" line="150"/>
+        <location filename="../src/platform/desktop/ViewRouter.cpp" line="163"/>
         <source>Upload Save</source>
         <translation>Téléverser une sauvegarde</translation>
     </message>
@@ -2726,97 +2749,97 @@ Astuce : utilisez des programmes externes pour déclencher des événements dans
         <translation type="vanished">Démarrer</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="511"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="516"/>
         <source>Main Hub</source>
         <translation>Place centrale</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="512"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="517"/>
         <source>Choose between playing the game, transferring data or accessing more info.</source>
         <translation>Choisissez entre jouer au jeu, transférer les données ou accéder à plus d&apos;infos.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="519"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="524"/>
         <source>Play Tab</source>
         <translation>Onglet Jouer</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="520"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="525"/>
         <source>Learn more about your game, or have a play session on the in-app emulator.</source>
         <translation>Apprenez-en plus sur votre jeu, ou faites une session de jeu en utilisant l&apos;émulateur de l&apos;application.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="527"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="532"/>
         <source>Start Play Session</source>
         <translation>Commencer une session de jeu</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="528"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="533"/>
         <source>Launch the in-app emulator for an authentic, accurate experience.</source>
         <translation>Démarrez l&apos;émulateur de l&apos;application pour une expérience de jeu authentique et fidèle.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="535"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="540"/>
         <source>Playback Settings</source>
         <translation>Paramètres de Playback</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="536"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="541"/>
         <source>Configure parameters to make the app your own.</source>
         <translation>Modifiez les paramètres de l&apos;application selon vos goûts.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="544"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="549"/>
         <source>Access and manage saves created automatically in the &lt;a href=&quot;#&quot; style=&apos;color: white&apos;&gt;Save Vault&lt;/a&gt;.</source>
         <translation>Accédez et gérez les sauvegardes créées automatiquement dans le &lt;a href=&quot;#&quot; style=&apos;color: white&apos;&gt;coffre-fort des sauvegardes&lt;/a&gt;.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="553"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="558"/>
         <source>Device Switcher</source>
         <translation>Changement d&apos;appareil</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="554"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="559"/>
         <source>Select between multiple Operator devices connected to the same computer.</source>
         <translation>Choisissez entre plusieurs appareils Operator connectés au même ordinateur.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="561"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="566"/>
         <source>Counterfeit Detection</source>
         <translation>Détection des contrefaçons</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="562"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="567"/>
         <source>Your cartridge has been analysed for some of the most common counterfeit markers.</source>
         <translation>Votre cartouche a été analysée pour certaines des caractéristiques les plus communes présentes sur les cartouches contrefaites.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="569"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="574"/>
         <source>Data Tab</source>
         <translation>Onglet Données</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="570"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="575"/>
         <source>Backup, transfer and manage official/homebrew game and save data.</source>
         <translation>Copiez, transférez et gérez vos jeux officiels ou homebrew et leurs données de sauvegarde.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="578"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="583"/>
         <source>Create digital copies of your save data.</source>
         <translation>Créez des copies digitales de vos données de sauvegarde.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="585"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="590"/>
         <source>Start Backup Session</source>
         <translation>Commencer une copie des données</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="586"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="591"/>
         <source>Begin archiving the save data.</source>
         <translation>Début de l&apos;archivage des données de sauvegarde.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="543"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="548"/>
         <source>Save Vault</source>
         <translation>Coffre-fort des sauvegardes</translation>
     </message>
@@ -2837,37 +2860,37 @@ Cette application nécessite OpenGL 3.2 ou plus (ou OpenGL ES 2.0+).
 Assurez-vous que vos pilotes graphiques sont à jour.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="224"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="226"/>
         <source>App Update Available</source>
         <translation>Mise à jour de l&apos;application disponible</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="224"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="226"/>
         <source>A new version of Playback is available.</source>
         <translation>Une nouvelle version de Playback est disponible.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="225"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="227"/>
         <source>Download</source>
         <translation>Télécharger</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="236"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="238"/>
         <source>Device Update Available</source>
         <translation>Mise à jour de l&apos;appareil disponible</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="237"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="239"/>
         <source>A firmware update is available for your Operator device.</source>
         <translation>Une mise à jour du firmware est disponible pour votre appareil Operator.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="238"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="240"/>
         <source>Update</source>
         <translation>Mettre à jour</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="577"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="582"/>
         <source>Backup Save</source>
         <translation>Copier la sauvegarde</translation>
     </message>
