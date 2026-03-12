@@ -1082,7 +1082,7 @@ please do not disconnect the device.</source>
     <message>
         <location filename="../src/platform/desktop/HotkeyBindingRow.cpp" line="61"/>
         <source>Soft Reset</source>
-        <translation type="unfinished"></translation>
+        <translation>软复位</translation>
     </message>
     <message>
         <source>Restart</source>
@@ -1851,7 +1851,7 @@ If you&apos;d like to easily remove all the pictures from your camera, without h
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="104"/>
         <source>Soft Reset Counter</source>
-        <translation type="unfinished"></translation>
+        <translation>软复位计数器</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="105"/>
@@ -1896,7 +1896,7 @@ If you&apos;d like to easily remove all the pictures from your camera, without h
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="120"/>
         <source>Borderless Fullscreen</source>
-        <translation type="unfinished"></translation>
+        <translation>无边框全屏</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="121"/>
@@ -1911,7 +1911,7 @@ If you&apos;d like to easily remove all the pictures from your camera, without h
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="141"/>
         <source>Displays the number of soft resets performed during the current emulation session. Only resets triggered through Playback&apos;s soft reset controls are counted, such as the on-screen button, a keyboard hotkey, or a controller binding.</source>
-        <translation type="unfinished"></translation>
+        <translation>显示当前模拟会话中执行的软复位次数。仅计算通过Playback的软复位控件触发的重置，例如屏幕按钮、键盘快捷键或手柄按键绑定。</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="145"/>
@@ -1956,7 +1956,7 @@ If you&apos;d like to easily remove all the pictures from your camera, without h
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="185"/>
         <source>When enabled, fullscreen uses a borderless window that fills your screen instead of exclusive fullscreen. This prevents the black screen flicker when switching between windows on multi-monitor setups.</source>
-        <translation type="unfinished"></translation>
+        <translation>启用后，全屏模式将使用无边框窗口填充屏幕，而非独占全屏。这可以防止在多显示器设置中切换窗口时出现的黑屏闪烁。</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="189"/>
@@ -2351,7 +2351,7 @@ Hardcore mode is active - cheats, rewind, save states and slow motion are disabl
         <location filename="../src/platform/desktop/ResetCounterWidget.cpp" line="17"/>
         <location filename="../src/platform/desktop/ResetCounterWidget.cpp" line="32"/>
         <source>Soft Resets: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>软复位: %1</translation>
     </message>
 </context>
 <context>

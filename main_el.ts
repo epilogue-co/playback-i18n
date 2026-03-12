@@ -990,7 +990,7 @@ please do not disconnect the device.</source>
     <message>
         <location filename="../src/platform/desktop/HotkeyBindingRow.cpp" line="61"/>
         <source>Soft Reset</source>
-        <translation type="unfinished"></translation>
+        <translation>Soft Reset</translation>
     </message>
     <message>
         <source>Restart</source>
@@ -1737,7 +1737,7 @@ If you&apos;d like to easily remove all the pictures from your camera, without h
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="104"/>
         <source>Soft Reset Counter</source>
-        <translation type="unfinished"></translation>
+        <translation>Μετρητής Soft Reset</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="105"/>
@@ -1802,7 +1802,7 @@ If you&apos;d like to easily remove all the pictures from your camera, without h
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="120"/>
         <source>Borderless Fullscreen</source>
-        <translation type="unfinished"></translation>
+        <translation>Fullscreen χωρίς πλαίσιο</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="121"/>
@@ -1832,7 +1832,7 @@ If you&apos;d like to easily remove all the pictures from your camera, without h
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="141"/>
         <source>Displays the number of soft resets performed during the current emulation session. Only resets triggered through Playback&apos;s soft reset controls are counted, such as the on-screen button, a keyboard hotkey, or a controller binding.</source>
-        <translation type="unfinished"></translation>
+        <translation>Εμφανίζει τον αριθμό των soft resets που πραγματοποιήθηκαν κατά τη διάρκεια της τρέχουσας συνεδρίας emulation. Μετρώνται μόνο τα resets που ενεργοποιήθηκαν μέσω των soft reset controls του Playback, όπως το κουμπί στην οθόνη, ένα πλήκτρο συντόμευσης ή ένα κουμπί χειριστηρίου.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="145"/>
@@ -1897,7 +1897,7 @@ If you&apos;d like to easily remove all the pictures from your camera, without h
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="185"/>
         <source>When enabled, fullscreen uses a borderless window that fills your screen instead of exclusive fullscreen. This prevents the black screen flicker when switching between windows on multi-monitor setups.</source>
-        <translation type="unfinished"></translation>
+        <translation>Όταν είναι ενεργοποιημένη, η λειτουργία fullscreen χρησιμοποιεί ένα παράθυρο χωρίς πλαίσιο που καλύπτει ολόκληρη την οθόνη αντί για αποκλειστικό fullscreen. Αυτό αποτρέπει το τρεμόπαιγμα μαύρης οθόνης κατά την εναλλαγή μεταξύ παραθύρων σε ρυθμίσεις πολλαπλών οθονών.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="189"/>
@@ -2088,7 +2088,7 @@ Hardcore mode is active - cheats, rewind, save states and slow motion are disabl
         <location filename="../src/platform/desktop/ResetCounterWidget.cpp" line="17"/>
         <location filename="../src/platform/desktop/ResetCounterWidget.cpp" line="32"/>
         <source>Soft Resets: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Soft Resets: %1</translation>
     </message>
 </context>
 <context>

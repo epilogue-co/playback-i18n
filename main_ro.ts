@@ -1082,7 +1082,7 @@ te rugăm să nu deconectezi dispozitivul.</translation>
     <message>
         <location filename="../src/platform/desktop/HotkeyBindingRow.cpp" line="61"/>
         <source>Soft Reset</source>
-        <translation type="unfinished"></translation>
+        <translation>Soft Reset</translation>
     </message>
     <message>
         <source>Restart</source>
@@ -1851,7 +1851,7 @@ Dacă dorești să elimini cu ușurință toate imaginile din cameră, fără a 
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="104"/>
         <source>Soft Reset Counter</source>
-        <translation type="unfinished"></translation>
+        <translation>Contor Soft Reset</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="105"/>
@@ -1896,7 +1896,7 @@ Dacă dorești să elimini cu ușurință toate imaginile din cameră, fără a 
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="120"/>
         <source>Borderless Fullscreen</source>
-        <translation type="unfinished"></translation>
+        <translation>Fullscreen fără margini</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="121"/>
@@ -1911,7 +1911,7 @@ Dacă dorești să elimini cu ușurință toate imaginile din cameră, fără a 
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="141"/>
         <source>Displays the number of soft resets performed during the current emulation session. Only resets triggered through Playback&apos;s soft reset controls are counted, such as the on-screen button, a keyboard hotkey, or a controller binding.</source>
-        <translation type="unfinished"></translation>
+        <translation>Afișează numărul de soft reseturi efectuate în cadrul sesiunii curente de emulare. Sunt contorizate doar reseturile declanșate prin comenzile de soft reset ale Playback, cum ar fi butonul de pe ecran, o tastă rapidă sau o asociere pe controller.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="145"/>
@@ -1956,7 +1956,7 @@ Dacă dorești să elimini cu ușurință toate imaginile din cameră, fără a 
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="185"/>
         <source>When enabled, fullscreen uses a borderless window that fills your screen instead of exclusive fullscreen. This prevents the black screen flicker when switching between windows on multi-monitor setups.</source>
-        <translation type="unfinished"></translation>
+        <translation>Când este activat, modul fullscreen folosește o fereastră fără margini care umple ecranul în loc de fullscreen exclusiv. Acest lucru previne pâlpâirea ecranului negru la comutarea între ferestre pe configurațiile cu monitoare multiple.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="189"/>
@@ -2351,7 +2351,7 @@ Modul hardcore este activ — codurile, derularea înapoi, salvările rapide și
         <location filename="../src/platform/desktop/ResetCounterWidget.cpp" line="17"/>
         <location filename="../src/platform/desktop/ResetCounterWidget.cpp" line="32"/>
         <source>Soft Resets: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Soft Reseturi: %1</translation>
     </message>
 </context>
 <context>

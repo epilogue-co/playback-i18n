@@ -1082,7 +1082,7 @@ non scollegare il dispositivo.</translation>
     <message>
         <location filename="../src/platform/desktop/HotkeyBindingRow.cpp" line="61"/>
         <source>Soft Reset</source>
-        <translation type="unfinished"></translation>
+        <translation>Soft Reset</translation>
     </message>
     <message>
         <source>Restart</source>
@@ -1851,7 +1851,7 @@ Se si desidera rimuovere facilmente tutte le immagini dalla fotocamera, senza do
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="104"/>
         <source>Soft Reset Counter</source>
-        <translation type="unfinished"></translation>
+        <translation>Contatore Soft Reset</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="105"/>
@@ -1896,7 +1896,7 @@ Se si desidera rimuovere facilmente tutte le immagini dalla fotocamera, senza do
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="120"/>
         <source>Borderless Fullscreen</source>
-        <translation type="unfinished"></translation>
+        <translation>Schermo intero senza bordi</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="121"/>
@@ -1911,7 +1911,7 @@ Se si desidera rimuovere facilmente tutte le immagini dalla fotocamera, senza do
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="141"/>
         <source>Displays the number of soft resets performed during the current emulation session. Only resets triggered through Playback&apos;s soft reset controls are counted, such as the on-screen button, a keyboard hotkey, or a controller binding.</source>
-        <translation type="unfinished"></translation>
+        <translation>Mostra il numero di soft reset eseguiti durante la sessione di emulazione corrente. Vengono contati solo i reset attivati tramite i controlli di soft reset di Playback, come il pulsante a schermo, una scorciatoia da tastiera o un&apos;assegnazione del controller.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="145"/>
@@ -1956,7 +1956,7 @@ Se si desidera rimuovere facilmente tutte le immagini dalla fotocamera, senza do
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="185"/>
         <source>When enabled, fullscreen uses a borderless window that fills your screen instead of exclusive fullscreen. This prevents the black screen flicker when switching between windows on multi-monitor setups.</source>
-        <translation type="unfinished"></translation>
+        <translation>Quando abilitata, lo schermo intero utilizza una finestra senza bordi che riempie lo schermo invece dello schermo intero esclusivo. Questo previene lo sfarfallio dello schermo nero quando si passa tra le finestre nelle configurazioni multi-monitor.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="189"/>
@@ -2351,7 +2351,7 @@ La modalità hardcore è attiva - trucchi, riavvolgimento, salvataggi rapidi e r
         <location filename="../src/platform/desktop/ResetCounterWidget.cpp" line="17"/>
         <location filename="../src/platform/desktop/ResetCounterWidget.cpp" line="32"/>
         <source>Soft Resets: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Soft Reset: %1</translation>
     </message>
 </context>
 <context>

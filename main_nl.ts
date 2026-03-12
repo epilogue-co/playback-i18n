@@ -1082,7 +1082,7 @@ Koppel het apparaat niet los.</translation>
     <message>
         <location filename="../src/platform/desktop/HotkeyBindingRow.cpp" line="61"/>
         <source>Soft Reset</source>
-        <translation type="unfinished"></translation>
+        <translation>Soft Reset</translation>
     </message>
     <message>
         <source>Restart</source>
@@ -1851,7 +1851,7 @@ Als je gemakkelijk alle foto&apos;s van je camera wilt verwijderen, zonder ze é
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="104"/>
         <source>Soft Reset Counter</source>
-        <translation type="unfinished"></translation>
+        <translation>Soft Reset-teller</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="105"/>
@@ -1896,7 +1896,7 @@ Als je gemakkelijk alle foto&apos;s van je camera wilt verwijderen, zonder ze é
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="120"/>
         <source>Borderless Fullscreen</source>
-        <translation type="unfinished"></translation>
+        <translation>Randloos volledig scherm</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="121"/>
@@ -1911,7 +1911,7 @@ Als je gemakkelijk alle foto&apos;s van je camera wilt verwijderen, zonder ze é
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="141"/>
         <source>Displays the number of soft resets performed during the current emulation session. Only resets triggered through Playback&apos;s soft reset controls are counted, such as the on-screen button, a keyboard hotkey, or a controller binding.</source>
-        <translation type="unfinished"></translation>
+        <translation>Toont het aantal soft resets dat is uitgevoerd tijdens de huidige emulatiesessie. Alleen resets die zijn geactiveerd via de soft reset-bediening van Playback worden geteld, zoals de knop op het scherm, een sneltoets of een controllertoewijzing.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="145"/>
@@ -1956,7 +1956,7 @@ Als je gemakkelijk alle foto&apos;s van je camera wilt verwijderen, zonder ze é
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="185"/>
         <source>When enabled, fullscreen uses a borderless window that fills your screen instead of exclusive fullscreen. This prevents the black screen flicker when switching between windows on multi-monitor setups.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wanneer ingeschakeld gebruikt volledig scherm een randloos venster dat je scherm vult in plaats van exclusief volledig scherm. Dit voorkomt het flikkeren van een zwart scherm bij het wisselen tussen vensters bij multi-monitoropstellingen.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="189"/>
@@ -2351,7 +2351,7 @@ Hardcoremodus is actief - cheats, terugspoelen, save states en slow motion zijn 
         <location filename="../src/platform/desktop/ResetCounterWidget.cpp" line="17"/>
         <location filename="../src/platform/desktop/ResetCounterWidget.cpp" line="32"/>
         <source>Soft Resets: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Soft Resets: %1</translation>
     </message>
 </context>
 <context>
