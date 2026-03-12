@@ -1059,12 +1059,12 @@ please do not disconnect the device.</source>
     <message>
         <location filename="../src/platform/desktop/FirmwareUpdateWindow.cpp" line="83"/>
         <source>Updating (%1%)</source>
-        <translation type="unfinished"></translation>
+        <translation>更新中 (%1%)</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/FirmwareUpdateWindow.cpp" line="88"/>
         <source>Configuring...</source>
-        <translation type="unfinished"></translation>
+        <translation>配置中...</translation>
     </message>
 </context>
 <context>

@@ -1059,12 +1059,12 @@ por favor, no desconecte el dispositivo.</translation>
     <message>
         <location filename="../src/platform/desktop/FirmwareUpdateWindow.cpp" line="83"/>
         <source>Updating (%1%)</source>
-        <translation type="unfinished"></translation>
+        <translation>Actualizando (%1%)</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/FirmwareUpdateWindow.cpp" line="88"/>
         <source>Configuring...</source>
-        <translation type="unfinished"></translation>
+        <translation>Configurando...</translation>
     </message>
 </context>
 <context>

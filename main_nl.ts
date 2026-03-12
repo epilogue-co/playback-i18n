@@ -1059,12 +1059,12 @@ Koppel het apparaat niet los.</translation>
     <message>
         <location filename="../src/platform/desktop/FirmwareUpdateWindow.cpp" line="83"/>
         <source>Updating (%1%)</source>
-        <translation type="unfinished"></translation>
+        <translation>Bijwerken (%1%)</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/FirmwareUpdateWindow.cpp" line="88"/>
         <source>Configuring...</source>
-        <translation type="unfinished"></translation>
+        <translation>Configureren...</translation>
     </message>
 </context>
 <context>

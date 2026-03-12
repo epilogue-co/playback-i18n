@@ -1059,12 +1059,12 @@ te rugăm să nu deconectezi dispozitivul.</translation>
     <message>
         <location filename="../src/platform/desktop/FirmwareUpdateWindow.cpp" line="83"/>
         <source>Updating (%1%)</source>
-        <translation type="unfinished"></translation>
+        <translation>Actualizare (%1%)</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/FirmwareUpdateWindow.cpp" line="88"/>
         <source>Configuring...</source>
-        <translation type="unfinished"></translation>
+        <translation>Configurare...</translation>
     </message>
 </context>
 <context>
