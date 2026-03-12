@@ -488,12 +488,12 @@ Ne retirez pas la cartouche pendant qu&apos;une opération est en cours.</transl
 <context>
     <name>DeviceBase</name>
     <message>
-        <location filename="../src/core/DeviceBase.cpp" line="305"/>
+        <location filename="../src/core/DeviceBase.cpp" line="297"/>
         <source>Save data integrity check failed!</source>
         <translation>La vérification de l&apos;intégrité des données de sauvegarde a échoué !</translation>
     </message>
     <message>
-        <location filename="../src/core/DeviceBase.cpp" line="306"/>
+        <location filename="../src/core/DeviceBase.cpp" line="298"/>
         <source>The save data appears to be inconsistent between read cycles. Please clean the cartridge pins and try again.</source>
         <translation>Les données de sauvegarde semblent inconsistentes entre les différentes lectures. Veuillez nettoyer les broches de la cartouche et réessayer.</translation>
     </message>
@@ -630,73 +630,73 @@ Ne retirez pas la cartouche pendant qu&apos;une opération est en cours.</transl
     </message>
     <message>
         <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="78"/>
-        <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="281"/>
+        <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="282"/>
         <source>Cartridge Connection Unstable!</source>
         <translation>Connexion avec la cartouche instable !</translation>
     </message>
     <message>
         <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="79"/>
-        <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="282"/>
+        <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="283"/>
         <source>Playback detected a contact connection issue. Please clean the cartridge pins, reinsert the cartridge properly, and try again for improved accuracy.</source>
         <translation>Playback a détecté un problème de contact avec la cartouche. Veuillez nettoyer les broches de la cartouche, réinsérer la cartouche correctement, et réessayer pour une meilleure précision.</translation>
     </message>
     <message>
-        <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="133"/>
+        <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="134"/>
         <source>Game Data Integrity Check Failed!</source>
         <translation>La vérification de l&apos;intégrité des données du jeu a échoué !</translation>
     </message>
     <message>
-        <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="134"/>
+        <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="135"/>
         <source>Playback detected a discrepancy between the expected game data and the backed up data. Please clean the cartridge pins and try again to ensure accuracy.</source>
         <translation>Playback a détecté une différence entre les données du jeu attendues et les données copiées. Veuillez nettoyer les broches de la cartouche et réessayer pour assurer l&apos;authenticité des données.</translation>
     </message>
     <message>
-        <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="159"/>
+        <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="160"/>
         <source>Empty File Was Provided!</source>
         <translation>Un fichier vide a été fourni !</translation>
     </message>
     <message>
-        <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="160"/>
+        <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="161"/>
         <source> It looks like the homebrew game you&apos;re trying to upload has been detected by Playback as having 0 bytes. Please verify that the data you&apos;re attempting to upload is accurate.</source>
         <translation> Il semble que le jeu homebrew que vous essayez de téléverser ait été détecté par Playback comme ayant 0 octet. Veuillez vérifier que les données que vous essayez de téléverser sont correctes.</translation>
     </message>
     <message>
-        <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="170"/>
+        <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="171"/>
         <source>Upload Homebrew Command Failed!</source>
         <translation>La commande de téléversement d&apos;homebrew a échoué !</translation>
     </message>
     <message>
-        <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="171"/>
+        <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="172"/>
         <source>An error occurred while attempting to start the homebrew upload command. Please restart the application and reconnect the Operator device. If the problem continues, contact our Support team.</source>
         <translation>Une erreur s&apos;est produite lors du lancement de la commande de téléversement d&apos;homebrew. Veuillez redémarrer l&apos;application et reconnecter l&apos;appareil Operator. Si le problème persiste, contactez notre équipe d&apos;assistance.</translation>
     </message>
     <message>
-        <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="188"/>
+        <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="189"/>
         <source>Homebrew Cartridge Erase Failed!</source>
         <translation>L&apos;effacement des données de la cartouche homebrew a échoué !</translation>
     </message>
     <message>
-        <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="189"/>
+        <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="190"/>
         <source>Playback couldn&apos;t delete the contents of the homebrew cartridge. Please clean the cartridge pins and try again. If the issue persists, contact our Support team.</source>
         <translation>Playback n&apos;a pas pu supprimer le contenu de la cartouche homebrew. Veuillez nettoyer les broches de la cartouche et réessayer. Si le problème persiste, contactez notre équipe d&apos;assistance.</translation>
     </message>
     <message>
-        <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="352"/>
+        <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="354"/>
         <source>Write save failed</source>
         <translation>L&apos;écriture de la sauvegarde a échoué</translation>
     </message>
     <message>
-        <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="352"/>
+        <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="354"/>
         <source>Failed to send write save command to device.</source>
         <translation>Échec de l&apos;envoi de l&apos;écriture de la sauvegarde à l&apos;appareil.</translation>
     </message>
     <message>
-        <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="407"/>
+        <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="409"/>
         <source>Save Data Integrity Check Failed!</source>
         <translation>La vérification de l&apos;intégrité des données de sauvegarde a échoué !</translation>
     </message>
     <message>
-        <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="408"/>
+        <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="410"/>
         <source>The save data written to the cartridge does not match the data read back. Please clean the cartridge pins and try again to ensure consistency.</source>
         <translation>Les données de sauvegarde écrites dans la cartouche ne correspondent pas aux données relues. Veuillez nettoyer les broches de la cartouche et réessayer pour assurer l&apos;authenticité des données.</translation>
     </message>
@@ -825,46 +825,46 @@ Vendeur : %4</translation>
 <context>
     <name>EmulatorContainer</name>
     <message>
-        <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="205"/>
+        <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="212"/>
         <source>Save Failed</source>
         <translation>La sauvegarde a échoué</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="205"/>
-        <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="213"/>
-        <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="221"/>
+        <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="212"/>
+        <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="220"/>
+        <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="228"/>
         <source>Slot %1: %2</source>
         <translation>Emplacement %1 : %2</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="213"/>
+        <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="220"/>
         <source>Load Failed</source>
         <translation>Le chargement a échoué</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="221"/>
+        <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="228"/>
         <source>Delete Failed</source>
         <translation>La suppression a échoué</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="341"/>
+        <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="349"/>
         <source>State Saved</source>
         <translation>État sauvegardé</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="341"/>
-        <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="346"/>
-        <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="350"/>
+        <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="349"/>
+        <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="354"/>
+        <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="358"/>
         <source>Slot %1</source>
         <translation>Emplacement %1</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="346"/>
+        <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="354"/>
         <source>State Loaded</source>
         <translation>État chargé</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="350"/>
+        <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="358"/>
         <source>State Deleted</source>
         <translation>État supprimé</translation>
     </message>
@@ -1081,8 +1081,12 @@ veuillez ne pas déconnectez l&apos;appareil.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/HotkeyBindingRow.cpp" line="61"/>
+        <source>Soft Reset</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Restart</source>
-        <translation>Redémarrer</translation>
+        <translation type="vanished">Redémarrer</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/HotkeyBindingRow.cpp" line="63"/>
@@ -1362,7 +1366,7 @@ Vous pouvez essayer de nettoyer puis de réinsérer la cartouche dans l&apos;app
 <context>
     <name>ManagePage</name>
     <message>
-        <location filename="../src/platform/desktop/ManagePage.cpp" line="270"/>
+        <location filename="../src/platform/desktop/ManagePage.cpp" line="284"/>
         <source>START</source>
         <translation>DÉMARRER</translation>
     </message>
@@ -1371,60 +1375,60 @@ Vous pouvez essayer de nettoyer puis de réinsérer la cartouche dans l&apos;app
         <translation type="vanished">Flux de données :</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/ManagePage.cpp" line="122"/>
+        <location filename="../src/platform/desktop/ManagePage.cpp" line="126"/>
         <source>Unknown title</source>
         <translation>Titre inconnu</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/ManagePage.cpp" line="123"/>
+        <location filename="../src/platform/desktop/ManagePage.cpp" line="127"/>
         <source>[no checksum available]</source>
         <translation>[somme de contrôle indisponible]</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/ManagePage.cpp" line="125"/>
-        <location filename="../src/platform/desktop/ManagePage.cpp" line="271"/>
+        <location filename="../src/platform/desktop/ManagePage.cpp" line="129"/>
+        <location filename="../src/platform/desktop/ManagePage.cpp" line="285"/>
         <source>Title</source>
         <translation>Titre</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/ManagePage.cpp" line="126"/>
-        <location filename="../src/platform/desktop/ManagePage.cpp" line="272"/>
+        <location filename="../src/platform/desktop/ManagePage.cpp" line="130"/>
+        <location filename="../src/platform/desktop/ManagePage.cpp" line="286"/>
         <source>Game Data Checksum</source>
         <translation>Somme de contrôle des données de jeu</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/ManagePage.cpp" line="186"/>
+        <location filename="../src/platform/desktop/ManagePage.cpp" line="187"/>
         <source>Backup Complete</source>
         <translation>Copie terminée</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/ManagePage.cpp" line="187"/>
-        <location filename="../src/platform/desktop/ManagePage.cpp" line="195"/>
+        <location filename="../src/platform/desktop/ManagePage.cpp" line="188"/>
+        <location filename="../src/platform/desktop/ManagePage.cpp" line="196"/>
         <source>File was created: %1</source>
         <translation>Le fichier a été créé : %1</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/ManagePage.cpp" line="190"/>
+        <location filename="../src/platform/desktop/ManagePage.cpp" line="191"/>
         <source>Write Complete</source>
         <translation>Écriture terminée</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/ManagePage.cpp" line="191"/>
+        <location filename="../src/platform/desktop/ManagePage.cpp" line="192"/>
         <source>Game was written: %1</source>
         <translation>Le jeu a été écrit : %1</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/ManagePage.cpp" line="194"/>
+        <location filename="../src/platform/desktop/ManagePage.cpp" line="195"/>
         <source>Save Backup Complete</source>
         <translation>Sauvegarde des données terminée</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/ManagePage.cpp" line="198"/>
+        <location filename="../src/platform/desktop/ManagePage.cpp" line="199"/>
         <source>Save Restored</source>
         <translation>Sauvegarde restaurée</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/ManagePage.cpp" line="199"/>
+        <location filename="../src/platform/desktop/ManagePage.cpp" line="200"/>
         <source>Save was written: %1</source>
         <translation>La sauvegarde a été écrite : %1</translation>
     </message>
@@ -1434,42 +1438,42 @@ Vous pouvez essayer de nettoyer puis de réinsérer la cartouche dans l&apos;app
         <translation>Montrer dans le dossier</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/ManagePage.cpp" line="226"/>
+        <location filename="../src/platform/desktop/ManagePage.cpp" line="240"/>
         <source>Backup Failed</source>
         <translation>La sauvegarde a échoué</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/ManagePage.cpp" line="227"/>
+        <location filename="../src/platform/desktop/ManagePage.cpp" line="241"/>
         <source>Failed to read game data from the cartridge.</source>
         <translation>Les données de jeu n&apos;ont pas pu être lues depuis la cartouche.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/ManagePage.cpp" line="230"/>
+        <location filename="../src/platform/desktop/ManagePage.cpp" line="244"/>
         <source>Write Failed</source>
         <translation>L&apos;écriture a échoué</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/ManagePage.cpp" line="231"/>
+        <location filename="../src/platform/desktop/ManagePage.cpp" line="245"/>
         <source>Failed to write game data to the cartridge.</source>
         <translation>Les données de jeu n&apos;ont pas pu être écrites sur la cartouche.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/ManagePage.cpp" line="234"/>
+        <location filename="../src/platform/desktop/ManagePage.cpp" line="248"/>
         <source>Save Backup Failed</source>
         <translation>La sauvegarde des données de jeu a échoué</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/ManagePage.cpp" line="235"/>
+        <location filename="../src/platform/desktop/ManagePage.cpp" line="249"/>
         <source>Failed to read save data from the cartridge.</source>
         <translation>Les données de sauvegarde depuis la cartouche n&apos;ont pas pu être lues.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/ManagePage.cpp" line="238"/>
+        <location filename="../src/platform/desktop/ManagePage.cpp" line="252"/>
         <source>Save Restore Failed</source>
         <translation>La restauration de la sauvegarde a échoué</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/ManagePage.cpp" line="239"/>
+        <location filename="../src/platform/desktop/ManagePage.cpp" line="253"/>
         <source>Failed to write save data to the cartridge.</source>
         <translation>Les données de sauvegarde n&apos;ont pu être écrites sur la cartouche.</translation>
     </message>
@@ -1521,55 +1525,55 @@ Vous pouvez essayer de nettoyer puis de réinsérer la cartouche dans l&apos;app
 <context>
     <name>Navbar</name>
     <message>
-        <location filename="../src/platform/desktop/Navbar.cpp" line="225"/>
-        <location filename="../src/platform/desktop/Navbar.cpp" line="269"/>
+        <location filename="../src/platform/desktop/Navbar.cpp" line="222"/>
+        <location filename="../src/platform/desktop/Navbar.cpp" line="266"/>
         <source>Press ESC to exit emulation</source>
         <translation>Appuyez sur ÉCHAP pour quitter l&apos;émulation</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Navbar.cpp" line="235"/>
-        <location filename="../src/platform/desktop/Navbar.cpp" line="239"/>
-        <location filename="../src/platform/desktop/Navbar.cpp" line="241"/>
+        <location filename="../src/platform/desktop/Navbar.cpp" line="232"/>
+        <location filename="../src/platform/desktop/Navbar.cpp" line="236"/>
+        <location filename="../src/platform/desktop/Navbar.cpp" line="238"/>
         <source>Preparing cartridge...</source>
         <translation>Préparation de la cartouche...</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Navbar.cpp" line="237"/>
+        <location filename="../src/platform/desktop/Navbar.cpp" line="234"/>
         <source>Preparing...</source>
         <translation>Préparation...</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Navbar.cpp" line="243"/>
+        <location filename="../src/platform/desktop/Navbar.cpp" line="240"/>
         <source>Preparing cartridge... (this may take a moment)</source>
         <translation>Préparation de la cartouche... (cela peut prendre du temps)</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Navbar.cpp" line="245"/>
+        <location filename="../src/platform/desktop/Navbar.cpp" line="242"/>
         <source>Finishing up...</source>
         <translation>Finalisation...</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Navbar.cpp" line="268"/>
+        <location filename="../src/platform/desktop/Navbar.cpp" line="265"/>
         <source>Press TAB to exit mouse capture mode</source>
         <translation>Appuyez sur TAB pour quitter le mode de capture de la souris</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Navbar.cpp" line="227"/>
+        <location filename="../src/platform/desktop/Navbar.cpp" line="224"/>
         <source>Loading game...</source>
         <translation>Chargement du jeu...</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Navbar.cpp" line="229"/>
+        <location filename="../src/platform/desktop/Navbar.cpp" line="226"/>
         <source>Writing game...</source>
         <translation>Écriture des données de jeu...</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Navbar.cpp" line="231"/>
+        <location filename="../src/platform/desktop/Navbar.cpp" line="228"/>
         <source>Loading save...</source>
         <translation>Chargement de la sauvegarde...</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Navbar.cpp" line="233"/>
+        <location filename="../src/platform/desktop/Navbar.cpp" line="230"/>
         <source>Writing save...</source>
         <translation>Écriture de la sauvegarde...</translation>
     </message>
@@ -1578,12 +1582,12 @@ Vous pouvez essayer de nettoyer puis de réinsérer la cartouche dans l&apos;app
         <translation type="vanished">Effacement des données...</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Navbar.cpp" line="274"/>
+        <location filename="../src/platform/desktop/Navbar.cpp" line="271"/>
         <source>PLAY</source>
         <translation>JOUER</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Navbar.cpp" line="275"/>
+        <location filename="../src/platform/desktop/Navbar.cpp" line="272"/>
         <source>DATA</source>
         <translation>DONNÉES</translation>
     </message>
@@ -1591,12 +1595,12 @@ Vous pouvez essayer de nettoyer puis de réinsérer la cartouche dans l&apos;app
 <context>
     <name>NavbarDeviceStatus</name>
     <message>
-        <location filename="../src/platform/desktop/NavbarComponents.cpp" line="128"/>
+        <location filename="../src/platform/desktop/NavbarComponents.cpp" line="125"/>
         <source>Nightly</source>
         <translation>Nightly</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/NavbarComponents.cpp" line="126"/>
+        <location filename="../src/platform/desktop/NavbarComponents.cpp" line="123"/>
         <source>Debug</source>
         <translation>Débogage</translation>
     </message>
@@ -1685,27 +1689,27 @@ Vous pouvez essayer de nettoyer puis de réinsérer la cartouche dans l&apos;app
 <context>
     <name>NavbarSubmenu</name>
     <message>
-        <location filename="../src/platform/desktop/Navbar.cpp" line="459"/>
+        <location filename="../src/platform/desktop/Navbar.cpp" line="456"/>
         <source>Backup Game</source>
         <translation>Copier le jeu</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Navbar.cpp" line="460"/>
+        <location filename="../src/platform/desktop/Navbar.cpp" line="457"/>
         <source>Upload Homebrew</source>
         <translation>Téléverser un homebrew</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Navbar.cpp" line="461"/>
+        <location filename="../src/platform/desktop/Navbar.cpp" line="458"/>
         <source>Backup Save</source>
         <translation>Copier la sauvegarde</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Navbar.cpp" line="462"/>
+        <location filename="../src/platform/desktop/Navbar.cpp" line="459"/>
         <source>Upload Save</source>
         <translation>Téléverser une sauvegarde</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Navbar.cpp" line="463"/>
+        <location filename="../src/platform/desktop/Navbar.cpp" line="460"/>
         <source>Photo Gallery</source>
         <translation>Galerie photo</translation>
     </message>
@@ -1815,12 +1819,12 @@ Si vous souhaitez supprimer facilement toutes les images de votre caméra sans a
 <context>
     <name>PlaybackSettingsScreen</name>
     <message>
-        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="126"/>
+        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="128"/>
         <source>Allows you to change the language in which the Playback software is presented. It requires an application restart in order to update the language accross the entire application.</source>
         <translation>Permet de changer la langue dans laquelle le logiciel Playback est affiché. Un redémarrage de l&apos;application est nécessaire pour mettre à jour la langue dans l&apos;ensemble de l&apos;application.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="133"/>
+        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="135"/>
         <source>Once you save in-game, or the game modifies the save internally, your Operator device will automatically write the save to the cartridge. This feature is still in development.</source>
         <translation>Une fois que vous avez sauvegardé en jeu, ou que le jeu a modifié la sauvegarde en interne, votre appareil Operator écrira automatiquement la sauvegarde sur la cartouche. Cette fonction est encore en cours de développement.</translation>
     </message>
@@ -1830,7 +1834,7 @@ Si vous souhaitez supprimer facilement toutes les images de votre caméra sans a
         <translation>Compteur d&apos;IPS</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="137"/>
+        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="139"/>
         <source>Displays the current frames per second (FPS) of the game being played.</source>
         <translation>Affiche le nombre d&apos;images par seconde (IPS) du jeu en cours.</translation>
     </message>
@@ -1846,101 +1850,121 @@ Si vous souhaitez supprimer facilement toutes les images de votre caméra sans a
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="104"/>
+        <source>Soft Reset Counter</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="105"/>
         <source>Pixel Perfect Mode</source>
         <translation>Mode Pixel Perfect</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="105"/>
+        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="106"/>
         <source>RTC data in save file</source>
         <translation>Données HTR dans le fichier de sauvegarde</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="113"/>
+        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="114"/>
         <source>Enable Rewind</source>
         <translation>Activer le rembobinage</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="114"/>
+        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="115"/>
         <source>Enable Fast Forward</source>
         <translation>Activer l&apos;avance rapide</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="115"/>
+        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="116"/>
         <source>Enable Soft Reset</source>
         <translation>Activer le soft reset</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="116"/>
+        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="117"/>
         <source>Enable Picture-in-Picture</source>
         <translation>Activer le picture-in-picture</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="117"/>
+        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="118"/>
         <source>Enable Save States</source>
         <translation>Activer les états de sauvegarde</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="118"/>
+        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="119"/>
         <source>Always Show Controls</source>
         <translation>Toujours afficher les commandes</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="119"/>
+        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="120"/>
+        <source>Borderless Fullscreen</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="121"/>
         <source>Photo Scaling</source>
         <translation>Taille des photos</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="130"/>
+        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="132"/>
         <source>When enabled, the app tour will be shown the next time you start the application. After the tour completes, this setting will be automatically disabled.</source>
         <translation>Lorsqu&apos;activé, le tour guidé de l&apos;application sera montré au prochain démarrage de l&apos;application. Une fois le tour guidé terminé, ce paramètre sera automatiquement désactivé.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="139"/>
+        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="141"/>
+        <source>Displays the number of soft resets performed during the current emulation session. Only resets triggered through Playback&apos;s soft reset controls are counted, such as the on-screen button, a keyboard hotkey, or a controller binding.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="145"/>
         <source>When enabled, games are displayed with integer scaling to ensure pixels are displayed at exact multiples of their original size. This eliminates graphical artifacts and preserves the authentic look of retro games at the expense of some screen space.</source>
         <translation>Lorsqu&apos;activé, les jeux sont affichés avec un agrandissement consistant pour s&apos;assurer que les pixels soient affichés à un multiple exact de leur taille d&apos;origine. Cela élimine les artefacts graphiques et conserve l&apos;aspect authentique des jeux rétros au prix d&apos;un peu d&apos;espace de l&apos;écran restant inutilisé.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="144"/>
+        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="150"/>
         <source>When enabled and supported by the game, Playback adds real-time clock (RTC) data to the save file. This ensures accurate preservation of time-based events. Note that this will increase the file size and might make it incompatible with other software.</source>
         <translation>Lorsqu&apos;activé et pris en charge par le jeu, Playback ajoute les données de l&apos;horloge temps réel (HTR) au fichier de sauvegarde. Cela permet de conserver fidèlement les événements liés au temps. Notez que cela augmente la taille du fichier et peut le rendre incompatible avec d&apos;autres logiciels.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="160"/>
+        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="166"/>
         <source>Enables the rewind feature, allowing you to go back in time during gameplay. This is useful for correcting mistakes or exploring different game paths without starting over.</source>
         <translation>Active la fonction de rembobinage, permettant de revenir en arrière pendant une partie. Utile pour corriger des erreurs ou explorer différents embranchements d&apos;un jeu sans avoir à tout recommencer.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="163"/>
+        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="169"/>
         <source>When enabled, this feature allows you to speed up the game playback, making it easier to skip through slower sections or quickly navigate through menus.</source>
         <translation>Lorsqu&apos;activé, cette fonctionnalité vous permettra d&apos;augmenter la vitesse du jeu, permettant de passer plus facilement des sections plus lentes ou de naviguer plus rapidement dans les menus.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="166"/>
+        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="172"/>
         <source>Enables the soft reset feature, allowing you to quickly reset the game without turning off the emulation. This is useful for quickly restarting a game or returning to the main menu.</source>
         <translation>Active la fonction de soft reset, permettant de redémarrer rapidement un jeu sans interrompre l&apos;émulation. Utile pour redémarrer rapidement un jeu ou retourner au menu principal.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="170"/>
+        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="176"/>
         <source>Enables the Picture-in-Picture (PiP) mode, allowing you to view the game in a small window. This is useful for multitasking.</source>
         <translation>Activer le mode picture-in-picture (PiP), permettant de jouer au jeu dans une petite fenêtre. Utile pour faire du multitâche.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="173"/>
+        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="179"/>
         <source>Enables save states, allowing you to save and load your game progress at any point. This is useful for preserving your progress or quickly retrying difficult sections.</source>
         <translation>Active les états de sauvegarde, permettant de sauvegarder et charger la progression de votre jeu à n&apos;importe quel moment. Utile pour conserver votre progression ou rapidement retenter certaines sections difficiles.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="176"/>
+        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="182"/>
         <source>When enabled, the emulation control bar remains visible at all times during gameplay. When disabled, the controls will automatically hide after a few seconds of inactivity.</source>
         <translation>Lorsqu&apos;activé, la barre de commandes de l&apos;émulateur reste constamment visible en jouant. Si désactivé, la barre de commandes sera automatiquement masquée après quelques secondes d&apos;inactivité.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="179"/>
+        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="185"/>
+        <source>When enabled, fullscreen uses a borderless window that fills your screen instead of exclusive fullscreen. This prevents the black screen flicker when switching between windows on multi-monitor setups.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="189"/>
         <source>Scales GB Camera saved photos to the specified size.</source>
         <translation>Agrandit les photos enregistrées par la Game Boy Camera à la taille demandée.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="107"/>
+        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="108"/>
         <source>Verify Save After Writing Process</source>
         <translation>Vérifier la sauvegarde après écriture</translation>
     </message>
@@ -1950,37 +1974,37 @@ Si vous souhaitez supprimer facilement toutes les images de votre caméra sans a
         <translation>Langue préférée</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="148"/>
+        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="154"/>
         <source>Activating this setting prompts Playback to check that the save file remains uncorrupted after being written to the cartridge. It ensures your game progress has been safely stored.</source>
         <translation>Activer ce paramètre force Playback à vérifier que le fichier de sauvegarde n&apos;a pas été corrompu après avoir été écrit sur la cartouche. Cela permet de s&apos;assurer que les données du jeu ont été sauvegardées en toute sécurité.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="108"/>
+        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="109"/>
         <source>Verify Save is Read Properly</source>
         <translation>Vérifier que la sauvegarde est lue correctement</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="151"/>
+        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="157"/>
         <source>When this setting is enabled, Playback reads the save file from the cartridge multiple times and reviews any discrepancies to prevent data corruption.</source>
         <translation>Lorsque ce paramètre est activé, l&apos;application lit plusieurs fois la sauvegarde de la cartouche et examine toute anomalie afin d&apos;éviter la corruption des données.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="110"/>
+        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="111"/>
         <source>Verify Homebrew File Integrity</source>
         <translation>Vérifier l&apos;intégrité des données du fichier homebrew</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="154"/>
+        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="160"/>
         <source>This setting enables Playback to confirm the integrity of a homebrew game after transferring it to the cartridge, making sure there are no issues affecting your work.</source>
         <translation>Ce paramètre force Playback à confirmer l&apos;intégrité d&apos;un jeu homebrew après l&apos;avoir transféré sur la cartouche, afin de s&apos;assurer qu&apos;aucun problème n&apos;affecte votre travail.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="112"/>
+        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="113"/>
         <source>Enable verbose debug logs (requires restart)</source>
         <translation>Activer les journaux de débogage descriptifs (nécessite un redémarrage)</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="157"/>
+        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="163"/>
         <source>When enabled, the Playback software will output more detailed logs to help diagnose issues. This setting is useful for troubleshooting and should be disabled when not needed.</source>
         <translation>Lorsque ce paramètre est activé, Playback produit des journaux plus détaillés pour aider à diagnostiquer les problèmes. Ce paramètre est utile pour le dépannage et doit être désactivé lorsqu&apos;il n&apos;est pas nécessaire.</translation>
     </message>
@@ -2008,17 +2032,17 @@ Si vous souhaitez supprimer facilement toutes les images de votre caméra sans a
 <context>
     <name>PlaybackSettingsScreenOption</name>
     <message>
-        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="237"/>
+        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="247"/>
         <source>Open Log Directory</source>
         <translation>Ouvrir le dossier des journaux</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="243"/>
+        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="253"/>
         <source>Enabled</source>
         <translation>Activé</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="244"/>
+        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="254"/>
         <source>Disabled</source>
         <translation>Désactivé</translation>
     </message>
@@ -2322,6 +2346,15 @@ Le mode hardcore est actif - les codes de triche, le rembobinage, les états de 
     </message>
 </context>
 <context>
+    <name>ResetCounterWidget</name>
+    <message>
+        <location filename="../src/platform/desktop/ResetCounterWidget.cpp" line="17"/>
+        <location filename="../src/platform/desktop/ResetCounterWidget.cpp" line="32"/>
+        <source>Soft Resets: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>SaveMismatchAlertBox</name>
     <message>
         <location filename="../src/platform/desktop/UIComponents.cpp" line="115"/>
@@ -2361,30 +2394,30 @@ Souhaitez-vous tout de même continuer ?
 <context>
     <name>SavestateDropdownWidget</name>
     <message>
-        <location filename="../src/platform/desktop/SavestateDropdownWidget.cpp" line="133"/>
-        <location filename="../src/platform/desktop/SavestateDropdownWidget.cpp" line="291"/>
+        <location filename="../src/platform/desktop/SavestateDropdownWidget.cpp" line="135"/>
+        <location filename="../src/platform/desktop/SavestateDropdownWidget.cpp" line="293"/>
         <source>Save State</source>
         <translation>Sauvegarder un état</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/SavestateDropdownWidget.cpp" line="145"/>
-        <location filename="../src/platform/desktop/SavestateDropdownWidget.cpp" line="292"/>
+        <location filename="../src/platform/desktop/SavestateDropdownWidget.cpp" line="147"/>
+        <location filename="../src/platform/desktop/SavestateDropdownWidget.cpp" line="294"/>
         <source>Load State</source>
         <translation>Charger un état</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/SavestateDropdownWidget.cpp" line="158"/>
-        <location filename="../src/platform/desktop/SavestateDropdownWidget.cpp" line="293"/>
+        <location filename="../src/platform/desktop/SavestateDropdownWidget.cpp" line="160"/>
+        <location filename="../src/platform/desktop/SavestateDropdownWidget.cpp" line="295"/>
         <source>Delete State</source>
         <translation>Effacer un état</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/SavestateDropdownWidget.cpp" line="263"/>
+        <location filename="../src/platform/desktop/SavestateDropdownWidget.cpp" line="265"/>
         <source>Slot %1</source>
         <translation>Emplacement %1</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/SavestateDropdownWidget.cpp" line="276"/>
+        <location filename="../src/platform/desktop/SavestateDropdownWidget.cpp" line="278"/>
         <source>Empty</source>
         <translation>Vide</translation>
     </message>
@@ -2578,17 +2611,17 @@ Assurez-vous qu&apos;il est connecté.</translation>
 <context>
     <name>SettingsWindowButtonGroup</name>
     <message>
-        <location filename="../src/platform/desktop/SettingsWindowUIComponents.cpp" line="135"/>
+        <location filename="../src/platform/desktop/SettingsWindowUIComponents.cpp" line="131"/>
         <source>Save</source>
         <translation>Sauvegarder</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/SettingsWindowUIComponents.cpp" line="136"/>
+        <location filename="../src/platform/desktop/SettingsWindowUIComponents.cpp" line="132"/>
         <source>Restore defaults</source>
         <translation>Réinitialiser paramètres</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/SettingsWindowUIComponents.cpp" line="137"/>
+        <location filename="../src/platform/desktop/SettingsWindowUIComponents.cpp" line="133"/>
         <source>Rebind keys</source>
         <translation>Configurer les touches</translation>
     </message>
@@ -2749,107 +2782,107 @@ Astuce : utilisez des programmes externes pour déclencher des événements dans
         <translation type="vanished">Démarrer</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="516"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="652"/>
         <source>Main Hub</source>
         <translation>Place centrale</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="517"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="653"/>
         <source>Choose between playing the game, transferring data or accessing more info.</source>
         <translation>Choisissez entre jouer au jeu, transférer les données ou accéder à plus d&apos;infos.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="524"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="660"/>
         <source>Play Tab</source>
         <translation>Onglet Jouer</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="525"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="661"/>
         <source>Learn more about your game, or have a play session on the in-app emulator.</source>
         <translation>Apprenez-en plus sur votre jeu, ou faites une session de jeu en utilisant l&apos;émulateur de l&apos;application.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="532"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="668"/>
         <source>Start Play Session</source>
         <translation>Commencer une session de jeu</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="533"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="669"/>
         <source>Launch the in-app emulator for an authentic, accurate experience.</source>
         <translation>Démarrez l&apos;émulateur de l&apos;application pour une expérience de jeu authentique et fidèle.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="540"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="676"/>
         <source>Playback Settings</source>
         <translation>Paramètres de Playback</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="541"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="677"/>
         <source>Configure parameters to make the app your own.</source>
         <translation>Modifiez les paramètres de l&apos;application selon vos goûts.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="549"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="685"/>
         <source>Access and manage saves created automatically in the &lt;a href=&quot;#&quot; style=&apos;color: white&apos;&gt;Save Vault&lt;/a&gt;.</source>
         <translation>Accédez et gérez les sauvegardes créées automatiquement dans le &lt;a href=&quot;#&quot; style=&apos;color: white&apos;&gt;coffre-fort des sauvegardes&lt;/a&gt;.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="558"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="694"/>
         <source>Device Switcher</source>
         <translation>Changement d&apos;appareil</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="559"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="695"/>
         <source>Select between multiple Operator devices connected to the same computer.</source>
         <translation>Choisissez entre plusieurs appareils Operator connectés au même ordinateur.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="566"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="702"/>
         <source>Counterfeit Detection</source>
         <translation>Détection des contrefaçons</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="567"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="703"/>
         <source>Your cartridge has been analysed for some of the most common counterfeit markers.</source>
         <translation>Votre cartouche a été analysée pour certaines des caractéristiques les plus communes présentes sur les cartouches contrefaites.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="574"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="710"/>
         <source>Data Tab</source>
         <translation>Onglet Données</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="575"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="711"/>
         <source>Backup, transfer and manage official/homebrew game and save data.</source>
         <translation>Copiez, transférez et gérez vos jeux officiels ou homebrew et leurs données de sauvegarde.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="583"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="719"/>
         <source>Create digital copies of your save data.</source>
         <translation>Créez des copies digitales de vos données de sauvegarde.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="590"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="726"/>
         <source>Start Backup Session</source>
         <translation>Commencer une copie des données</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="591"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="727"/>
         <source>Begin archiving the save data.</source>
         <translation>Début de l&apos;archivage des données de sauvegarde.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="548"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="684"/>
         <source>Save Vault</source>
         <translation>Coffre-fort des sauvegardes</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="75"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="88"/>
         <source>Graphics Hardware Not Supported</source>
         <translation>Matériel graphique non supporté</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="76"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="89"/>
         <source>Your graphics hardware does not meet the minimum requirements.
 
 This application requires OpenGL 3.2 or higher (or OpenGL ES 2.0+).
@@ -2860,37 +2893,37 @@ Cette application nécessite OpenGL 3.2 ou plus (ou OpenGL ES 2.0+).
 Assurez-vous que vos pilotes graphiques sont à jour.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="226"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="248"/>
         <source>App Update Available</source>
         <translation>Mise à jour de l&apos;application disponible</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="226"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="248"/>
         <source>A new version of Playback is available.</source>
         <translation>Une nouvelle version de Playback est disponible.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="227"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="249"/>
         <source>Download</source>
         <translation>Télécharger</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="238"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="260"/>
         <source>Device Update Available</source>
         <translation>Mise à jour de l&apos;appareil disponible</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="239"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="261"/>
         <source>A firmware update is available for your Operator device.</source>
         <translation>Une mise à jour du firmware est disponible pour votre appareil Operator.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="240"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="262"/>
         <source>Update</source>
         <translation>Mettre à jour</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="582"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="718"/>
         <source>Backup Save</source>
         <translation>Copier la sauvegarde</translation>
     </message>
