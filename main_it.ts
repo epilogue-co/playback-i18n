@@ -1056,6 +1056,16 @@ non scollegare il dispositivo.</translation>
         <source>Not working?</source>
         <translation>Non funziona?</translation>
     </message>
+    <message>
+        <location filename="../src/platform/desktop/FirmwareUpdateWindow.cpp" line="83"/>
+        <source>Updating (%1%)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/platform/desktop/FirmwareUpdateWindow.cpp" line="88"/>
+        <source>Configuring...</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>HotkeyBindingRow</name>
@@ -1796,22 +1806,22 @@ Se si desidera rimuovere facilmente tutte le immagini dalla fotocamera, senza do
 <context>
     <name>PlaybackApp</name>
     <message>
-        <location filename="../src/platform/desktop/PlaybackApp.cpp" line="193"/>
+        <location filename="../src/platform/desktop/PlaybackApp.cpp" line="198"/>
         <source>Firmware Updated</source>
         <translation>Firmware aggiornato</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/PlaybackApp.cpp" line="194"/>
+        <location filename="../src/platform/desktop/PlaybackApp.cpp" line="199"/>
         <source>Your device firmware has been updated successfully.</source>
         <translation>Il firmware è stato aggiornato con successo.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/PlaybackApp.cpp" line="196"/>
+        <location filename="../src/platform/desktop/PlaybackApp.cpp" line="201"/>
         <source>Firmware Update Failed</source>
         <translation>Aggiornamento firmware non riuscito</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/PlaybackApp.cpp" line="197"/>
+        <location filename="../src/platform/desktop/PlaybackApp.cpp" line="202"/>
         <source>The firmware update could not be completed. Please try again.</source>
         <translation>L&apos;aggiornamento firmware non è stato completato. Riprova.</translation>
     </message>

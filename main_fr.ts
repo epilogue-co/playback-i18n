@@ -1056,6 +1056,16 @@ veuillez ne pas déconnectez l&apos;appareil.</translation>
         <source>Not working?</source>
         <translation>Ça ne marche pas ?</translation>
     </message>
+    <message>
+        <location filename="../src/platform/desktop/FirmwareUpdateWindow.cpp" line="83"/>
+        <source>Updating (%1%)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/platform/desktop/FirmwareUpdateWindow.cpp" line="88"/>
+        <source>Configuring...</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>HotkeyBindingRow</name>
@@ -1796,22 +1806,22 @@ Si vous souhaitez supprimer facilement toutes les images de votre caméra sans a
 <context>
     <name>PlaybackApp</name>
     <message>
-        <location filename="../src/platform/desktop/PlaybackApp.cpp" line="193"/>
+        <location filename="../src/platform/desktop/PlaybackApp.cpp" line="198"/>
         <source>Firmware Updated</source>
         <translation>Firmware mis à jour</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/PlaybackApp.cpp" line="194"/>
+        <location filename="../src/platform/desktop/PlaybackApp.cpp" line="199"/>
         <source>Your device firmware has been updated successfully.</source>
         <translation>Le firmware a été mis à jour avec succès.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/PlaybackApp.cpp" line="196"/>
+        <location filename="../src/platform/desktop/PlaybackApp.cpp" line="201"/>
         <source>Firmware Update Failed</source>
         <translation>La mise à jour du firmware a échoué</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/PlaybackApp.cpp" line="197"/>
+        <location filename="../src/platform/desktop/PlaybackApp.cpp" line="202"/>
         <source>The firmware update could not be completed. Please try again.</source>
         <translation>La mise à jour du firmware n&apos;a pas pu être complétée. Veuillez réessayer.</translation>
     </message>

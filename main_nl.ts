@@ -1056,6 +1056,16 @@ Koppel het apparaat niet los.</translation>
         <source>Not working?</source>
         <translation>Werkt het niet?</translation>
     </message>
+    <message>
+        <location filename="../src/platform/desktop/FirmwareUpdateWindow.cpp" line="83"/>
+        <source>Updating (%1%)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/platform/desktop/FirmwareUpdateWindow.cpp" line="88"/>
+        <source>Configuring...</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>HotkeyBindingRow</name>
@@ -1796,22 +1806,22 @@ Als je gemakkelijk alle foto&apos;s van je camera wilt verwijderen, zonder ze é
 <context>
     <name>PlaybackApp</name>
     <message>
-        <location filename="../src/platform/desktop/PlaybackApp.cpp" line="193"/>
+        <location filename="../src/platform/desktop/PlaybackApp.cpp" line="198"/>
         <source>Firmware Updated</source>
         <translation>Firmware bijgewerkt</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/PlaybackApp.cpp" line="194"/>
+        <location filename="../src/platform/desktop/PlaybackApp.cpp" line="199"/>
         <source>Your device firmware has been updated successfully.</source>
         <translation>De firmware is succesvol bijgewerkt.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/PlaybackApp.cpp" line="196"/>
+        <location filename="../src/platform/desktop/PlaybackApp.cpp" line="201"/>
         <source>Firmware Update Failed</source>
         <translation>Firmware-update mislukt</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/PlaybackApp.cpp" line="197"/>
+        <location filename="../src/platform/desktop/PlaybackApp.cpp" line="202"/>
         <source>The firmware update could not be completed. Please try again.</source>
         <translation>De firmware-update kon niet worden voltooid. Probeer het opnieuw.</translation>
     </message>

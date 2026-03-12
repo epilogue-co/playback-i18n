@@ -964,6 +964,16 @@ please do not disconnect the device.</source>
         <source>Not working?</source>
         <translation>Δεν λειτουργεί;</translation>
     </message>
+    <message>
+        <location filename="../src/platform/desktop/FirmwareUpdateWindow.cpp" line="83"/>
+        <source>Updating (%1%)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/platform/desktop/FirmwareUpdateWindow.cpp" line="88"/>
+        <source>Configuring...</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>HotkeyBindingRow</name>
@@ -1672,22 +1682,22 @@ If you&apos;d like to easily remove all the pictures from your camera, without h
 <context>
     <name>PlaybackApp</name>
     <message>
-        <location filename="../src/platform/desktop/PlaybackApp.cpp" line="193"/>
+        <location filename="../src/platform/desktop/PlaybackApp.cpp" line="198"/>
         <source>Firmware Updated</source>
         <translation>Το Firmware αναβαθμίστηκε</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/PlaybackApp.cpp" line="194"/>
+        <location filename="../src/platform/desktop/PlaybackApp.cpp" line="199"/>
         <source>Your device firmware has been updated successfully.</source>
         <translation>Το firmware της συσκευής σας αναβαθμίστηκε επιτυχώς.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/PlaybackApp.cpp" line="196"/>
+        <location filename="../src/platform/desktop/PlaybackApp.cpp" line="201"/>
         <source>Firmware Update Failed</source>
         <translation>Αποτυχία αναβάθμισης firmware</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/PlaybackApp.cpp" line="197"/>
+        <location filename="../src/platform/desktop/PlaybackApp.cpp" line="202"/>
         <source>The firmware update could not be completed. Please try again.</source>
         <translation>Η αναβάθμιση firmware δεν ολοκληρώθηκε. Δοκιμάστε ξανά.</translation>
     </message>

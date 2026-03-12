@@ -1056,6 +1056,16 @@ por favor, no desconecte el dispositivo.</translation>
         <source>Not working?</source>
         <translation>¿No funciona?</translation>
     </message>
+    <message>
+        <location filename="../src/platform/desktop/FirmwareUpdateWindow.cpp" line="83"/>
+        <source>Updating (%1%)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/platform/desktop/FirmwareUpdateWindow.cpp" line="88"/>
+        <source>Configuring...</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>HotkeyBindingRow</name>
@@ -1796,22 +1806,22 @@ Si quieres eliminar fácilmente todas las fotos de tu cámara, sin tener que bor
 <context>
     <name>PlaybackApp</name>
     <message>
-        <location filename="../src/platform/desktop/PlaybackApp.cpp" line="193"/>
+        <location filename="../src/platform/desktop/PlaybackApp.cpp" line="198"/>
         <source>Firmware Updated</source>
         <translation>Firmware actualizado</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/PlaybackApp.cpp" line="194"/>
+        <location filename="../src/platform/desktop/PlaybackApp.cpp" line="199"/>
         <source>Your device firmware has been updated successfully.</source>
         <translation>El firmware se ha actualizado correctamente.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/PlaybackApp.cpp" line="196"/>
+        <location filename="../src/platform/desktop/PlaybackApp.cpp" line="201"/>
         <source>Firmware Update Failed</source>
         <translation>Error en la actualización del firmware</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/PlaybackApp.cpp" line="197"/>
+        <location filename="../src/platform/desktop/PlaybackApp.cpp" line="202"/>
         <source>The firmware update could not be completed. Please try again.</source>
         <translation>La actualización del firmware no se ha podido completar. Inténtalo de nuevo.</translation>
     </message>
