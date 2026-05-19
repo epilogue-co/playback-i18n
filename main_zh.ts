@@ -2016,7 +2016,7 @@ If you&apos;d like to easily remove all the pictures from your camera, without h
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="120"/>
         <source>Hide Navigation Bar in Emulation</source>
-        <translation>模拟时隐藏导航栏</translation>
+        <translation>模拟器运行时隐藏导航栏</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="155"/>
