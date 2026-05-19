@@ -178,12 +178,12 @@ Ne retirez pas la cartouche pendant qu&apos;une opération est en cours.</transl
     <message>
         <location filename="../src/platform/desktop/CheatCodesScreen.cpp" line="133"/>
         <source>You have the option to use default or custom cheats to transform the way you experience the game. But cheats modify the game&apos;s RAM, so they can sometimes cause crashes or other forms of instability. Our cheats database draws information from multiple sources, but it is not completed with every existing cheat code. If anything is missing, please use the custom cheat code option. Disable Autosave so that the save on your cartridge is not corrupted while cheats are running.</source>
-        <translation>Vous avez la possibilité d&apos;utiliser des codes de triche par défaut ou personnalisés pour transformer votre façon de jouer. Cependant, les codes de triche modifient la RAM du jeu et peuvent donc parfois provoquer des plantages ou d&apos;autres formes d&apos;instabilité. Notre base de données de codes de triche s&apos;appuie sur plusieurs sources, mais ne contient pas tous les codes existants. Si quelque chose manque, utilisez l&apos;option de code de triche personnalisé. Désactivez la sauvegarde automatique afin que la sauvegarde sur votre cartouche ne soit pas corrompue pendant l&apos;exécution des codes de triche.</translation>
+        <translation>Vous pouvez utiliser des codes de triche prédéfinis ou personnalisés pour transformer votre façon de jouer. Cependant, les codes de triche modifiant la RAM du jeu, ils peuvent parfois provoquer des plantages ou d&apos;autres formes d&apos;instabilité. Notre base de données de codes de triche s&apos;appuie sur plusieurs sources, mais ne contient pas tous les codes existants. Si quelque chose manque, veuillez utiliser l&apos;option de code de triche personnalisé. Désactivez la sauvegarde automatique afin que la sauvegarde sur votre cartouche ne soit pas corrompue pendant l&apos;exécution des codes de triche.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/CheatCodesScreen.cpp" line="157"/>
         <source>Before you enable cheats...</source>
-        <translation>Avant d&apos;activer les codes de triche...</translation>
+        <translation>Avant d&apos;activer des codes de triche...</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/CheatCodesScreen.cpp" line="158"/>
@@ -1977,12 +1977,12 @@ Si vous souhaitez supprimer facilement toutes les images de votre caméra sans a
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="183"/>
         <source>Controls how the emulation control bar behaves during gameplay. &quot;Always On&quot; keeps it visible at all times, &quot;Auto-Hide&quot; lets it fade out after a few seconds of inactivity, and &quot;Always Off&quot; keeps it hidden regardless of activity.</source>
-        <translation>Contrôle le comportement de la barre de contrôle d&apos;émulation pendant la partie. &quot;Toujours visible&quot; la maintient affichée en permanence, &quot;Masquage automatique&quot; la fait disparaître après quelques secondes d&apos;inactivité, et &quot;Toujours masquée&quot; la garde masquée quelle que soit l&apos;activité.</translation>
+        <translation>Ajuste le comportement de la barre de contrôle d&apos;émulation pendant la partie. &quot;Toujours visible&quot; la maintient affichée en permanence, &quot;Masquer automatiquement&quot; la fait disparaître après quelques secondes d&apos;inactivité, et &quot;Toujours masquée&quot; la garde masquée quelle que soit l&apos;activité.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="187"/>
         <source>When enabled, the top navigation bar stays hidden while a game is running. When disabled, it is shown unless the window is below its default size.</source>
-        <translation>Lorsqu&apos;elle est activée, la barre de navigation supérieure reste masquée pendant qu&apos;un jeu est en cours. Lorsqu&apos;elle est désactivée, la barre est affichée sauf si la fenêtre est plus petite que sa taille par défaut.</translation>
+        <translation>Si activé, la barre de navigation supérieure reste masquée pendant qu&apos;un jeu est en cours. Si désactivé, la barre est affichée sauf si la fenêtre est plus petite que sa taille par défaut.</translation>
     </message>
     <message>
         <source>When enabled, the emulation control bar remains visible at all times during gameplay. When disabled, the controls will automatically hide after a few seconds of inactivity.</source>
@@ -2099,7 +2099,7 @@ Si vous souhaitez supprimer facilement toutes les images de votre caméra sans a
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="261"/>
         <source>Auto-Hide</source>
-        <translation>Masquage automatique</translation>
+        <translation>Masquer automatiquement</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="262"/>
