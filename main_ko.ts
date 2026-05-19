@@ -89,8 +89,8 @@ P.S. 지금 투어를 건너뛰면 다시 투어를 진행하라는 메시지가
 <context>
     <name>BetaLabel</name>
     <message>
-        <location filename="../src/platform/desktop/UIComponents.cpp" line="212"/>
-        <location filename="../src/platform/desktop/UIComponents.cpp" line="226"/>
+        <location filename="../src/platform/desktop/UIComponents.cpp" line="216"/>
+        <location filename="../src/platform/desktop/UIComponents.cpp" line="230"/>
         <source>beta</source>
         <translation>베타</translation>
     </message>
@@ -98,57 +98,57 @@ P.S. 지금 투어를 건너뛰면 다시 투어를 진행하라는 메시지가
 <context>
     <name>CartDetailsWidget</name>
     <message>
-        <location filename="../src/platform/desktop/CartDetailsWidget.cpp" line="408"/>
+        <location filename="../src/platform/desktop/CartDetailsWidget.cpp" line="467"/>
         <source>Unknown title</source>
         <translation>알 수 없는 제목</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/CartDetailsWidget.cpp" line="419"/>
+        <location filename="../src/platform/desktop/CartDetailsWidget.cpp" line="478"/>
         <source>The description of this cartridge can’t be displayed since it’s not in our database. You can use the link below to open a ticket and we’ll add the game info to the database. Please feel free to contact us even if it’s a homebrew game you made if you’d like to have your artwork displayed here.</source>
         <translation>이 카트리지에 대한 설명은 저희 데이터베이스에 없으므로 표시할 수 없습니다. 아래 링크를 통해 티켓을 접수해 주시면 게임 정보를 데이터베이스에 추가해 드리겠습니다. 직접 만든 게임이라도 여기에 아트워크를 표시하고 싶으시면 언제든지 문의해 주세요.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/CartDetailsWidget.cpp" line="426"/>
+        <location filename="../src/platform/desktop/CartDetailsWidget.cpp" line="483"/>
         <source>Submit cartridge information</source>
         <translation>카트리지 정보 제출</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/CartDetailsWidget.cpp" line="448"/>
+        <location filename="../src/platform/desktop/CartDetailsWidget.cpp" line="505"/>
         <source>Unknown developer</source>
         <translation>알 수 없는 개발자</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/CartDetailsWidget.cpp" line="457"/>
+        <location filename="../src/platform/desktop/CartDetailsWidget.cpp" line="514"/>
         <source>Unreleased</source>
         <translation>미출시</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/CartDetailsWidget.cpp" line="605"/>
+        <location filename="../src/platform/desktop/CartDetailsWidget.cpp" line="672"/>
         <source>Official cartridge</source>
         <translation>공식 카트리지</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/CartDetailsWidget.cpp" line="606"/>
+        <location filename="../src/platform/desktop/CartDetailsWidget.cpp" line="673"/>
         <source>Unofficial cartridge</source>
         <translation>비공식 카트리지</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/CartDetailsWidget.cpp" line="607"/>
+        <location filename="../src/platform/desktop/CartDetailsWidget.cpp" line="674"/>
         <source>Unrecognized cartridge</source>
         <translation>인식할 수 없는 카트리지</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/CartDetailsWidget.cpp" line="608"/>
+        <location filename="../src/platform/desktop/CartDetailsWidget.cpp" line="675"/>
         <source>Read-only cartridge</source>
         <translation>읽기 전용 카트리지</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/CartDetailsWidget.cpp" line="609"/>
+        <location filename="../src/platform/desktop/CartDetailsWidget.cpp" line="676"/>
         <source>Rewritable cartridge</source>
         <translation>재기록 가능 카트리지</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/CartDetailsWidget.cpp" line="610"/>
+        <location filename="../src/platform/desktop/CartDetailsWidget.cpp" line="677"/>
         <source>Tip: Learn how to use your GB Camera as a webcam &lt;a href=&apos;https://support.epilogue.co/hc/en-us/articles/19387756265244&apos; style=&apos;color:white;&apos;&gt;with this tutorial&lt;/a&gt;.</source>
         <translation>팁: GB Camera를 웹캠으로 사용하는 방법은 &lt;a href=&apos;https://support.epilogue.co/hc/en-us/articles/19387756265244&apos; style=&apos;color:white;&apos;&gt;이 튜토리얼&lt;/a&gt;을 참조하세요.</translation>
     </message>
@@ -171,14 +171,33 @@ Do not remove the cartridge while any operation is running.</source>
 <context>
     <name>CheatCodesScreen</name>
     <message>
-        <location filename="../src/platform/desktop/CheatCodesScreen.cpp" line="127"/>
+        <location filename="../src/platform/desktop/CheatCodesScreen.cpp" line="131"/>
         <source>Cheat Codes</source>
         <translation>치트 코드</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/CheatCodesScreen.cpp" line="129"/>
+        <location filename="../src/platform/desktop/CheatCodesScreen.cpp" line="133"/>
+        <source>You have the option to use default or custom cheats to transform the way you experience the game. But cheats modify the game&apos;s RAM, so they can sometimes cause crashes or other forms of instability. Our cheats database draws information from multiple sources, but it is not completed with every existing cheat code. If anything is missing, please use the custom cheat code option. Disable Autosave so that the save on your cartridge is not corrupted while cheats are running.</source>
+        <translation>기본 또는 사용자 지정 치트를 사용하여 게임 경험 방식을 변경할 수 있습니다. 하지만 치트는 게임의 RAM을 수정하므로 충돌이나 다른 형태의 불안정성을 유발할 수 있습니다. 저희 치트 데이터베이스는 여러 출처에서 정보를 수집하지만 모든 기존 치트 코드를 포함하고 있지는 않습니다. 누락된 것이 있다면 사용자 지정 치트 코드 옵션을 사용해 주세요. 치트 실행 중에 카트리지의 저장이 손상되지 않도록 자동 저장을 비활성화하세요.</translation>
+    </message>
+    <message>
+        <location filename="../src/platform/desktop/CheatCodesScreen.cpp" line="157"/>
+        <source>Before you enable cheats...</source>
+        <translation>치트를 활성화하기 전에...</translation>
+    </message>
+    <message>
+        <location filename="../src/platform/desktop/CheatCodesScreen.cpp" line="158"/>
+        <source>Disable the Autosave setting so that your save data is not accidentally overwritten.&lt;br&gt;&lt;br&gt;Backup your data before applying cheats because they write directly to the game&apos;s RAM and can cause an emulator crash or other system instability issues during this process.&lt;br&gt;&lt;br&gt;Check our database of default cheat codes. For anything else that is not already listed, use the custom cheat code option. Behaviours may differ across regions or versions of the same game, and some cheats may not be available. Double-check that your custom code is from a reputable source.&lt;br&gt;&lt;br&gt;If a cheat encounters issues, disable it and reload the game.</source>
+        <translation>저장 데이터가 실수로 덮어써지지 않도록 자동 저장 설정을 비활성화하세요.&lt;br&gt;&lt;br&gt;치트를 적용하기 전에 데이터를 백업하세요. 치트는 게임의 RAM에 직접 기록하므로 이 과정 중에 에뮬레이터 충돌이나 다른 시스템 불안정 문제를 일으킬 수 있습니다.&lt;br&gt;&lt;br&gt;기본 치트 코드 데이터베이스를 확인하세요. 목록에 없는 항목은 사용자 지정 치트 코드 옵션을 사용하세요. 같은 게임이라도 지역이나 버전에 따라 동작이 다를 수 있으며, 일부 치트는 사용할 수 없을 수 있습니다. 사용자 지정 코드가 신뢰할 수 있는 출처인지 다시 확인하세요.&lt;br&gt;&lt;br&gt;치트에 문제가 발생하면 비활성화하고 게임을 다시 로드하세요.</translation>
+    </message>
+    <message>
+        <location filename="../src/platform/desktop/CheatCodesScreen.cpp" line="169"/>
+        <source>I Understand</source>
+        <translation>이해했습니다</translation>
+    </message>
+    <message>
         <source>Enable predefined cheats or use cheats from the internet to transform how you play, from abilities and mechanics to audio effects. Make sure you have autosave disabled so that your cartridge&apos;s save isn&apos;t overwritten while you&apos;re running cheats.</source>
-        <translation>미리 정의된 치트를 활성화하거나 인터넷에서 찾은 치트를 사용하여 능력과 메커니즘부터 오디오 효과까지 플레이 방식을 바꿀 수 있습니다. 치트를 실행하는 동안 카트리지의 저장을 덮어쓰지 않도록 자동 저장을 비활성화해야 합니다.</translation>
+        <translation type="vanished">미리 정의된 치트를 활성화하거나 인터넷에서 찾은 치트를 사용하여 능력과 메커니즘부터 오디오 효과까지 플레이 방식을 바꿀 수 있습니다. 치트를 실행하는 동안 카트리지의 저장을 덮어쓰지 않도록 자동 저장을 비활성화해야 합니다.</translation>
     </message>
 </context>
 <context>
@@ -205,7 +224,7 @@ Do not remove the cartridge while any operation is running.</source>
         <translation>플레이어</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/ControlsWidget.cpp" line="795"/>
+        <location filename="../src/platform/desktop/ControlsWidget.cpp" line="790"/>
         <source>None</source>
         <translation>없음</translation>
     </message>
@@ -251,22 +270,22 @@ Do not remove the cartridge while any operation is running.</source>
 <context>
     <name>CoreDownloader</name>
     <message>
-        <location filename="../src/platform/desktop/CoreCardWidget.cpp" line="319"/>
+        <location filename="../src/platform/desktop/CoreCardWidget.cpp" line="321"/>
         <source>Failed to download core</source>
         <translation>코어 다운로드 실패</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/CoreCardWidget.cpp" line="326"/>
+        <location filename="../src/platform/desktop/CoreCardWidget.cpp" line="328"/>
         <source>Failed to open file for writing</source>
         <translation>쓰기용 파일 열기 실패</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/CoreCardWidget.cpp" line="336"/>
+        <location filename="../src/platform/desktop/CoreCardWidget.cpp" line="338"/>
         <source>Failed to open zip file</source>
         <translation>zip 파일 열기 실패</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/CoreCardWidget.cpp" line="376"/>
+        <location filename="../src/platform/desktop/CoreCardWidget.cpp" line="377"/>
         <source>Download Error</source>
         <translation>다운로드 오류</translation>
     </message>
@@ -488,12 +507,12 @@ Do not remove the cartridge while any operation is running.</source>
 <context>
     <name>DeviceBase</name>
     <message>
-        <location filename="../src/core/DeviceBase.cpp" line="297"/>
+        <location filename="../src/core/DeviceBase.cpp" line="298"/>
         <source>Save data integrity check failed!</source>
         <translation>저장 데이터 무결성 검사에 실패했습니다!</translation>
     </message>
     <message>
-        <location filename="../src/core/DeviceBase.cpp" line="298"/>
+        <location filename="../src/core/DeviceBase.cpp" line="299"/>
         <source>The save data appears to be inconsistent between read cycles. Please clean the cartridge pins and try again.</source>
         <translation>저장 데이터가 읽기 사이클 간 일관성이 없어 보입니다. 카트리지 핀을 청소한 후 다시 시도해 주세요.</translation>
     </message>
@@ -785,27 +804,27 @@ OpenGL 세부 정보:
         <translation type="vanished">코어가 저장 데이터를 로드하지 못했습니다.</translation>
     </message>
     <message>
-        <location filename="../src/platform/common/Emulator.cpp" line="593"/>
+        <location filename="../src/platform/common/Emulator.cpp" line="607"/>
         <source>ROM integrity check failed. Do you want to continue loading?</source>
         <translation>ROM 무결성 검사에 실패했습니다. 계속 로드할까요?</translation>
     </message>
     <message>
-        <location filename="../src/platform/common/Emulator.cpp" line="608"/>
+        <location filename="../src/platform/common/Emulator.cpp" line="622"/>
         <source>Failed to load game! Unable to launch the game, please make sure that the cartridge is clean.</source>
         <translation>게임을 로드하지 못했습니다! 게임을 실행할 수 없습니다. 카트리지가 깨끗한지 확인하세요.</translation>
     </message>
     <message>
-        <location filename="../src/platform/common/Emulator.cpp" line="613"/>
+        <location filename="../src/platform/common/Emulator.cpp" line="627"/>
         <source>Failed to load save data! The core failed to load the save data.</source>
         <translation>세이브 데이터를 로드하지 못했습니다! 코어가 세이브 데이터를 로드하지 못했습니다.</translation>
     </message>
     <message>
-        <location filename="../src/platform/common/Emulator.cpp" line="619"/>
+        <location filename="../src/platform/common/Emulator.cpp" line="633"/>
         <source>Save size mismatch detected. Do you want to continue loading?</source>
         <translation>세이브 크기 불일치가 감지되었습니다. 계속 로드할까요?</translation>
     </message>
     <message>
-        <location filename="../src/platform/common/Emulator.cpp" line="839"/>
+        <location filename="../src/platform/common/Emulator.cpp" line="853"/>
         <source>Your graphics hardware does not meet the minimum requirements:
 
 %1
@@ -825,46 +844,46 @@ OpenGL 세부 정보:
 <context>
     <name>EmulatorContainer</name>
     <message>
-        <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="212"/>
+        <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="219"/>
         <source>Save Failed</source>
         <translation>저장 실패</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="212"/>
-        <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="220"/>
-        <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="228"/>
+        <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="219"/>
+        <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="227"/>
+        <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="235"/>
         <source>Slot %1: %2</source>
         <translation>슬롯 %1: %2</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="220"/>
+        <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="227"/>
         <source>Load Failed</source>
         <translation>로드 실패</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="228"/>
+        <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="235"/>
         <source>Delete Failed</source>
         <translation>삭제 실패</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="349"/>
+        <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="378"/>
         <source>State Saved</source>
         <translation>상태 저장됨</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="349"/>
-        <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="354"/>
-        <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="358"/>
+        <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="378"/>
+        <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="383"/>
+        <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="387"/>
         <source>Slot %1</source>
         <translation>슬롯 %1</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="354"/>
+        <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="383"/>
         <source>State Loaded</source>
         <translation>상태 로드됨</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="358"/>
+        <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="387"/>
         <source>State Deleted</source>
         <translation>상태 삭제됨</translation>
     </message>
@@ -889,137 +908,137 @@ OpenGL 세부 정보:
         <translation type="vanished">비활성화됨</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="260"/>
+        <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="268"/>
         <source>Fast-forward speed multiplier (Re-enable)</source>
         <translation>빨리 감기 속도 배율(다시 활성화)</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="273"/>
+        <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="281"/>
         <source>A fast-forward speed higher than 2x can cause unexpected bugs in combination with the &apos;Autosave to cartridge&apos; feature. You will need to disable and enable it by clicking the fast-forward button.</source>
         <translation>빨리 감기 속도를 2배 이상으로 설정하면 &apos;카트리지에 자동 저장&apos; 기능과 함께 예기치 않은 버그가 발생할 수 있습니다. 빨리 감기 버튼을 클릭하여 이 기능을 비활성화했다가 다시 활성화해야 합니다.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="264"/>
+        <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="272"/>
         <source>High Fidelity Mode</source>
         <translation>하이파이 모드</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="245"/>
+        <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="253"/>
         <source>System</source>
         <translation>시스템</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="246"/>
+        <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="254"/>
         <source>Input &amp; Auxiliary Devices</source>
         <translation>입력 및 보조 장치</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="247"/>
+        <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="255"/>
         <source>Core</source>
         <translation>코어</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="252"/>
+        <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="260"/>
         <source>Configure base hardware selection.</source>
         <translation>기본 하드웨어 선택을 구성합니다.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="253"/>
+        <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="261"/>
         <source>Configure controller and controller rumble settings.</source>
         <translation>컨트롤러 및 컨트롤러 럼블 설정을 구성합니다.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="254"/>
+        <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="262"/>
         <source>Core settings</source>
         <translation>코어 설정</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="261"/>
+        <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="269"/>
         <source>Rewind Buffer Size (MB)</source>
         <translation>되감기 버퍼 크기(MB)</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="262"/>
+        <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="270"/>
         <source>Rewind Granularity</source>
         <translation>되감기 간격</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="263"/>
+        <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="271"/>
         <source>Rewind Speed</source>
         <translation>되감기 속도</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="265"/>
+        <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="273"/>
         <source>RTC Battery State Emulation</source>
         <translation>RTC 배터리 상태 에뮬레이션</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="278"/>
+        <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="286"/>
         <source>The amount of memory (in MB) to reserve for the rewind buffer. A larger buffer allows for a longer rewind history but might also cause system instability.</source>
         <translation>되감기 버퍼에 예약할 메모리(MB) 양입니다. 버퍼가 클수록 더 오래 되감을 수 있지만 시스템이 불안정해질 수 있습니다.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="281"/>
+        <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="289"/>
         <source>Saves a state every N frames. Higher values use less memory but result in a less precise rewind.</source>
         <translation>N프레임마다 상태를 저장합니다. 값이 클수록 메모리 사용량은 줄지만 되감기 정밀도는 떨어집니다.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="283"/>
+        <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="291"/>
         <source>Controls the playback speed of the rewind animation. Higher values are faster.</source>
         <translation>되감기 애니메이션 재생 속도를 조절합니다. 값이 클수록 더 빠릅니다.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="285"/>
+        <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="293"/>
         <source>Enables high-fidelity mode, making audio and video run at rates close to what you would encounter on the original hardware. This will increase CPU usage, disable it if you notice low framerates.</source>
         <translation>고음질 모드를 활성화하여 오디오 및 비디오가 원래 하드웨어에서 발생하는 속도에 가까운 속도로 실행되도록 합니다. 이 모드는 CPU 사용량을 증가시키므로 프레임 속도가 느리다면 비활성화하세요.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="305"/>
+        <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="313"/>
         <source>Every 1 frame (Smoothest)</source>
         <translation>1프레임마다(가장 부드러움)</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="306"/>
+        <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="314"/>
         <source>Every 6 frames (Least precise)</source>
         <translation>6프레임마다(가장 덜 정밀)</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="307"/>
+        <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="315"/>
         <source>Every %1 frames</source>
         <translation>%1프레임마다</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="311"/>
+        <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="319"/>
         <source>Enabled</source>
         <translation>활성화됨</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="312"/>
+        <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="320"/>
         <source>Disabled</source>
         <translation>비활성화됨</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="266"/>
+        <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="274"/>
         <source>Gamepad rumble</source>
         <translation>게임 패드 럼블</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="290"/>
+        <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="298"/>
         <source>With this setting Enabled, the in-app emulator will match the state of your cartridge’s battery (dry/not dry). Leave the option Disabled if your cartridge battery is dry, but you still want the emulated game to offer in-game time-based events.</source>
         <translation>이 설정을 활성화하면, 앱 내 에뮬레이터가 카트리지 배터리의 상태(방전/비방전)와 일치하게 됩니다. 카트리지 배터리가 방전되었지만 에뮬레이트된 게임에서 시간 기반 이벤트를 제공하기를 원하는 경우 이 옵션을 비활성화하세요.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="295"/>
+        <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="303"/>
         <source>Enable rumble support for games that support it, for more compatibility make sure you also enable Game Boy Player Rumble.</source>
         <translation>럼블을 지원하는 게임에서 럼블 지원을 활성화하고, 호환성을 높이려면 게임보이 플레이어 럼블도 활성화하세요.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="267"/>
+        <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="275"/>
         <source>In-game save verifications</source>
         <translation>게임 내 저장 확인</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="298"/>
+        <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="306"/>
         <source>Enable in-game integrity checks for save data. This feature is still in beta and may not work with all games.</source>
         <translation>게임 내 저장 데이터의 무결성 검사를 활성화합니다. 이 기능은 아직 베타 버전이므로 모든 게임에서 작동하지 않을 수 있습니다.</translation>
     </message>
@@ -1535,55 +1554,55 @@ You can try cleaning then re-inserting the cartridge into the device.
 <context>
     <name>Navbar</name>
     <message>
-        <location filename="../src/platform/desktop/Navbar.cpp" line="222"/>
-        <location filename="../src/platform/desktop/Navbar.cpp" line="266"/>
+        <location filename="../src/platform/desktop/Navbar.cpp" line="232"/>
+        <location filename="../src/platform/desktop/Navbar.cpp" line="276"/>
         <source>Press ESC to exit emulation</source>
         <translation>에뮬레이션을 종료하려면 ESC를 누르세요</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Navbar.cpp" line="232"/>
-        <location filename="../src/platform/desktop/Navbar.cpp" line="236"/>
-        <location filename="../src/platform/desktop/Navbar.cpp" line="238"/>
+        <location filename="../src/platform/desktop/Navbar.cpp" line="242"/>
+        <location filename="../src/platform/desktop/Navbar.cpp" line="246"/>
+        <location filename="../src/platform/desktop/Navbar.cpp" line="248"/>
         <source>Preparing cartridge...</source>
         <translation>카트리지 준비 중...</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Navbar.cpp" line="234"/>
+        <location filename="../src/platform/desktop/Navbar.cpp" line="244"/>
         <source>Preparing...</source>
         <translation>준비 중...</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Navbar.cpp" line="240"/>
+        <location filename="../src/platform/desktop/Navbar.cpp" line="250"/>
         <source>Preparing cartridge... (this may take a moment)</source>
         <translation>카트리지 준비 중... (잠시 기다려주세요)</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Navbar.cpp" line="242"/>
+        <location filename="../src/platform/desktop/Navbar.cpp" line="252"/>
         <source>Finishing up...</source>
         <translation>마무리 중...</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Navbar.cpp" line="265"/>
+        <location filename="../src/platform/desktop/Navbar.cpp" line="275"/>
         <source>Press TAB to exit mouse capture mode</source>
         <translation>마우스 캡처 모드를 종료하려면 TAB 키를 누르세요</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Navbar.cpp" line="224"/>
+        <location filename="../src/platform/desktop/Navbar.cpp" line="234"/>
         <source>Loading game...</source>
         <translation>게임 로드 중...</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Navbar.cpp" line="226"/>
+        <location filename="../src/platform/desktop/Navbar.cpp" line="236"/>
         <source>Writing game...</source>
         <translation>게임 기록 중...</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Navbar.cpp" line="228"/>
+        <location filename="../src/platform/desktop/Navbar.cpp" line="238"/>
         <source>Loading save...</source>
         <translation>저장 데이터 로드 중...</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Navbar.cpp" line="230"/>
+        <location filename="../src/platform/desktop/Navbar.cpp" line="240"/>
         <source>Writing save...</source>
         <translation>저장 중...</translation>
     </message>
@@ -1592,12 +1611,12 @@ You can try cleaning then re-inserting the cartridge into the device.
         <translation type="vanished">데이터 지우기...</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Navbar.cpp" line="271"/>
+        <location filename="../src/platform/desktop/Navbar.cpp" line="281"/>
         <source>PLAY</source>
         <translation>플레이</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Navbar.cpp" line="272"/>
+        <location filename="../src/platform/desktop/Navbar.cpp" line="282"/>
         <source>DATA</source>
         <translation>데이터</translation>
     </message>
@@ -1605,12 +1624,12 @@ You can try cleaning then re-inserting the cartridge into the device.
 <context>
     <name>NavbarDeviceStatus</name>
     <message>
-        <location filename="../src/platform/desktop/NavbarComponents.cpp" line="125"/>
+        <location filename="../src/platform/desktop/NavbarComponents.cpp" line="132"/>
         <source>Nightly</source>
         <translation>Nightly</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/NavbarComponents.cpp" line="123"/>
+        <location filename="../src/platform/desktop/NavbarComponents.cpp" line="130"/>
         <source>Debug</source>
         <translation>Debug</translation>
     </message>
@@ -1699,27 +1718,27 @@ You can try cleaning then re-inserting the cartridge into the device.
 <context>
     <name>NavbarSubmenu</name>
     <message>
-        <location filename="../src/platform/desktop/Navbar.cpp" line="456"/>
+        <location filename="../src/platform/desktop/Navbar.cpp" line="466"/>
         <source>Backup Game</source>
         <translation>백업 게임</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Navbar.cpp" line="457"/>
+        <location filename="../src/platform/desktop/Navbar.cpp" line="467"/>
         <source>Upload Homebrew</source>
         <translation>Homebrew 업로드</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Navbar.cpp" line="458"/>
+        <location filename="../src/platform/desktop/Navbar.cpp" line="468"/>
         <source>Backup Save</source>
         <translation>백업 저장</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Navbar.cpp" line="459"/>
+        <location filename="../src/platform/desktop/Navbar.cpp" line="469"/>
         <source>Upload Save</source>
         <translation>업로드 저장</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Navbar.cpp" line="460"/>
+        <location filename="../src/platform/desktop/Navbar.cpp" line="470"/>
         <source>Photo Gallery</source>
         <translation>사진 갤러리</translation>
     </message>
@@ -1735,58 +1754,58 @@ You can try cleaning then re-inserting the cartridge into the device.
         <translation type="vanished">디렉터리 열기</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/PhotosPage.cpp" line="173"/>
+        <location filename="../src/platform/desktop/PhotosPage.cpp" line="167"/>
         <source>Select Directory to Save Photos</source>
         <translation>사진 저장 폴더 선택</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/PhotosPage.cpp" line="176"/>
+        <location filename="../src/platform/desktop/PhotosPage.cpp" line="170"/>
         <source>Save</source>
         <translation>저장</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/PhotosPage.cpp" line="198"/>
+        <location filename="../src/platform/desktop/PhotosPage.cpp" line="197"/>
         <source>Warning, permanent deletion</source>
         <translation>경고, 영구 삭제</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/PhotosPage.cpp" line="199"/>
+        <location filename="../src/platform/desktop/PhotosPage.cpp" line="198"/>
         <source>This will permanently delete all the pictures on your Game Boy Camera. Are you sure?</source>
         <translation>이렇게 하면 게임보이 카메라에 있는 모든 사진이 영구적으로 삭제됩니다. 정말 괜찮으세요?</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/PhotosPage.cpp" line="329"/>
+        <location filename="../src/platform/desktop/PhotosPage.cpp" line="327"/>
         <source>Found %1 photos on your Game Boy Camera.</source>
         <translation>게임보이 카메라에서 %1개의 사진을 발견했습니다.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/PhotosPage.cpp" line="332"/>
+        <location filename="../src/platform/desktop/PhotosPage.cpp" line="330"/>
         <source>Found 1 photo on your Game Boy Camera.</source>
         <translation>게임보이 카메라에서 1개의 사진을 발견했습니다.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/PhotosPage.cpp" line="336"/>
-        <location filename="../src/platform/desktop/PhotosPage.cpp" line="365"/>
+        <location filename="../src/platform/desktop/PhotosPage.cpp" line="334"/>
+        <location filename="../src/platform/desktop/PhotosPage.cpp" line="363"/>
         <source>Found no photos on your Game Boy Camera.</source>
         <translation>게임보이 카메라에서 사진을 발견하지 못했습니다.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/PhotosPage.cpp" line="362"/>
+        <location filename="../src/platform/desktop/PhotosPage.cpp" line="360"/>
         <source>SAVE</source>
         <translation>저장</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/PhotosPage.cpp" line="363"/>
+        <location filename="../src/platform/desktop/PhotosPage.cpp" line="361"/>
         <source>DELETE</source>
         <translation>삭제</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/PhotosPage.cpp" line="364"/>
+        <location filename="../src/platform/desktop/PhotosPage.cpp" line="362"/>
         <source>Photo Gallery</source>
         <translation>사진 갤러리</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/PhotosPage.cpp" line="358"/>
+        <location filename="../src/platform/desktop/PhotosPage.cpp" line="356"/>
         <source>Transfer your pics from your Game Boy Camera to your PC in just two clicks. The images are stored as PNGs of 128x112 pixels. You can scale this using the scaling function.
 
 If you&apos;d like to easily remove all the pictures from your camera, without having to manually delete them one by one in the camera software, you can use the delete button below.</source>
@@ -1806,35 +1825,33 @@ If you&apos;d like to easily remove all the pictures from your camera, without h
 <context>
     <name>PlaybackApp</name>
     <message>
-        <location filename="../src/platform/desktop/PlaybackApp.cpp" line="198"/>
+        <location filename="../src/platform/desktop/PlaybackApp.cpp" line="195"/>
         <source>Firmware Updated</source>
         <translation>펌웨어 업데이트 완료</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/PlaybackApp.cpp" line="199"/>
+        <location filename="../src/platform/desktop/PlaybackApp.cpp" line="196"/>
         <source>Your device firmware has been updated successfully.</source>
         <translation>펌웨어가 성공적으로 업데이트되었습니다.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/PlaybackApp.cpp" line="201"/>
         <source>Firmware Update Failed</source>
-        <translation>펌웨어 업데이트 실패</translation>
+        <translation type="vanished">펌웨어 업데이트 실패</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/PlaybackApp.cpp" line="202"/>
         <source>The firmware update could not be completed. Please try again.</source>
-        <translation>펌웨어 업데이트를 완료할 수 없습니다. 다시 시도해 주세요.</translation>
+        <translation type="vanished">펌웨어 업데이트를 완료할 수 없습니다. 다시 시도해 주세요.</translation>
     </message>
 </context>
 <context>
     <name>PlaybackSettingsScreen</name>
     <message>
-        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="128"/>
+        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="129"/>
         <source>Allows you to change the language in which the Playback software is presented. It requires an application restart in order to update the language accross the entire application.</source>
         <translation>Playback 소프트웨어가 표시되는 언어를 변경할 수 있습니다. 전체 애플리케이션에서 언어를 업데이트하려면 애플리케이션을 다시 시작해야 합니다.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="135"/>
+        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="136"/>
         <source>Once you save in-game, or the game modifies the save internally, your Operator device will automatically write the save to the cartridge. This feature is still in development.</source>
         <translation>게임 내에서 저장하거나 게임에서 내부적으로 저장을 수정하면 운영자 기기가 자동으로 카트리지에 저장 내용을 기록합니다. 이 기능은 아직 개발 중입니다.</translation>
     </message>
@@ -1844,7 +1861,7 @@ If you&apos;d like to easily remove all the pictures from your camera, without h
         <translation>FPS 카운터</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="139"/>
+        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="140"/>
         <source>Displays the current frames per second (FPS) of the game being played.</source>
         <translation>플레이 중인 게임의 현재 초당 프레임 수(FPS)를 표시합니다.</translation>
     </message>
@@ -1899,77 +1916,85 @@ If you&apos;d like to easily remove all the pictures from your camera, without h
         <translation>상태 저장 활성화</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="119"/>
         <source>Always Show Controls</source>
-        <translation>컨트롤 항상 표시</translation>
+        <translation type="vanished">컨트롤 항상 표시</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="120"/>
+        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="121"/>
         <source>Borderless Fullscreen</source>
         <translation>테두리 없는 전체 화면</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="121"/>
+        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="122"/>
         <source>Photo Scaling</source>
         <translation>사진 스케일링</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="132"/>
+        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="133"/>
         <source>When enabled, the app tour will be shown the next time you start the application. After the tour completes, this setting will be automatically disabled.</source>
         <translation>활성화하면 다음에 애플리케이션을 시작할 때 앱 투어가 표시됩니다. 투어가 완료되면 이 설정은 자동으로 비활성화됩니다.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="141"/>
+        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="142"/>
         <source>Displays the number of soft resets performed during the current emulation session. Only resets triggered through Playback&apos;s soft reset controls are counted, such as the on-screen button, a keyboard hotkey, or a controller binding.</source>
         <translation>현재 에뮬레이션 세션 중 수행된 소프트 리셋 횟수를 표시합니다. Playback의 소프트 리셋 컨트롤(화면 버튼, 키보드 단축키 또는 컨트롤러 바인딩)을 통해 실행된 리셋만 카운트됩니다.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="145"/>
+        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="146"/>
         <source>When enabled, games are displayed with integer scaling to ensure pixels are displayed at exact multiples of their original size. This eliminates graphical artifacts and preserves the authentic look of retro games at the expense of some screen space.</source>
         <translation>활성화하면 게임이 정수 배율로 표시되어 픽셀이 원래 크기의 정확한 배수로 표시됩니다. 이는 그래픽 아티팩트를 제거하고 일부 화면 공간을 희생하는 대신 레트로 게임의 본래 모습을 보존합니다.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="150"/>
+        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="151"/>
         <source>When enabled and supported by the game, Playback adds real-time clock (RTC) data to the save file. This ensures accurate preservation of time-based events. Note that this will increase the file size and might make it incompatible with other software.</source>
         <translation>게임에서 지원되고 활성화된 경우, Playback이 실시간 시계 (RTC) 데이터를 저장 파일에 추가합니다. 이는 시간 기반 이벤트의 정확한 보존을 보장합니다. 이 기능은 파일 크기를 증가시키며, 다른 소프트웨어와 호환되지 않을 수 있습니다.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="166"/>
+        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="167"/>
         <source>Enables the rewind feature, allowing you to go back in time during gameplay. This is useful for correcting mistakes or exploring different game paths without starting over.</source>
         <translation>되감기 기능을 활성화하여 플레이 중 시간을 되돌릴 수 있습니다. 실수를 바로잡거나 처음부터 다시 시작하지 않고 다른 루트를 탐색할 때 유용합니다.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="169"/>
+        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="170"/>
         <source>When enabled, this feature allows you to speed up the game playback, making it easier to skip through slower sections or quickly navigate through menus.</source>
         <translation>활성화하면 게임을 더 빠르게 재생할 수 있어 느린 구간을 건너뛰거나 메뉴를 빠르게 탐색하기 쉬워집니다.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="172"/>
+        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="173"/>
         <source>Enables the soft reset feature, allowing you to quickly reset the game without turning off the emulation. This is useful for quickly restarting a game or returning to the main menu.</source>
         <translation>소프트 리셋 기능을 활성화하여 에뮬레이션을 끄지 않고도 게임을 빠르게 리셋할 수 있습니다. 게임을 빠르게 재시작하거나 메인 메뉴로 돌아갈 때 유용합니다.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="176"/>
+        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="177"/>
         <source>Enables the Picture-in-Picture (PiP) mode, allowing you to view the game in a small window. This is useful for multitasking.</source>
         <translation>화면 속 화면(PiP) 모드를 활성화하여 작은 창에서 게임을 볼 수 있습니다. 멀티태스킹에 유용합니다.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="179"/>
+        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="180"/>
         <source>Enables save states, allowing you to save and load your game progress at any point. This is useful for preserving your progress or quickly retrying difficult sections.</source>
         <translation>상태 저장을 활성화하여 언제든지 게임 진행 상황을 저장하고 불러올 수 있습니다. 진행 상황을 보존하거나 어려운 구간을 빠르게 다시 시도할 때 유용합니다.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="182"/>
-        <source>When enabled, the emulation control bar remains visible at all times during gameplay. When disabled, the controls will automatically hide after a few seconds of inactivity.</source>
-        <translation>활성화하면 게임 플레이 중 에뮬레이션 컨트롤 바가 항상 표시됩니다. 비활성화하면 몇 초간 활동이 없으면 컨트롤이 자동으로 숨겨집니다.</translation>
+        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="183"/>
+        <source>Controls how the emulation control bar behaves during gameplay. &quot;Always On&quot; keeps it visible at all times, &quot;Auto-Hide&quot; lets it fade out after a few seconds of inactivity, and &quot;Always Off&quot; keeps it hidden regardless of activity.</source>
+        <translation>게임플레이 중 에뮬레이션 컨트롤 바의 동작을 제어합니다. &quot;항상 표시&quot;는 항상 표시된 상태로 유지하고, &quot;자동 숨김&quot;은 몇 초간 활동이 없으면 사라지게 하며, &quot;항상 숨김&quot;은 활동에 관계없이 숨겨진 상태로 유지합니다.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="185"/>
+        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="187"/>
+        <source>When enabled, the top navigation bar stays hidden while a game is running. When disabled, it is shown unless the window is below its default size.</source>
+        <translation>활성화하면 게임 실행 중에 상단 네비게이션 바가 숨겨진 상태로 유지됩니다. 비활성화하면 창이 기본 크기보다 작지 않는 한 표시됩니다.</translation>
+    </message>
+    <message>
+        <source>When enabled, the emulation control bar remains visible at all times during gameplay. When disabled, the controls will automatically hide after a few seconds of inactivity.</source>
+        <translation type="vanished">활성화하면 게임 플레이 중 에뮬레이션 컨트롤 바가 항상 표시됩니다. 비활성화하면 몇 초간 활동이 없으면 컨트롤이 자동으로 숨겨집니다.</translation>
+    </message>
+    <message>
+        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="190"/>
         <source>When enabled, fullscreen uses a borderless window that fills your screen instead of exclusive fullscreen. This prevents the black screen flicker when switching between windows on multi-monitor setups.</source>
         <translation>활성화하면 전체 화면이 전용 전체 화면 대신 화면을 채우는 테두리 없는 창을 사용합니다. 이를 통해 다중 모니터 설정에서 창을 전환할 때 발생하는 검은 화면 깜빡임을 방지합니다.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="189"/>
+        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="194"/>
         <source>Scales GB Camera saved photos to the specified size.</source>
         <translation>GB Camera에 저장된 사진을 지정한 크기로 스케일링합니다.</translation>
     </message>
@@ -1984,7 +2009,17 @@ If you&apos;d like to easily remove all the pictures from your camera, without h
         <translation>선호하는 언어</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="154"/>
+        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="119"/>
+        <source>Emulator Controls Visibility</source>
+        <translation>에뮬레이터 컨트롤 표시</translation>
+    </message>
+    <message>
+        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="120"/>
+        <source>Hide Navigation Bar in Emulation</source>
+        <translation>에뮬레이션 중 네비게이션 바 숨기기</translation>
+    </message>
+    <message>
+        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="155"/>
         <source>Activating this setting prompts Playback to check that the save file remains uncorrupted after being written to the cartridge. It ensures your game progress has been safely stored.</source>
         <translation>이 설정을 활성화하면 카트리지에 기록된 후에도 저장 파일이 손상되지 않았는지 확인하는 Playback 메시지가 표시됩니다. 게임 진행 상황을 안전하게 저장할 수 있습니다.</translation>
     </message>
@@ -1994,7 +2029,7 @@ If you&apos;d like to easily remove all the pictures from your camera, without h
         <translation>저장이 제대로 읽혔는지 확인</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="157"/>
+        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="158"/>
         <source>When this setting is enabled, Playback reads the save file from the cartridge multiple times and reviews any discrepancies to prevent data corruption.</source>
         <translation>이 설정을 활성화하면 Playback 카트리지에서 저장 파일을 여러 번 읽고 불일치하는 부분이 있는지 검토하여 데이터 손상을 방지합니다.</translation>
     </message>
@@ -2004,7 +2039,7 @@ If you&apos;d like to easily remove all the pictures from your camera, without h
         <translation>Homebrew 파일 무결성 확인</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="160"/>
+        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="161"/>
         <source>This setting enables Playback to confirm the integrity of a homebrew game after transferring it to the cartridge, making sure there are no issues affecting your work.</source>
         <translation>이 설정을 사용하면 Homebrew 게임을 카트리지로 전송한 후 Playback이 무결성을 확인하여 작업에 영향을 주는 문제가 없는지 확인할 수 있습니다.</translation>
     </message>
@@ -2014,7 +2049,7 @@ If you&apos;d like to easily remove all the pictures from your camera, without h
         <translation>상세한 디버그 로그를 활성화합니다 (재시작 필요)</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="163"/>
+        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="164"/>
         <source>When enabled, the Playback software will output more detailed logs to help diagnose issues. This setting is useful for troubleshooting and should be disabled when not needed.</source>
         <translation>이 설정을 활성화하면, Playback 소프트웨어가 문제 진단을 돕기 위해 더 상세한 로그를 출력합니다. 이 설정은 문제 해결에 유용하며, 필요하지 않을 때는 비활성화하는 것이 좋습니다.</translation>
     </message>
@@ -2042,19 +2077,34 @@ If you&apos;d like to easily remove all the pictures from your camera, without h
 <context>
     <name>PlaybackSettingsScreenOption</name>
     <message>
-        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="247"/>
+        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="252"/>
         <source>Open Log Directory</source>
         <translation>로그 디렉터리 열기</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="253"/>
+        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="258"/>
         <source>Enabled</source>
         <translation>활성화됨</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="254"/>
+        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="259"/>
         <source>Disabled</source>
         <translation>비활성화됨</translation>
+    </message>
+    <message>
+        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="260"/>
+        <source>Always On</source>
+        <translation>항상 표시</translation>
+    </message>
+    <message>
+        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="261"/>
+        <source>Auto-Hide</source>
+        <translation>자동 숨김</translation>
+    </message>
+    <message>
+        <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="262"/>
+        <source>Always Off</source>
+        <translation>항상 숨김</translation>
     </message>
 </context>
 <context>
@@ -2478,37 +2528,37 @@ Would you like to proceed?
 <context>
     <name>ScoreWidget</name>
     <message>
-        <location filename="../src/platform/desktop/CartDetailsWidget.cpp" line="694"/>
+        <location filename="../src/platform/desktop/CartDetailsWidget.cpp" line="761"/>
         <source>Perfect, highly recommended!</source>
         <translation>완벽, 강력 추천!</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/CartDetailsWidget.cpp" line="696"/>
+        <location filename="../src/platform/desktop/CartDetailsWidget.cpp" line="763"/>
         <source>Awesome, definitely a must-play!</source>
         <translation>최고, 꼭 플레이해 보세요!</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/CartDetailsWidget.cpp" line="698"/>
+        <location filename="../src/platform/desktop/CartDetailsWidget.cpp" line="765"/>
         <source>Great, would replay more than once.</source>
         <translation>아주 좋음, 여러 번 다시 할 만해요.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/CartDetailsWidget.cpp" line="700"/>
+        <location filename="../src/platform/desktop/CartDetailsWidget.cpp" line="767"/>
         <source>Best enjoyed in a full playthrough.</source>
         <translation>처음부터 끝까지 플레이하면 더 재밌어요.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/CartDetailsWidget.cpp" line="702"/>
+        <location filename="../src/platform/desktop/CartDetailsWidget.cpp" line="769"/>
         <source>Good, worth giving it a try.</source>
         <translation>괜찮음, 한 번쯤 해볼 만해요.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/CartDetailsWidget.cpp" line="704"/>
+        <location filename="../src/platform/desktop/CartDetailsWidget.cpp" line="771"/>
         <source>Fun, but could be better.</source>
         <translation>재밌지만 더 좋아질 수 있어요.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/CartDetailsWidget.cpp" line="706"/>
+        <location filename="../src/platform/desktop/CartDetailsWidget.cpp" line="773"/>
         <source>Not our no. 1 favorite.</source>
         <translation>1순위까진 아니에요.</translation>
     </message>
@@ -2537,58 +2587,58 @@ Please make sure it&apos;s connected.</source>
     <name>SettingsWindow</name>
     <message>
         <location filename="../src/platform/desktop/SettingsWindow.cpp" line="88"/>
-        <location filename="../src/platform/desktop/SettingsWindow.cpp" line="432"/>
+        <location filename="../src/platform/desktop/SettingsWindow.cpp" line="428"/>
         <source>General</source>
         <translation>일반</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/SettingsWindow.cpp" line="91"/>
-        <location filename="../src/platform/desktop/SettingsWindow.cpp" line="433"/>
+        <location filename="../src/platform/desktop/SettingsWindow.cpp" line="429"/>
         <source>Game</source>
         <translation>게임</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/SettingsWindow.cpp" line="393"/>
+        <location filename="../src/platform/desktop/SettingsWindow.cpp" line="389"/>
         <source>Core Load Failed</source>
         <translation>코어 로드 실패</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/SettingsWindow.cpp" line="393"/>
+        <location filename="../src/platform/desktop/SettingsWindow.cpp" line="389"/>
         <source>Failed to load core. Please load a valid core.</source>
         <translation>코어를 로드하지 못했습니다. 유효한 코어를 로드해 주세요.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/SettingsWindow.cpp" line="424"/>
+        <location filename="../src/platform/desktop/SettingsWindow.cpp" line="420"/>
         <source>Settings</source>
         <translation>설정</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/SettingsWindow.cpp" line="425"/>
+        <location filename="../src/platform/desktop/SettingsWindow.cpp" line="421"/>
         <source>Playback</source>
         <translation>Playback</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/SettingsWindow.cpp" line="426"/>
+        <location filename="../src/platform/desktop/SettingsWindow.cpp" line="422"/>
         <source>Core Selector</source>
         <translation>코어 선택기</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/SettingsWindow.cpp" line="427"/>
+        <location filename="../src/platform/desktop/SettingsWindow.cpp" line="423"/>
         <source>Emulator</source>
         <translation>에뮬레이터</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/SettingsWindow.cpp" line="428"/>
+        <location filename="../src/platform/desktop/SettingsWindow.cpp" line="424"/>
         <source>Device</source>
         <translation>디바이스</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/SettingsWindow.cpp" line="429"/>
+        <location filename="../src/platform/desktop/SettingsWindow.cpp" line="425"/>
         <source>Controls</source>
         <translation>컨트롤</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/SettingsWindow.cpp" line="430"/>
+        <location filename="../src/platform/desktop/SettingsWindow.cpp" line="426"/>
         <source>Integrations</source>
         <translation>연동</translation>
     </message>
@@ -2609,7 +2659,7 @@ Please make sure it&apos;s connected.</source>
         <translation type="vanished">업적</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/SettingsWindow.cpp" line="431"/>
+        <location filename="../src/platform/desktop/SettingsWindow.cpp" line="427"/>
         <source>Cheat Codes</source>
         <translation>치트 코드</translation>
     </message>
@@ -2650,15 +2700,15 @@ Please make sure it&apos;s connected.</source>
 <context>
     <name>StartControllerButton</name>
     <message>
-        <location filename="../src/platform/desktop/StartControllerWidget.cpp" line="150"/>
-        <location filename="../src/platform/desktop/StartControllerWidget.cpp" line="161"/>
+        <location filename="../src/platform/desktop/StartControllerWidget.cpp" line="151"/>
+        <location filename="../src/platform/desktop/StartControllerWidget.cpp" line="162"/>
         <source>STOP</source>
         <translation>중지</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/StartControllerWidget.cpp" line="150"/>
-        <location filename="../src/platform/desktop/StartControllerWidget.cpp" line="155"/>
-        <location filename="../src/platform/desktop/StartControllerWidget.cpp" line="161"/>
+        <location filename="../src/platform/desktop/StartControllerWidget.cpp" line="151"/>
+        <location filename="../src/platform/desktop/StartControllerWidget.cpp" line="156"/>
+        <location filename="../src/platform/desktop/StartControllerWidget.cpp" line="162"/>
         <source>START</source>
         <translation>시작</translation>
     </message>
@@ -2808,132 +2858,132 @@ Please ensure your graphics drivers are up to date.</source>
         <translation type="vanished">시작</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="248"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="249"/>
         <source>App Update Available</source>
         <translation>앱 업데이트 가능</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="248"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="249"/>
         <source>A new version of Playback is available.</source>
         <translation>Playback의 새 버전을 사용할 수 있습니다.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="249"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="250"/>
         <source>Download</source>
         <translation>다운로드</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="260"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="261"/>
         <source>Device Update Available</source>
         <translation>디바이스 업데이트 가능</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="261"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="262"/>
         <source>A firmware update is available for your Operator device.</source>
         <translation>Operator 디바이스의 펌웨어 업데이트를 사용할 수 있습니다.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="262"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="263"/>
         <source>Update</source>
         <translation>업데이트</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="652"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="655"/>
         <source>Main Hub</source>
         <translation>메인 허브</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="653"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="656"/>
         <source>Choose between playing the game, transferring data or accessing more info.</source>
         <translation>게임 플레이, 데이터 전송 또는 추가 정보 액세스 중에 선택하세요.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="660"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="663"/>
         <source>Play Tab</source>
         <translation>플레이 탭</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="661"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="664"/>
         <source>Learn more about your game, or have a play session on the in-app emulator.</source>
         <translation>게임에 대해 자세히 알아보거나 앱 내 에뮬레이터에서 플레이하세요.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="668"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="671"/>
         <source>Start Play Session</source>
         <translation>플레이 세션 시작</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="669"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="672"/>
         <source>Launch the in-app emulator for an authentic, accurate experience.</source>
         <translation>정확한 경험을 위해 앱 내 에뮬레이터를 실행합니다.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="676"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="679"/>
         <source>Playback Settings</source>
         <translation>Playback 설정</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="677"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="680"/>
         <source>Configure parameters to make the app your own.</source>
         <translation>앱을 나만의 것으로 만들기 위한 파라미터를 구성합니다.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="684"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="687"/>
         <source>Save Vault</source>
         <translation>Save Vault</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="685"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="688"/>
         <source>Access and manage saves created automatically in the &lt;a href=&quot;#&quot; style=&apos;color: white&apos;&gt;Save Vault&lt;/a&gt;.</source>
         <translation>&lt;a href=&quot;#&quot; style=&apos;color: white&apos;&gt;Save Vault&lt;/a&gt;에서 자동으로 생성된 저장 파일에 액세스하고 관리합니다.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="694"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="697"/>
         <source>Device Switcher</source>
         <translation>기기 스위처</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="695"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="698"/>
         <source>Select between multiple Operator devices connected to the same computer.</source>
         <translation>동일한 컴퓨터에 연결된 여러 Operator 장치 중에서 선택합니다.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="702"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="705"/>
         <source>Counterfeit Detection</source>
         <translation>복제품 감지</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="703"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="706"/>
         <source>Your cartridge has been analysed for some of the most common counterfeit markers.</source>
         <translation>카트리지가 가장 일반적인 복제품 표시에 대해 분석되었습니다.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="710"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="713"/>
         <source>Data Tab</source>
         <translation>데이터 탭</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="711"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="714"/>
         <source>Backup, transfer and manage official/homebrew game and save data.</source>
         <translation>공식/홀브루 게임과 저장 데이터를 백업, 전송 및 관리합니다.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="718"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="721"/>
         <source>Backup Save</source>
         <translation>백업 저장</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="719"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="722"/>
         <source>Create digital copies of your save data.</source>
         <translation>저장 데이터의 디지털 복사본을 생성합니다.</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="726"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="729"/>
         <source>Start Backup Session</source>
         <translation>백업 세션 시작</translation>
     </message>
     <message>
-        <location filename="../src/platform/desktop/Window.cpp" line="727"/>
+        <location filename="../src/platform/desktop/Window.cpp" line="730"/>
         <source>Begin archiving the save data.</source>
         <translation>저장 데이터 보관을 시작합니다.</translation>
     </message>
