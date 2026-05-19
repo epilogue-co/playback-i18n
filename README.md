@@ -7,16 +7,16 @@
 | Language               | Type          | Complete    | Missing Strings  |
 | ---------------------- | ------------- | --------    | ---------------  |
 | 🇳🇱 Dutch                 | AI            | ✅           | 0                |
-| 🇫🇷 French                | Human         | ✅           | 0                |
-| 🇩🇪 German                | Human         | ✅           | 0                |
+| 🇫🇷 French                | AI            | ✅           | 0                |
+| 🇩🇪 German                | AI            | ✅           | 0                |
 | 🇬🇷 Greek                 | Human         | ✅           | 0                |
 | 🇮🇹 Italian               | AI            | ✅           | 0                |
-| 🇯🇵 Japanese              | Human         | ✅           | 0                |
-| 🇰🇷 Korean                | Human         | ✅           | 0                |
+| 🇯🇵 Japanese              | AI            | ✅           | 0                |
+| 🇰🇷 Korean                | AI            | ✅           | 0                |
 | 🇵🇹 Portuguese            | AI            | ✅           | 0                |
 | 🇷🇴 Romanian              | Human         | ✅           | 0                |
-| 🇨🇳 Simplified Chinese    | Human         | ✅           | 0                |
-| 🇪🇸 Spanish               | Human         | ✅           | 0                |
+| 🇨🇳 Simplified Chinese    | AI            | ✅           | 0                |
+| 🇪🇸 Spanish               | AI            | ✅           | 0                |
 
 ## Translation files (i18n)
 
