@@ -8,7 +8,7 @@
 | ---------------------- | ------------- | --------    | ---------------  |
 | 🇳🇱 Dutch                 | AI            | ✅           | 0                |
 | 🇫🇷 French                | Human         | ✅           | 0                |
-| 🇩🇪 German                | AI            | ✅           | 0                |
+| 🇩🇪 German                | Human         | ✅           | 0                |
 | 🇬🇷 Greek                 | Human         | ✅           | 0                |
 | 🇮🇹 Italian               | AI            | ✅           | 0                |
 | 🇯🇵 Japanese              | AI            | ✅           | 0                |
