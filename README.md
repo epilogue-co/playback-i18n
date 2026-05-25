@@ -11,12 +11,12 @@
 | 🇩🇪 German                | Human         | ✅           | 0                |
 | 🇬🇷 Greek                 | Human         | ✅           | 0                |
 | 🇮🇹 Italian               | AI            | ✅           | 0                |
-| 🇯🇵 Japanese              | AI            | ✅           | 0                |
-| 🇰🇷 Korean                | AI            | ✅           | 0                |
+| 🇯🇵 Japanese              | Human         | ✅           | 0                |
+| 🇰🇷 Korean                | Human         | ✅           | 0                |
 | 🇵🇹 Portuguese            | AI            | ✅           | 0                |
 | 🇷🇴 Romanian              | Human         | ✅           | 0                |
 | 🇨🇳 Simplified Chinese    | Human         | ✅           | 0                |
-| 🇪🇸 Spanish               | AI            | ✅           | 0                |
+| 🇪🇸 Spanish               | Human         | ✅           | 0                |
 
 ## Translation files (i18n)
 
