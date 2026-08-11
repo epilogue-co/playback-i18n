@@ -609,79 +609,79 @@ Ta inte ut kassetten medan en åtgärd pågår.</translation>
         <location filename="../src/core/DeviceHardwareStreaming.cpp" line="122"/>
         <location filename="../src/core/DeviceHardwareStreaming.cpp" line="161"/>
         <source>Device disconnected</source>
-        <translation type="unfinished"></translation>
+        <translation>Enheten frånkopplad</translation>
     </message>
     <message>
         <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="78"/>
         <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="282"/>
         <source>Cartridge Connection Unstable!</source>
-        <translation type="unfinished"></translation>
+        <translation>Instabil kassettanslutning!</translation>
     </message>
     <message>
         <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="79"/>
         <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="283"/>
         <source>Playback detected a contact connection issue. Please clean the cartridge pins, reinsert the cartridge properly, and try again for improved accuracy.</source>
-        <translation type="unfinished"></translation>
+        <translation>Playback upptäckte ett problem med kontaktanslutningen. Rengör kassettens kontaktstift, sätt i kassetten ordentligt igen och försök på nytt för bättre precision.</translation>
     </message>
     <message>
         <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="134"/>
         <source>Game Data Integrity Check Failed!</source>
-        <translation type="unfinished"></translation>
+        <translation>Integritetskontrollen av speldata misslyckades!</translation>
     </message>
     <message>
         <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="135"/>
         <source>Playback detected a discrepancy between the expected game data and the backed up data. Please clean the cartridge pins and try again to ensure accuracy.</source>
-        <translation type="unfinished"></translation>
+        <translation>Playback upptäckte en avvikelse mellan förväntade speldata och säkerhetskopierade data. Rengör kassettens kontaktstift och försök igen för att säkerställa korrekthet.</translation>
     </message>
     <message>
         <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="160"/>
         <source>Empty File Was Provided!</source>
-        <translation type="unfinished"></translation>
+        <translation>En tom fil angavs!</translation>
     </message>
     <message>
         <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="161"/>
         <source> It looks like the homebrew game you&apos;re trying to upload has been detected by Playback as having 0 bytes. Please verify that the data you&apos;re attempting to upload is accurate.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det verkar som att homebrew-spelet du försöker ladda upp har upptäckts av Playback som 0 byte stort. Kontrollera att data du försöker ladda upp är korrekta.</translation>
     </message>
     <message>
         <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="171"/>
         <source>Upload Homebrew Command Failed!</source>
-        <translation type="unfinished"></translation>
+        <translation>Kommandot för att ladda upp homebrew misslyckades!</translation>
     </message>
     <message>
         <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="172"/>
         <source>An error occurred while attempting to start the homebrew upload command. Please restart the application and reconnect the Operator device. If the problem continues, contact our Support team.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ett fel uppstod när kommandot för homebrew-uppladdning skulle startas. Starta om programmet och anslut Operator-enheten igen. Om problemet kvarstår, kontakta vårt supportteam.</translation>
     </message>
     <message>
         <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="189"/>
         <source>Homebrew Cartridge Erase Failed!</source>
-        <translation type="unfinished"></translation>
+        <translation>Radering av homebrew-kassetten misslyckades!</translation>
     </message>
     <message>
         <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="190"/>
         <source>Playback couldn&apos;t delete the contents of the homebrew cartridge. Please clean the cartridge pins and try again. If the issue persists, contact our Support team.</source>
-        <translation type="unfinished"></translation>
+        <translation>Playback kunde inte radera innehållet på homebrew-kassetten. Rengör kassettens kontaktstift och försök igen. Om problemet kvarstår, kontakta vårt supportteam.</translation>
     </message>
     <message>
         <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="354"/>
         <source>Write save failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Skrivning av sparfil misslyckades</translation>
     </message>
     <message>
         <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="354"/>
         <source>Failed to send write save command to device.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kunde inte skicka kommandot för att skriva sparfilen till enheten.</translation>
     </message>
     <message>
         <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="409"/>
         <source>Save Data Integrity Check Failed!</source>
-        <translation type="unfinished"></translation>
+        <translation>Integritetskontrollen av sparade data misslyckades!</translation>
     </message>
     <message>
         <location filename="../src/core/DeviceHardwareStreamingOperations.cpp" line="410"/>
         <source>The save data written to the cartridge does not match the data read back. Please clean the cartridge pins and try again to ensure consistency.</source>
-        <translation type="unfinished"></translation>
+        <translation>Sparade data som skrevs till kassetten stämmer inte överens med de data som lästes tillbaka. Rengör kassettens kontaktstift och försök igen för att säkerställa överensstämmelse.</translation>
     </message>
 </context>
 <context>
@@ -689,12 +689,12 @@ Ta inte ut kassetten medan en åtgärd pågår.</translation>
     <message>
         <location filename="../src/platform/desktop/DeviceSettingsScreen.cpp" line="77"/>
         <source>LED Effects</source>
-        <translation type="unfinished"></translation>
+        <translation>LED-effekter</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/DeviceSettingsScreen.cpp" line="78"/>
         <source>Choose one of the options below to set the status of your device’s LED light. Select ‘Static’ to keep the light on or ‘Dark’ to shut it off. Pulse and Strobe coming soon.</source>
-        <translation type="unfinished"></translation>
+        <translation>Välj ett av alternativen nedan för att ställa in status för enhetens LED-lampa. Välj ”Statisk” för att ha lampan tänd eller ”Mörk” för att släcka den. Puls och Blink kommer snart.</translation>
     </message>
 </context>
 <context>
@@ -702,7 +702,7 @@ Ta inte ut kassetten medan en åtgärd pågår.</translation>
     <message>
         <location filename="../src/platform/desktop/DeviceSwitcherDropdown.cpp" line="96"/>
         <source>Expand your collection on epilogue.co</source>
-        <translation type="unfinished"></translation>
+        <translation>Utöka din samling på epilogue.co</translation>
     </message>
 </context>
 <context>
@@ -710,7 +710,7 @@ Ta inte ut kassetten medan en åtgärd pågår.</translation>
     <message>
         <location filename="../src/platform/desktop/DeviceSwitcherDropdown.cpp" line="192"/>
         <source>View more</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa mer</translation>
     </message>
 </context>
 <context>
@@ -718,22 +718,22 @@ Ta inte ut kassetten medan en åtgärd pågår.</translation>
     <message>
         <location filename="../src/platform/common/Emulator.cpp" line="607"/>
         <source>ROM integrity check failed. Do you want to continue loading?</source>
-        <translation type="unfinished"></translation>
+        <translation>Integritetskontrollen av ROM-filen misslyckades. Vill du fortsätta läsa in den?</translation>
     </message>
     <message>
         <location filename="../src/platform/common/Emulator.cpp" line="622"/>
         <source>Failed to load game! Unable to launch the game, please make sure that the cartridge is clean.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det gick inte att läsa in spelet! Spelet kunde inte startas – kontrollera att kassetten är ren.</translation>
     </message>
     <message>
         <location filename="../src/platform/common/Emulator.cpp" line="627"/>
         <source>Failed to load save data! The core failed to load the save data.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det gick inte att läsa in sparade data! Kärnan kunde inte läsa in sparade data.</translation>
     </message>
     <message>
         <location filename="../src/platform/common/Emulator.cpp" line="633"/>
         <source>Save size mismatch detected. Do you want to continue loading?</source>
-        <translation type="unfinished"></translation>
+        <translation>Sparfilens storlek stämmer inte. Vill du fortsätta läsa in den?</translation>
     </message>
     <message>
         <location filename="../src/platform/common/Emulator.cpp" line="853"/>
@@ -744,7 +744,13 @@ OpenGL Details:
 Version: %2
 Renderer: %3
 Vendor: %4</source>
-        <translation type="unfinished"></translation>
+        <translation>Din grafikhårdvara uppfyller inte minimikraven:
+
+%1
+OpenGL-detaljer:
+Version: %2
+Renderare: %3
+Tillverkare: %4</translation>
     </message>
 </context>
 <context>
@@ -752,46 +758,46 @@ Vendor: %4</source>
     <message>
         <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="219"/>
         <source>Save Failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Sparandet misslyckades</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="219"/>
         <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="227"/>
         <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="235"/>
         <source>Slot %1: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Plats %1: %2</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="227"/>
         <source>Load Failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Inläsningen misslyckades</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="235"/>
         <source>Delete Failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Borttagningen misslyckades</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="378"/>
         <source>State Saved</source>
-        <translation type="unfinished"></translation>
+        <translation>Tillstånd sparat</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="378"/>
         <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="383"/>
         <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="387"/>
         <source>Slot %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Plats %1</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="383"/>
         <source>State Loaded</source>
-        <translation type="unfinished"></translation>
+        <translation>Tillstånd inläst</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorContainer.cpp" line="387"/>
         <source>State Deleted</source>
-        <translation type="unfinished"></translation>
+        <translation>Tillstånd borttaget</translation>
     </message>
 </context>
 <context>
@@ -800,7 +806,7 @@ Vendor: %4</source>
         <location filename="../src/platform/desktop/EmulatorControlsDropdownWidget.cpp" line="171"/>
         <location filename="../src/platform/desktop/EmulatorControlsDropdownWidget.cpp" line="194"/>
         <source>  Install shaders...</source>
-        <translation type="unfinished"></translation>
+        <translation>Installera shaders ...</translation>
     </message>
 </context>
 <context>
@@ -808,137 +814,137 @@ Vendor: %4</source>
     <message>
         <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="253"/>
         <source>System</source>
-        <translation type="unfinished"></translation>
+        <translation>System</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="254"/>
         <source>Input &amp; Auxiliary Devices</source>
-        <translation type="unfinished"></translation>
+        <translation>Inmatnings- och kringutrustning</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="255"/>
         <source>Core</source>
-        <translation type="unfinished"></translation>
+        <translation>Kärna</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="260"/>
         <source>Configure base hardware selection.</source>
-        <translation type="unfinished"></translation>
+        <translation>Konfigurera val av basmaskinvara.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="261"/>
         <source>Configure controller and controller rumble settings.</source>
-        <translation type="unfinished"></translation>
+        <translation>Konfigurera inställningar för handkontroll och vibration.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="262"/>
         <source>Core settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Kärninställningar</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="268"/>
         <source>Fast-forward speed multiplier (Re-enable)</source>
-        <translation type="unfinished"></translation>
+        <translation>Hastighetsmultiplikator för snabbspolning (aktivera igen)</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="269"/>
         <source>Rewind Buffer Size (MB)</source>
-        <translation type="unfinished"></translation>
+        <translation>Buffertstorlek för tillbakaspolning (MB)</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="270"/>
         <source>Rewind Granularity</source>
-        <translation type="unfinished"></translation>
+        <translation>Detaljnivå för tillbakaspolning</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="271"/>
         <source>Rewind Speed</source>
-        <translation type="unfinished"></translation>
+        <translation>Hastighet för tillbakaspolning</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="272"/>
         <source>High Fidelity Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>High Fidelity-läge</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="273"/>
         <source>RTC Battery State Emulation</source>
-        <translation type="unfinished"></translation>
+        <translation>Emulering av RTC-batteriets status</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="274"/>
         <source>Gamepad rumble</source>
-        <translation type="unfinished"></translation>
+        <translation>Vibration i handkontrollen</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="275"/>
         <source>In-game save verifications</source>
-        <translation type="unfinished"></translation>
+        <translation>Verifiering av sparningar i spelet</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="281"/>
         <source>A fast-forward speed higher than 2x can cause unexpected bugs in combination with the &apos;Autosave to cartridge&apos; feature. You will need to disable and enable it by clicking the fast-forward button.</source>
-        <translation type="unfinished"></translation>
+        <translation>En snabbspolningshastighet högre än 2x kan orsaka oväntade fel i kombination med funktionen ”Autospar till kassett”. Du måste inaktivera och aktivera den genom att klicka på snabbspolningsknappen.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="286"/>
         <source>The amount of memory (in MB) to reserve for the rewind buffer. A larger buffer allows for a longer rewind history but might also cause system instability.</source>
-        <translation type="unfinished"></translation>
+        <translation>Mängden minne (i MB) som ska reserveras för tillbakaspolningsbufferten. En större buffert ger en längre tillbakaspolningshistorik men kan också orsaka instabilitet i systemet.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="289"/>
         <source>Saves a state every N frames. Higher values use less memory but result in a less precise rewind.</source>
-        <translation type="unfinished"></translation>
+        <translation>Sparar ett tillstånd var N:e bildruta. Högre värden använder mindre minne men ger en mindre exakt tillbakaspolning.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="291"/>
         <source>Controls the playback speed of the rewind animation. Higher values are faster.</source>
-        <translation type="unfinished"></translation>
+        <translation>Styr uppspelningshastigheten för tillbakaspolningsanimationen. Högre värden är snabbare.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="293"/>
         <source>Enables high-fidelity mode, making audio and video run at rates close to what you would encounter on the original hardware. This will increase CPU usage, disable it if you notice low framerates.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktiverar högtrogenhetsläge, vilket får ljud och bild att köras i hastigheter nära dem du skulle uppleva på originalhårdvaran. Detta ökar CPU-användningen – inaktivera det om du märker låg bildfrekvens.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="298"/>
         <source>With this setting Enabled, the in-app emulator will match the state of your cartridge’s battery (dry/not dry). Leave the option Disabled if your cartridge battery is dry, but you still want the emulated game to offer in-game time-based events.</source>
-        <translation type="unfinished"></translation>
+        <translation>När den här inställningen är aktiverad matchar emulatorn i appen tillståndet för kassettens batteri (urladdat/inte urladdat). Lämna alternativet inaktiverat om kassettens batteri är urladdat men du ändå vill att det emulerade spelet ska erbjuda tidsbaserade händelser i spelet.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="303"/>
         <source>Enable rumble support for games that support it, for more compatibility make sure you also enable Game Boy Player Rumble.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktivera vibrationsstöd för spel som har stöd för det. För bättre kompatibilitet bör du även aktivera Game Boy Player Rumble.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="306"/>
         <source>Enable in-game integrity checks for save data. This feature is still in beta and may not work with all games.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktivera integritetskontroller av sparade data i spelet. Den här funktionen är fortfarande i beta och kanske inte fungerar med alla spel.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="313"/>
         <source>Every 1 frame (Smoothest)</source>
-        <translation type="unfinished"></translation>
+        <translation>Varje bildruta (jämnast)</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="314"/>
         <source>Every 6 frames (Least precise)</source>
-        <translation type="unfinished"></translation>
+        <translation>Var 6:e bildruta (minst exakt)</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="315"/>
         <source>Every %1 frames</source>
-        <translation type="unfinished"></translation>
+        <translation>Var %1:e bildruta</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="319"/>
         <source>Enabled</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktiverad</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/EmulatorSettingsScreen.cpp" line="320"/>
         <source>Disabled</source>
-        <translation type="unfinished"></translation>
+        <translation>Inaktiverad</translation>
     </message>
 </context>
 <context>
@@ -946,12 +952,12 @@ Vendor: %4</source>
     <message>
         <location filename="../src/platform/desktop/UIComponents.cpp" line="179"/>
         <source>Warning! Do not disconnect your device.</source>
-        <translation type="unfinished"></translation>
+        <translation>Varning! Koppla inte från enheten.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/UIComponents.cpp" line="181"/>
         <source>Please DO NOT disconnect or turn off your device during the update process. The LED will turn off during the update. Interruption will lead to your device becoming unusable and void warranty. By agreeing to this message box you confirm your understanding of these instructions.</source>
-        <translation type="unfinished"></translation>
+        <translation>Koppla INTE från eller stäng av enheten under uppdateringen. LED-lampan släcks under uppdateringen. Ett avbrott gör enheten obrukbar och upphäver garantin. Genom att godkänna det här meddelandet bekräftar du att du har förstått dessa instruktioner.</translation>
     </message>
 </context>
 <context>
@@ -959,28 +965,29 @@ Vendor: %4</source>
     <message>
         <location filename="../src/platform/desktop/FirmwareUpdateWindow.cpp" line="68"/>
         <source>Updating...</source>
-        <translation type="unfinished"></translation>
+        <translation>Uppdaterar ...</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/FirmwareUpdateWindow.cpp" line="69"/>
         <source>This may take up to a minute,
 please do not disconnect the device.</source>
-        <translation type="unfinished"></translation>
+        <translation>Detta kan ta upp till en minut,
+koppla inte från enheten.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/FirmwareUpdateWindow.cpp" line="70"/>
         <source>Not working?</source>
-        <translation type="unfinished"></translation>
+        <translation>Fungerar det inte?</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/FirmwareUpdateWindow.cpp" line="83"/>
         <source>Updating (%1%)</source>
-        <translation type="unfinished"></translation>
+        <translation>Uppdaterar (%1%)</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/FirmwareUpdateWindow.cpp" line="88"/>
         <source>Configuring...</source>
-        <translation type="unfinished"></translation>
+        <translation>Konfigurerar ...</translation>
     </message>
 </context>
 <context>
@@ -988,42 +995,42 @@ please do not disconnect the device.</source>
     <message>
         <location filename="../src/platform/desktop/HotkeyBindingRow.cpp" line="42"/>
         <source>None</source>
-        <translation type="unfinished"></translation>
+        <translation>Ingen</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/HotkeyBindingRow.cpp" line="47"/>
         <source>...</source>
-        <translation type="unfinished"></translation>
+        <translation>...</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/HotkeyBindingRow.cpp" line="57"/>
         <source>Play</source>
-        <translation type="unfinished"></translation>
+        <translation>Spela</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/HotkeyBindingRow.cpp" line="59"/>
         <source>Pause/Resume</source>
-        <translation type="unfinished"></translation>
+        <translation>Pausa/återuppta</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/HotkeyBindingRow.cpp" line="61"/>
         <source>Soft Reset</source>
-        <translation type="unfinished"></translation>
+        <translation>Mjuk återställning</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/HotkeyBindingRow.cpp" line="63"/>
         <source>Fast Forward</source>
-        <translation type="unfinished"></translation>
+        <translation>Snabbspolning framåt</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/HotkeyBindingRow.cpp" line="65"/>
         <source>Rewind</source>
-        <translation type="unfinished"></translation>
+        <translation>Tillbakaspolning</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/HotkeyBindingRow.cpp" line="67"/>
         <source>Fullscreen</source>
-        <translation type="unfinished"></translation>
+        <translation>Helskärm</translation>
     </message>
 </context>
 <context>
@@ -1031,7 +1038,7 @@ please do not disconnect the device.</source>
     <message>
         <location filename="../src/platform/desktop/HotkeyBindingWidget.cpp" line="112"/>
         <source>None</source>
-        <translation type="unfinished"></translation>
+        <translation>Ingen</translation>
     </message>
 </context>
 <context>
@@ -1039,37 +1046,37 @@ please do not disconnect the device.</source>
     <message>
         <location filename="../src/platform/desktop/InputBindingsScreen.cpp" line="238"/>
         <source>Mouse input uses pre-configured bindings. Move the mouse and use left/right click to test inputs. If inputs don&apos;t respond, make sure the game supports mouse controls.</source>
-        <translation type="unfinished"></translation>
+        <translation>Musinmatning använder förkonfigurerade bindningar. Rör på musen och använd vänster-/högerklick för att testa inmatningen. Om inmatningen inte svarar, kontrollera att spelet har stöd för musstyrning.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/InputBindingsScreen.cpp" line="243"/>
         <source>Lightgun input uses pre-configured mouse bindings. Aim: move mouse. Trigger: left click. Cursor: right click. Pause: middle click. Turbo: left + right click. If inputs don&apos;t respond, make sure the game supports lightgun controls.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ljuspistolinmatning använder förkonfigurerade musbindningar. Sikta: rör på musen. Avtryckare: vänsterklick. Markör: högerklick. Paus: mittenklick. Turbo: vänster- + högerklick. Om inmatningen inte svarar, kontrollera att spelet har stöd för ljuspistolstyrning.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/InputBindingsScreen.cpp" line="248"/>
         <source>The Playback software comes with pre-configured bindings for most gamepads. Try pressing buttons on your controller or keyboard to test them.</source>
-        <translation type="unfinished"></translation>
+        <translation>Playback-programvaran har förkonfigurerade bindningar för de flesta handkontroller. Prova att trycka på knappar på din handkontroll eller ditt tangentbord för att testa dem.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/InputBindingsScreen.cpp" line="256"/>
         <source>Rebind keys</source>
-        <translation type="unfinished"></translation>
+        <translation>Ändra tangentbindningar</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/InputBindingsScreen.cpp" line="257"/>
         <source>Cancel rebind</source>
-        <translation type="unfinished"></translation>
+        <translation>Avbryt ombindning</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/InputBindingsScreen.cpp" line="262"/>
         <source>Need help?</source>
-        <translation type="unfinished"></translation>
+        <translation>Behöver du hjälp?</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/InputBindingsScreen.cpp" line="263"/>
         <source>Controls</source>
-        <translation type="unfinished"></translation>
+        <translation>Kontroller</translation>
     </message>
 </context>
 <context>
@@ -1077,7 +1084,7 @@ please do not disconnect the device.</source>
     <message>
         <location filename="../src/platform/desktop/IntegrationsAccordionWidget.cpp" line="182"/>
         <source>&lt;a href=&apos;login&apos; style=&apos;color: white;&apos;&gt;Log in&lt;/a&gt; with your %1 account.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;a href=&apos;login&apos; style=&apos;color: white;&apos;&gt;Logga in&lt;/a&gt; med ditt %1-konto.</translation>
     </message>
 </context>
 <context>
@@ -1085,27 +1092,28 @@ please do not disconnect the device.</source>
     <message>
         <location filename="../src/platform/desktop/IntegrationsLoginWindow.cpp" line="88"/>
         <source>Login to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Logga in på %1</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsLoginWindow.cpp" line="89"/>
         <source>Username</source>
-        <translation type="unfinished"></translation>
+        <translation>Användarnamn</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsLoginWindow.cpp" line="90"/>
         <source>Password</source>
-        <translation type="unfinished"></translation>
+        <translation>Lösenord</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsLoginWindow.cpp" line="91"/>
         <source>Login</source>
-        <translation type="unfinished"></translation>
+        <translation>Logga in</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsLoginWindow.cpp" line="92"/>
         <source>Don&apos;t have a %1 account?&lt;br&gt;&lt;a style=&apos;color: #158EFF&apos; href=&quot;%2&quot;&gt;Sign up&lt;/a&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>Har du inget %1-konto?&lt;br&gt;&lt;a style=&apos;color: 
+#158EFF&apos; href=&quot;%2&quot;&gt;Registrera dig&lt;/a&gt;</translation>
     </message>
 </context>
 <context>
@@ -1114,107 +1122,107 @@ please do not disconnect the device.</source>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="200"/>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="214"/>
         <source>Authentication Failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Autentiseringen misslyckades</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="200"/>
         <source>Invalid username or password. Please check your credentials and try again.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ogiltigt användarnamn eller lösenord. Kontrollera dina uppgifter och försök igen.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="214"/>
         <source>Failed to authenticate with Discord. Please try again.</source>
-        <translation type="unfinished"></translation>
+        <translation>Autentiseringen med Discord misslyckades. Försök igen.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="257"/>
         <source>Hardcore Mode (needs emulator restart)</source>
-        <translation type="unfinished"></translation>
+        <translation>Hardcore-läge (kräver omstart av emulatorn)</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="258"/>
         <source>Encore Mode (needs emulator restart)</source>
-        <translation type="unfinished"></translation>
+        <translation>Encore-läge (kräver omstart av emulatorn)</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="259"/>
         <source>Show Leaderboards Notifications</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa topplistenotiser</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="260"/>
         <source>Show Leaderboards Tracker</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa topplistespårare</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="261"/>
         <source>Show Progress Indicator</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa förloppsindikator</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="262"/>
         <source>Show Challenge Indicators</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa utmaningsindikatorer</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="268"/>
         <source>Disables cheats, rewind, save states and slow-motion. Achievements earned in hardcore mode are uniquely marked so that you can show others what you&apos;ve achieved without emulator assistance features.</source>
-        <translation type="unfinished"></translation>
+        <translation>Inaktiverar fusk, tillbakaspolning, snabbsparningar och slow motion. Prestationer som du får i hardcore-läge markeras särskilt så att du kan visa andra vad du har åstadkommit utan emulatorns hjälpfunktioner.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="271"/>
         <source>Re-activate previously earned achievements to experience them again. Note: Points are not re-awarded.</source>
-        <translation type="unfinished"></translation>
+        <translation>Återaktivera prestationer som du redan har fått för att uppleva dem igen. Obs! Poäng delas inte ut på nytt.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="273"/>
         <source>Show leaderboards related notifications in the notification area.</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa topplisterelaterade notiser i notisfältet.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="275"/>
         <source>Show leaderboards tracker in the notification area.</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa topplistespåraren i notisfältet.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="277"/>
         <source>Show progress indicator in the notification area when an achievement is being tracked.</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa förloppsindikatorn i notisfältet när en prestation spåras.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="279"/>
         <source>Show challenge indicators in the notification area when achievements are being attempted.</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa utmaningsindikatorer i notisfältet när du försöker uppnå prestationer.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="284"/>
         <source>Enabled</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktiverad</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="285"/>
         <source>Disabled</source>
-        <translation type="unfinished"></translation>
+        <translation>Inaktiverad</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="290"/>
         <source>Integrations</source>
-        <translation type="unfinished"></translation>
+        <translation>Integrationer</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="292"/>
         <source>Unlock a new dimension to your Playback experience! As time goes on, there is an ever-growing list of integrations which allow you to customise and enhance your gaming sessions. Check out the available options below, and give any (or all) of them a try.</source>
-        <translation type="unfinished"></translation>
+        <translation>Lås upp en ny dimension av din Playback-upplevelse! Med tiden växer listan över integrationer som låter dig anpassa och förbättra dina spelsessioner. Kolla in de tillgängliga alternativen nedan och testa någon (eller alla) av dem.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="296"/>
         <source>Link Playback to your RA account, and start earning achievements in your favorite classic games.</source>
-        <translation type="unfinished"></translation>
+        <translation>Koppla Playback till ditt RA-konto och börja samla prestationer i dina favoritklassiker.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="298"/>
         <source>Link Playback to your Discord account, and share the exact game you’re playing with your friends!</source>
-        <translation type="unfinished"></translation>
+        <translation>Koppla Playback till ditt Discord-konto och visa dina vänner exakt vilket spel du spelar!</translation>
     </message>
 </context>
 <context>
@@ -1222,7 +1230,7 @@ please do not disconnect the device.</source>
     <message>
         <location filename="../src/platform/desktop/UIComponents.cpp" line="100"/>
         <source>Integrity check failed!</source>
-        <translation type="unfinished"></translation>
+        <translation>Integritetskontrollen misslyckades!</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/UIComponents.cpp" line="101"/>
@@ -1230,7 +1238,10 @@ please do not disconnect the device.</source>
 
 You can try cleaning then re-inserting the cartridge into the device.
 </source>
-        <translation type="unfinished"></translation>
+        <translation>Vi kunde inte bekräfta den här kassettens integritet. Vill du fortsätta ändå? Spelet kanske inte går att spela eller spara ordentligt.
+
+Du kan prova att rengöra kassetten och sätta i den i enheten igen.
+</translation>
     </message>
 </context>
 <context>
@@ -1238,27 +1249,27 @@ You can try cleaning then re-inserting the cartridge into the device.
     <message>
         <location filename="../src/platform/desktop/UIComponents.cpp" line="162"/>
         <source>Permission denied. Unable to open device.</source>
-        <translation type="unfinished"></translation>
+        <translation>Åtkomst nekad. Enheten kunde inte öppnas.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/UIComponents.cpp" line="164"/>
         <source>Please make sure you configure your Linux system to allow unprivileged access to serial ports.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se till att du konfigurerar ditt Linux-system så att det tillåter åtkomst till serieportar utan administratörsbehörighet.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/UIComponents.cpp" line="165"/>
         <source>Follow this</source>
-        <translation type="unfinished"></translation>
+        <translation>Följ den här</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/UIComponents.cpp" line="166"/>
         <source>tutorial</source>
-        <translation type="unfinished"></translation>
+        <translation>guiden</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/UIComponents.cpp" line="166"/>
         <source>to configure your Operator device.</source>
-        <translation type="unfinished"></translation>
+        <translation>för att konfigurera din Operator-enhet.</translation>
     </message>
 </context>
 <context>
@@ -1266,12 +1277,12 @@ You can try cleaning then re-inserting the cartridge into the device.
     <message>
         <location filename="../src/platform/desktop/UIComponents.cpp" line="132"/>
         <source>Integrity check failed!</source>
-        <translation type="unfinished"></translation>
+        <translation>Integritetskontrollen misslyckades!</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/UIComponents.cpp" line="133"/>
         <source>Your Operator device did not manage to read your cartridge properly. Please make sure that the cartridge is clean and try again.</source>
-        <translation type="unfinished"></translation>
+        <translation>Din Operator-enhet kunde inte läsa kassetten ordentligt. Kontrollera att kassetten är ren och försök igen.</translation>
     </message>
 </context>
 <context>
@@ -1279,110 +1290,110 @@ You can try cleaning then re-inserting the cartridge into the device.
     <message>
         <location filename="../src/platform/desktop/ManagePage.cpp" line="126"/>
         <source>Unknown title</source>
-        <translation type="unfinished"></translation>
+        <translation>Okänd titel</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/ManagePage.cpp" line="127"/>
         <source>[no checksum available]</source>
-        <translation type="unfinished"></translation>
+        <translation>[ingen kontrollsumma tillgänglig]</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/ManagePage.cpp" line="129"/>
         <location filename="../src/platform/desktop/ManagePage.cpp" line="285"/>
         <source>Title</source>
-        <translation type="unfinished"></translation>
+        <translation>Titel</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/ManagePage.cpp" line="130"/>
         <location filename="../src/platform/desktop/ManagePage.cpp" line="286"/>
         <source>Game Data Checksum</source>
-        <translation type="unfinished"></translation>
+        <translation>Kontrollsumma för speldata</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/ManagePage.cpp" line="187"/>
         <source>Backup Complete</source>
-        <translation type="unfinished"></translation>
+        <translation>Säkerhetskopiering slutförd</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/ManagePage.cpp" line="188"/>
         <location filename="../src/platform/desktop/ManagePage.cpp" line="196"/>
         <source>File was created: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Filen skapades: %1</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/ManagePage.cpp" line="191"/>
         <source>Write Complete</source>
-        <translation type="unfinished"></translation>
+        <translation>Skrivning slutförd</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/ManagePage.cpp" line="192"/>
         <source>Game was written: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Spelet skrevs: %1</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/ManagePage.cpp" line="195"/>
         <source>Save Backup Complete</source>
-        <translation type="unfinished"></translation>
+        <translation>Säkerhetskopiering av sparfil slutförd</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/ManagePage.cpp" line="199"/>
         <source>Save Restored</source>
-        <translation type="unfinished"></translation>
+        <translation>Sparfil återställd</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/ManagePage.cpp" line="200"/>
         <source>Save was written: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Sparfilen skrevs: %1</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/ManagePage.cpp" line="210"/>
         <source>Show in Folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa i mapp</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/ManagePage.cpp" line="240"/>
         <source>Backup Failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Säkerhetskopieringen misslyckades</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/ManagePage.cpp" line="241"/>
         <source>Failed to read game data from the cartridge.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kunde inte läsa speldata från kassetten.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/ManagePage.cpp" line="244"/>
         <source>Write Failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Skrivningen misslyckades</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/ManagePage.cpp" line="245"/>
         <source>Failed to write game data to the cartridge.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kunde inte skriva speldata till kassetten.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/ManagePage.cpp" line="248"/>
         <source>Save Backup Failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Säkerhetskopiering av sparfil misslyckades</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/ManagePage.cpp" line="249"/>
         <source>Failed to read save data from the cartridge.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kunde inte läsa sparade data från kassetten.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/ManagePage.cpp" line="252"/>
         <source>Save Restore Failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Återställning av sparfil misslyckades</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/ManagePage.cpp" line="253"/>
         <source>Failed to write save data to the cartridge.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kunde inte skriva sparade data till kassetten.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/ManagePage.cpp" line="284"/>
         <source>START</source>
-        <translation type="unfinished"></translation>
+        <translation>START</translation>
     </message>
 </context>
 <context>
@@ -1391,29 +1402,29 @@ You can try cleaning then re-inserting the cartridge into the device.
         <location filename="../src/platform/desktop/ManagePageOperation.cpp" line="47"/>
         <location filename="../src/platform/desktop/ManagePageOperation.cpp" line="108"/>
         <source>STOP</source>
-        <translation type="unfinished"></translation>
+        <translation>STOPP</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/ManagePageOperation.cpp" line="104"/>
         <location filename="../src/platform/desktop/ManagePageOperation.cpp" line="108"/>
         <source>START</source>
-        <translation type="unfinished"></translation>
+        <translation>START</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/ManagePageOperation.cpp" line="140"/>
         <location filename="../src/platform/desktop/ManagePageOperation.cpp" line="144"/>
         <source>Game Data</source>
-        <translation type="unfinished"></translation>
+        <translation>Speldata</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/ManagePageOperation.cpp" line="376"/>
         <source>Warning, the file selected is too large!</source>
-        <translation type="unfinished"></translation>
+        <translation>Varning, den valda filen är för stor!</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/ManagePageOperation.cpp" line="377"/>
         <source>The file you have selected is %0, while the memory on the device is reported as %1. Would you like to proceed?</source>
-        <translation type="unfinished"></translation>
+        <translation>Filen du har valt är %0, medan enhetens minne uppges vara %1. Vill du fortsätta?</translation>
     </message>
 </context>
 <context>
@@ -1421,12 +1432,12 @@ You can try cleaning then re-inserting the cartridge into the device.
     <message>
         <location filename="../src/platform/desktop/UIComponents.cpp" line="147"/>
         <source>Multiple instances detected!</source>
-        <translation type="unfinished"></translation>
+        <translation>Flera instanser upptäcktes!</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/UIComponents.cpp" line="149"/>
         <source>It looks like there is another instance of the software running on this computer. Closing this instance.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det verkar som att en annan instans av programvaran redan körs på den här datorn. Den här instansen stängs.</translation>
     </message>
 </context>
 <context>
@@ -1435,64 +1446,64 @@ You can try cleaning then re-inserting the cartridge into the device.
         <location filename="../src/platform/desktop/Navbar.cpp" line="232"/>
         <location filename="../src/platform/desktop/Navbar.cpp" line="276"/>
         <source>Press ESC to exit emulation</source>
-        <translation type="unfinished"></translation>
+        <translation>Tryck på ESC för att avsluta emuleringen</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/Navbar.cpp" line="234"/>
         <source>Loading game...</source>
-        <translation type="unfinished"></translation>
+        <translation>Läser in spelet ...</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/Navbar.cpp" line="236"/>
         <source>Writing game...</source>
-        <translation type="unfinished"></translation>
+        <translation>Skriver spelet ...</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/Navbar.cpp" line="238"/>
         <source>Loading save...</source>
-        <translation type="unfinished"></translation>
+        <translation>Läser in sparfilen ...</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/Navbar.cpp" line="240"/>
         <source>Writing save...</source>
-        <translation type="unfinished"></translation>
+        <translation>Skriver sparfilen ...</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/Navbar.cpp" line="242"/>
         <location filename="../src/platform/desktop/Navbar.cpp" line="246"/>
         <location filename="../src/platform/desktop/Navbar.cpp" line="248"/>
         <source>Preparing cartridge...</source>
-        <translation type="unfinished"></translation>
+        <translation>Förbereder kassetten ...</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/Navbar.cpp" line="244"/>
         <source>Preparing...</source>
-        <translation type="unfinished"></translation>
+        <translation>Förbereder ...</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/Navbar.cpp" line="250"/>
         <source>Preparing cartridge... (this may take a moment)</source>
-        <translation type="unfinished"></translation>
+        <translation>Förbereder kassetten ... (det kan ta en stund)</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/Navbar.cpp" line="252"/>
         <source>Finishing up...</source>
-        <translation type="unfinished"></translation>
+        <translation>Slutför ...</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/Navbar.cpp" line="275"/>
         <source>Press TAB to exit mouse capture mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Tryck på TAB för att avsluta muslåsningsläget</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/Navbar.cpp" line="281"/>
         <source>PLAY</source>
-        <translation type="unfinished"></translation>
+        <translation>SPELA</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/Navbar.cpp" line="282"/>
         <source>DATA</source>
-        <translation type="unfinished"></translation>
+        <translation>DATA</translation>
     </message>
 </context>
 <context>
@@ -1500,12 +1511,12 @@ You can try cleaning then re-inserting the cartridge into the device.
     <message>
         <location filename="../src/platform/desktop/NavbarComponents.cpp" line="130"/>
         <source>Debug</source>
-        <translation type="unfinished"></translation>
+        <translation>Felsökning</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/NavbarComponents.cpp" line="132"/>
         <source>Nightly</source>
-        <translation type="unfinished"></translation>
+        <translation>Nightly</translation>
     </message>
 </context>
 <context>
@@ -1513,42 +1524,42 @@ You can try cleaning then re-inserting the cartridge into the device.
     <message>
         <location filename="../src/platform/desktop/NavbarLogoDropdown.cpp" line="171"/>
         <source>Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Inställningar</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/NavbarLogoDropdown.cpp" line="172"/>
         <source>What&apos;s New</source>
-        <translation type="unfinished"></translation>
+        <translation>Nyheter</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/NavbarLogoDropdown.cpp" line="173"/>
         <source>Support</source>
-        <translation type="unfinished"></translation>
+        <translation>Support</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/NavbarLogoDropdown.cpp" line="174"/>
         <source>Send Feedback</source>
-        <translation type="unfinished"></translation>
+        <translation>Skicka feedback</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/NavbarLogoDropdown.cpp" line="175"/>
         <source>Report a Bug</source>
-        <translation type="unfinished"></translation>
+        <translation>Rapportera ett fel</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/NavbarLogoDropdown.cpp" line="176"/>
         <source>Vault</source>
-        <translation type="unfinished"></translation>
+        <translation>Valv</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/NavbarLogoDropdown.cpp" line="177"/>
         <source>About</source>
-        <translation type="unfinished"></translation>
+        <translation>om</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/NavbarLogoDropdown.cpp" line="178"/>
         <source>Exit</source>
-        <translation type="unfinished"></translation>
+        <translation>Avsluta</translation>
     </message>
 </context>
 <context>
@@ -1556,37 +1567,37 @@ You can try cleaning then re-inserting the cartridge into the device.
     <message>
         <location filename="../src/platform/desktop/NavbarNotificationDropdown.cpp" line="20"/>
         <source>Clear all</source>
-        <translation type="unfinished"></translation>
+        <translation>Rensa alla</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/NavbarNotificationDropdown.cpp" line="40"/>
         <source>No notifications</source>
-        <translation type="unfinished"></translation>
+        <translation>Inga notiser</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/NavbarNotificationDropdown.cpp" line="142"/>
         <source>Dismiss</source>
-        <translation type="unfinished"></translation>
+        <translation>Stäng</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/NavbarNotificationDropdown.cpp" line="166"/>
         <source>Just now</source>
-        <translation type="unfinished"></translation>
+        <translation>Just nu</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/NavbarNotificationDropdown.cpp" line="167"/>
         <source>%1m ago</source>
-        <translation type="unfinished"></translation>
+        <translation>för %1 min sedan</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/NavbarNotificationDropdown.cpp" line="168"/>
         <source>%1h ago</source>
-        <translation type="unfinished"></translation>
+        <translation>för %1 tim sedan</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/NavbarNotificationDropdown.cpp" line="169"/>
         <source>%1d ago</source>
-        <translation type="unfinished"></translation>
+        <translation>för %1 dgr sedan</translation>
     </message>
 </context>
 <context>
@@ -1594,27 +1605,27 @@ You can try cleaning then re-inserting the cartridge into the device.
     <message>
         <location filename="../src/platform/desktop/Navbar.cpp" line="466"/>
         <source>Backup Game</source>
-        <translation type="unfinished"></translation>
+        <translation>Säkerhetskopiera spel</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/Navbar.cpp" line="467"/>
         <source>Upload Homebrew</source>
-        <translation type="unfinished"></translation>
+        <translation>Ladda upp homebrew</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/Navbar.cpp" line="468"/>
         <source>Backup Save</source>
-        <translation type="unfinished"></translation>
+        <translation>Säkerhetskopiera sparfil</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/Navbar.cpp" line="469"/>
         <source>Upload Save</source>
-        <translation type="unfinished"></translation>
+        <translation>Ladda upp sparfil</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/Navbar.cpp" line="470"/>
         <source>Photo Gallery</source>
-        <translation type="unfinished"></translation>
+        <translation>Fotogalleri</translation>
     </message>
 </context>
 <context>
@@ -1622,60 +1633,62 @@ You can try cleaning then re-inserting the cartridge into the device.
     <message>
         <location filename="../src/platform/desktop/PhotosPage.cpp" line="167"/>
         <source>Select Directory to Save Photos</source>
-        <translation type="unfinished"></translation>
+        <translation>Välj mapp för att spara foton</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PhotosPage.cpp" line="170"/>
         <source>Save</source>
-        <translation type="unfinished"></translation>
+        <translation>Spara</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PhotosPage.cpp" line="197"/>
         <source>Warning, permanent deletion</source>
-        <translation type="unfinished"></translation>
+        <translation>Varning, permanent borttagning</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PhotosPage.cpp" line="198"/>
         <source>This will permanently delete all the pictures on your Game Boy Camera. Are you sure?</source>
-        <translation type="unfinished"></translation>
+        <translation>Detta tar permanent bort alla bilder på din Game Boy Camera. Är du säker?</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PhotosPage.cpp" line="327"/>
         <source>Found %1 photos on your Game Boy Camera.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hittade %1 foton på din Game Boy Camera.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PhotosPage.cpp" line="330"/>
         <source>Found 1 photo on your Game Boy Camera.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hittade 1 foto på din Game Boy Camera.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PhotosPage.cpp" line="334"/>
         <location filename="../src/platform/desktop/PhotosPage.cpp" line="363"/>
         <source>Found no photos on your Game Boy Camera.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hittade inga foton på din Game Boy Camera.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PhotosPage.cpp" line="356"/>
         <source>Transfer your pics from your Game Boy Camera to your PC in just two clicks. The images are stored as PNGs of 128x112 pixels. You can scale this using the scaling function.
 
 If you&apos;d like to easily remove all the pictures from your camera, without having to manually delete them one by one in the camera software, you can use the delete button below.</source>
-        <translation type="unfinished"></translation>
+        <translation>Överför dina bilder från din Game Boy Camera till din dator med bara två klick. Bilderna sparas som PNG-filer på 128 × 112 pixlar. Du kan skala dem med skalningsfunktionen.
+
+Om du enkelt vill ta bort alla bilder från kameran, utan att behöva radera dem en och en manuellt i kameraprogramvaran, kan du använda knappen nedan.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PhotosPage.cpp" line="360"/>
         <source>SAVE</source>
-        <translation type="unfinished"></translation>
+        <translation>SPARA</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PhotosPage.cpp" line="361"/>
         <source>DELETE</source>
-        <translation type="unfinished"></translation>
+        <translation>TA BORT</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PhotosPage.cpp" line="362"/>
         <source>Photo Gallery</source>
-        <translation type="unfinished"></translation>
+        <translation>Fotogalleri</translation>
     </message>
 </context>
 <context>
@@ -1683,12 +1696,12 @@ If you&apos;d like to easily remove all the pictures from your camera, without h
     <message>
         <location filename="../src/platform/desktop/PlaybackApp.cpp" line="195"/>
         <source>Firmware Updated</source>
-        <translation type="unfinished"></translation>
+        <translation>Firmware uppdaterad</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackApp.cpp" line="196"/>
         <source>Your device firmware has been updated successfully.</source>
-        <translation type="unfinished"></translation>
+        <translation>Enhetens firmware har uppdaterats.</translation>
     </message>
 </context>
 <context>
