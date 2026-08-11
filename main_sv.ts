@@ -173,27 +173,27 @@ Ta inte ut kassetten medan en åtgärd pågår.</translation>
     <message>
         <location filename="../src/platform/desktop/CheatCodesScreen.cpp" line="131"/>
         <source>Cheat Codes</source>
-        <translation type="unfinished"></translation>
+        <translation>Fuskkoder</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/CheatCodesScreen.cpp" line="133"/>
         <source>You have the option to use default or custom cheats to transform the way you experience the game. But cheats modify the game&apos;s RAM, so they can sometimes cause crashes or other forms of instability. Our cheats database draws information from multiple sources, but it is not completed with every existing cheat code. If anything is missing, please use the custom cheat code option. Disable Autosave so that the save on your cartridge is not corrupted while cheats are running.</source>
-        <translation type="unfinished"></translation>
+        <translation>Du kan använda antingen färdiga eller egna fusk för att förändra din spelupplevelse. Men fusk ändrar spelets RAM-minne, vilket ibland kan orsaka krascher eller annan instabilitet. Vår fuskdatabas hämtar information från flera källor, men den innehåller inte alla existerande fuskkoder. Om något saknas kan du använda alternativet för egna fuskkoder. Inaktivera Autospar så att sparfilen på din kassett inte skadas medan fusk är aktiverade.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/CheatCodesScreen.cpp" line="157"/>
         <source>Before you enable cheats...</source>
-        <translation type="unfinished"></translation>
+        <translation>Innan du aktiverar fusk ...</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/CheatCodesScreen.cpp" line="158"/>
         <source>Disable the Autosave setting so that your save data is not accidentally overwritten.&lt;br&gt;&lt;br&gt;Backup your data before applying cheats because they write directly to the game&apos;s RAM and can cause an emulator crash or other system instability issues during this process.&lt;br&gt;&lt;br&gt;Check our database of default cheat codes. For anything else that is not already listed, use the custom cheat code option. Behaviours may differ across regions or versions of the same game, and some cheats may not be available. Double-check that your custom code is from a reputable source.&lt;br&gt;&lt;br&gt;If a cheat encounters issues, disable it and reload the game.</source>
-        <translation type="unfinished"></translation>
+        <translation>Inaktivera inställningen Autospar så att dina sparade data inte skrivs över av misstag.&lt;br&gt;&lt;br&gt;Säkerhetskopiera dina data innan du använder fusk, eftersom de skriver direkt till spelets RAM-minne och kan orsaka att emulatorn kraschar eller andra systeminstabilitetsproblem under processen.&lt;br&gt;&lt;br&gt;Kolla in vår databas med färdiga fuskkoder. För allt annat som inte redan finns med i listan kan du använda alternativet för egna fuskkoder. Beteendet kan skilja sig mellan olika regioner eller versioner av samma spel, och vissa fusk kanske inte är tillgängliga. Dubbelkolla att din egna kod kommer från en pålitlig källa.&lt;br&gt;&lt;br&gt;Om ett fusk orsakar problem, inaktivera det och ladda om spelet.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/CheatCodesScreen.cpp" line="169"/>
         <source>I Understand</source>
-        <translation type="unfinished"></translation>
+        <translation>Jag förstår</translation>
     </message>
 </context>
 <context>
@@ -201,7 +201,7 @@ Ta inte ut kassetten medan en åtgärd pågår.</translation>
     <message>
         <location filename="../src/platform/desktop/ClickableLabel.cpp" line="25"/>
         <source>None</source>
-        <translation type="unfinished"></translation>
+        <translation>Ingen</translation>
     </message>
 </context>
 <context>
@@ -209,12 +209,12 @@ Ta inte ut kassetten medan en åtgärd pågår.</translation>
     <message>
         <location filename="../src/platform/desktop/ControlsWidget.cpp" line="100"/>
         <source>Player</source>
-        <translation type="unfinished"></translation>
+        <translation>Spelare</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/ControlsWidget.cpp" line="790"/>
         <source>None</source>
-        <translation type="unfinished"></translation>
+        <translation>Ingen</translation>
     </message>
 </context>
 <context>
@@ -222,37 +222,37 @@ Ta inte ut kassetten medan en åtgärd pågår.</translation>
     <message>
         <location filename="../src/platform/desktop/CoreCardWidget.cpp" line="207"/>
         <source>Load Custom Core</source>
-        <translation type="unfinished"></translation>
+        <translation>Ladda anpassad kärna</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/CoreCardWidget.cpp" line="208"/>
         <source>Cores (*%1)</source>
-        <translation type="unfinished"></translation>
+        <translation>Kärnor (*%1)</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/CoreCardWidget.cpp" line="287"/>
         <source>Active</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktiv</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/CoreCardWidget.cpp" line="288"/>
         <source>Enable</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktivera</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/CoreCardWidget.cpp" line="289"/>
         <source>Browse</source>
-        <translation type="unfinished"></translation>
+        <translation>Bläddra</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/CoreCardWidget.cpp" line="290"/>
         <source>Remove</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta Bort</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/CoreCardWidget.cpp" line="291"/>
         <source>Learn More</source>
-        <translation type="unfinished"></translation>
+        <translation>Läs mer</translation>
     </message>
 </context>
 <context>
@@ -260,22 +260,22 @@ Ta inte ut kassetten medan en åtgärd pågår.</translation>
     <message>
         <location filename="../src/platform/desktop/CoreCardWidget.cpp" line="321"/>
         <source>Failed to download core</source>
-        <translation type="unfinished"></translation>
+        <translation>Kunde inte ladda ner kärnan</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/CoreCardWidget.cpp" line="328"/>
         <source>Failed to open file for writing</source>
-        <translation type="unfinished"></translation>
+        <translation>Kunde inte öppna filen för skrivning</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/CoreCardWidget.cpp" line="338"/>
         <source>Failed to open zip file</source>
-        <translation type="unfinished"></translation>
+        <translation>Kunde inte öppna zip-filen</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/CoreCardWidget.cpp" line="377"/>
         <source>Download Error</source>
-        <translation type="unfinished"></translation>
+        <translation>Nedladdningsfel</translation>
     </message>
 </context>
 <context>
@@ -283,37 +283,37 @@ Ta inte ut kassetten medan en åtgärd pågår.</translation>
     <message>
         <location filename="../src/platform/desktop/CoreCapabilitiesWidget.cpp" line="136"/>
         <source>Supported Features</source>
-        <translation type="unfinished"></translation>
+        <translation>Funktioner som stöds</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/CoreCapabilitiesWidget.cpp" line="138"/>
         <source>Cartridge Autosave</source>
-        <translation type="unfinished"></translation>
+        <translation>Autospar för kassett</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/CoreCapabilitiesWidget.cpp" line="139"/>
         <source>Emulator Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Emulatorinställningar</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/CoreCapabilitiesWidget.cpp" line="140"/>
         <source>Cheats</source>
-        <translation type="unfinished"></translation>
+        <translation>Fusk</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/CoreCapabilitiesWidget.cpp" line="141"/>
         <source>Achievements Support</source>
-        <translation type="unfinished"></translation>
+        <translation>Stöd för prestationer</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/CoreCapabilitiesWidget.cpp" line="142"/>
         <source>Shaders</source>
-        <translation type="unfinished"></translation>
+        <translation>Shaders</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/CoreCapabilitiesWidget.cpp" line="143"/>
         <source>Rumble</source>
-        <translation type="unfinished"></translation>
+        <translation>Vibration</translation>
     </message>
 </context>
 <context>
@@ -322,33 +322,33 @@ Ta inte ut kassetten medan en åtgärd pågår.</translation>
         <location filename="../src/platform/desktop/CoreSelectorScreen.cpp" line="74"/>
         <location filename="../src/platform/desktop/CoreSelectorScreen.cpp" line="264"/>
         <source>Officially supported</source>
-        <translation type="unfinished"></translation>
+        <translation>Officiellt stöd</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/CoreSelectorScreen.cpp" line="74"/>
         <location filename="../src/platform/desktop/CoreSelectorScreen.cpp" line="264"/>
         <source>Alternative Core</source>
-        <translation type="unfinished"></translation>
+        <translation>Alternativ kärna</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/CoreSelectorScreen.cpp" line="253"/>
         <source>Select Core</source>
-        <translation type="unfinished"></translation>
+        <translation>Välj kärna</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/CoreSelectorScreen.cpp" line="255"/>
         <source>You can change the emulation core for your Operator device. Download a core online or provide your own, but remember: only some cores are fully supported by Epilogue ensure complete feature compatibility.</source>
-        <translation type="unfinished"></translation>
+        <translation>Du kan byta emuleringskärna för din Operator-enhet. Ladda ner en kärna online eller använd en egen, men kom ihåg: bara vissa kärnor har fullt stöd från Epilogue och garanterar fullständig funktionskompatibilitet.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/CoreSelectorScreen.cpp" line="259"/>
         <source>Custom Core</source>
-        <translation type="unfinished"></translation>
+        <translation>Anpassad kärna</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/CoreSelectorScreen.cpp" line="260"/>
         <source>Your own core</source>
-        <translation type="unfinished"></translation>
+        <translation>Din egen kärna</translation>
     </message>
 </context>
 <context>
@@ -356,33 +356,33 @@ Ta inte ut kassetten medan en åtgärd pågår.</translation>
     <message>
         <location filename="../src/platform/desktop/CoreCapabilitiesWidget.cpp" line="96"/>
         <source>Supported Systems</source>
-        <translation type="unfinished"></translation>
+        <translation>System som stöds</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/CoreCapabilitiesWidget.cpp" line="98"/>
         <location filename="../src/platform/desktop/CoreCapabilitiesWidget.cpp" line="100"/>
         <source>Game Boy</source>
-        <translation type="unfinished"></translation>
+        <translation>Game Boy</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/CoreCapabilitiesWidget.cpp" line="101"/>
         <source>Game Boy Color</source>
-        <translation type="unfinished"></translation>
+        <translation>Game Boy Color</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/CoreCapabilitiesWidget.cpp" line="102"/>
         <source>Game Boy Advance</source>
-        <translation type="unfinished"></translation>
+        <translation>Game Boy Advance</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/CoreCapabilitiesWidget.cpp" line="103"/>
         <source>Super Nintendo</source>
-        <translation type="unfinished"></translation>
+        <translation>Super Nintendo</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/CoreCapabilitiesWidget.cpp" line="104"/>
         <source>Nintendo 64</source>
-        <translation type="unfinished"></translation>
+        <translation>Nintendo 64</translation>
     </message>
 </context>
 <context>
@@ -390,12 +390,12 @@ Ta inte ut kassetten medan en åtgärd pågår.</translation>
     <message>
         <location filename="../src/platform/desktop/CustomCheatCodesWidget.cpp" line="182"/>
         <source>Custom Cheats</source>
-        <translation type="unfinished"></translation>
+        <translation>Egna fusk</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/CustomCheatCodesWidget.cpp" line="183"/>
         <source>Add your own custom cheats...</source>
-        <translation type="unfinished"></translation>
+        <translation>Lägg till dina egna fusk ...</translation>
     </message>
 </context>
 <context>
@@ -403,12 +403,12 @@ Ta inte ut kassetten medan en åtgärd pågår.</translation>
     <message>
         <location filename="../src/platform/desktop/CustomCheatCodesWidget.cpp" line="282"/>
         <source>Description...</source>
-        <translation type="unfinished"></translation>
+        <translation>Beskrivning ...</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/CustomCheatCodesWidget.cpp" line="283"/>
         <source>Code...</source>
-        <translation type="unfinished"></translation>
+        <translation>Kod ...</translation>
     </message>
 </context>
 <context>
@@ -416,7 +416,7 @@ Ta inte ut kassetten medan en åtgärd pågår.</translation>
     <message>
         <location filename="../src/platform/desktop/DataFlowWidget.cpp" line="87"/>
         <source>Data Flow:</source>
-        <translation type="unfinished"></translation>
+        <translation>Dataflöde:</translation>
     </message>
 </context>
 <context>
@@ -424,12 +424,12 @@ Ta inte ut kassetten medan en åtgärd pågår.</translation>
     <message>
         <location filename="../src/platform/desktop/DatabaseCheatCodesWidget.cpp" line="119"/>
         <source> Default</source>
-        <translation type="unfinished"></translation>
+        <translation>Standard</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/DatabaseCheatCodesWidget.cpp" line="120"/>
         <source>Search...</source>
-        <translation type="unfinished"></translation>
+        <translation>Sök ...</translation>
     </message>
 </context>
 <context>
@@ -437,27 +437,27 @@ Ta inte ut kassetten medan en åtgärd pågår.</translation>
     <message>
         <location filename="../src/platform/desktop/DeadzoneWidget.cpp" line="26"/>
         <source>Joystick Deadzone</source>
-        <translation type="unfinished"></translation>
+        <translation>Dödzon för styrspak</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/DeadzoneWidget.cpp" line="65"/>
         <source>Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Läge</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/DeadzoneWidget.cpp" line="75"/>
         <source>Linear</source>
-        <translation type="unfinished"></translation>
+        <translation>Linjär</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/DeadzoneWidget.cpp" line="76"/>
         <source>Radial</source>
-        <translation type="unfinished"></translation>
+        <translation>Radiell</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/DeadzoneWidget.cpp" line="77"/>
         <source>Scaled</source>
-        <translation type="unfinished"></translation>
+        <translation>Skalad</translation>
     </message>
 </context>
 <context>
@@ -465,7 +465,7 @@ Ta inte ut kassetten medan en åtgärd pågår.</translation>
     <message>
         <location filename="../src/platform/desktop/DesktopEmulatorDialogs.cpp" line="111"/>
         <source>Load Failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Inläsningen misslyckades</translation>
     </message>
 </context>
 <context>
@@ -473,12 +473,12 @@ Ta inte ut kassetten medan en åtgärd pågår.</translation>
     <message>
         <location filename="../src/core/DeviceBase.cpp" line="298"/>
         <source>Save data integrity check failed!</source>
-        <translation type="unfinished"></translation>
+        <translation>Integritetskontrollen av sparade data misslyckades!</translation>
     </message>
     <message>
         <location filename="../src/core/DeviceBase.cpp" line="299"/>
         <source>The save data appears to be inconsistent between read cycles. Please clean the cartridge pins and try again.</source>
-        <translation type="unfinished"></translation>
+        <translation>Sparade data verkar vara inkonsekventa mellan läscyklerna. Rengör kassettens kontaktstift och försök igen.</translation>
     </message>
 </context>
 <context>
@@ -486,22 +486,22 @@ Ta inte ut kassetten medan en åtgärd pågår.</translation>
     <message>
         <location filename="../src/platform/desktop/DeviceSettingsScreen.cpp" line="150"/>
         <source>Static</source>
-        <translation type="unfinished"></translation>
+        <translation>Statisk</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/DeviceSettingsScreen.cpp" line="152"/>
         <source>Dark</source>
-        <translation type="unfinished"></translation>
+        <translation>Mörk</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/DeviceSettingsScreen.cpp" line="154"/>
         <source>Pulse</source>
-        <translation type="unfinished"></translation>
+        <translation>Puls</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/DeviceSettingsScreen.cpp" line="156"/>
         <source>Strobe</source>
-        <translation type="unfinished"></translation>
+        <translation>Blink</translation>
     </message>
 </context>
 <context>
@@ -510,97 +510,97 @@ Ta inte ut kassetten medan en åtgärd pågår.</translation>
         <location filename="../src/core/DeviceHardware.cpp" line="198"/>
         <location filename="../src/core/DeviceHardware.cpp" line="239"/>
         <source>Device disconnected</source>
-        <translation type="unfinished"></translation>
+        <translation>Enheten frånkopplad</translation>
     </message>
     <message>
         <location filename="../src/core/DeviceHardwareOperations.cpp" line="70"/>
         <source>Cartridge Connection Unstable!</source>
-        <translation type="unfinished"></translation>
+        <translation>Instabil kassettanslutning!</translation>
     </message>
     <message>
         <location filename="../src/core/DeviceHardwareOperations.cpp" line="71"/>
         <source>Playback detected a contact connection issue. Please clean the cartridge pins, reinsert the cartridge properly, and try again for improved accuracy.</source>
-        <translation type="unfinished"></translation>
+        <translation>Playback upptäckte ett problem med kontaktanslutningen. Rengör kassettens kontaktstift, sätt i kassetten ordentligt igen och försök på nytt för bättre precision.</translation>
     </message>
     <message>
         <location filename="../src/core/DeviceHardwareOperations.cpp" line="126"/>
         <source>Game Data Integrity Check Failed!</source>
-        <translation type="unfinished"></translation>
+        <translation>Integritetskontrollen av speldata misslyckades!</translation>
     </message>
     <message>
         <location filename="../src/core/DeviceHardwareOperations.cpp" line="127"/>
         <source>Playback detected a discrepancy between the expected game data and the backed up data. Please clean the cartridge pins and try again to ensure accuracy.</source>
-        <translation type="unfinished"></translation>
+        <translation>Playback upptäckte en avvikelse mellan förväntade speldata och säkerhetskopierade data. Rengör kassettens kontaktstift och försök igen för att säkerställa korrekthet.</translation>
     </message>
     <message>
         <location filename="../src/core/DeviceHardwareOperations.cpp" line="159"/>
         <source>Empty File Was Provided!</source>
-        <translation type="unfinished"></translation>
+        <translation>En tom fil angavs!</translation>
     </message>
     <message>
         <location filename="../src/core/DeviceHardwareOperations.cpp" line="160"/>
         <source> It looks like the homebrew game you&apos;re trying to upload has been detected by Playback as having 0 bytes. Please verify that the data you&apos;re attempting to upload is accurate.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det verkar som att homebrew-spelet du försöker ladda upp har upptäckts av Playback som 0 byte stort. Kontrollera att data du försöker ladda upp är korrekta.</translation>
     </message>
     <message>
         <location filename="../src/core/DeviceHardwareOperations.cpp" line="170"/>
         <source>Upload Homebrew Command Failed!</source>
-        <translation type="unfinished"></translation>
+        <translation>Kommandot för att ladda upp homebrew misslyckades!</translation>
     </message>
     <message>
         <location filename="../src/core/DeviceHardwareOperations.cpp" line="171"/>
         <source>An error occurred while attempting to start the homebrew upload command. Please restart the application and reconnect the Operator device. If the problem continues, contact our Support team.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ett fel uppstod när kommandot för homebrew-uppladdning skulle startas. Starta om programmet och anslut Operator-enheten igen. Om problemet kvarstår, kontakta vårt supportteam.</translation>
     </message>
     <message>
         <location filename="../src/core/DeviceHardwareOperations.cpp" line="199"/>
         <source>Homebrew Cartridge Erase Failed!</source>
-        <translation type="unfinished"></translation>
+        <translation>Radering av homebrew-kassetten misslyckades!</translation>
     </message>
     <message>
         <location filename="../src/core/DeviceHardwareOperations.cpp" line="200"/>
         <source>Playback couldn&apos;t delete the contents of the homebrew cartridge. Please clean the cartridge pins and try again. If the issue persists, contact our Support team.</source>
-        <translation type="unfinished"></translation>
+        <translation>Playback kunde inte radera innehållet på homebrew-kassetten. Rengör kassettens kontaktstift och försök igen. Om problemet kvarstår, kontakta vårt supportteam.</translation>
     </message>
     <message>
         <location filename="../src/core/DeviceHardwareOperations.cpp" line="219"/>
         <source>Homebrew Cartridge Data Integrity Check Failed!</source>
-        <translation type="unfinished"></translation>
+        <translation>Integritetskontrollen av data på homebrew-kassetten misslyckades!</translation>
     </message>
     <message>
         <location filename="../src/core/DeviceHardwareOperations.cpp" line="220"/>
         <source>The cartridge was erased successfully, but the data written does not match the data read back. This issue might occur with some homebrew cartridges. Make sure the game is playable, either by testing on an original console or in the Playback app.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kassetten raderades utan problem, men de data som skrevs stämmer inte överens med de data som lästes tillbaka. Det här problemet kan uppstå med vissa homebrew-kassetter. Kontrollera att spelet går att spela, antingen genom att testa det på en originalkonsol eller i Playback-appen.</translation>
     </message>
     <message>
         <location filename="../src/core/DeviceHardwareOperations.cpp" line="256"/>
         <source>Written game data integrity check failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Integritetskontrollen av skrivna speldata misslyckades</translation>
     </message>
     <message>
         <location filename="../src/core/DeviceHardwareOperations.cpp" line="256"/>
         <source>Read data does not match written data.</source>
-        <translation type="unfinished"></translation>
+        <translation>Lästa data stämmer inte överens med skrivna data.</translation>
     </message>
     <message>
         <location filename="../src/core/DeviceHardwareOperations.cpp" line="378"/>
         <source>Write save failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Skrivning av sparfil misslyckades</translation>
     </message>
     <message>
         <location filename="../src/core/DeviceHardwareOperations.cpp" line="378"/>
         <source>Failed to send write save command to device.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kunde inte skicka kommandot för att skriva sparfilen till enheten.</translation>
     </message>
     <message>
         <location filename="../src/core/DeviceHardwareOperations.cpp" line="416"/>
         <source>Save Data Integrity Check Failed!</source>
-        <translation type="unfinished"></translation>
+        <translation>Integritetskontrollen av sparade data misslyckades!</translation>
     </message>
     <message>
         <location filename="../src/core/DeviceHardwareOperations.cpp" line="417"/>
         <source>The save data written to the cartridge does not match the data read back. Please clean the cartridge pins and try again to ensure consistency.</source>
-        <translation type="unfinished"></translation>
+        <translation>Sparade data som skrevs till kassetten stämmer inte överens med de data som lästes tillbaka. Rengör kassettens kontaktstift och försök igen för att säkerställa överensstämmelse.</translation>
     </message>
 </context>
 <context>
