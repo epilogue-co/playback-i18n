@@ -17,7 +17,7 @@
 | 🇷🇴 Romanian              | Human         | ✅           | 0                |
 | 🇨🇳 Simplified Chinese    | Human         | ✅           | 0                |
 | 🇪🇸 Spanish               | Human         | ✅           | 0                |
-| 🇸🇪 Swedish               | Human         | ❌           | 163              |
+| 🇸🇪 Swedish               | Human         | ✅           | 0                |
 
 ## Translation files (i18n)
 

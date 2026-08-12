@@ -1709,222 +1709,222 @@ Om du enkelt vill ta bort alla bilder från kameran, utan att behöva radera dem
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="87"/>
         <source>General</source>
-        <translation type="unfinished"></translation>
+        <translation>Allmänt</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="88"/>
         <source>Data</source>
-        <translation type="unfinished"></translation>
+        <translation>Data</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="93"/>
         <source>Customize general settings to offer a personalized experience.</source>
-        <translation type="unfinished"></translation>
+        <translation>Anpassa allmänna inställningar för en personlig upplevelse.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="95"/>
         <source>Configure how transfers are handled in the Data section of Playback.</source>
-        <translation type="unfinished"></translation>
+        <translation>Konfigurera hur överföringar hanteras i Data-sektionen i Playback.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="100"/>
         <source>Preferred Language</source>
-        <translation type="unfinished"></translation>
+        <translation>Önskat språk</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="101"/>
         <source>Replay App Tour</source>
-        <translation type="unfinished"></translation>
+        <translation>Spela upp apptur igen</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="102"/>
         <source>Autosave to cartridge</source>
-        <translation type="unfinished"></translation>
+        <translation>Autospar till kassett</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="103"/>
         <source>FPS Counter</source>
-        <translation type="unfinished"></translation>
+        <translation>FPS-räknare</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="104"/>
         <source>Soft Reset Counter</source>
-        <translation type="unfinished"></translation>
+        <translation>Räknare för mjuk återställning</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="105"/>
         <source>Pixel Perfect Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Pixel perfect-läge</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="106"/>
         <source>RTC data in save file</source>
-        <translation type="unfinished"></translation>
+        <translation>RTC-data i sparfilen</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="108"/>
         <source>Verify Save After Writing Process</source>
-        <translation type="unfinished"></translation>
+        <translation>Verifiera sparfil efter skrivning</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="109"/>
         <source>Verify Save is Read Properly</source>
-        <translation type="unfinished"></translation>
+        <translation>Verifiera att sparfilen läses korrekt</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="111"/>
         <source>Verify Homebrew File Integrity</source>
-        <translation type="unfinished"></translation>
+        <translation>Verifiera homebrew-filens integritet</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="113"/>
         <source>Enable verbose debug logs (requires restart)</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktivera utförliga felsökningsloggar (kräver omstart)</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="114"/>
         <source>Enable Rewind</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktivera tillbakaspolning</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="115"/>
         <source>Enable Fast Forward</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktivera snabbspolning framåt</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="116"/>
         <source>Enable Soft Reset</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktivera mjuk återställning</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="117"/>
         <source>Enable Picture-in-Picture</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktivera bild-i-bild</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="118"/>
         <source>Enable Save States</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktivera snabbsparningar</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="119"/>
         <source>Emulator Controls Visibility</source>
-        <translation type="unfinished"></translation>
+        <translation>Synlighet för emulatorkontroller</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="120"/>
         <source>Hide Navigation Bar in Emulation</source>
-        <translation type="unfinished"></translation>
+        <translation>Dölj navigeringsfältet under emulering</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="183"/>
         <source>Controls how the emulation control bar behaves during gameplay. &quot;Always On&quot; keeps it visible at all times, &quot;Auto-Hide&quot; lets it fade out after a few seconds of inactivity, and &quot;Always Off&quot; keeps it hidden regardless of activity.</source>
-        <translation type="unfinished"></translation>
+        <translation>Styr hur emuleringens kontrollfält beter sig under spelandet. ”Alltid på” håller det synligt hela tiden, ”Dölj automatiskt” låter det tonas bort efter några sekunders inaktivitet och ”Alltid av” håller det dolt oavsett aktivitet.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="187"/>
         <source>When enabled, the top navigation bar stays hidden while a game is running. When disabled, it is shown unless the window is below its default size.</source>
-        <translation type="unfinished"></translation>
+        <translation>När det här är aktiverat förblir det övre navigeringsfältet dolt medan ett spel körs. När det är inaktiverat visas det, såvida inte fönstret är mindre än sin standardstorlek.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="121"/>
         <source>Borderless Fullscreen</source>
-        <translation type="unfinished"></translation>
+        <translation>Ramlöst helskärmsläge</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="122"/>
         <source>Photo Scaling</source>
-        <translation type="unfinished"></translation>
+        <translation>Fotoskalning</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="129"/>
         <source>Allows you to change the language in which the Playback software is presented. It requires an application restart in order to update the language accross the entire application.</source>
-        <translation type="unfinished"></translation>
+        <translation>Låter dig ändra vilket språk Playback-programvaran visas på. Programmet måste startas om för att språket ska uppdateras i hela applikationen.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="133"/>
         <source>When enabled, the app tour will be shown the next time you start the application. After the tour completes, this setting will be automatically disabled.</source>
-        <translation type="unfinished"></translation>
+        <translation>När det här är aktiverat visas appturen nästa gång du startar programmet. När turen är slutförd inaktiveras inställningen automatiskt.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="136"/>
         <source>Once you save in-game, or the game modifies the save internally, your Operator device will automatically write the save to the cartridge. This feature is still in development.</source>
-        <translation type="unfinished"></translation>
+        <translation>När du sparar i spelet, eller när spelet ändrar sparfilen internt, skriver din Operator-enhet automatiskt sparfilen till kassetten. Den här funktionen är fortfarande under utveckling.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="140"/>
         <source>Displays the current frames per second (FPS) of the game being played.</source>
-        <translation type="unfinished"></translation>
+        <translation>Visar antalet bildrutor per sekund (FPS) i spelet som körs.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="142"/>
         <source>Displays the number of soft resets performed during the current emulation session. Only resets triggered through Playback&apos;s soft reset controls are counted, such as the on-screen button, a keyboard hotkey, or a controller binding.</source>
-        <translation type="unfinished"></translation>
+        <translation>Visar antalet mjuka återställningar som har utförts under den aktuella emuleringssessionen. Endast återställningar som utlösts via Playbacks kontroller för mjuk återställning räknas, till exempel knappen på skärmen, en snabbtangent eller en bindning på handkontrollen.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="146"/>
         <source>When enabled, games are displayed with integer scaling to ensure pixels are displayed at exact multiples of their original size. This eliminates graphical artifacts and preserves the authentic look of retro games at the expense of some screen space.</source>
-        <translation type="unfinished"></translation>
+        <translation>När det här är aktiverat visas spel med heltalsskalning så att pixlarna visas i exakta multiplar av sin ursprungliga storlek. Det eliminerar grafiska artefakter och bevarar retrospelens autentiska utseende, på bekostnad av lite skärmyta.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="151"/>
         <source>When enabled and supported by the game, Playback adds real-time clock (RTC) data to the save file. This ensures accurate preservation of time-based events. Note that this will increase the file size and might make it incompatible with other software.</source>
-        <translation type="unfinished"></translation>
+        <translation>När det här är aktiverat och stöds av spelet lägger Playback till realtidsklockdata (RTC) i sparfilen. Det säkerställer att tidsbaserade händelser bevaras korrekt. Observera att filstorleken ökar, vilket kan göra filen inkompatibel med annan programvara.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="155"/>
         <source>Activating this setting prompts Playback to check that the save file remains uncorrupted after being written to the cartridge. It ensures your game progress has been safely stored.</source>
-        <translation type="unfinished"></translation>
+        <translation>När den här inställningen är aktiverad kontrollerar Playback att sparfilen inte har skadats efter att den skrivits till kassetten. Det säkerställer att dina spelframsteg har lagrats säkert.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="158"/>
         <source>When this setting is enabled, Playback reads the save file from the cartridge multiple times and reviews any discrepancies to prevent data corruption.</source>
-        <translation type="unfinished"></translation>
+        <translation>När den här inställningen är aktiverad läser Playback sparfilen från kassetten flera gånger och granskar eventuella avvikelser för att förhindra att data skadas.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="161"/>
         <source>This setting enables Playback to confirm the integrity of a homebrew game after transferring it to the cartridge, making sure there are no issues affecting your work.</source>
-        <translation type="unfinished"></translation>
+        <translation>Den här inställningen gör att Playback kontrollerar ett homebrew-spels integritet efter att det har överförts till kassetten, så att inga problem påverkar ditt arbete.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="164"/>
         <source>When enabled, the Playback software will output more detailed logs to help diagnose issues. This setting is useful for troubleshooting and should be disabled when not needed.</source>
-        <translation type="unfinished"></translation>
+        <translation>När det här är aktiverat skriver Playback-programvaran ut mer detaljerade loggar som hjälper till att diagnostisera problem. Inställningen är användbar vid felsökning och bör inaktiveras när den inte behövs.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="167"/>
         <source>Enables the rewind feature, allowing you to go back in time during gameplay. This is useful for correcting mistakes or exploring different game paths without starting over.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktiverar tillbakaspolningsfunktionen så att du kan gå tillbaka i tiden under spelandet. Det är användbart för att rätta till misstag eller utforska andra vägar i spelet utan att börja om.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="170"/>
         <source>When enabled, this feature allows you to speed up the game playback, making it easier to skip through slower sections or quickly navigate through menus.</source>
-        <translation type="unfinished"></translation>
+        <translation>När det här är aktiverat kan du snabbspola spelet framåt, vilket gör det enklare att hoppa förbi långsammare avsnitt eller snabbt navigera i menyer.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="173"/>
         <source>Enables the soft reset feature, allowing you to quickly reset the game without turning off the emulation. This is useful for quickly restarting a game or returning to the main menu.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktiverar funktionen för mjuk återställning så att du snabbt kan starta om spelet utan att avsluta emuleringen. Det är praktiskt för att snabbt börja om ett spel eller återgå till huvudmenyn.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="177"/>
         <source>Enables the Picture-in-Picture (PiP) mode, allowing you to view the game in a small window. This is useful for multitasking.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktiverar bild-i-bild-läget (PiP) så att du kan visa spelet i ett litet fönster. Det är praktiskt när du gör flera saker samtidigt.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="180"/>
         <source>Enables save states, allowing you to save and load your game progress at any point. This is useful for preserving your progress or quickly retrying difficult sections.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktiverar snabbsparningar så att du kan spara och läsa in dina spelframsteg när som helst. Det är praktiskt för att bevara dina framsteg eller snabbt göra om svåra avsnitt.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="190"/>
         <source>When enabled, fullscreen uses a borderless window that fills your screen instead of exclusive fullscreen. This prevents the black screen flicker when switching between windows on multi-monitor setups.</source>
-        <translation type="unfinished"></translation>
+        <translation>När det här är aktiverat använder helskärmsläget ett ramlöst fönster som fyller skärmen i stället för exklusivt helskärmsläge. Det förhindrar svarta skärmflimmer när du växlar mellan fönster i system med flera skärmar.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="194"/>
         <source>Scales GB Camera saved photos to the specified size.</source>
-        <translation type="unfinished"></translation>
+        <translation>Skalar sparade foton från GB Camera till den angivna storleken.</translation>
     </message>
 </context>
 <context>
@@ -1932,32 +1932,32 @@ Om du enkelt vill ta bort alla bilder från kameran, utan att behöva radera dem
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="252"/>
         <source>Open Log Directory</source>
-        <translation type="unfinished"></translation>
+        <translation>Öppna loggmapp</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="258"/>
         <source>Enabled</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktiverad</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="259"/>
         <source>Disabled</source>
-        <translation type="unfinished"></translation>
+        <translation>Inaktiverad</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="260"/>
         <source>Always On</source>
-        <translation type="unfinished"></translation>
+        <translation>Alltid på</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="261"/>
         <source>Auto-Hide</source>
-        <translation type="unfinished"></translation>
+        <translation>Dölj automatiskt</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/PlaybackSettingsScreen.cpp" line="262"/>
         <source>Always Off</source>
-        <translation type="unfinished"></translation>
+        <translation>Alltid av</translation>
     </message>
 </context>
 <context>
@@ -1965,7 +1965,7 @@ Om du enkelt vill ta bort alla bilder från kameran, utan att behöva radera dem
     <message>
         <location filename="../src/platform/desktop/ProgressGridWidget.cpp" line="476"/>
         <source>Data Grid:</source>
-        <translation type="unfinished"></translation>
+        <translation>Datarutnät:</translation>
     </message>
 </context>
 <context>
@@ -1973,37 +1973,37 @@ Om du enkelt vill ta bort alla bilder från kameran, utan att behöva radera dem
     <message>
         <location filename="../src/core/ErrorMessages.h" line="26"/>
         <source>Follow this</source>
-        <translation type="unfinished"></translation>
+        <translation>Följ den här</translation>
     </message>
     <message>
         <location filename="../src/core/ErrorMessages.h" line="30"/>
         <source>tutorial</source>
-        <translation type="unfinished"></translation>
+        <translation>guiden</translation>
     </message>
     <message>
         <location filename="../src/core/ErrorMessages.h" line="30"/>
         <source>for cleaning your cartridge pins.</source>
-        <translation type="unfinished"></translation>
+        <translation>för att rengöra kassettens kontaktstift.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/DeviceSettingsScreen.cpp" line="6"/>
         <source>Static</source>
-        <translation type="unfinished"></translation>
+        <translation>Statisk</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/DeviceSettingsScreen.cpp" line="7"/>
         <source>Dark</source>
-        <translation type="unfinished"></translation>
+        <translation>Mörk</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/DeviceSettingsScreen.cpp" line="8"/>
         <source>Pulse</source>
-        <translation type="unfinished"></translation>
+        <translation>Puls</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/DeviceSettingsScreen.cpp" line="9"/>
         <source>Strobe</source>
-        <translation type="unfinished"></translation>
+        <translation>Blink</translation>
     </message>
 </context>
 <context>
@@ -2011,12 +2011,12 @@ Om du enkelt vill ta bort alla bilder från kameran, utan att behöva radera dem
     <message>
         <location filename="../src/platform/desktop/UIComponents.cpp" line="74"/>
         <source>You are about to quit.</source>
-        <translation type="unfinished"></translation>
+        <translation>Du är på väg att avsluta.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/UIComponents.cpp" line="75"/>
         <source>Are you sure you want to exit?</source>
-        <translation type="unfinished"></translation>
+        <translation>Är du säker på att du vill avsluta?</translation>
     </message>
 </context>
 <context>
@@ -2024,27 +2024,27 @@ Om du enkelt vill ta bort alla bilder från kameran, utan att behöva radera dem
     <message>
         <location filename="../src/platform/desktop/RAAchievementsWindow.cpp" line="470"/>
         <source>%1% of players have this achievement</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 % av spelarna har den här prestationen</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/RAAchievementsWindow.cpp" line="474"/>
         <source>Missable</source>
-        <translation type="unfinished"></translation>
+        <translation>Kan missas</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/RAAchievementsWindow.cpp" line="475"/>
         <source>Progression</source>
-        <translation type="unfinished"></translation>
+        <translation>Progression</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/RAAchievementsWindow.cpp" line="476"/>
         <source>Win Condition</source>
-        <translation type="unfinished"></translation>
+        <translation>Vinstvillkor</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/RAAchievementsWindow.cpp" line="477"/>
         <source>points</source>
-        <translation type="unfinished"></translation>
+        <translation>poäng</translation>
     </message>
 </context>
 <context>
@@ -2053,30 +2053,30 @@ Om du enkelt vill ta bort alla bilder från kameran, utan att behöva radera dem
         <location filename="../src/platform/desktop/RAAchievementsWindow.cpp" line="100"/>
         <location filename="../src/platform/desktop/RAAchievementsWindow.cpp" line="157"/>
         <source>Unsupported</source>
-        <translation type="unfinished"></translation>
+        <translation>Stöds inte</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/RAAchievementsWindow.cpp" line="101"/>
         <location filename="../src/platform/desktop/RAAchievementsWindow.cpp" line="159"/>
         <source>Active Challenges</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktiva utmaningar</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/RAAchievementsWindow.cpp" line="102"/>
         <location filename="../src/platform/desktop/RAAchievementsWindow.cpp" line="160"/>
         <source>Locked</source>
-        <translation type="unfinished"></translation>
+        <translation>Låst</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/RAAchievementsWindow.cpp" line="103"/>
         <location filename="../src/platform/desktop/RAAchievementsWindow.cpp" line="162"/>
         <source>Unlocked</source>
-        <translation type="unfinished"></translation>
+        <translation>Upplåst</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/RAAchievementsWindow.cpp" line="150"/>
         <source>You have earned %1 of %2 achievements and %3 of %4 points.</source>
-        <translation type="unfinished"></translation>
+        <translation>Du har fått %1 av %2 prestationer och %3 av %4 poäng.</translation>
     </message>
 </context>
 <context>
@@ -2084,38 +2084,39 @@ Om du enkelt vill ta bort alla bilder från kameran, utan att behöva radera dem
     <message>
         <location filename="../src/core/RAController.cpp" line="326"/>
         <source>You have earned %1 of %2 achievements and %3 of %4 points.</source>
-        <translation type="unfinished"></translation>
+        <translation>Du har fått %1 av %2 prestationer och %3 av %4 poäng.</translation>
     </message>
     <message>
         <location filename="../src/core/RAController.cpp" line="332"/>
         <source>
 Hardcore mode is active - cheats, rewind, save states and slow motion are disabled.</source>
-        <translation type="unfinished"></translation>
+        <translation>
+Hardcore-läget är aktivt – fusk, tillbakaspolning, snabbsparningar och slow motion är inaktiverade.</translation>
     </message>
     <message>
         <location filename="../src/core/RAController.cpp" line="373"/>
         <source>You have mastered %1 achievements and earned %2 points.</source>
-        <translation type="unfinished"></translation>
+        <translation>Du har bemästrat %1 prestationer och tjänat %2 poäng.</translation>
     </message>
     <message>
         <location filename="../src/core/RAController.cpp" line="400"/>
         <source>Leaderboard attempt started: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Topplisteförsök startat: %1</translation>
     </message>
     <message>
         <location filename="../src/core/RAController.cpp" line="412"/>
         <source>Leaderboard attempt failed: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Topplisteförsök misslyckades: %1</translation>
     </message>
     <message>
         <location filename="../src/core/RAController.cpp" line="424"/>
         <source>Leaderboard attempt submitted: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Topplisteförsök skickat: %1</translation>
     </message>
     <message>
         <location filename="../src/core/RAController.cpp" line="425"/>
         <source>Submitted: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Skickat: %1</translation>
     </message>
 </context>
 <context>
@@ -2124,7 +2125,7 @@ Hardcore mode is active - cheats, rewind, save states and slow motion are disabl
         <location filename="../src/platform/desktop/ResetCounterWidget.cpp" line="17"/>
         <location filename="../src/platform/desktop/ResetCounterWidget.cpp" line="32"/>
         <source>Soft Resets: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Mjuka återställningar: %1</translation>
     </message>
 </context>
 <context>
@@ -2132,7 +2133,7 @@ Hardcore mode is active - cheats, rewind, save states and slow motion are disabl
     <message>
         <location filename="../src/platform/desktop/UIComponents.cpp" line="115"/>
         <source>Mismatched save size</source>
-        <translation type="unfinished"></translation>
+        <translation>Sparfilens storlek stämmer inte</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/UIComponents.cpp" line="116"/>
@@ -2142,7 +2143,12 @@ Backups of the original save on the cartridge is made to the vault, however proc
 
 Would you like to proceed?
 </source>
-        <translation type="unfinished"></translation>
+        <translation>Emulatorkärnan rapporterar för närvarande en sparfilsstorlek som skiljer sig från den vi upptäckte på kassetten.
+
+Säkerhetskopior av den ursprungliga sparfilen på kassetten sparas i valvet, men om du fortsätter kan det skapa oanvändbara sparfiler.
+
+Vill du fortsätta?
+</translation>
     </message>
 </context>
 <context>
@@ -2151,29 +2157,29 @@ Would you like to proceed?
         <location filename="../src/platform/desktop/SavestateDropdownWidget.cpp" line="135"/>
         <location filename="../src/platform/desktop/SavestateDropdownWidget.cpp" line="293"/>
         <source>Save State</source>
-        <translation type="unfinished"></translation>
+        <translation>Snabbsparning</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/SavestateDropdownWidget.cpp" line="147"/>
         <location filename="../src/platform/desktop/SavestateDropdownWidget.cpp" line="294"/>
         <source>Load State</source>
-        <translation type="unfinished"></translation>
+        <translation>Läs in snabbsparning</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/SavestateDropdownWidget.cpp" line="160"/>
         <location filename="../src/platform/desktop/SavestateDropdownWidget.cpp" line="295"/>
         <source>Delete State</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort snabbsparning</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/SavestateDropdownWidget.cpp" line="265"/>
         <source>Slot %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Plats %1</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/SavestateDropdownWidget.cpp" line="278"/>
         <source>Empty</source>
-        <translation type="unfinished"></translation>
+        <translation>Tom</translation>
     </message>
 </context>
 <context>
@@ -2183,40 +2189,40 @@ Would you like to proceed?
         <location filename="../src/core/SavestateManager.cpp" line="106"/>
         <location filename="../src/core/SavestateManager.cpp" line="134"/>
         <source>Invalid slot number</source>
-        <translation type="unfinished"></translation>
+        <translation>Ogiltigt platsnummer</translation>
     </message>
     <message>
         <location filename="../src/core/SavestateManager.cpp" line="76"/>
         <location filename="../src/core/SavestateManager.cpp" line="110"/>
         <location filename="../src/core/SavestateManager.cpp" line="138"/>
         <source>No game loaded</source>
-        <translation type="unfinished"></translation>
+        <translation>Inget spel inläst</translation>
     </message>
     <message>
         <location filename="../src/core/SavestateManager.cpp" line="81"/>
         <source>Failed to create savestates directory</source>
-        <translation type="unfinished"></translation>
+        <translation>Kunde inte skapa mapp för snabbsparningar</translation>
     </message>
     <message>
         <location filename="../src/core/SavestateManager.cpp" line="94"/>
         <source>Failed to serialize state</source>
-        <translation type="unfinished"></translation>
+        <translation>Kunde inte serialisera tillståndet</translation>
     </message>
     <message>
         <location filename="../src/core/SavestateManager.cpp" line="117"/>
         <location filename="../src/core/SavestateManager.cpp" line="145"/>
         <source>No savestate in slot %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Ingen snabbsparning på plats %1</translation>
     </message>
     <message>
         <location filename="../src/core/SavestateManager.cpp" line="127"/>
         <source>Failed to load state</source>
-        <translation type="unfinished"></translation>
+        <translation>Kunde inte läsa in tillståndet</translation>
     </message>
     <message>
         <location filename="../src/core/SavestateManager.cpp" line="160"/>
         <source>Failed to delete state</source>
-        <translation type="unfinished"></translation>
+        <translation>Kunde inte ta bort tillståndet</translation>
     </message>
 </context>
 <context>
@@ -2224,37 +2230,37 @@ Would you like to proceed?
     <message>
         <location filename="../src/platform/desktop/CartDetailsWidget.cpp" line="761"/>
         <source>Perfect, highly recommended!</source>
-        <translation type="unfinished"></translation>
+        <translation>Perfekt, rekommenderas varmt!</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/CartDetailsWidget.cpp" line="763"/>
         <source>Awesome, definitely a must-play!</source>
-        <translation type="unfinished"></translation>
+        <translation>Fantastiskt, ett måste att spela!</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/CartDetailsWidget.cpp" line="765"/>
         <source>Great, would replay more than once.</source>
-        <translation type="unfinished"></translation>
+        <translation>Riktigt bra, värt att spela om mer än en gång.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/CartDetailsWidget.cpp" line="767"/>
         <source>Best enjoyed in a full playthrough.</source>
-        <translation type="unfinished"></translation>
+        <translation>Njuts bäst i ett helt genomspel.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/CartDetailsWidget.cpp" line="769"/>
         <source>Good, worth giving it a try.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bra, värt att prova.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/CartDetailsWidget.cpp" line="771"/>
         <source>Fun, but could be better.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kul, men kunde vara bättre.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/CartDetailsWidget.cpp" line="773"/>
         <source>Not our no. 1 favorite.</source>
-        <translation type="unfinished"></translation>
+        <translation>Inte vår främsta favorit.</translation>
     </message>
 </context>
 <context>
@@ -2262,18 +2268,19 @@ Would you like to proceed?
     <message>
         <location filename="../src/platform/desktop/SearchWindow.cpp" line="69"/>
         <source>Searching...</source>
-        <translation type="unfinished"></translation>
+        <translation>Söker ...</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/SearchWindow.cpp" line="70"/>
         <source>Looking for your Operator device.
 Please make sure it&apos;s connected.</source>
-        <translation type="unfinished"></translation>
+        <translation>Letar efter din Operator-enhet.
+Kontrollera att den är ansluten.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/SearchWindow.cpp" line="72"/>
         <source>Not working?</source>
-        <translation type="unfinished"></translation>
+        <translation>Fungerar det inte?</translation>
     </message>
 </context>
 <context>
@@ -2282,63 +2289,63 @@ Please make sure it&apos;s connected.</source>
         <location filename="../src/platform/desktop/SettingsWindow.cpp" line="88"/>
         <location filename="../src/platform/desktop/SettingsWindow.cpp" line="428"/>
         <source>General</source>
-        <translation type="unfinished"></translation>
+        <translation>Allmänt</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/SettingsWindow.cpp" line="91"/>
         <location filename="../src/platform/desktop/SettingsWindow.cpp" line="429"/>
         <source>Game</source>
-        <translation type="unfinished"></translation>
+        <translation>Spel</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/SettingsWindow.cpp" line="389"/>
         <source>Core Load Failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Kärnan kunde inte läsas in</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/SettingsWindow.cpp" line="389"/>
         <source>Failed to load core. Please load a valid core.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kärnan kunde inte läsas in. Läs in en giltig kärna.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/SettingsWindow.cpp" line="420"/>
         <source>Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Inställningar</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/SettingsWindow.cpp" line="421"/>
         <source>Playback</source>
-        <translation type="unfinished"></translation>
+        <translation>Playback</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/SettingsWindow.cpp" line="422"/>
         <source>Core Selector</source>
-        <translation type="unfinished"></translation>
+        <translation>Kärnväljare</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/SettingsWindow.cpp" line="423"/>
         <source>Emulator</source>
-        <translation type="unfinished"></translation>
+        <translation>Emulator</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/SettingsWindow.cpp" line="424"/>
         <source>Device</source>
-        <translation type="unfinished"></translation>
+        <translation>Enhet</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/SettingsWindow.cpp" line="425"/>
         <source>Controls</source>
-        <translation type="unfinished"></translation>
+        <translation>Kontroller</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/SettingsWindow.cpp" line="426"/>
         <source>Integrations</source>
-        <translation type="unfinished"></translation>
+        <translation>Integrationer</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/SettingsWindow.cpp" line="427"/>
         <source>Cheat Codes</source>
-        <translation type="unfinished"></translation>
+        <translation>Fuskkoder</translation>
     </message>
 </context>
 <context>
@@ -2346,17 +2353,17 @@ Please make sure it&apos;s connected.</source>
     <message>
         <location filename="../src/platform/desktop/SettingsWindowUIComponents.cpp" line="131"/>
         <source>Save</source>
-        <translation type="unfinished"></translation>
+        <translation>Spara</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/SettingsWindowUIComponents.cpp" line="132"/>
         <source>Restore defaults</source>
-        <translation type="unfinished"></translation>
+        <translation>Återställ standardinställningar</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/SettingsWindowUIComponents.cpp" line="133"/>
         <source>Rebind keys</source>
-        <translation type="unfinished"></translation>
+        <translation>Ändra tangentbindningar</translation>
     </message>
 </context>
 <context>
@@ -2366,13 +2373,13 @@ Please make sure it&apos;s connected.</source>
         <location filename="../src/platform/desktop/StartControllerWidget.cpp" line="156"/>
         <location filename="../src/platform/desktop/StartControllerWidget.cpp" line="162"/>
         <source>START</source>
-        <translation type="unfinished"></translation>
+        <translation>START</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/StartControllerWidget.cpp" line="151"/>
         <location filename="../src/platform/desktop/StartControllerWidget.cpp" line="162"/>
         <source>STOP</source>
-        <translation type="unfinished"></translation>
+        <translation>STOPP</translation>
     </message>
 </context>
 <context>
@@ -2380,12 +2387,12 @@ Please make sure it&apos;s connected.</source>
     <message>
         <location filename="../src/platform/desktop/StartControllerWidget.cpp" line="59"/>
         <source>Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Inställningar</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/StartControllerWidget.cpp" line="61"/>
         <source>Access the Vault for this game. The vault contains auto-saves created while playing the game.</source>
-        <translation type="unfinished"></translation>
+        <translation>Öppna valvet för det här spelet. Valvet innehåller autosparningar som skapats medan du spelat spelet.</translation>
     </message>
 </context>
 <context>
@@ -2393,22 +2400,22 @@ Please make sure it&apos;s connected.</source>
     <message>
         <location filename="../src/platform/desktop/TermsOfServiceWindow.cpp" line="78"/>
         <source>Error: Could not load Terms of Service.</source>
-        <translation type="unfinished"></translation>
+        <translation>Fel: Användarvillkoren kunde inte läsas in.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/TermsOfServiceWindow.cpp" line="206"/>
         <source>Terms of Service</source>
-        <translation type="unfinished"></translation>
+        <translation>Användarvillkor</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/TermsOfServiceWindow.cpp" line="232"/>
         <source>Decline</source>
-        <translation type="unfinished"></translation>
+        <translation>Avböj</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/TermsOfServiceWindow.cpp" line="236"/>
         <source>I Agree</source>
-        <translation type="unfinished"></translation>
+        <translation>Jag godkänner</translation>
     </message>
 </context>
 <context>
@@ -2416,13 +2423,14 @@ Please make sure it&apos;s connected.</source>
     <message>
         <location filename="../src/platform/desktop/UIComponents.cpp" line="87"/>
         <source>You are about to quit.</source>
-        <translation type="unfinished"></translation>
+        <translation>Du är på väg att avsluta.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/UIComponents.cpp" line="88"/>
         <source>Do you want to overwrite the current save to your cartridge?
 </source>
-        <translation type="unfinished"></translation>
+        <translation>Vill du skriva över den aktuella sparfilen på din kassett?
+</translation>
     </message>
 </context>
 <context>
@@ -2432,48 +2440,56 @@ Please make sure it&apos;s connected.</source>
         <source>Archive your game data securely on your computer, making a digital equivalent of your game collection. Game files are compatible with your chosen emulator.
 
 Tip: Our app runs a Data Integrity Test to make sure that you are getting an accurate reproduction of the cartridge’s content.</source>
-        <translation type="unfinished"></translation>
+        <translation>Arkivera dina speldata säkert på datorn och skapa en digital motsvarighet till din spelsamling. Spelfilerna är kompatibla med den emulator du väljer.
+
+Tips: Vår app kör ett dataintegritetstest för att säkerställa att du får en korrekt återgivning av kassettens innehåll.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/ViewRouter.cpp" line="141"/>
         <source>Backup Game</source>
-        <translation type="unfinished"></translation>
+        <translation>Säkerhetskopiera spel</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/ViewRouter.cpp" line="145"/>
         <source>Overwrite the game data on your cartridge with a different file. Make sure the game file you’re writing is valid by testing it in an external emulator first.
 
 Tip: Transfer your homebrew game to a cartridge and play it on original hardware.</source>
-        <translation type="unfinished"></translation>
+        <translation>Skriv över speldata på din kassett med en annan fil. Kontrollera att spelfilen du skriver är giltig genom att först testa den i en extern emulator.
+
+Tips: Överför ditt homebrew-spel till en kassett och spela det på originalhårdvara.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/ViewRouter.cpp" line="148"/>
         <source>Upload Homebrew</source>
-        <translation type="unfinished"></translation>
+        <translation>Ladda upp homebrew</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/ViewRouter.cpp" line="151"/>
         <source>Transfer a duplicate of your save data from the cartridge to your computer. You can then back up your save file or edit it with an external program.
 
 Tip: Transfer your save to the computer, replace the battery and transfer it back to the cartridge safely.</source>
-        <translation type="unfinished"></translation>
+        <translation>Överför en kopia av dina sparade data från kassetten till datorn. Du kan sedan säkerhetskopiera sparfilen eller redigera den med ett externt program.
+
+Tips: Överför sparfilen till datorn, byt batteri och för sedan tillbaka den till kassetten på ett säkert sätt.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/ViewRouter.cpp" line="156"/>
         <source>Backup Save</source>
-        <translation type="unfinished"></translation>
+        <translation>Säkerhetskopiera sparfil</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/ViewRouter.cpp" line="160"/>
         <source>Transfer a duplicate of your save data from your computer to the cartridge and pick the game up right where you left off.
 
 Tip: Use external programs to trigger in-game events or customize gameplay.</source>
-        <translation type="unfinished"></translation>
+        <translation>Överför en kopia av dina sparade data från datorn till kassetten och fortsätt spelet exakt där du slutade.
+
+Tips: Använd externa program för att utlösa händelser i spelet eller anpassa spelupplevelsen.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/ViewRouter.cpp" line="163"/>
         <source>Upload Save</source>
-        <translation type="unfinished"></translation>
+        <translation>Ladda upp sparfil</translation>
     </message>
 </context>
 <context>
@@ -2481,7 +2497,7 @@ Tip: Use external programs to trigger in-game events or customize gameplay.</sou
     <message>
         <location filename="../src/platform/desktop/Window.cpp" line="88"/>
         <source>Graphics Hardware Not Supported</source>
-        <translation type="unfinished"></translation>
+        <translation>Grafikhårdvaran stöds inte</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/Window.cpp" line="89"/>
@@ -2489,137 +2505,140 @@ Tip: Use external programs to trigger in-game events or customize gameplay.</sou
 
 This application requires OpenGL 3.2 or higher (or OpenGL ES 2.0+).
 Please ensure your graphics drivers are up to date.</source>
-        <translation type="unfinished"></translation>
+        <translation>Din grafikhårdvara uppfyller inte minimikraven.
+
+Det här programmet kräver OpenGL 3.2 eller senare (eller OpenGL ES 2.0+).
+Kontrollera att dina grafikdrivrutiner är uppdaterade.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/Window.cpp" line="249"/>
         <source>App Update Available</source>
-        <translation type="unfinished"></translation>
+        <translation>Appuppdatering tillgänglig</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/Window.cpp" line="249"/>
         <source>A new version of Playback is available.</source>
-        <translation type="unfinished"></translation>
+        <translation>En ny version av Playback är tillgänglig.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/Window.cpp" line="250"/>
         <source>Download</source>
-        <translation type="unfinished"></translation>
+        <translation>Ladda ner</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/Window.cpp" line="261"/>
         <source>Device Update Available</source>
-        <translation type="unfinished"></translation>
+        <translation>Enhetsuppdatering tillgänglig</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/Window.cpp" line="262"/>
         <source>A firmware update is available for your Operator device.</source>
-        <translation type="unfinished"></translation>
+        <translation>En firmware-uppdatering är tillgänglig för din Operator-enhet.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/Window.cpp" line="263"/>
         <source>Update</source>
-        <translation type="unfinished"></translation>
+        <translation>Uppdatera</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/Window.cpp" line="655"/>
         <source>Main Hub</source>
-        <translation type="unfinished"></translation>
+        <translation>Huvudnav</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/Window.cpp" line="656"/>
         <source>Choose between playing the game, transferring data or accessing more info.</source>
-        <translation type="unfinished"></translation>
+        <translation>Välj mellan att spela spelet, överföra data eller komma åt mer information.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/Window.cpp" line="663"/>
         <source>Play Tab</source>
-        <translation type="unfinished"></translation>
+        <translation>Fliken Spela</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/Window.cpp" line="664"/>
         <source>Learn more about your game, or have a play session on the in-app emulator.</source>
-        <translation type="unfinished"></translation>
+        <translation>Läs mer om ditt spel eller kör en spelsession i emulatorn i appen.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/Window.cpp" line="671"/>
         <source>Start Play Session</source>
-        <translation type="unfinished"></translation>
+        <translation>Starta Spelsession</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/Window.cpp" line="672"/>
         <source>Launch the in-app emulator for an authentic, accurate experience.</source>
-        <translation type="unfinished"></translation>
+        <translation>Starta emulatorn i appen för en autentisk och exakt upplevelse.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/Window.cpp" line="679"/>
         <source>Playback Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Playback-inställningar</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/Window.cpp" line="680"/>
         <source>Configure parameters to make the app your own.</source>
-        <translation type="unfinished"></translation>
+        <translation>Konfigurera parametrar för att göra appen till din egen.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/Window.cpp" line="687"/>
         <source>Save Vault</source>
-        <translation type="unfinished"></translation>
+        <translation>Sparfilsvalv</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/Window.cpp" line="688"/>
         <source>Access and manage saves created automatically in the &lt;a href=&quot;#&quot; style=&apos;color: white&apos;&gt;Save Vault&lt;/a&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kom åt och hantera sparfiler som skapats automatiskt i &lt;a href=&quot;#&quot; style=&apos;color: white&apos;&gt;Sparfilsvalvet&lt;/a&gt;.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/Window.cpp" line="697"/>
         <source>Device Switcher</source>
-        <translation type="unfinished"></translation>
+        <translation>Enhetsväljare</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/Window.cpp" line="698"/>
         <source>Select between multiple Operator devices connected to the same computer.</source>
-        <translation type="unfinished"></translation>
+        <translation>Välj mellan flera Operator-enheter som är anslutna till samma dator.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/Window.cpp" line="705"/>
         <source>Counterfeit Detection</source>
-        <translation type="unfinished"></translation>
+        <translation>Piratkopiedetektering</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/Window.cpp" line="706"/>
         <source>Your cartridge has been analysed for some of the most common counterfeit markers.</source>
-        <translation type="unfinished"></translation>
+        <translation>Din kassett har analyserats för några av de vanligaste tecknen på förfalskning.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/Window.cpp" line="713"/>
         <source>Data Tab</source>
-        <translation type="unfinished"></translation>
+        <translation>Fliken Data</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/Window.cpp" line="714"/>
         <source>Backup, transfer and manage official/homebrew game and save data.</source>
-        <translation type="unfinished"></translation>
+        <translation>Säkerhetskopiera, överför och hantera officiella spel, homebrew-spel och sparade data.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/Window.cpp" line="721"/>
         <source>Backup Save</source>
-        <translation type="unfinished"></translation>
+        <translation>Säkerhetskopiera sparfil</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/Window.cpp" line="722"/>
         <source>Create digital copies of your save data.</source>
-        <translation type="unfinished"></translation>
+        <translation>Skapa digitala kopior av dina sparade data.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/Window.cpp" line="729"/>
         <source>Start Backup Session</source>
-        <translation type="unfinished"></translation>
+        <translation>Starta Säkerhetskopiering</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/Window.cpp" line="730"/>
         <source>Begin archiving the save data.</source>
-        <translation type="unfinished"></translation>
+        <translation>Börja arkivera de sparade data.</translation>
     </message>
 </context>
 </TS>
