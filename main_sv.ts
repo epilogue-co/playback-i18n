@@ -2145,7 +2145,7 @@ Would you like to proceed?
 </source>
         <translation>Emulatorkärnan rapporterar för närvarande en sparfilsstorlek som skiljer sig från den vi upptäckte på kassetten.
 
-Säkerhetskopior av den ursprungliga sparfilen på kassetten sparas i vault, men om du fortsätter kan det skapa oanvändbara sparfiler.
+Säkerhetskopior av den ursprungliga sparfilen på kassetten sparas i Vault, men om du fortsätter kan det skapa oanvändbara sparfiler.
 
 Vill du fortsätta?
 </translation>
