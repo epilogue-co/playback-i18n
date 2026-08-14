@@ -1549,12 +1549,12 @@ Du kan prova att rengöra kassetten och sätta i den i enheten igen.
     <message>
         <location filename="../src/platform/desktop/NavbarLogoDropdown.cpp" line="176"/>
         <source>Vault</source>
-        <translation>Valv</translation>
+        <translation>Vault</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/NavbarLogoDropdown.cpp" line="177"/>
         <source>About</source>
-        <translation>om</translation>
+        <translation>Om</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/NavbarLogoDropdown.cpp" line="178"/>
@@ -2145,7 +2145,7 @@ Would you like to proceed?
 </source>
         <translation>Emulatorkärnan rapporterar för närvarande en sparfilsstorlek som skiljer sig från den vi upptäckte på kassetten.
 
-Säkerhetskopior av den ursprungliga sparfilen på kassetten sparas i valvet, men om du fortsätter kan det skapa oanvändbara sparfiler.
+Säkerhetskopior av den ursprungliga sparfilen på kassetten sparas i vault, men om du fortsätter kan det skapa oanvändbara sparfiler.
 
 Vill du fortsätta?
 </translation>
@@ -2392,7 +2392,7 @@ Kontrollera att den är ansluten.</translation>
     <message>
         <location filename="../src/platform/desktop/StartControllerWidget.cpp" line="61"/>
         <source>Access the Vault for this game. The vault contains auto-saves created while playing the game.</source>
-        <translation>Öppna valvet för det här spelet. Valvet innehåller autosparningar som skapats medan du spelat spelet.</translation>
+        <translation>Öppna Vault för det här spelet. Valvet innehåller autosparningar som skapats medan du spelat spelet.</translation>
     </message>
 </context>
 <context>
@@ -2583,12 +2583,12 @@ Kontrollera att dina grafikdrivrutiner är uppdaterade.</translation>
     <message>
         <location filename="../src/platform/desktop/Window.cpp" line="687"/>
         <source>Save Vault</source>
-        <translation>Sparfilsvalv</translation>
+        <translation>Sparfils Vault</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/Window.cpp" line="688"/>
         <source>Access and manage saves created automatically in the &lt;a href=&quot;#&quot; style=&apos;color: white&apos;&gt;Save Vault&lt;/a&gt;.</source>
-        <translation>Kom åt och hantera sparfiler som skapats automatiskt i &lt;a href=&quot;#&quot; style=&apos;color: white&apos;&gt;Sparfilsvalvet&lt;/a&gt;.</translation>
+        <translation>Kom åt och hantera sparfiler som skapats automatiskt i &lt;a href=&quot;#&quot; style=&apos;color: white&apos;&gt;Sparfils Vault&lt;/a&gt;.</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/Window.cpp" line="697"/>
