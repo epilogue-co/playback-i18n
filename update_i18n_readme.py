@@ -7,18 +7,18 @@ import xml.etree.ElementTree as ET
 from pathlib import Path
 
 LANGUAGES = {
-    "main_de.ts": ("🇩🇪", "German", "Human"),
-    "main_el.ts": ("🇬🇷", "Greek", "Human"),
-    "main_zh.ts": ("🇨🇳", "Simplified Chinese", "Human"),
-    "main_sv.ts": ("🇸🇪", "Swedish", "Human"),
-    "main_fr.ts": ("🇫🇷", "French", "Human"),
-    "main_es.ts": ("🇪🇸", "Spanish", "Human"),
+    "main_de.ts": ("🇩🇪", "German", "AI"),
+    "main_el.ts": ("🇬🇷", "Greek", "AI"),
+    "main_zh.ts": ("🇨🇳", "Simplified Chinese", "AI"),
+    "main_sv.ts": ("🇸🇪", "Swedish", "AI"),
+    "main_fr.ts": ("🇫🇷", "French", "AI"),
+    "main_es.ts": ("🇪🇸", "Spanish", "AI"),
     "main_it.ts": ("🇮🇹", "Italian", "AI"),
-    "main_ja.ts": ("🇯🇵", "Japanese", "Human"),
-    "main_ko.ts": ("🇰🇷", "Korean", "Human"),
+    "main_ja.ts": ("🇯🇵", "Japanese", "AI"),
+    "main_ko.ts": ("🇰🇷", "Korean", "AI"),
     "main_nl.ts": ("🇳🇱", "Dutch", "AI"),
     "main_pt.ts": ("🇵🇹", "Portuguese", "AI"),
-    "main_ro.ts": ("🇷🇴", "Romanian", "Human"),
+    "main_ro.ts": ("🇷🇴", "Romanian", "AI"),
 }
 
 
