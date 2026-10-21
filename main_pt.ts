@@ -4293,6 +4293,16 @@ Verifique se os contatos estão limpos e se ele está bem encaixado.</translatio
         <source>Enter both your username and password.</source>
         <translation>Digite seu nome de usuário e sua senha.</translation>
     </message>
+    <message>
+        <location filename="../src/runtime/PlaybackOSRetroAchievements.cpp" line="19"/>
+        <source>Could not sign in to RetroAchievements. The service may be unavailable. Check your connection and try again later.</source>
+        <translation>Não foi possível entrar no RetroAchievements. O serviço pode estar indisponível. Verifique sua conexão e tente novamente mais tarde.</translation>
+    </message>
+    <message>
+        <location filename="../src/runtime/PlaybackOSRetroAchievements.cpp" line="22"/>
+        <source>Could not sign in to RetroAchievements. Please try again.</source>
+        <translation>Não foi possível entrar no RetroAchievements. Tente novamente.</translation>
+    </message>
 </context>
 <context>
     <name>PlaybackOSSaveShutdownController</name>

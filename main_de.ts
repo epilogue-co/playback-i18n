@@ -4289,6 +4289,16 @@ Prüfen Sie, ob die Kontakte sauber sind und das Modul fest sitzt.</translation>
         <source>Enter both your username and password.</source>
         <translation>Geben Sie Ihren Benutzernamen und Ihr Passwort ein.</translation>
     </message>
+    <message>
+        <location filename="../src/runtime/PlaybackOSRetroAchievements.cpp" line="19"/>
+        <source>Could not sign in to RetroAchievements. The service may be unavailable. Check your connection and try again later.</source>
+        <translation>Die Anmeldung bei RetroAchievements ist fehlgeschlagen. Der Dienst ist möglicherweise nicht verfügbar. Überprüfen Sie Ihre Verbindung und versuchen Sie es später erneut.</translation>
+    </message>
+    <message>
+        <location filename="../src/runtime/PlaybackOSRetroAchievements.cpp" line="22"/>
+        <source>Could not sign in to RetroAchievements. Please try again.</source>
+        <translation>Die Anmeldung bei RetroAchievements ist fehlgeschlagen. Bitte versuchen Sie es erneut.</translation>
+    </message>
 </context>
 <context>
     <name>PlaybackOSSaveShutdownController</name>

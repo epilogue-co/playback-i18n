@@ -4293,6 +4293,16 @@ Check the pins are clean and it&apos;s seated securely.</source>
         <source>Enter both your username and password.</source>
         <translation>ユーザー名とパスワードの両方を入力してください。</translation>
     </message>
+    <message>
+        <location filename="../src/runtime/PlaybackOSRetroAchievements.cpp" line="19"/>
+        <source>Could not sign in to RetroAchievements. The service may be unavailable. Check your connection and try again later.</source>
+        <translation>RetroAchievementsにログインできませんでした。サービスを利用できない可能性があります。ネットワーク接続を確認して、しばらくしてからもう一度お試しください。</translation>
+    </message>
+    <message>
+        <location filename="../src/runtime/PlaybackOSRetroAchievements.cpp" line="22"/>
+        <source>Could not sign in to RetroAchievements. Please try again.</source>
+        <translation>RetroAchievementsにログインできませんでした。もう一度お試しください。</translation>
+    </message>
 </context>
 <context>
     <name>PlaybackOSSaveShutdownController</name>

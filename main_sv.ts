@@ -3946,6 +3946,16 @@ Kontrollera att kontakterna är rena och att kassetten sitter ordentligt.</trans
         <source>Enter both your username and password.</source>
         <translation>Ange både ditt användarnamn och lösenord.</translation>
     </message>
+    <message>
+        <location filename="../src/runtime/PlaybackOSRetroAchievements.cpp" line="19"/>
+        <source>Could not sign in to RetroAchievements. The service may be unavailable. Check your connection and try again later.</source>
+        <translation>Det gick inte att logga in på RetroAchievements. Tjänsten kan vara otillgänglig. Kontrollera anslutningen och försök igen senare.</translation>
+    </message>
+    <message>
+        <location filename="../src/runtime/PlaybackOSRetroAchievements.cpp" line="22"/>
+        <source>Could not sign in to RetroAchievements. Please try again.</source>
+        <translation>Det gick inte att logga in på RetroAchievements. Försök igen.</translation>
+    </message>
 </context>
 <context>
     <name>PlaybackOSSaveShutdownController</name>

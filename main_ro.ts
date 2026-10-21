@@ -4293,6 +4293,16 @@ Verifică dacă pinii sunt curați și caseta este introdusă bine.</translation
         <source>Enter both your username and password.</source>
         <translation>Introdu atât numele de utilizator, cât și parola.</translation>
     </message>
+    <message>
+        <location filename="../src/runtime/PlaybackOSRetroAchievements.cpp" line="19"/>
+        <source>Could not sign in to RetroAchievements. The service may be unavailable. Check your connection and try again later.</source>
+        <translation>Autentificarea la RetroAchievements nu a reușit. Este posibil ca serviciul să nu fie disponibil. Verifică-ți conexiunea și încearcă din nou mai târziu.</translation>
+    </message>
+    <message>
+        <location filename="../src/runtime/PlaybackOSRetroAchievements.cpp" line="22"/>
+        <source>Could not sign in to RetroAchievements. Please try again.</source>
+        <translation>Autentificarea la RetroAchievements nu a reușit. Încearcă din nou.</translation>
+    </message>
 </context>
 <context>
     <name>PlaybackOSSaveShutdownController</name>

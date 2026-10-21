@@ -3969,6 +3969,16 @@ Check the pins are clean and it&apos;s seated securely.</source>
         <source>Enter both your username and password.</source>
         <translation>Εισαγάγετε και το όνομα χρήστη και τον κωδικό πρόσβασής σας.</translation>
     </message>
+    <message>
+        <location filename="../src/runtime/PlaybackOSRetroAchievements.cpp" line="19"/>
+        <source>Could not sign in to RetroAchievements. The service may be unavailable. Check your connection and try again later.</source>
+        <translation>Δεν ήταν δυνατή η σύνδεση στο RetroAchievements. Η υπηρεσία ενδέχεται να μην είναι διαθέσιμη. Ελέγξτε τη σύνδεσή σας και δοκιμάστε ξανά αργότερα.</translation>
+    </message>
+    <message>
+        <location filename="../src/runtime/PlaybackOSRetroAchievements.cpp" line="22"/>
+        <source>Could not sign in to RetroAchievements. Please try again.</source>
+        <translation>Δεν ήταν δυνατή η σύνδεση στο RetroAchievements. Παρακαλούμε δοκιμάστε ξανά.</translation>
+    </message>
 </context>
 <context>
     <name>PlaybackOSSaveShutdownController</name>

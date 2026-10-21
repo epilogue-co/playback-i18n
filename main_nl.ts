@@ -4293,6 +4293,16 @@ Controleer of de contactpunten schoon zijn en de cartridge stevig vastzit.</tran
         <source>Enter both your username and password.</source>
         <translation>Vul zowel je gebruikersnaam als je wachtwoord in.</translation>
     </message>
+    <message>
+        <location filename="../src/runtime/PlaybackOSRetroAchievements.cpp" line="19"/>
+        <source>Could not sign in to RetroAchievements. The service may be unavailable. Check your connection and try again later.</source>
+        <translation>Inloggen bij RetroAchievements is mislukt. De dienst is mogelijk niet beschikbaar. Controleer je verbinding en probeer het later opnieuw.</translation>
+    </message>
+    <message>
+        <location filename="../src/runtime/PlaybackOSRetroAchievements.cpp" line="22"/>
+        <source>Could not sign in to RetroAchievements. Please try again.</source>
+        <translation>Inloggen bij RetroAchievements is mislukt. Probeer het opnieuw.</translation>
+    </message>
 </context>
 <context>
     <name>PlaybackOSSaveShutdownController</name>
