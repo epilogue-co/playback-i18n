@@ -331,6 +331,26 @@ Do not remove the cartridge while any operation is running.</source>
         <source>Rumble</source>
         <translation>진동</translation>
     </message>
+    <message>
+        <location filename="../src/settings/PlaybackOSCorePresentation.cpp" line="114"/>
+        <source>GBA Wireless Adapter</source>
+        <translation>GBA 무선 어댑터</translation>
+    </message>
+    <message>
+        <location filename="../src/settings/PlaybackOSCorePresentation.cpp" line="112"/>
+        <source>Link Cable</source>
+        <translation>통신 케이블</translation>
+    </message>
+    <message>
+        <location filename="../src/settings/PlaybackOSCorePresentation.cpp" line="110"/>
+        <source>Online Multiplayer</source>
+        <translation>온라인 멀티플레이</translation>
+    </message>
+    <message>
+        <location filename="../src/settings/PlaybackOSCorePresentation.cpp" line="108"/>
+        <source>Rewind</source>
+        <translation>되감기</translation>
+    </message>
 </context>
 <context>
     <name>CoreSelectorScreen</name>
@@ -365,6 +385,11 @@ Do not remove the cartridge while any operation is running.</source>
         <location filename="../src/platform/desktop/CoreSelectorScreen.cpp" line="260"/>
         <source>Your own core</source>
         <translation>나만의 코어</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/sections/SettingsDescriptions.qml" line="6"/>
+        <source>You can change the emulation core for your Operator device.</source>
+        <translation>Operator 기기의 에뮬레이션 코어를 변경할 수 있습니다.</translation>
     </message>
 </context>
 <context>
@@ -732,6 +757,26 @@ Do not remove the cartridge while any operation is running.</source>
         <source>Choose one of the options below to set the status of your device’s LED light. Select ‘Static’ to keep the light on or ‘Dark’ to shut it off. Pulse and Strobe coming soon.</source>
         <translation>아래 옵션 중 하나를 선택하여 디바이스의 LED 조명 상태를 설정합니다. 조명을 계속 켜려면 &apos;정적&apos;을 선택하고, 끄려면 &apos;어둡게&apos;를 선택합니다. 펄스 및 스트로브가 곧 출시됩니다.</translation>
     </message>
+    <message>
+        <location filename="../playback/src/platform/common/settings/DeviceSettingsText.cpp" line="18"/>
+        <source>Dark</source>
+        <translation>어둡게</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/settings/DeviceSettingsText.cpp" line="20"/>
+        <source>Pulse</source>
+        <translation>펄스</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/settings/DeviceSettingsText.cpp" line="16"/>
+        <source>Static</source>
+        <translation>정적</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/settings/DeviceSettingsText.cpp" line="22"/>
+        <source>Strobe</source>
+        <translation>스트로브</translation>
+    </message>
 </context>
 <context>
     <name>DeviceSwitcherDropdown</name>
@@ -1042,6 +1087,16 @@ OpenGL 세부 정보:
         <source>Enable in-game integrity checks for save data. This feature is still in beta and may not work with all games.</source>
         <translation>게임 내 저장 데이터의 무결성 검사를 활성화합니다. 이 기능은 아직 베타 버전이므로 모든 게임에서 작동하지 않을 수 있습니다.</translation>
     </message>
+    <message>
+        <location filename="../playback/src/platform/common/settings/EmulatorSettingsText.cpp" line="31"/>
+        <source>Controls fast-forward and rewind speed. Speeds above 2x can cause unexpected bugs in combination with the &apos;Autosave to cartridge&apos; feature; toggle fast-forward off and on after changing it.</source>
+        <translation>빨리 감기와 되감기 속도를 설정합니다. 2배를 초과하는 속도는 &apos;카트리지에 자동 저장&apos; 기능과 함께 사용할 때 예기치 않은 오류를 일으킬 수 있습니다. 변경 후 빨리 감기를 껐다가 다시 켜세요.</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/settings/EmulatorSettingsText.cpp" line="22"/>
+        <source>Fast-forward and rewind speed</source>
+        <translation>빨리 감기 및 되감기 속도</translation>
+    </message>
 </context>
 <context>
     <name>FirmwareUpdateDisclaimer</name>
@@ -1330,6 +1385,11 @@ please do not disconnect the device.</source>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="298"/>
         <source>Link Playback to your Discord account, and share the exact game you’re playing with your friends!</source>
         <translation>Playback을 Discord 계정과 연동해, 지금 플레이 중인 게임을 친구에게 공유하세요!</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/settings/IntegrationsSettingsText.cpp" line="28"/>
+        <source>Log in with your %1 account.</source>
+        <translation>%1 계정으로 로그인하세요.</translation>
     </message>
 </context>
 <context>
@@ -2073,6 +2133,61 @@ If you&apos;d like to easily remove all the pictures from your camera, without h
         <source>Configure how transfers are handled in the Data section of Playback.</source>
         <translation>Playback의 데이터 섹션에서 전송이 처리되는 방식을 구성합니다.</translation>
     </message>
+    <message>
+        <location filename="../playback/src/platform/common/settings/PlaybackSettingsText.cpp" line="49"/>
+        <source>Allows you to change the language in which the Playback software is presented.</source>
+        <translation>Playback 소프트웨어의 표시 언어를 변경할 수 있습니다.</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/settings/PlaybackSettingsText.cpp" line="104"/>
+        <source>Always Off</source>
+        <translation>항상 숨김</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/settings/PlaybackSettingsText.cpp" line="102"/>
+        <source>Always On</source>
+        <translation>항상 표시</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/settings/PlaybackSettingsText.cpp" line="103"/>
+        <source>Auto-Hide</source>
+        <translation>자동 숨김</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/settings/PlaybackSettingsText.cpp" line="39"/>
+        <source>Confirm Before Exiting Emulation</source>
+        <translation>에뮬레이션 종료 전 확인</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/settings/PlaybackSettingsText.cpp" line="101"/>
+        <source>Disabled</source>
+        <translation>비활성화됨</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/settings/PlaybackSettingsText.cpp" line="100"/>
+        <source>Enabled</source>
+        <translation>활성화됨</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/settings/PlaybackSettingsText.cpp" line="113"/>
+        <source>Open Log Directory</source>
+        <translation>로그 디렉터리 열기</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/settings/PlaybackSettingsText.cpp" line="41"/>
+        <source>Start Emulator in Fullscreen</source>
+        <translation>에뮬레이터를 전체 화면으로 시작</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/settings/PlaybackSettingsText.cpp" line="88"/>
+        <source>When enabled, leaving a game asks for confirmation first. A game with unsaved changes always asks, regardless of this setting.</source>
+        <translation>활성화하면 게임을 종료하기 전에 확인합니다. 저장하지 않은 변경 사항이 있는 게임은 이 설정에 관계없이 항상 확인합니다.</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/settings/PlaybackSettingsText.cpp" line="91"/>
+        <source>When enabled, starting a game puts the window into fullscreen automatically. Exiting emulation restores the previous window size.</source>
+        <translation>활성화하면 게임을 시작할 때 창이 자동으로 전체 화면으로 전환됩니다. 에뮬레이션을 종료하면 이전 창 크기로 돌아갑니다.</translation>
+    </message>
 </context>
 <context>
     <name>PlaybackSettingsScreenOption</name>
@@ -2159,6 +2274,137 @@ If you&apos;d like to easily remove all the pictures from your camera, without h
     <message>
         <source>Disabled</source>
         <translation type="obsolete">비활성화됨</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="118"/>
+        <source>Can&apos;t reach netplay</source>
+        <translation>넷플레이에 연결할 수 없음</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="128"/>
+        <source>Cartridge removed</source>
+        <translation>카트리지가 분리됨</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="106"/>
+        <source>Cartridge was removed. Netplay session ended.</source>
+        <translation>카트리지가 분리되어 넷플레이 세션이 종료되었습니다.</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="124"/>
+        <location filename="../playback/src/core/ErrorMessages.h" line="125"/>
+        <source>Connection failed</source>
+        <translation>연결 실패</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="103"/>
+        <source>Couldn&apos;t load the game state from your peer. You may be running different Playback versions — update both sides and try again.</source>
+        <translation>상대방의 게임 상태를 불러오지 못했습니다. Playback 버전이 서로 다를 수 있습니다. 양쪽 모두 업데이트한 후 다시 시도하세요.</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="83"/>
+        <source>Couldn&apos;t reach the netplay relay. Check your internet connection and try again.</source>
+        <translation>넷플레이 중계 서버에 연결하지 못했습니다. 인터넷 연결을 확인하고 다시 시도하세요.</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="127"/>
+        <source>Couldn&apos;t sync</source>
+        <translation>동기화 실패</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="123"/>
+        <source>Different core</source>
+        <translation>다른 코어</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="122"/>
+        <source>Different game</source>
+        <translation>다른 게임</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="129"/>
+        <source>Different game version</source>
+        <translation>다른 게임 버전</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="99"/>
+        <source>Direct peer connection failed. Your network may block WebRTC.</source>
+        <translation>상대방과의 직접 연결에 실패했습니다. 네트워크에서 WebRTC를 차단하고 있을 수 있습니다.</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="101"/>
+        <source>Game state diverged between peers. The session can&apos;t continue.</source>
+        <translation>플레이어 간 게임 상태가 달라졌습니다. 세션을 계속할 수 없습니다.</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="64"/>
+        <source>Netplay error</source>
+        <translation>넷플레이 오류</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="126"/>
+        <source>Out of sync</source>
+        <translation>동기화 불일치</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="120"/>
+        <source>Room full</source>
+        <translation>방이 가득 참</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="87"/>
+        <source>Room is full. Ask the host to create a new room with more slots.</source>
+        <translation>방이 가득 찼습니다. 호스트에게 정원이 더 많은 새 방을 만들어 달라고 요청하세요.</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="119"/>
+        <source>Room not found</source>
+        <translation>방을 찾을 수 없음</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="85"/>
+        <source>Room not found. The code may have expired or been mistyped.</source>
+        <translation>방을 찾을 수 없습니다. 코드가 만료되었거나 잘못 입력되었을 수 있습니다.</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="97"/>
+        <source>Signaling connection failed. Check your firewall and try again.</source>
+        <translation>시그널링 연결에 실패했습니다. 방화벽을 확인하고 다시 시도하세요.</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="114"/>
+        <source>Something went wrong with netplay. Restart Playback and try again.</source>
+        <translation>넷플레이에 문제가 발생했습니다. Playback을 다시 시작한 후 다시 시도하세요.</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="108"/>
+        <source>The netplay relay responded but the message was malformed. Try again in a moment.</source>
+        <translation>넷플레이 중계 서버가 응답했지만 메시지 형식이 잘못되었습니다. 잠시 후 다시 시도하세요.</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="121"/>
+        <source>Version mismatch</source>
+        <translation>버전 불일치</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="94"/>
+        <source>You&apos;re using a different emulator core than the host. Open Settings &gt; Core and make sure you both selected the same core and have the same core version.</source>
+        <translation>호스트와 다른 에뮬레이터 코어를 사용 중입니다. 설정 &gt; 코어를 열고 양쪽 모두 동일한 코어와 동일한 코어 버전을 선택했는지 확인하세요.</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="91"/>
+        <source>You&apos;re using a different game than the host. Please check that the cartridge, game region, and game revision match.</source>
+        <translation>호스트와 다른 게임을 사용 중입니다. 카트리지, 게임 지역, 게임 리비전이 일치하는지 확인하세요.</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="110"/>
+        <source>Your cartridge and your peer&apos;s cartridge appear to be different versions of the same game (different revision, region, or translation patch), so they set up the link cable differently. Try using cartridges from matching game revisions.</source>
+        <translation>자신과 상대방의 카트리지가 같은 게임의 서로 다른 버전(리비전, 지역 또는 번역 패치 차이)으로 보여 통신 케이블 설정이 달라집니다. 게임 리비전이 일치하는 카트리지를 사용해 보세요.</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="89"/>
+        <source>Your peer is running a different netplay version. Please update Playback on both sides.</source>
+        <translation>상대방이 다른 넷플레이 버전을 사용 중입니다. 양쪽 모두 Playback을 업데이트하세요.</translation>
     </message>
 </context>
 <context>
@@ -2523,6 +2769,31 @@ Would you like to proceed?
         <location filename="../src/core/SavestateManager.cpp" line="160"/>
         <source>Failed to delete state</source>
         <translation>상태 삭제 실패</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/SavestateManager.cpp" line="289"/>
+        <source>Core does not support savestates</source>
+        <translation>코어가 상태 저장을 지원하지 않습니다</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/SavestateManager.cpp" line="304"/>
+        <source>Core rejected the savestate (it may be from a different core version)</source>
+        <translation>코어가 저장 상태를 거부했습니다(다른 버전의 코어로 생성되었을 수 있습니다)</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/SavestateManager.cpp" line="273"/>
+        <source>Could not read savestate file</source>
+        <translation>저장 상태 파일을 읽을 수 없습니다</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/SavestateManager.cpp" line="282"/>
+        <source>Savestate file is empty</source>
+        <translation>저장 상태 파일이 비어 있습니다</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/SavestateManager.cpp" line="303"/>
+        <source>Savestate was created by a different core version and can&apos;t be loaded</source>
+        <translation>다른 버전의 코어로 생성된 저장 상태이므로 불러올 수 없습니다</translation>
     </message>
 </context>
 <context>
@@ -2986,6 +3257,2335 @@ Please ensure your graphics drivers are up to date.</source>
         <location filename="../src/platform/desktop/Window.cpp" line="730"/>
         <source>Begin archiving the save data.</source>
         <translation>저장 데이터 보관을 시작합니다.</translation>
+    </message>
+</context>
+<context>
+    <name>AchievementList</name>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementRow.qml" line="18"/>
+        <source>%1 Casual point</source>
+        <translation>일반 포인트 %1점</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementRow.qml" line="19"/>
+        <source>%1 Casual points</source>
+        <translation>일반 포인트 %1점</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementRow.qml" line="20"/>
+        <source>%1 Hardcore point</source>
+        <translation>하드코어 포인트 %1점</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementRow.qml" line="21"/>
+        <source>%1 Hardcore points</source>
+        <translation>하드코어 포인트 %1점</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/AchievementsNavigation.qml" line="116"/>
+        <source>%1 doesn’t support RetroAchievements.</source>
+        <translation>%1 코어는 RetroAchievements를 지원하지 않습니다.</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementRow.qml" line="16"/>
+        <source>+%1 point</source>
+        <translation>+%1점</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementRow.qml" line="17"/>
+        <source>+%1 points</source>
+        <translation>+%1점</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementRow.qml" line="39"/>
+        <location filename="../src/qml/views/components/games/AchievementRow.qml" line="146"/>
+        <source>Achievement</source>
+        <translation>업적</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/AchievementsNavigation.qml" line="168"/>
+        <source>All by rarity</source>
+        <translation>희귀도순 전체 보기</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/common/RelativeDateFormatter.qml" line="24"/>
+        <source>Date unavailable</source>
+        <translation>날짜를 확인할 수 없음</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/AchievementsNavigation.qml" line="75"/>
+        <source>Game version not recognized</source>
+        <translation>인식되지 않는 게임 버전</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/AchievementsNavigation.qml" line="164"/>
+        <source>In progress</source>
+        <translation>진행 중</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/AchievementsNavigation.qml" line="106"/>
+        <source>Loading...</source>
+        <translation>불러오는 중...</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/AchievementsNavigation.qml" line="96"/>
+        <source>Log in to view your achievements and track your progress.</source>
+        <translation>로그인하여 업적을 확인하고 진행 상황을 추적하세요.</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementList.qml" line="15"/>
+        <source>No achievements are in progress.</source>
+        <translation>진행 중인 업적이 없습니다.</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/AchievementsNavigation.qml" line="85"/>
+        <source>No achievements available</source>
+        <translation>이용 가능한 업적 없음</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementList.qml" line="17"/>
+        <source>No achievements have been unlocked.</source>
+        <translation>아직 달성한 업적이 없습니다.</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementList.qml" line="18"/>
+        <source>No locked achievements remain.</source>
+        <translation>미달성 업적이 남아 있지 않습니다.</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/AchievementsNavigation.qml" line="115"/>
+        <source>Please choose a compatible emulation core</source>
+        <translation>호환되는 에뮬레이션 코어를 선택하세요</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/AchievementsNavigation.qml" line="76"/>
+        <source>RetroAchievements doesn’t recognize this version of the game ☹</source>
+        <translation>RetroAchievements에서 이 게임 버전을 인식하지 못합니다 ☹</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/AchievementsNavigation.qml" line="86"/>
+        <source>Sadly, this game has no RetroAchievements to unlock</source>
+        <translation>안타깝게도 이 게임에는 달성할 RetroAchievements 업적이 없습니다</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/common/RelativeDateFormatter.qml" line="26"/>
+        <source>Today</source>
+        <translation>오늘</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/common/RelativeDateFormatter.qml" line="28"/>
+        <source>Yesterday</source>
+        <translation>어제</translation>
+    </message>
+</context>
+<context>
+    <name>AchievementRow</name>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementRow.qml" line="336"/>
+        <source>%1%</source>
+        <translation>%1%</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementRow.qml" line="231"/>
+        <source>(%1%)</source>
+        <translation>(%1%)</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementRow.qml" line="241"/>
+        <source>Last played</source>
+        <translation>마지막 플레이</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementRow.qml" line="178"/>
+        <source>You gained</source>
+        <translation>획득:</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementRow.qml" line="275"/>
+        <source>You&apos;re part of %1 players who unlocked this!</source>
+        <translation>전체 플레이어 중 이 업적을 달성한 %1에 포함됩니다!</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementRow.qml" line="194"/>
+        <source>and</source>
+        <translation>및</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementRow.qml" line="345"/>
+        <source>of players</source>
+        <translation>의 플레이어</translation>
+    </message>
+</context>
+<context>
+    <name>AchievementSummary</name>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementSummary.qml" line="32"/>
+        <location filename="../src/qml/views/components/games/AchievementSummary.qml" line="272"/>
+        <source>%1 Casual point</source>
+        <translation>일반 포인트 %1점</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementSummary.qml" line="33"/>
+        <location filename="../src/qml/views/components/games/AchievementSummary.qml" line="272"/>
+        <source>%1 Casual points</source>
+        <translation>일반 포인트 %1점</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementSummary.qml" line="34"/>
+        <location filename="../src/qml/views/components/games/AchievementSummary.qml" line="270"/>
+        <source>%1 Hardcore point</source>
+        <translation>하드코어 포인트 %1점</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementSummary.qml" line="35"/>
+        <location filename="../src/qml/views/components/games/AchievementSummary.qml" line="270"/>
+        <source>%1 Hardcore points</source>
+        <translation>하드코어 포인트 %1점</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementSummary.qml" line="289"/>
+        <source>%1 point available</source>
+        <translation>획득 가능한 포인트 %1점</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementSummary.qml" line="289"/>
+        <source>%1 points available</source>
+        <translation>획득 가능한 포인트 %1점</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementSummary.qml" line="179"/>
+        <source>%1% unlocked</source>
+        <translation>%1% 달성</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementSummary.qml" line="168"/>
+        <location filename="../src/qml/views/components/games/AchievementSummary.qml" line="169"/>
+        <source>%1/%2 achievements</source>
+        <translation>업적 %1/%2</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementSummary.qml" line="151"/>
+        <source>(%1%)</source>
+        <translation>(%1%)</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementSummary.qml" line="29"/>
+        <location filename="../src/qml/views/components/games/AchievementSummary.qml" line="241"/>
+        <source>Out of %1 available point:</source>
+        <translation>획득 가능한 총 %1점 중:</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementSummary.qml" line="30"/>
+        <location filename="../src/qml/views/components/games/AchievementSummary.qml" line="242"/>
+        <source>Out of %1 available points:</source>
+        <translation>획득 가능한 총 %1점 중:</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementSummary.qml" line="75"/>
+        <source>RetroAchievements</source>
+        <translation>RetroAchievements</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementSummary.qml" line="27"/>
+        <location filename="../src/qml/views/components/games/AchievementSummary.qml" line="142"/>
+        <source>You&apos;ve unlocked %1/%2 achievements</source>
+        <translation>업적 %1/%2 달성</translation>
+    </message>
+</context>
+<context>
+    <name>AchievementUnavailable</name>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementUnavailable.qml" line="50"/>
+        <source>RetroAchievements</source>
+        <translation>RetroAchievements</translation>
+    </message>
+</context>
+<context>
+    <name>CheatCodesSettingsNavigation</name>
+    <message>
+        <location filename="../src/qml/controllers/settings/cheats/CheatCodesSettingsNavigation.qml" line="36"/>
+        <source>Go to Autosave settings</source>
+        <translation>자동 저장 설정으로 이동</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/settings/cheats/CheatCodesSettingsNavigation.qml" line="88"/>
+        <source>Toggle</source>
+        <translation>전환</translation>
+    </message>
+</context>
+<context>
+    <name>CheatCodesSettingsView</name>
+    <message>
+        <location filename="../src/qml/views/settings/sections/CheatCodesSettingsView.qml" line="65"/>
+        <source>Hardcore Mode for RetroAchievements is enabled</source>
+        <translation>RetroAchievements 하드코어 모드가 활성화되어 있습니다</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/sections/CheatCodesSettingsView.qml" line="74"/>
+        <source>Selected cheats stay inactive while Hardcore mode is enabled.</source>
+        <translation>하드코어 모드가 활성화되어 있는 동안 선택한 치트는 적용되지 않습니다.</translation>
+    </message>
+</context>
+<context>
+    <name>ControllerDeadzonePanel</name>
+    <message>
+        <location filename="../src/qml/views/settings/controls/JoystickDeadzoneControl.qml" line="24"/>
+        <source>%1%</source>
+        <translation>%1%</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/controls/ControllerDeadzonePanel.qml" line="24"/>
+        <source>Left stick</source>
+        <translation>왼쪽 스틱</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/controls/ControllerDeadzonePanel.qml" line="35"/>
+        <source>Right stick</source>
+        <translation>오른쪽 스틱</translation>
+    </message>
+</context>
+<context>
+    <name>ControllerSetupPanel</name>
+    <message>
+        <location filename="../src/qml/views/settings/controls/ControllerSetupPanel.qml" line="55"/>
+        <source>Choose controller</source>
+        <translation>컨트롤러 선택</translation>
+    </message>
+</context>
+<context>
+    <name>ControlsSettingsGrid</name>
+    <message>
+        <location filename="../src/qml/views/settings/controls/ControlsSettingsGrid.qml" line="96"/>
+        <location filename="../src/qml/views/settings/sections/SettingsEmptyState.qml" line="36"/>
+        <source>Map controller buttons to Playback actions.</source>
+        <translation>컨트롤러 버튼을 Playback 동작에 매핑합니다.</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/controls/ControlsSettingsGrid.qml" line="52"/>
+        <location filename="../src/qml/views/settings/sections/SettingsEmptyState.qml" line="35"/>
+        <source>Map controller buttons to game controls.</source>
+        <translation>컨트롤러 버튼을 게임 조작에 매핑합니다.</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/controls/ControlsSettingsGrid.qml" line="51"/>
+        <source>Mappings</source>
+        <translation>매핑</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/controls/ControlsSettingsGrid.qml" line="95"/>
+        <source>Shortcuts</source>
+        <translation>단축키</translation>
+    </message>
+</context>
+<context>
+    <name>ControlsSettingsRow</name>
+    <message>
+        <location filename="../src/qml/debug/PlaybackOSDebugKeyboardHelp.qml" line="16"/>
+        <location filename="../src/qml/views/settings/controls/ControlsSettingsRow.qml" line="43"/>
+        <location filename="../src/qml/views/settings/controls/ControlsSettingsRow.qml" line="53"/>
+        <source>Down</source>
+        <translation>아래</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/debug/PlaybackOSDebugKeyboardHelp.qml" line="17"/>
+        <location filename="../src/qml/views/settings/controls/ControlsSettingsRow.qml" line="45"/>
+        <location filename="../src/qml/views/settings/controls/ControlsSettingsRow.qml" line="56"/>
+        <source>Left</source>
+        <translation>왼쪽</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/debug/PlaybackOSDebugKeyboardHelp.qml" line="18"/>
+        <location filename="../src/qml/views/settings/controls/ControlsSettingsRow.qml" line="47"/>
+        <location filename="../src/qml/views/settings/controls/ControlsSettingsRow.qml" line="59"/>
+        <source>Right</source>
+        <translation>오른쪽</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/debug/PlaybackOSDebugKeyboardHelp.qml" line="15"/>
+        <location filename="../src/qml/views/settings/controls/ControlsSettingsRow.qml" line="41"/>
+        <location filename="../src/qml/views/settings/controls/ControlsSettingsRow.qml" line="50"/>
+        <source>Up</source>
+        <translation>위</translation>
+    </message>
+</context>
+<context>
+    <name>CoreDetails</name>
+    <message>
+        <location filename="../src/qml/views/components/settings/CoreDetails.qml" line="44"/>
+        <source>Capabilities are unavailable for custom cores.</source>
+        <translation>사용자 정의 코어의 지원 기능은 확인할 수 없습니다.</translation>
+    </message>
+</context>
+<context>
+    <name>CoreSelectorRow</name>
+    <message>
+        <location filename="../src/qml/views/components/settings/CoreSelectorRow.qml" line="26"/>
+        <source>Download available</source>
+        <translation>다운로드 가능</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/settings/CoreSelectorRow.qml" line="25"/>
+        <source>Installed</source>
+        <translation>설치됨</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/settings/CoreSelectorRow.qml" line="26"/>
+        <source>Unavailable</source>
+        <translation>사용 불가</translation>
+    </message>
+</context>
+<context>
+    <name>CoreUpdatesNavigation</name>
+    <message>
+        <location filename="../src/qml/controllers/settings/coreselector/CoreUpdatesNavigation.qml" line="24"/>
+        <source>Cancel</source>
+        <translation>취소</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/settings/coreselector/CoreUpdatesNavigation.qml" line="24"/>
+        <source>Check again</source>
+        <translation>다시 확인</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/settings/coreselector/CoreUpdatesNavigation.qml" line="13"/>
+        <source>Check for updates</source>
+        <translation>업데이트 확인</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/settings/coreselector/CoreUpdatesNavigation.qml" line="12"/>
+        <source>Core updates</source>
+        <translation>코어 업데이트</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/settings/coreselector/CoreUpdatesNavigation.qml" line="13"/>
+        <source>Update all</source>
+        <translation>모두 업데이트</translation>
+    </message>
+</context>
+<context>
+    <name>CustomCheatEntry</name>
+    <message>
+        <location filename="../src/qml/views/components/settings/CustomCheatEntry.qml" line="35"/>
+        <source>Add cheat</source>
+        <translation>치트 추가</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/settings/CustomCheatEntry.qml" line="52"/>
+        <source>Add custom cheat</source>
+        <translation>사용자 정의 치트 추가</translation>
+    </message>
+</context>
+<context>
+    <name>CustomCheatEntryNavigation</name>
+    <message>
+        <location filename="../src/qml/controllers/settings/cheats/CustomCheatEntryNavigation.qml" line="22"/>
+        <source>Add cheat</source>
+        <translation>치트 추가</translation>
+    </message>
+</context>
+<context>
+    <name>DeviceSettingsNavigation</name>
+    <message>
+        <location filename="../src/qml/controllers/settings/device/DeviceSettingsNavigation.qml" line="49"/>
+        <source>Applying…</source>
+        <translation>적용 중…</translation>
+    </message>
+</context>
+<context>
+    <name>DeviceSettingsView</name>
+    <message>
+        <location filename="../src/qml/views/settings/sections/DeviceSettingsView.qml" line="89"/>
+        <source>Coming soon</source>
+        <translation>출시 예정</translation>
+    </message>
+</context>
+<context>
+    <name>GameCard</name>
+    <message>
+        <location filename="../src/qml/views/components/games/GameArtwork.qml" line="149"/>
+        <source>Unable to start game.
+Please check core settings.</source>
+        <translation>게임을 시작할 수 없습니다.
+코어 설정을 확인하세요.</translation>
+    </message>
+</context>
+<context>
+    <name>GameGallery</name>
+    <message>
+        <location filename="../src/qml/views/components/games/GameGallery.qml" line="32"/>
+        <source>Screenshot %1</source>
+        <translation>스크린샷 %1</translation>
+    </message>
+</context>
+<context>
+    <name>GamesPage</name>
+    <message>
+        <location filename="../src/qml/views/pages/GamesPage.qml" line="34"/>
+        <source>%1 h %2 m</source>
+        <translation>%1시간 %2분</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/pages/GamesPage.qml" line="111"/>
+        <source>? players</source>
+        <translation>플레이어 ?명</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/pages/GamesPage.qml" line="14"/>
+        <source>Go to Library</source>
+        <translation>라이브러리로 이동</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/GamesPageNavigation.qml" line="78"/>
+        <source>Hold to stop</source>
+        <translation>길게 눌러 중지</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/GamesPageNavigation.qml" line="57"/>
+        <source>In use</source>
+        <translation>사용 중</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/GamesPageNavigation.qml" line="55"/>
+        <source>Insert cart to play</source>
+        <translation>카트리지를 넣어 플레이</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/GamesPageNavigation.qml" line="53"/>
+        <source>Library</source>
+        <translation>라이브러리</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/pages/GamesPage.qml" line="16"/>
+        <source>Navigate your whole game collection.</source>
+        <translation>전체 게임 컬렉션을 둘러보세요.</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/GamesPageNavigation.qml" line="84"/>
+        <source>Resume game</source>
+        <translation>게임 재개</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/GamesPageNavigation.qml" line="81"/>
+        <source>View details</source>
+        <translation>자세히 보기</translation>
+    </message>
+</context>
+<context>
+    <name>JoystickDeadzoneDisplay</name>
+    <message>
+        <location filename="../src/qml/views/settings/controls/JoystickDeadzoneDisplay.qml" line="81"/>
+        <source>X %1</source>
+        <translation>X %1</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/controls/JoystickDeadzoneDisplay.qml" line="90"/>
+        <source>Y %1</source>
+        <translation>Y %1</translation>
+    </message>
+</context>
+<context>
+    <name>LibraryDetailPage</name>
+    <message>
+        <location filename="../src/qml/views/pages/LibraryDetailPage.qml" line="79"/>
+        <source>? players</source>
+        <translation>플레이어 ?명</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/LibraryDetailPageNavigation.qml" line="59"/>
+        <source>Back</source>
+        <translation>뒤로</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/LibraryDetailPageNavigation.qml" line="58"/>
+        <source>Back / Hold to stop</source>
+        <translation>뒤로 / 길게 눌러 중지</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/LibraryDetailPageNavigation.qml" line="40"/>
+        <location filename="../src/qml/views/pages/LibraryDetailPage.qml" line="199"/>
+        <location filename="../src/qml/views/pages/LibraryDetailPage.qml" line="218"/>
+        <source>Change video shader</source>
+        <translation>비디오 셰이더 변경</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/LibraryDetailPageNavigation.qml" line="57"/>
+        <source>Close achievements</source>
+        <translation>업적 닫기</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/LibraryDetailPageNavigation.qml" line="51"/>
+        <source>In use</source>
+        <translation>사용 중</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/LibraryDetailPageNavigation.qml" line="41"/>
+        <source>Manage save states</source>
+        <translation>저장 상태 관리</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/LibraryDetailPageNavigation.qml" line="43"/>
+        <source>Open</source>
+        <translation>열기</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/LibraryDetailPageNavigation.qml" line="42"/>
+        <source>Open settings</source>
+        <translation>설정 열기</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/LibraryDetailPageNavigation.qml" line="60"/>
+        <source>Resume game</source>
+        <translation>게임 재개</translation>
+    </message>
+</context>
+<context>
+    <name>LibraryPage</name>
+    <message>
+        <location filename="../src/qml/controllers/pages/LibraryPageNavigation.qml" line="34"/>
+        <source>Back</source>
+        <translation>뒤로</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/LibraryPageNavigation.qml" line="33"/>
+        <source>Back / Hold to stop</source>
+        <translation>뒤로 / 길게 눌러 중지</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/LibraryPageNavigation.qml" line="30"/>
+        <source>Open</source>
+        <translation>열기</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/LibraryPageNavigation.qml" line="35"/>
+        <source>Resume game</source>
+        <translation>게임 재개</translation>
+    </message>
+</context>
+<context>
+    <name>NavigationHeader</name>
+    <message>
+        <location filename="../src/qml/views/components/common/NavigationHeader.qml" line="23"/>
+        <source>Games</source>
+        <translation>게임</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/common/NavigationHeader.qml" line="23"/>
+        <source>Library</source>
+        <translation>라이브러리</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSAchievementOverlayModel</name>
+    <message>
+        <location filename="../src/overlay/PlaybackOSAchievementOverlayModel.cpp" line="75"/>
+        <source>%1 does not support RetroAchievements. Please choose another core in Settings.</source>
+        <translation>%1 코어는 RetroAchievements를 지원하지 않습니다. 설정에서 다른 코어를 선택하세요.</translation>
+    </message>
+    <message>
+        <location filename="../src/overlay/PlaybackOSAchievementOverlayModel.cpp" line="74"/>
+        <source>RetroAchievements unavailable</source>
+        <translation>RetroAchievements 사용 불가</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSControllerBindings</name>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="156"/>
+        <source>Left stick</source>
+        <translation>왼쪽 스틱</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="157"/>
+        <source>Right stick</source>
+        <translation>오른쪽 스틱</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="158"/>
+        <source>Left shoulder</source>
+        <translation>왼쪽 숄더 버튼</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="159"/>
+        <source>Right shoulder</source>
+        <translation>오른쪽 숄더 버튼</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="160"/>
+        <source>Dp up</source>
+        <translation>방향 패드 위</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="161"/>
+        <source>Dp down</source>
+        <translation>방향 패드 아래</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="162"/>
+        <source>Dp left</source>
+        <translation>방향 패드 왼쪽</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="163"/>
+        <source>Dp right</source>
+        <translation>방향 패드 오른쪽</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="164"/>
+        <source>Misc1</source>
+        <translation>기타1</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="165"/>
+        <source>Paddle1</source>
+        <translation>패들1</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="166"/>
+        <source>Paddle2</source>
+        <translation>패들2</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="167"/>
+        <source>Paddle3</source>
+        <translation>패들3</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="168"/>
+        <source>Paddle4</source>
+        <translation>패들4</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="169"/>
+        <source>Touchpad</source>
+        <translation>터치패드</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="170"/>
+        <source>Misc2</source>
+        <translation>기타2</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="171"/>
+        <source>Misc3</source>
+        <translation>기타3</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="172"/>
+        <source>Misc4</source>
+        <translation>기타4</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="173"/>
+        <source>Misc5</source>
+        <translation>기타5</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="174"/>
+        <source>Misc6</source>
+        <translation>기타6</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="175"/>
+        <source>Axis left x+</source>
+        <translation>왼쪽 스틱 축 x+</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="176"/>
+        <source>Axis left x-</source>
+        <translation>왼쪽 스틱 축 x-</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="177"/>
+        <source>Axis left y+</source>
+        <translation>왼쪽 스틱 축 y+</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="178"/>
+        <source>Axis left y-</source>
+        <translation>왼쪽 스틱 축 y-</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="179"/>
+        <source>Axis right x+</source>
+        <translation>오른쪽 스틱 축 x+</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="180"/>
+        <source>Axis right x-</source>
+        <translation>오른쪽 스틱 축 x-</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="181"/>
+        <source>Axis right y+</source>
+        <translation>오른쪽 스틱 축 y+</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="182"/>
+        <source>Axis right y-</source>
+        <translation>오른쪽 스틱 축 y-</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="183"/>
+        <source>Axis trigger left</source>
+        <translation>왼쪽 트리거 축</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="184"/>
+        <source>Axis trigger right</source>
+        <translation>오른쪽 트리거 축</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSControllerInventory</name>
+    <message>
+        <location filename="../src/settings/controls/PlaybackOSControllerInventory.cpp" line="68"/>
+        <source>%1 (Steam Input)</source>
+        <translation>%1 (Steam Input)</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSControllerSelection</name>
+    <message>
+        <location filename="../src/settings/controls/PlaybackOSControllerAssignments.cpp" line="69"/>
+        <source>Disconnected controller</source>
+        <translation>연결이 끊긴 컨트롤러</translation>
+    </message>
+    <message>
+        <location filename="../src/settings/controls/PlaybackOSControllerSelection.cpp" line="69"/>
+        <source>Player %1</source>
+        <translation>플레이어 %1</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSControllerStatus</name>
+    <message>
+        <location filename="../src/qml/views/components/common/PlaybackOSControllerStatus.qml" line="79"/>
+        <source>%1, connected</source>
+        <translation>%1, 연결됨</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/common/PlaybackOSControllerStatus.qml" line="78"/>
+        <source>%1, controlling menu</source>
+        <translation>%1, 메뉴 제어 중</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/common/PlaybackOSControllerStatus.qml" line="540"/>
+        <source>Control request DENIED by P%1</source>
+        <translation>P%1 플레이어가 제어 요청을 거부했습니다</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/common/PlaybackOSControllerStatus.qml" line="72"/>
+        <source>Controller</source>
+        <translation>컨트롤러</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/common/PlaybackOSControllerStatus.qml" line="473"/>
+        <location filename="../src/qml/views/components/common/PlaybackOSControllerStatus.qml" line="549"/>
+        <source>Hold any button to take control</source>
+        <translation>아무 버튼이나 길게 눌러 제어권 획득</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/common/PlaybackOSControllerStatus.qml" line="521"/>
+        <source>P%1 took control!</source>
+        <translation>P%1 플레이어가 제어권을 획득했습니다!</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/common/PlaybackOSControllerStatus.qml" line="380"/>
+        <source>Please connect controller</source>
+        <translation>컨트롤러를 연결하세요</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/common/PlaybackOSControllerStatus.qml" line="490"/>
+        <location filename="../src/qml/views/components/common/PlaybackOSControllerStatus.qml" line="496"/>
+        <location filename="../src/qml/views/components/common/PlaybackOSControllerStatus.qml" line="506"/>
+        <location filename="../src/qml/views/components/common/PlaybackOSControllerStatus.qml" line="548"/>
+        <location filename="../src/qml/views/components/common/PlaybackOSControllerStatus.qml" line="568"/>
+        <location filename="../src/qml/views/components/common/PlaybackOSControllerStatus.qml" line="584"/>
+        <source>Press a button to take control</source>
+        <translation>버튼을 눌러 제어권 획득</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSControlsSettings</name>
+    <message>
+        <location filename="../src/settings/controls/PlaybackOSControllerBindings.cpp" line="152"/>
+        <source>Press a button…</source>
+        <translation>버튼을 누르세요…</translation>
+    </message>
+    <message>
+        <location filename="../src/settings/controls/PlaybackOSControllerBindings.cpp" line="101"/>
+        <source>Press an input…</source>
+        <translation>입력 장치를 조작하세요…</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSCoreUpdater</name>
+    <message>
+        <location filename="../src/settings/PlaybackOSCoreUpdater.cpp" line="119"/>
+        <source>%1 update(s) available. Could not check %2 core(s).</source>
+        <translation>업데이트 %1개가 있습니다. 코어 %2개를 확인하지 못했습니다.</translation>
+    </message>
+    <message>
+        <location filename="../src/settings/PlaybackOSCoreUpdater.cpp" line="27"/>
+        <source>Checking installed cores…</source>
+        <translation>설치된 코어 확인 중…</translation>
+    </message>
+    <message>
+        <location filename="../src/settings/PlaybackOSCoreUpdater.cpp" line="196"/>
+        <source>Core updates cancelled. Completed downloads were kept.</source>
+        <translation>코어 업데이트가 취소되었습니다. 완료된 다운로드는 유지됩니다.</translation>
+    </message>
+    <message>
+        <location filename="../src/settings/PlaybackOSCoreUpdater.cpp" line="48"/>
+        <source>Could not check for updates. Please try again.</source>
+        <translation>업데이트를 확인하지 못했습니다. 다시 시도하세요.</translation>
+    </message>
+    <message>
+        <location filename="../src/settings/PlaybackOSCoreUpdater.cpp" line="122"/>
+        <source>Installed cores are up to date.</source>
+        <translation>설치된 코어가 최신 버전입니다.</translation>
+    </message>
+    <message>
+        <location filename="../src/settings/PlaybackOSCoreUpdater.cpp" line="23"/>
+        <source>No downloaded cores are installed.</source>
+        <translation>다운로드하여 설치한 코어가 없습니다.</translation>
+    </message>
+    <message>
+        <location filename="../src/settings/PlaybackOSCoreUpdater.cpp" line="189"/>
+        <source>Updated %1 core(s).</source>
+        <translation>코어 %1개를 업데이트했습니다.</translation>
+    </message>
+    <message>
+        <location filename="../src/settings/PlaybackOSCoreUpdater.cpp" line="190"/>
+        <source>Updated %1 core(s); %2 failed. Check for updates to retry.</source>
+        <translation>코어 %1개를 업데이트했고 %2개는 실패했습니다. 업데이트를 확인하여 다시 시도하세요.</translation>
+    </message>
+    <message>
+        <location filename="../src/settings/PlaybackOSCoreUpdater.cpp" line="123"/>
+        <source>Updates available for %1 core(s).</source>
+        <translation>코어 %1개의 업데이트가 있습니다.</translation>
+    </message>
+    <message>
+        <location filename="../src/settings/PlaybackOSCoreUpdater.cpp" line="147"/>
+        <source>Updating %1…</source>
+        <translation>%1 업데이트 중…</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSDeviceSettings</name>
+    <message>
+        <location filename="../src/settings/PlaybackOSDeviceSettings.cpp" line="83"/>
+        <source>Connect an Operator to customize its LED light.</source>
+        <translation>Operator를 연결하면 LED 조명을 설정할 수 있습니다.</translation>
+    </message>
+    <message>
+        <location filename="../src/settings/PlaybackOSDeviceSettings.cpp" line="91"/>
+        <source>Could not apply the effect. Select an effect to try again.</source>
+        <translation>효과를 적용하지 못했습니다. 효과를 선택하여 다시 시도하세요.</translation>
+    </message>
+    <message>
+        <location filename="../src/settings/PlaybackOSDeviceSettings.cpp" line="90"/>
+        <source>Stop the current game to change this Operator’s LED effect.</source>
+        <translation>이 Operator의 LED 효과를 변경하려면 현재 게임을 중지하세요.</translation>
+    </message>
+    <message>
+        <location filename="../src/settings/PlaybackOSDeviceSettings.cpp" line="86"/>
+        <source>This Operator is in use by another Playback window.</source>
+        <translation>이 Operator는 다른 Playback 창에서 사용 중입니다.</translation>
+    </message>
+    <message>
+        <location filename="../src/settings/PlaybackOSDeviceSettings.cpp" line="88"/>
+        <source>Wait for the current device operation to finish before changing the LED effect.</source>
+        <translation>현재 기기 작업이 완료된 후 LED 효과를 변경하세요.</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSEmulatorHost</name>
+    <message>
+        <location filename="../src/emulation/PlaybackOSEmulatorHost.cpp" line="213"/>
+        <source>Couldn&apos;t read the cartridge.
+Check the pins are clean and it&apos;s seated securely.</source>
+        <translation>카트리지를 읽지 못했습니다.
+접촉 핀이 깨끗하고 카트리지가 제대로 꽂혀 있는지 확인하세요.</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSFeedbackContent</name>
+    <message>
+        <location filename="../src/qml/views/components/common/PlaybackOSFeedbackContent.qml" line="118"/>
+        <source>Scan the QR code with your phone to share your thoughts and ideas.</source>
+        <translation>휴대폰으로 QR 코드를 스캔하여 의견과 아이디어를 공유해 주세요.</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/common/PlaybackOSFeedbackContent.qml" line="19"/>
+        <source>Share your feedback</source>
+        <translation>피드백을 공유해 주세요</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/common/PlaybackOSFeedbackContent.qml" line="100"/>
+        <source>Thank you for trying the alpha version!</source>
+        <translation>알파 버전을 사용해 주셔서 감사합니다!</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/common/PlaybackOSFeedbackContent.qml" line="109"/>
+        <source>We’d love to hear what’s working, what isn’t, and what would make the whole experience better.</source>
+        <translation>잘 작동하는 부분, 그렇지 않은 부분, 전반적인 경험을 더 좋게 만들 방법에 대한 의견을 듣고 싶습니다.</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSFeedbackOverlay</name>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSFeedbackOverlay.qml" line="36"/>
+        <source>Back</source>
+        <translation>뒤로</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSFeedbackQr</name>
+    <message>
+        <location filename="../src/feedback/PlaybackOSFeedbackQr.cpp" line="65"/>
+        <source>The QR code could not be created.</source>
+        <translation>QR 코드를 생성하지 못했습니다.</translation>
+    </message>
+    <message>
+        <location filename="../src/feedback/PlaybackOSFeedbackQr.cpp" line="42"/>
+        <source>The feedback link contains invalid text.</source>
+        <translation>피드백 링크에 잘못된 텍스트가 포함되어 있습니다.</translation>
+    </message>
+    <message>
+        <location filename="../src/feedback/PlaybackOSFeedbackQr.cpp" line="41"/>
+        <location filename="../src/feedback/PlaybackOSFeedbackQr.cpp" line="72"/>
+        <source>The feedback link is too long for a QR code.</source>
+        <translation>피드백 링크가 너무 길어 QR 코드를 만들 수 없습니다.</translation>
+    </message>
+    <message>
+        <location filename="../src/feedback/PlaybackOSFeedbackQr.cpp" line="39"/>
+        <location filename="../src/feedback/PlaybackOSFeedbackQr.cpp" line="145"/>
+        <source>The feedback link is unavailable.</source>
+        <translation>피드백 링크를 사용할 수 없습니다.</translation>
+    </message>
+    <message>
+        <location filename="../src/feedback/PlaybackOSFeedbackQr.cpp" line="147"/>
+        <source>There is not enough space to display the QR code.</source>
+        <translation>QR 코드를 표시할 공간이 부족합니다.</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSLibraryModel</name>
+    <message>
+        <location filename="../src/library/PlaybackOSLibraryModel.cpp" line="532"/>
+        <source>Game hash: %1</source>
+        <translation>게임 해시: %1</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSPauseHoldOverlay</name>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseHoldOverlay.qml" line="29"/>
+        <source>Hold to pause</source>
+        <translation>길게 눌러 일시정지</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSRetroAchievements</name>
+    <message>
+        <location filename="../src/runtime/PlaybackOSRetroAchievements.cpp" line="76"/>
+        <source>Enter both your username and password.</source>
+        <translation>사용자 이름과 비밀번호를 모두 입력하세요.</translation>
+    </message>
+    <message>
+        <location filename="../src/runtime/PlaybackOSRetroAchievements.cpp" line="19"/>
+        <source>Could not sign in to RetroAchievements. The service may be unavailable. Check your connection and try again later.</source>
+        <translation>RetroAchievements에 로그인하지 못했습니다. 현재 서비스를 사용할 수 없는 상태일 수 있습니다. 연결을 확인하고 나중에 다시 시도하세요.</translation>
+    </message>
+    <message>
+        <location filename="../src/runtime/PlaybackOSRetroAchievements.cpp" line="22"/>
+        <source>Could not sign in to RetroAchievements. Please try again.</source>
+        <translation>RetroAchievements에 로그인하지 못했습니다. 다시 시도하세요.</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSSaveShutdownController</name>
+    <message>
+        <location filename="../src/emulation/PlaybackOSSaveShutdownController.cpp" line="67"/>
+        <source>Checking cartridge save. Keep the cartridge connected.</source>
+        <translation>카트리지 저장 데이터를 확인 중입니다. 카트리지를 분리하지 마세요.</translation>
+    </message>
+    <message>
+        <location filename="../src/emulation/PlaybackOSSaveShutdownController.cpp" line="92"/>
+        <source>Couldn&apos;t check the cartridge save. Keep the cartridge connected and try stopping again.</source>
+        <translation>카트리지 저장 데이터를 확인하지 못했습니다. 카트리지를 연결한 상태로 중지를 다시 시도하세요.</translation>
+    </message>
+    <message>
+        <location filename="../src/emulation/PlaybackOSSaveShutdownController.cpp" line="115"/>
+        <source>Couldn&apos;t save to the cartridge. Keep the cartridge connected and try stopping again.</source>
+        <translation>카트리지에 저장하지 못했습니다. 카트리지를 연결한 상태로 중지를 다시 시도하세요.</translation>
+    </message>
+    <message>
+        <location filename="../src/emulation/PlaybackOSSaveShutdownController.cpp" line="100"/>
+        <source>Saving to cartridge timed out. Keep the cartridge connected and try stopping again.</source>
+        <translation>카트리지 저장 시간이 초과되었습니다. 카트리지를 연결한 상태로 중지를 다시 시도하세요.</translation>
+    </message>
+    <message>
+        <location filename="../src/emulation/PlaybackOSSaveShutdownController.cpp" line="60"/>
+        <source>Saving to cartridge. Keep the cartridge connected.</source>
+        <translation>카트리지에 저장 중입니다. 카트리지를 분리하지 마세요.</translation>
+    </message>
+    <message>
+        <location filename="../src/emulation/PlaybackOSSaveShutdownController.cpp" line="50"/>
+        <source>The Operator is busy. Keep the cartridge connected and try stopping again.</source>
+        <translation>Operator가 작업 중입니다. 카트리지를 연결한 상태로 중지를 다시 시도하세요.</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSSaveStates</name>
+    <message>
+        <location filename="../src/save/PlaybackOSSaveStates.cpp" line="277"/>
+        <source>Save states are unavailable during netplay.</source>
+        <translation>넷플레이 중에는 저장 상태를 사용할 수 없습니다.</translation>
+    </message>
+    <message>
+        <location filename="../src/save/PlaybackOSSaveStates.cpp" line="275"/>
+        <source>Save states are unavailable in Hardcore mode.</source>
+        <translation>하드코어 모드에서는 저장 상태를 사용할 수 없습니다.</translation>
+    </message>
+    <message>
+        <location filename="../src/save/PlaybackOSSaveStates.cpp" line="312"/>
+        <source>State deleted from slot %1.</source>
+        <translation>슬롯 %1의 저장 상태를 삭제했습니다.</translation>
+    </message>
+    <message>
+        <location filename="../src/save/PlaybackOSSaveStates.cpp" line="311"/>
+        <source>State loaded from slot %1.</source>
+        <translation>슬롯 %1에서 저장 상태를 불러왔습니다.</translation>
+    </message>
+    <message>
+        <location filename="../src/save/PlaybackOSSaveStates.cpp" line="310"/>
+        <source>State saved to slot %1.</source>
+        <translation>슬롯 %1에 상태를 저장했습니다.</translation>
+    </message>
+    <message>
+        <location filename="../src/save/PlaybackOSSaveStates.cpp" line="319"/>
+        <source>State saved, but its screenshot could not be saved.</source>
+        <translation>상태는 저장되었지만 스크린샷은 저장하지 못했습니다.</translation>
+    </message>
+    <message>
+        <location filename="../src/save/PlaybackOSSaveStates.cpp" line="286"/>
+        <source>The core could not complete the state operation.</source>
+        <translation>코어가 상태 작업을 완료하지 못했습니다.</translation>
+    </message>
+    <message>
+        <location filename="../src/save/PlaybackOSSaveStates.cpp" line="149"/>
+        <source>The emulation thread is unavailable.</source>
+        <translation>에뮬레이션 스레드를 사용할 수 없습니다.</translation>
+    </message>
+    <message>
+        <location filename="../src/save/PlaybackOSSaveStates.cpp" line="280"/>
+        <source>This core does not support save states.</source>
+        <translation>이 코어는 상태 저장을 지원하지 않습니다.</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSSaveStatesPanel</name>
+    <message>
+        <location filename="../src/qml/views/components/games/PlaybackOSSaveStatesPanel.qml" line="122"/>
+        <source>%1 / %2 saved</source>
+        <translation>%1 / %2 저장됨</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSSaveStatesNavigation.qml" line="45"/>
+        <source>Back</source>
+        <translation>뒤로</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSSaveStatesNavigation.qml" line="21"/>
+        <location filename="../src/qml/views/components/games/PlaybackOSSaveStatesPanel.qml" line="259"/>
+        <location filename="../src/qml/views/components/games/PlaybackOSSaveStatesPanel.qml" line="315"/>
+        <source>Create save state</source>
+        <translation>저장 상태 만들기</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSSaveStatesNavigation.qml" line="37"/>
+        <source>Hold to delete</source>
+        <translation>길게 눌러 삭제</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSSaveStatesNavigation.qml" line="20"/>
+        <source>Hold to load</source>
+        <translation>길게 눌러 불러오기</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSSaveStatesNavigation.qml" line="29"/>
+        <source>Hold to overwrite</source>
+        <translation>길게 눌러 덮어쓰기</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/PlaybackOSSaveStatesPanel.qml" line="231"/>
+        <source>Keep this moment</source>
+        <translation>이 순간 저장하기</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/PlaybackOSSaveStatesPanel.qml" line="140"/>
+        <source>Loading a state also reverts your game save. Your latest save is kept in the Vault.</source>
+        <translation>상태를 불러오면 게임 저장 데이터도 이전 상태로 돌아갑니다. 최신 저장 데이터는 Vault에 보관됩니다.</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/PlaybackOSSaveStatesPanel.qml" line="86"/>
+        <location filename="../src/qml/views/components/games/PlaybackOSSaveStatesPanel.qml" line="110"/>
+        <source>Manage save states</source>
+        <translation>저장 상태 관리</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/PlaybackOSSaveStatesPanel.qml" line="231"/>
+        <source>No preview</source>
+        <translation>미리보기 없음</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/PlaybackOSSaveStatesPanel.qml" line="258"/>
+        <location filename="../src/qml/views/components/games/PlaybackOSSaveStatesPanel.qml" line="316"/>
+        <source>Save state %1</source>
+        <translation>저장 상태 %1</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSSettingsModel</name>
+    <message>
+        <location filename="../src/settings/PlaybackOSCoreSettings.cpp" line="36"/>
+        <location filename="../src/settings/PlaybackOSCoreSettings.cpp" line="88"/>
+        <source>%1 (custom)</source>
+        <translation>%1 (사용자 정의)</translation>
+    </message>
+    <message>
+        <location filename="../src/settings/PlaybackOSCoreSettings.cpp" line="407"/>
+        <source>Could not download %1. Select it again to retry.</source>
+        <translation>%1 다운로드에 실패했습니다. 다시 선택하여 재시도하세요.</translation>
+    </message>
+    <message>
+        <location filename="../src/settings/PlaybackOSCheatSettings.cpp" line="172"/>
+        <location filename="../src/settings/PlaybackOSCheatSettings.cpp" line="185"/>
+        <source>Default Cheats</source>
+        <translation>기본 치트</translation>
+    </message>
+    <message>
+        <location filename="../src/settings/PlaybackOSCoreSettings.cpp" line="403"/>
+        <source>Downloading %1…</source>
+        <translation>%1 다운로드 중…</translation>
+    </message>
+    <message>
+        <location filename="../src/settings/PlaybackOSCheatSettings.cpp" line="186"/>
+        <source>No default cheats available</source>
+        <translation>사용 가능한 기본 치트 없음</translation>
+    </message>
+    <message>
+        <location filename="../src/settings/PlaybackOSCheatSettings.cpp" line="187"/>
+        <source>This game has no matching codes in the bundled database.</source>
+        <translation>내장 데이터베이스에 이 게임과 일치하는 코드가 없습니다.</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSShaderPicker</name>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSShaderNavigation.qml" line="21"/>
+        <source>Back</source>
+        <translation>뒤로</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSShaderPicker.qml" line="41"/>
+        <source>Change video shader</source>
+        <translation>비디오 셰이더 변경</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSShaderNavigation.qml" line="26"/>
+        <source>Pause game</source>
+        <translation>게임 일시정지</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSShaderNavigation.qml" line="17"/>
+        <source>Select</source>
+        <translation>선택</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSShaderPicker.qml" line="87"/>
+        <source>The shader list is limited because Vulkan rendering is unavailable. Please check your GPU&apos;s Vulkan support.</source>
+        <translation>Vulkan 렌더링을 사용할 수 없어 셰이더 목록이 제한됩니다. GPU의 Vulkan 지원 여부를 확인하세요.</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSShaderNavigation.qml" line="25"/>
+        <source>Unpause game</source>
+        <translation>게임 일시정지 해제</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSShell</name>
+    <message>
+        <location filename="../src/qml/composition/PlaybackOSShell.qml" line="199"/>
+        <source>Hold for feedback</source>
+        <translation>길게 눌러 피드백 보내기</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSShortcutOverlay</name>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSShortcutOverlayController.qml" line="18"/>
+        <source>Fast forwarding</source>
+        <translation>빨리 감기 중</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSShortcutOverlayController.qml" line="16"/>
+        <source>Resetting</source>
+        <translation>재설정 중</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSShortcutOverlayController.qml" line="20"/>
+        <source>Rewinding</source>
+        <translation>되감기 중</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSStartupWarning</name>
+    <message>
+        <location filename="../src/qml/composition/PlaybackOSStartupWarning.qml" line="72"/>
+        <source>Continue playing</source>
+        <translation>계속 플레이</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/composition/PlaybackOSStartupWarning.qml" line="41"/>
+        <source>Steam Cloud is unavailable</source>
+        <translation>Steam Cloud 사용 불가</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/composition/PlaybackOSStartupWarning.qml" line="59"/>
+        <source>You can still play and save to your cartridge. Play time and cheats will use local data on this device, separate from your Steam data, and won&apos;t sync to other devices.
+
+We recommend restarting Playback OS from your Steam Library to use Steam Cloud.</source>
+        <translation>게임을 플레이하고 카트리지에 저장하는 것은 계속 가능합니다. 플레이 시간과 치트는 Steam 데이터와 별개로 이 기기의 로컬 데이터를 사용하며, 다른 기기와 동기화되지 않습니다.
+
+Steam Cloud를 사용하려면 Steam 라이브러리에서 Playback OS를 다시 시작하는 것이 좋습니다.</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSSteamSession</name>
+    <message>
+        <location filename="../src/steam/PlaybackOSSteamSession.cpp" line="86"/>
+        <source>Playback OS couldn&apos;t connect to Steam.</source>
+        <translation>Playback OS가 Steam에 연결하지 못했습니다.</translation>
+    </message>
+    <message>
+        <location filename="../src/steam/PlaybackOSSteamSession.cpp" line="96"/>
+        <location filename="../src/steam/PlaybackOSSteamSession.cpp" line="101"/>
+        <source>Playback OS couldn&apos;t identify your Steam account.</source>
+        <translation>Playback OS가 Steam 계정을 식별하지 못했습니다.</translation>
+    </message>
+    <message>
+        <location filename="../src/steam/PlaybackOSSteamSession.cpp" line="56"/>
+        <source>Playback OS wasn&apos;t launched from Steam.</source>
+        <translation>Playback OS가 Steam에서 실행되지 않았습니다.</translation>
+    </message>
+    <message>
+        <location filename="../src/steam/PlaybackOSSteamSession.cpp" line="67"/>
+        <source>Steam features aren&apos;t available in this version of Playback OS.</source>
+        <translation>이 버전의 Playback OS에서는 Steam 기능을 사용할 수 없습니다.</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSUsbAccessBanner</name>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSUsbAccessBanner.qml" line="56"/>
+        <source>Access is needed for reading your cartridges.</source>
+        <translation>카트리지를 읽으려면 접근 권한이 필요합니다.</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSUsbAccessBanner.qml" line="44"/>
+        <source>Operator connection unavailable</source>
+        <translation>Operator 연결 불가</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSUsbAccessBanner.qml" line="44"/>
+        <source>Operator detected</source>
+        <translation>Operator 감지됨</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSUsbAccessBanner.qml" line="55"/>
+        <source>Update Steam and SteamOS (or your Linux system), restart, then reconnect your Operator.</source>
+        <translation>Steam과 SteamOS(또는 Linux 시스템)를 업데이트하고 다시 시작한 후 Operator를 다시 연결하세요.</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSUsbAccessDialog</name>
+    <message>
+        <location filename="../src/qml/views/components/usb/PlaybackOSUsbAccessHelp.qml" line="53"/>
+        <source>&lt;b&gt;B. If setup still fails, use a terminal&lt;/b&gt;&lt;br&gt;This runs the same one time setup directly in Linux. It can help if Playback cannot start setup, and shows any errors in the terminal.&lt;br&gt;&lt;br&gt;In Desktop Mode, return to this screen and select &lt;b&gt;Open setup folder&lt;/b&gt;. Right click an empty area, choose &lt;b&gt;Open in Terminal&lt;/b&gt;, then run:</source>
+        <translation>&lt;b&gt;B. 설정에 계속 실패하면 터미널을 사용하세요&lt;/b&gt;&lt;br&gt;동일한 최초 설정을 Linux에서 직접 실행합니다. Playback에서 설정을 시작할 수 없을 때 도움이 되며, 오류가 터미널에 표시됩니다.&lt;br&gt;&lt;br&gt;데스크톱 모드에서 이 화면으로 돌아와 &lt;b&gt;설정 폴더 열기&lt;/b&gt;를 선택하세요. 빈 공간을 마우스 오른쪽 버튼으로 클릭하고 &lt;b&gt;터미널에서 열기&lt;/b&gt;를 선택한 후 다음 명령을 실행하세요:</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/usb/PlaybackOSUsbAccessHelp.qml" line="19"/>
+        <source>A. Retry in desktop mode</source>
+        <translation>A. 데스크톱 모드에서 다시 시도</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/usb/PlaybackOSUsbAccessPassword.qml" line="38"/>
+        <source>Authorize</source>
+        <translation>승인</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSUsbAccessDialog.qml" line="48"/>
+        <source>Authorize Operator access</source>
+        <translation>Operator 접근 승인</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/usb/PlaybackOSUsbAccessCommand.qml" line="55"/>
+        <source>Copied</source>
+        <translation>복사됨</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/usb/PlaybackOSUsbAccessCommand.qml" line="56"/>
+        <source>Copy</source>
+        <translation>복사</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/usb/PlaybackOSUsbAccessCommand.qml" line="38"/>
+        <source>Copy command to clipboard</source>
+        <translation>명령을 클립보드에 복사</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/usb/PlaybackOSUsbAccessHelp.qml" line="72"/>
+        <source>Enter your &lt;b&gt;Linux password&lt;/b&gt; if asked. After setup completes, &lt;b&gt;please restart your device&lt;/b&gt;.</source>
+        <translation>요청받으면 &lt;b&gt;Linux 비밀번호&lt;/b&gt;를 입력하세요. 설정이 완료되면 &lt;b&gt;기기를 다시 시작하세요&lt;/b&gt;.</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/usb/PlaybackOSUsbAccessHelp.qml" line="10"/>
+        <source>If setup could not finish in Gaming Mode, try it from your Desktop.</source>
+        <translation>게이밍 모드에서 설정이 완료되지 않았다면 데스크톱에서 시도하세요.</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/usb/PlaybackOSUsbAccessPassword.qml" line="36"/>
+        <location filename="../src/qml/views/components/usb/PlaybackOSUsbAccessPassword.qml" line="50"/>
+        <source>Linux account password</source>
+        <translation>Linux 계정 비밀번호</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/usb/PlaybackOSUsbAccessHelp.qml" line="40"/>
+        <source>On Steam Deck: &lt;b&gt;Steam menu → Power → Switch to Desktop&lt;/b&gt;.&lt;br&gt;Open Playback from Steam and select &lt;b&gt;Enable access&lt;/b&gt; again.</source>
+        <translation>Steam Deck에서 &lt;b&gt;Steam 메뉴 → 전원 → 데스크톱으로 전환&lt;/b&gt;을 선택하세요.&lt;br&gt;Steam에서 Playback을 열고 &lt;b&gt;접근 허용&lt;/b&gt;을 다시 선택하세요.</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/usb/PlaybackOSUsbAccessPassword.qml" line="49"/>
+        <source>Secure password input is unavailable. Try setup from Desktop Mode.</source>
+        <translation>보안 비밀번호 입력을 사용할 수 없습니다. 데스크톱 모드에서 설정을 시도하세요.</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSUsbAccessDialog.qml" line="50"/>
+        <source>Set up Epilogue Operator access</source>
+        <translation>Epilogue Operator 접근 설정</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSUsbAccessDialog.qml" line="102"/>
+        <source>TIP: No Linux password but you&apos;ve been requested one? Set one in your system&apos;s account settings, or ask the person who set up this device.</source>
+        <translation>팁: Linux 비밀번호가 없는데 입력을 요청받았나요? 시스템 계정 설정에서 비밀번호를 설정하거나 이 기기를 설정한 사람에게 문의하세요.</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSUsbAccessDialog.qml" line="82"/>
+        <source>The folder could not open. Please contact Epilogue support for help.</source>
+        <translation>폴더를 열지 못했습니다. Epilogue 지원팀에 문의하세요.</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSUsbAccessDialog.qml" line="60"/>
+        <source>This one time setup allows Playback to access Epilogue Operators on this device.&lt;br&gt;&lt;br&gt;1. Press &lt;b&gt;A&lt;/b&gt; and follow the system authentication prompt. If the prompt is unavailable, enter your Linux password with the controller.&lt;br&gt;2. &lt;b&gt;Reconnect your Operator&lt;/b&gt; if it is still blocked.</source>
+        <translation>이 최초 설정을 완료하면 이 기기에서 Playback이 Epilogue Operator에 접근할 수 있습니다.&lt;br&gt;&lt;br&gt;1. &lt;b&gt;A&lt;/b&gt;를 누르고 시스템 인증 안내를 따르세요. 인증 창을 사용할 수 없다면 컨트롤러로 Linux 비밀번호를 입력하세요.&lt;br&gt;2. 접근이 여전히 차단되어 있으면 &lt;b&gt;Operator를 다시 연결하세요&lt;/b&gt;.</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSUsbAccessDialog.qml" line="49"/>
+        <source>Try setup in Desktop Mode</source>
+        <translation>데스크톱 모드에서 설정 시도</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSUsbAccessDialog.qml" line="105"/>
+        <source>Use the password for installing apps, not your Steam password.</source>
+        <translation>Steam 비밀번호가 아닌, 앱을 설치할 때 사용하는 비밀번호를 입력하세요.</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSUsbAccessNavigation</name>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSUsbAccessNavigation.qml" line="43"/>
+        <source>Back to setup</source>
+        <translation>설정으로 돌아가기</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSUsbAccessNavigation.qml" line="38"/>
+        <source>Cancel setup</source>
+        <translation>설정 취소</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSUsbAccessNavigation.qml" line="31"/>
+        <source>Done</source>
+        <translation>완료</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSUsbAccessNavigation.qml" line="22"/>
+        <location filename="../src/qml/controllers/PlaybackOSUsbAccessNavigation.qml" line="31"/>
+        <source>Enable access</source>
+        <translation>접근 허용</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSUsbAccessNavigation.qml" line="29"/>
+        <source>Enter password</source>
+        <translation>비밀번호 입력</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSUsbAccessNavigation.qml" line="38"/>
+        <source>Not now</source>
+        <translation>나중에</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSUsbAccessNavigation.qml" line="30"/>
+        <source>Open setup folder</source>
+        <translation>설정 폴더 열기</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSUsbSetup</name>
+    <message>
+        <location filename="../src/runtime/PlaybackOSUsbSetup.cpp" line="159"/>
+        <source>Automatic Operator access setup is available on Linux only.</source>
+        <translation>Operator 접근 자동 설정은 Linux에서만 사용할 수 있습니다.</translation>
+    </message>
+    <message>
+        <location filename="../src/runtime/PlaybackOSUsbSetup.cpp" line="178"/>
+        <source>Complete the system authentication prompt to enable Operator access…</source>
+        <translation>시스템 인증 창에서 인증을 완료하여 Operator 접근을 허용하세요…</translation>
+    </message>
+    <message>
+        <location filename="../src/runtime/PlaybackOSUsbSetup.cpp" line="100"/>
+        <source>Enable Epilogue Operator access</source>
+        <translation>Epilogue Operator 접근 허용</translation>
+    </message>
+    <message>
+        <location filename="../src/runtime/PlaybackOSUsbSetup.cpp" line="221"/>
+        <source>Enter your Linux password.</source>
+        <translation>Linux 비밀번호를 입력하세요.</translation>
+    </message>
+    <message>
+        <location filename="../src/runtime/PlaybackOSUsbSetup.cpp" line="238"/>
+        <source>Installing Operator access rules…</source>
+        <translation>Operator 접근 규칙 설치 중…</translation>
+    </message>
+    <message>
+        <location filename="../src/runtime/PlaybackOSUsbSetup.cpp" line="337"/>
+        <source>Operator access setup could not finish.
+
+%1</source>
+        <translation>Operator 접근 설정을 완료하지 못했습니다.
+
+%1</translation>
+    </message>
+    <message>
+        <location filename="../src/runtime/PlaybackOSUsbSetup.cpp" line="155"/>
+        <source>Please wait a few seconds before trying setup again.</source>
+        <translation>몇 초 기다린 후 설정을 다시 시도하세요.</translation>
+    </message>
+    <message>
+        <location filename="../src/runtime/PlaybackOSUsbSetup.cpp" line="179"/>
+        <source>Requesting permission to install Operator access rules…</source>
+        <translation>Operator 접근 규칙 설치 권한 요청 중…</translation>
+    </message>
+    <message>
+        <location filename="../src/runtime/PlaybackOSUsbSetup.cpp" line="174"/>
+        <source>Secure password input is unavailable. Try setup from Desktop Mode.</source>
+        <translation>보안 비밀번호 입력을 사용할 수 없습니다. 데스크톱 모드에서 설정을 시도하세요.</translation>
+    </message>
+    <message>
+        <location filename="../src/runtime/PlaybackOSUsbSetup.cpp" line="360"/>
+        <source>Setup canceled. Any rules already installed will remain in place.</source>
+        <translation>설정이 취소되었습니다. 이미 설치된 규칙은 유지됩니다.</translation>
+    </message>
+    <message>
+        <location filename="../src/runtime/PlaybackOSUsbSetup.cpp" line="332"/>
+        <source>Setup complete. Reconnect your Operator if it is still blocked.</source>
+        <translation>설정이 완료되었습니다. Operator 접근이 여전히 차단되어 있으면 다시 연결하세요.</translation>
+    </message>
+    <message>
+        <location filename="../src/runtime/PlaybackOSUsbSetup.cpp" line="366"/>
+        <source>Setup timed out. Reconnect the Operator to check access, or try again.</source>
+        <translation>설정 시간이 초과되었습니다. Operator를 다시 연결해 접근 권한을 확인하거나 다시 시도하세요.</translation>
+    </message>
+    <message>
+        <location filename="../src/runtime/PlaybackOSUsbSetup.cpp" line="207"/>
+        <source>The Operator setup installer could not be sent. Please try again.</source>
+        <translation>Operator 설정 설치 프로그램을 전송하지 못했습니다. 다시 시도하세요.</translation>
+    </message>
+    <message>
+        <location filename="../src/runtime/PlaybackOSUsbSetup.cpp" line="163"/>
+        <source>The Operator setup installer is missing. Verify Playback&apos;s installed files in Steam.</source>
+        <translation>Operator 설정 설치 프로그램이 없습니다. Steam에서 Playback의 설치 파일을 확인하세요.</translation>
+    </message>
+    <message>
+        <location filename="../src/runtime/PlaybackOSUsbSetup.cpp" line="230"/>
+        <source>The password could not be sent. Please try again.</source>
+        <translation>비밀번호를 전송하지 못했습니다. 다시 시도하세요.</translation>
+    </message>
+    <message>
+        <location filename="../src/runtime/PlaybackOSUsbSetup.cpp" line="346"/>
+        <source>The system setup command could not start: %1</source>
+        <translation>시스템 설정 명령을 시작하지 못했습니다: %1</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSVideoWindow</name>
+    <message>
+        <location filename="../src/video/PlaybackOSVideoWindow.cpp" line="202"/>
+        <source>Display effects unavailable. Using the original picture.</source>
+        <translation>화면 효과를 사용할 수 없습니다. 원본 화면을 사용합니다.</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSVirtualKeyboardKey</name>
+    <message>
+        <location filename="../src/qml/views/components/common/PlaybackOSVirtualKeyboardKey.qml" line="32"/>
+        <source>Enter</source>
+        <translation>입력</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSWindow</name>
+    <message>
+        <location filename="../src/qml/debug/PlaybackOSDebugKeyboardHelp.qml" line="47"/>
+        <source>Keyboard mappings</source>
+        <translation>키보드 매핑</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/debug/PlaybackOSDebugKeyboardHelp.qml" line="144"/>
+        <source>Press a key</source>
+        <translation>키를 누르세요</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/debug/PlaybackOSDebugKeyboardHelp.qml" line="55"/>
+        <source>Use / or ESC to close</source>
+        <translation>/ 또는 ESC를 눌러 닫기</translation>
+    </message>
+</context>
+<context>
+    <name>ReadingCartridgesIndicator</name>
+    <message>
+        <location filename="../src/qml/views/components/common/ReadingCartridgesIndicator.qml" line="14"/>
+        <source>Reading carts</source>
+        <translation>카트리지 읽는 중</translation>
+    </message>
+</context>
+<context>
+    <name>RelativeDateFormatter</name>
+    <message>
+        <location filename="../src/qml/views/components/common/RelativeDateFormatter.qml" line="58"/>
+        <source>%1 · %2</source>
+        <translation>%1 · %2</translation>
+    </message>
+</context>
+<context>
+    <name>RetroAchievementsAccount</name>
+    <message>
+        <location filename="../src/qml/views/settings/integrations/RetroAchievementsAccount.qml" line="189"/>
+        <source>Achievements</source>
+        <translation>업적</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/integrations/RetroAchievementsAccount.qml" line="230"/>
+        <source>Casual</source>
+        <translation>일반</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/integrations/RetroAchievementsAccount.qml" line="229"/>
+        <source>Completed</source>
+        <translation>완료</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/integrations/RetroAchievementsAccount.qml" line="302"/>
+        <source>Could not load all account totals. You can retry from the account controls.</source>
+        <translation>계정의 전체 합계를 불러오지 못했습니다. 계정 메뉴에서 다시 시도할 수 있습니다.</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/integrations/RetroAchievementsAccount.qml" line="190"/>
+        <source>Games</source>
+        <translation>게임</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/integrations/RetroAchievementsAccount.qml" line="230"/>
+        <source>Hardcore</source>
+        <translation>하드코어</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/integrations/RetroAchievementsAccount.qml" line="301"/>
+        <source>Loading account totals…</source>
+        <translation>계정 합계 불러오는 중…</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/integrations/RetroAchievementsAccount.qml" line="84"/>
+        <source>Logged in as</source>
+        <translation>로그인 계정</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/integrations/RetroAchievementsAccount.qml" line="229"/>
+        <source>Mastered</source>
+        <translation>완전 정복</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/integrations/RetroAchievementsAccount.qml" line="153"/>
+        <source>Not you?</source>
+        <translation>본인 계정이 아닌가요?</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/integrations/RetroAchievementsAccount.qml" line="190"/>
+        <source>Points</source>
+        <translation>포인트</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/integrations/RetroAchievementsAccount.qml" line="136"/>
+        <source>Your latest achievement</source>
+        <translation>최근 달성한 업적</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/integrations/RetroAchievementsAccount.qml" line="145"/>
+        <source>Your rarest achievement</source>
+        <translation>가장 희귀한 업적</translation>
+    </message>
+</context>
+<context>
+    <name>RetroAchievementsNavigation</name>
+    <message>
+        <location filename="../src/qml/controllers/settings/integrations/RetroAchievementsNavigation.qml" line="27"/>
+        <source>Retry account totals</source>
+        <translation>계정 합계 다시 불러오기</translation>
+    </message>
+</context>
+<context>
+    <name>RetroAchievementsSettings</name>
+    <message>
+        <location filename="../src/qml/controllers/settings/cheats/CustomCheatEntryNavigation.qml" line="23"/>
+        <location filename="../src/qml/controllers/settings/integrations/RetroAchievementsNavigation.qml" line="20"/>
+        <source>Edit</source>
+        <translation>편집</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/settings/integrations/RetroAchievementsNavigation.qml" line="17"/>
+        <location filename="../src/qml/views/settings/integrations/RetroAchievementsAccount.qml" line="166"/>
+        <source>Log out</source>
+        <translation>로그아웃</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/integrations/RetroAchievementsSettingsView.qml" line="19"/>
+        <source>RetroAchievements</source>
+        <translation>RetroAchievements</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/integrations/RetroAchievementsLogin.qml" line="58"/>
+        <source>Signing in...</source>
+        <translation>로그인 중...</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/integrations/RetroAchievementsAccount.qml" line="167"/>
+        <source>Signing out...</source>
+        <translation>로그아웃 중...</translation>
+    </message>
+</context>
+<context>
+    <name>RetroAchievementsShowcase</name>
+    <message>
+        <location filename="../src/qml/views/settings/integrations/RetroAchievementsShowcase.qml" line="36"/>
+        <source>Based on achievement history available in Playback.</source>
+        <translation>Playback에서 확인할 수 있는 업적 기록을 기준으로 합니다.</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/integrations/RetroAchievementsShowcase.qml" line="19"/>
+        <source>Unlocked %1 at %2</source>
+        <translation>%1 %2에 달성</translation>
+    </message>
+</context>
+<context>
+    <name>RetroCore</name>
+    <message>
+        <location filename="../playback/src/core/RetroCore.cpp" line="629"/>
+        <source>link cable checkpoint failed</source>
+        <translation>통신 케이블 체크포인트 실패</translation>
+    </message>
+</context>
+<context>
+    <name>SettingsEmptyState</name>
+    <message>
+        <location filename="../src/qml/views/settings/sections/SettingsEmptyState.qml" line="31"/>
+        <source>Configure how games are emulated, including system, video, audio and performance options.</source>
+        <translation>시스템, 비디오, 오디오, 성능 옵션 등 게임 에뮬레이션 방식을 설정합니다.</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/sections/SettingsEmptyState.qml" line="58"/>
+        <source>Insert a cartridge into your Operator to see its cheat codes.</source>
+        <translation>Operator에 카트리지를 삽입하면 해당 치트 코드를 확인할 수 있습니다.</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/sections/SettingsEmptyState.qml" line="54"/>
+        <source>No controller settings are available for this Operator.</source>
+        <translation>이 Operator에는 사용할 수 있는 컨트롤러 설정이 없습니다.</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/sections/SettingsEmptyState.qml" line="52"/>
+        <source>No device settings are available for this Operator.</source>
+        <translation>이 Operator에는 사용할 수 있는 기기 설정이 없습니다.</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/sections/SettingsEmptyState.qml" line="56"/>
+        <source>No emulation cores are available for this Operator.</source>
+        <translation>이 Operator에는 사용할 수 있는 에뮬레이션 코어가 없습니다.</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/sections/SettingsEmptyState.qml" line="50"/>
+        <source>No emulator settings are available for the selected core.</source>
+        <translation>선택한 코어에는 사용할 수 있는 에뮬레이터 설정이 없습니다.</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/sections/SettingsEmptyState.qml" line="109"/>
+        <source>One connection away</source>
+        <translation>연결만 하면 준비 완료</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/sections/SettingsEmptyState.qml" line="120"/>
+        <source>Plug in your Operator to make these settings available.</source>
+        <translation>Operator를 연결하면 이 설정을 사용할 수 있습니다.</translation>
+    </message>
+</context>
+<context>
+    <name>SettingsGameTabs</name>
+    <message>
+        <location filename="../src/qml/views/components/settings/SettingsGameTabs.qml" line="114"/>
+        <source>%1 active</source>
+        <translation>%1 실행 중</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/settings/SettingsGameTabs.qml" line="113"/>
+        <source>%1 selected</source>
+        <translation>%1 선택됨</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/settings/SettingsGameTabs.qml" line="17"/>
+        <source>Select game</source>
+        <translation>게임 선택</translation>
+    </message>
+</context>
+<context>
+    <name>SettingsPage</name>
+    <message>
+        <location filename="../src/qml/views/components/settings/SettingsRow.qml" line="51"/>
+        <source>%1  BETA</source>
+        <translation>%1  베타</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSDialogNavigation.qml" line="10"/>
+        <location filename="../src/qml/controllers/settings/controls/ControllerDeadzoneNavigation.qml" line="10"/>
+        <location filename="../src/qml/controllers/settings/controls/ControllerRowsNavigation.qml" line="24"/>
+        <location filename="../src/qml/controllers/settings/SettingsListNavigation.qml" line="18"/>
+        <source>Accept</source>
+        <translation>수락</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/settings/SettingsListNavigation.qml" line="20"/>
+        <source>Change language</source>
+        <translation>언어 변경</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/settings/device/DeviceSettingsNavigation.qml" line="49"/>
+        <source>Apply</source>
+        <translation>적용</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/SettingsPageNavigation.qml" line="26"/>
+        <source>Back</source>
+        <translation>뒤로</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/settings/coreselector/CoreTabsNavigation.qml" line="33"/>
+        <source>Cannot change while playing</source>
+        <translation>플레이 중에는 변경할 수 없음</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/settings/controls/ControllerAssignmentNavigation.qml" line="10"/>
+        <source>Change controller</source>
+        <translation>컨트롤러 변경</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/settings/controls/ControllerRebindingNavigation.qml" line="11"/>
+        <source>Hold to cancel</source>
+        <translation>길게 눌러 취소</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/settings/controls/ControlsSettingsNavigation.qml" line="35"/>
+        <source>Hold to reset</source>
+        <translation>길게 눌러 초기화</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/settings/controls/ControllerTestNavigation.qml" line="10"/>
+        <source>Hold to set joystick deadzone</source>
+        <translation>길게 눌러 스틱 데드존 설정</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/settings/controls/ControllerDeadzoneNavigation.qml" line="16"/>
+        <location filename="../src/qml/controllers/settings/controls/ControllerTestNavigation.qml" line="18"/>
+        <source>Hold to stop testing controller</source>
+        <translation>길게 눌러 컨트롤러 테스트 종료</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/settings/controls/ControlsSettingsNavigation.qml" line="28"/>
+        <source>Map all</source>
+        <translation>전체 매핑</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/settings/SettingsSectionRegistry.qml" line="20"/>
+        <source>Playback OS</source>
+        <translation>Playback OS</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/settings/controls/ControllerRowsNavigation.qml" line="23"/>
+        <source>Remap</source>
+        <translation>다시 매핑</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/SettingsPageNavigation.qml" line="22"/>
+        <source>Resume game</source>
+        <translation>게임 재개</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/sections/ControlsSettingsView.qml" line="37"/>
+        <location filename="../src/qml/views/settings/sections/CoreSelectorSettingsView.qml" line="20"/>
+        <location filename="../src/qml/views/settings/sections/DeviceSettingsView.qml" line="21"/>
+        <location filename="../src/qml/views/settings/sections/EmulatorSettingsView.qml" line="19"/>
+        <location filename="../src/qml/views/settings/sections/SettingsSectionsView.qml" line="34"/>
+        <source>Select Operator</source>
+        <translation>Operator 선택</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/sections/ControlsSettingsView.qml" line="48"/>
+        <source>Select Player</source>
+        <translation>플레이어 선택</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/settings/controls/ControllerPreviewNavigation.qml" line="11"/>
+        <source>Test controller</source>
+        <translation>컨트롤러 테스트</translation>
+    </message>
+</context>
+<context>
+    <name>SettingsTabBar</name>
+    <message>
+        <location filename="../src/qml/views/components/settings/CoreSelectorRow.qml" line="21"/>
+        <location filename="../src/qml/views/components/settings/SettingsTabBar.qml" line="118"/>
+        <source>Download failed</source>
+        <translation>다운로드 실패</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/settings/CoreSelectorRow.qml" line="19"/>
+        <location filename="../src/qml/views/components/settings/SettingsTabBar.qml" line="118"/>
+        <source>Downloading</source>
+        <translation>다운로드 중</translation>
+    </message>
+</context>
+<context>
+    <name>SettingsTextField</name>
+    <message>
+        <location filename="../src/qml/views/components/settings/SettingsTextField.qml" line="12"/>
+        <source>Done</source>
+        <translation>완료</translation>
+    </message>
+</context>
+<context>
+    <name>ShaderCatalog</name>
+    <message>
+        <location filename="../playback/src/platform/common/ShaderCatalog.cpp" line="65"/>
+        <source>Arcade Monitor</source>
+        <translation>아케이드 모니터</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/ShaderCatalog.cpp" line="58"/>
+        <source>Black &amp; White TV</source>
+        <translation>흑백 TV</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/ShaderCatalog.cpp" line="77"/>
+        <source>Broadcast BVM</source>
+        <translation>방송용 BVM</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/ShaderCatalog.cpp" line="51"/>
+        <source>Consumer CRT</source>
+        <translation>가정용 CRT</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/ShaderCatalog.cpp" line="39"/>
+        <source>Game Boy Color® LCD</source>
+        <translation>Game Boy Color® LCD</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/ShaderCatalog.cpp" line="45"/>
+        <source>Game Boy® Advance LCD</source>
+        <translation>Game Boy® Advance LCD</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/ShaderCatalog.cpp" line="33"/>
+        <source>Game Boy® DMG LCD</source>
+        <translation>Game Boy® DMG LCD</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/ShaderCatalog.cpp" line="83"/>
+        <source>PC CRT</source>
+        <translation>PC용 CRT</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/ShaderCatalog.cpp" line="71"/>
+        <source>Professional PVM</source>
+        <translation>전문가용 PVM</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/ShaderCatalog.cpp" line="23"/>
+        <source>Sharp</source>
+        <translation>선명하게</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/ShaderCatalog.cpp" line="28"/>
+        <source>Smooth</source>
+        <translation>부드럽게</translation>
+    </message>
+</context>
+<context>
+    <name>ToastModel</name>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="267"/>
+        <source> · #%1</source>
+        <translation> · #%1</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="211"/>
+        <source>%1/%2 achievements · %3/%4 points</source>
+        <translation>업적 %1/%2 · 포인트 %3/%4</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="244"/>
+        <source>Attempt failed.</source>
+        <translation>도전에 실패했습니다.</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="285"/>
+        <source>Challenge active: %1</source>
+        <translation>진행 중인 도전 과제: %1</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="303"/>
+        <source>Completed — all achievements earned · %1 points.</source>
+        <translation>완료 — 모든 업적 달성 · %1점.</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="426"/>
+        <source>Delete Failed</source>
+        <translation>삭제 실패</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="312"/>
+        <source>Game beaten — %1/%2 achievements earned.</source>
+        <translation>게임 클리어 — 업적 %1/%2 달성.</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="224"/>
+        <source>Hardcore active</source>
+        <translation>하드코어 활성화됨</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="365"/>
+        <source>Host has left the game</source>
+        <translation>호스트가 게임을 떠났습니다</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="418"/>
+        <source>Load Failed</source>
+        <translation>로드 실패</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="299"/>
+        <source>Mastered — all %1 achievements unlocked.</source>
+        <translation>완전 정복 — 업적 %1개 모두 달성.</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="201"/>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="324"/>
+        <source>No achievements available</source>
+        <translation>이용 가능한 업적 없음</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="225"/>
+        <source>No cheats, rewind, resume points or slow motion.</source>
+        <translation>치트, 되감기, 재개 지점, 슬로 모션을 사용할 수 없습니다.</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="361"/>
+        <source>Player %1 disconnected</source>
+        <translation>플레이어 %1 연결 끊김</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="403"/>
+        <source>Resume Point Deleted</source>
+        <translation>재개 지점 삭제됨</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="396"/>
+        <source>Resume Point Loaded</source>
+        <translation>재개 지점 불러옴</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="389"/>
+        <source>Resume Point Saved</source>
+        <translation>재개 지점 저장됨</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="410"/>
+        <source>Save Failed</source>
+        <translation>저장 실패</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="397"/>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="404"/>
+        <source>Slot %1</source>
+        <translation>슬롯 %1</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="390"/>
+        <source>Slot %1 · %2</source>
+        <translation>슬롯 %1 · %2</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="411"/>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="419"/>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="427"/>
+        <source>Slot %1: %2</source>
+        <translation>슬롯 %1: %2</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="254"/>
+        <source>Submitted: %1</source>
+        <translation>제출됨: %1</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="361"/>
+        <source>The game continues.</source>
+        <translation>게임은 계속됩니다.</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="202"/>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="325"/>
+        <source>This game is not supported by RetroAchievements.</source>
+        <translation>이 게임은 RetroAchievements에서 지원하지 않습니다.</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="365"/>
+        <source>You&apos;ve returned to single-player.</source>
+        <translation>싱글 플레이로 돌아왔습니다.</translation>
+    </message>
+</context>
+<context>
+    <name>netplay::NetplayClient</name>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="1692"/>
+        <source>Connected to host</source>
+        <translation>호스트에 연결됨</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="2062"/>
+        <source>Connecting to host...</source>
+        <translation>호스트에 연결 중...</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="2094"/>
+        <source>Connection lost — recovering...</source>
+        <translation>연결 끊김 — 복구 중...</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="661"/>
+        <source>Game restarted</source>
+        <translation>게임이 다시 시작됨</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="2103"/>
+        <source>Host disconnected — waiting for reconnection...</source>
+        <translation>호스트 연결 끊김 — 재연결 대기 중...</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="2079"/>
+        <source>Joining session...</source>
+        <translation>세션에 참가 중...</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="2077"/>
+        <source>Joining session... %1%</source>
+        <translation>세션에 참가 중... %1%</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="1273"/>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="1281"/>
+        <source>Link Trade requires exactly two players</source>
+        <translation>통신 교환에는 정확히 두 명의 플레이어가 필요합니다</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="661"/>
+        <source>Multiplayer runs with the BIOS disabled.</source>
+        <translation>멀티플레이에서는 BIOS가 비활성화됩니다.</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="860"/>
+        <source>POST /rooms failed: url=%1 status=%2 err=%3</source>
+        <translation>POST /rooms 실패: url=%1 status=%2 err=%3</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="869"/>
+        <source>POST /rooms: response is not a JSON object</source>
+        <translation>POST /rooms: 응답이 JSON 객체가 아닙니다</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="877"/>
+        <source>POST /rooms: response missing code or hostToken</source>
+        <translation>POST /rooms: 응답에 code 또는 hostToken이 없습니다</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="2133"/>
+        <source>Player %1 connected</source>
+        <translation>플레이어 %1 연결됨</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="2055"/>
+        <source>Please check the room code: %1</source>
+        <translation>방 코드를 확인하세요: %1</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="2056"/>
+        <source>Please check your internet connection and firewall settings as well.</source>
+        <translation>인터넷 연결과 방화벽 설정도 확인하세요.</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="782"/>
+        <source>ROM identity mismatch: host=%1 local=%2</source>
+        <translation>ROM 식별 정보 불일치: host=%1 local=%2</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="2092"/>
+        <source>Reconnecting to signaling...</source>
+        <translation>시그널링에 다시 연결 중...</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="2089"/>
+        <source>Reconnecting to signaling... (attempt %1/%2)</source>
+        <translation>시그널링에 다시 연결 중... (시도 %1/%2)</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="2046"/>
+        <source>Reconnecting...</source>
+        <translation>다시 연결 중...</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="2054"/>
+        <source>Retrying connection %1/%2</source>
+        <translation>연결 재시도 중 %1/%2</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="693"/>
+        <source>Room is full</source>
+        <translation>방이 가득 찼습니다</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="2043"/>
+        <source>Session ended — returning to your library in %1...</source>
+        <translation>세션 종료 — %1 후 라이브러리로 돌아갑니다...</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="2014"/>
+        <source>Tip: Player %1 has the best connection to everyone — they&apos;d make the smoothest host next time</source>
+        <translation>팁: 플레이어 %1의 연결이 모두에게 가장 안정적입니다. 다음에는 이 플레이어가 호스트를 맡으면 가장 원활하게 플레이할 수 있습니다</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="2064"/>
+        <source>Waiting for host to start the game</source>
+        <translation>호스트가 게임을 시작하기를 기다리는 중</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="1425"/>
+        <source>WebRTC peer connection failed: %1</source>
+        <translation>WebRTC 피어 연결 실패: %1</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="1691"/>
+        <source>You&apos;re Player %1</source>
+        <translation>플레이어 %1입니다</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="377"/>
+        <source>connectAsHost called without a prior createRoom</source>
+        <translation>createRoom 호출 전에 connectAsHost가 호출되었습니다</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="792"/>
+        <source>core name mismatch: host=%1 local=%2</source>
+        <translation>코어 이름 불일치: host=%1 local=%2</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="1657"/>
+        <source>core rejected peer state during late-join/resync</source>
+        <translation>중도 참가 또는 재동기화 중 코어가 상대방의 상태를 거부했습니다</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="827"/>
+        <source>core version mismatch: host=%1 local=%2</source>
+        <translation>코어 버전 불일치: host=%1 local=%2</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="746"/>
+        <source>identity peek network error: %1</source>
+        <translation>식별 정보 미리 확인 중 네트워크 오류: %1</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="752"/>
+        <source>identity peek: response is not a JSON object</source>
+        <translation>식별 정보 미리 확인: 응답이 JSON 객체가 아닙니다</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="767"/>
+        <source>identity peek: romIdentity field missing or not hex</source>
+        <translation>식별 정보 미리 확인: romIdentity 필드가 없거나 16진수가 아닙니다</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="395"/>
+        <source>joinRoom called with an empty code</source>
+        <translation>빈 코드로 joinRoom이 호출되었습니다</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="1907"/>
+        <source>peer connection handshake timed out</source>
+        <translation>피어 연결 핸드셰이크 시간 초과</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="324"/>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="351"/>
+        <source>relay URL is not configured</source>
+        <translation>중계 서버 URL이 설정되지 않았습니다</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="1501"/>
+        <source>signaling transport error: %1</source>
+        <translation>시그널링 전송 오류: %1</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="1295"/>
+        <source>the loaded core does not support Link Trade</source>
+        <translation>불러온 코어가 통신 교환을 지원하지 않습니다</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="1294"/>
+        <source>the loaded core does not support Wireless Adapter trading</source>
+        <translation>불러온 코어가 무선 어댑터 교환을 지원하지 않습니다</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="56"/>
+        <source>waited too long for host to start the game</source>
+        <translation>호스트의 게임 시작 대기 시간이 초과되었습니다</translation>
     </message>
 </context>
 </TS>

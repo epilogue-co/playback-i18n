@@ -331,6 +331,26 @@ Do not remove the cartridge while any operation is running.</source>
         <source>Rumble</source>
         <translation>振動</translation>
     </message>
+    <message>
+        <location filename="../src/settings/PlaybackOSCorePresentation.cpp" line="114"/>
+        <source>GBA Wireless Adapter</source>
+        <translation>GBAワイヤレスアダプター</translation>
+    </message>
+    <message>
+        <location filename="../src/settings/PlaybackOSCorePresentation.cpp" line="112"/>
+        <source>Link Cable</source>
+        <translation>通信ケーブル</translation>
+    </message>
+    <message>
+        <location filename="../src/settings/PlaybackOSCorePresentation.cpp" line="110"/>
+        <source>Online Multiplayer</source>
+        <translation>オンラインマルチプレイヤー</translation>
+    </message>
+    <message>
+        <location filename="../src/settings/PlaybackOSCorePresentation.cpp" line="108"/>
+        <source>Rewind</source>
+        <translation>巻き戻し</translation>
+    </message>
 </context>
 <context>
     <name>CoreSelectorScreen</name>
@@ -365,6 +385,11 @@ Do not remove the cartridge while any operation is running.</source>
         <location filename="../src/platform/desktop/CoreSelectorScreen.cpp" line="260"/>
         <source>Your own core</source>
         <translation>カスタムコア</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/sections/SettingsDescriptions.qml" line="6"/>
+        <source>You can change the emulation core for your Operator device.</source>
+        <translation>Operatorデバイスのエミュレーションコアを変更できます。</translation>
     </message>
 </context>
 <context>
@@ -732,6 +757,26 @@ Do not remove the cartridge while any operation is running.</source>
         <source>Choose one of the options below to set the status of your device’s LED light. Select ‘Static’ to keep the light on or ‘Dark’ to shut it off. Pulse and Strobe coming soon.</source>
         <translation>デバイスのLEDライトの状態を設定するには、以下のオプションのいずれかを選択します。点灯し続ける場合は「Static」、消灯する場合は「Dark」を選択してください。パルスとストロボは近日公開予定です。</translation>
     </message>
+    <message>
+        <location filename="../playback/src/platform/common/settings/DeviceSettingsText.cpp" line="18"/>
+        <source>Dark</source>
+        <translation>消灯</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/settings/DeviceSettingsText.cpp" line="20"/>
+        <source>Pulse</source>
+        <translation>パルス</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/settings/DeviceSettingsText.cpp" line="16"/>
+        <source>Static</source>
+        <translation>点灯</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/settings/DeviceSettingsText.cpp" line="22"/>
+        <source>Strobe</source>
+        <translation>ストロボ</translation>
+    </message>
 </context>
 <context>
     <name>DeviceSwitcherDropdown</name>
@@ -1042,6 +1087,16 @@ OpenGL詳細:
         <source>Enable in-game integrity checks for save data. This feature is still in beta and may not work with all games.</source>
         <translation>セーブデータのゲーム内整合性チェックを有効にします。この機能はまだベータ版であり、すべてのゲームで動作するとは限りません。</translation>
     </message>
+    <message>
+        <location filename="../playback/src/platform/common/settings/EmulatorSettingsText.cpp" line="31"/>
+        <source>Controls fast-forward and rewind speed. Speeds above 2x can cause unexpected bugs in combination with the &apos;Autosave to cartridge&apos; feature; toggle fast-forward off and on after changing it.</source>
+        <translation>早送りと巻き戻しの速度を設定します。2倍を超える速度では、「カートリッジに自動セーブ」と併用すると予期しない不具合が発生する場合があります。変更後は早送りを一度オフにしてから再びオンにしてください。</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/settings/EmulatorSettingsText.cpp" line="22"/>
+        <source>Fast-forward and rewind speed</source>
+        <translation>早送りと巻き戻しの速度</translation>
+    </message>
 </context>
 <context>
     <name>FirmwareUpdateDisclaimer</name>
@@ -1330,6 +1385,11 @@ please do not disconnect the device.</source>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="298"/>
         <source>Link Playback to your Discord account, and share the exact game you’re playing with your friends!</source>
         <translation>PlaybackをDiscordアカウントに連携して、プレイ中のゲームを友だちに共有しましょう！</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/settings/IntegrationsSettingsText.cpp" line="28"/>
+        <source>Log in with your %1 account.</source>
+        <translation>%1アカウントでログインしてください。</translation>
     </message>
 </context>
 <context>
@@ -2073,6 +2133,61 @@ If you&apos;d like to easily remove all the pictures from your camera, without h
         <source>Configure how transfers are handled in the Data section of Playback.</source>
         <translation>Playback のデータセクションで、転送の処理方法を設定します。</translation>
     </message>
+    <message>
+        <location filename="../playback/src/platform/common/settings/PlaybackSettingsText.cpp" line="49"/>
+        <source>Allows you to change the language in which the Playback software is presented.</source>
+        <translation>Playbackの表示言語を変更できます。</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/settings/PlaybackSettingsText.cpp" line="104"/>
+        <source>Always Off</source>
+        <translation>常に非表示</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/settings/PlaybackSettingsText.cpp" line="102"/>
+        <source>Always On</source>
+        <translation>常に表示</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/settings/PlaybackSettingsText.cpp" line="103"/>
+        <source>Auto-Hide</source>
+        <translation>自動非表示</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/settings/PlaybackSettingsText.cpp" line="39"/>
+        <source>Confirm Before Exiting Emulation</source>
+        <translation>エミュレーション終了前に確認</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/settings/PlaybackSettingsText.cpp" line="101"/>
+        <source>Disabled</source>
+        <translation>無効</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/settings/PlaybackSettingsText.cpp" line="100"/>
+        <source>Enabled</source>
+        <translation>有効</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/settings/PlaybackSettingsText.cpp" line="113"/>
+        <source>Open Log Directory</source>
+        <translation>ログディレクトリを開く</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/settings/PlaybackSettingsText.cpp" line="41"/>
+        <source>Start Emulator in Fullscreen</source>
+        <translation>エミュレーターを全画面で起動</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/settings/PlaybackSettingsText.cpp" line="88"/>
+        <source>When enabled, leaving a game asks for confirmation first. A game with unsaved changes always asks, regardless of this setting.</source>
+        <translation>有効にすると、ゲームを終了する前に確認します。未保存の変更があるゲームでは、この設定に関係なく必ず確認します。</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/settings/PlaybackSettingsText.cpp" line="91"/>
+        <source>When enabled, starting a game puts the window into fullscreen automatically. Exiting emulation restores the previous window size.</source>
+        <translation>有効にすると、ゲーム開始時にウィンドウが自動的に全画面になります。エミュレーションを終了すると、元のウィンドウサイズに戻ります。</translation>
+    </message>
 </context>
 <context>
     <name>PlaybackSettingsScreenOption</name>
@@ -2159,6 +2274,137 @@ If you&apos;d like to easily remove all the pictures from your camera, without h
     <message>
         <source>Disabled</source>
         <translation type="obsolete">無効</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="118"/>
+        <source>Can&apos;t reach netplay</source>
+        <translation>ネットプレイに接続できません</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="128"/>
+        <source>Cartridge removed</source>
+        <translation>カートリッジが取り外されました</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="106"/>
+        <source>Cartridge was removed. Netplay session ended.</source>
+        <translation>カートリッジが取り外されました。ネットプレイセッションを終了しました。</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="124"/>
+        <location filename="../playback/src/core/ErrorMessages.h" line="125"/>
+        <source>Connection failed</source>
+        <translation>接続に失敗しました</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="103"/>
+        <source>Couldn&apos;t load the game state from your peer. You may be running different Playback versions — update both sides and try again.</source>
+        <translation>相手のゲーム状態を読み込めませんでした。Playbackのバージョンが異なる可能性があります。双方を更新して、もう一度お試しください。</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="83"/>
+        <source>Couldn&apos;t reach the netplay relay. Check your internet connection and try again.</source>
+        <translation>ネットプレイの中継サーバーに接続できませんでした。インターネット接続を確認して、もう一度お試しください。</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="127"/>
+        <source>Couldn&apos;t sync</source>
+        <translation>同期できませんでした</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="123"/>
+        <source>Different core</source>
+        <translation>コアが異なります</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="122"/>
+        <source>Different game</source>
+        <translation>ゲームが異なります</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="129"/>
+        <source>Different game version</source>
+        <translation>ゲームのバージョンが異なります</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="99"/>
+        <source>Direct peer connection failed. Your network may block WebRTC.</source>
+        <translation>相手との直接接続に失敗しました。ネットワークでWebRTCがブロックされている可能性があります。</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="101"/>
+        <source>Game state diverged between peers. The session can&apos;t continue.</source>
+        <translation>プレイヤー間でゲーム状態が一致しません。セッションを続行できません。</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="64"/>
+        <source>Netplay error</source>
+        <translation>ネットプレイエラー</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="126"/>
+        <source>Out of sync</source>
+        <translation>同期がずれています</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="120"/>
+        <source>Room full</source>
+        <translation>ルームが満員です</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="87"/>
+        <source>Room is full. Ask the host to create a new room with more slots.</source>
+        <translation>ルームが満員です。参加人数を増やした新しいルームを作成するようホストに依頼してください。</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="119"/>
+        <source>Room not found</source>
+        <translation>ルームが見つかりません</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="85"/>
+        <source>Room not found. The code may have expired or been mistyped.</source>
+        <translation>ルームが見つかりません。コードの有効期限が切れているか、入力が間違っている可能性があります。</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="97"/>
+        <source>Signaling connection failed. Check your firewall and try again.</source>
+        <translation>シグナリング接続に失敗しました。ファイアウォールを確認して、もう一度お試しください。</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="114"/>
+        <source>Something went wrong with netplay. Restart Playback and try again.</source>
+        <translation>ネットプレイで問題が発生しました。Playbackを再起動して、もう一度お試しください。</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="108"/>
+        <source>The netplay relay responded but the message was malformed. Try again in a moment.</source>
+        <translation>ネットプレイの中継サーバーから応答がありましたが、メッセージの形式が不正でした。少し待ってからもう一度お試しください。</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="121"/>
+        <source>Version mismatch</source>
+        <translation>バージョンが一致しません</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="94"/>
+        <source>You&apos;re using a different emulator core than the host. Open Settings &gt; Core and make sure you both selected the same core and have the same core version.</source>
+        <translation>ホストとは異なるエミュレーターコアを使用しています。設定 &gt; コアを開き、双方が同じコアと同じバージョンを選択していることを確認してください。</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="91"/>
+        <source>You&apos;re using a different game than the host. Please check that the cartridge, game region, and game revision match.</source>
+        <translation>ホストとは異なるゲームを使用しています。カートリッジ、ゲームの地域、リビジョンが一致していることを確認してください。</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="110"/>
+        <source>Your cartridge and your peer&apos;s cartridge appear to be different versions of the same game (different revision, region, or translation patch), so they set up the link cable differently. Try using cartridges from matching game revisions.</source>
+        <translation>あなたと相手のカートリッジは、同じゲームの異なるバージョン（リビジョン、地域、翻訳パッチの違い）と思われるため、通信ケーブルの設定が一致しません。リビジョンが一致するゲームのカートリッジをお試しください。</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="89"/>
+        <source>Your peer is running a different netplay version. Please update Playback on both sides.</source>
+        <translation>相手が異なるバージョンのネットプレイを使用しています。双方のPlaybackを更新してください。</translation>
     </message>
 </context>
 <context>
@@ -2523,6 +2769,31 @@ Would you like to proceed?
         <location filename="../src/core/SavestateManager.cpp" line="160"/>
         <source>Failed to delete state</source>
         <translation>ステートの削除に失敗しました</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/SavestateManager.cpp" line="289"/>
+        <source>Core does not support savestates</source>
+        <translation>コアはステートセーブに対応していません</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/SavestateManager.cpp" line="304"/>
+        <source>Core rejected the savestate (it may be from a different core version)</source>
+        <translation>コアがステートセーブを拒否しました（別のバージョンのコアで作成された可能性があります）</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/SavestateManager.cpp" line="273"/>
+        <source>Could not read savestate file</source>
+        <translation>ステートセーブファイルを読み取れませんでした</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/SavestateManager.cpp" line="282"/>
+        <source>Savestate file is empty</source>
+        <translation>ステートセーブファイルが空です</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/SavestateManager.cpp" line="303"/>
+        <source>Savestate was created by a different core version and can&apos;t be loaded</source>
+        <translation>別のバージョンのコアで作成されたステートセーブのため、読み込めません</translation>
     </message>
 </context>
 <context>
@@ -2986,6 +3257,2335 @@ Please ensure your graphics drivers are up to date.</source>
         <location filename="../src/platform/desktop/Window.cpp" line="730"/>
         <source>Begin archiving the save data.</source>
         <translation>セーブデータのアーカイブを開始します。</translation>
+    </message>
+</context>
+<context>
+    <name>AchievementList</name>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementRow.qml" line="18"/>
+        <source>%1 Casual point</source>
+        <translation>カジュアルポイント %1</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementRow.qml" line="19"/>
+        <source>%1 Casual points</source>
+        <translation>カジュアルポイント %1</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementRow.qml" line="20"/>
+        <source>%1 Hardcore point</source>
+        <translation>ハードコアポイント %1</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementRow.qml" line="21"/>
+        <source>%1 Hardcore points</source>
+        <translation>ハードコアポイント %1</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/AchievementsNavigation.qml" line="116"/>
+        <source>%1 doesn’t support RetroAchievements.</source>
+        <translation>%1はRetroAchievementsに対応していません。</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementRow.qml" line="16"/>
+        <source>+%1 point</source>
+        <translation>+%1ポイント</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementRow.qml" line="17"/>
+        <source>+%1 points</source>
+        <translation>+%1ポイント</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementRow.qml" line="39"/>
+        <location filename="../src/qml/views/components/games/AchievementRow.qml" line="146"/>
+        <source>Achievement</source>
+        <translation>アチーブメント</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/AchievementsNavigation.qml" line="168"/>
+        <source>All by rarity</source>
+        <translation>すべて（レア度順）</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/common/RelativeDateFormatter.qml" line="24"/>
+        <source>Date unavailable</source>
+        <translation>日付を取得できません</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/AchievementsNavigation.qml" line="75"/>
+        <source>Game version not recognized</source>
+        <translation>ゲームのバージョンを認識できません</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/AchievementsNavigation.qml" line="164"/>
+        <source>In progress</source>
+        <translation>進行中</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/AchievementsNavigation.qml" line="106"/>
+        <source>Loading...</source>
+        <translation>読み込み中...</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/AchievementsNavigation.qml" line="96"/>
+        <source>Log in to view your achievements and track your progress.</source>
+        <translation>ログインしてアチーブメントを表示し、進行状況を確認しましょう。</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementList.qml" line="15"/>
+        <source>No achievements are in progress.</source>
+        <translation>進行中のアチーブメントはありません。</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/AchievementsNavigation.qml" line="85"/>
+        <source>No achievements available</source>
+        <translation>アチーブメントはありません</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementList.qml" line="17"/>
+        <source>No achievements have been unlocked.</source>
+        <translation>まだアチーブメントをアンロックしていません。</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementList.qml" line="18"/>
+        <source>No locked achievements remain.</source>
+        <translation>未アンロックのアチーブメントは残っていません。</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/AchievementsNavigation.qml" line="115"/>
+        <source>Please choose a compatible emulation core</source>
+        <translation>対応するエミュレーションコアを選択してください</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/AchievementsNavigation.qml" line="76"/>
+        <source>RetroAchievements doesn’t recognize this version of the game ☹</source>
+        <translation>RetroAchievementsはこのゲームのバージョンを認識できません ☹</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/AchievementsNavigation.qml" line="86"/>
+        <source>Sadly, this game has no RetroAchievements to unlock</source>
+        <translation>残念ながら、このゲームには獲得できるRetroAchievementsのアチーブメントがありません</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/common/RelativeDateFormatter.qml" line="26"/>
+        <source>Today</source>
+        <translation>今日</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/common/RelativeDateFormatter.qml" line="28"/>
+        <source>Yesterday</source>
+        <translation>昨日</translation>
+    </message>
+</context>
+<context>
+    <name>AchievementRow</name>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementRow.qml" line="336"/>
+        <source>%1%</source>
+        <translation>%1%</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementRow.qml" line="231"/>
+        <source>(%1%)</source>
+        <translation>(%1%)</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementRow.qml" line="241"/>
+        <source>Last played</source>
+        <translation>前回のプレイ</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementRow.qml" line="178"/>
+        <source>You gained</source>
+        <translation>獲得:</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementRow.qml" line="275"/>
+        <source>You&apos;re part of %1 players who unlocked this!</source>
+        <translation>このアチーブメントを獲得した%1のプレイヤーの一員です！</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementRow.qml" line="194"/>
+        <source>and</source>
+        <translation>と</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementRow.qml" line="345"/>
+        <source>of players</source>
+        <translation>のプレイヤー</translation>
+    </message>
+</context>
+<context>
+    <name>AchievementSummary</name>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementSummary.qml" line="32"/>
+        <location filename="../src/qml/views/components/games/AchievementSummary.qml" line="272"/>
+        <source>%1 Casual point</source>
+        <translation>カジュアルポイント %1</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementSummary.qml" line="33"/>
+        <location filename="../src/qml/views/components/games/AchievementSummary.qml" line="272"/>
+        <source>%1 Casual points</source>
+        <translation>カジュアルポイント %1</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementSummary.qml" line="34"/>
+        <location filename="../src/qml/views/components/games/AchievementSummary.qml" line="270"/>
+        <source>%1 Hardcore point</source>
+        <translation>ハードコアポイント %1</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementSummary.qml" line="35"/>
+        <location filename="../src/qml/views/components/games/AchievementSummary.qml" line="270"/>
+        <source>%1 Hardcore points</source>
+        <translation>ハードコアポイント %1</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementSummary.qml" line="289"/>
+        <source>%1 point available</source>
+        <translation>獲得可能なポイント: %1</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementSummary.qml" line="289"/>
+        <source>%1 points available</source>
+        <translation>獲得可能なポイント: %1</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementSummary.qml" line="179"/>
+        <source>%1% unlocked</source>
+        <translation>%1% アンロック済み</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementSummary.qml" line="168"/>
+        <location filename="../src/qml/views/components/games/AchievementSummary.qml" line="169"/>
+        <source>%1/%2 achievements</source>
+        <translation>アチーブメント %1/%2</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementSummary.qml" line="151"/>
+        <source>(%1%)</source>
+        <translation>(%1%)</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementSummary.qml" line="29"/>
+        <location filename="../src/qml/views/components/games/AchievementSummary.qml" line="241"/>
+        <source>Out of %1 available point:</source>
+        <translation>獲得可能な%1ポイントのうち:</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementSummary.qml" line="30"/>
+        <location filename="../src/qml/views/components/games/AchievementSummary.qml" line="242"/>
+        <source>Out of %1 available points:</source>
+        <translation>獲得可能な%1ポイントのうち:</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementSummary.qml" line="75"/>
+        <source>RetroAchievements</source>
+        <translation>RetroAchievements</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementSummary.qml" line="27"/>
+        <location filename="../src/qml/views/components/games/AchievementSummary.qml" line="142"/>
+        <source>You&apos;ve unlocked %1/%2 achievements</source>
+        <translation>アチーブメントを%1/%2アンロックしました</translation>
+    </message>
+</context>
+<context>
+    <name>AchievementUnavailable</name>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementUnavailable.qml" line="50"/>
+        <source>RetroAchievements</source>
+        <translation>RetroAchievements</translation>
+    </message>
+</context>
+<context>
+    <name>CheatCodesSettingsNavigation</name>
+    <message>
+        <location filename="../src/qml/controllers/settings/cheats/CheatCodesSettingsNavigation.qml" line="36"/>
+        <source>Go to Autosave settings</source>
+        <translation>自動保存の設定へ</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/settings/cheats/CheatCodesSettingsNavigation.qml" line="88"/>
+        <source>Toggle</source>
+        <translation>切り替え</translation>
+    </message>
+</context>
+<context>
+    <name>CheatCodesSettingsView</name>
+    <message>
+        <location filename="../src/qml/views/settings/sections/CheatCodesSettingsView.qml" line="65"/>
+        <source>Hardcore Mode for RetroAchievements is enabled</source>
+        <translation>RetroAchievementsのハードコアモードが有効です</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/sections/CheatCodesSettingsView.qml" line="74"/>
+        <source>Selected cheats stay inactive while Hardcore mode is enabled.</source>
+        <translation>ハードコアモードが有効な間は、選択したチートは適用されません。</translation>
+    </message>
+</context>
+<context>
+    <name>ControllerDeadzonePanel</name>
+    <message>
+        <location filename="../src/qml/views/settings/controls/JoystickDeadzoneControl.qml" line="24"/>
+        <source>%1%</source>
+        <translation>%1%</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/controls/ControllerDeadzonePanel.qml" line="24"/>
+        <source>Left stick</source>
+        <translation>左スティック</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/controls/ControllerDeadzonePanel.qml" line="35"/>
+        <source>Right stick</source>
+        <translation>右スティック</translation>
+    </message>
+</context>
+<context>
+    <name>ControllerSetupPanel</name>
+    <message>
+        <location filename="../src/qml/views/settings/controls/ControllerSetupPanel.qml" line="55"/>
+        <source>Choose controller</source>
+        <translation>コントローラーを選択</translation>
+    </message>
+</context>
+<context>
+    <name>ControlsSettingsGrid</name>
+    <message>
+        <location filename="../src/qml/views/settings/controls/ControlsSettingsGrid.qml" line="96"/>
+        <location filename="../src/qml/views/settings/sections/SettingsEmptyState.qml" line="36"/>
+        <source>Map controller buttons to Playback actions.</source>
+        <translation>コントローラーのボタンをPlaybackの操作に割り当てます。</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/controls/ControlsSettingsGrid.qml" line="52"/>
+        <location filename="../src/qml/views/settings/sections/SettingsEmptyState.qml" line="35"/>
+        <source>Map controller buttons to game controls.</source>
+        <translation>コントローラーのボタンをゲームの操作に割り当てます。</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/controls/ControlsSettingsGrid.qml" line="51"/>
+        <source>Mappings</source>
+        <translation>割り当て</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/controls/ControlsSettingsGrid.qml" line="95"/>
+        <source>Shortcuts</source>
+        <translation>ショートカット</translation>
+    </message>
+</context>
+<context>
+    <name>ControlsSettingsRow</name>
+    <message>
+        <location filename="../src/qml/debug/PlaybackOSDebugKeyboardHelp.qml" line="16"/>
+        <location filename="../src/qml/views/settings/controls/ControlsSettingsRow.qml" line="43"/>
+        <location filename="../src/qml/views/settings/controls/ControlsSettingsRow.qml" line="53"/>
+        <source>Down</source>
+        <translation>下</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/debug/PlaybackOSDebugKeyboardHelp.qml" line="17"/>
+        <location filename="../src/qml/views/settings/controls/ControlsSettingsRow.qml" line="45"/>
+        <location filename="../src/qml/views/settings/controls/ControlsSettingsRow.qml" line="56"/>
+        <source>Left</source>
+        <translation>左</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/debug/PlaybackOSDebugKeyboardHelp.qml" line="18"/>
+        <location filename="../src/qml/views/settings/controls/ControlsSettingsRow.qml" line="47"/>
+        <location filename="../src/qml/views/settings/controls/ControlsSettingsRow.qml" line="59"/>
+        <source>Right</source>
+        <translation>右</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/debug/PlaybackOSDebugKeyboardHelp.qml" line="15"/>
+        <location filename="../src/qml/views/settings/controls/ControlsSettingsRow.qml" line="41"/>
+        <location filename="../src/qml/views/settings/controls/ControlsSettingsRow.qml" line="50"/>
+        <source>Up</source>
+        <translation>上</translation>
+    </message>
+</context>
+<context>
+    <name>CoreDetails</name>
+    <message>
+        <location filename="../src/qml/views/components/settings/CoreDetails.qml" line="44"/>
+        <source>Capabilities are unavailable for custom cores.</source>
+        <translation>カスタムコアの対応機能は確認できません。</translation>
+    </message>
+</context>
+<context>
+    <name>CoreSelectorRow</name>
+    <message>
+        <location filename="../src/qml/views/components/settings/CoreSelectorRow.qml" line="26"/>
+        <source>Download available</source>
+        <translation>ダウンロード可能</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/settings/CoreSelectorRow.qml" line="25"/>
+        <source>Installed</source>
+        <translation>インストール済み</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/settings/CoreSelectorRow.qml" line="26"/>
+        <source>Unavailable</source>
+        <translation>利用不可</translation>
+    </message>
+</context>
+<context>
+    <name>CoreUpdatesNavigation</name>
+    <message>
+        <location filename="../src/qml/controllers/settings/coreselector/CoreUpdatesNavigation.qml" line="24"/>
+        <source>Cancel</source>
+        <translation>キャンセル</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/settings/coreselector/CoreUpdatesNavigation.qml" line="24"/>
+        <source>Check again</source>
+        <translation>再確認</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/settings/coreselector/CoreUpdatesNavigation.qml" line="13"/>
+        <source>Check for updates</source>
+        <translation>更新を確認</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/settings/coreselector/CoreUpdatesNavigation.qml" line="12"/>
+        <source>Core updates</source>
+        <translation>コアの更新</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/settings/coreselector/CoreUpdatesNavigation.qml" line="13"/>
+        <source>Update all</source>
+        <translation>すべて更新</translation>
+    </message>
+</context>
+<context>
+    <name>CustomCheatEntry</name>
+    <message>
+        <location filename="../src/qml/views/components/settings/CustomCheatEntry.qml" line="35"/>
+        <source>Add cheat</source>
+        <translation>チートを追加</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/settings/CustomCheatEntry.qml" line="52"/>
+        <source>Add custom cheat</source>
+        <translation>カスタムチートを追加</translation>
+    </message>
+</context>
+<context>
+    <name>CustomCheatEntryNavigation</name>
+    <message>
+        <location filename="../src/qml/controllers/settings/cheats/CustomCheatEntryNavigation.qml" line="22"/>
+        <source>Add cheat</source>
+        <translation>チートを追加</translation>
+    </message>
+</context>
+<context>
+    <name>DeviceSettingsNavigation</name>
+    <message>
+        <location filename="../src/qml/controllers/settings/device/DeviceSettingsNavigation.qml" line="49"/>
+        <source>Applying…</source>
+        <translation>適用中…</translation>
+    </message>
+</context>
+<context>
+    <name>DeviceSettingsView</name>
+    <message>
+        <location filename="../src/qml/views/settings/sections/DeviceSettingsView.qml" line="89"/>
+        <source>Coming soon</source>
+        <translation>近日公開</translation>
+    </message>
+</context>
+<context>
+    <name>GameCard</name>
+    <message>
+        <location filename="../src/qml/views/components/games/GameArtwork.qml" line="149"/>
+        <source>Unable to start game.
+Please check core settings.</source>
+        <translation>ゲームを起動できません。
+コアの設定を確認してください。</translation>
+    </message>
+</context>
+<context>
+    <name>GameGallery</name>
+    <message>
+        <location filename="../src/qml/views/components/games/GameGallery.qml" line="32"/>
+        <source>Screenshot %1</source>
+        <translation>スクリーンショット %1</translation>
+    </message>
+</context>
+<context>
+    <name>GamesPage</name>
+    <message>
+        <location filename="../src/qml/views/pages/GamesPage.qml" line="34"/>
+        <source>%1 h %2 m</source>
+        <translation>%1時間 %2分</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/pages/GamesPage.qml" line="111"/>
+        <source>? players</source>
+        <translation>? 人プレイ</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/pages/GamesPage.qml" line="14"/>
+        <source>Go to Library</source>
+        <translation>ライブラリへ</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/GamesPageNavigation.qml" line="78"/>
+        <source>Hold to stop</source>
+        <translation>長押しで停止</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/GamesPageNavigation.qml" line="57"/>
+        <source>In use</source>
+        <translation>使用中</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/GamesPageNavigation.qml" line="55"/>
+        <source>Insert cart to play</source>
+        <translation>カートリッジを挿入してプレイ</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/GamesPageNavigation.qml" line="53"/>
+        <source>Library</source>
+        <translation>ライブラリ</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/pages/GamesPage.qml" line="16"/>
+        <source>Navigate your whole game collection.</source>
+        <translation>ゲームコレクション全体を閲覧できます。</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/GamesPageNavigation.qml" line="84"/>
+        <source>Resume game</source>
+        <translation>ゲームを再開</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/GamesPageNavigation.qml" line="81"/>
+        <source>View details</source>
+        <translation>詳細を見る</translation>
+    </message>
+</context>
+<context>
+    <name>JoystickDeadzoneDisplay</name>
+    <message>
+        <location filename="../src/qml/views/settings/controls/JoystickDeadzoneDisplay.qml" line="81"/>
+        <source>X %1</source>
+        <translation>X %1</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/controls/JoystickDeadzoneDisplay.qml" line="90"/>
+        <source>Y %1</source>
+        <translation>Y %1</translation>
+    </message>
+</context>
+<context>
+    <name>LibraryDetailPage</name>
+    <message>
+        <location filename="../src/qml/views/pages/LibraryDetailPage.qml" line="79"/>
+        <source>? players</source>
+        <translation>? 人プレイ</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/LibraryDetailPageNavigation.qml" line="59"/>
+        <source>Back</source>
+        <translation>戻る</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/LibraryDetailPageNavigation.qml" line="58"/>
+        <source>Back / Hold to stop</source>
+        <translation>戻る / 長押しで停止</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/LibraryDetailPageNavigation.qml" line="40"/>
+        <location filename="../src/qml/views/pages/LibraryDetailPage.qml" line="199"/>
+        <location filename="../src/qml/views/pages/LibraryDetailPage.qml" line="218"/>
+        <source>Change video shader</source>
+        <translation>ビデオシェーダーを変更</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/LibraryDetailPageNavigation.qml" line="57"/>
+        <source>Close achievements</source>
+        <translation>アチーブメントを閉じる</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/LibraryDetailPageNavigation.qml" line="51"/>
+        <source>In use</source>
+        <translation>使用中</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/LibraryDetailPageNavigation.qml" line="41"/>
+        <source>Manage save states</source>
+        <translation>ステートセーブを管理</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/LibraryDetailPageNavigation.qml" line="43"/>
+        <source>Open</source>
+        <translation>開く</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/LibraryDetailPageNavigation.qml" line="42"/>
+        <source>Open settings</source>
+        <translation>設定を開く</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/LibraryDetailPageNavigation.qml" line="60"/>
+        <source>Resume game</source>
+        <translation>ゲームを再開</translation>
+    </message>
+</context>
+<context>
+    <name>LibraryPage</name>
+    <message>
+        <location filename="../src/qml/controllers/pages/LibraryPageNavigation.qml" line="34"/>
+        <source>Back</source>
+        <translation>戻る</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/LibraryPageNavigation.qml" line="33"/>
+        <source>Back / Hold to stop</source>
+        <translation>戻る / 長押しで停止</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/LibraryPageNavigation.qml" line="30"/>
+        <source>Open</source>
+        <translation>開く</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/LibraryPageNavigation.qml" line="35"/>
+        <source>Resume game</source>
+        <translation>ゲームを再開</translation>
+    </message>
+</context>
+<context>
+    <name>NavigationHeader</name>
+    <message>
+        <location filename="../src/qml/views/components/common/NavigationHeader.qml" line="23"/>
+        <source>Games</source>
+        <translation>ゲーム</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/common/NavigationHeader.qml" line="23"/>
+        <source>Library</source>
+        <translation>ライブラリ</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSAchievementOverlayModel</name>
+    <message>
+        <location filename="../src/overlay/PlaybackOSAchievementOverlayModel.cpp" line="75"/>
+        <source>%1 does not support RetroAchievements. Please choose another core in Settings.</source>
+        <translation>%1はRetroAchievementsに対応していません。設定で別のコアを選択してください。</translation>
+    </message>
+    <message>
+        <location filename="../src/overlay/PlaybackOSAchievementOverlayModel.cpp" line="74"/>
+        <source>RetroAchievements unavailable</source>
+        <translation>RetroAchievementsを利用できません</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSControllerBindings</name>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="156"/>
+        <source>Left stick</source>
+        <translation>左スティック</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="157"/>
+        <source>Right stick</source>
+        <translation>右スティック</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="158"/>
+        <source>Left shoulder</source>
+        <translation>左ショルダーボタン</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="159"/>
+        <source>Right shoulder</source>
+        <translation>右ショルダーボタン</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="160"/>
+        <source>Dp up</source>
+        <translation>十字キー 上</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="161"/>
+        <source>Dp down</source>
+        <translation>十字キー 下</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="162"/>
+        <source>Dp left</source>
+        <translation>十字キー 左</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="163"/>
+        <source>Dp right</source>
+        <translation>十字キー 右</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="164"/>
+        <source>Misc1</source>
+        <translation>その他1</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="165"/>
+        <source>Paddle1</source>
+        <translation>パドル1</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="166"/>
+        <source>Paddle2</source>
+        <translation>パドル2</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="167"/>
+        <source>Paddle3</source>
+        <translation>パドル3</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="168"/>
+        <source>Paddle4</source>
+        <translation>パドル4</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="169"/>
+        <source>Touchpad</source>
+        <translation>タッチパッド</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="170"/>
+        <source>Misc2</source>
+        <translation>その他2</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="171"/>
+        <source>Misc3</source>
+        <translation>その他3</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="172"/>
+        <source>Misc4</source>
+        <translation>その他4</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="173"/>
+        <source>Misc5</source>
+        <translation>その他5</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="174"/>
+        <source>Misc6</source>
+        <translation>その他6</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="175"/>
+        <source>Axis left x+</source>
+        <translation>左スティック軸 x+</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="176"/>
+        <source>Axis left x-</source>
+        <translation>左スティック軸 x-</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="177"/>
+        <source>Axis left y+</source>
+        <translation>左スティック軸 y+</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="178"/>
+        <source>Axis left y-</source>
+        <translation>左スティック軸 y-</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="179"/>
+        <source>Axis right x+</source>
+        <translation>右スティック軸 x+</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="180"/>
+        <source>Axis right x-</source>
+        <translation>右スティック軸 x-</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="181"/>
+        <source>Axis right y+</source>
+        <translation>右スティック軸 y+</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="182"/>
+        <source>Axis right y-</source>
+        <translation>右スティック軸 y-</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="183"/>
+        <source>Axis trigger left</source>
+        <translation>左トリガー軸</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="184"/>
+        <source>Axis trigger right</source>
+        <translation>右トリガー軸</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSControllerInventory</name>
+    <message>
+        <location filename="../src/settings/controls/PlaybackOSControllerInventory.cpp" line="68"/>
+        <source>%1 (Steam Input)</source>
+        <translation>%1 (Steam Input)</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSControllerSelection</name>
+    <message>
+        <location filename="../src/settings/controls/PlaybackOSControllerAssignments.cpp" line="69"/>
+        <source>Disconnected controller</source>
+        <translation>切断されたコントローラー</translation>
+    </message>
+    <message>
+        <location filename="../src/settings/controls/PlaybackOSControllerSelection.cpp" line="69"/>
+        <source>Player %1</source>
+        <translation>プレイヤー%1</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSControllerStatus</name>
+    <message>
+        <location filename="../src/qml/views/components/common/PlaybackOSControllerStatus.qml" line="79"/>
+        <source>%1, connected</source>
+        <translation>%1、接続済み</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/common/PlaybackOSControllerStatus.qml" line="78"/>
+        <source>%1, controlling menu</source>
+        <translation>%1、メニューを操作中</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/common/PlaybackOSControllerStatus.qml" line="540"/>
+        <source>Control request DENIED by P%1</source>
+        <translation>P%1が操作権の要求を拒否しました</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/common/PlaybackOSControllerStatus.qml" line="72"/>
+        <source>Controller</source>
+        <translation>コントローラー</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/common/PlaybackOSControllerStatus.qml" line="473"/>
+        <location filename="../src/qml/views/components/common/PlaybackOSControllerStatus.qml" line="549"/>
+        <source>Hold any button to take control</source>
+        <translation>いずれかのボタンを長押しして操作権を取得</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/common/PlaybackOSControllerStatus.qml" line="521"/>
+        <source>P%1 took control!</source>
+        <translation>P%1が操作権を取得しました！</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/common/PlaybackOSControllerStatus.qml" line="380"/>
+        <source>Please connect controller</source>
+        <translation>コントローラーを接続してください</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/common/PlaybackOSControllerStatus.qml" line="490"/>
+        <location filename="../src/qml/views/components/common/PlaybackOSControllerStatus.qml" line="496"/>
+        <location filename="../src/qml/views/components/common/PlaybackOSControllerStatus.qml" line="506"/>
+        <location filename="../src/qml/views/components/common/PlaybackOSControllerStatus.qml" line="548"/>
+        <location filename="../src/qml/views/components/common/PlaybackOSControllerStatus.qml" line="568"/>
+        <location filename="../src/qml/views/components/common/PlaybackOSControllerStatus.qml" line="584"/>
+        <source>Press a button to take control</source>
+        <translation>ボタンを押して操作権を取得</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSControlsSettings</name>
+    <message>
+        <location filename="../src/settings/controls/PlaybackOSControllerBindings.cpp" line="152"/>
+        <source>Press a button…</source>
+        <translation>ボタンを押してください…</translation>
+    </message>
+    <message>
+        <location filename="../src/settings/controls/PlaybackOSControllerBindings.cpp" line="101"/>
+        <source>Press an input…</source>
+        <translation>入力してください…</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSCoreUpdater</name>
+    <message>
+        <location filename="../src/settings/PlaybackOSCoreUpdater.cpp" line="119"/>
+        <source>%1 update(s) available. Could not check %2 core(s).</source>
+        <translation>%1件の更新があります。%2個のコアを確認できませんでした。</translation>
+    </message>
+    <message>
+        <location filename="../src/settings/PlaybackOSCoreUpdater.cpp" line="27"/>
+        <source>Checking installed cores…</source>
+        <translation>インストール済みコアを確認中…</translation>
+    </message>
+    <message>
+        <location filename="../src/settings/PlaybackOSCoreUpdater.cpp" line="196"/>
+        <source>Core updates cancelled. Completed downloads were kept.</source>
+        <translation>コアの更新をキャンセルしました。ダウンロード済みのファイルは保持されています。</translation>
+    </message>
+    <message>
+        <location filename="../src/settings/PlaybackOSCoreUpdater.cpp" line="48"/>
+        <source>Could not check for updates. Please try again.</source>
+        <translation>更新を確認できませんでした。もう一度お試しください。</translation>
+    </message>
+    <message>
+        <location filename="../src/settings/PlaybackOSCoreUpdater.cpp" line="122"/>
+        <source>Installed cores are up to date.</source>
+        <translation>インストール済みのコアは最新です。</translation>
+    </message>
+    <message>
+        <location filename="../src/settings/PlaybackOSCoreUpdater.cpp" line="23"/>
+        <source>No downloaded cores are installed.</source>
+        <translation>ダウンロード済みのコアがインストールされていません。</translation>
+    </message>
+    <message>
+        <location filename="../src/settings/PlaybackOSCoreUpdater.cpp" line="189"/>
+        <source>Updated %1 core(s).</source>
+        <translation>%1個のコアを更新しました。</translation>
+    </message>
+    <message>
+        <location filename="../src/settings/PlaybackOSCoreUpdater.cpp" line="190"/>
+        <source>Updated %1 core(s); %2 failed. Check for updates to retry.</source>
+        <translation>%1個のコアを更新し、%2個は失敗しました。更新を確認して再試行してください。</translation>
+    </message>
+    <message>
+        <location filename="../src/settings/PlaybackOSCoreUpdater.cpp" line="123"/>
+        <source>Updates available for %1 core(s).</source>
+        <translation>%1個のコアに更新があります。</translation>
+    </message>
+    <message>
+        <location filename="../src/settings/PlaybackOSCoreUpdater.cpp" line="147"/>
+        <source>Updating %1…</source>
+        <translation>%1を更新中…</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSDeviceSettings</name>
+    <message>
+        <location filename="../src/settings/PlaybackOSDeviceSettings.cpp" line="83"/>
+        <source>Connect an Operator to customize its LED light.</source>
+        <translation>Operatorを接続してLEDライトをカスタマイズします。</translation>
+    </message>
+    <message>
+        <location filename="../src/settings/PlaybackOSDeviceSettings.cpp" line="91"/>
+        <source>Could not apply the effect. Select an effect to try again.</source>
+        <translation>エフェクトを適用できませんでした。エフェクトを選択して再試行してください。</translation>
+    </message>
+    <message>
+        <location filename="../src/settings/PlaybackOSDeviceSettings.cpp" line="90"/>
+        <source>Stop the current game to change this Operator’s LED effect.</source>
+        <translation>このOperatorのLEDエフェクトを変更するには、現在のゲームを停止してください。</translation>
+    </message>
+    <message>
+        <location filename="../src/settings/PlaybackOSDeviceSettings.cpp" line="86"/>
+        <source>This Operator is in use by another Playback window.</source>
+        <translation>このOperatorは別のPlaybackウィンドウで使用されています。</translation>
+    </message>
+    <message>
+        <location filename="../src/settings/PlaybackOSDeviceSettings.cpp" line="88"/>
+        <source>Wait for the current device operation to finish before changing the LED effect.</source>
+        <translation>現在のデバイス操作が完了してから、LEDエフェクトを変更してください。</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSEmulatorHost</name>
+    <message>
+        <location filename="../src/emulation/PlaybackOSEmulatorHost.cpp" line="213"/>
+        <source>Couldn&apos;t read the cartridge.
+Check the pins are clean and it&apos;s seated securely.</source>
+        <translation>カートリッジを読み取れませんでした。
+端子が汚れていないか、しっかり差し込まれているか確認してください。</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSFeedbackContent</name>
+    <message>
+        <location filename="../src/qml/views/components/common/PlaybackOSFeedbackContent.qml" line="118"/>
+        <source>Scan the QR code with your phone to share your thoughts and ideas.</source>
+        <translation>スマートフォンでQRコードを読み取り、ご意見やアイデアをお寄せください。</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/common/PlaybackOSFeedbackContent.qml" line="19"/>
+        <source>Share your feedback</source>
+        <translation>フィードバックをお寄せください</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/common/PlaybackOSFeedbackContent.qml" line="100"/>
+        <source>Thank you for trying the alpha version!</source>
+        <translation>アルファ版をお試しいただき、ありがとうございます！</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/common/PlaybackOSFeedbackContent.qml" line="109"/>
+        <source>We’d love to hear what’s working, what isn’t, and what would make the whole experience better.</source>
+        <translation>うまく動作していること、問題があること、体験全体をより良くするためのご意見をぜひお聞かせください。</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSFeedbackOverlay</name>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSFeedbackOverlay.qml" line="36"/>
+        <source>Back</source>
+        <translation>戻る</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSFeedbackQr</name>
+    <message>
+        <location filename="../src/feedback/PlaybackOSFeedbackQr.cpp" line="65"/>
+        <source>The QR code could not be created.</source>
+        <translation>QRコードを作成できませんでした。</translation>
+    </message>
+    <message>
+        <location filename="../src/feedback/PlaybackOSFeedbackQr.cpp" line="42"/>
+        <source>The feedback link contains invalid text.</source>
+        <translation>フィードバックリンクに無効なテキストが含まれています。</translation>
+    </message>
+    <message>
+        <location filename="../src/feedback/PlaybackOSFeedbackQr.cpp" line="41"/>
+        <location filename="../src/feedback/PlaybackOSFeedbackQr.cpp" line="72"/>
+        <source>The feedback link is too long for a QR code.</source>
+        <translation>フィードバックリンクが長すぎるため、QRコードを作成できません。</translation>
+    </message>
+    <message>
+        <location filename="../src/feedback/PlaybackOSFeedbackQr.cpp" line="39"/>
+        <location filename="../src/feedback/PlaybackOSFeedbackQr.cpp" line="145"/>
+        <source>The feedback link is unavailable.</source>
+        <translation>フィードバックリンクを利用できません。</translation>
+    </message>
+    <message>
+        <location filename="../src/feedback/PlaybackOSFeedbackQr.cpp" line="147"/>
+        <source>There is not enough space to display the QR code.</source>
+        <translation>QRコードを表示するスペースが足りません。</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSLibraryModel</name>
+    <message>
+        <location filename="../src/library/PlaybackOSLibraryModel.cpp" line="532"/>
+        <source>Game hash: %1</source>
+        <translation>ゲームのハッシュ: %1</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSPauseHoldOverlay</name>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseHoldOverlay.qml" line="29"/>
+        <source>Hold to pause</source>
+        <translation>長押しで一時停止</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSRetroAchievements</name>
+    <message>
+        <location filename="../src/runtime/PlaybackOSRetroAchievements.cpp" line="76"/>
+        <source>Enter both your username and password.</source>
+        <translation>ユーザー名とパスワードの両方を入力してください。</translation>
+    </message>
+    <message>
+        <location filename="../src/runtime/PlaybackOSRetroAchievements.cpp" line="19"/>
+        <source>Could not sign in to RetroAchievements. The service may be unavailable. Check your connection and try again later.</source>
+        <translation>RetroAchievementsにログインできませんでした。サービスを利用できない可能性があります。ネットワーク接続を確認して、しばらくしてからもう一度お試しください。</translation>
+    </message>
+    <message>
+        <location filename="../src/runtime/PlaybackOSRetroAchievements.cpp" line="22"/>
+        <source>Could not sign in to RetroAchievements. Please try again.</source>
+        <translation>RetroAchievementsにログインできませんでした。もう一度お試しください。</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSSaveShutdownController</name>
+    <message>
+        <location filename="../src/emulation/PlaybackOSSaveShutdownController.cpp" line="67"/>
+        <source>Checking cartridge save. Keep the cartridge connected.</source>
+        <translation>カートリッジのセーブデータを確認中です。カートリッジを接続したままにしてください。</translation>
+    </message>
+    <message>
+        <location filename="../src/emulation/PlaybackOSSaveShutdownController.cpp" line="92"/>
+        <source>Couldn&apos;t check the cartridge save. Keep the cartridge connected and try stopping again.</source>
+        <translation>カートリッジのセーブデータを確認できませんでした。カートリッジを接続したまま、もう一度停止をお試しください。</translation>
+    </message>
+    <message>
+        <location filename="../src/emulation/PlaybackOSSaveShutdownController.cpp" line="115"/>
+        <source>Couldn&apos;t save to the cartridge. Keep the cartridge connected and try stopping again.</source>
+        <translation>カートリッジに保存できませんでした。カートリッジを接続したまま、もう一度停止をお試しください。</translation>
+    </message>
+    <message>
+        <location filename="../src/emulation/PlaybackOSSaveShutdownController.cpp" line="100"/>
+        <source>Saving to cartridge timed out. Keep the cartridge connected and try stopping again.</source>
+        <translation>カートリッジへの保存がタイムアウトしました。カートリッジを接続したまま、もう一度停止をお試しください。</translation>
+    </message>
+    <message>
+        <location filename="../src/emulation/PlaybackOSSaveShutdownController.cpp" line="60"/>
+        <source>Saving to cartridge. Keep the cartridge connected.</source>
+        <translation>カートリッジに保存中です。カートリッジを接続したままにしてください。</translation>
+    </message>
+    <message>
+        <location filename="../src/emulation/PlaybackOSSaveShutdownController.cpp" line="50"/>
+        <source>The Operator is busy. Keep the cartridge connected and try stopping again.</source>
+        <translation>Operatorは処理中です。カートリッジを接続したまま、もう一度停止をお試しください。</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSSaveStates</name>
+    <message>
+        <location filename="../src/save/PlaybackOSSaveStates.cpp" line="277"/>
+        <source>Save states are unavailable during netplay.</source>
+        <translation>ネットプレイ中はステートセーブを利用できません。</translation>
+    </message>
+    <message>
+        <location filename="../src/save/PlaybackOSSaveStates.cpp" line="275"/>
+        <source>Save states are unavailable in Hardcore mode.</source>
+        <translation>ハードコアモードではステートセーブを利用できません。</translation>
+    </message>
+    <message>
+        <location filename="../src/save/PlaybackOSSaveStates.cpp" line="312"/>
+        <source>State deleted from slot %1.</source>
+        <translation>スロット%1のステートを削除しました。</translation>
+    </message>
+    <message>
+        <location filename="../src/save/PlaybackOSSaveStates.cpp" line="311"/>
+        <source>State loaded from slot %1.</source>
+        <translation>スロット%1のステートを読み込みました。</translation>
+    </message>
+    <message>
+        <location filename="../src/save/PlaybackOSSaveStates.cpp" line="310"/>
+        <source>State saved to slot %1.</source>
+        <translation>スロット%1にステートを保存しました。</translation>
+    </message>
+    <message>
+        <location filename="../src/save/PlaybackOSSaveStates.cpp" line="319"/>
+        <source>State saved, but its screenshot could not be saved.</source>
+        <translation>ステートは保存されましたが、スクリーンショットを保存できませんでした。</translation>
+    </message>
+    <message>
+        <location filename="../src/save/PlaybackOSSaveStates.cpp" line="286"/>
+        <source>The core could not complete the state operation.</source>
+        <translation>コアがステートの操作を完了できませんでした。</translation>
+    </message>
+    <message>
+        <location filename="../src/save/PlaybackOSSaveStates.cpp" line="149"/>
+        <source>The emulation thread is unavailable.</source>
+        <translation>エミュレーションスレッドを利用できません。</translation>
+    </message>
+    <message>
+        <location filename="../src/save/PlaybackOSSaveStates.cpp" line="280"/>
+        <source>This core does not support save states.</source>
+        <translation>このコアはステートセーブに対応していません。</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSSaveStatesPanel</name>
+    <message>
+        <location filename="../src/qml/views/components/games/PlaybackOSSaveStatesPanel.qml" line="122"/>
+        <source>%1 / %2 saved</source>
+        <translation>%1 / %2 保存済み</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSSaveStatesNavigation.qml" line="45"/>
+        <source>Back</source>
+        <translation>戻る</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSSaveStatesNavigation.qml" line="21"/>
+        <location filename="../src/qml/views/components/games/PlaybackOSSaveStatesPanel.qml" line="259"/>
+        <location filename="../src/qml/views/components/games/PlaybackOSSaveStatesPanel.qml" line="315"/>
+        <source>Create save state</source>
+        <translation>ステートセーブを作成</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSSaveStatesNavigation.qml" line="37"/>
+        <source>Hold to delete</source>
+        <translation>長押しで削除</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSSaveStatesNavigation.qml" line="20"/>
+        <source>Hold to load</source>
+        <translation>長押しで読み込み</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSSaveStatesNavigation.qml" line="29"/>
+        <source>Hold to overwrite</source>
+        <translation>長押しで上書き</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/PlaybackOSSaveStatesPanel.qml" line="231"/>
+        <source>Keep this moment</source>
+        <translation>この瞬間を保存</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/PlaybackOSSaveStatesPanel.qml" line="140"/>
+        <source>Loading a state also reverts your game save. Your latest save is kept in the Vault.</source>
+        <translation>ステートを読み込むと、ゲームのセーブデータも以前の状態に戻ります。最新のセーブデータはVaultに保持されます。</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/PlaybackOSSaveStatesPanel.qml" line="86"/>
+        <location filename="../src/qml/views/components/games/PlaybackOSSaveStatesPanel.qml" line="110"/>
+        <source>Manage save states</source>
+        <translation>ステートセーブを管理</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/PlaybackOSSaveStatesPanel.qml" line="231"/>
+        <source>No preview</source>
+        <translation>プレビューなし</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/PlaybackOSSaveStatesPanel.qml" line="258"/>
+        <location filename="../src/qml/views/components/games/PlaybackOSSaveStatesPanel.qml" line="316"/>
+        <source>Save state %1</source>
+        <translation>ステートセーブ %1</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSSettingsModel</name>
+    <message>
+        <location filename="../src/settings/PlaybackOSCoreSettings.cpp" line="36"/>
+        <location filename="../src/settings/PlaybackOSCoreSettings.cpp" line="88"/>
+        <source>%1 (custom)</source>
+        <translation>%1（カスタム）</translation>
+    </message>
+    <message>
+        <location filename="../src/settings/PlaybackOSCoreSettings.cpp" line="407"/>
+        <source>Could not download %1. Select it again to retry.</source>
+        <translation>%1をダウンロードできませんでした。もう一度選択して再試行してください。</translation>
+    </message>
+    <message>
+        <location filename="../src/settings/PlaybackOSCheatSettings.cpp" line="172"/>
+        <location filename="../src/settings/PlaybackOSCheatSettings.cpp" line="185"/>
+        <source>Default Cheats</source>
+        <translation>標準チート</translation>
+    </message>
+    <message>
+        <location filename="../src/settings/PlaybackOSCoreSettings.cpp" line="403"/>
+        <source>Downloading %1…</source>
+        <translation>%1をダウンロード中…</translation>
+    </message>
+    <message>
+        <location filename="../src/settings/PlaybackOSCheatSettings.cpp" line="186"/>
+        <source>No default cheats available</source>
+        <translation>標準チートはありません</translation>
+    </message>
+    <message>
+        <location filename="../src/settings/PlaybackOSCheatSettings.cpp" line="187"/>
+        <source>This game has no matching codes in the bundled database.</source>
+        <translation>同梱のデータベースに、このゲームに対応するチートコードはありません。</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSShaderPicker</name>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSShaderNavigation.qml" line="21"/>
+        <source>Back</source>
+        <translation>戻る</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSShaderPicker.qml" line="41"/>
+        <source>Change video shader</source>
+        <translation>ビデオシェーダーを変更</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSShaderNavigation.qml" line="26"/>
+        <source>Pause game</source>
+        <translation>ゲームを一時停止</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSShaderNavigation.qml" line="17"/>
+        <source>Select</source>
+        <translation>選択</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSShaderPicker.qml" line="87"/>
+        <source>The shader list is limited because Vulkan rendering is unavailable. Please check your GPU&apos;s Vulkan support.</source>
+        <translation>Vulkanレンダリングを利用できないため、シェーダーの一覧が制限されています。GPUのVulkan対応状況を確認してください。</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSShaderNavigation.qml" line="25"/>
+        <source>Unpause game</source>
+        <translation>ゲームの一時停止を解除</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSShell</name>
+    <message>
+        <location filename="../src/qml/composition/PlaybackOSShell.qml" line="199"/>
+        <source>Hold for feedback</source>
+        <translation>長押しでフィードバック</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSShortcutOverlay</name>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSShortcutOverlayController.qml" line="18"/>
+        <source>Fast forwarding</source>
+        <translation>早送り中</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSShortcutOverlayController.qml" line="16"/>
+        <source>Resetting</source>
+        <translation>リセット中</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSShortcutOverlayController.qml" line="20"/>
+        <source>Rewinding</source>
+        <translation>巻き戻し中</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSStartupWarning</name>
+    <message>
+        <location filename="../src/qml/composition/PlaybackOSStartupWarning.qml" line="72"/>
+        <source>Continue playing</source>
+        <translation>プレイを続ける</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/composition/PlaybackOSStartupWarning.qml" line="41"/>
+        <source>Steam Cloud is unavailable</source>
+        <translation>Steam Cloudを利用できません</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/composition/PlaybackOSStartupWarning.qml" line="59"/>
+        <source>You can still play and save to your cartridge. Play time and cheats will use local data on this device, separate from your Steam data, and won&apos;t sync to other devices.
+
+We recommend restarting Playback OS from your Steam Library to use Steam Cloud.</source>
+        <translation>引き続きプレイしてカートリッジに保存できます。プレイ時間とチートには、このデバイスのローカルデータが使用されます。Steamのデータとは別に管理され、他のデバイスとは同期されません。
+
+Steam Cloudを利用するには、SteamライブラリからPlayback OSを再起動することをおすすめします。</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSSteamSession</name>
+    <message>
+        <location filename="../src/steam/PlaybackOSSteamSession.cpp" line="86"/>
+        <source>Playback OS couldn&apos;t connect to Steam.</source>
+        <translation>Playback OSがSteamに接続できませんでした。</translation>
+    </message>
+    <message>
+        <location filename="../src/steam/PlaybackOSSteamSession.cpp" line="96"/>
+        <location filename="../src/steam/PlaybackOSSteamSession.cpp" line="101"/>
+        <source>Playback OS couldn&apos;t identify your Steam account.</source>
+        <translation>Playback OSがSteamアカウントを特定できませんでした。</translation>
+    </message>
+    <message>
+        <location filename="../src/steam/PlaybackOSSteamSession.cpp" line="56"/>
+        <source>Playback OS wasn&apos;t launched from Steam.</source>
+        <translation>Playback OSがSteamから起動されていません。</translation>
+    </message>
+    <message>
+        <location filename="../src/steam/PlaybackOSSteamSession.cpp" line="67"/>
+        <source>Steam features aren&apos;t available in this version of Playback OS.</source>
+        <translation>このバージョンのPlayback OSではSteamの機能を利用できません。</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSUsbAccessBanner</name>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSUsbAccessBanner.qml" line="56"/>
+        <source>Access is needed for reading your cartridges.</source>
+        <translation>カートリッジを読み取るにはアクセス許可が必要です。</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSUsbAccessBanner.qml" line="44"/>
+        <source>Operator connection unavailable</source>
+        <translation>Operatorに接続できません</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSUsbAccessBanner.qml" line="44"/>
+        <source>Operator detected</source>
+        <translation>Operatorを検出しました</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSUsbAccessBanner.qml" line="55"/>
+        <source>Update Steam and SteamOS (or your Linux system), restart, then reconnect your Operator.</source>
+        <translation>SteamとSteamOS（またはLinuxシステム）を更新して再起動した後、Operatorを接続し直してください。</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSUsbAccessDialog</name>
+    <message>
+        <location filename="../src/qml/views/components/usb/PlaybackOSUsbAccessHelp.qml" line="53"/>
+        <source>&lt;b&gt;B. If setup still fails, use a terminal&lt;/b&gt;&lt;br&gt;This runs the same one time setup directly in Linux. It can help if Playback cannot start setup, and shows any errors in the terminal.&lt;br&gt;&lt;br&gt;In Desktop Mode, return to this screen and select &lt;b&gt;Open setup folder&lt;/b&gt;. Right click an empty area, choose &lt;b&gt;Open in Terminal&lt;/b&gt;, then run:</source>
+        <translation>&lt;b&gt;B. それでも設定できない場合は、端末を使用してください&lt;/b&gt;&lt;br&gt;同じ初回設定をLinux上で直接実行します。Playbackから設定を開始できない場合に役立ち、エラーは端末に表示されます。&lt;br&gt;&lt;br&gt;デスクトップモードでこの画面に戻り、&lt;b&gt;設定フォルダーを開く&lt;/b&gt;を選択します。何もない場所を右クリックし、&lt;b&gt;端末で開く&lt;/b&gt;を選択して、次のコマンドを実行してください:</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/usb/PlaybackOSUsbAccessHelp.qml" line="19"/>
+        <source>A. Retry in desktop mode</source>
+        <translation>A. デスクトップモードで再試行</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/usb/PlaybackOSUsbAccessPassword.qml" line="38"/>
+        <source>Authorize</source>
+        <translation>許可</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSUsbAccessDialog.qml" line="48"/>
+        <source>Authorize Operator access</source>
+        <translation>Operatorへのアクセスを許可</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/usb/PlaybackOSUsbAccessCommand.qml" line="55"/>
+        <source>Copied</source>
+        <translation>コピーしました</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/usb/PlaybackOSUsbAccessCommand.qml" line="56"/>
+        <source>Copy</source>
+        <translation>コピー</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/usb/PlaybackOSUsbAccessCommand.qml" line="38"/>
+        <source>Copy command to clipboard</source>
+        <translation>コマンドをクリップボードにコピー</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/usb/PlaybackOSUsbAccessHelp.qml" line="72"/>
+        <source>Enter your &lt;b&gt;Linux password&lt;/b&gt; if asked. After setup completes, &lt;b&gt;please restart your device&lt;/b&gt;.</source>
+        <translation>求められた場合は&lt;b&gt;Linuxのパスワード&lt;/b&gt;を入力してください。設定が完了したら、&lt;b&gt;デバイスを再起動してください&lt;/b&gt;。</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/usb/PlaybackOSUsbAccessHelp.qml" line="10"/>
+        <source>If setup could not finish in Gaming Mode, try it from your Desktop.</source>
+        <translation>ゲーミングモードで設定が完了しなかった場合は、デスクトップからお試しください。</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/usb/PlaybackOSUsbAccessPassword.qml" line="36"/>
+        <location filename="../src/qml/views/components/usb/PlaybackOSUsbAccessPassword.qml" line="50"/>
+        <source>Linux account password</source>
+        <translation>Linuxアカウントのパスワード</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/usb/PlaybackOSUsbAccessHelp.qml" line="40"/>
+        <source>On Steam Deck: &lt;b&gt;Steam menu → Power → Switch to Desktop&lt;/b&gt;.&lt;br&gt;Open Playback from Steam and select &lt;b&gt;Enable access&lt;/b&gt; again.</source>
+        <translation>Steam Deckでは、&lt;b&gt;Steamメニュー → 電源 → デスクトップに切り替え&lt;/b&gt;を選択します。&lt;br&gt;SteamからPlaybackを開き、もう一度&lt;b&gt;アクセスを有効にする&lt;/b&gt;を選択してください。</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/usb/PlaybackOSUsbAccessPassword.qml" line="49"/>
+        <source>Secure password input is unavailable. Try setup from Desktop Mode.</source>
+        <translation>安全なパスワード入力を利用できません。デスクトップモードから設定をお試しください。</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSUsbAccessDialog.qml" line="50"/>
+        <source>Set up Epilogue Operator access</source>
+        <translation>Epilogue Operatorへのアクセスを設定</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSUsbAccessDialog.qml" line="102"/>
+        <source>TIP: No Linux password but you&apos;ve been requested one? Set one in your system&apos;s account settings, or ask the person who set up this device.</source>
+        <translation>ヒント: Linuxのパスワードを設定していないのに入力を求められた場合は、システムのアカウント設定でパスワードを設定するか、このデバイスを設定した人に確認してください。</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSUsbAccessDialog.qml" line="82"/>
+        <source>The folder could not open. Please contact Epilogue support for help.</source>
+        <translation>フォルダーを開けませんでした。Epilogueサポートにお問い合わせください。</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSUsbAccessDialog.qml" line="60"/>
+        <source>This one time setup allows Playback to access Epilogue Operators on this device.&lt;br&gt;&lt;br&gt;1. Press &lt;b&gt;A&lt;/b&gt; and follow the system authentication prompt. If the prompt is unavailable, enter your Linux password with the controller.&lt;br&gt;2. &lt;b&gt;Reconnect your Operator&lt;/b&gt; if it is still blocked.</source>
+        <translation>この初回設定により、このデバイスでPlaybackからEpilogue Operatorにアクセスできるようになります。&lt;br&gt;&lt;br&gt;1. &lt;b&gt;A&lt;/b&gt;を押し、システムの認証画面に従ってください。認証画面が表示されない場合は、コントローラーを使ってLinuxのパスワードを入力してください。&lt;br&gt;2. アクセスがまだブロックされている場合は、&lt;b&gt;Operatorを接続し直してください&lt;/b&gt;。</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSUsbAccessDialog.qml" line="49"/>
+        <source>Try setup in Desktop Mode</source>
+        <translation>デスクトップモードで設定を試す</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSUsbAccessDialog.qml" line="105"/>
+        <source>Use the password for installing apps, not your Steam password.</source>
+        <translation>Steamのパスワードではなく、アプリのインストールに使うパスワードを入力してください。</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSUsbAccessNavigation</name>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSUsbAccessNavigation.qml" line="43"/>
+        <source>Back to setup</source>
+        <translation>設定に戻る</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSUsbAccessNavigation.qml" line="38"/>
+        <source>Cancel setup</source>
+        <translation>設定をキャンセル</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSUsbAccessNavigation.qml" line="31"/>
+        <source>Done</source>
+        <translation>完了</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSUsbAccessNavigation.qml" line="22"/>
+        <location filename="../src/qml/controllers/PlaybackOSUsbAccessNavigation.qml" line="31"/>
+        <source>Enable access</source>
+        <translation>アクセスを有効にする</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSUsbAccessNavigation.qml" line="29"/>
+        <source>Enter password</source>
+        <translation>パスワードを入力</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSUsbAccessNavigation.qml" line="38"/>
+        <source>Not now</source>
+        <translation>後で</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSUsbAccessNavigation.qml" line="30"/>
+        <source>Open setup folder</source>
+        <translation>設定フォルダーを開く</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSUsbSetup</name>
+    <message>
+        <location filename="../src/runtime/PlaybackOSUsbSetup.cpp" line="159"/>
+        <source>Automatic Operator access setup is available on Linux only.</source>
+        <translation>Operatorへのアクセスの自動設定はLinuxでのみ利用できます。</translation>
+    </message>
+    <message>
+        <location filename="../src/runtime/PlaybackOSUsbSetup.cpp" line="178"/>
+        <source>Complete the system authentication prompt to enable Operator access…</source>
+        <translation>システムの認証画面で認証を完了し、Operatorへのアクセスを許可してください…</translation>
+    </message>
+    <message>
+        <location filename="../src/runtime/PlaybackOSUsbSetup.cpp" line="100"/>
+        <source>Enable Epilogue Operator access</source>
+        <translation>Epilogue Operatorへのアクセスを有効にする</translation>
+    </message>
+    <message>
+        <location filename="../src/runtime/PlaybackOSUsbSetup.cpp" line="221"/>
+        <source>Enter your Linux password.</source>
+        <translation>Linuxのパスワードを入力してください。</translation>
+    </message>
+    <message>
+        <location filename="../src/runtime/PlaybackOSUsbSetup.cpp" line="238"/>
+        <source>Installing Operator access rules…</source>
+        <translation>Operatorのアクセスルールをインストール中…</translation>
+    </message>
+    <message>
+        <location filename="../src/runtime/PlaybackOSUsbSetup.cpp" line="337"/>
+        <source>Operator access setup could not finish.
+
+%1</source>
+        <translation>Operatorのアクセス設定を完了できませんでした。
+
+%1</translation>
+    </message>
+    <message>
+        <location filename="../src/runtime/PlaybackOSUsbSetup.cpp" line="155"/>
+        <source>Please wait a few seconds before trying setup again.</source>
+        <translation>数秒待ってから、もう一度設定をお試しください。</translation>
+    </message>
+    <message>
+        <location filename="../src/runtime/PlaybackOSUsbSetup.cpp" line="179"/>
+        <source>Requesting permission to install Operator access rules…</source>
+        <translation>Operatorのアクセスルールをインストールする許可を要求中…</translation>
+    </message>
+    <message>
+        <location filename="../src/runtime/PlaybackOSUsbSetup.cpp" line="174"/>
+        <source>Secure password input is unavailable. Try setup from Desktop Mode.</source>
+        <translation>安全なパスワード入力を利用できません。デスクトップモードから設定をお試しください。</translation>
+    </message>
+    <message>
+        <location filename="../src/runtime/PlaybackOSUsbSetup.cpp" line="360"/>
+        <source>Setup canceled. Any rules already installed will remain in place.</source>
+        <translation>設定をキャンセルしました。インストール済みのルールは保持されます。</translation>
+    </message>
+    <message>
+        <location filename="../src/runtime/PlaybackOSUsbSetup.cpp" line="332"/>
+        <source>Setup complete. Reconnect your Operator if it is still blocked.</source>
+        <translation>設定が完了しました。Operatorへのアクセスがまだブロックされている場合は、接続し直してください。</translation>
+    </message>
+    <message>
+        <location filename="../src/runtime/PlaybackOSUsbSetup.cpp" line="366"/>
+        <source>Setup timed out. Reconnect the Operator to check access, or try again.</source>
+        <translation>設定がタイムアウトしました。Operatorを接続し直してアクセスを確認するか、もう一度お試しください。</translation>
+    </message>
+    <message>
+        <location filename="../src/runtime/PlaybackOSUsbSetup.cpp" line="207"/>
+        <source>The Operator setup installer could not be sent. Please try again.</source>
+        <translation>Operatorの設定インストーラーを送信できませんでした。もう一度お試しください。</translation>
+    </message>
+    <message>
+        <location filename="../src/runtime/PlaybackOSUsbSetup.cpp" line="163"/>
+        <source>The Operator setup installer is missing. Verify Playback&apos;s installed files in Steam.</source>
+        <translation>Operatorの設定インストーラーが見つかりません。SteamでPlaybackのインストール済みファイルを確認してください。</translation>
+    </message>
+    <message>
+        <location filename="../src/runtime/PlaybackOSUsbSetup.cpp" line="230"/>
+        <source>The password could not be sent. Please try again.</source>
+        <translation>パスワードを送信できませんでした。もう一度お試しください。</translation>
+    </message>
+    <message>
+        <location filename="../src/runtime/PlaybackOSUsbSetup.cpp" line="346"/>
+        <source>The system setup command could not start: %1</source>
+        <translation>システムの設定コマンドを起動できませんでした: %1</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSVideoWindow</name>
+    <message>
+        <location filename="../src/video/PlaybackOSVideoWindow.cpp" line="202"/>
+        <source>Display effects unavailable. Using the original picture.</source>
+        <translation>表示エフェクトを利用できません。元の映像を使用します。</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSVirtualKeyboardKey</name>
+    <message>
+        <location filename="../src/qml/views/components/common/PlaybackOSVirtualKeyboardKey.qml" line="32"/>
+        <source>Enter</source>
+        <translation>確定</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSWindow</name>
+    <message>
+        <location filename="../src/qml/debug/PlaybackOSDebugKeyboardHelp.qml" line="47"/>
+        <source>Keyboard mappings</source>
+        <translation>キーボードの割り当て</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/debug/PlaybackOSDebugKeyboardHelp.qml" line="144"/>
+        <source>Press a key</source>
+        <translation>キーを押してください</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/debug/PlaybackOSDebugKeyboardHelp.qml" line="55"/>
+        <source>Use / or ESC to close</source>
+        <translation>/またはESCで閉じる</translation>
+    </message>
+</context>
+<context>
+    <name>ReadingCartridgesIndicator</name>
+    <message>
+        <location filename="../src/qml/views/components/common/ReadingCartridgesIndicator.qml" line="14"/>
+        <source>Reading carts</source>
+        <translation>カートリッジ読み取り中</translation>
+    </message>
+</context>
+<context>
+    <name>RelativeDateFormatter</name>
+    <message>
+        <location filename="../src/qml/views/components/common/RelativeDateFormatter.qml" line="58"/>
+        <source>%1 · %2</source>
+        <translation>%1 · %2</translation>
+    </message>
+</context>
+<context>
+    <name>RetroAchievementsAccount</name>
+    <message>
+        <location filename="../src/qml/views/settings/integrations/RetroAchievementsAccount.qml" line="189"/>
+        <source>Achievements</source>
+        <translation>アチーブメント</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/integrations/RetroAchievementsAccount.qml" line="230"/>
+        <source>Casual</source>
+        <translation>カジュアル</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/integrations/RetroAchievementsAccount.qml" line="229"/>
+        <source>Completed</source>
+        <translation>コンプリート</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/integrations/RetroAchievementsAccount.qml" line="302"/>
+        <source>Could not load all account totals. You can retry from the account controls.</source>
+        <translation>アカウントの集計をすべて読み込めませんでした。アカウント操作から再試行できます。</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/integrations/RetroAchievementsAccount.qml" line="190"/>
+        <source>Games</source>
+        <translation>ゲーム</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/integrations/RetroAchievementsAccount.qml" line="230"/>
+        <source>Hardcore</source>
+        <translation>ハードコア</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/integrations/RetroAchievementsAccount.qml" line="301"/>
+        <source>Loading account totals…</source>
+        <translation>アカウントの集計を読み込み中…</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/integrations/RetroAchievementsAccount.qml" line="84"/>
+        <source>Logged in as</source>
+        <translation>ログイン中のユーザー</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/integrations/RetroAchievementsAccount.qml" line="229"/>
+        <source>Mastered</source>
+        <translation>マスター</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/integrations/RetroAchievementsAccount.qml" line="153"/>
+        <source>Not you?</source>
+        <translation>別のアカウントですか？</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/integrations/RetroAchievementsAccount.qml" line="190"/>
+        <source>Points</source>
+        <translation>ポイント</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/integrations/RetroAchievementsAccount.qml" line="136"/>
+        <source>Your latest achievement</source>
+        <translation>最新のアチーブメント</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/integrations/RetroAchievementsAccount.qml" line="145"/>
+        <source>Your rarest achievement</source>
+        <translation>最もレアなアチーブメント</translation>
+    </message>
+</context>
+<context>
+    <name>RetroAchievementsNavigation</name>
+    <message>
+        <location filename="../src/qml/controllers/settings/integrations/RetroAchievementsNavigation.qml" line="27"/>
+        <source>Retry account totals</source>
+        <translation>アカウントの集計を再取得</translation>
+    </message>
+</context>
+<context>
+    <name>RetroAchievementsSettings</name>
+    <message>
+        <location filename="../src/qml/controllers/settings/cheats/CustomCheatEntryNavigation.qml" line="23"/>
+        <location filename="../src/qml/controllers/settings/integrations/RetroAchievementsNavigation.qml" line="20"/>
+        <source>Edit</source>
+        <translation>編集</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/settings/integrations/RetroAchievementsNavigation.qml" line="17"/>
+        <location filename="../src/qml/views/settings/integrations/RetroAchievementsAccount.qml" line="166"/>
+        <source>Log out</source>
+        <translation>ログアウト</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/integrations/RetroAchievementsSettingsView.qml" line="19"/>
+        <source>RetroAchievements</source>
+        <translation>RetroAchievements</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/integrations/RetroAchievementsLogin.qml" line="58"/>
+        <source>Signing in...</source>
+        <translation>ログイン中...</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/integrations/RetroAchievementsAccount.qml" line="167"/>
+        <source>Signing out...</source>
+        <translation>ログアウト中...</translation>
+    </message>
+</context>
+<context>
+    <name>RetroAchievementsShowcase</name>
+    <message>
+        <location filename="../src/qml/views/settings/integrations/RetroAchievementsShowcase.qml" line="36"/>
+        <source>Based on achievement history available in Playback.</source>
+        <translation>Playbackで確認できるアチーブメント履歴に基づいています。</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/integrations/RetroAchievementsShowcase.qml" line="19"/>
+        <source>Unlocked %1 at %2</source>
+        <translation>%1 %2にアンロック</translation>
+    </message>
+</context>
+<context>
+    <name>RetroCore</name>
+    <message>
+        <location filename="../playback/src/core/RetroCore.cpp" line="629"/>
+        <source>link cable checkpoint failed</source>
+        <translation>通信ケーブルのチェックポイントに失敗しました</translation>
+    </message>
+</context>
+<context>
+    <name>SettingsEmptyState</name>
+    <message>
+        <location filename="../src/qml/views/settings/sections/SettingsEmptyState.qml" line="31"/>
+        <source>Configure how games are emulated, including system, video, audio and performance options.</source>
+        <translation>システム、映像、音声、パフォーマンスなどのエミュレーション設定を変更します。</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/sections/SettingsEmptyState.qml" line="58"/>
+        <source>Insert a cartridge into your Operator to see its cheat codes.</source>
+        <translation>Operatorにカートリッジを挿入すると、チートコードを表示できます。</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/sections/SettingsEmptyState.qml" line="54"/>
+        <source>No controller settings are available for this Operator.</source>
+        <translation>このOperatorには利用可能なコントローラー設定がありません。</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/sections/SettingsEmptyState.qml" line="52"/>
+        <source>No device settings are available for this Operator.</source>
+        <translation>このOperatorには利用可能なデバイス設定がありません。</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/sections/SettingsEmptyState.qml" line="56"/>
+        <source>No emulation cores are available for this Operator.</source>
+        <translation>このOperatorには利用可能なエミュレーションコアがありません。</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/sections/SettingsEmptyState.qml" line="50"/>
+        <source>No emulator settings are available for the selected core.</source>
+        <translation>選択したコアには利用可能なエミュレーター設定がありません。</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/sections/SettingsEmptyState.qml" line="109"/>
+        <source>One connection away</source>
+        <translation>接続するだけで準備完了</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/sections/SettingsEmptyState.qml" line="120"/>
+        <source>Plug in your Operator to make these settings available.</source>
+        <translation>Operatorを接続すると、これらの設定を利用できます。</translation>
+    </message>
+</context>
+<context>
+    <name>SettingsGameTabs</name>
+    <message>
+        <location filename="../src/qml/views/components/settings/SettingsGameTabs.qml" line="114"/>
+        <source>%1 active</source>
+        <translation>%1 稼働中</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/settings/SettingsGameTabs.qml" line="113"/>
+        <source>%1 selected</source>
+        <translation>%1 選択中</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/settings/SettingsGameTabs.qml" line="17"/>
+        <source>Select game</source>
+        <translation>ゲームを選択</translation>
+    </message>
+</context>
+<context>
+    <name>SettingsPage</name>
+    <message>
+        <location filename="../src/qml/views/components/settings/SettingsRow.qml" line="51"/>
+        <source>%1  BETA</source>
+        <translation>%1  ベータ版</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSDialogNavigation.qml" line="10"/>
+        <location filename="../src/qml/controllers/settings/controls/ControllerDeadzoneNavigation.qml" line="10"/>
+        <location filename="../src/qml/controllers/settings/controls/ControllerRowsNavigation.qml" line="24"/>
+        <location filename="../src/qml/controllers/settings/SettingsListNavigation.qml" line="18"/>
+        <source>Accept</source>
+        <translation>承認</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/settings/SettingsListNavigation.qml" line="20"/>
+        <source>Change language</source>
+        <translation>言語を変更</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/settings/device/DeviceSettingsNavigation.qml" line="49"/>
+        <source>Apply</source>
+        <translation>適用</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/SettingsPageNavigation.qml" line="26"/>
+        <source>Back</source>
+        <translation>戻る</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/settings/coreselector/CoreTabsNavigation.qml" line="33"/>
+        <source>Cannot change while playing</source>
+        <translation>プレイ中は変更できません</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/settings/controls/ControllerAssignmentNavigation.qml" line="10"/>
+        <source>Change controller</source>
+        <translation>コントローラーを変更</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/settings/controls/ControllerRebindingNavigation.qml" line="11"/>
+        <source>Hold to cancel</source>
+        <translation>長押しでキャンセル</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/settings/controls/ControlsSettingsNavigation.qml" line="35"/>
+        <source>Hold to reset</source>
+        <translation>長押しでリセット</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/settings/controls/ControllerTestNavigation.qml" line="10"/>
+        <source>Hold to set joystick deadzone</source>
+        <translation>長押しでスティックのデッドゾーンを設定</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/settings/controls/ControllerDeadzoneNavigation.qml" line="16"/>
+        <location filename="../src/qml/controllers/settings/controls/ControllerTestNavigation.qml" line="18"/>
+        <source>Hold to stop testing controller</source>
+        <translation>長押しでコントローラーのテストを終了</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/settings/controls/ControlsSettingsNavigation.qml" line="28"/>
+        <source>Map all</source>
+        <translation>すべて割り当て</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/settings/SettingsSectionRegistry.qml" line="20"/>
+        <source>Playback OS</source>
+        <translation>Playback OS</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/settings/controls/ControllerRowsNavigation.qml" line="23"/>
+        <source>Remap</source>
+        <translation>再割り当て</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/SettingsPageNavigation.qml" line="22"/>
+        <source>Resume game</source>
+        <translation>ゲームを再開</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/sections/ControlsSettingsView.qml" line="37"/>
+        <location filename="../src/qml/views/settings/sections/CoreSelectorSettingsView.qml" line="20"/>
+        <location filename="../src/qml/views/settings/sections/DeviceSettingsView.qml" line="21"/>
+        <location filename="../src/qml/views/settings/sections/EmulatorSettingsView.qml" line="19"/>
+        <location filename="../src/qml/views/settings/sections/SettingsSectionsView.qml" line="34"/>
+        <source>Select Operator</source>
+        <translation>Operatorを選択</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/sections/ControlsSettingsView.qml" line="48"/>
+        <source>Select Player</source>
+        <translation>プレイヤーを選択</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/settings/controls/ControllerPreviewNavigation.qml" line="11"/>
+        <source>Test controller</source>
+        <translation>コントローラーをテスト</translation>
+    </message>
+</context>
+<context>
+    <name>SettingsTabBar</name>
+    <message>
+        <location filename="../src/qml/views/components/settings/CoreSelectorRow.qml" line="21"/>
+        <location filename="../src/qml/views/components/settings/SettingsTabBar.qml" line="118"/>
+        <source>Download failed</source>
+        <translation>ダウンロードに失敗しました</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/settings/CoreSelectorRow.qml" line="19"/>
+        <location filename="../src/qml/views/components/settings/SettingsTabBar.qml" line="118"/>
+        <source>Downloading</source>
+        <translation>ダウンロード中</translation>
+    </message>
+</context>
+<context>
+    <name>SettingsTextField</name>
+    <message>
+        <location filename="../src/qml/views/components/settings/SettingsTextField.qml" line="12"/>
+        <source>Done</source>
+        <translation>完了</translation>
+    </message>
+</context>
+<context>
+    <name>ShaderCatalog</name>
+    <message>
+        <location filename="../playback/src/platform/common/ShaderCatalog.cpp" line="65"/>
+        <source>Arcade Monitor</source>
+        <translation>アーケードモニター</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/ShaderCatalog.cpp" line="58"/>
+        <source>Black &amp; White TV</source>
+        <translation>白黒テレビ</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/ShaderCatalog.cpp" line="77"/>
+        <source>Broadcast BVM</source>
+        <translation>放送用BVM</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/ShaderCatalog.cpp" line="51"/>
+        <source>Consumer CRT</source>
+        <translation>家庭用CRT</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/ShaderCatalog.cpp" line="39"/>
+        <source>Game Boy Color® LCD</source>
+        <translation>Game Boy Color® LCD</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/ShaderCatalog.cpp" line="45"/>
+        <source>Game Boy® Advance LCD</source>
+        <translation>Game Boy® Advance LCD</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/ShaderCatalog.cpp" line="33"/>
+        <source>Game Boy® DMG LCD</source>
+        <translation>Game Boy® DMG LCD</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/ShaderCatalog.cpp" line="83"/>
+        <source>PC CRT</source>
+        <translation>PC用CRT</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/ShaderCatalog.cpp" line="71"/>
+        <source>Professional PVM</source>
+        <translation>業務用PVM</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/ShaderCatalog.cpp" line="23"/>
+        <source>Sharp</source>
+        <translation>シャープ</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/ShaderCatalog.cpp" line="28"/>
+        <source>Smooth</source>
+        <translation>スムーズ</translation>
+    </message>
+</context>
+<context>
+    <name>ToastModel</name>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="267"/>
+        <source> · #%1</source>
+        <translation> · #%1</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="211"/>
+        <source>%1/%2 achievements · %3/%4 points</source>
+        <translation>アチーブメント %1/%2 · ポイント %3/%4</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="244"/>
+        <source>Attempt failed.</source>
+        <translation>挑戦に失敗しました。</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="285"/>
+        <source>Challenge active: %1</source>
+        <translation>チャレンジ進行中: %1</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="303"/>
+        <source>Completed — all achievements earned · %1 points.</source>
+        <translation>コンプリート — すべてのアチーブメントを獲得 · %1ポイント。</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="426"/>
+        <source>Delete Failed</source>
+        <translation>削除に失敗しました</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="312"/>
+        <source>Game beaten — %1/%2 achievements earned.</source>
+        <translation>ゲームクリア — アチーブメント %1/%2を獲得。</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="224"/>
+        <source>Hardcore active</source>
+        <translation>ハードコア有効</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="365"/>
+        <source>Host has left the game</source>
+        <translation>ホストがゲームを退出しました</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="418"/>
+        <source>Load Failed</source>
+        <translation>読み込みに失敗しました</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="299"/>
+        <source>Mastered — all %1 achievements unlocked.</source>
+        <translation>マスター — 全%1個のアチーブメントをアンロック。</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="201"/>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="324"/>
+        <source>No achievements available</source>
+        <translation>アチーブメントはありません</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="225"/>
+        <source>No cheats, rewind, resume points or slow motion.</source>
+        <translation>チート、巻き戻し、再開ポイント、スローモーションは利用できません。</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="361"/>
+        <source>Player %1 disconnected</source>
+        <translation>プレイヤー%1が切断しました</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="403"/>
+        <source>Resume Point Deleted</source>
+        <translation>再開ポイントを削除しました</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="396"/>
+        <source>Resume Point Loaded</source>
+        <translation>再開ポイントを読み込みました</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="389"/>
+        <source>Resume Point Saved</source>
+        <translation>再開ポイントを保存しました</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="410"/>
+        <source>Save Failed</source>
+        <translation>保存に失敗しました</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="397"/>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="404"/>
+        <source>Slot %1</source>
+        <translation>スロット %1</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="390"/>
+        <source>Slot %1 · %2</source>
+        <translation>スロット %1 · %2</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="411"/>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="419"/>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="427"/>
+        <source>Slot %1: %2</source>
+        <translation>スロット %1: %2</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="254"/>
+        <source>Submitted: %1</source>
+        <translation>提出済み: %1</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="361"/>
+        <source>The game continues.</source>
+        <translation>ゲームは続行します。</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="202"/>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="325"/>
+        <source>This game is not supported by RetroAchievements.</source>
+        <translation>このゲームはRetroAchievementsに対応していません。</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="365"/>
+        <source>You&apos;ve returned to single-player.</source>
+        <translation>シングルプレイヤーに戻りました。</translation>
+    </message>
+</context>
+<context>
+    <name>netplay::NetplayClient</name>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="1692"/>
+        <source>Connected to host</source>
+        <translation>ホストに接続しました</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="2062"/>
+        <source>Connecting to host...</source>
+        <translation>ホストに接続中...</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="2094"/>
+        <source>Connection lost — recovering...</source>
+        <translation>接続が切れました — 復旧中...</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="661"/>
+        <source>Game restarted</source>
+        <translation>ゲームを再起動しました</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="2103"/>
+        <source>Host disconnected — waiting for reconnection...</source>
+        <translation>ホストが切断しました — 再接続を待っています...</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="2079"/>
+        <source>Joining session...</source>
+        <translation>セッションに参加中...</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="2077"/>
+        <source>Joining session... %1%</source>
+        <translation>セッションに参加中... %1%</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="1273"/>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="1281"/>
+        <source>Link Trade requires exactly two players</source>
+        <translation>通信交換にはちょうど2人のプレイヤーが必要です</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="661"/>
+        <source>Multiplayer runs with the BIOS disabled.</source>
+        <translation>マルチプレイヤーではBIOSが無効になります。</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="860"/>
+        <source>POST /rooms failed: url=%1 status=%2 err=%3</source>
+        <translation>POST /roomsに失敗しました: url=%1 status=%2 err=%3</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="869"/>
+        <source>POST /rooms: response is not a JSON object</source>
+        <translation>POST /rooms: 応答がJSONオブジェクトではありません</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="877"/>
+        <source>POST /rooms: response missing code or hostToken</source>
+        <translation>POST /rooms: 応答にcodeまたはhostTokenがありません</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="2133"/>
+        <source>Player %1 connected</source>
+        <translation>プレイヤー%1が接続しました</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="2055"/>
+        <source>Please check the room code: %1</source>
+        <translation>ルームコードを確認してください: %1</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="2056"/>
+        <source>Please check your internet connection and firewall settings as well.</source>
+        <translation>インターネット接続とファイアウォールの設定も確認してください。</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="782"/>
+        <source>ROM identity mismatch: host=%1 local=%2</source>
+        <translation>ROM識別情報が一致しません: host=%1 local=%2</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="2092"/>
+        <source>Reconnecting to signaling...</source>
+        <translation>シグナリングに再接続中...</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="2089"/>
+        <source>Reconnecting to signaling... (attempt %1/%2)</source>
+        <translation>シグナリングに再接続中...（試行 %1/%2）</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="2046"/>
+        <source>Reconnecting...</source>
+        <translation>再接続中...</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="2054"/>
+        <source>Retrying connection %1/%2</source>
+        <translation>接続を再試行中 %1/%2</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="693"/>
+        <source>Room is full</source>
+        <translation>ルームが満員です</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="2043"/>
+        <source>Session ended — returning to your library in %1...</source>
+        <translation>セッションを終了しました — %1後にライブラリに戻ります...</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="2014"/>
+        <source>Tip: Player %1 has the best connection to everyone — they&apos;d make the smoothest host next time</source>
+        <translation>ヒント: プレイヤー%1は全員との接続が最も良好です。次回ホストになると、より快適にプレイできます</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="2064"/>
+        <source>Waiting for host to start the game</source>
+        <translation>ホストがゲームを開始するのを待っています</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="1425"/>
+        <source>WebRTC peer connection failed: %1</source>
+        <translation>WebRTCのピア接続に失敗しました: %1</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="1691"/>
+        <source>You&apos;re Player %1</source>
+        <translation>あなたはプレイヤー%1です</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="377"/>
+        <source>connectAsHost called without a prior createRoom</source>
+        <translation>createRoomを実行する前にconnectAsHostが呼び出されました</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="792"/>
+        <source>core name mismatch: host=%1 local=%2</source>
+        <translation>コア名が一致しません: host=%1 local=%2</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="1657"/>
+        <source>core rejected peer state during late-join/resync</source>
+        <translation>途中参加または再同期時に、コアが相手の状態を拒否しました</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="827"/>
+        <source>core version mismatch: host=%1 local=%2</source>
+        <translation>コアのバージョンが一致しません: host=%1 local=%2</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="746"/>
+        <source>identity peek network error: %1</source>
+        <translation>識別情報の事前確認でネットワークエラーが発生しました: %1</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="752"/>
+        <source>identity peek: response is not a JSON object</source>
+        <translation>識別情報の事前確認: 応答がJSONオブジェクトではありません</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="767"/>
+        <source>identity peek: romIdentity field missing or not hex</source>
+        <translation>識別情報の事前確認: romIdentityフィールドがないか、16進数ではありません</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="395"/>
+        <source>joinRoom called with an empty code</source>
+        <translation>空のコードでjoinRoomが呼び出されました</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="1907"/>
+        <source>peer connection handshake timed out</source>
+        <translation>ピア接続のハンドシェイクがタイムアウトしました</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="324"/>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="351"/>
+        <source>relay URL is not configured</source>
+        <translation>中継サーバーのURLが設定されていません</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="1501"/>
+        <source>signaling transport error: %1</source>
+        <translation>シグナリングの転送エラー: %1</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="1295"/>
+        <source>the loaded core does not support Link Trade</source>
+        <translation>読み込んだコアは通信交換に対応していません</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="1294"/>
+        <source>the loaded core does not support Wireless Adapter trading</source>
+        <translation>読み込んだコアはワイヤレスアダプターでの交換に対応していません</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="56"/>
+        <source>waited too long for host to start the game</source>
+        <translation>ホストがゲームを開始するまでの待機時間を超過しました</translation>
     </message>
 </context>
 </TS>

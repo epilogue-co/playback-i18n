@@ -331,6 +331,26 @@ Non rimuovere la cartuccia mentre è in corso un&apos;operazione.</translation>
         <source>Rumble</source>
         <translation>Vibrazione</translation>
     </message>
+    <message>
+        <location filename="../src/settings/PlaybackOSCorePresentation.cpp" line="114"/>
+        <source>GBA Wireless Adapter</source>
+        <translation>Adattatore wireless GBA</translation>
+    </message>
+    <message>
+        <location filename="../src/settings/PlaybackOSCorePresentation.cpp" line="112"/>
+        <source>Link Cable</source>
+        <translation>Cavo Link</translation>
+    </message>
+    <message>
+        <location filename="../src/settings/PlaybackOSCorePresentation.cpp" line="110"/>
+        <source>Online Multiplayer</source>
+        <translation>Multigiocatore online</translation>
+    </message>
+    <message>
+        <location filename="../src/settings/PlaybackOSCorePresentation.cpp" line="108"/>
+        <source>Rewind</source>
+        <translation>Riavvolgimento</translation>
+    </message>
 </context>
 <context>
     <name>CoreSelectorScreen</name>
@@ -365,6 +385,11 @@ Non rimuovere la cartuccia mentre è in corso un&apos;operazione.</translation>
         <location filename="../src/platform/desktop/CoreSelectorScreen.cpp" line="260"/>
         <source>Your own core</source>
         <translation>Il tuo core</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/sections/SettingsDescriptions.qml" line="6"/>
+        <source>You can change the emulation core for your Operator device.</source>
+        <translation>Puoi cambiare il core di emulazione del tuo dispositivo Operator.</translation>
     </message>
 </context>
 <context>
@@ -732,6 +757,26 @@ Non rimuovere la cartuccia mentre è in corso un&apos;operazione.</translation>
         <source>Choose one of the options below to set the status of your device’s LED light. Select ‘Static’ to keep the light on or ‘Dark’ to shut it off. Pulse and Strobe coming soon.</source>
         <translation>Scegliere una delle opzioni seguenti per impostare lo stato della luce LED del dispositivo. Selezionare &quot;Statico&quot; per mantenere la luce accesa o &quot;Scuro&quot; per spegnerla. Impulso e Strobo in arrivo.</translation>
     </message>
+    <message>
+        <location filename="../playback/src/platform/common/settings/DeviceSettingsText.cpp" line="18"/>
+        <source>Dark</source>
+        <translation>Scuro</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/settings/DeviceSettingsText.cpp" line="20"/>
+        <source>Pulse</source>
+        <translation>Impulso</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/settings/DeviceSettingsText.cpp" line="16"/>
+        <source>Static</source>
+        <translation>Statico</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/settings/DeviceSettingsText.cpp" line="22"/>
+        <source>Strobe</source>
+        <translation>Strobo</translation>
+    </message>
 </context>
 <context>
     <name>DeviceSwitcherDropdown</name>
@@ -1042,6 +1087,16 @@ Fornitore: %4</translation>
         <source>Enable in-game integrity checks for save data. This feature is still in beta and may not work with all games.</source>
         <translation>Abilita i controlli di integrità in gioco per i dati di salvataggio. Questa funzione è ancora in fase beta e potrebbe non funzionare con tutti i giochi.</translation>
     </message>
+    <message>
+        <location filename="../playback/src/platform/common/settings/EmulatorSettingsText.cpp" line="31"/>
+        <source>Controls fast-forward and rewind speed. Speeds above 2x can cause unexpected bugs in combination with the &apos;Autosave to cartridge&apos; feature; toggle fast-forward off and on after changing it.</source>
+        <translation>Controlla la velocità di avanzamento rapido e riavvolgimento. Le velocità superiori a 2x possono causare errori imprevisti con il salvataggio automatico su cartuccia; disattiva e riattiva l&apos;avanzamento rapido dopo aver modificato la velocità.</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/settings/EmulatorSettingsText.cpp" line="22"/>
+        <source>Fast-forward and rewind speed</source>
+        <translation>Velocità di avanzamento rapido e riavvolgimento</translation>
+    </message>
 </context>
 <context>
     <name>FirmwareUpdateDisclaimer</name>
@@ -1330,6 +1385,11 @@ non scollegare il dispositivo.</translation>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="298"/>
         <source>Link Playback to your Discord account, and share the exact game you’re playing with your friends!</source>
         <translation>Collega Playback al tuo account Discord e condividi con i tuoi amici esattamente a cosa stai giocando!</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/settings/IntegrationsSettingsText.cpp" line="28"/>
+        <source>Log in with your %1 account.</source>
+        <translation>Accedi con il tuo account %1.</translation>
     </message>
 </context>
 <context>
@@ -2073,6 +2133,61 @@ Se si desidera rimuovere facilmente tutte le immagini dalla fotocamera, senza do
         <source>Configure how transfers are handled in the Data section of Playback.</source>
         <translation>Configurare la gestione dei trasferimenti nella sezione Dati di Playback.</translation>
     </message>
+    <message>
+        <location filename="../playback/src/platform/common/settings/PlaybackSettingsText.cpp" line="49"/>
+        <source>Allows you to change the language in which the Playback software is presented.</source>
+        <translation>Consente di cambiare la lingua dell&apos;interfaccia di Playback.</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/settings/PlaybackSettingsText.cpp" line="104"/>
+        <source>Always Off</source>
+        <translation>Sempre nascosta</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/settings/PlaybackSettingsText.cpp" line="102"/>
+        <source>Always On</source>
+        <translation>Sempre visibile</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/settings/PlaybackSettingsText.cpp" line="103"/>
+        <source>Auto-Hide</source>
+        <translation>Nascondi automaticamente</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/settings/PlaybackSettingsText.cpp" line="39"/>
+        <source>Confirm Before Exiting Emulation</source>
+        <translation>Conferma prima di uscire dall&apos;emulazione</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/settings/PlaybackSettingsText.cpp" line="101"/>
+        <source>Disabled</source>
+        <translation>Disabilitato</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/settings/PlaybackSettingsText.cpp" line="100"/>
+        <source>Enabled</source>
+        <translation>Abilitato</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/settings/PlaybackSettingsText.cpp" line="113"/>
+        <source>Open Log Directory</source>
+        <translation>Apri cartella dei log</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/settings/PlaybackSettingsText.cpp" line="41"/>
+        <source>Start Emulator in Fullscreen</source>
+        <translation>Avvia emulatore a schermo intero</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/settings/PlaybackSettingsText.cpp" line="88"/>
+        <source>When enabled, leaving a game asks for confirmation first. A game with unsaved changes always asks, regardless of this setting.</source>
+        <translation>Se abilitato, viene richiesta conferma prima di uscire da una partita. In presenza di modifiche non salvate, la conferma viene sempre richiesta, indipendentemente da questa impostazione.</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/settings/PlaybackSettingsText.cpp" line="91"/>
+        <source>When enabled, starting a game puts the window into fullscreen automatically. Exiting emulation restores the previous window size.</source>
+        <translation>Se abilitato, l&apos;avvio di un gioco porta automaticamente la finestra a schermo intero. All&apos;uscita dall&apos;emulazione viene ripristinata la dimensione precedente della finestra.</translation>
+    </message>
 </context>
 <context>
     <name>PlaybackSettingsScreenOption</name>
@@ -2159,6 +2274,137 @@ Se si desidera rimuovere facilmente tutte le immagini dalla fotocamera, senza do
     <message>
         <source>Disabled</source>
         <translation type="obsolete">Disabilitato</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="118"/>
+        <source>Can&apos;t reach netplay</source>
+        <translation>Impossibile raggiungere il gioco in rete</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="128"/>
+        <source>Cartridge removed</source>
+        <translation>Cartuccia rimossa</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="106"/>
+        <source>Cartridge was removed. Netplay session ended.</source>
+        <translation>La cartuccia è stata rimossa. La sessione di gioco in rete è terminata.</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="124"/>
+        <location filename="../playback/src/core/ErrorMessages.h" line="125"/>
+        <source>Connection failed</source>
+        <translation>Connessione non riuscita</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="103"/>
+        <source>Couldn&apos;t load the game state from your peer. You may be running different Playback versions — update both sides and try again.</source>
+        <translation>Impossibile caricare lo stato del gioco dell&apos;altro giocatore. Potreste usare versioni diverse di Playback: aggiornate entrambe le installazioni e riprovate.</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="83"/>
+        <source>Couldn&apos;t reach the netplay relay. Check your internet connection and try again.</source>
+        <translation>Impossibile raggiungere il server di inoltro del gioco in rete. Controlla la connessione a Internet e riprova.</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="127"/>
+        <source>Couldn&apos;t sync</source>
+        <translation>Sincronizzazione non riuscita</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="123"/>
+        <source>Different core</source>
+        <translation>Core diverso</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="122"/>
+        <source>Different game</source>
+        <translation>Gioco diverso</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="129"/>
+        <source>Different game version</source>
+        <translation>Versione del gioco diversa</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="99"/>
+        <source>Direct peer connection failed. Your network may block WebRTC.</source>
+        <translation>Connessione diretta tra giocatori non riuscita. La rete potrebbe bloccare WebRTC.</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="101"/>
+        <source>Game state diverged between peers. The session can&apos;t continue.</source>
+        <translation>Lo stato del gioco è diverso tra i giocatori. La sessione non può continuare.</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="64"/>
+        <source>Netplay error</source>
+        <translation>Errore del gioco in rete</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="126"/>
+        <source>Out of sync</source>
+        <translation>Non sincronizzato</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="120"/>
+        <source>Room full</source>
+        <translation>Stanza piena</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="87"/>
+        <source>Room is full. Ask the host to create a new room with more slots.</source>
+        <translation>La stanza è piena. Chiedi all&apos;host di creare una nuova stanza con più posti.</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="119"/>
+        <source>Room not found</source>
+        <translation>Stanza non trovata</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="85"/>
+        <source>Room not found. The code may have expired or been mistyped.</source>
+        <translation>Stanza non trovata. Il codice potrebbe essere scaduto o essere stato digitato male.</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="97"/>
+        <source>Signaling connection failed. Check your firewall and try again.</source>
+        <translation>Connessione al servizio di segnalazione non riuscita. Controlla il firewall e riprova.</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="114"/>
+        <source>Something went wrong with netplay. Restart Playback and try again.</source>
+        <translation>Si è verificato un problema con il gioco in rete. Riavvia Playback e riprova.</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="108"/>
+        <source>The netplay relay responded but the message was malformed. Try again in a moment.</source>
+        <translation>Il server di inoltro del gioco in rete ha risposto, ma il messaggio non era valido. Riprova tra poco.</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="121"/>
+        <source>Version mismatch</source>
+        <translation>Versioni non corrispondenti</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="94"/>
+        <source>You&apos;re using a different emulator core than the host. Open Settings &gt; Core and make sure you both selected the same core and have the same core version.</source>
+        <translation>Stai usando un core di emulazione diverso da quello dell&apos;host. Apri Impostazioni &gt; Core e assicuratevi di aver selezionato lo stesso core e di avere la stessa versione.</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="91"/>
+        <source>You&apos;re using a different game than the host. Please check that the cartridge, game region, and game revision match.</source>
+        <translation>Stai usando un gioco diverso da quello dell&apos;host. Verifica che la cartuccia, la regione e la revisione del gioco corrispondano.</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="110"/>
+        <source>Your cartridge and your peer&apos;s cartridge appear to be different versions of the same game (different revision, region, or translation patch), so they set up the link cable differently. Try using cartridges from matching game revisions.</source>
+        <translation>La tua cartuccia e quella dell&apos;altro giocatore sembrano essere versioni diverse dello stesso gioco (revisione, regione o patch di traduzione diversa), quindi configurano il cavo Link in modo diverso. Provate a usare cartucce della stessa revisione del gioco.</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="89"/>
+        <source>Your peer is running a different netplay version. Please update Playback on both sides.</source>
+        <translation>L&apos;altro giocatore usa una versione diversa del gioco in rete. Aggiornate Playback su entrambi i dispositivi.</translation>
     </message>
 </context>
 <context>
@@ -2523,6 +2769,31 @@ Volete procedere?
         <location filename="../src/core/SavestateManager.cpp" line="160"/>
         <source>Failed to delete state</source>
         <translation>Eliminazione stato non riuscita</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/SavestateManager.cpp" line="289"/>
+        <source>Core does not support savestates</source>
+        <translation>Il core non supporta gli stati di salvataggio</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/SavestateManager.cpp" line="304"/>
+        <source>Core rejected the savestate (it may be from a different core version)</source>
+        <translation>Il core ha rifiutato lo stato di salvataggio (potrebbe provenire da una versione diversa del core)</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/SavestateManager.cpp" line="273"/>
+        <source>Could not read savestate file</source>
+        <translation>Impossibile leggere il file dello stato di salvataggio</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/SavestateManager.cpp" line="282"/>
+        <source>Savestate file is empty</source>
+        <translation>Il file dello stato di salvataggio è vuoto</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/SavestateManager.cpp" line="303"/>
+        <source>Savestate was created by a different core version and can&apos;t be loaded</source>
+        <translation>Lo stato di salvataggio è stato creato da una versione diversa del core e non può essere caricato</translation>
     </message>
 </context>
 <context>
@@ -2986,6 +3257,2335 @@ Assicurati che i driver grafici siano aggiornati.</translation>
         <location filename="../src/platform/desktop/Window.cpp" line="730"/>
         <source>Begin archiving the save data.</source>
         <translation>Inizia l&apos;archiviazione dei dati di salvataggio.</translation>
+    </message>
+</context>
+<context>
+    <name>AchievementList</name>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementRow.qml" line="18"/>
+        <source>%1 Casual point</source>
+        <translation>%1 punto in modalità normale</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementRow.qml" line="19"/>
+        <source>%1 Casual points</source>
+        <translation>%1 punti in modalità normale</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementRow.qml" line="20"/>
+        <source>%1 Hardcore point</source>
+        <translation>%1 punto in modalità Hardcore</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementRow.qml" line="21"/>
+        <source>%1 Hardcore points</source>
+        <translation>%1 punti in modalità Hardcore</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/AchievementsNavigation.qml" line="116"/>
+        <source>%1 doesn’t support RetroAchievements.</source>
+        <translation>%1 non supporta RetroAchievements.</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementRow.qml" line="16"/>
+        <source>+%1 point</source>
+        <translation>+%1 punto</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementRow.qml" line="17"/>
+        <source>+%1 points</source>
+        <translation>+%1 punti</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementRow.qml" line="39"/>
+        <location filename="../src/qml/views/components/games/AchievementRow.qml" line="146"/>
+        <source>Achievement</source>
+        <translation>Obiettivo</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/AchievementsNavigation.qml" line="168"/>
+        <source>All by rarity</source>
+        <translation>Tutti per rarità</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/common/RelativeDateFormatter.qml" line="24"/>
+        <source>Date unavailable</source>
+        <translation>Data non disponibile</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/AchievementsNavigation.qml" line="75"/>
+        <source>Game version not recognized</source>
+        <translation>Versione del gioco non riconosciuta</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/AchievementsNavigation.qml" line="164"/>
+        <source>In progress</source>
+        <translation>In corso</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/AchievementsNavigation.qml" line="106"/>
+        <source>Loading...</source>
+        <translation>Caricamento...</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/AchievementsNavigation.qml" line="96"/>
+        <source>Log in to view your achievements and track your progress.</source>
+        <translation>Accedi per vedere i tuoi obiettivi e seguire i tuoi progressi.</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementList.qml" line="15"/>
+        <source>No achievements are in progress.</source>
+        <translation>Nessun obiettivo in corso.</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/AchievementsNavigation.qml" line="85"/>
+        <source>No achievements available</source>
+        <translation>Nessun obiettivo disponibile</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementList.qml" line="17"/>
+        <source>No achievements have been unlocked.</source>
+        <translation>Nessun obiettivo è stato sbloccato.</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementList.qml" line="18"/>
+        <source>No locked achievements remain.</source>
+        <translation>Non restano obiettivi bloccati.</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/AchievementsNavigation.qml" line="115"/>
+        <source>Please choose a compatible emulation core</source>
+        <translation>Scegli un core di emulazione compatibile</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/AchievementsNavigation.qml" line="76"/>
+        <source>RetroAchievements doesn’t recognize this version of the game ☹</source>
+        <translation>RetroAchievements non riconosce questa versione del gioco ☹</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/AchievementsNavigation.qml" line="86"/>
+        <source>Sadly, this game has no RetroAchievements to unlock</source>
+        <translation>Purtroppo questo gioco non ha obiettivi RetroAchievements da sbloccare</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/common/RelativeDateFormatter.qml" line="26"/>
+        <source>Today</source>
+        <translation>Oggi</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/common/RelativeDateFormatter.qml" line="28"/>
+        <source>Yesterday</source>
+        <translation>Ieri</translation>
+    </message>
+</context>
+<context>
+    <name>AchievementRow</name>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementRow.qml" line="336"/>
+        <source>%1%</source>
+        <translation>%1%</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementRow.qml" line="231"/>
+        <source>(%1%)</source>
+        <translation>(%1%)</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementRow.qml" line="241"/>
+        <source>Last played</source>
+        <translation>Ultima partita</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementRow.qml" line="178"/>
+        <source>You gained</source>
+        <translation>Hai ottenuto</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementRow.qml" line="275"/>
+        <source>You&apos;re part of %1 players who unlocked this!</source>
+        <translation>Fai parte del %1 di giocatori che lo hanno sbloccato!</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementRow.qml" line="194"/>
+        <source>and</source>
+        <translation>e</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementRow.qml" line="345"/>
+        <source>of players</source>
+        <translation>dei giocatori</translation>
+    </message>
+</context>
+<context>
+    <name>AchievementSummary</name>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementSummary.qml" line="32"/>
+        <location filename="../src/qml/views/components/games/AchievementSummary.qml" line="272"/>
+        <source>%1 Casual point</source>
+        <translation>%1 punto in modalità normale</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementSummary.qml" line="33"/>
+        <location filename="../src/qml/views/components/games/AchievementSummary.qml" line="272"/>
+        <source>%1 Casual points</source>
+        <translation>%1 punti in modalità normale</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementSummary.qml" line="34"/>
+        <location filename="../src/qml/views/components/games/AchievementSummary.qml" line="270"/>
+        <source>%1 Hardcore point</source>
+        <translation>%1 punto in modalità Hardcore</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementSummary.qml" line="35"/>
+        <location filename="../src/qml/views/components/games/AchievementSummary.qml" line="270"/>
+        <source>%1 Hardcore points</source>
+        <translation>%1 punti in modalità Hardcore</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementSummary.qml" line="289"/>
+        <source>%1 point available</source>
+        <translation>%1 punto disponibile</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementSummary.qml" line="289"/>
+        <source>%1 points available</source>
+        <translation>%1 punti disponibili</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementSummary.qml" line="179"/>
+        <source>%1% unlocked</source>
+        <translation>%1% sbloccato</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementSummary.qml" line="168"/>
+        <location filename="../src/qml/views/components/games/AchievementSummary.qml" line="169"/>
+        <source>%1/%2 achievements</source>
+        <translation>%1/%2 obiettivi</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementSummary.qml" line="151"/>
+        <source>(%1%)</source>
+        <translation>(%1%)</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementSummary.qml" line="29"/>
+        <location filename="../src/qml/views/components/games/AchievementSummary.qml" line="241"/>
+        <source>Out of %1 available point:</source>
+        <translation>Su %1 punto disponibile:</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementSummary.qml" line="30"/>
+        <location filename="../src/qml/views/components/games/AchievementSummary.qml" line="242"/>
+        <source>Out of %1 available points:</source>
+        <translation>Su %1 punti disponibili:</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementSummary.qml" line="75"/>
+        <source>RetroAchievements</source>
+        <translation>RetroAchievements</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementSummary.qml" line="27"/>
+        <location filename="../src/qml/views/components/games/AchievementSummary.qml" line="142"/>
+        <source>You&apos;ve unlocked %1/%2 achievements</source>
+        <translation>Hai sbloccato %1/%2 obiettivi</translation>
+    </message>
+</context>
+<context>
+    <name>AchievementUnavailable</name>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementUnavailable.qml" line="50"/>
+        <source>RetroAchievements</source>
+        <translation>RetroAchievements</translation>
+    </message>
+</context>
+<context>
+    <name>CheatCodesSettingsNavigation</name>
+    <message>
+        <location filename="../src/qml/controllers/settings/cheats/CheatCodesSettingsNavigation.qml" line="36"/>
+        <source>Go to Autosave settings</source>
+        <translation>Vai alle impostazioni di salvataggio automatico</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/settings/cheats/CheatCodesSettingsNavigation.qml" line="88"/>
+        <source>Toggle</source>
+        <translation>Attiva/disattiva</translation>
+    </message>
+</context>
+<context>
+    <name>CheatCodesSettingsView</name>
+    <message>
+        <location filename="../src/qml/views/settings/sections/CheatCodesSettingsView.qml" line="65"/>
+        <source>Hardcore Mode for RetroAchievements is enabled</source>
+        <translation>La modalità Hardcore di RetroAchievements è abilitata</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/sections/CheatCodesSettingsView.qml" line="74"/>
+        <source>Selected cheats stay inactive while Hardcore mode is enabled.</source>
+        <translation>I trucchi selezionati restano inattivi mentre la modalità Hardcore è abilitata.</translation>
+    </message>
+</context>
+<context>
+    <name>ControllerDeadzonePanel</name>
+    <message>
+        <location filename="../src/qml/views/settings/controls/JoystickDeadzoneControl.qml" line="24"/>
+        <source>%1%</source>
+        <translation>%1%</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/controls/ControllerDeadzonePanel.qml" line="24"/>
+        <source>Left stick</source>
+        <translation>Levetta sinistra</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/controls/ControllerDeadzonePanel.qml" line="35"/>
+        <source>Right stick</source>
+        <translation>Levetta destra</translation>
+    </message>
+</context>
+<context>
+    <name>ControllerSetupPanel</name>
+    <message>
+        <location filename="../src/qml/views/settings/controls/ControllerSetupPanel.qml" line="55"/>
+        <source>Choose controller</source>
+        <translation>Scegli controller</translation>
+    </message>
+</context>
+<context>
+    <name>ControlsSettingsGrid</name>
+    <message>
+        <location filename="../src/qml/views/settings/controls/ControlsSettingsGrid.qml" line="96"/>
+        <location filename="../src/qml/views/settings/sections/SettingsEmptyState.qml" line="36"/>
+        <source>Map controller buttons to Playback actions.</source>
+        <translation>Associa i pulsanti del controller alle azioni di Playback.</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/controls/ControlsSettingsGrid.qml" line="52"/>
+        <location filename="../src/qml/views/settings/sections/SettingsEmptyState.qml" line="35"/>
+        <source>Map controller buttons to game controls.</source>
+        <translation>Associa i pulsanti del controller ai comandi del gioco.</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/controls/ControlsSettingsGrid.qml" line="51"/>
+        <source>Mappings</source>
+        <translation>Mappature</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/controls/ControlsSettingsGrid.qml" line="95"/>
+        <source>Shortcuts</source>
+        <translation>Scorciatoie</translation>
+    </message>
+</context>
+<context>
+    <name>ControlsSettingsRow</name>
+    <message>
+        <location filename="../src/qml/debug/PlaybackOSDebugKeyboardHelp.qml" line="16"/>
+        <location filename="../src/qml/views/settings/controls/ControlsSettingsRow.qml" line="43"/>
+        <location filename="../src/qml/views/settings/controls/ControlsSettingsRow.qml" line="53"/>
+        <source>Down</source>
+        <translation>Giù</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/debug/PlaybackOSDebugKeyboardHelp.qml" line="17"/>
+        <location filename="../src/qml/views/settings/controls/ControlsSettingsRow.qml" line="45"/>
+        <location filename="../src/qml/views/settings/controls/ControlsSettingsRow.qml" line="56"/>
+        <source>Left</source>
+        <translation>Sinistra</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/debug/PlaybackOSDebugKeyboardHelp.qml" line="18"/>
+        <location filename="../src/qml/views/settings/controls/ControlsSettingsRow.qml" line="47"/>
+        <location filename="../src/qml/views/settings/controls/ControlsSettingsRow.qml" line="59"/>
+        <source>Right</source>
+        <translation>Destra</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/debug/PlaybackOSDebugKeyboardHelp.qml" line="15"/>
+        <location filename="../src/qml/views/settings/controls/ControlsSettingsRow.qml" line="41"/>
+        <location filename="../src/qml/views/settings/controls/ControlsSettingsRow.qml" line="50"/>
+        <source>Up</source>
+        <translation>Su</translation>
+    </message>
+</context>
+<context>
+    <name>CoreDetails</name>
+    <message>
+        <location filename="../src/qml/views/components/settings/CoreDetails.qml" line="44"/>
+        <source>Capabilities are unavailable for custom cores.</source>
+        <translation>Le funzionalità non sono disponibili per i core personalizzati.</translation>
+    </message>
+</context>
+<context>
+    <name>CoreSelectorRow</name>
+    <message>
+        <location filename="../src/qml/views/components/settings/CoreSelectorRow.qml" line="26"/>
+        <source>Download available</source>
+        <translation>Download disponibile</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/settings/CoreSelectorRow.qml" line="25"/>
+        <source>Installed</source>
+        <translation>Installato</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/settings/CoreSelectorRow.qml" line="26"/>
+        <source>Unavailable</source>
+        <translation>Non disponibile</translation>
+    </message>
+</context>
+<context>
+    <name>CoreUpdatesNavigation</name>
+    <message>
+        <location filename="../src/qml/controllers/settings/coreselector/CoreUpdatesNavigation.qml" line="24"/>
+        <source>Cancel</source>
+        <translation>Annulla</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/settings/coreselector/CoreUpdatesNavigation.qml" line="24"/>
+        <source>Check again</source>
+        <translation>Verifica di nuovo</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/settings/coreselector/CoreUpdatesNavigation.qml" line="13"/>
+        <source>Check for updates</source>
+        <translation>Controlla aggiornamenti</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/settings/coreselector/CoreUpdatesNavigation.qml" line="12"/>
+        <source>Core updates</source>
+        <translation>Aggiornamenti dei core</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/settings/coreselector/CoreUpdatesNavigation.qml" line="13"/>
+        <source>Update all</source>
+        <translation>Aggiorna tutti</translation>
+    </message>
+</context>
+<context>
+    <name>CustomCheatEntry</name>
+    <message>
+        <location filename="../src/qml/views/components/settings/CustomCheatEntry.qml" line="35"/>
+        <source>Add cheat</source>
+        <translation>Aggiungi trucco</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/settings/CustomCheatEntry.qml" line="52"/>
+        <source>Add custom cheat</source>
+        <translation>Aggiungi trucco personalizzato</translation>
+    </message>
+</context>
+<context>
+    <name>CustomCheatEntryNavigation</name>
+    <message>
+        <location filename="../src/qml/controllers/settings/cheats/CustomCheatEntryNavigation.qml" line="22"/>
+        <source>Add cheat</source>
+        <translation>Aggiungi trucco</translation>
+    </message>
+</context>
+<context>
+    <name>DeviceSettingsNavigation</name>
+    <message>
+        <location filename="../src/qml/controllers/settings/device/DeviceSettingsNavigation.qml" line="49"/>
+        <source>Applying…</source>
+        <translation>Applicazione…</translation>
+    </message>
+</context>
+<context>
+    <name>DeviceSettingsView</name>
+    <message>
+        <location filename="../src/qml/views/settings/sections/DeviceSettingsView.qml" line="89"/>
+        <source>Coming soon</source>
+        <translation>Prossimamente</translation>
+    </message>
+</context>
+<context>
+    <name>GameCard</name>
+    <message>
+        <location filename="../src/qml/views/components/games/GameArtwork.qml" line="149"/>
+        <source>Unable to start game.
+Please check core settings.</source>
+        <translation>Impossibile avviare il gioco.
+Controlla le impostazioni del core.</translation>
+    </message>
+</context>
+<context>
+    <name>GameGallery</name>
+    <message>
+        <location filename="../src/qml/views/components/games/GameGallery.qml" line="32"/>
+        <source>Screenshot %1</source>
+        <translation>Schermata %1</translation>
+    </message>
+</context>
+<context>
+    <name>GamesPage</name>
+    <message>
+        <location filename="../src/qml/views/pages/GamesPage.qml" line="34"/>
+        <source>%1 h %2 m</source>
+        <translation>%1 h %2 min</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/pages/GamesPage.qml" line="111"/>
+        <source>? players</source>
+        <translation>? giocatori</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/pages/GamesPage.qml" line="14"/>
+        <source>Go to Library</source>
+        <translation>Vai alla libreria</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/GamesPageNavigation.qml" line="78"/>
+        <source>Hold to stop</source>
+        <translation>Tieni premuto per interrompere</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/GamesPageNavigation.qml" line="57"/>
+        <source>In use</source>
+        <translation>In uso</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/GamesPageNavigation.qml" line="55"/>
+        <source>Insert cart to play</source>
+        <translation>Inserisci una cartuccia per giocare</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/GamesPageNavigation.qml" line="53"/>
+        <source>Library</source>
+        <translation>Libreria</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/pages/GamesPage.qml" line="16"/>
+        <source>Navigate your whole game collection.</source>
+        <translation>Esplora tutta la tua collezione di giochi.</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/GamesPageNavigation.qml" line="84"/>
+        <source>Resume game</source>
+        <translation>Riprendi il gioco</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/GamesPageNavigation.qml" line="81"/>
+        <source>View details</source>
+        <translation>Visualizza dettagli</translation>
+    </message>
+</context>
+<context>
+    <name>JoystickDeadzoneDisplay</name>
+    <message>
+        <location filename="../src/qml/views/settings/controls/JoystickDeadzoneDisplay.qml" line="81"/>
+        <source>X %1</source>
+        <translation>X %1</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/controls/JoystickDeadzoneDisplay.qml" line="90"/>
+        <source>Y %1</source>
+        <translation>Y %1</translation>
+    </message>
+</context>
+<context>
+    <name>LibraryDetailPage</name>
+    <message>
+        <location filename="../src/qml/views/pages/LibraryDetailPage.qml" line="79"/>
+        <source>? players</source>
+        <translation>? giocatori</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/LibraryDetailPageNavigation.qml" line="59"/>
+        <source>Back</source>
+        <translation>Indietro</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/LibraryDetailPageNavigation.qml" line="58"/>
+        <source>Back / Hold to stop</source>
+        <translation>Indietro / Tieni premuto per interrompere</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/LibraryDetailPageNavigation.qml" line="40"/>
+        <location filename="../src/qml/views/pages/LibraryDetailPage.qml" line="199"/>
+        <location filename="../src/qml/views/pages/LibraryDetailPage.qml" line="218"/>
+        <source>Change video shader</source>
+        <translation>Cambia shader video</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/LibraryDetailPageNavigation.qml" line="57"/>
+        <source>Close achievements</source>
+        <translation>Chiudi obiettivi</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/LibraryDetailPageNavigation.qml" line="51"/>
+        <source>In use</source>
+        <translation>In uso</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/LibraryDetailPageNavigation.qml" line="41"/>
+        <source>Manage save states</source>
+        <translation>Gestisci stati di salvataggio</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/LibraryDetailPageNavigation.qml" line="43"/>
+        <source>Open</source>
+        <translation>Apri</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/LibraryDetailPageNavigation.qml" line="42"/>
+        <source>Open settings</source>
+        <translation>Apri impostazioni</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/LibraryDetailPageNavigation.qml" line="60"/>
+        <source>Resume game</source>
+        <translation>Riprendi il gioco</translation>
+    </message>
+</context>
+<context>
+    <name>LibraryPage</name>
+    <message>
+        <location filename="../src/qml/controllers/pages/LibraryPageNavigation.qml" line="34"/>
+        <source>Back</source>
+        <translation>Indietro</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/LibraryPageNavigation.qml" line="33"/>
+        <source>Back / Hold to stop</source>
+        <translation>Indietro / Tieni premuto per interrompere</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/LibraryPageNavigation.qml" line="30"/>
+        <source>Open</source>
+        <translation>Apri</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/LibraryPageNavigation.qml" line="35"/>
+        <source>Resume game</source>
+        <translation>Riprendi il gioco</translation>
+    </message>
+</context>
+<context>
+    <name>NavigationHeader</name>
+    <message>
+        <location filename="../src/qml/views/components/common/NavigationHeader.qml" line="23"/>
+        <source>Games</source>
+        <translation>Giochi</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/common/NavigationHeader.qml" line="23"/>
+        <source>Library</source>
+        <translation>Libreria</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSAchievementOverlayModel</name>
+    <message>
+        <location filename="../src/overlay/PlaybackOSAchievementOverlayModel.cpp" line="75"/>
+        <source>%1 does not support RetroAchievements. Please choose another core in Settings.</source>
+        <translation>%1 non supporta RetroAchievements. Scegli un altro core nelle impostazioni.</translation>
+    </message>
+    <message>
+        <location filename="../src/overlay/PlaybackOSAchievementOverlayModel.cpp" line="74"/>
+        <source>RetroAchievements unavailable</source>
+        <translation>RetroAchievements non disponibile</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSControllerBindings</name>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="156"/>
+        <source>Left stick</source>
+        <translation>Levetta sinistra</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="157"/>
+        <source>Right stick</source>
+        <translation>Levetta destra</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="158"/>
+        <source>Left shoulder</source>
+        <translation>Pulsante dorsale sinistro</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="159"/>
+        <source>Right shoulder</source>
+        <translation>Pulsante dorsale destro</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="160"/>
+        <source>Dp up</source>
+        <translation>Croce direzionale su</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="161"/>
+        <source>Dp down</source>
+        <translation>Croce direzionale giù</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="162"/>
+        <source>Dp left</source>
+        <translation>Croce direzionale sinistra</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="163"/>
+        <source>Dp right</source>
+        <translation>Croce direzionale destra</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="164"/>
+        <source>Misc1</source>
+        <translation>Pulsante aggiuntivo 1</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="165"/>
+        <source>Paddle1</source>
+        <translation>Leva posteriore 1</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="166"/>
+        <source>Paddle2</source>
+        <translation>Leva posteriore 2</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="167"/>
+        <source>Paddle3</source>
+        <translation>Leva posteriore 3</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="168"/>
+        <source>Paddle4</source>
+        <translation>Leva posteriore 4</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="169"/>
+        <source>Touchpad</source>
+        <translation>Pannello tattile</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="170"/>
+        <source>Misc2</source>
+        <translation>Pulsante aggiuntivo 2</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="171"/>
+        <source>Misc3</source>
+        <translation>Pulsante aggiuntivo 3</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="172"/>
+        <source>Misc4</source>
+        <translation>Pulsante aggiuntivo 4</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="173"/>
+        <source>Misc5</source>
+        <translation>Pulsante aggiuntivo 5</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="174"/>
+        <source>Misc6</source>
+        <translation>Pulsante aggiuntivo 6</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="175"/>
+        <source>Axis left x+</source>
+        <translation>Asse sinistro x+</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="176"/>
+        <source>Axis left x-</source>
+        <translation>Asse sinistro x-</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="177"/>
+        <source>Axis left y+</source>
+        <translation>Asse sinistro y+</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="178"/>
+        <source>Axis left y-</source>
+        <translation>Asse sinistro y-</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="179"/>
+        <source>Axis right x+</source>
+        <translation>Asse destro x+</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="180"/>
+        <source>Axis right x-</source>
+        <translation>Asse destro x-</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="181"/>
+        <source>Axis right y+</source>
+        <translation>Asse destro y+</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="182"/>
+        <source>Axis right y-</source>
+        <translation>Asse destro y-</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="183"/>
+        <source>Axis trigger left</source>
+        <translation>Asse del grilletto sinistro</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="184"/>
+        <source>Axis trigger right</source>
+        <translation>Asse del grilletto destro</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSControllerInventory</name>
+    <message>
+        <location filename="../src/settings/controls/PlaybackOSControllerInventory.cpp" line="68"/>
+        <source>%1 (Steam Input)</source>
+        <translation>%1 (Steam Input)</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSControllerSelection</name>
+    <message>
+        <location filename="../src/settings/controls/PlaybackOSControllerAssignments.cpp" line="69"/>
+        <source>Disconnected controller</source>
+        <translation>Controller disconnesso</translation>
+    </message>
+    <message>
+        <location filename="../src/settings/controls/PlaybackOSControllerSelection.cpp" line="69"/>
+        <source>Player %1</source>
+        <translation>Giocatore %1</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSControllerStatus</name>
+    <message>
+        <location filename="../src/qml/views/components/common/PlaybackOSControllerStatus.qml" line="79"/>
+        <source>%1, connected</source>
+        <translation>%1, connesso</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/common/PlaybackOSControllerStatus.qml" line="78"/>
+        <source>%1, controlling menu</source>
+        <translation>%1, controlla il menu</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/common/PlaybackOSControllerStatus.qml" line="540"/>
+        <source>Control request DENIED by P%1</source>
+        <translation>Richiesta di controllo NEGATA da P%1</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/common/PlaybackOSControllerStatus.qml" line="72"/>
+        <source>Controller</source>
+        <translation>Controller</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/common/PlaybackOSControllerStatus.qml" line="473"/>
+        <location filename="../src/qml/views/components/common/PlaybackOSControllerStatus.qml" line="549"/>
+        <source>Hold any button to take control</source>
+        <translation>Tieni premuto un pulsante qualsiasi per prendere il controllo</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/common/PlaybackOSControllerStatus.qml" line="521"/>
+        <source>P%1 took control!</source>
+        <translation>P%1 ha preso il controllo!</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/common/PlaybackOSControllerStatus.qml" line="380"/>
+        <source>Please connect controller</source>
+        <translation>Collega un controller</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/common/PlaybackOSControllerStatus.qml" line="490"/>
+        <location filename="../src/qml/views/components/common/PlaybackOSControllerStatus.qml" line="496"/>
+        <location filename="../src/qml/views/components/common/PlaybackOSControllerStatus.qml" line="506"/>
+        <location filename="../src/qml/views/components/common/PlaybackOSControllerStatus.qml" line="548"/>
+        <location filename="../src/qml/views/components/common/PlaybackOSControllerStatus.qml" line="568"/>
+        <location filename="../src/qml/views/components/common/PlaybackOSControllerStatus.qml" line="584"/>
+        <source>Press a button to take control</source>
+        <translation>Premi un pulsante per prendere il controllo</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSControlsSettings</name>
+    <message>
+        <location filename="../src/settings/controls/PlaybackOSControllerBindings.cpp" line="152"/>
+        <source>Press a button…</source>
+        <translation>Premi un pulsante…</translation>
+    </message>
+    <message>
+        <location filename="../src/settings/controls/PlaybackOSControllerBindings.cpp" line="101"/>
+        <source>Press an input…</source>
+        <translation>Aziona un comando…</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSCoreUpdater</name>
+    <message>
+        <location filename="../src/settings/PlaybackOSCoreUpdater.cpp" line="119"/>
+        <source>%1 update(s) available. Could not check %2 core(s).</source>
+        <translation>%1 aggiornamento/i disponibile/i. Impossibile verificare %2 core.</translation>
+    </message>
+    <message>
+        <location filename="../src/settings/PlaybackOSCoreUpdater.cpp" line="27"/>
+        <source>Checking installed cores…</source>
+        <translation>Verifica dei core installati…</translation>
+    </message>
+    <message>
+        <location filename="../src/settings/PlaybackOSCoreUpdater.cpp" line="196"/>
+        <source>Core updates cancelled. Completed downloads were kept.</source>
+        <translation>Aggiornamenti dei core annullati. I download completati sono stati conservati.</translation>
+    </message>
+    <message>
+        <location filename="../src/settings/PlaybackOSCoreUpdater.cpp" line="48"/>
+        <source>Could not check for updates. Please try again.</source>
+        <translation>Impossibile controllare gli aggiornamenti. Riprova.</translation>
+    </message>
+    <message>
+        <location filename="../src/settings/PlaybackOSCoreUpdater.cpp" line="122"/>
+        <source>Installed cores are up to date.</source>
+        <translation>I core installati sono aggiornati.</translation>
+    </message>
+    <message>
+        <location filename="../src/settings/PlaybackOSCoreUpdater.cpp" line="23"/>
+        <source>No downloaded cores are installed.</source>
+        <translation>Nessun core scaricato è installato.</translation>
+    </message>
+    <message>
+        <location filename="../src/settings/PlaybackOSCoreUpdater.cpp" line="189"/>
+        <source>Updated %1 core(s).</source>
+        <translation>%1 core aggiornato/i.</translation>
+    </message>
+    <message>
+        <location filename="../src/settings/PlaybackOSCoreUpdater.cpp" line="190"/>
+        <source>Updated %1 core(s); %2 failed. Check for updates to retry.</source>
+        <translation>%1 core aggiornato/i; %2 non riusciti. Controlla gli aggiornamenti per riprovare.</translation>
+    </message>
+    <message>
+        <location filename="../src/settings/PlaybackOSCoreUpdater.cpp" line="123"/>
+        <source>Updates available for %1 core(s).</source>
+        <translation>Aggiornamenti disponibili per %1 core.</translation>
+    </message>
+    <message>
+        <location filename="../src/settings/PlaybackOSCoreUpdater.cpp" line="147"/>
+        <source>Updating %1…</source>
+        <translation>Aggiornamento di %1…</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSDeviceSettings</name>
+    <message>
+        <location filename="../src/settings/PlaybackOSDeviceSettings.cpp" line="83"/>
+        <source>Connect an Operator to customize its LED light.</source>
+        <translation>Collega un Operator per personalizzare la sua luce LED.</translation>
+    </message>
+    <message>
+        <location filename="../src/settings/PlaybackOSDeviceSettings.cpp" line="91"/>
+        <source>Could not apply the effect. Select an effect to try again.</source>
+        <translation>Impossibile applicare l&apos;effetto. Seleziona un effetto per riprovare.</translation>
+    </message>
+    <message>
+        <location filename="../src/settings/PlaybackOSDeviceSettings.cpp" line="90"/>
+        <source>Stop the current game to change this Operator’s LED effect.</source>
+        <translation>Interrompi la partita in corso per cambiare l&apos;effetto LED di questo Operator.</translation>
+    </message>
+    <message>
+        <location filename="../src/settings/PlaybackOSDeviceSettings.cpp" line="86"/>
+        <source>This Operator is in use by another Playback window.</source>
+        <translation>Questo Operator è in uso da un&apos;altra finestra di Playback.</translation>
+    </message>
+    <message>
+        <location filename="../src/settings/PlaybackOSDeviceSettings.cpp" line="88"/>
+        <source>Wait for the current device operation to finish before changing the LED effect.</source>
+        <translation>Attendi il completamento dell&apos;operazione in corso sul dispositivo prima di cambiare l&apos;effetto LED.</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSEmulatorHost</name>
+    <message>
+        <location filename="../src/emulation/PlaybackOSEmulatorHost.cpp" line="213"/>
+        <source>Couldn&apos;t read the cartridge.
+Check the pins are clean and it&apos;s seated securely.</source>
+        <translation>Impossibile leggere la cartuccia.
+Verifica che i contatti siano puliti e che sia inserita correttamente.</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSFeedbackContent</name>
+    <message>
+        <location filename="../src/qml/views/components/common/PlaybackOSFeedbackContent.qml" line="118"/>
+        <source>Scan the QR code with your phone to share your thoughts and ideas.</source>
+        <translation>Scansiona il codice QR con il telefono per condividere le tue opinioni e idee.</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/common/PlaybackOSFeedbackContent.qml" line="19"/>
+        <source>Share your feedback</source>
+        <translation>Condividi il tuo feedback</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/common/PlaybackOSFeedbackContent.qml" line="100"/>
+        <source>Thank you for trying the alpha version!</source>
+        <translation>Grazie per aver provato la versione alfa!</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/common/PlaybackOSFeedbackContent.qml" line="109"/>
+        <source>We’d love to hear what’s working, what isn’t, and what would make the whole experience better.</source>
+        <translation>Ci piacerebbe sapere cosa funziona, cosa non funziona e cosa migliorerebbe l&apos;esperienza nel suo insieme.</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSFeedbackOverlay</name>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSFeedbackOverlay.qml" line="36"/>
+        <source>Back</source>
+        <translation>Indietro</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSFeedbackQr</name>
+    <message>
+        <location filename="../src/feedback/PlaybackOSFeedbackQr.cpp" line="65"/>
+        <source>The QR code could not be created.</source>
+        <translation>Impossibile creare il codice QR.</translation>
+    </message>
+    <message>
+        <location filename="../src/feedback/PlaybackOSFeedbackQr.cpp" line="42"/>
+        <source>The feedback link contains invalid text.</source>
+        <translation>Il link per il feedback contiene testo non valido.</translation>
+    </message>
+    <message>
+        <location filename="../src/feedback/PlaybackOSFeedbackQr.cpp" line="41"/>
+        <location filename="../src/feedback/PlaybackOSFeedbackQr.cpp" line="72"/>
+        <source>The feedback link is too long for a QR code.</source>
+        <translation>Il link per il feedback è troppo lungo per un codice QR.</translation>
+    </message>
+    <message>
+        <location filename="../src/feedback/PlaybackOSFeedbackQr.cpp" line="39"/>
+        <location filename="../src/feedback/PlaybackOSFeedbackQr.cpp" line="145"/>
+        <source>The feedback link is unavailable.</source>
+        <translation>Il link per il feedback non è disponibile.</translation>
+    </message>
+    <message>
+        <location filename="../src/feedback/PlaybackOSFeedbackQr.cpp" line="147"/>
+        <source>There is not enough space to display the QR code.</source>
+        <translation>Non c&apos;è abbastanza spazio per visualizzare il codice QR.</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSLibraryModel</name>
+    <message>
+        <location filename="../src/library/PlaybackOSLibraryModel.cpp" line="532"/>
+        <source>Game hash: %1</source>
+        <translation>Hash del gioco: %1</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSPauseHoldOverlay</name>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseHoldOverlay.qml" line="29"/>
+        <source>Hold to pause</source>
+        <translation>Tieni premuto per mettere in pausa</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSRetroAchievements</name>
+    <message>
+        <location filename="../src/runtime/PlaybackOSRetroAchievements.cpp" line="76"/>
+        <source>Enter both your username and password.</source>
+        <translation>Inserisci sia il nome utente sia la password.</translation>
+    </message>
+    <message>
+        <location filename="../src/runtime/PlaybackOSRetroAchievements.cpp" line="19"/>
+        <source>Could not sign in to RetroAchievements. The service may be unavailable. Check your connection and try again later.</source>
+        <translation>Impossibile accedere a RetroAchievements. Il servizio potrebbe non essere disponibile. Controlla la connessione e riprova più tardi.</translation>
+    </message>
+    <message>
+        <location filename="../src/runtime/PlaybackOSRetroAchievements.cpp" line="22"/>
+        <source>Could not sign in to RetroAchievements. Please try again.</source>
+        <translation>Impossibile accedere a RetroAchievements. Riprova.</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSSaveShutdownController</name>
+    <message>
+        <location filename="../src/emulation/PlaybackOSSaveShutdownController.cpp" line="67"/>
+        <source>Checking cartridge save. Keep the cartridge connected.</source>
+        <translation>Verifica del salvataggio della cartuccia. Mantieni la cartuccia collegata.</translation>
+    </message>
+    <message>
+        <location filename="../src/emulation/PlaybackOSSaveShutdownController.cpp" line="92"/>
+        <source>Couldn&apos;t check the cartridge save. Keep the cartridge connected and try stopping again.</source>
+        <translation>Impossibile verificare il salvataggio della cartuccia. Mantieni la cartuccia collegata e prova di nuovo a interrompere la partita.</translation>
+    </message>
+    <message>
+        <location filename="../src/emulation/PlaybackOSSaveShutdownController.cpp" line="115"/>
+        <source>Couldn&apos;t save to the cartridge. Keep the cartridge connected and try stopping again.</source>
+        <translation>Impossibile salvare sulla cartuccia. Mantieni la cartuccia collegata e prova di nuovo a interrompere la partita.</translation>
+    </message>
+    <message>
+        <location filename="../src/emulation/PlaybackOSSaveShutdownController.cpp" line="100"/>
+        <source>Saving to cartridge timed out. Keep the cartridge connected and try stopping again.</source>
+        <translation>Tempo scaduto durante il salvataggio sulla cartuccia. Mantieni la cartuccia collegata e prova di nuovo a interrompere la partita.</translation>
+    </message>
+    <message>
+        <location filename="../src/emulation/PlaybackOSSaveShutdownController.cpp" line="60"/>
+        <source>Saving to cartridge. Keep the cartridge connected.</source>
+        <translation>Salvataggio sulla cartuccia. Mantieni la cartuccia collegata.</translation>
+    </message>
+    <message>
+        <location filename="../src/emulation/PlaybackOSSaveShutdownController.cpp" line="50"/>
+        <source>The Operator is busy. Keep the cartridge connected and try stopping again.</source>
+        <translation>Operator è occupato. Mantieni la cartuccia collegata e prova di nuovo a interrompere la partita.</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSSaveStates</name>
+    <message>
+        <location filename="../src/save/PlaybackOSSaveStates.cpp" line="277"/>
+        <source>Save states are unavailable during netplay.</source>
+        <translation>Gli stati di salvataggio non sono disponibili durante il gioco in rete.</translation>
+    </message>
+    <message>
+        <location filename="../src/save/PlaybackOSSaveStates.cpp" line="275"/>
+        <source>Save states are unavailable in Hardcore mode.</source>
+        <translation>Gli stati di salvataggio non sono disponibili in modalità Hardcore.</translation>
+    </message>
+    <message>
+        <location filename="../src/save/PlaybackOSSaveStates.cpp" line="312"/>
+        <source>State deleted from slot %1.</source>
+        <translation>Stato eliminato dallo slot %1.</translation>
+    </message>
+    <message>
+        <location filename="../src/save/PlaybackOSSaveStates.cpp" line="311"/>
+        <source>State loaded from slot %1.</source>
+        <translation>Stato caricato dallo slot %1.</translation>
+    </message>
+    <message>
+        <location filename="../src/save/PlaybackOSSaveStates.cpp" line="310"/>
+        <source>State saved to slot %1.</source>
+        <translation>Stato salvato nello slot %1.</translation>
+    </message>
+    <message>
+        <location filename="../src/save/PlaybackOSSaveStates.cpp" line="319"/>
+        <source>State saved, but its screenshot could not be saved.</source>
+        <translation>Stato salvato, ma non è stato possibile salvare la relativa schermata.</translation>
+    </message>
+    <message>
+        <location filename="../src/save/PlaybackOSSaveStates.cpp" line="286"/>
+        <source>The core could not complete the state operation.</source>
+        <translation>Il core non ha potuto completare l&apos;operazione sullo stato di salvataggio.</translation>
+    </message>
+    <message>
+        <location filename="../src/save/PlaybackOSSaveStates.cpp" line="149"/>
+        <source>The emulation thread is unavailable.</source>
+        <translation>Il thread di emulazione non è disponibile.</translation>
+    </message>
+    <message>
+        <location filename="../src/save/PlaybackOSSaveStates.cpp" line="280"/>
+        <source>This core does not support save states.</source>
+        <translation>Questo core non supporta gli stati di salvataggio.</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSSaveStatesPanel</name>
+    <message>
+        <location filename="../src/qml/views/components/games/PlaybackOSSaveStatesPanel.qml" line="122"/>
+        <source>%1 / %2 saved</source>
+        <translation>%1 / %2 salvati</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSSaveStatesNavigation.qml" line="45"/>
+        <source>Back</source>
+        <translation>Indietro</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSSaveStatesNavigation.qml" line="21"/>
+        <location filename="../src/qml/views/components/games/PlaybackOSSaveStatesPanel.qml" line="259"/>
+        <location filename="../src/qml/views/components/games/PlaybackOSSaveStatesPanel.qml" line="315"/>
+        <source>Create save state</source>
+        <translation>Crea stato di salvataggio</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSSaveStatesNavigation.qml" line="37"/>
+        <source>Hold to delete</source>
+        <translation>Tieni premuto per eliminare</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSSaveStatesNavigation.qml" line="20"/>
+        <source>Hold to load</source>
+        <translation>Tieni premuto per caricare</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSSaveStatesNavigation.qml" line="29"/>
+        <source>Hold to overwrite</source>
+        <translation>Tieni premuto per sovrascrivere</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/PlaybackOSSaveStatesPanel.qml" line="231"/>
+        <source>Keep this moment</source>
+        <translation>Conserva questo momento</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/PlaybackOSSaveStatesPanel.qml" line="140"/>
+        <source>Loading a state also reverts your game save. Your latest save is kept in the Vault.</source>
+        <translation>Il caricamento di uno stato ripristina anche il salvataggio del gioco. Il salvataggio più recente viene conservato nel Vault.</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/PlaybackOSSaveStatesPanel.qml" line="86"/>
+        <location filename="../src/qml/views/components/games/PlaybackOSSaveStatesPanel.qml" line="110"/>
+        <source>Manage save states</source>
+        <translation>Gestisci stati di salvataggio</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/PlaybackOSSaveStatesPanel.qml" line="231"/>
+        <source>No preview</source>
+        <translation>Nessuna anteprima</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/PlaybackOSSaveStatesPanel.qml" line="258"/>
+        <location filename="../src/qml/views/components/games/PlaybackOSSaveStatesPanel.qml" line="316"/>
+        <source>Save state %1</source>
+        <translation>Stato di salvataggio %1</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSSettingsModel</name>
+    <message>
+        <location filename="../src/settings/PlaybackOSCoreSettings.cpp" line="36"/>
+        <location filename="../src/settings/PlaybackOSCoreSettings.cpp" line="88"/>
+        <source>%1 (custom)</source>
+        <translation>%1 (personalizzato)</translation>
+    </message>
+    <message>
+        <location filename="../src/settings/PlaybackOSCoreSettings.cpp" line="407"/>
+        <source>Could not download %1. Select it again to retry.</source>
+        <translation>Impossibile scaricare %1. Selezionalo di nuovo per riprovare.</translation>
+    </message>
+    <message>
+        <location filename="../src/settings/PlaybackOSCheatSettings.cpp" line="172"/>
+        <location filename="../src/settings/PlaybackOSCheatSettings.cpp" line="185"/>
+        <source>Default Cheats</source>
+        <translation>Trucchi predefiniti</translation>
+    </message>
+    <message>
+        <location filename="../src/settings/PlaybackOSCoreSettings.cpp" line="403"/>
+        <source>Downloading %1…</source>
+        <translation>Download di %1…</translation>
+    </message>
+    <message>
+        <location filename="../src/settings/PlaybackOSCheatSettings.cpp" line="186"/>
+        <source>No default cheats available</source>
+        <translation>Nessun trucco predefinito disponibile</translation>
+    </message>
+    <message>
+        <location filename="../src/settings/PlaybackOSCheatSettings.cpp" line="187"/>
+        <source>This game has no matching codes in the bundled database.</source>
+        <translation>Non ci sono codici corrispondenti a questo gioco nel database incluso.</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSShaderPicker</name>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSShaderNavigation.qml" line="21"/>
+        <source>Back</source>
+        <translation>Indietro</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSShaderPicker.qml" line="41"/>
+        <source>Change video shader</source>
+        <translation>Cambia shader video</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSShaderNavigation.qml" line="26"/>
+        <source>Pause game</source>
+        <translation>Metti in pausa il gioco</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSShaderNavigation.qml" line="17"/>
+        <source>Select</source>
+        <translation>Seleziona</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSShaderPicker.qml" line="87"/>
+        <source>The shader list is limited because Vulkan rendering is unavailable. Please check your GPU&apos;s Vulkan support.</source>
+        <translation>L&apos;elenco degli shader è limitato perché il rendering Vulkan non è disponibile. Verifica il supporto Vulkan della tua GPU.</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSShaderNavigation.qml" line="25"/>
+        <source>Unpause game</source>
+        <translation>Riprendi il gioco</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSShell</name>
+    <message>
+        <location filename="../src/qml/composition/PlaybackOSShell.qml" line="199"/>
+        <source>Hold for feedback</source>
+        <translation>Tieni premuto per inviare un feedback</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSShortcutOverlay</name>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSShortcutOverlayController.qml" line="18"/>
+        <source>Fast forwarding</source>
+        <translation>Avanzamento rapido</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSShortcutOverlayController.qml" line="16"/>
+        <source>Resetting</source>
+        <translation>Ripristino</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSShortcutOverlayController.qml" line="20"/>
+        <source>Rewinding</source>
+        <translation>Riavvolgimento</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSStartupWarning</name>
+    <message>
+        <location filename="../src/qml/composition/PlaybackOSStartupWarning.qml" line="72"/>
+        <source>Continue playing</source>
+        <translation>Continua a giocare</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/composition/PlaybackOSStartupWarning.qml" line="41"/>
+        <source>Steam Cloud is unavailable</source>
+        <translation>Steam Cloud non disponibile</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/composition/PlaybackOSStartupWarning.qml" line="59"/>
+        <source>You can still play and save to your cartridge. Play time and cheats will use local data on this device, separate from your Steam data, and won&apos;t sync to other devices.
+
+We recommend restarting Playback OS from your Steam Library to use Steam Cloud.</source>
+        <translation>Puoi ancora giocare e salvare sulla cartuccia. Il tempo di gioco e i trucchi useranno dati locali su questo dispositivo, separati dai dati di Steam, e non verranno sincronizzati con altri dispositivi.
+
+Ti consigliamo di riavviare Playback OS dalla libreria di Steam per usare Steam Cloud.</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSSteamSession</name>
+    <message>
+        <location filename="../src/steam/PlaybackOSSteamSession.cpp" line="86"/>
+        <source>Playback OS couldn&apos;t connect to Steam.</source>
+        <translation>Playback OS non è riuscito a connettersi a Steam.</translation>
+    </message>
+    <message>
+        <location filename="../src/steam/PlaybackOSSteamSession.cpp" line="96"/>
+        <location filename="../src/steam/PlaybackOSSteamSession.cpp" line="101"/>
+        <source>Playback OS couldn&apos;t identify your Steam account.</source>
+        <translation>Playback OS non è riuscito a identificare il tuo account Steam.</translation>
+    </message>
+    <message>
+        <location filename="../src/steam/PlaybackOSSteamSession.cpp" line="56"/>
+        <source>Playback OS wasn&apos;t launched from Steam.</source>
+        <translation>Playback OS non è stato avviato da Steam.</translation>
+    </message>
+    <message>
+        <location filename="../src/steam/PlaybackOSSteamSession.cpp" line="67"/>
+        <source>Steam features aren&apos;t available in this version of Playback OS.</source>
+        <translation>Le funzionalità di Steam non sono disponibili in questa versione di Playback OS.</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSUsbAccessBanner</name>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSUsbAccessBanner.qml" line="56"/>
+        <source>Access is needed for reading your cartridges.</source>
+        <translation>L&apos;accesso è necessario per leggere le cartucce.</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSUsbAccessBanner.qml" line="44"/>
+        <source>Operator connection unavailable</source>
+        <translation>Connessione a Operator non disponibile</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSUsbAccessBanner.qml" line="44"/>
+        <source>Operator detected</source>
+        <translation>Operator rilevato</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSUsbAccessBanner.qml" line="55"/>
+        <source>Update Steam and SteamOS (or your Linux system), restart, then reconnect your Operator.</source>
+        <translation>Aggiorna Steam e SteamOS (o il tuo sistema Linux), riavvia, quindi ricollega il tuo Operator.</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSUsbAccessDialog</name>
+    <message>
+        <location filename="../src/qml/views/components/usb/PlaybackOSUsbAccessHelp.qml" line="53"/>
+        <source>&lt;b&gt;B. If setup still fails, use a terminal&lt;/b&gt;&lt;br&gt;This runs the same one time setup directly in Linux. It can help if Playback cannot start setup, and shows any errors in the terminal.&lt;br&gt;&lt;br&gt;In Desktop Mode, return to this screen and select &lt;b&gt;Open setup folder&lt;/b&gt;. Right click an empty area, choose &lt;b&gt;Open in Terminal&lt;/b&gt;, then run:</source>
+        <translation>&lt;b&gt;B. Se la configurazione continua a non riuscire, usa un terminale&lt;/b&gt;&lt;br&gt;Questa procedura esegue la stessa configurazione iniziale direttamente in Linux. Può essere utile se Playback non riesce ad avviarla e mostra eventuali errori nel terminale.&lt;br&gt;&lt;br&gt;In modalità desktop, torna a questa schermata e seleziona &lt;b&gt;Apri cartella di configurazione&lt;/b&gt;. Fai clic con il tasto destro in un&apos;area vuota, scegli &lt;b&gt;Apri nel terminale&lt;/b&gt;, quindi esegui:</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/usb/PlaybackOSUsbAccessHelp.qml" line="19"/>
+        <source>A. Retry in desktop mode</source>
+        <translation>A. Riprova in modalità desktop</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/usb/PlaybackOSUsbAccessPassword.qml" line="38"/>
+        <source>Authorize</source>
+        <translation>Autorizza</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSUsbAccessDialog.qml" line="48"/>
+        <source>Authorize Operator access</source>
+        <translation>Autorizza l&apos;accesso a Operator</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/usb/PlaybackOSUsbAccessCommand.qml" line="55"/>
+        <source>Copied</source>
+        <translation>Copiato</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/usb/PlaybackOSUsbAccessCommand.qml" line="56"/>
+        <source>Copy</source>
+        <translation>Copia</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/usb/PlaybackOSUsbAccessCommand.qml" line="38"/>
+        <source>Copy command to clipboard</source>
+        <translation>Copia comando negli appunti</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/usb/PlaybackOSUsbAccessHelp.qml" line="72"/>
+        <source>Enter your &lt;b&gt;Linux password&lt;/b&gt; if asked. After setup completes, &lt;b&gt;please restart your device&lt;/b&gt;.</source>
+        <translation>Inserisci la tua &lt;b&gt;password di Linux&lt;/b&gt; se richiesta. Al termine della configurazione, &lt;b&gt;riavvia il dispositivo&lt;/b&gt;.</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/usb/PlaybackOSUsbAccessHelp.qml" line="10"/>
+        <source>If setup could not finish in Gaming Mode, try it from your Desktop.</source>
+        <translation>Se la configurazione non è terminata in modalità di gioco, prova dal desktop.</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/usb/PlaybackOSUsbAccessPassword.qml" line="36"/>
+        <location filename="../src/qml/views/components/usb/PlaybackOSUsbAccessPassword.qml" line="50"/>
+        <source>Linux account password</source>
+        <translation>Password dell&apos;account Linux</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/usb/PlaybackOSUsbAccessHelp.qml" line="40"/>
+        <source>On Steam Deck: &lt;b&gt;Steam menu → Power → Switch to Desktop&lt;/b&gt;.&lt;br&gt;Open Playback from Steam and select &lt;b&gt;Enable access&lt;/b&gt; again.</source>
+        <translation>Su Steam Deck: &lt;b&gt;Menu Steam → Alimentazione → Passa al desktop&lt;/b&gt;.&lt;br&gt;Apri Playback da Steam e seleziona di nuovo &lt;b&gt;Abilita accesso&lt;/b&gt;.</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/usb/PlaybackOSUsbAccessPassword.qml" line="49"/>
+        <source>Secure password input is unavailable. Try setup from Desktop Mode.</source>
+        <translation>L&apos;inserimento sicuro della password non è disponibile. Prova la configurazione dalla modalità desktop.</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSUsbAccessDialog.qml" line="50"/>
+        <source>Set up Epilogue Operator access</source>
+        <translation>Configura l&apos;accesso a Epilogue Operator</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSUsbAccessDialog.qml" line="102"/>
+        <source>TIP: No Linux password but you&apos;ve been requested one? Set one in your system&apos;s account settings, or ask the person who set up this device.</source>
+        <translation>SUGGERIMENTO: non hai una password di Linux ma ti è stata richiesta? Impostane una nelle impostazioni dell&apos;account di sistema oppure chiedi alla persona che ha configurato questo dispositivo.</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSUsbAccessDialog.qml" line="82"/>
+        <source>The folder could not open. Please contact Epilogue support for help.</source>
+        <translation>Impossibile aprire la cartella. Contatta l&apos;assistenza Epilogue per ricevere aiuto.</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSUsbAccessDialog.qml" line="60"/>
+        <source>This one time setup allows Playback to access Epilogue Operators on this device.&lt;br&gt;&lt;br&gt;1. Press &lt;b&gt;A&lt;/b&gt; and follow the system authentication prompt. If the prompt is unavailable, enter your Linux password with the controller.&lt;br&gt;2. &lt;b&gt;Reconnect your Operator&lt;/b&gt; if it is still blocked.</source>
+        <translation>Questa configurazione iniziale permette a Playback di accedere agli Epilogue Operators su questo dispositivo.&lt;br&gt;&lt;br&gt;1. Premi &lt;b&gt;A&lt;/b&gt; e segui la richiesta di autenticazione del sistema. Se non è disponibile, inserisci la password di Linux con il controller.&lt;br&gt;2. &lt;b&gt;Ricollega il tuo Operator&lt;/b&gt; se è ancora bloccato.</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSUsbAccessDialog.qml" line="49"/>
+        <source>Try setup in Desktop Mode</source>
+        <translation>Prova la configurazione in modalità desktop</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSUsbAccessDialog.qml" line="105"/>
+        <source>Use the password for installing apps, not your Steam password.</source>
+        <translation>Usa la password per installare le applicazioni, non quella di Steam.</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSUsbAccessNavigation</name>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSUsbAccessNavigation.qml" line="43"/>
+        <source>Back to setup</source>
+        <translation>Torna alla configurazione</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSUsbAccessNavigation.qml" line="38"/>
+        <source>Cancel setup</source>
+        <translation>Annulla configurazione</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSUsbAccessNavigation.qml" line="31"/>
+        <source>Done</source>
+        <translation>Fine</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSUsbAccessNavigation.qml" line="22"/>
+        <location filename="../src/qml/controllers/PlaybackOSUsbAccessNavigation.qml" line="31"/>
+        <source>Enable access</source>
+        <translation>Abilita accesso</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSUsbAccessNavigation.qml" line="29"/>
+        <source>Enter password</source>
+        <translation>Inserisci password</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSUsbAccessNavigation.qml" line="38"/>
+        <source>Not now</source>
+        <translation>Non ora</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSUsbAccessNavigation.qml" line="30"/>
+        <source>Open setup folder</source>
+        <translation>Apri cartella di configurazione</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSUsbSetup</name>
+    <message>
+        <location filename="../src/runtime/PlaybackOSUsbSetup.cpp" line="159"/>
+        <source>Automatic Operator access setup is available on Linux only.</source>
+        <translation>La configurazione automatica dell&apos;accesso a Operator è disponibile solo su Linux.</translation>
+    </message>
+    <message>
+        <location filename="../src/runtime/PlaybackOSUsbSetup.cpp" line="178"/>
+        <source>Complete the system authentication prompt to enable Operator access…</source>
+        <translation>Completa la richiesta di autenticazione del sistema per abilitare l&apos;accesso a Operator…</translation>
+    </message>
+    <message>
+        <location filename="../src/runtime/PlaybackOSUsbSetup.cpp" line="100"/>
+        <source>Enable Epilogue Operator access</source>
+        <translation>Abilita l&apos;accesso a Epilogue Operator</translation>
+    </message>
+    <message>
+        <location filename="../src/runtime/PlaybackOSUsbSetup.cpp" line="221"/>
+        <source>Enter your Linux password.</source>
+        <translation>Inserisci la tua password di Linux.</translation>
+    </message>
+    <message>
+        <location filename="../src/runtime/PlaybackOSUsbSetup.cpp" line="238"/>
+        <source>Installing Operator access rules…</source>
+        <translation>Installazione delle regole di accesso a Operator…</translation>
+    </message>
+    <message>
+        <location filename="../src/runtime/PlaybackOSUsbSetup.cpp" line="337"/>
+        <source>Operator access setup could not finish.
+
+%1</source>
+        <translation>Impossibile completare la configurazione dell&apos;accesso a Operator.
+
+%1</translation>
+    </message>
+    <message>
+        <location filename="../src/runtime/PlaybackOSUsbSetup.cpp" line="155"/>
+        <source>Please wait a few seconds before trying setup again.</source>
+        <translation>Attendi qualche secondo prima di riprovare la configurazione.</translation>
+    </message>
+    <message>
+        <location filename="../src/runtime/PlaybackOSUsbSetup.cpp" line="179"/>
+        <source>Requesting permission to install Operator access rules…</source>
+        <translation>Richiesta di autorizzazione per installare le regole di accesso a Operator…</translation>
+    </message>
+    <message>
+        <location filename="../src/runtime/PlaybackOSUsbSetup.cpp" line="174"/>
+        <source>Secure password input is unavailable. Try setup from Desktop Mode.</source>
+        <translation>L&apos;inserimento sicuro della password non è disponibile. Prova la configurazione dalla modalità desktop.</translation>
+    </message>
+    <message>
+        <location filename="../src/runtime/PlaybackOSUsbSetup.cpp" line="360"/>
+        <source>Setup canceled. Any rules already installed will remain in place.</source>
+        <translation>Configurazione annullata. Le regole già installate saranno mantenute.</translation>
+    </message>
+    <message>
+        <location filename="../src/runtime/PlaybackOSUsbSetup.cpp" line="332"/>
+        <source>Setup complete. Reconnect your Operator if it is still blocked.</source>
+        <translation>Configurazione completata. Ricollega il tuo Operator se è ancora bloccato.</translation>
+    </message>
+    <message>
+        <location filename="../src/runtime/PlaybackOSUsbSetup.cpp" line="366"/>
+        <source>Setup timed out. Reconnect the Operator to check access, or try again.</source>
+        <translation>Tempo scaduto per la configurazione. Ricollega Operator per verificare l&apos;accesso, oppure riprova.</translation>
+    </message>
+    <message>
+        <location filename="../src/runtime/PlaybackOSUsbSetup.cpp" line="207"/>
+        <source>The Operator setup installer could not be sent. Please try again.</source>
+        <translation>Impossibile inviare il programma di configurazione di Operator. Riprova.</translation>
+    </message>
+    <message>
+        <location filename="../src/runtime/PlaybackOSUsbSetup.cpp" line="163"/>
+        <source>The Operator setup installer is missing. Verify Playback&apos;s installed files in Steam.</source>
+        <translation>Il programma di configurazione di Operator è mancante. Verifica i file installati di Playback in Steam.</translation>
+    </message>
+    <message>
+        <location filename="../src/runtime/PlaybackOSUsbSetup.cpp" line="230"/>
+        <source>The password could not be sent. Please try again.</source>
+        <translation>Impossibile inviare la password. Riprova.</translation>
+    </message>
+    <message>
+        <location filename="../src/runtime/PlaybackOSUsbSetup.cpp" line="346"/>
+        <source>The system setup command could not start: %1</source>
+        <translation>Impossibile avviare il comando di configurazione del sistema: %1</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSVideoWindow</name>
+    <message>
+        <location filename="../src/video/PlaybackOSVideoWindow.cpp" line="202"/>
+        <source>Display effects unavailable. Using the original picture.</source>
+        <translation>Effetti di visualizzazione non disponibili. Viene usata l&apos;immagine originale.</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSVirtualKeyboardKey</name>
+    <message>
+        <location filename="../src/qml/views/components/common/PlaybackOSVirtualKeyboardKey.qml" line="32"/>
+        <source>Enter</source>
+        <translation>Invio</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSWindow</name>
+    <message>
+        <location filename="../src/qml/debug/PlaybackOSDebugKeyboardHelp.qml" line="47"/>
+        <source>Keyboard mappings</source>
+        <translation>Mappatura della tastiera</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/debug/PlaybackOSDebugKeyboardHelp.qml" line="144"/>
+        <source>Press a key</source>
+        <translation>Premi un tasto</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/debug/PlaybackOSDebugKeyboardHelp.qml" line="55"/>
+        <source>Use / or ESC to close</source>
+        <translation>Usa / o ESC per chiudere</translation>
+    </message>
+</context>
+<context>
+    <name>ReadingCartridgesIndicator</name>
+    <message>
+        <location filename="../src/qml/views/components/common/ReadingCartridgesIndicator.qml" line="14"/>
+        <source>Reading carts</source>
+        <translation>Lettura delle cartucce</translation>
+    </message>
+</context>
+<context>
+    <name>RelativeDateFormatter</name>
+    <message>
+        <location filename="../src/qml/views/components/common/RelativeDateFormatter.qml" line="58"/>
+        <source>%1 · %2</source>
+        <translation>%1 · %2</translation>
+    </message>
+</context>
+<context>
+    <name>RetroAchievementsAccount</name>
+    <message>
+        <location filename="../src/qml/views/settings/integrations/RetroAchievementsAccount.qml" line="189"/>
+        <source>Achievements</source>
+        <translation>Obiettivi</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/integrations/RetroAchievementsAccount.qml" line="230"/>
+        <source>Casual</source>
+        <translation>Normale</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/integrations/RetroAchievementsAccount.qml" line="229"/>
+        <source>Completed</source>
+        <translation>Completato</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/integrations/RetroAchievementsAccount.qml" line="302"/>
+        <source>Could not load all account totals. You can retry from the account controls.</source>
+        <translation>Impossibile caricare tutti i totali dell&apos;account. Puoi riprovare dai controlli dell&apos;account.</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/integrations/RetroAchievementsAccount.qml" line="190"/>
+        <source>Games</source>
+        <translation>Giochi</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/integrations/RetroAchievementsAccount.qml" line="230"/>
+        <source>Hardcore</source>
+        <translation>Hardcore</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/integrations/RetroAchievementsAccount.qml" line="301"/>
+        <source>Loading account totals…</source>
+        <translation>Caricamento dei totali dell&apos;account…</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/integrations/RetroAchievementsAccount.qml" line="84"/>
+        <source>Logged in as</source>
+        <translation>Accesso effettuato come</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/integrations/RetroAchievementsAccount.qml" line="229"/>
+        <source>Mastered</source>
+        <translation>Padroneggiato</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/integrations/RetroAchievementsAccount.qml" line="153"/>
+        <source>Not you?</source>
+        <translation>Non sei tu?</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/integrations/RetroAchievementsAccount.qml" line="190"/>
+        <source>Points</source>
+        <translation>Punti</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/integrations/RetroAchievementsAccount.qml" line="136"/>
+        <source>Your latest achievement</source>
+        <translation>Il tuo ultimo obiettivo</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/integrations/RetroAchievementsAccount.qml" line="145"/>
+        <source>Your rarest achievement</source>
+        <translation>Il tuo obiettivo più raro</translation>
+    </message>
+</context>
+<context>
+    <name>RetroAchievementsNavigation</name>
+    <message>
+        <location filename="../src/qml/controllers/settings/integrations/RetroAchievementsNavigation.qml" line="27"/>
+        <source>Retry account totals</source>
+        <translation>Riprova a caricare i totali dell&apos;account</translation>
+    </message>
+</context>
+<context>
+    <name>RetroAchievementsSettings</name>
+    <message>
+        <location filename="../src/qml/controllers/settings/cheats/CustomCheatEntryNavigation.qml" line="23"/>
+        <location filename="../src/qml/controllers/settings/integrations/RetroAchievementsNavigation.qml" line="20"/>
+        <source>Edit</source>
+        <translation>Modifica</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/settings/integrations/RetroAchievementsNavigation.qml" line="17"/>
+        <location filename="../src/qml/views/settings/integrations/RetroAchievementsAccount.qml" line="166"/>
+        <source>Log out</source>
+        <translation>Esci dall&apos;account</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/integrations/RetroAchievementsSettingsView.qml" line="19"/>
+        <source>RetroAchievements</source>
+        <translation>RetroAchievements</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/integrations/RetroAchievementsLogin.qml" line="58"/>
+        <source>Signing in...</source>
+        <translation>Accesso in corso...</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/integrations/RetroAchievementsAccount.qml" line="167"/>
+        <source>Signing out...</source>
+        <translation>Disconnessione in corso...</translation>
+    </message>
+</context>
+<context>
+    <name>RetroAchievementsShowcase</name>
+    <message>
+        <location filename="../src/qml/views/settings/integrations/RetroAchievementsShowcase.qml" line="36"/>
+        <source>Based on achievement history available in Playback.</source>
+        <translation>In base alla cronologia degli obiettivi disponibile in Playback.</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/integrations/RetroAchievementsShowcase.qml" line="19"/>
+        <source>Unlocked %1 at %2</source>
+        <translation>Sbloccato il %1 alle %2</translation>
+    </message>
+</context>
+<context>
+    <name>RetroCore</name>
+    <message>
+        <location filename="../playback/src/core/RetroCore.cpp" line="629"/>
+        <source>link cable checkpoint failed</source>
+        <translation>Checkpoint del cavo Link non riuscito</translation>
+    </message>
+</context>
+<context>
+    <name>SettingsEmptyState</name>
+    <message>
+        <location filename="../src/qml/views/settings/sections/SettingsEmptyState.qml" line="31"/>
+        <source>Configure how games are emulated, including system, video, audio and performance options.</source>
+        <translation>Configura l&apos;emulazione dei giochi, comprese le opzioni di sistema, video, audio e prestazioni.</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/sections/SettingsEmptyState.qml" line="58"/>
+        <source>Insert a cartridge into your Operator to see its cheat codes.</source>
+        <translation>Inserisci una cartuccia nel tuo Operator per vedere i relativi trucchi.</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/sections/SettingsEmptyState.qml" line="54"/>
+        <source>No controller settings are available for this Operator.</source>
+        <translation>Nessuna impostazione del controller disponibile per questo Operator.</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/sections/SettingsEmptyState.qml" line="52"/>
+        <source>No device settings are available for this Operator.</source>
+        <translation>Nessuna impostazione del dispositivo disponibile per questo Operator.</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/sections/SettingsEmptyState.qml" line="56"/>
+        <source>No emulation cores are available for this Operator.</source>
+        <translation>Nessun core di emulazione disponibile per questo Operator.</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/sections/SettingsEmptyState.qml" line="50"/>
+        <source>No emulator settings are available for the selected core.</source>
+        <translation>Nessuna impostazione dell&apos;emulatore disponibile per il core selezionato.</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/sections/SettingsEmptyState.qml" line="109"/>
+        <source>One connection away</source>
+        <translation>Basta collegarlo</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/sections/SettingsEmptyState.qml" line="120"/>
+        <source>Plug in your Operator to make these settings available.</source>
+        <translation>Collega il tuo Operator per accedere a queste impostazioni.</translation>
+    </message>
+</context>
+<context>
+    <name>SettingsGameTabs</name>
+    <message>
+        <location filename="../src/qml/views/components/settings/SettingsGameTabs.qml" line="114"/>
+        <source>%1 active</source>
+        <translation>%1 attivi</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/settings/SettingsGameTabs.qml" line="113"/>
+        <source>%1 selected</source>
+        <translation>%1 selezionati</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/settings/SettingsGameTabs.qml" line="17"/>
+        <source>Select game</source>
+        <translation>Seleziona gioco</translation>
+    </message>
+</context>
+<context>
+    <name>SettingsPage</name>
+    <message>
+        <location filename="../src/qml/views/components/settings/SettingsRow.qml" line="51"/>
+        <source>%1  BETA</source>
+        <translation>%1  BETA</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSDialogNavigation.qml" line="10"/>
+        <location filename="../src/qml/controllers/settings/controls/ControllerDeadzoneNavigation.qml" line="10"/>
+        <location filename="../src/qml/controllers/settings/controls/ControllerRowsNavigation.qml" line="24"/>
+        <location filename="../src/qml/controllers/settings/SettingsListNavigation.qml" line="18"/>
+        <source>Accept</source>
+        <translation>Conferma</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/settings/SettingsListNavigation.qml" line="20"/>
+        <source>Change language</source>
+        <translation>Cambia lingua</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/settings/device/DeviceSettingsNavigation.qml" line="49"/>
+        <source>Apply</source>
+        <translation>Applica</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/SettingsPageNavigation.qml" line="26"/>
+        <source>Back</source>
+        <translation>Indietro</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/settings/coreselector/CoreTabsNavigation.qml" line="33"/>
+        <source>Cannot change while playing</source>
+        <translation>Impossibile modificare durante una partita</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/settings/controls/ControllerAssignmentNavigation.qml" line="10"/>
+        <source>Change controller</source>
+        <translation>Cambia controller</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/settings/controls/ControllerRebindingNavigation.qml" line="11"/>
+        <source>Hold to cancel</source>
+        <translation>Tieni premuto per annullare</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/settings/controls/ControlsSettingsNavigation.qml" line="35"/>
+        <source>Hold to reset</source>
+        <translation>Tieni premuto per ripristinare</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/settings/controls/ControllerTestNavigation.qml" line="10"/>
+        <source>Hold to set joystick deadzone</source>
+        <translation>Tieni premuto per impostare la zona morta del joystick</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/settings/controls/ControllerDeadzoneNavigation.qml" line="16"/>
+        <location filename="../src/qml/controllers/settings/controls/ControllerTestNavigation.qml" line="18"/>
+        <source>Hold to stop testing controller</source>
+        <translation>Tieni premuto per interrompere il test del controller</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/settings/controls/ControlsSettingsNavigation.qml" line="28"/>
+        <source>Map all</source>
+        <translation>Mappa tutti</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/settings/SettingsSectionRegistry.qml" line="20"/>
+        <source>Playback OS</source>
+        <translation>Playback OS</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/settings/controls/ControllerRowsNavigation.qml" line="23"/>
+        <source>Remap</source>
+        <translation>Rimappa</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/SettingsPageNavigation.qml" line="22"/>
+        <source>Resume game</source>
+        <translation>Riprendi il gioco</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/sections/ControlsSettingsView.qml" line="37"/>
+        <location filename="../src/qml/views/settings/sections/CoreSelectorSettingsView.qml" line="20"/>
+        <location filename="../src/qml/views/settings/sections/DeviceSettingsView.qml" line="21"/>
+        <location filename="../src/qml/views/settings/sections/EmulatorSettingsView.qml" line="19"/>
+        <location filename="../src/qml/views/settings/sections/SettingsSectionsView.qml" line="34"/>
+        <source>Select Operator</source>
+        <translation>Seleziona Operator</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/sections/ControlsSettingsView.qml" line="48"/>
+        <source>Select Player</source>
+        <translation>Seleziona giocatore</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/settings/controls/ControllerPreviewNavigation.qml" line="11"/>
+        <source>Test controller</source>
+        <translation>Prova controller</translation>
+    </message>
+</context>
+<context>
+    <name>SettingsTabBar</name>
+    <message>
+        <location filename="../src/qml/views/components/settings/CoreSelectorRow.qml" line="21"/>
+        <location filename="../src/qml/views/components/settings/SettingsTabBar.qml" line="118"/>
+        <source>Download failed</source>
+        <translation>Download non riuscito</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/settings/CoreSelectorRow.qml" line="19"/>
+        <location filename="../src/qml/views/components/settings/SettingsTabBar.qml" line="118"/>
+        <source>Downloading</source>
+        <translation>Download in corso</translation>
+    </message>
+</context>
+<context>
+    <name>SettingsTextField</name>
+    <message>
+        <location filename="../src/qml/views/components/settings/SettingsTextField.qml" line="12"/>
+        <source>Done</source>
+        <translation>Fine</translation>
+    </message>
+</context>
+<context>
+    <name>ShaderCatalog</name>
+    <message>
+        <location filename="../playback/src/platform/common/ShaderCatalog.cpp" line="65"/>
+        <source>Arcade Monitor</source>
+        <translation>Monitor arcade</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/ShaderCatalog.cpp" line="58"/>
+        <source>Black &amp; White TV</source>
+        <translation>TV in bianco e nero</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/ShaderCatalog.cpp" line="77"/>
+        <source>Broadcast BVM</source>
+        <translation>Monitor BVM da studio</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/ShaderCatalog.cpp" line="51"/>
+        <source>Consumer CRT</source>
+        <translation>CRT domestico</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/ShaderCatalog.cpp" line="39"/>
+        <source>Game Boy Color® LCD</source>
+        <translation>LCD Game Boy Color®</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/ShaderCatalog.cpp" line="45"/>
+        <source>Game Boy® Advance LCD</source>
+        <translation>LCD Game Boy® Advance</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/ShaderCatalog.cpp" line="33"/>
+        <source>Game Boy® DMG LCD</source>
+        <translation>LCD Game Boy® DMG</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/ShaderCatalog.cpp" line="83"/>
+        <source>PC CRT</source>
+        <translation>CRT per PC</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/ShaderCatalog.cpp" line="71"/>
+        <source>Professional PVM</source>
+        <translation>PVM professionale</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/ShaderCatalog.cpp" line="23"/>
+        <source>Sharp</source>
+        <translation>Nitido</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/ShaderCatalog.cpp" line="28"/>
+        <source>Smooth</source>
+        <translation>Smussato</translation>
+    </message>
+</context>
+<context>
+    <name>ToastModel</name>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="267"/>
+        <source> · #%1</source>
+        <translation> · #%1</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="211"/>
+        <source>%1/%2 achievements · %3/%4 points</source>
+        <translation>%1/%2 obiettivi · %3/%4 punti</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="244"/>
+        <source>Attempt failed.</source>
+        <translation>Tentativo fallito.</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="285"/>
+        <source>Challenge active: %1</source>
+        <translation>Sfida attiva: %1</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="303"/>
+        <source>Completed — all achievements earned · %1 points.</source>
+        <translation>Completato: tutti gli obiettivi ottenuti · %1 punti.</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="426"/>
+        <source>Delete Failed</source>
+        <translation>Eliminazione non riuscita</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="312"/>
+        <source>Game beaten — %1/%2 achievements earned.</source>
+        <translation>Gioco terminato: %1/%2 obiettivi ottenuti.</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="224"/>
+        <source>Hardcore active</source>
+        <translation>Modalità Hardcore attiva</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="365"/>
+        <source>Host has left the game</source>
+        <translation>L&apos;host ha abbandonato la partita</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="418"/>
+        <source>Load Failed</source>
+        <translation>Caricamento non riuscito</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="299"/>
+        <source>Mastered — all %1 achievements unlocked.</source>
+        <translation>Padroneggiato: tutti i %1 obiettivi sbloccati.</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="201"/>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="324"/>
+        <source>No achievements available</source>
+        <translation>Nessun obiettivo disponibile</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="225"/>
+        <source>No cheats, rewind, resume points or slow motion.</source>
+        <translation>Niente trucchi, riavvolgimento, punti di ripresa o rallentatore.</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="361"/>
+        <source>Player %1 disconnected</source>
+        <translation>Giocatore %1 disconnesso</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="403"/>
+        <source>Resume Point Deleted</source>
+        <translation>Punto di ripresa eliminato</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="396"/>
+        <source>Resume Point Loaded</source>
+        <translation>Punto di ripresa caricato</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="389"/>
+        <source>Resume Point Saved</source>
+        <translation>Punto di ripresa salvato</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="410"/>
+        <source>Save Failed</source>
+        <translation>Salvataggio non riuscito</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="397"/>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="404"/>
+        <source>Slot %1</source>
+        <translation>Slot %1</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="390"/>
+        <source>Slot %1 · %2</source>
+        <translation>Slot %1 · %2</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="411"/>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="419"/>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="427"/>
+        <source>Slot %1: %2</source>
+        <translation>Slot %1: %2</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="254"/>
+        <source>Submitted: %1</source>
+        <translation>Inviato: %1</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="361"/>
+        <source>The game continues.</source>
+        <translation>La partita continua.</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="202"/>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="325"/>
+        <source>This game is not supported by RetroAchievements.</source>
+        <translation>Questo gioco non è supportato da RetroAchievements.</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="365"/>
+        <source>You&apos;ve returned to single-player.</source>
+        <translation>Sei tornato alla modalità giocatore singolo.</translation>
+    </message>
+</context>
+<context>
+    <name>netplay::NetplayClient</name>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="1692"/>
+        <source>Connected to host</source>
+        <translation>Connesso all&apos;host</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="2062"/>
+        <source>Connecting to host...</source>
+        <translation>Connessione all&apos;host...</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="2094"/>
+        <source>Connection lost — recovering...</source>
+        <translation>Connessione persa: ripristino...</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="661"/>
+        <source>Game restarted</source>
+        <translation>Gioco riavviato</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="2103"/>
+        <source>Host disconnected — waiting for reconnection...</source>
+        <translation>Host disconnesso: in attesa della riconnessione...</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="2079"/>
+        <source>Joining session...</source>
+        <translation>Accesso alla sessione...</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="2077"/>
+        <source>Joining session... %1%</source>
+        <translation>Accesso alla sessione... %1%</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="1273"/>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="1281"/>
+        <source>Link Trade requires exactly two players</source>
+        <translation>Gli scambi tramite cavo Link richiedono esattamente due giocatori</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="661"/>
+        <source>Multiplayer runs with the BIOS disabled.</source>
+        <translation>Il multigiocatore funziona con il BIOS disabilitato.</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="860"/>
+        <source>POST /rooms failed: url=%1 status=%2 err=%3</source>
+        <translation>POST /rooms non riuscito: url=%1 status=%2 err=%3</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="869"/>
+        <source>POST /rooms: response is not a JSON object</source>
+        <translation>POST /rooms: la risposta non è un oggetto JSON</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="877"/>
+        <source>POST /rooms: response missing code or hostToken</source>
+        <translation>POST /rooms: code o hostToken mancante nella risposta</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="2133"/>
+        <source>Player %1 connected</source>
+        <translation>Giocatore %1 connesso</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="2055"/>
+        <source>Please check the room code: %1</source>
+        <translation>Verifica il codice della stanza: %1</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="2056"/>
+        <source>Please check your internet connection and firewall settings as well.</source>
+        <translation>Controlla anche la connessione a Internet e le impostazioni del firewall.</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="782"/>
+        <source>ROM identity mismatch: host=%1 local=%2</source>
+        <translation>Identità ROM non corrispondente: host=%1 local=%2</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="2092"/>
+        <source>Reconnecting to signaling...</source>
+        <translation>Riconnessione al servizio di segnalazione...</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="2089"/>
+        <source>Reconnecting to signaling... (attempt %1/%2)</source>
+        <translation>Riconnessione al servizio di segnalazione... (tentativo %1/%2)</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="2046"/>
+        <source>Reconnecting...</source>
+        <translation>Riconnessione...</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="2054"/>
+        <source>Retrying connection %1/%2</source>
+        <translation>Nuovo tentativo di connessione %1/%2</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="693"/>
+        <source>Room is full</source>
+        <translation>La stanza è piena</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="2043"/>
+        <source>Session ended — returning to your library in %1...</source>
+        <translation>Sessione terminata: ritorno alla libreria tra %1...</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="2014"/>
+        <source>Tip: Player %1 has the best connection to everyone — they&apos;d make the smoothest host next time</source>
+        <translation>Suggerimento: il giocatore %1 ha la connessione migliore con tutti e sarebbe l&apos;host ideale per una partita più fluida la prossima volta</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="2064"/>
+        <source>Waiting for host to start the game</source>
+        <translation>In attesa che l&apos;host avvii la partita</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="1425"/>
+        <source>WebRTC peer connection failed: %1</source>
+        <translation>Connessione WebRTC tra giocatori non riuscita: %1</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="1691"/>
+        <source>You&apos;re Player %1</source>
+        <translation>Sei il giocatore %1</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="377"/>
+        <source>connectAsHost called without a prior createRoom</source>
+        <translation>connectAsHost chiamato senza una precedente chiamata a createRoom</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="792"/>
+        <source>core name mismatch: host=%1 local=%2</source>
+        <translation>Nome del core non corrispondente: host=%1 local=%2</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="1657"/>
+        <source>core rejected peer state during late-join/resync</source>
+        <translation>Il core ha rifiutato lo stato dell&apos;altro giocatore durante l&apos;accesso a partita iniziata o la risincronizzazione</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="827"/>
+        <source>core version mismatch: host=%1 local=%2</source>
+        <translation>Versione del core non corrispondente: host=%1 local=%2</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="746"/>
+        <source>identity peek network error: %1</source>
+        <translation>Errore di rete durante la verifica dell&apos;identità: %1</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="752"/>
+        <source>identity peek: response is not a JSON object</source>
+        <translation>Verifica dell&apos;identità: la risposta non è un oggetto JSON</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="767"/>
+        <source>identity peek: romIdentity field missing or not hex</source>
+        <translation>Verifica dell&apos;identità: campo romIdentity mancante o non esadecimale</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="395"/>
+        <source>joinRoom called with an empty code</source>
+        <translation>joinRoom chiamato con un codice vuoto</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="1907"/>
+        <source>peer connection handshake timed out</source>
+        <translation>Tempo scaduto per la negoziazione della connessione tra giocatori</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="324"/>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="351"/>
+        <source>relay URL is not configured</source>
+        <translation>L&apos;URL del server di inoltro non è configurato</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="1501"/>
+        <source>signaling transport error: %1</source>
+        <translation>Errore di trasporto della segnalazione: %1</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="1295"/>
+        <source>the loaded core does not support Link Trade</source>
+        <translation>Il core caricato non supporta gli scambi tramite cavo Link</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="1294"/>
+        <source>the loaded core does not support Wireless Adapter trading</source>
+        <translation>Il core caricato non supporta gli scambi tramite adattatore wireless</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="56"/>
+        <source>waited too long for host to start the game</source>
+        <translation>L&apos;host ha impiegato troppo tempo ad avviare la partita</translation>
     </message>
 </context>
 </TS>

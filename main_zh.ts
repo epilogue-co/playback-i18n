@@ -331,6 +331,26 @@ Do not remove the cartridge while any operation is running.</source>
         <source>Rumble</source>
         <translation>振动</translation>
     </message>
+    <message>
+        <location filename="../src/settings/PlaybackOSCorePresentation.cpp" line="114"/>
+        <source>GBA Wireless Adapter</source>
+        <translation>GBA 无线适配器</translation>
+    </message>
+    <message>
+        <location filename="../src/settings/PlaybackOSCorePresentation.cpp" line="112"/>
+        <source>Link Cable</source>
+        <translation>联机线</translation>
+    </message>
+    <message>
+        <location filename="../src/settings/PlaybackOSCorePresentation.cpp" line="110"/>
+        <source>Online Multiplayer</source>
+        <translation>在线多人游戏</translation>
+    </message>
+    <message>
+        <location filename="../src/settings/PlaybackOSCorePresentation.cpp" line="108"/>
+        <source>Rewind</source>
+        <translation>倒带</translation>
+    </message>
 </context>
 <context>
     <name>CoreSelectorScreen</name>
@@ -365,6 +385,11 @@ Do not remove the cartridge while any operation is running.</source>
         <location filename="../src/platform/desktop/CoreSelectorScreen.cpp" line="260"/>
         <source>Your own core</source>
         <translation>你自己的内核</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/sections/SettingsDescriptions.qml" line="6"/>
+        <source>You can change the emulation core for your Operator device.</source>
+        <translation>您可以更改 Operator 设备的模拟内核。</translation>
     </message>
 </context>
 <context>
@@ -732,6 +757,26 @@ Do not remove the cartridge while any operation is running.</source>
         <source>Choose one of the options below to set the status of your device’s LED light. Select ‘Static’ to keep the light on or ‘Dark’ to shut it off. Pulse and Strobe coming soon.</source>
         <translation>从以下选项中选择LED灯的状态。选择&quot;常亮&quot;以保持亮灯，或选择&quot;黑暗&quot;以关闭灯光。脉冲和闪烁模式将在之后推出。</translation>
     </message>
+    <message>
+        <location filename="../playback/src/platform/common/settings/DeviceSettingsText.cpp" line="18"/>
+        <source>Dark</source>
+        <translation>黑暗</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/settings/DeviceSettingsText.cpp" line="20"/>
+        <source>Pulse</source>
+        <translation>脉冲</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/settings/DeviceSettingsText.cpp" line="16"/>
+        <source>Static</source>
+        <translation>常亮</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/settings/DeviceSettingsText.cpp" line="22"/>
+        <source>Strobe</source>
+        <translation>频闪</translation>
+    </message>
 </context>
 <context>
     <name>DeviceSwitcherDropdown</name>
@@ -1042,6 +1087,16 @@ OpenGL 详情:
         <source>Enable in-game integrity checks for save data. This feature is still in beta and may not work with all games.</source>
         <translation>启用游戏内存档的完整性检查。这个功能仍处于测试阶段，可能无法适用于所有游戏。</translation>
     </message>
+    <message>
+        <location filename="../playback/src/platform/common/settings/EmulatorSettingsText.cpp" line="31"/>
+        <source>Controls fast-forward and rewind speed. Speeds above 2x can cause unexpected bugs in combination with the &apos;Autosave to cartridge&apos; feature; toggle fast-forward off and on after changing it.</source>
+        <translation>控制快进和倒带速度。超过 2 倍的速度与“自动保存到卡带”功能同时使用时可能出现意外错误；更改后请关闭快进再重新开启。</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/settings/EmulatorSettingsText.cpp" line="22"/>
+        <source>Fast-forward and rewind speed</source>
+        <translation>快进和倒带速度</translation>
+    </message>
 </context>
 <context>
     <name>FirmwareUpdateDisclaimer</name>
@@ -1101,7 +1156,7 @@ please do not disconnect the device.</source>
     <message>
         <location filename="../src/platform/desktop/HotkeyBindingRow.cpp" line="57"/>
         <source>Play</source>
-        <translation>播放</translation>
+        <translation>开始游戏</translation>
     </message>
     <message>
         <location filename="../src/platform/desktop/HotkeyBindingRow.cpp" line="59"/>
@@ -1330,6 +1385,11 @@ please do not disconnect the device.</source>
         <location filename="../src/platform/desktop/IntegrationsSettingsScreen.cpp" line="298"/>
         <source>Link Playback to your Discord account, and share the exact game you’re playing with your friends!</source>
         <translation>将 Playback 与你的 Discord 账号关联，把你正在玩的游戏准确分享给朋友！</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/settings/IntegrationsSettingsText.cpp" line="28"/>
+        <source>Log in with your %1 account.</source>
+        <translation>使用您的 %1 账户登录。</translation>
     </message>
 </context>
 <context>
@@ -2073,6 +2133,61 @@ If you&apos;d like to easily remove all the pictures from your camera, without h
         <source>Configure how transfers are handled in the Data section of Playback.</source>
         <translation>在Playback的数据部分配置传输处理方式。</translation>
     </message>
+    <message>
+        <location filename="../playback/src/platform/common/settings/PlaybackSettingsText.cpp" line="49"/>
+        <source>Allows you to change the language in which the Playback software is presented.</source>
+        <translation>可更改 Playback 软件的显示语言。</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/settings/PlaybackSettingsText.cpp" line="104"/>
+        <source>Always Off</source>
+        <translation>始终隐藏</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/settings/PlaybackSettingsText.cpp" line="102"/>
+        <source>Always On</source>
+        <translation>始终显示</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/settings/PlaybackSettingsText.cpp" line="103"/>
+        <source>Auto-Hide</source>
+        <translation>自动隐藏</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/settings/PlaybackSettingsText.cpp" line="39"/>
+        <source>Confirm Before Exiting Emulation</source>
+        <translation>退出模拟前确认</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/settings/PlaybackSettingsText.cpp" line="101"/>
+        <source>Disabled</source>
+        <translation>禁用</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/settings/PlaybackSettingsText.cpp" line="100"/>
+        <source>Enabled</source>
+        <translation>启用</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/settings/PlaybackSettingsText.cpp" line="113"/>
+        <source>Open Log Directory</source>
+        <translation>打开日志目录</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/settings/PlaybackSettingsText.cpp" line="41"/>
+        <source>Start Emulator in Fullscreen</source>
+        <translation>以全屏模式启动模拟器</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/settings/PlaybackSettingsText.cpp" line="88"/>
+        <source>When enabled, leaving a game asks for confirmation first. A game with unsaved changes always asks, regardless of this setting.</source>
+        <translation>启用后，退出游戏前会先要求确认。如果游戏存在未保存的更改，无论此设置如何，都将要求确认。</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/settings/PlaybackSettingsText.cpp" line="91"/>
+        <source>When enabled, starting a game puts the window into fullscreen automatically. Exiting emulation restores the previous window size.</source>
+        <translation>启用后，启动游戏时窗口会自动进入全屏模式。退出模拟后将恢复之前的窗口大小。</translation>
+    </message>
 </context>
 <context>
     <name>PlaybackSettingsScreenOption</name>
@@ -2159,6 +2274,137 @@ If you&apos;d like to easily remove all the pictures from your camera, without h
     <message>
         <source>Disabled</source>
         <translation type="obsolete">禁用</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="118"/>
+        <source>Can&apos;t reach netplay</source>
+        <translation>无法连接网络联机服务</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="128"/>
+        <source>Cartridge removed</source>
+        <translation>卡带已拔出</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="106"/>
+        <source>Cartridge was removed. Netplay session ended.</source>
+        <translation>卡带已拔出。网络联机会话已结束。</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="124"/>
+        <location filename="../playback/src/core/ErrorMessages.h" line="125"/>
+        <source>Connection failed</source>
+        <translation>连接失败</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="103"/>
+        <source>Couldn&apos;t load the game state from your peer. You may be running different Playback versions — update both sides and try again.</source>
+        <translation>无法加载对方的游戏状态。双方可能使用了不同版本的 Playback，请双方都更新后重试。</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="83"/>
+        <source>Couldn&apos;t reach the netplay relay. Check your internet connection and try again.</source>
+        <translation>无法连接网络联机中继服务器。请检查网络连接后重试。</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="127"/>
+        <source>Couldn&apos;t sync</source>
+        <translation>无法同步</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="123"/>
+        <source>Different core</source>
+        <translation>内核不同</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="122"/>
+        <source>Different game</source>
+        <translation>游戏不同</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="129"/>
+        <source>Different game version</source>
+        <translation>游戏版本不同</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="99"/>
+        <source>Direct peer connection failed. Your network may block WebRTC.</source>
+        <translation>与对方的直接连接失败。您的网络可能阻止了 WebRTC。</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="101"/>
+        <source>Game state diverged between peers. The session can&apos;t continue.</source>
+        <translation>双方的游戏状态出现分歧。无法继续会话。</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="64"/>
+        <source>Netplay error</source>
+        <translation>网络联机错误</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="126"/>
+        <source>Out of sync</source>
+        <translation>不同步</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="120"/>
+        <source>Room full</source>
+        <translation>房间已满</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="87"/>
+        <source>Room is full. Ask the host to create a new room with more slots.</source>
+        <translation>房间已满。请让主机创建一个人数上限更高的新房间。</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="119"/>
+        <source>Room not found</source>
+        <translation>未找到房间</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="85"/>
+        <source>Room not found. The code may have expired or been mistyped.</source>
+        <translation>未找到房间。代码可能已过期或输入有误。</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="97"/>
+        <source>Signaling connection failed. Check your firewall and try again.</source>
+        <translation>信令连接失败。请检查防火墙后重试。</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="114"/>
+        <source>Something went wrong with netplay. Restart Playback and try again.</source>
+        <translation>网络联机出现问题。请重新启动 Playback 后重试。</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="108"/>
+        <source>The netplay relay responded but the message was malformed. Try again in a moment.</source>
+        <translation>网络联机中继服务器已响应，但消息格式不正确。请稍后重试。</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="121"/>
+        <source>Version mismatch</source>
+        <translation>版本不匹配</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="94"/>
+        <source>You&apos;re using a different emulator core than the host. Open Settings &gt; Core and make sure you both selected the same core and have the same core version.</source>
+        <translation>您使用的模拟器内核与主机不同。请打开设置 &gt; 内核，确保双方选择了相同的内核并使用相同的内核版本。</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="91"/>
+        <source>You&apos;re using a different game than the host. Please check that the cartridge, game region, and game revision match.</source>
+        <translation>您使用的游戏与主机不同。请检查卡带、游戏地区和修订版本是否一致。</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="110"/>
+        <source>Your cartridge and your peer&apos;s cartridge appear to be different versions of the same game (different revision, region, or translation patch), so they set up the link cable differently. Try using cartridges from matching game revisions.</source>
+        <translation>您与对方的卡带似乎是同一游戏的不同版本（修订版本、地区或翻译补丁不同），因此联机线的配置方式不同。请尝试使用修订版本一致的游戏卡带。</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ErrorMessages.h" line="89"/>
+        <source>Your peer is running a different netplay version. Please update Playback on both sides.</source>
+        <translation>对方使用的网络联机版本不同。请双方都更新 Playback。</translation>
     </message>
 </context>
 <context>
@@ -2523,6 +2769,31 @@ Would you like to proceed?
         <location filename="../src/core/SavestateManager.cpp" line="160"/>
         <source>Failed to delete state</source>
         <translation>无法删除状态</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/SavestateManager.cpp" line="289"/>
+        <source>Core does not support savestates</source>
+        <translation>内核不支持即时存档</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/SavestateManager.cpp" line="304"/>
+        <source>Core rejected the savestate (it may be from a different core version)</source>
+        <translation>内核拒绝了即时存档（可能由其他版本的内核创建）</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/SavestateManager.cpp" line="273"/>
+        <source>Could not read savestate file</source>
+        <translation>无法读取即时存档文件</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/SavestateManager.cpp" line="282"/>
+        <source>Savestate file is empty</source>
+        <translation>即时存档文件为空</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/SavestateManager.cpp" line="303"/>
+        <source>Savestate was created by a different core version and can&apos;t be loaded</source>
+        <translation>即时存档由其他版本的内核创建，无法加载</translation>
     </message>
 </context>
 <context>
@@ -2986,6 +3257,2335 @@ Please ensure your graphics drivers are up to date.</source>
         <location filename="../src/platform/desktop/Window.cpp" line="730"/>
         <source>Begin archiving the save data.</source>
         <translation>开始存档存档数据。</translation>
+    </message>
+</context>
+<context>
+    <name>AchievementList</name>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementRow.qml" line="18"/>
+        <source>%1 Casual point</source>
+        <translation>%1 普通模式积分</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementRow.qml" line="19"/>
+        <source>%1 Casual points</source>
+        <translation>%1 普通模式积分</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementRow.qml" line="20"/>
+        <source>%1 Hardcore point</source>
+        <translation>%1 硬核模式积分</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementRow.qml" line="21"/>
+        <source>%1 Hardcore points</source>
+        <translation>%1 硬核模式积分</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/AchievementsNavigation.qml" line="116"/>
+        <source>%1 doesn’t support RetroAchievements.</source>
+        <translation>%1 不支持 RetroAchievements。</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementRow.qml" line="16"/>
+        <source>+%1 point</source>
+        <translation>+%1 积分</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementRow.qml" line="17"/>
+        <source>+%1 points</source>
+        <translation>+%1 积分</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementRow.qml" line="39"/>
+        <location filename="../src/qml/views/components/games/AchievementRow.qml" line="146"/>
+        <source>Achievement</source>
+        <translation>成就</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/AchievementsNavigation.qml" line="168"/>
+        <source>All by rarity</source>
+        <translation>全部（按稀有度排序）</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/common/RelativeDateFormatter.qml" line="24"/>
+        <source>Date unavailable</source>
+        <translation>日期不可用</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/AchievementsNavigation.qml" line="75"/>
+        <source>Game version not recognized</source>
+        <translation>无法识别游戏版本</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/AchievementsNavigation.qml" line="164"/>
+        <source>In progress</source>
+        <translation>进行中</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/AchievementsNavigation.qml" line="106"/>
+        <source>Loading...</source>
+        <translation>正在加载...</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/AchievementsNavigation.qml" line="96"/>
+        <source>Log in to view your achievements and track your progress.</source>
+        <translation>登录以查看成就并跟踪您的进度。</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementList.qml" line="15"/>
+        <source>No achievements are in progress.</source>
+        <translation>没有进行中的成就。</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/AchievementsNavigation.qml" line="85"/>
+        <source>No achievements available</source>
+        <translation>没有可用成就</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementList.qml" line="17"/>
+        <source>No achievements have been unlocked.</source>
+        <translation>尚未解锁任何成就。</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementList.qml" line="18"/>
+        <source>No locked achievements remain.</source>
+        <translation>没有尚未解锁的成就。</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/AchievementsNavigation.qml" line="115"/>
+        <source>Please choose a compatible emulation core</source>
+        <translation>请选择兼容的模拟内核</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/AchievementsNavigation.qml" line="76"/>
+        <source>RetroAchievements doesn’t recognize this version of the game ☹</source>
+        <translation>RetroAchievements 无法识别此游戏版本 ☹</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/AchievementsNavigation.qml" line="86"/>
+        <source>Sadly, this game has no RetroAchievements to unlock</source>
+        <translation>很遗憾，此游戏没有可解锁的 RetroAchievements 成就</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/common/RelativeDateFormatter.qml" line="26"/>
+        <source>Today</source>
+        <translation>今天</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/common/RelativeDateFormatter.qml" line="28"/>
+        <source>Yesterday</source>
+        <translation>昨天</translation>
+    </message>
+</context>
+<context>
+    <name>AchievementRow</name>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementRow.qml" line="336"/>
+        <source>%1%</source>
+        <translation>%1%</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementRow.qml" line="231"/>
+        <source>(%1%)</source>
+        <translation>(%1%)</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementRow.qml" line="241"/>
+        <source>Last played</source>
+        <translation>上次游玩</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementRow.qml" line="178"/>
+        <source>You gained</source>
+        <translation>您获得了</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementRow.qml" line="275"/>
+        <source>You&apos;re part of %1 players who unlocked this!</source>
+        <translation>您也是解锁此成就的 %1 玩家之一！</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementRow.qml" line="194"/>
+        <source>and</source>
+        <translation>和</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementRow.qml" line="345"/>
+        <source>of players</source>
+        <translation>的玩家</translation>
+    </message>
+</context>
+<context>
+    <name>AchievementSummary</name>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementSummary.qml" line="32"/>
+        <location filename="../src/qml/views/components/games/AchievementSummary.qml" line="272"/>
+        <source>%1 Casual point</source>
+        <translation>%1 普通模式积分</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementSummary.qml" line="33"/>
+        <location filename="../src/qml/views/components/games/AchievementSummary.qml" line="272"/>
+        <source>%1 Casual points</source>
+        <translation>%1 普通模式积分</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementSummary.qml" line="34"/>
+        <location filename="../src/qml/views/components/games/AchievementSummary.qml" line="270"/>
+        <source>%1 Hardcore point</source>
+        <translation>%1 硬核模式积分</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementSummary.qml" line="35"/>
+        <location filename="../src/qml/views/components/games/AchievementSummary.qml" line="270"/>
+        <source>%1 Hardcore points</source>
+        <translation>%1 硬核模式积分</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementSummary.qml" line="289"/>
+        <source>%1 point available</source>
+        <translation>可获得 %1 积分</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementSummary.qml" line="289"/>
+        <source>%1 points available</source>
+        <translation>可获得 %1 积分</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementSummary.qml" line="179"/>
+        <source>%1% unlocked</source>
+        <translation>已解锁 %1%</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementSummary.qml" line="168"/>
+        <location filename="../src/qml/views/components/games/AchievementSummary.qml" line="169"/>
+        <source>%1/%2 achievements</source>
+        <translation>%1/%2 项成就</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementSummary.qml" line="151"/>
+        <source>(%1%)</source>
+        <translation>(%1%)</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementSummary.qml" line="29"/>
+        <location filename="../src/qml/views/components/games/AchievementSummary.qml" line="241"/>
+        <source>Out of %1 available point:</source>
+        <translation>可获得的 %1 积分中：</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementSummary.qml" line="30"/>
+        <location filename="../src/qml/views/components/games/AchievementSummary.qml" line="242"/>
+        <source>Out of %1 available points:</source>
+        <translation>可获得的 %1 积分中：</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementSummary.qml" line="75"/>
+        <source>RetroAchievements</source>
+        <translation>RetroAchievements</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementSummary.qml" line="27"/>
+        <location filename="../src/qml/views/components/games/AchievementSummary.qml" line="142"/>
+        <source>You&apos;ve unlocked %1/%2 achievements</source>
+        <translation>您已解锁 %1/%2 项成就</translation>
+    </message>
+</context>
+<context>
+    <name>AchievementUnavailable</name>
+    <message>
+        <location filename="../src/qml/views/components/games/AchievementUnavailable.qml" line="50"/>
+        <source>RetroAchievements</source>
+        <translation>RetroAchievements</translation>
+    </message>
+</context>
+<context>
+    <name>CheatCodesSettingsNavigation</name>
+    <message>
+        <location filename="../src/qml/controllers/settings/cheats/CheatCodesSettingsNavigation.qml" line="36"/>
+        <source>Go to Autosave settings</source>
+        <translation>前往自动保存设置</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/settings/cheats/CheatCodesSettingsNavigation.qml" line="88"/>
+        <source>Toggle</source>
+        <translation>切换</translation>
+    </message>
+</context>
+<context>
+    <name>CheatCodesSettingsView</name>
+    <message>
+        <location filename="../src/qml/views/settings/sections/CheatCodesSettingsView.qml" line="65"/>
+        <source>Hardcore Mode for RetroAchievements is enabled</source>
+        <translation>RetroAchievements 硬核模式已启用</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/sections/CheatCodesSettingsView.qml" line="74"/>
+        <source>Selected cheats stay inactive while Hardcore mode is enabled.</source>
+        <translation>启用硬核模式时，所选作弊码仍不会生效。</translation>
+    </message>
+</context>
+<context>
+    <name>ControllerDeadzonePanel</name>
+    <message>
+        <location filename="../src/qml/views/settings/controls/JoystickDeadzoneControl.qml" line="24"/>
+        <source>%1%</source>
+        <translation>%1%</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/controls/ControllerDeadzonePanel.qml" line="24"/>
+        <source>Left stick</source>
+        <translation>左摇杆</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/controls/ControllerDeadzonePanel.qml" line="35"/>
+        <source>Right stick</source>
+        <translation>右摇杆</translation>
+    </message>
+</context>
+<context>
+    <name>ControllerSetupPanel</name>
+    <message>
+        <location filename="../src/qml/views/settings/controls/ControllerSetupPanel.qml" line="55"/>
+        <source>Choose controller</source>
+        <translation>选择控制器</translation>
+    </message>
+</context>
+<context>
+    <name>ControlsSettingsGrid</name>
+    <message>
+        <location filename="../src/qml/views/settings/controls/ControlsSettingsGrid.qml" line="96"/>
+        <location filename="../src/qml/views/settings/sections/SettingsEmptyState.qml" line="36"/>
+        <source>Map controller buttons to Playback actions.</source>
+        <translation>将控制器按钮映射到 Playback 操作。</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/controls/ControlsSettingsGrid.qml" line="52"/>
+        <location filename="../src/qml/views/settings/sections/SettingsEmptyState.qml" line="35"/>
+        <source>Map controller buttons to game controls.</source>
+        <translation>将控制器按钮映射到游戏操作。</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/controls/ControlsSettingsGrid.qml" line="51"/>
+        <source>Mappings</source>
+        <translation>映射</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/controls/ControlsSettingsGrid.qml" line="95"/>
+        <source>Shortcuts</source>
+        <translation>快捷操作</translation>
+    </message>
+</context>
+<context>
+    <name>ControlsSettingsRow</name>
+    <message>
+        <location filename="../src/qml/debug/PlaybackOSDebugKeyboardHelp.qml" line="16"/>
+        <location filename="../src/qml/views/settings/controls/ControlsSettingsRow.qml" line="43"/>
+        <location filename="../src/qml/views/settings/controls/ControlsSettingsRow.qml" line="53"/>
+        <source>Down</source>
+        <translation>下</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/debug/PlaybackOSDebugKeyboardHelp.qml" line="17"/>
+        <location filename="../src/qml/views/settings/controls/ControlsSettingsRow.qml" line="45"/>
+        <location filename="../src/qml/views/settings/controls/ControlsSettingsRow.qml" line="56"/>
+        <source>Left</source>
+        <translation>左</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/debug/PlaybackOSDebugKeyboardHelp.qml" line="18"/>
+        <location filename="../src/qml/views/settings/controls/ControlsSettingsRow.qml" line="47"/>
+        <location filename="../src/qml/views/settings/controls/ControlsSettingsRow.qml" line="59"/>
+        <source>Right</source>
+        <translation>右</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/debug/PlaybackOSDebugKeyboardHelp.qml" line="15"/>
+        <location filename="../src/qml/views/settings/controls/ControlsSettingsRow.qml" line="41"/>
+        <location filename="../src/qml/views/settings/controls/ControlsSettingsRow.qml" line="50"/>
+        <source>Up</source>
+        <translation>上</translation>
+    </message>
+</context>
+<context>
+    <name>CoreDetails</name>
+    <message>
+        <location filename="../src/qml/views/components/settings/CoreDetails.qml" line="44"/>
+        <source>Capabilities are unavailable for custom cores.</source>
+        <translation>无法查看自定义内核的支持功能。</translation>
+    </message>
+</context>
+<context>
+    <name>CoreSelectorRow</name>
+    <message>
+        <location filename="../src/qml/views/components/settings/CoreSelectorRow.qml" line="26"/>
+        <source>Download available</source>
+        <translation>可下载</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/settings/CoreSelectorRow.qml" line="25"/>
+        <source>Installed</source>
+        <translation>已安装</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/settings/CoreSelectorRow.qml" line="26"/>
+        <source>Unavailable</source>
+        <translation>不可用</translation>
+    </message>
+</context>
+<context>
+    <name>CoreUpdatesNavigation</name>
+    <message>
+        <location filename="../src/qml/controllers/settings/coreselector/CoreUpdatesNavigation.qml" line="24"/>
+        <source>Cancel</source>
+        <translation>取消</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/settings/coreselector/CoreUpdatesNavigation.qml" line="24"/>
+        <source>Check again</source>
+        <translation>重新检查</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/settings/coreselector/CoreUpdatesNavigation.qml" line="13"/>
+        <source>Check for updates</source>
+        <translation>检查更新</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/settings/coreselector/CoreUpdatesNavigation.qml" line="12"/>
+        <source>Core updates</source>
+        <translation>内核更新</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/settings/coreselector/CoreUpdatesNavigation.qml" line="13"/>
+        <source>Update all</source>
+        <translation>全部更新</translation>
+    </message>
+</context>
+<context>
+    <name>CustomCheatEntry</name>
+    <message>
+        <location filename="../src/qml/views/components/settings/CustomCheatEntry.qml" line="35"/>
+        <source>Add cheat</source>
+        <translation>添加作弊码</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/settings/CustomCheatEntry.qml" line="52"/>
+        <source>Add custom cheat</source>
+        <translation>添加自定义作弊码</translation>
+    </message>
+</context>
+<context>
+    <name>CustomCheatEntryNavigation</name>
+    <message>
+        <location filename="../src/qml/controllers/settings/cheats/CustomCheatEntryNavigation.qml" line="22"/>
+        <source>Add cheat</source>
+        <translation>添加作弊码</translation>
+    </message>
+</context>
+<context>
+    <name>DeviceSettingsNavigation</name>
+    <message>
+        <location filename="../src/qml/controllers/settings/device/DeviceSettingsNavigation.qml" line="49"/>
+        <source>Applying…</source>
+        <translation>正在应用…</translation>
+    </message>
+</context>
+<context>
+    <name>DeviceSettingsView</name>
+    <message>
+        <location filename="../src/qml/views/settings/sections/DeviceSettingsView.qml" line="89"/>
+        <source>Coming soon</source>
+        <translation>即将推出</translation>
+    </message>
+</context>
+<context>
+    <name>GameCard</name>
+    <message>
+        <location filename="../src/qml/views/components/games/GameArtwork.qml" line="149"/>
+        <source>Unable to start game.
+Please check core settings.</source>
+        <translation>无法启动游戏。
+请检查内核设置。</translation>
+    </message>
+</context>
+<context>
+    <name>GameGallery</name>
+    <message>
+        <location filename="../src/qml/views/components/games/GameGallery.qml" line="32"/>
+        <source>Screenshot %1</source>
+        <translation>截图 %1</translation>
+    </message>
+</context>
+<context>
+    <name>GamesPage</name>
+    <message>
+        <location filename="../src/qml/views/pages/GamesPage.qml" line="34"/>
+        <source>%1 h %2 m</source>
+        <translation>%1 小时 %2 分钟</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/pages/GamesPage.qml" line="111"/>
+        <source>? players</source>
+        <translation>? 位玩家</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/pages/GamesPage.qml" line="14"/>
+        <source>Go to Library</source>
+        <translation>前往游戏库</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/GamesPageNavigation.qml" line="78"/>
+        <source>Hold to stop</source>
+        <translation>长按停止</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/GamesPageNavigation.qml" line="57"/>
+        <source>In use</source>
+        <translation>使用中</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/GamesPageNavigation.qml" line="55"/>
+        <source>Insert cart to play</source>
+        <translation>插入卡带以开始游戏</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/GamesPageNavigation.qml" line="53"/>
+        <source>Library</source>
+        <translation>游戏库</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/pages/GamesPage.qml" line="16"/>
+        <source>Navigate your whole game collection.</source>
+        <translation>浏览您的全部游戏收藏。</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/GamesPageNavigation.qml" line="84"/>
+        <source>Resume game</source>
+        <translation>继续游戏</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/GamesPageNavigation.qml" line="81"/>
+        <source>View details</source>
+        <translation>查看详情</translation>
+    </message>
+</context>
+<context>
+    <name>JoystickDeadzoneDisplay</name>
+    <message>
+        <location filename="../src/qml/views/settings/controls/JoystickDeadzoneDisplay.qml" line="81"/>
+        <source>X %1</source>
+        <translation>X %1</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/controls/JoystickDeadzoneDisplay.qml" line="90"/>
+        <source>Y %1</source>
+        <translation>Y %1</translation>
+    </message>
+</context>
+<context>
+    <name>LibraryDetailPage</name>
+    <message>
+        <location filename="../src/qml/views/pages/LibraryDetailPage.qml" line="79"/>
+        <source>? players</source>
+        <translation>? 位玩家</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/LibraryDetailPageNavigation.qml" line="59"/>
+        <source>Back</source>
+        <translation>返回</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/LibraryDetailPageNavigation.qml" line="58"/>
+        <source>Back / Hold to stop</source>
+        <translation>返回 / 长按停止</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/LibraryDetailPageNavigation.qml" line="40"/>
+        <location filename="../src/qml/views/pages/LibraryDetailPage.qml" line="199"/>
+        <location filename="../src/qml/views/pages/LibraryDetailPage.qml" line="218"/>
+        <source>Change video shader</source>
+        <translation>更改视频着色器</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/LibraryDetailPageNavigation.qml" line="57"/>
+        <source>Close achievements</source>
+        <translation>关闭成就</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/LibraryDetailPageNavigation.qml" line="51"/>
+        <source>In use</source>
+        <translation>使用中</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/LibraryDetailPageNavigation.qml" line="41"/>
+        <source>Manage save states</source>
+        <translation>管理即时存档</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/LibraryDetailPageNavigation.qml" line="43"/>
+        <source>Open</source>
+        <translation>打开</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/LibraryDetailPageNavigation.qml" line="42"/>
+        <source>Open settings</source>
+        <translation>打开设置</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/LibraryDetailPageNavigation.qml" line="60"/>
+        <source>Resume game</source>
+        <translation>继续游戏</translation>
+    </message>
+</context>
+<context>
+    <name>LibraryPage</name>
+    <message>
+        <location filename="../src/qml/controllers/pages/LibraryPageNavigation.qml" line="34"/>
+        <source>Back</source>
+        <translation>返回</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/LibraryPageNavigation.qml" line="33"/>
+        <source>Back / Hold to stop</source>
+        <translation>返回 / 长按停止</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/LibraryPageNavigation.qml" line="30"/>
+        <source>Open</source>
+        <translation>打开</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/LibraryPageNavigation.qml" line="35"/>
+        <source>Resume game</source>
+        <translation>继续游戏</translation>
+    </message>
+</context>
+<context>
+    <name>NavigationHeader</name>
+    <message>
+        <location filename="../src/qml/views/components/common/NavigationHeader.qml" line="23"/>
+        <source>Games</source>
+        <translation>游戏</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/common/NavigationHeader.qml" line="23"/>
+        <source>Library</source>
+        <translation>游戏库</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSAchievementOverlayModel</name>
+    <message>
+        <location filename="../src/overlay/PlaybackOSAchievementOverlayModel.cpp" line="75"/>
+        <source>%1 does not support RetroAchievements. Please choose another core in Settings.</source>
+        <translation>%1 不支持 RetroAchievements。请在设置中选择其他内核。</translation>
+    </message>
+    <message>
+        <location filename="../src/overlay/PlaybackOSAchievementOverlayModel.cpp" line="74"/>
+        <source>RetroAchievements unavailable</source>
+        <translation>RetroAchievements 不可用</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSControllerBindings</name>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="156"/>
+        <source>Left stick</source>
+        <translation>左摇杆</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="157"/>
+        <source>Right stick</source>
+        <translation>右摇杆</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="158"/>
+        <source>Left shoulder</source>
+        <translation>左肩键</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="159"/>
+        <source>Right shoulder</source>
+        <translation>右肩键</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="160"/>
+        <source>Dp up</source>
+        <translation>方向键上</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="161"/>
+        <source>Dp down</source>
+        <translation>方向键下</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="162"/>
+        <source>Dp left</source>
+        <translation>方向键左</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="163"/>
+        <source>Dp right</source>
+        <translation>方向键右</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="164"/>
+        <source>Misc1</source>
+        <translation>其他1</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="165"/>
+        <source>Paddle1</source>
+        <translation>背部拨片1</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="166"/>
+        <source>Paddle2</source>
+        <translation>背部拨片2</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="167"/>
+        <source>Paddle3</source>
+        <translation>背部拨片3</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="168"/>
+        <source>Paddle4</source>
+        <translation>背部拨片4</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="169"/>
+        <source>Touchpad</source>
+        <translation>触摸板</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="170"/>
+        <source>Misc2</source>
+        <translation>其他2</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="171"/>
+        <source>Misc3</source>
+        <translation>其他3</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="172"/>
+        <source>Misc4</source>
+        <translation>其他4</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="173"/>
+        <source>Misc5</source>
+        <translation>其他5</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="174"/>
+        <source>Misc6</source>
+        <translation>其他6</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="175"/>
+        <source>Axis left x+</source>
+        <translation>左摇杆轴 x+</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="176"/>
+        <source>Axis left x-</source>
+        <translation>左摇杆轴 x-</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="177"/>
+        <source>Axis left y+</source>
+        <translation>左摇杆轴 y+</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="178"/>
+        <source>Axis left y-</source>
+        <translation>左摇杆轴 y-</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="179"/>
+        <source>Axis right x+</source>
+        <translation>右摇杆轴 x+</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="180"/>
+        <source>Axis right x-</source>
+        <translation>右摇杆轴 x-</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="181"/>
+        <source>Axis right y+</source>
+        <translation>右摇杆轴 y+</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="182"/>
+        <source>Axis right y-</source>
+        <translation>右摇杆轴 y-</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="183"/>
+        <source>Axis trigger left</source>
+        <translation>左扳机轴</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/ControlsSettings.cpp" line="184"/>
+        <source>Axis trigger right</source>
+        <translation>右扳机轴</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSControllerInventory</name>
+    <message>
+        <location filename="../src/settings/controls/PlaybackOSControllerInventory.cpp" line="68"/>
+        <source>%1 (Steam Input)</source>
+        <translation>%1 (Steam Input)</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSControllerSelection</name>
+    <message>
+        <location filename="../src/settings/controls/PlaybackOSControllerAssignments.cpp" line="69"/>
+        <source>Disconnected controller</source>
+        <translation>已断开的控制器</translation>
+    </message>
+    <message>
+        <location filename="../src/settings/controls/PlaybackOSControllerSelection.cpp" line="69"/>
+        <source>Player %1</source>
+        <translation>玩家 %1</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSControllerStatus</name>
+    <message>
+        <location filename="../src/qml/views/components/common/PlaybackOSControllerStatus.qml" line="79"/>
+        <source>%1, connected</source>
+        <translation>%1，已连接</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/common/PlaybackOSControllerStatus.qml" line="78"/>
+        <source>%1, controlling menu</source>
+        <translation>%1，正在控制菜单</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/common/PlaybackOSControllerStatus.qml" line="540"/>
+        <source>Control request DENIED by P%1</source>
+        <translation>P%1 拒绝了控制请求</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/common/PlaybackOSControllerStatus.qml" line="72"/>
+        <source>Controller</source>
+        <translation>控制器</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/common/PlaybackOSControllerStatus.qml" line="473"/>
+        <location filename="../src/qml/views/components/common/PlaybackOSControllerStatus.qml" line="549"/>
+        <source>Hold any button to take control</source>
+        <translation>长按任意按钮以获取控制权</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/common/PlaybackOSControllerStatus.qml" line="521"/>
+        <source>P%1 took control!</source>
+        <translation>P%1 已获取控制权！</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/common/PlaybackOSControllerStatus.qml" line="380"/>
+        <source>Please connect controller</source>
+        <translation>请连接控制器</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/common/PlaybackOSControllerStatus.qml" line="490"/>
+        <location filename="../src/qml/views/components/common/PlaybackOSControllerStatus.qml" line="496"/>
+        <location filename="../src/qml/views/components/common/PlaybackOSControllerStatus.qml" line="506"/>
+        <location filename="../src/qml/views/components/common/PlaybackOSControllerStatus.qml" line="548"/>
+        <location filename="../src/qml/views/components/common/PlaybackOSControllerStatus.qml" line="568"/>
+        <location filename="../src/qml/views/components/common/PlaybackOSControllerStatus.qml" line="584"/>
+        <source>Press a button to take control</source>
+        <translation>按下按钮以获取控制权</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSControlsSettings</name>
+    <message>
+        <location filename="../src/settings/controls/PlaybackOSControllerBindings.cpp" line="152"/>
+        <source>Press a button…</source>
+        <translation>请按下按钮…</translation>
+    </message>
+    <message>
+        <location filename="../src/settings/controls/PlaybackOSControllerBindings.cpp" line="101"/>
+        <source>Press an input…</source>
+        <translation>请操作一个输入控件…</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSCoreUpdater</name>
+    <message>
+        <location filename="../src/settings/PlaybackOSCoreUpdater.cpp" line="119"/>
+        <source>%1 update(s) available. Could not check %2 core(s).</source>
+        <translation>有 %1 项更新可用。无法检查 %2 个内核。</translation>
+    </message>
+    <message>
+        <location filename="../src/settings/PlaybackOSCoreUpdater.cpp" line="27"/>
+        <source>Checking installed cores…</source>
+        <translation>正在检查已安装的内核…</translation>
+    </message>
+    <message>
+        <location filename="../src/settings/PlaybackOSCoreUpdater.cpp" line="196"/>
+        <source>Core updates cancelled. Completed downloads were kept.</source>
+        <translation>内核更新已取消。已完成的下载予以保留。</translation>
+    </message>
+    <message>
+        <location filename="../src/settings/PlaybackOSCoreUpdater.cpp" line="48"/>
+        <source>Could not check for updates. Please try again.</source>
+        <translation>无法检查更新。请重试。</translation>
+    </message>
+    <message>
+        <location filename="../src/settings/PlaybackOSCoreUpdater.cpp" line="122"/>
+        <source>Installed cores are up to date.</source>
+        <translation>已安装的内核均为最新版本。</translation>
+    </message>
+    <message>
+        <location filename="../src/settings/PlaybackOSCoreUpdater.cpp" line="23"/>
+        <source>No downloaded cores are installed.</source>
+        <translation>尚未安装任何下载的内核。</translation>
+    </message>
+    <message>
+        <location filename="../src/settings/PlaybackOSCoreUpdater.cpp" line="189"/>
+        <source>Updated %1 core(s).</source>
+        <translation>已更新 %1 个内核。</translation>
+    </message>
+    <message>
+        <location filename="../src/settings/PlaybackOSCoreUpdater.cpp" line="190"/>
+        <source>Updated %1 core(s); %2 failed. Check for updates to retry.</source>
+        <translation>已更新 %1 个内核；%2 个失败。请检查更新以重试。</translation>
+    </message>
+    <message>
+        <location filename="../src/settings/PlaybackOSCoreUpdater.cpp" line="123"/>
+        <source>Updates available for %1 core(s).</source>
+        <translation>有 %1 个内核可更新。</translation>
+    </message>
+    <message>
+        <location filename="../src/settings/PlaybackOSCoreUpdater.cpp" line="147"/>
+        <source>Updating %1…</source>
+        <translation>正在更新 %1…</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSDeviceSettings</name>
+    <message>
+        <location filename="../src/settings/PlaybackOSDeviceSettings.cpp" line="83"/>
+        <source>Connect an Operator to customize its LED light.</source>
+        <translation>连接 Operator 以自定义其 LED 灯光。</translation>
+    </message>
+    <message>
+        <location filename="../src/settings/PlaybackOSDeviceSettings.cpp" line="91"/>
+        <source>Could not apply the effect. Select an effect to try again.</source>
+        <translation>无法应用效果。请选择一种效果以重试。</translation>
+    </message>
+    <message>
+        <location filename="../src/settings/PlaybackOSDeviceSettings.cpp" line="90"/>
+        <source>Stop the current game to change this Operator’s LED effect.</source>
+        <translation>请停止当前游戏以更改此 Operator 的 LED 效果。</translation>
+    </message>
+    <message>
+        <location filename="../src/settings/PlaybackOSDeviceSettings.cpp" line="86"/>
+        <source>This Operator is in use by another Playback window.</source>
+        <translation>此 Operator 正由另一个 Playback 窗口使用。</translation>
+    </message>
+    <message>
+        <location filename="../src/settings/PlaybackOSDeviceSettings.cpp" line="88"/>
+        <source>Wait for the current device operation to finish before changing the LED effect.</source>
+        <translation>请等待当前设备操作完成后再更改 LED 效果。</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSEmulatorHost</name>
+    <message>
+        <location filename="../src/emulation/PlaybackOSEmulatorHost.cpp" line="213"/>
+        <source>Couldn&apos;t read the cartridge.
+Check the pins are clean and it&apos;s seated securely.</source>
+        <translation>无法读取卡带。
+请检查触点是否清洁、卡带是否插牢。</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSFeedbackContent</name>
+    <message>
+        <location filename="../src/qml/views/components/common/PlaybackOSFeedbackContent.qml" line="118"/>
+        <source>Scan the QR code with your phone to share your thoughts and ideas.</source>
+        <translation>用手机扫描二维码，分享您的想法和建议。</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/common/PlaybackOSFeedbackContent.qml" line="19"/>
+        <source>Share your feedback</source>
+        <translation>分享您的反馈</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/common/PlaybackOSFeedbackContent.qml" line="100"/>
+        <source>Thank you for trying the alpha version!</source>
+        <translation>感谢您试用 Alpha 版本！</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/common/PlaybackOSFeedbackContent.qml" line="109"/>
+        <source>We’d love to hear what’s working, what isn’t, and what would make the whole experience better.</source>
+        <translation>我们希望听听哪些功能运行良好、哪些存在问题，以及如何改善整体体验。</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSFeedbackOverlay</name>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSFeedbackOverlay.qml" line="36"/>
+        <source>Back</source>
+        <translation>返回</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSFeedbackQr</name>
+    <message>
+        <location filename="../src/feedback/PlaybackOSFeedbackQr.cpp" line="65"/>
+        <source>The QR code could not be created.</source>
+        <translation>无法生成二维码。</translation>
+    </message>
+    <message>
+        <location filename="../src/feedback/PlaybackOSFeedbackQr.cpp" line="42"/>
+        <source>The feedback link contains invalid text.</source>
+        <translation>反馈链接包含无效文本。</translation>
+    </message>
+    <message>
+        <location filename="../src/feedback/PlaybackOSFeedbackQr.cpp" line="41"/>
+        <location filename="../src/feedback/PlaybackOSFeedbackQr.cpp" line="72"/>
+        <source>The feedback link is too long for a QR code.</source>
+        <translation>反馈链接过长，无法生成二维码。</translation>
+    </message>
+    <message>
+        <location filename="../src/feedback/PlaybackOSFeedbackQr.cpp" line="39"/>
+        <location filename="../src/feedback/PlaybackOSFeedbackQr.cpp" line="145"/>
+        <source>The feedback link is unavailable.</source>
+        <translation>反馈链接不可用。</translation>
+    </message>
+    <message>
+        <location filename="../src/feedback/PlaybackOSFeedbackQr.cpp" line="147"/>
+        <source>There is not enough space to display the QR code.</source>
+        <translation>没有足够空间显示二维码。</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSLibraryModel</name>
+    <message>
+        <location filename="../src/library/PlaybackOSLibraryModel.cpp" line="532"/>
+        <source>Game hash: %1</source>
+        <translation>游戏哈希：%1</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSPauseHoldOverlay</name>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseHoldOverlay.qml" line="29"/>
+        <source>Hold to pause</source>
+        <translation>长按暂停</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSRetroAchievements</name>
+    <message>
+        <location filename="../src/runtime/PlaybackOSRetroAchievements.cpp" line="76"/>
+        <source>Enter both your username and password.</source>
+        <translation>请输入用户名和密码。</translation>
+    </message>
+    <message>
+        <location filename="../src/runtime/PlaybackOSRetroAchievements.cpp" line="19"/>
+        <source>Could not sign in to RetroAchievements. The service may be unavailable. Check your connection and try again later.</source>
+        <translation>无法登录 RetroAchievements。服务可能暂时不可用。请检查网络连接，稍后重试。</translation>
+    </message>
+    <message>
+        <location filename="../src/runtime/PlaybackOSRetroAchievements.cpp" line="22"/>
+        <source>Could not sign in to RetroAchievements. Please try again.</source>
+        <translation>无法登录 RetroAchievements。请重试。</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSSaveShutdownController</name>
+    <message>
+        <location filename="../src/emulation/PlaybackOSSaveShutdownController.cpp" line="67"/>
+        <source>Checking cartridge save. Keep the cartridge connected.</source>
+        <translation>正在检查卡带存档。请保持卡带连接。</translation>
+    </message>
+    <message>
+        <location filename="../src/emulation/PlaybackOSSaveShutdownController.cpp" line="92"/>
+        <source>Couldn&apos;t check the cartridge save. Keep the cartridge connected and try stopping again.</source>
+        <translation>无法检查卡带存档。请保持卡带连接并尝试再次停止游戏。</translation>
+    </message>
+    <message>
+        <location filename="../src/emulation/PlaybackOSSaveShutdownController.cpp" line="115"/>
+        <source>Couldn&apos;t save to the cartridge. Keep the cartridge connected and try stopping again.</source>
+        <translation>无法保存到卡带。请保持卡带连接并尝试再次停止游戏。</translation>
+    </message>
+    <message>
+        <location filename="../src/emulation/PlaybackOSSaveShutdownController.cpp" line="100"/>
+        <source>Saving to cartridge timed out. Keep the cartridge connected and try stopping again.</source>
+        <translation>保存到卡带超时。请保持卡带连接并尝试再次停止游戏。</translation>
+    </message>
+    <message>
+        <location filename="../src/emulation/PlaybackOSSaveShutdownController.cpp" line="60"/>
+        <source>Saving to cartridge. Keep the cartridge connected.</source>
+        <translation>正在保存到卡带。请保持卡带连接。</translation>
+    </message>
+    <message>
+        <location filename="../src/emulation/PlaybackOSSaveShutdownController.cpp" line="50"/>
+        <source>The Operator is busy. Keep the cartridge connected and try stopping again.</source>
+        <translation>Operator 正忙。请保持卡带连接并尝试再次停止游戏。</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSSaveStates</name>
+    <message>
+        <location filename="../src/save/PlaybackOSSaveStates.cpp" line="277"/>
+        <source>Save states are unavailable during netplay.</source>
+        <translation>网络联机过程中无法使用即时存档。</translation>
+    </message>
+    <message>
+        <location filename="../src/save/PlaybackOSSaveStates.cpp" line="275"/>
+        <source>Save states are unavailable in Hardcore mode.</source>
+        <translation>硬核模式下无法使用即时存档。</translation>
+    </message>
+    <message>
+        <location filename="../src/save/PlaybackOSSaveStates.cpp" line="312"/>
+        <source>State deleted from slot %1.</source>
+        <translation>已从存档槽 %1 删除即时存档。</translation>
+    </message>
+    <message>
+        <location filename="../src/save/PlaybackOSSaveStates.cpp" line="311"/>
+        <source>State loaded from slot %1.</source>
+        <translation>已从存档槽 %1 加载即时存档。</translation>
+    </message>
+    <message>
+        <location filename="../src/save/PlaybackOSSaveStates.cpp" line="310"/>
+        <source>State saved to slot %1.</source>
+        <translation>已将即时存档保存到存档槽 %1。</translation>
+    </message>
+    <message>
+        <location filename="../src/save/PlaybackOSSaveStates.cpp" line="319"/>
+        <source>State saved, but its screenshot could not be saved.</source>
+        <translation>即时存档已保存，但无法保存其截图。</translation>
+    </message>
+    <message>
+        <location filename="../src/save/PlaybackOSSaveStates.cpp" line="286"/>
+        <source>The core could not complete the state operation.</source>
+        <translation>内核无法完成即时存档操作。</translation>
+    </message>
+    <message>
+        <location filename="../src/save/PlaybackOSSaveStates.cpp" line="149"/>
+        <source>The emulation thread is unavailable.</source>
+        <translation>模拟线程不可用。</translation>
+    </message>
+    <message>
+        <location filename="../src/save/PlaybackOSSaveStates.cpp" line="280"/>
+        <source>This core does not support save states.</source>
+        <translation>此内核不支持即时存档。</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSSaveStatesPanel</name>
+    <message>
+        <location filename="../src/qml/views/components/games/PlaybackOSSaveStatesPanel.qml" line="122"/>
+        <source>%1 / %2 saved</source>
+        <translation>已保存 %1 / %2</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSSaveStatesNavigation.qml" line="45"/>
+        <source>Back</source>
+        <translation>返回</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSSaveStatesNavigation.qml" line="21"/>
+        <location filename="../src/qml/views/components/games/PlaybackOSSaveStatesPanel.qml" line="259"/>
+        <location filename="../src/qml/views/components/games/PlaybackOSSaveStatesPanel.qml" line="315"/>
+        <source>Create save state</source>
+        <translation>创建即时存档</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSSaveStatesNavigation.qml" line="37"/>
+        <source>Hold to delete</source>
+        <translation>长按删除</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSSaveStatesNavigation.qml" line="20"/>
+        <source>Hold to load</source>
+        <translation>长按加载</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSSaveStatesNavigation.qml" line="29"/>
+        <source>Hold to overwrite</source>
+        <translation>长按覆盖</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/PlaybackOSSaveStatesPanel.qml" line="231"/>
+        <source>Keep this moment</source>
+        <translation>保存这一刻</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/PlaybackOSSaveStatesPanel.qml" line="140"/>
+        <source>Loading a state also reverts your game save. Your latest save is kept in the Vault.</source>
+        <translation>加载即时存档也会还原游戏存档。您最新的存档将保留在 Vault 中。</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/PlaybackOSSaveStatesPanel.qml" line="86"/>
+        <location filename="../src/qml/views/components/games/PlaybackOSSaveStatesPanel.qml" line="110"/>
+        <source>Manage save states</source>
+        <translation>管理即时存档</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/PlaybackOSSaveStatesPanel.qml" line="231"/>
+        <source>No preview</source>
+        <translation>无预览</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/PlaybackOSSaveStatesPanel.qml" line="258"/>
+        <location filename="../src/qml/views/components/games/PlaybackOSSaveStatesPanel.qml" line="316"/>
+        <source>Save state %1</source>
+        <translation>即时存档 %1</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSSettingsModel</name>
+    <message>
+        <location filename="../src/settings/PlaybackOSCoreSettings.cpp" line="36"/>
+        <location filename="../src/settings/PlaybackOSCoreSettings.cpp" line="88"/>
+        <source>%1 (custom)</source>
+        <translation>%1（自定义）</translation>
+    </message>
+    <message>
+        <location filename="../src/settings/PlaybackOSCoreSettings.cpp" line="407"/>
+        <source>Could not download %1. Select it again to retry.</source>
+        <translation>无法下载 %1。请重新选择以重试。</translation>
+    </message>
+    <message>
+        <location filename="../src/settings/PlaybackOSCheatSettings.cpp" line="172"/>
+        <location filename="../src/settings/PlaybackOSCheatSettings.cpp" line="185"/>
+        <source>Default Cheats</source>
+        <translation>默认作弊码</translation>
+    </message>
+    <message>
+        <location filename="../src/settings/PlaybackOSCoreSettings.cpp" line="403"/>
+        <source>Downloading %1…</source>
+        <translation>正在下载 %1…</translation>
+    </message>
+    <message>
+        <location filename="../src/settings/PlaybackOSCheatSettings.cpp" line="186"/>
+        <source>No default cheats available</source>
+        <translation>没有可用的默认作弊码</translation>
+    </message>
+    <message>
+        <location filename="../src/settings/PlaybackOSCheatSettings.cpp" line="187"/>
+        <source>This game has no matching codes in the bundled database.</source>
+        <translation>内置数据库中没有与此游戏匹配的作弊码。</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSShaderPicker</name>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSShaderNavigation.qml" line="21"/>
+        <source>Back</source>
+        <translation>返回</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSShaderPicker.qml" line="41"/>
+        <source>Change video shader</source>
+        <translation>更改视频着色器</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSShaderNavigation.qml" line="26"/>
+        <source>Pause game</source>
+        <translation>暂停游戏</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSShaderNavigation.qml" line="17"/>
+        <source>Select</source>
+        <translation>选择</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSShaderPicker.qml" line="87"/>
+        <source>The shader list is limited because Vulkan rendering is unavailable. Please check your GPU&apos;s Vulkan support.</source>
+        <translation>由于 Vulkan 渲染不可用，着色器列表受到限制。请检查您的 GPU 是否支持 Vulkan。</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSShaderNavigation.qml" line="25"/>
+        <source>Unpause game</source>
+        <translation>恢复游戏</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSShell</name>
+    <message>
+        <location filename="../src/qml/composition/PlaybackOSShell.qml" line="199"/>
+        <source>Hold for feedback</source>
+        <translation>长按提供反馈</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSShortcutOverlay</name>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSShortcutOverlayController.qml" line="18"/>
+        <source>Fast forwarding</source>
+        <translation>正在快进</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSShortcutOverlayController.qml" line="16"/>
+        <source>Resetting</source>
+        <translation>正在重置</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSShortcutOverlayController.qml" line="20"/>
+        <source>Rewinding</source>
+        <translation>正在倒带</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSStartupWarning</name>
+    <message>
+        <location filename="../src/qml/composition/PlaybackOSStartupWarning.qml" line="72"/>
+        <source>Continue playing</source>
+        <translation>继续游戏</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/composition/PlaybackOSStartupWarning.qml" line="41"/>
+        <source>Steam Cloud is unavailable</source>
+        <translation>Steam Cloud 不可用</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/composition/PlaybackOSStartupWarning.qml" line="59"/>
+        <source>You can still play and save to your cartridge. Play time and cheats will use local data on this device, separate from your Steam data, and won&apos;t sync to other devices.
+
+We recommend restarting Playback OS from your Steam Library to use Steam Cloud.</source>
+        <translation>您仍然可以游玩并保存到卡带。游戏时长和作弊码将使用此设备上的本地数据，与您的 Steam 数据分开，且不会同步到其他设备。
+
+建议从 Steam 游戏库重新启动 Playback OS，以使用 Steam Cloud。</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSSteamSession</name>
+    <message>
+        <location filename="../src/steam/PlaybackOSSteamSession.cpp" line="86"/>
+        <source>Playback OS couldn&apos;t connect to Steam.</source>
+        <translation>Playback OS 无法连接到 Steam。</translation>
+    </message>
+    <message>
+        <location filename="../src/steam/PlaybackOSSteamSession.cpp" line="96"/>
+        <location filename="../src/steam/PlaybackOSSteamSession.cpp" line="101"/>
+        <source>Playback OS couldn&apos;t identify your Steam account.</source>
+        <translation>Playback OS 无法识别您的 Steam 账户。</translation>
+    </message>
+    <message>
+        <location filename="../src/steam/PlaybackOSSteamSession.cpp" line="56"/>
+        <source>Playback OS wasn&apos;t launched from Steam.</source>
+        <translation>Playback OS 不是通过 Steam 启动的。</translation>
+    </message>
+    <message>
+        <location filename="../src/steam/PlaybackOSSteamSession.cpp" line="67"/>
+        <source>Steam features aren&apos;t available in this version of Playback OS.</source>
+        <translation>此版本的 Playback OS 不提供 Steam 功能。</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSUsbAccessBanner</name>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSUsbAccessBanner.qml" line="56"/>
+        <source>Access is needed for reading your cartridges.</source>
+        <translation>读取卡带需要访问权限。</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSUsbAccessBanner.qml" line="44"/>
+        <source>Operator connection unavailable</source>
+        <translation>无法连接 Operator</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSUsbAccessBanner.qml" line="44"/>
+        <source>Operator detected</source>
+        <translation>已检测到 Operator</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSUsbAccessBanner.qml" line="55"/>
+        <source>Update Steam and SteamOS (or your Linux system), restart, then reconnect your Operator.</source>
+        <translation>请更新 Steam 和 SteamOS（或您的 Linux 系统），重新启动后再重新连接 Operator。</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSUsbAccessDialog</name>
+    <message>
+        <location filename="../src/qml/views/components/usb/PlaybackOSUsbAccessHelp.qml" line="53"/>
+        <source>&lt;b&gt;B. If setup still fails, use a terminal&lt;/b&gt;&lt;br&gt;This runs the same one time setup directly in Linux. It can help if Playback cannot start setup, and shows any errors in the terminal.&lt;br&gt;&lt;br&gt;In Desktop Mode, return to this screen and select &lt;b&gt;Open setup folder&lt;/b&gt;. Right click an empty area, choose &lt;b&gt;Open in Terminal&lt;/b&gt;, then run:</source>
+        <translation>&lt;b&gt;B. 如果设置仍然失败，请使用终端&lt;/b&gt;&lt;br&gt;这将在 Linux 中直接执行相同的一次性设置。当 Playback 无法启动设置时，此方法可能有所帮助，并会在终端中显示错误。&lt;br&gt;&lt;br&gt;在桌面模式下返回此界面，选择&lt;b&gt;打开设置文件夹&lt;/b&gt;。右键点击空白区域，选择&lt;b&gt;在终端中打开&lt;/b&gt;，然后运行：</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/usb/PlaybackOSUsbAccessHelp.qml" line="19"/>
+        <source>A. Retry in desktop mode</source>
+        <translation>A. 在桌面模式下重试</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/usb/PlaybackOSUsbAccessPassword.qml" line="38"/>
+        <source>Authorize</source>
+        <translation>授权</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSUsbAccessDialog.qml" line="48"/>
+        <source>Authorize Operator access</source>
+        <translation>授权访问 Operator</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/usb/PlaybackOSUsbAccessCommand.qml" line="55"/>
+        <source>Copied</source>
+        <translation>已复制</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/usb/PlaybackOSUsbAccessCommand.qml" line="56"/>
+        <source>Copy</source>
+        <translation>复制</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/usb/PlaybackOSUsbAccessCommand.qml" line="38"/>
+        <source>Copy command to clipboard</source>
+        <translation>将命令复制到剪贴板</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/usb/PlaybackOSUsbAccessHelp.qml" line="72"/>
+        <source>Enter your &lt;b&gt;Linux password&lt;/b&gt; if asked. After setup completes, &lt;b&gt;please restart your device&lt;/b&gt;.</source>
+        <translation>如有提示，请输入您的 &lt;b&gt;Linux 密码&lt;/b&gt;。设置完成后，&lt;b&gt;请重新启动设备&lt;/b&gt;。</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/usb/PlaybackOSUsbAccessHelp.qml" line="10"/>
+        <source>If setup could not finish in Gaming Mode, try it from your Desktop.</source>
+        <translation>如果在游戏模式下无法完成设置，请在桌面中尝试。</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/usb/PlaybackOSUsbAccessPassword.qml" line="36"/>
+        <location filename="../src/qml/views/components/usb/PlaybackOSUsbAccessPassword.qml" line="50"/>
+        <source>Linux account password</source>
+        <translation>Linux 账户密码</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/usb/PlaybackOSUsbAccessHelp.qml" line="40"/>
+        <source>On Steam Deck: &lt;b&gt;Steam menu → Power → Switch to Desktop&lt;/b&gt;.&lt;br&gt;Open Playback from Steam and select &lt;b&gt;Enable access&lt;/b&gt; again.</source>
+        <translation>在 Steam Deck 上：&lt;b&gt;Steam 菜单 → 电源 → 切换到桌面&lt;/b&gt;。&lt;br&gt;从 Steam 打开 Playback，然后再次选择&lt;b&gt;启用访问权限&lt;/b&gt;。</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/usb/PlaybackOSUsbAccessPassword.qml" line="49"/>
+        <source>Secure password input is unavailable. Try setup from Desktop Mode.</source>
+        <translation>安全密码输入不可用。请尝试在桌面模式下设置。</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSUsbAccessDialog.qml" line="50"/>
+        <source>Set up Epilogue Operator access</source>
+        <translation>设置 Epilogue Operator 访问权限</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSUsbAccessDialog.qml" line="102"/>
+        <source>TIP: No Linux password but you&apos;ve been requested one? Set one in your system&apos;s account settings, or ask the person who set up this device.</source>
+        <translation>提示：没有设置 Linux 密码，却被要求输入？请在系统账户设置中设置密码，或询问为此设备进行设置的人。</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSUsbAccessDialog.qml" line="82"/>
+        <source>The folder could not open. Please contact Epilogue support for help.</source>
+        <translation>无法打开文件夹。请联系 Epilogue 支持团队获取帮助。</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSUsbAccessDialog.qml" line="60"/>
+        <source>This one time setup allows Playback to access Epilogue Operators on this device.&lt;br&gt;&lt;br&gt;1. Press &lt;b&gt;A&lt;/b&gt; and follow the system authentication prompt. If the prompt is unavailable, enter your Linux password with the controller.&lt;br&gt;2. &lt;b&gt;Reconnect your Operator&lt;/b&gt; if it is still blocked.</source>
+        <translation>此一次性设置可让 Playback 访问此设备上的 Epilogue Operator。&lt;br&gt;&lt;br&gt;1. 按下 &lt;b&gt;A&lt;/b&gt; 并按照系统身份验证提示操作。如果提示不可用，请使用控制器输入您的 Linux 密码。&lt;br&gt;2. 如果仍被阻止访问，请&lt;b&gt;重新连接 Operator&lt;/b&gt;。</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSUsbAccessDialog.qml" line="49"/>
+        <source>Try setup in Desktop Mode</source>
+        <translation>尝试在桌面模式下设置</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSUsbAccessDialog.qml" line="105"/>
+        <source>Use the password for installing apps, not your Steam password.</source>
+        <translation>请使用安装应用时的密码，而非 Steam 密码。</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSUsbAccessNavigation</name>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSUsbAccessNavigation.qml" line="43"/>
+        <source>Back to setup</source>
+        <translation>返回设置</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSUsbAccessNavigation.qml" line="38"/>
+        <source>Cancel setup</source>
+        <translation>取消设置</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSUsbAccessNavigation.qml" line="31"/>
+        <source>Done</source>
+        <translation>完成</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSUsbAccessNavigation.qml" line="22"/>
+        <location filename="../src/qml/controllers/PlaybackOSUsbAccessNavigation.qml" line="31"/>
+        <source>Enable access</source>
+        <translation>启用访问权限</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSUsbAccessNavigation.qml" line="29"/>
+        <source>Enter password</source>
+        <translation>输入密码</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSUsbAccessNavigation.qml" line="38"/>
+        <source>Not now</source>
+        <translation>暂不</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSUsbAccessNavigation.qml" line="30"/>
+        <source>Open setup folder</source>
+        <translation>打开设置文件夹</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSUsbSetup</name>
+    <message>
+        <location filename="../src/runtime/PlaybackOSUsbSetup.cpp" line="159"/>
+        <source>Automatic Operator access setup is available on Linux only.</source>
+        <translation>Operator 访问权限的自动设置仅适用于 Linux。</translation>
+    </message>
+    <message>
+        <location filename="../src/runtime/PlaybackOSUsbSetup.cpp" line="178"/>
+        <source>Complete the system authentication prompt to enable Operator access…</source>
+        <translation>请完成系统身份验证提示，以启用 Operator 访问权限…</translation>
+    </message>
+    <message>
+        <location filename="../src/runtime/PlaybackOSUsbSetup.cpp" line="100"/>
+        <source>Enable Epilogue Operator access</source>
+        <translation>启用 Epilogue Operator 访问权限</translation>
+    </message>
+    <message>
+        <location filename="../src/runtime/PlaybackOSUsbSetup.cpp" line="221"/>
+        <source>Enter your Linux password.</source>
+        <translation>请输入您的 Linux 密码。</translation>
+    </message>
+    <message>
+        <location filename="../src/runtime/PlaybackOSUsbSetup.cpp" line="238"/>
+        <source>Installing Operator access rules…</source>
+        <translation>正在安装 Operator 访问规则…</translation>
+    </message>
+    <message>
+        <location filename="../src/runtime/PlaybackOSUsbSetup.cpp" line="337"/>
+        <source>Operator access setup could not finish.
+
+%1</source>
+        <translation>无法完成 Operator 访问权限设置。
+
+%1</translation>
+    </message>
+    <message>
+        <location filename="../src/runtime/PlaybackOSUsbSetup.cpp" line="155"/>
+        <source>Please wait a few seconds before trying setup again.</source>
+        <translation>请等待几秒后再次尝试设置。</translation>
+    </message>
+    <message>
+        <location filename="../src/runtime/PlaybackOSUsbSetup.cpp" line="179"/>
+        <source>Requesting permission to install Operator access rules…</source>
+        <translation>正在请求安装 Operator 访问规则的权限…</translation>
+    </message>
+    <message>
+        <location filename="../src/runtime/PlaybackOSUsbSetup.cpp" line="174"/>
+        <source>Secure password input is unavailable. Try setup from Desktop Mode.</source>
+        <translation>安全密码输入不可用。请尝试在桌面模式下设置。</translation>
+    </message>
+    <message>
+        <location filename="../src/runtime/PlaybackOSUsbSetup.cpp" line="360"/>
+        <source>Setup canceled. Any rules already installed will remain in place.</source>
+        <translation>设置已取消。已安装的规则将予以保留。</translation>
+    </message>
+    <message>
+        <location filename="../src/runtime/PlaybackOSUsbSetup.cpp" line="332"/>
+        <source>Setup complete. Reconnect your Operator if it is still blocked.</source>
+        <translation>设置完成。如果 Operator 仍被阻止访问，请重新连接。</translation>
+    </message>
+    <message>
+        <location filename="../src/runtime/PlaybackOSUsbSetup.cpp" line="366"/>
+        <source>Setup timed out. Reconnect the Operator to check access, or try again.</source>
+        <translation>设置超时。请重新连接 Operator 以检查访问权限，或重试。</translation>
+    </message>
+    <message>
+        <location filename="../src/runtime/PlaybackOSUsbSetup.cpp" line="207"/>
+        <source>The Operator setup installer could not be sent. Please try again.</source>
+        <translation>无法发送 Operator 设置安装程序。请重试。</translation>
+    </message>
+    <message>
+        <location filename="../src/runtime/PlaybackOSUsbSetup.cpp" line="163"/>
+        <source>The Operator setup installer is missing. Verify Playback&apos;s installed files in Steam.</source>
+        <translation>缺少 Operator 设置安装程序。请在 Steam 中验证 Playback 的已安装文件。</translation>
+    </message>
+    <message>
+        <location filename="../src/runtime/PlaybackOSUsbSetup.cpp" line="230"/>
+        <source>The password could not be sent. Please try again.</source>
+        <translation>无法发送密码。请重试。</translation>
+    </message>
+    <message>
+        <location filename="../src/runtime/PlaybackOSUsbSetup.cpp" line="346"/>
+        <source>The system setup command could not start: %1</source>
+        <translation>无法启动系统设置命令：%1</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSVideoWindow</name>
+    <message>
+        <location filename="../src/video/PlaybackOSVideoWindow.cpp" line="202"/>
+        <source>Display effects unavailable. Using the original picture.</source>
+        <translation>显示效果不可用。正在使用原始画面。</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSVirtualKeyboardKey</name>
+    <message>
+        <location filename="../src/qml/views/components/common/PlaybackOSVirtualKeyboardKey.qml" line="32"/>
+        <source>Enter</source>
+        <translation>回车</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSWindow</name>
+    <message>
+        <location filename="../src/qml/debug/PlaybackOSDebugKeyboardHelp.qml" line="47"/>
+        <source>Keyboard mappings</source>
+        <translation>键盘映射</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/debug/PlaybackOSDebugKeyboardHelp.qml" line="144"/>
+        <source>Press a key</source>
+        <translation>请按下按键</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/debug/PlaybackOSDebugKeyboardHelp.qml" line="55"/>
+        <source>Use / or ESC to close</source>
+        <translation>按 / 或 ESC 关闭</translation>
+    </message>
+</context>
+<context>
+    <name>ReadingCartridgesIndicator</name>
+    <message>
+        <location filename="../src/qml/views/components/common/ReadingCartridgesIndicator.qml" line="14"/>
+        <source>Reading carts</source>
+        <translation>正在读取卡带</translation>
+    </message>
+</context>
+<context>
+    <name>RelativeDateFormatter</name>
+    <message>
+        <location filename="../src/qml/views/components/common/RelativeDateFormatter.qml" line="58"/>
+        <source>%1 · %2</source>
+        <translation>%1 · %2</translation>
+    </message>
+</context>
+<context>
+    <name>RetroAchievementsAccount</name>
+    <message>
+        <location filename="../src/qml/views/settings/integrations/RetroAchievementsAccount.qml" line="189"/>
+        <source>Achievements</source>
+        <translation>成就</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/integrations/RetroAchievementsAccount.qml" line="230"/>
+        <source>Casual</source>
+        <translation>普通模式</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/integrations/RetroAchievementsAccount.qml" line="229"/>
+        <source>Completed</source>
+        <translation>已完成</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/integrations/RetroAchievementsAccount.qml" line="302"/>
+        <source>Could not load all account totals. You can retry from the account controls.</source>
+        <translation>无法加载全部账户汇总数据。可通过账户控件重试。</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/integrations/RetroAchievementsAccount.qml" line="190"/>
+        <source>Games</source>
+        <translation>游戏</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/integrations/RetroAchievementsAccount.qml" line="230"/>
+        <source>Hardcore</source>
+        <translation>硬核模式</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/integrations/RetroAchievementsAccount.qml" line="301"/>
+        <source>Loading account totals…</source>
+        <translation>正在加载账户汇总数据…</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/integrations/RetroAchievementsAccount.qml" line="84"/>
+        <source>Logged in as</source>
+        <translation>已登录为</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/integrations/RetroAchievementsAccount.qml" line="229"/>
+        <source>Mastered</source>
+        <translation>已精通</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/integrations/RetroAchievementsAccount.qml" line="153"/>
+        <source>Not you?</source>
+        <translation>不是您的账户？</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/integrations/RetroAchievementsAccount.qml" line="190"/>
+        <source>Points</source>
+        <translation>积分</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/integrations/RetroAchievementsAccount.qml" line="136"/>
+        <source>Your latest achievement</source>
+        <translation>您最近的成就</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/integrations/RetroAchievementsAccount.qml" line="145"/>
+        <source>Your rarest achievement</source>
+        <translation>您最稀有的成就</translation>
+    </message>
+</context>
+<context>
+    <name>RetroAchievementsNavigation</name>
+    <message>
+        <location filename="../src/qml/controllers/settings/integrations/RetroAchievementsNavigation.qml" line="27"/>
+        <source>Retry account totals</source>
+        <translation>重新加载账户汇总数据</translation>
+    </message>
+</context>
+<context>
+    <name>RetroAchievementsSettings</name>
+    <message>
+        <location filename="../src/qml/controllers/settings/cheats/CustomCheatEntryNavigation.qml" line="23"/>
+        <location filename="../src/qml/controllers/settings/integrations/RetroAchievementsNavigation.qml" line="20"/>
+        <source>Edit</source>
+        <translation>编辑</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/settings/integrations/RetroAchievementsNavigation.qml" line="17"/>
+        <location filename="../src/qml/views/settings/integrations/RetroAchievementsAccount.qml" line="166"/>
+        <source>Log out</source>
+        <translation>退出登录</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/integrations/RetroAchievementsSettingsView.qml" line="19"/>
+        <source>RetroAchievements</source>
+        <translation>RetroAchievements</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/integrations/RetroAchievementsLogin.qml" line="58"/>
+        <source>Signing in...</source>
+        <translation>正在登录...</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/integrations/RetroAchievementsAccount.qml" line="167"/>
+        <source>Signing out...</source>
+        <translation>正在退出登录...</translation>
+    </message>
+</context>
+<context>
+    <name>RetroAchievementsShowcase</name>
+    <message>
+        <location filename="../src/qml/views/settings/integrations/RetroAchievementsShowcase.qml" line="36"/>
+        <source>Based on achievement history available in Playback.</source>
+        <translation>基于 Playback 中可用的成就历史记录。</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/integrations/RetroAchievementsShowcase.qml" line="19"/>
+        <source>Unlocked %1 at %2</source>
+        <translation>于 %1 %2 解锁</translation>
+    </message>
+</context>
+<context>
+    <name>RetroCore</name>
+    <message>
+        <location filename="../playback/src/core/RetroCore.cpp" line="629"/>
+        <source>link cable checkpoint failed</source>
+        <translation>联机线检查点失败</translation>
+    </message>
+</context>
+<context>
+    <name>SettingsEmptyState</name>
+    <message>
+        <location filename="../src/qml/views/settings/sections/SettingsEmptyState.qml" line="31"/>
+        <source>Configure how games are emulated, including system, video, audio and performance options.</source>
+        <translation>配置游戏的模拟方式，包括系统、视频、音频和性能选项。</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/sections/SettingsEmptyState.qml" line="58"/>
+        <source>Insert a cartridge into your Operator to see its cheat codes.</source>
+        <translation>将卡带插入 Operator 以查看其作弊码。</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/sections/SettingsEmptyState.qml" line="54"/>
+        <source>No controller settings are available for this Operator.</source>
+        <translation>此 Operator 没有可用的控制器设置。</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/sections/SettingsEmptyState.qml" line="52"/>
+        <source>No device settings are available for this Operator.</source>
+        <translation>此 Operator 没有可用的设备设置。</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/sections/SettingsEmptyState.qml" line="56"/>
+        <source>No emulation cores are available for this Operator.</source>
+        <translation>此 Operator 没有可用的模拟内核。</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/sections/SettingsEmptyState.qml" line="50"/>
+        <source>No emulator settings are available for the selected core.</source>
+        <translation>所选内核没有可用的模拟器设置。</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/sections/SettingsEmptyState.qml" line="109"/>
+        <source>One connection away</source>
+        <translation>只需连接即可使用</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/sections/SettingsEmptyState.qml" line="120"/>
+        <source>Plug in your Operator to make these settings available.</source>
+        <translation>连接 Operator 后即可使用这些设置。</translation>
+    </message>
+</context>
+<context>
+    <name>SettingsGameTabs</name>
+    <message>
+        <location filename="../src/qml/views/components/settings/SettingsGameTabs.qml" line="114"/>
+        <source>%1 active</source>
+        <translation>%1 运行中</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/settings/SettingsGameTabs.qml" line="113"/>
+        <source>%1 selected</source>
+        <translation>已选择 %1</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/settings/SettingsGameTabs.qml" line="17"/>
+        <source>Select game</source>
+        <translation>选择游戏</translation>
+    </message>
+</context>
+<context>
+    <name>SettingsPage</name>
+    <message>
+        <location filename="../src/qml/views/components/settings/SettingsRow.qml" line="51"/>
+        <source>%1  BETA</source>
+        <translation>%1  测试版</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSDialogNavigation.qml" line="10"/>
+        <location filename="../src/qml/controllers/settings/controls/ControllerDeadzoneNavigation.qml" line="10"/>
+        <location filename="../src/qml/controllers/settings/controls/ControllerRowsNavigation.qml" line="24"/>
+        <location filename="../src/qml/controllers/settings/SettingsListNavigation.qml" line="18"/>
+        <source>Accept</source>
+        <translation>接受</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/settings/SettingsListNavigation.qml" line="20"/>
+        <source>Change language</source>
+        <translation>更改语言</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/settings/device/DeviceSettingsNavigation.qml" line="49"/>
+        <source>Apply</source>
+        <translation>应用</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/SettingsPageNavigation.qml" line="26"/>
+        <source>Back</source>
+        <translation>返回</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/settings/coreselector/CoreTabsNavigation.qml" line="33"/>
+        <source>Cannot change while playing</source>
+        <translation>游戏过程中无法更改</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/settings/controls/ControllerAssignmentNavigation.qml" line="10"/>
+        <source>Change controller</source>
+        <translation>更换控制器</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/settings/controls/ControllerRebindingNavigation.qml" line="11"/>
+        <source>Hold to cancel</source>
+        <translation>长按取消</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/settings/controls/ControlsSettingsNavigation.qml" line="35"/>
+        <source>Hold to reset</source>
+        <translation>长按重置</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/settings/controls/ControllerTestNavigation.qml" line="10"/>
+        <source>Hold to set joystick deadzone</source>
+        <translation>长按设置摇杆死区</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/settings/controls/ControllerDeadzoneNavigation.qml" line="16"/>
+        <location filename="../src/qml/controllers/settings/controls/ControllerTestNavigation.qml" line="18"/>
+        <source>Hold to stop testing controller</source>
+        <translation>长按停止测试控制器</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/settings/controls/ControlsSettingsNavigation.qml" line="28"/>
+        <source>Map all</source>
+        <translation>映射全部</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/settings/SettingsSectionRegistry.qml" line="20"/>
+        <source>Playback OS</source>
+        <translation>Playback OS</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/settings/controls/ControllerRowsNavigation.qml" line="23"/>
+        <source>Remap</source>
+        <translation>重新映射</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/SettingsPageNavigation.qml" line="22"/>
+        <source>Resume game</source>
+        <translation>继续游戏</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/sections/ControlsSettingsView.qml" line="37"/>
+        <location filename="../src/qml/views/settings/sections/CoreSelectorSettingsView.qml" line="20"/>
+        <location filename="../src/qml/views/settings/sections/DeviceSettingsView.qml" line="21"/>
+        <location filename="../src/qml/views/settings/sections/EmulatorSettingsView.qml" line="19"/>
+        <location filename="../src/qml/views/settings/sections/SettingsSectionsView.qml" line="34"/>
+        <source>Select Operator</source>
+        <translation>选择 Operator</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/settings/sections/ControlsSettingsView.qml" line="48"/>
+        <source>Select Player</source>
+        <translation>选择玩家</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/settings/controls/ControllerPreviewNavigation.qml" line="11"/>
+        <source>Test controller</source>
+        <translation>测试控制器</translation>
+    </message>
+</context>
+<context>
+    <name>SettingsTabBar</name>
+    <message>
+        <location filename="../src/qml/views/components/settings/CoreSelectorRow.qml" line="21"/>
+        <location filename="../src/qml/views/components/settings/SettingsTabBar.qml" line="118"/>
+        <source>Download failed</source>
+        <translation>下载失败</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/settings/CoreSelectorRow.qml" line="19"/>
+        <location filename="../src/qml/views/components/settings/SettingsTabBar.qml" line="118"/>
+        <source>Downloading</source>
+        <translation>正在下载</translation>
+    </message>
+</context>
+<context>
+    <name>SettingsTextField</name>
+    <message>
+        <location filename="../src/qml/views/components/settings/SettingsTextField.qml" line="12"/>
+        <source>Done</source>
+        <translation>完成</translation>
+    </message>
+</context>
+<context>
+    <name>ShaderCatalog</name>
+    <message>
+        <location filename="../playback/src/platform/common/ShaderCatalog.cpp" line="65"/>
+        <source>Arcade Monitor</source>
+        <translation>街机显示器</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/ShaderCatalog.cpp" line="58"/>
+        <source>Black &amp; White TV</source>
+        <translation>黑白电视</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/ShaderCatalog.cpp" line="77"/>
+        <source>Broadcast BVM</source>
+        <translation>广播级 BVM</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/ShaderCatalog.cpp" line="51"/>
+        <source>Consumer CRT</source>
+        <translation>家用 CRT</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/ShaderCatalog.cpp" line="39"/>
+        <source>Game Boy Color® LCD</source>
+        <translation>Game Boy Color® LCD</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/ShaderCatalog.cpp" line="45"/>
+        <source>Game Boy® Advance LCD</source>
+        <translation>Game Boy® Advance LCD</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/ShaderCatalog.cpp" line="33"/>
+        <source>Game Boy® DMG LCD</source>
+        <translation>Game Boy® DMG LCD</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/ShaderCatalog.cpp" line="83"/>
+        <source>PC CRT</source>
+        <translation>电脑 CRT</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/ShaderCatalog.cpp" line="71"/>
+        <source>Professional PVM</source>
+        <translation>专业级 PVM</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/ShaderCatalog.cpp" line="23"/>
+        <source>Sharp</source>
+        <translation>锐利</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/common/ShaderCatalog.cpp" line="28"/>
+        <source>Smooth</source>
+        <translation>平滑</translation>
+    </message>
+</context>
+<context>
+    <name>ToastModel</name>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="267"/>
+        <source> · #%1</source>
+        <translation> · #%1</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="211"/>
+        <source>%1/%2 achievements · %3/%4 points</source>
+        <translation>%1/%2 项成就 · %3/%4 积分</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="244"/>
+        <source>Attempt failed.</source>
+        <translation>挑战失败。</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="285"/>
+        <source>Challenge active: %1</source>
+        <translation>挑战进行中：%1</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="303"/>
+        <source>Completed — all achievements earned · %1 points.</source>
+        <translation>已完成 — 获得全部成就 · %1 积分。</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="426"/>
+        <source>Delete Failed</source>
+        <translation>删除失败</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="312"/>
+        <source>Game beaten — %1/%2 achievements earned.</source>
+        <translation>游戏已通关 — 获得 %1/%2 项成就。</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="224"/>
+        <source>Hardcore active</source>
+        <translation>硬核模式已启用</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="365"/>
+        <source>Host has left the game</source>
+        <translation>主机已退出游戏</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="418"/>
+        <source>Load Failed</source>
+        <translation>加载失败</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="299"/>
+        <source>Mastered — all %1 achievements unlocked.</source>
+        <translation>已精通 — 已解锁全部 %1 项成就。</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="201"/>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="324"/>
+        <source>No achievements available</source>
+        <translation>没有可用成就</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="225"/>
+        <source>No cheats, rewind, resume points or slow motion.</source>
+        <translation>无法使用作弊码、倒带、恢复点或慢动作。</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="361"/>
+        <source>Player %1 disconnected</source>
+        <translation>玩家 %1 已断开连接</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="403"/>
+        <source>Resume Point Deleted</source>
+        <translation>恢复点已删除</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="396"/>
+        <source>Resume Point Loaded</source>
+        <translation>恢复点已加载</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="389"/>
+        <source>Resume Point Saved</source>
+        <translation>恢复点已保存</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="410"/>
+        <source>Save Failed</source>
+        <translation>保存失败</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="397"/>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="404"/>
+        <source>Slot %1</source>
+        <translation>存档槽 %1</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="390"/>
+        <source>Slot %1 · %2</source>
+        <translation>存档槽 %1 · %2</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="411"/>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="419"/>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="427"/>
+        <source>Slot %1: %2</source>
+        <translation>存档槽 %1: %2</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="254"/>
+        <source>Submitted: %1</source>
+        <translation>已提交：%1</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="361"/>
+        <source>The game continues.</source>
+        <translation>游戏继续进行。</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="202"/>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="325"/>
+        <source>This game is not supported by RetroAchievements.</source>
+        <translation>RetroAchievements 不支持此游戏。</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/platform/desktop/overlay/ToastModel.cpp" line="365"/>
+        <source>You&apos;ve returned to single-player.</source>
+        <translation>您已返回单人游戏。</translation>
+    </message>
+</context>
+<context>
+    <name>netplay::NetplayClient</name>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="1692"/>
+        <source>Connected to host</source>
+        <translation>已连接主机</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="2062"/>
+        <source>Connecting to host...</source>
+        <translation>正在连接主机...</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="2094"/>
+        <source>Connection lost — recovering...</source>
+        <translation>连接已断开 — 正在恢复...</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="661"/>
+        <source>Game restarted</source>
+        <translation>游戏已重新启动</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="2103"/>
+        <source>Host disconnected — waiting for reconnection...</source>
+        <translation>主机已断开 — 正在等待重新连接...</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="2079"/>
+        <source>Joining session...</source>
+        <translation>正在加入会话...</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="2077"/>
+        <source>Joining session... %1%</source>
+        <translation>正在加入会话... %1%</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="1273"/>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="1281"/>
+        <source>Link Trade requires exactly two players</source>
+        <translation>联机交换需要恰好两位玩家</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="661"/>
+        <source>Multiplayer runs with the BIOS disabled.</source>
+        <translation>多人游戏在禁用 BIOS 的情况下运行。</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="860"/>
+        <source>POST /rooms failed: url=%1 status=%2 err=%3</source>
+        <translation>POST /rooms 失败：url=%1 status=%2 err=%3</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="869"/>
+        <source>POST /rooms: response is not a JSON object</source>
+        <translation>POST /rooms：响应不是 JSON 对象</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="877"/>
+        <source>POST /rooms: response missing code or hostToken</source>
+        <translation>POST /rooms：响应中缺少 code 或 hostToken</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="2133"/>
+        <source>Player %1 connected</source>
+        <translation>玩家 %1 已连接</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="2055"/>
+        <source>Please check the room code: %1</source>
+        <translation>请检查房间代码：%1</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="2056"/>
+        <source>Please check your internet connection and firewall settings as well.</source>
+        <translation>也请检查您的网络连接和防火墙设置。</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="782"/>
+        <source>ROM identity mismatch: host=%1 local=%2</source>
+        <translation>ROM 标识不匹配：host=%1 local=%2</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="2092"/>
+        <source>Reconnecting to signaling...</source>
+        <translation>正在重新连接信令服务...</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="2089"/>
+        <source>Reconnecting to signaling... (attempt %1/%2)</source>
+        <translation>正在重新连接信令服务...（第 %1/%2 次尝试）</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="2046"/>
+        <source>Reconnecting...</source>
+        <translation>正在重新连接...</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="2054"/>
+        <source>Retrying connection %1/%2</source>
+        <translation>正在重试连接 %1/%2</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="693"/>
+        <source>Room is full</source>
+        <translation>房间已满</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="2043"/>
+        <source>Session ended — returning to your library in %1...</source>
+        <translation>会话已结束 — 将在 %1 后返回游戏库...</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="2014"/>
+        <source>Tip: Player %1 has the best connection to everyone — they&apos;d make the smoothest host next time</source>
+        <translation>提示：玩家 %1 与所有人的连接最佳，下次由其担任主机可获得最流畅的体验</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="2064"/>
+        <source>Waiting for host to start the game</source>
+        <translation>正在等待主机开始游戏</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="1425"/>
+        <source>WebRTC peer connection failed: %1</source>
+        <translation>WebRTC 对等连接失败：%1</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="1691"/>
+        <source>You&apos;re Player %1</source>
+        <translation>您是玩家 %1</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="377"/>
+        <source>connectAsHost called without a prior createRoom</source>
+        <translation>在调用 createRoom 之前调用了 connectAsHost</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="792"/>
+        <source>core name mismatch: host=%1 local=%2</source>
+        <translation>内核名称不匹配：host=%1 local=%2</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="1657"/>
+        <source>core rejected peer state during late-join/resync</source>
+        <translation>内核在中途加入或重新同步时拒绝了对方的状态</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="827"/>
+        <source>core version mismatch: host=%1 local=%2</source>
+        <translation>内核版本不匹配：host=%1 local=%2</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="746"/>
+        <source>identity peek network error: %1</source>
+        <translation>预先读取标识时发生网络错误：%1</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="752"/>
+        <source>identity peek: response is not a JSON object</source>
+        <translation>预先读取标识：响应不是 JSON 对象</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="767"/>
+        <source>identity peek: romIdentity field missing or not hex</source>
+        <translation>预先读取标识：缺少 romIdentity 字段或其值不是十六进制</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="395"/>
+        <source>joinRoom called with an empty code</source>
+        <translation>调用 joinRoom 时提供了空代码</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="1907"/>
+        <source>peer connection handshake timed out</source>
+        <translation>对等连接握手超时</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="324"/>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="351"/>
+        <source>relay URL is not configured</source>
+        <translation>未配置中继服务器 URL</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="1501"/>
+        <source>signaling transport error: %1</source>
+        <translation>信令传输错误：%1</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="1295"/>
+        <source>the loaded core does not support Link Trade</source>
+        <translation>已加载的内核不支持联机交换</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="1294"/>
+        <source>the loaded core does not support Wireless Adapter trading</source>
+        <translation>已加载的内核不支持无线适配器交换</translation>
+    </message>
+    <message>
+        <location filename="../playback/src/core/NetplayClient.cpp" line="56"/>
+        <source>waited too long for host to start the game</source>
+        <translation>等待主机开始游戏的时间过长</translation>
     </message>
 </context>
 </TS>
