@@ -3769,6 +3769,16 @@ Controlla le impostazioni del core.</translation>
         <source>View details</source>
         <translation>Visualizza dettagli</translation>
     </message>
+    <message>
+        <location filename="../src/qml/views/pages/GamesPage.qml" line="53"/>
+        <source>A place for your first cartridge.</source>
+        <translation>Un posto per la tua prima cartuccia.</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/pages/GamesPage.qml" line="56"/>
+        <source>Insert a cartridge to begin.</source>
+        <translation>Inserisci una cartuccia per iniziare.</translation>
+    </message>
 </context>
 <context>
     <name>JoystickDeadzoneDisplay</name>
@@ -3837,6 +3847,11 @@ Controlla le impostazioni del core.</translation>
         <source>Resume game</source>
         <translation>Riprendi il gioco</translation>
     </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/LibraryDetailPageNavigation.qml" line="40"/>
+        <source>View save states</source>
+        <translation>Visualizza stati di salvataggio</translation>
+    </message>
 </context>
 <context>
     <name>LibraryPage</name>
@@ -3860,6 +3875,16 @@ Controlla le impostazioni del core.</translation>
         <source>Resume game</source>
         <translation>Riprendi il gioco</translation>
     </message>
+    <message>
+        <location filename="../src/qml/views/pages/LibraryPage.qml" line="216"/>
+        <source>All</source>
+        <translation>Tutti</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/pages/LibraryPage.qml" line="230"/>
+        <source>No games match this filter. Choose All to see your collection.</source>
+        <translation>Nessun gioco corrisponde a questo filtro. Scegli Tutti per vedere la tua raccolta.</translation>
+    </message>
 </context>
 <context>
     <name>NavigationHeader</name>
@@ -3872,6 +3897,16 @@ Controlla le impostazioni del core.</translation>
         <location filename="../src/qml/views/components/common/NavigationHeader.qml" line="23"/>
         <source>Library</source>
         <translation>Libreria</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/common/NavigationHeader.qml" line="10"/>
+        <source>Paused game</source>
+        <translation>Gioco in pausa</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/common/NavigationHeader.qml" line="10"/>
+        <source>Home</source>
+        <translation>Home</translation>
     </message>
 </context>
 <context>
@@ -4446,6 +4481,39 @@ Verifica che i contatti siano puliti e che sia inserita correttamente.</translat
         <source>Save state %1</source>
         <translation>Stato di salvataggio %1</translation>
     </message>
+    <message>
+        <location filename="../src/qml/views/components/games/PlaybackOSSaveStatesPanel.qml" line="107"/>
+        <source>Save states</source>
+        <translation>Stati di salvataggio</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/PlaybackOSSaveStatesPanel.qml" line="109"/>
+        <source>Loading…</source>
+        <translation>Caricamento…</translation>
+    </message>
+    <message numerus="yes">
+        <location filename="../src/qml/views/components/games/PlaybackOSSaveStatesPanel.qml" line="110"/>
+        <source>%n saved</source>
+        <translation>
+            <numerusform>%n salvato</numerusform>
+            <numerusform>%n salvati</numerusform>
+        </translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/PlaybackOSSaveStatesPanel.qml" line="128"/>
+        <source>Browse your saved moments. Start the game to load or manage save states from the pause menu.</source>
+        <translation>Sfoglia i tuoi momenti salvati. Avvia il gioco per caricare o gestire gli stati di salvataggio dal menu di pausa.</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/PlaybackOSSaveStatesPanel.qml" line="249"/>
+        <source>Start playing to create your first save state.</source>
+        <translation>Inizia a giocare per creare il tuo primo stato di salvataggio.</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/PlaybackOSSaveStatesPanel.qml" line="278"/>
+        <source>No save states yet</source>
+        <translation>Ancora nessuno stato di salvataggio</translation>
+    </message>
 </context>
 <context>
     <name>PlaybackOSSettingsModel</name>
@@ -4513,6 +4581,11 @@ Verifica che i contatti siano puliti e che sia inserita correttamente.</translat
         <location filename="../src/qml/controllers/PlaybackOSShaderNavigation.qml" line="25"/>
         <source>Unpause game</source>
         <translation>Riprendi il gioco</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSShaderPicker.qml" line="61"/>
+        <source>Video shader</source>
+        <translation>Shader video</translation>
     </message>
 </context>
 <context>
@@ -5586,6 +5659,655 @@ Ti consigliamo di riavviare Playback OS dalla libreria di Steam per usare Steam 
         <location filename="../playback/src/core/NetplayClient.cpp" line="56"/>
         <source>waited too long for host to start the game</source>
         <translation>L&apos;host ha impiegato troppo tempo ad avviare la partita</translation>
+    </message>
+</context>
+<context>
+    <name>GamesPageNavigation</name>
+    <message>
+        <location filename="../src/qml/controllers/pages/GamesPageNavigation.qml" line="78"/>
+        <source>Exit</source>
+        <translation>Esci</translation>
+    </message>
+</context>
+<context>
+    <name>LibraryPageNavigation</name>
+    <message>
+        <location filename="../src/qml/controllers/pages/LibraryPageNavigation.qml" line="23"/>
+        <source>A–Z</source>
+        <translation>A–Z</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/LibraryPageNavigation.qml" line="23"/>
+        <source>Recent</source>
+        <translation>Recenti</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/LibraryPageNavigation.qml" line="47"/>
+        <source>Change order</source>
+        <translation>Cambia ordine</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/LibraryPageNavigation.qml" line="47"/>
+        <source>Filter</source>
+        <translation>Filtra</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/LibraryPageNavigation.qml" line="56"/>
+        <source>Games</source>
+        <translation>Giochi</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/LibraryPageNavigation.qml" line="56"/>
+        <source>Filter / sort</source>
+        <translation>Filtra / ordina</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSExitDrawer</name>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSExitDrawer.qml" line="35"/>
+        <source>Are you sure you want to exit?</source>
+        <translation>È sicuro di voler uscire?</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSExitDrawer.qml" line="63"/>
+        <source>Cancel</source>
+        <translation>Annulla</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSExitDrawer.qml" line="63"/>
+        <source>Exit Playback OS</source>
+        <translation>Esci da Playback OS</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSExitNavigation</name>
+    <message>
+        <location filename="../src/qml/controllers/shell/PlaybackOSExitNavigation.qml" line="12"/>
+        <source>Select</source>
+        <translation>Seleziona</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/shell/PlaybackOSExitNavigation.qml" line="16"/>
+        <source>Back</source>
+        <translation>Indietro</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSGameLaunch</name>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSGameLaunch.qml" line="33"/>
+        <source>Reading game from %1…</source>
+        <translation>Lettura del gioco da %1…</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSGameLaunch.qml" line="33"/>
+        <source>Reading game…</source>
+        <translation>Lettura del gioco…</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSGameLaunch.qml" line="34"/>
+        <source>Reading and verifying save data…</source>
+        <translation>Lettura e verifica dei dati di salvataggio…</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSGameLaunch.qml" line="35"/>
+        <source>Checking cartridge…</source>
+        <translation>Verifica della cartuccia…</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSGameLaunch.qml" line="35"/>
+        <source>Almost there…</source>
+        <translation>Quasi pronto…</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSGameLaunch.qml" line="36"/>
+        <source>Preparing cartridge…</source>
+        <translation>Preparazione della cartuccia…</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSGameLaunch.qml" line="40"/>
+        <source>%1 / %2 MB</source>
+        <translation>%1 / %2 MB</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSGameLaunch.qml" line="43"/>
+        <source>%1 KB save</source>
+        <translation>Salvataggio di %1 KB</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSGameLaunch.qml" line="255"/>
+        <source>Cartridge</source>
+        <translation>Cartuccia</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSGameLaunch.qml" line="255"/>
+        <source>Game</source>
+        <translation>Gioco</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSGameLaunch.qml" line="255"/>
+        <source>Save data</source>
+        <translation>Dati di salvataggio</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSGameLaunch.qml" line="255"/>
+        <source>Ready to play</source>
+        <translation>Pronto per giocare</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSGameLaunch.qml" line="281"/>
+        <source>Identify cartridge</source>
+        <translation>Identifica cartuccia</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSGameLaunch.qml" line="281"/>
+        <source>Read from Operator</source>
+        <translation>Leggi dall’Operator</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSGameLaunch.qml" line="281"/>
+        <source>Bring your progress</source>
+        <translation>Recupera i tuoi progressi</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSGameLaunch.qml" line="281"/>
+        <source>Check cartridge</source>
+        <translation>Verifica cartuccia</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSPauseAchievement</name>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseAchievement.qml" line="62"/>
+        <source>1 point</source>
+        <translation>1 punto</translation>
+    </message>
+    <message numerus="yes">
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseAchievement.qml" line="62"/>
+        <source>%n points</source>
+        <translation>
+            <numerusform>%n punto</numerusform>
+            <numerusform>%n punti</numerusform>
+        </translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseAchievement.qml" line="63"/>
+        <source>Last recorded: %1</source>
+        <translation>Ultima rilevazione: %1</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSPauseAchievementPanel</name>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseAchievementPanel.qml" line="15"/>
+        <source>Achievements</source>
+        <translation>Obiettivi</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSPauseAchievements</name>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSPauseAchievements.qml" line="18"/>
+        <source>Unpin achievement</source>
+        <translation>Rimuovi obiettivo fissato</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSPauseAchievements.qml" line="18"/>
+        <source>Pin as next achievement</source>
+        <translation>Fissa come prossimo obiettivo</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSPauseAchievements.qml" line="22"/>
+        <source>Open settings</source>
+        <translation>Apri impostazioni</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSPauseAchievements.qml" line="32"/>
+        <source>Back</source>
+        <translation>Indietro</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSPauseConfirmation</name>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseConfirmation.qml" line="28"/>
+        <source>Just now</source>
+        <translation>Adesso</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseConfirmation.qml" line="30"/>
+        <source>1 minute ago</source>
+        <translation>1 minuto fa</translation>
+    </message>
+    <message numerus="yes">
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseConfirmation.qml" line="30"/>
+        <source>%n minutes ago</source>
+        <translation>
+            <numerusform>%n minuto fa</numerusform>
+            <numerusform>%n minuti fa</numerusform>
+        </translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseConfirmation.qml" line="41"/>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseConfirmation.qml" line="178"/>
+        <source>Restart game</source>
+        <translation>Riavvia gioco</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseConfirmation.qml" line="41"/>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseConfirmation.qml" line="178"/>
+        <source>Exit game</source>
+        <translation>Esci dal gioco</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseConfirmation.qml" line="42"/>
+        <source>Restart this game?</source>
+        <translation>Riavviare questo gioco?</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseConfirmation.qml" line="42"/>
+        <source>Finish playing?</source>
+        <translation>Terminare la partita?</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseConfirmation.qml" line="57"/>
+        <source>The game will start again. Progress since your last save will be lost.</source>
+        <translation>Il gioco verrà riavviato. I progressi dall’ultimo salvataggio andranno persi.</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseConfirmation.qml" line="58"/>
+        <source>Progress since your last in-game save or save state will be lost.</source>
+        <translation>I progressi dall’ultimo salvataggio nel gioco o stato di salvataggio andranno persi.</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseConfirmation.qml" line="68"/>
+        <source>Cartridge saves will finish before the game closes.</source>
+        <translation>Il salvataggio sulla cartuccia verrà completato prima della chiusura del gioco.</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseConfirmation.qml" line="123"/>
+        <source>Save state</source>
+        <translation>Stato di salvataggio</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseConfirmation.qml" line="123"/>
+        <source>In-game save</source>
+        <translation>Salvataggio nel gioco</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseConfirmation.qml" line="133"/>
+        <source>History unavailable</source>
+        <translation>Cronologia non disponibile</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseConfirmation.qml" line="134"/>
+        <source>No save state yet</source>
+        <translation>Ancora nessuno stato di salvataggio</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseConfirmation.qml" line="134"/>
+        <source>None detected yet</source>
+        <translation>Ancora nessun salvataggio rilevato</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseConfirmation.qml" line="142"/>
+        <source>Slot %1</source>
+        <translation>Slot %1</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseConfirmation.qml" line="143"/>
+        <source>Last recorded update</source>
+        <translation>Ultimo aggiornamento registrato</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseConfirmation.qml" line="144"/>
+        <source>Last state unknown</source>
+        <translation>Ultimo stato sconosciuto</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseConfirmation.qml" line="145"/>
+        <source>No recorded state</source>
+        <translation>Nessuno stato registrato</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseConfirmation.qml" line="145"/>
+        <source>No recorded update</source>
+        <translation>Nessun aggiornamento registrato</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseConfirmation.qml" line="172"/>
+        <source>Cancel</source>
+        <translation>Annulla</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSPauseGame</name>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSPauseGame.qml" line="26"/>
+        <source>Pinned achievement</source>
+        <translation>Obiettivo fissato</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSPauseGame.qml" line="27"/>
+        <source>Last one left</source>
+        <translation>Ne manca solo uno</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSPauseGame.qml" line="27"/>
+        <source>Up next</source>
+        <translation>Il prossimo</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSPauseGame.qml" line="83"/>
+        <source>%1h %2m</source>
+        <translation>%1 h %2 min</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSPauseGame.qml" line="84"/>
+        <source>%1m</source>
+        <translation>%1 min</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSPauseHint</name>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseHint.qml" line="79"/>
+        <source>Hint:</source>
+        <translation>Suggerimento:</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseHint.qml" line="89"/>
+        <source>Hold to pause</source>
+        <translation>Tieni premuto per mettere in pausa</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSPauseInfo</name>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseInfo.qml" line="56"/>
+        <source>Game</source>
+        <translation>Gioco</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseInfo.qml" line="157"/>
+        <source>All achievements unlocked. Nicely played.</source>
+        <translation>Tutti gli obiettivi sbloccati. Ben fatto.</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseInfo.qml" line="157"/>
+        <source>No achievement progress to show.</source>
+        <translation>Nessun progresso degli obiettivi da mostrare.</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSPauseJournal</name>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseJournal.qml" line="79"/>
+        <source>This session</source>
+        <translation>Questa sessione</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseJournal.qml" line="79"/>
+        <source>Game save updated</source>
+        <translation>Salvataggio del gioco aggiornato</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseJournal.qml" line="80"/>
+        <source>Save state · Slot %1</source>
+        <translation>Stato di salvataggio · Slot %1</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseJournal.qml" line="80"/>
+        <source>Save state</source>
+        <translation>Stato di salvataggio</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseJournal.qml" line="101"/>
+        <source>Started %1</source>
+        <translation>Inizio: %1</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseJournal.qml" line="103"/>
+        <source>No save state yet</source>
+        <translation>Ancora nessuno stato di salvataggio</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseJournal.qml" line="104"/>
+        <source>Just started</source>
+        <translation>Appena iniziata</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseJournal.qml" line="105"/>
+        <source>None detected yet</source>
+        <translation>Ancora nessun salvataggio rilevato</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseJournal.qml" line="197"/>
+        <source>Achievements</source>
+        <translation>Obiettivi</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSPauseNavigation</name>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSPauseNavigation.qml" line="19"/>
+        <source>Achievements</source>
+        <translation>Obiettivi</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSPauseNavigation.qml" line="19"/>
+        <source>Save states</source>
+        <translation>Stati di salvataggio</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSPauseNavigation.qml" line="19"/>
+        <source>Video shader</source>
+        <translation>Shader video</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSPauseNavigation.qml" line="20"/>
+        <source>Quick settings</source>
+        <translation>Impostazioni rapide</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSPauseNavigation.qml" line="20"/>
+        <source>Restart game</source>
+        <translation>Riavvia gioco</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSPauseNavigation.qml" line="20"/>
+        <source>Exit game</source>
+        <translation>Esci dal gioco</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSPauseNavigation.qml" line="21"/>
+        <source>Loading…</source>
+        <translation>Caricamento…</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSPauseNavigation.qml" line="22"/>
+        <source>%1 / %2 saved</source>
+        <translation>%1 / %2 salvati</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSPauseNavigation.qml" line="26"/>
+        <source>%1 / %2 · %3 pts</source>
+        <translation>%1 / %2 · %3 pt</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSPauseNavigation.qml" line="28"/>
+        <source>RetroAchievements</source>
+        <translation>RetroAchievements</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSPauseNavigation.qml" line="52"/>
+        <location filename="../src/qml/controllers/PlaybackOSPauseNavigation.qml" line="61"/>
+        <source>Resume game</source>
+        <translation>Riprendi il gioco</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSPauseNavigation.qml" line="55"/>
+        <source>Cancel</source>
+        <translation>Annulla</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSPauseNavigation.qml" line="56"/>
+        <source>Open</source>
+        <translation>Apri</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSPauseNavigation.qml" line="61"/>
+        <source>Back</source>
+        <translation>Indietro</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSPauseQuickPanel</name>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseQuickPanel.qml" line="17"/>
+        <source>Quick settings</source>
+        <translation>Impostazioni rapide</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseQuickPanel.qml" line="61"/>
+        <source>%1%</source>
+        <translation>%1%</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSProcDump</name>
+    <message>
+        <location filename="../src/diagnostics/windows/PlaybackOSProcDump.cpp" line="37"/>
+        <source>Another Playback OS diagnostic setup is running. Close it and try again.</source>
+        <translation>È già in corso un’altra configurazione della diagnostica di Playback OS. Chiudila e riprova.</translation>
+    </message>
+    <message>
+        <location filename="../src/diagnostics/windows/PlaybackOSProcDump.cpp" line="50"/>
+        <source>Playback OS started, but ProcDump monitoring failed. See the diagnostic folder.</source>
+        <translation>Playback OS è stato avviato, ma il monitoraggio di ProcDump non è riuscito. Consulta la cartella di diagnostica.</translation>
+    </message>
+    <message>
+        <location filename="../src/diagnostics/windows/PlaybackOSProcDump.cpp" line="64"/>
+        <source>Could not create the Playback OS diagnostic folder.</source>
+        <translation>Impossibile creare la cartella di diagnostica di Playback OS.</translation>
+    </message>
+    <message>
+        <location filename="../src/diagnostics/windows/PlaybackOSProcDump.cpp" line="69"/>
+        <source>ProcDump diagnostics need at least 4 GB of free disk space. Free some space and try again.</source>
+        <translation>La diagnostica ProcDump richiede almeno 4 GB di spazio libero su disco. Libera spazio e riprova.</translation>
+    </message>
+    <message>
+        <location filename="../src/diagnostics/windows/PlaybackOSProcDump.cpp" line="78"/>
+        <source>ProcDump could not be downloaded or verified. See setup.log in the diagnostic folder.</source>
+        <translation>Impossibile scaricare o verificare ProcDump. Consulta setup.log nella cartella di diagnostica.</translation>
+    </message>
+    <message>
+        <location filename="../src/diagnostics/windows/PlaybackOSProcDump.cpp" line="88"/>
+        <source>Could not open Microsoft ProcDump's license prompt.</source>
+        <translation>Impossibile aprire la finestra della licenza di Microsoft ProcDump.</translation>
+    </message>
+    <message>
+        <location filename="../src/diagnostics/windows/PlaybackOSProcDump.cpp" line="94"/>
+        <source>ProcDump diagnostics require accepting Microsoft's license. Playback OS was not started.</source>
+        <translation>La diagnostica ProcDump richiede l’accettazione della licenza Microsoft. Playback OS non è stato avviato.</translation>
+    </message>
+    <message>
+        <location filename="../src/diagnostics/windows/PlaybackOSProcDump.cpp" line="110"/>
+        <source>Could not start Playback OS.</source>
+        <translation>Impossibile avviare Playback OS.</translation>
+    </message>
+    <message>
+        <location filename="../src/diagnostics/windows/PlaybackOSProcDump.cpp" line="130"/>
+        <source>ProcDump stopped with an error. Check procdump.log in the diagnostic folder after Playback OS exits.</source>
+        <translation>ProcDump si è arrestato con un errore. Controlla procdump.log nella cartella di diagnostica dopo la chiusura di Playback OS.</translation>
+    </message>
+    <message>
+        <location filename="../src/diagnostics/windows/PlaybackOSProcDump.cpp" line="162"/>
+        <source>Playback OS diagnostics</source>
+        <translation>Diagnostica di Playback OS</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSQuickNavigation</name>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSQuickNavigation.qml" line="16"/>
+        <source>Fit</source>
+        <translation>Adatta</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSQuickNavigation.qml" line="16"/>
+        <source>Integer scale</source>
+        <translation>Scala intera</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSQuickNavigation.qml" line="16"/>
+        <source>Stretch</source>
+        <translation>Allunga</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSQuickNavigation.qml" line="17"/>
+        <source>%1x</source>
+        <translation>%1×</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSQuickNavigation.qml" line="18"/>
+        <source>Volume</source>
+        <translation>Volume</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSQuickNavigation.qml" line="18"/>
+        <source>Mute</source>
+        <translation>Disattiva audio</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSQuickNavigation.qml" line="18"/>
+        <source>Picture size</source>
+        <translation>Dimensione immagine</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSQuickNavigation.qml" line="19"/>
+        <source>Fast forward speed</source>
+        <translation>Velocità di avanzamento rapido</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSQuickNavigation.qml" line="19"/>
+        <source>FPS counter</source>
+        <translation>Contatore FPS</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSQuickNavigation.qml" line="19"/>
+        <source>Reduce motion</source>
+        <translation>Riduci movimento</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSQuickNavigation.qml" line="20"/>
+        <source>%1%</source>
+        <translation>%1%</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSQuickNavigation.qml" line="20"/>
+        <location filename="../src/qml/controllers/PlaybackOSQuickNavigation.qml" line="22"/>
+        <location filename="../src/qml/controllers/PlaybackOSQuickNavigation.qml" line="23"/>
+        <source>On</source>
+        <translation>Attivo</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSQuickNavigation.qml" line="20"/>
+        <location filename="../src/qml/controllers/PlaybackOSQuickNavigation.qml" line="22"/>
+        <location filename="../src/qml/controllers/PlaybackOSQuickNavigation.qml" line="23"/>
+        <source>Off</source>
+        <translation>Disattivo</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSQuickNavigation.qml" line="28"/>
+        <source>Change</source>
+        <translation>Cambia</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSQuickNavigation.qml" line="33"/>
+        <source>Back</source>
+        <translation>Indietro</translation>
     </message>
 </context>
 </TS>

@@ -3769,6 +3769,16 @@ Please check core settings.</source>
         <source>View details</source>
         <translation>자세히 보기</translation>
     </message>
+    <message>
+        <location filename="../src/qml/views/pages/GamesPage.qml" line="53"/>
+        <source>A place for your first cartridge.</source>
+        <translation>첫 카트리지를 위한 공간입니다.</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/pages/GamesPage.qml" line="56"/>
+        <source>Insert a cartridge to begin.</source>
+        <translation>카트리지를 삽입하여 시작하세요.</translation>
+    </message>
 </context>
 <context>
     <name>JoystickDeadzoneDisplay</name>
@@ -3837,6 +3847,11 @@ Please check core settings.</source>
         <source>Resume game</source>
         <translation>게임 재개</translation>
     </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/LibraryDetailPageNavigation.qml" line="40"/>
+        <source>View save states</source>
+        <translation>저장 상태 보기</translation>
+    </message>
 </context>
 <context>
     <name>LibraryPage</name>
@@ -3860,6 +3875,16 @@ Please check core settings.</source>
         <source>Resume game</source>
         <translation>게임 재개</translation>
     </message>
+    <message>
+        <location filename="../src/qml/views/pages/LibraryPage.qml" line="216"/>
+        <source>All</source>
+        <translation>전체</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/pages/LibraryPage.qml" line="230"/>
+        <source>No games match this filter. Choose All to see your collection.</source>
+        <translation>이 필터에 맞는 게임이 없습니다. 전체를 선택하면 컬렉션을 볼 수 있습니다.</translation>
+    </message>
 </context>
 <context>
     <name>NavigationHeader</name>
@@ -3872,6 +3897,16 @@ Please check core settings.</source>
         <location filename="../src/qml/views/components/common/NavigationHeader.qml" line="23"/>
         <source>Library</source>
         <translation>라이브러리</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/common/NavigationHeader.qml" line="10"/>
+        <source>Paused game</source>
+        <translation>일시 정지된 게임</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/common/NavigationHeader.qml" line="10"/>
+        <source>Home</source>
+        <translation>홈</translation>
     </message>
 </context>
 <context>
@@ -4446,6 +4481,38 @@ Check the pins are clean and it&apos;s seated securely.</source>
         <source>Save state %1</source>
         <translation>저장 상태 %1</translation>
     </message>
+    <message>
+        <location filename="../src/qml/views/components/games/PlaybackOSSaveStatesPanel.qml" line="107"/>
+        <source>Save states</source>
+        <translation>저장 상태</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/PlaybackOSSaveStatesPanel.qml" line="109"/>
+        <source>Loading…</source>
+        <translation>불러오는 중…</translation>
+    </message>
+    <message numerus="yes">
+        <location filename="../src/qml/views/components/games/PlaybackOSSaveStatesPanel.qml" line="110"/>
+        <source>%n saved</source>
+        <translation>
+            <numerusform>%n개 저장됨</numerusform>
+        </translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/PlaybackOSSaveStatesPanel.qml" line="128"/>
+        <source>Browse your saved moments. Start the game to load or manage save states from the pause menu.</source>
+        <translation>저장한 순간들을 살펴보세요. 게임을 시작하면 일시 정지 메뉴에서 저장 상태를 불러오거나 관리할 수 있습니다.</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/PlaybackOSSaveStatesPanel.qml" line="249"/>
+        <source>Start playing to create your first save state.</source>
+        <translation>플레이를 시작하여 첫 저장 상태를 만드세요.</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/PlaybackOSSaveStatesPanel.qml" line="278"/>
+        <source>No save states yet</source>
+        <translation>아직 저장 상태가 없습니다</translation>
+    </message>
 </context>
 <context>
     <name>PlaybackOSSettingsModel</name>
@@ -4513,6 +4580,11 @@ Check the pins are clean and it&apos;s seated securely.</source>
         <location filename="../src/qml/controllers/PlaybackOSShaderNavigation.qml" line="25"/>
         <source>Unpause game</source>
         <translation>게임 일시정지 해제</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSShaderPicker.qml" line="61"/>
+        <source>Video shader</source>
+        <translation>비디오 셰이더</translation>
     </message>
 </context>
 <context>
@@ -5586,6 +5658,653 @@ Steam Cloud를 사용하려면 Steam 라이브러리에서 Playback OS를 다시
         <location filename="../playback/src/core/NetplayClient.cpp" line="56"/>
         <source>waited too long for host to start the game</source>
         <translation>호스트의 게임 시작 대기 시간이 초과되었습니다</translation>
+    </message>
+</context>
+<context>
+    <name>GamesPageNavigation</name>
+    <message>
+        <location filename="../src/qml/controllers/pages/GamesPageNavigation.qml" line="78"/>
+        <source>Exit</source>
+        <translation>종료</translation>
+    </message>
+</context>
+<context>
+    <name>LibraryPageNavigation</name>
+    <message>
+        <location filename="../src/qml/controllers/pages/LibraryPageNavigation.qml" line="23"/>
+        <source>A–Z</source>
+        <translation>가나다순</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/LibraryPageNavigation.qml" line="23"/>
+        <source>Recent</source>
+        <translation>최근</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/LibraryPageNavigation.qml" line="47"/>
+        <source>Change order</source>
+        <translation>순서 변경</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/LibraryPageNavigation.qml" line="47"/>
+        <source>Filter</source>
+        <translation>필터</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/LibraryPageNavigation.qml" line="56"/>
+        <source>Games</source>
+        <translation>게임</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/LibraryPageNavigation.qml" line="56"/>
+        <source>Filter / sort</source>
+        <translation>필터 / 정렬</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSExitDrawer</name>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSExitDrawer.qml" line="35"/>
+        <source>Are you sure you want to exit?</source>
+        <translation>정말 종료하시겠습니까?</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSExitDrawer.qml" line="63"/>
+        <source>Cancel</source>
+        <translation>취소</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSExitDrawer.qml" line="63"/>
+        <source>Exit Playback OS</source>
+        <translation>Playback OS 종료</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSExitNavigation</name>
+    <message>
+        <location filename="../src/qml/controllers/shell/PlaybackOSExitNavigation.qml" line="12"/>
+        <source>Select</source>
+        <translation>선택</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/shell/PlaybackOSExitNavigation.qml" line="16"/>
+        <source>Back</source>
+        <translation>뒤로</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSGameLaunch</name>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSGameLaunch.qml" line="33"/>
+        <source>Reading game from %1…</source>
+        <translation>%1에서 게임 읽는 중…</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSGameLaunch.qml" line="33"/>
+        <source>Reading game…</source>
+        <translation>게임 읽는 중…</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSGameLaunch.qml" line="34"/>
+        <source>Reading and verifying save data…</source>
+        <translation>저장 데이터 읽기 및 확인 중…</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSGameLaunch.qml" line="35"/>
+        <source>Checking cartridge…</source>
+        <translation>카트리지 확인 중…</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSGameLaunch.qml" line="35"/>
+        <source>Almost there…</source>
+        <translation>거의 완료되었습니다…</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSGameLaunch.qml" line="36"/>
+        <source>Preparing cartridge…</source>
+        <translation>카트리지 준비 중…</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSGameLaunch.qml" line="40"/>
+        <source>%1 / %2 MB</source>
+        <translation>%1 / %2 MB</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSGameLaunch.qml" line="43"/>
+        <source>%1 KB save</source>
+        <translation>%1 KB 저장 데이터</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSGameLaunch.qml" line="255"/>
+        <source>Cartridge</source>
+        <translation>카트리지</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSGameLaunch.qml" line="255"/>
+        <source>Game</source>
+        <translation>게임</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSGameLaunch.qml" line="255"/>
+        <source>Save data</source>
+        <translation>저장 데이터</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSGameLaunch.qml" line="255"/>
+        <source>Ready to play</source>
+        <translation>플레이 준비 완료</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSGameLaunch.qml" line="281"/>
+        <source>Identify cartridge</source>
+        <translation>카트리지 식별</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSGameLaunch.qml" line="281"/>
+        <source>Read from Operator</source>
+        <translation>Operator에서 읽기</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSGameLaunch.qml" line="281"/>
+        <source>Bring your progress</source>
+        <translation>진행 상황 가져오기</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSGameLaunch.qml" line="281"/>
+        <source>Check cartridge</source>
+        <translation>카트리지 확인</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSPauseAchievement</name>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseAchievement.qml" line="62"/>
+        <source>1 point</source>
+        <translation>1점</translation>
+    </message>
+    <message numerus="yes">
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseAchievement.qml" line="62"/>
+        <source>%n points</source>
+        <translation>
+            <numerusform>%n점</numerusform>
+        </translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseAchievement.qml" line="63"/>
+        <source>Last recorded: %1</source>
+        <translation>마지막 기록: %1</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSPauseAchievementPanel</name>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseAchievementPanel.qml" line="15"/>
+        <source>Achievements</source>
+        <translation>업적</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSPauseAchievements</name>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSPauseAchievements.qml" line="18"/>
+        <source>Unpin achievement</source>
+        <translation>도전 과제 고정 해제</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSPauseAchievements.qml" line="18"/>
+        <source>Pin as next achievement</source>
+        <translation>다음 도전 과제로 고정</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSPauseAchievements.qml" line="22"/>
+        <source>Open settings</source>
+        <translation>설정 열기</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSPauseAchievements.qml" line="32"/>
+        <source>Back</source>
+        <translation>뒤로</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSPauseConfirmation</name>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseConfirmation.qml" line="28"/>
+        <source>Just now</source>
+        <translation>방금 전</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseConfirmation.qml" line="30"/>
+        <source>1 minute ago</source>
+        <translation>1분 전</translation>
+    </message>
+    <message numerus="yes">
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseConfirmation.qml" line="30"/>
+        <source>%n minutes ago</source>
+        <translation>
+            <numerusform>%n분 전</numerusform>
+        </translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseConfirmation.qml" line="41"/>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseConfirmation.qml" line="178"/>
+        <source>Restart game</source>
+        <translation>게임 다시 시작</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseConfirmation.qml" line="41"/>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseConfirmation.qml" line="178"/>
+        <source>Exit game</source>
+        <translation>게임 종료</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseConfirmation.qml" line="42"/>
+        <source>Restart this game?</source>
+        <translation>이 게임을 다시 시작할까요?</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseConfirmation.qml" line="42"/>
+        <source>Finish playing?</source>
+        <translation>플레이를 종료할까요?</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseConfirmation.qml" line="57"/>
+        <source>The game will start again. Progress since your last save will be lost.</source>
+        <translation>게임이 다시 시작됩니다. 마지막 저장 이후의 진행 상황은 사라집니다.</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseConfirmation.qml" line="58"/>
+        <source>Progress since your last in-game save or save state will be lost.</source>
+        <translation>마지막 게임 내 저장 또는 저장 상태 이후의 진행 상황은 사라집니다.</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseConfirmation.qml" line="68"/>
+        <source>Cartridge saves will finish before the game closes.</source>
+        <translation>카트리지 저장이 완료된 후 게임이 종료됩니다.</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseConfirmation.qml" line="123"/>
+        <source>Save state</source>
+        <translation>저장 상태</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseConfirmation.qml" line="123"/>
+        <source>In-game save</source>
+        <translation>게임 내 저장</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseConfirmation.qml" line="133"/>
+        <source>History unavailable</source>
+        <translation>기록을 사용할 수 없음</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseConfirmation.qml" line="134"/>
+        <source>No save state yet</source>
+        <translation>아직 저장 상태가 없음</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseConfirmation.qml" line="134"/>
+        <source>None detected yet</source>
+        <translation>아직 감지된 저장 데이터가 없음</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseConfirmation.qml" line="142"/>
+        <source>Slot %1</source>
+        <translation>슬롯 %1</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseConfirmation.qml" line="143"/>
+        <source>Last recorded update</source>
+        <translation>마지막으로 기록된 업데이트</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseConfirmation.qml" line="144"/>
+        <source>Last state unknown</source>
+        <translation>마지막 상태를 알 수 없음</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseConfirmation.qml" line="145"/>
+        <source>No recorded state</source>
+        <translation>기록된 상태가 없음</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseConfirmation.qml" line="145"/>
+        <source>No recorded update</source>
+        <translation>기록된 업데이트가 없음</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseConfirmation.qml" line="172"/>
+        <source>Cancel</source>
+        <translation>취소</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSPauseGame</name>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSPauseGame.qml" line="26"/>
+        <source>Pinned achievement</source>
+        <translation>고정된 도전 과제</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSPauseGame.qml" line="27"/>
+        <source>Last one left</source>
+        <translation>이제 하나 남았어요</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSPauseGame.qml" line="27"/>
+        <source>Up next</source>
+        <translation>다음 도전 과제</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSPauseGame.qml" line="83"/>
+        <source>%1h %2m</source>
+        <translation>%1시간 %2분</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSPauseGame.qml" line="84"/>
+        <source>%1m</source>
+        <translation>%1분</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSPauseHint</name>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseHint.qml" line="79"/>
+        <source>Hint:</source>
+        <translation>도움말:</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseHint.qml" line="89"/>
+        <source>Hold to pause</source>
+        <translation>길게 눌러 일시정지</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSPauseInfo</name>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseInfo.qml" line="56"/>
+        <source>Game</source>
+        <translation>게임</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseInfo.qml" line="157"/>
+        <source>All achievements unlocked. Nicely played.</source>
+        <translation>모든 도전 과제를 달성했습니다. 잘하셨습니다.</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseInfo.qml" line="157"/>
+        <source>No achievement progress to show.</source>
+        <translation>표시할 도전 과제 진행 상황이 없습니다.</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSPauseJournal</name>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseJournal.qml" line="79"/>
+        <source>This session</source>
+        <translation>이번 세션</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseJournal.qml" line="79"/>
+        <source>Game save updated</source>
+        <translation>게임 저장 데이터 업데이트됨</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseJournal.qml" line="80"/>
+        <source>Save state · Slot %1</source>
+        <translation>저장 상태 · 슬롯 %1</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseJournal.qml" line="80"/>
+        <source>Save state</source>
+        <translation>저장 상태</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseJournal.qml" line="101"/>
+        <source>Started %1</source>
+        <translation>시작: %1</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseJournal.qml" line="103"/>
+        <source>No save state yet</source>
+        <translation>아직 저장 상태가 없음</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseJournal.qml" line="104"/>
+        <source>Just started</source>
+        <translation>방금 시작됨</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseJournal.qml" line="105"/>
+        <source>None detected yet</source>
+        <translation>아직 감지된 저장 데이터가 없음</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseJournal.qml" line="197"/>
+        <source>Achievements</source>
+        <translation>업적</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSPauseNavigation</name>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSPauseNavigation.qml" line="19"/>
+        <source>Achievements</source>
+        <translation>업적</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSPauseNavigation.qml" line="19"/>
+        <source>Save states</source>
+        <translation>저장 상태</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSPauseNavigation.qml" line="19"/>
+        <source>Video shader</source>
+        <translation>비디오 셰이더</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSPauseNavigation.qml" line="20"/>
+        <source>Quick settings</source>
+        <translation>빠른 설정</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSPauseNavigation.qml" line="20"/>
+        <source>Restart game</source>
+        <translation>게임 다시 시작</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSPauseNavigation.qml" line="20"/>
+        <source>Exit game</source>
+        <translation>게임 종료</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSPauseNavigation.qml" line="21"/>
+        <source>Loading…</source>
+        <translation>불러오는 중…</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSPauseNavigation.qml" line="22"/>
+        <source>%1 / %2 saved</source>
+        <translation>%1 / %2 저장됨</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSPauseNavigation.qml" line="26"/>
+        <source>%1 / %2 · %3 pts</source>
+        <translation>%1 / %2 · %3점</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSPauseNavigation.qml" line="28"/>
+        <source>RetroAchievements</source>
+        <translation>RetroAchievements</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSPauseNavigation.qml" line="52"/>
+        <location filename="../src/qml/controllers/PlaybackOSPauseNavigation.qml" line="61"/>
+        <source>Resume game</source>
+        <translation>게임 재개</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSPauseNavigation.qml" line="55"/>
+        <source>Cancel</source>
+        <translation>취소</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSPauseNavigation.qml" line="56"/>
+        <source>Open</source>
+        <translation>열기</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSPauseNavigation.qml" line="61"/>
+        <source>Back</source>
+        <translation>뒤로</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSPauseQuickPanel</name>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseQuickPanel.qml" line="17"/>
+        <source>Quick settings</source>
+        <translation>빠른 설정</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseQuickPanel.qml" line="61"/>
+        <source>%1%</source>
+        <translation>%1%</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSProcDump</name>
+    <message>
+        <location filename="../src/diagnostics/windows/PlaybackOSProcDump.cpp" line="37"/>
+        <source>Another Playback OS diagnostic setup is running. Close it and try again.</source>
+        <translation>다른 Playback OS 진단 설정이 실행 중입니다. 닫고 다시 시도하세요.</translation>
+    </message>
+    <message>
+        <location filename="../src/diagnostics/windows/PlaybackOSProcDump.cpp" line="50"/>
+        <source>Playback OS started, but ProcDump monitoring failed. See the diagnostic folder.</source>
+        <translation>Playback OS가 시작되었지만 ProcDump 모니터링에 실패했습니다. 진단 폴더를 확인하세요.</translation>
+    </message>
+    <message>
+        <location filename="../src/diagnostics/windows/PlaybackOSProcDump.cpp" line="64"/>
+        <source>Could not create the Playback OS diagnostic folder.</source>
+        <translation>Playback OS 진단 폴더를 만들 수 없습니다.</translation>
+    </message>
+    <message>
+        <location filename="../src/diagnostics/windows/PlaybackOSProcDump.cpp" line="69"/>
+        <source>ProcDump diagnostics need at least 4 GB of free disk space. Free some space and try again.</source>
+        <translation>ProcDump 진단에는 최소 4 GB의 디스크 여유 공간이 필요합니다. 공간을 확보하고 다시 시도하세요.</translation>
+    </message>
+    <message>
+        <location filename="../src/diagnostics/windows/PlaybackOSProcDump.cpp" line="78"/>
+        <source>ProcDump could not be downloaded or verified. See setup.log in the diagnostic folder.</source>
+        <translation>ProcDump를 다운로드하거나 검증할 수 없습니다. 진단 폴더의 setup.log를 확인하세요.</translation>
+    </message>
+    <message>
+        <location filename="../src/diagnostics/windows/PlaybackOSProcDump.cpp" line="88"/>
+        <source>Could not open Microsoft ProcDump's license prompt.</source>
+        <translation>Microsoft ProcDump 라이선스 대화 상자를 열 수 없습니다.</translation>
+    </message>
+    <message>
+        <location filename="../src/diagnostics/windows/PlaybackOSProcDump.cpp" line="94"/>
+        <source>ProcDump diagnostics require accepting Microsoft's license. Playback OS was not started.</source>
+        <translation>ProcDump 진단을 사용하려면 Microsoft 라이선스에 동의해야 합니다. Playback OS가 시작되지 않았습니다.</translation>
+    </message>
+    <message>
+        <location filename="../src/diagnostics/windows/PlaybackOSProcDump.cpp" line="110"/>
+        <source>Could not start Playback OS.</source>
+        <translation>Playback OS를 시작할 수 없습니다.</translation>
+    </message>
+    <message>
+        <location filename="../src/diagnostics/windows/PlaybackOSProcDump.cpp" line="130"/>
+        <source>ProcDump stopped with an error. Check procdump.log in the diagnostic folder after Playback OS exits.</source>
+        <translation>ProcDump가 오류로 중지되었습니다. Playback OS 종료 후 진단 폴더의 procdump.log를 확인하세요.</translation>
+    </message>
+    <message>
+        <location filename="../src/diagnostics/windows/PlaybackOSProcDump.cpp" line="162"/>
+        <source>Playback OS diagnostics</source>
+        <translation>Playback OS 진단</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSQuickNavigation</name>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSQuickNavigation.qml" line="16"/>
+        <source>Fit</source>
+        <translation>화면에 맞춤</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSQuickNavigation.qml" line="16"/>
+        <source>Integer scale</source>
+        <translation>정수 배율</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSQuickNavigation.qml" line="16"/>
+        <source>Stretch</source>
+        <translation>늘리기</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSQuickNavigation.qml" line="17"/>
+        <source>%1x</source>
+        <translation>%1배</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSQuickNavigation.qml" line="18"/>
+        <source>Volume</source>
+        <translation>음량</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSQuickNavigation.qml" line="18"/>
+        <source>Mute</source>
+        <translation>음소거</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSQuickNavigation.qml" line="18"/>
+        <source>Picture size</source>
+        <translation>화면 크기</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSQuickNavigation.qml" line="19"/>
+        <source>Fast forward speed</source>
+        <translation>빨리 감기 속도</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSQuickNavigation.qml" line="19"/>
+        <source>FPS counter</source>
+        <translation>FPS 카운터</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSQuickNavigation.qml" line="19"/>
+        <source>Reduce motion</source>
+        <translation>동작 줄이기</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSQuickNavigation.qml" line="20"/>
+        <source>%1%</source>
+        <translation>%1%</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSQuickNavigation.qml" line="20"/>
+        <location filename="../src/qml/controllers/PlaybackOSQuickNavigation.qml" line="22"/>
+        <location filename="../src/qml/controllers/PlaybackOSQuickNavigation.qml" line="23"/>
+        <source>On</source>
+        <translation>켬</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSQuickNavigation.qml" line="20"/>
+        <location filename="../src/qml/controllers/PlaybackOSQuickNavigation.qml" line="22"/>
+        <location filename="../src/qml/controllers/PlaybackOSQuickNavigation.qml" line="23"/>
+        <source>Off</source>
+        <translation>끔</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSQuickNavigation.qml" line="28"/>
+        <source>Change</source>
+        <translation>변경</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSQuickNavigation.qml" line="33"/>
+        <source>Back</source>
+        <translation>뒤로</translation>
     </message>
 </context>
 </TS>
