@@ -3445,6 +3445,16 @@ Please check core settings.</source>
         <source>View details</source>
         <translation>Προβολή λεπτομερειών</translation>
     </message>
+    <message>
+        <location filename="../src/qml/views/pages/GamesPage.qml" line="53"/>
+        <source>A place for your first cartridge.</source>
+        <translation>Μια θέση για την πρώτη σας κασέτα.</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/pages/GamesPage.qml" line="56"/>
+        <source>Insert a cartridge to begin.</source>
+        <translation>Τοποθετήστε μια κασέτα για να ξεκινήσετε.</translation>
+    </message>
 </context>
 <context>
     <name>JoystickDeadzoneDisplay</name>
@@ -3513,6 +3523,11 @@ Please check core settings.</source>
         <source>Resume game</source>
         <translation>Συνέχιση παιχνιδιού</translation>
     </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/LibraryDetailPageNavigation.qml" line="40"/>
+        <source>View save states</source>
+        <translation>Προβολή αποθηκευμένων καταστάσεων</translation>
+    </message>
 </context>
 <context>
     <name>LibraryPage</name>
@@ -3536,6 +3551,16 @@ Please check core settings.</source>
         <source>Resume game</source>
         <translation>Συνέχιση παιχνιδιού</translation>
     </message>
+    <message>
+        <location filename="../src/qml/views/pages/LibraryPage.qml" line="216"/>
+        <source>All</source>
+        <translation>Όλα</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/pages/LibraryPage.qml" line="230"/>
+        <source>No games match this filter. Choose All to see your collection.</source>
+        <translation>Κανένα παιχνίδι δεν ταιριάζει με αυτό το φίλτρο. Επιλέξτε Όλα για να δείτε τη συλλογή σας.</translation>
+    </message>
 </context>
 <context>
     <name>NavigationHeader</name>
@@ -3548,6 +3573,16 @@ Please check core settings.</source>
         <location filename="../src/qml/views/components/common/NavigationHeader.qml" line="23"/>
         <source>Library</source>
         <translation>Βιβλιοθήκη</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/common/NavigationHeader.qml" line="10"/>
+        <source>Paused game</source>
+        <translation>Παιχνίδι σε παύση</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/common/NavigationHeader.qml" line="10"/>
+        <source>Home</source>
+        <translation>Αρχική</translation>
     </message>
 </context>
 <context>
@@ -4122,6 +4157,39 @@ Check the pins are clean and it&apos;s seated securely.</source>
         <source>Save state %1</source>
         <translation>Αποθηκευμένη κατάσταση %1</translation>
     </message>
+    <message>
+        <location filename="../src/qml/views/components/games/PlaybackOSSaveStatesPanel.qml" line="107"/>
+        <source>Save states</source>
+        <translation>Αποθηκευμένες καταστάσεις</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/PlaybackOSSaveStatesPanel.qml" line="109"/>
+        <source>Loading…</source>
+        <translation>Φόρτωση…</translation>
+    </message>
+    <message numerus="yes">
+        <location filename="../src/qml/views/components/games/PlaybackOSSaveStatesPanel.qml" line="110"/>
+        <source>%n saved</source>
+        <translation>
+            <numerusform>%n αποθηκευμένη</numerusform>
+            <numerusform>%n αποθηκευμένες</numerusform>
+        </translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/PlaybackOSSaveStatesPanel.qml" line="128"/>
+        <source>Browse your saved moments. Start the game to load or manage save states from the pause menu.</source>
+        <translation>Περιηγηθείτε στις αποθηκευμένες στιγμές σας. Ξεκινήστε το παιχνίδι για να φορτώσετε ή να διαχειριστείτε αποθηκευμένες καταστάσεις από το μενού παύσης.</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/PlaybackOSSaveStatesPanel.qml" line="249"/>
+        <source>Start playing to create your first save state.</source>
+        <translation>Αρχίστε να παίζετε για να δημιουργήσετε την πρώτη αποθηκευμένη κατάσταση.</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/PlaybackOSSaveStatesPanel.qml" line="278"/>
+        <source>No save states yet</source>
+        <translation>Δεν υπάρχουν ακόμη αποθηκευμένες καταστάσεις</translation>
+    </message>
 </context>
 <context>
     <name>PlaybackOSSettingsModel</name>
@@ -4189,6 +4257,11 @@ Check the pins are clean and it&apos;s seated securely.</source>
         <location filename="../src/qml/controllers/PlaybackOSShaderNavigation.qml" line="25"/>
         <source>Unpause game</source>
         <translation>Άρση παύσης παιχνιδιού</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSShaderPicker.qml" line="61"/>
+        <source>Video shader</source>
+        <translation>Shader βίντεο</translation>
     </message>
 </context>
 <context>
@@ -5262,6 +5335,655 @@ We recommend restarting Playback OS from your Steam Library to use Steam Cloud.<
         <location filename="../playback/src/core/NetplayClient.cpp" line="56"/>
         <source>waited too long for host to start the game</source>
         <translation>Υπέρβαση χρόνου αναμονής για την έναρξη παιχνιδιού από τον οικοδεσπότη</translation>
+    </message>
+</context>
+<context>
+    <name>GamesPageNavigation</name>
+    <message>
+        <location filename="../src/qml/controllers/pages/GamesPageNavigation.qml" line="78"/>
+        <source>Exit</source>
+        <translation>Έξοδος</translation>
+    </message>
+</context>
+<context>
+    <name>LibraryPageNavigation</name>
+    <message>
+        <location filename="../src/qml/controllers/pages/LibraryPageNavigation.qml" line="23"/>
+        <source>A–Z</source>
+        <translation>Α–Ω</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/LibraryPageNavigation.qml" line="23"/>
+        <source>Recent</source>
+        <translation>Πρόσφατα</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/LibraryPageNavigation.qml" line="47"/>
+        <source>Change order</source>
+        <translation>Αλλαγή σειράς</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/LibraryPageNavigation.qml" line="47"/>
+        <source>Filter</source>
+        <translation>Φιλτράρισμα</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/LibraryPageNavigation.qml" line="56"/>
+        <source>Games</source>
+        <translation>Παιχνίδια</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/LibraryPageNavigation.qml" line="56"/>
+        <source>Filter / sort</source>
+        <translation>Φίλτρα / ταξινόμηση</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSExitDrawer</name>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSExitDrawer.qml" line="35"/>
+        <source>Are you sure you want to exit?</source>
+        <translation>Είστε σίγουροι ότι θέλετε να βγείτε από το emulation;</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSExitDrawer.qml" line="63"/>
+        <source>Cancel</source>
+        <translation>Ακύρωση</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSExitDrawer.qml" line="63"/>
+        <source>Exit Playback OS</source>
+        <translation>Έξοδος από το Playback OS</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSExitNavigation</name>
+    <message>
+        <location filename="../src/qml/controllers/shell/PlaybackOSExitNavigation.qml" line="12"/>
+        <source>Select</source>
+        <translation>Επιλογή</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/shell/PlaybackOSExitNavigation.qml" line="16"/>
+        <source>Back</source>
+        <translation>Πίσω</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSGameLaunch</name>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSGameLaunch.qml" line="33"/>
+        <source>Reading game from %1…</source>
+        <translation>Ανάγνωση παιχνιδιού από το %1…</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSGameLaunch.qml" line="33"/>
+        <source>Reading game…</source>
+        <translation>Ανάγνωση παιχνιδιού…</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSGameLaunch.qml" line="34"/>
+        <source>Reading and verifying save data…</source>
+        <translation>Ανάγνωση και επαλήθευση δεδομένων αποθήκευσης…</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSGameLaunch.qml" line="35"/>
+        <source>Checking cartridge…</source>
+        <translation>Έλεγχος κασέτας…</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSGameLaunch.qml" line="35"/>
+        <source>Almost there…</source>
+        <translation>Σχεδόν έτοιμο…</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSGameLaunch.qml" line="36"/>
+        <source>Preparing cartridge…</source>
+        <translation>Προετοιμασία κασέτας…</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSGameLaunch.qml" line="40"/>
+        <source>%1 / %2 MB</source>
+        <translation>%1 / %2 MB</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSGameLaunch.qml" line="43"/>
+        <source>%1 KB save</source>
+        <translation>Αποθήκευση %1 KB</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSGameLaunch.qml" line="255"/>
+        <source>Cartridge</source>
+        <translation>Κασέτα</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSGameLaunch.qml" line="255"/>
+        <source>Game</source>
+        <translation>Παιχνίδι</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSGameLaunch.qml" line="255"/>
+        <source>Save data</source>
+        <translation>Δεδομένα αποθήκευσης</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSGameLaunch.qml" line="255"/>
+        <source>Ready to play</source>
+        <translation>Έτοιμο για παιχνίδι</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSGameLaunch.qml" line="281"/>
+        <source>Identify cartridge</source>
+        <translation>Αναγνώριση κασέτας</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSGameLaunch.qml" line="281"/>
+        <source>Read from Operator</source>
+        <translation>Ανάγνωση από το Operator</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSGameLaunch.qml" line="281"/>
+        <source>Bring your progress</source>
+        <translation>Μεταφορά της προόδου σας</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSGameLaunch.qml" line="281"/>
+        <source>Check cartridge</source>
+        <translation>Έλεγχος κασέτας</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSPauseAchievement</name>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseAchievement.qml" line="62"/>
+        <source>1 point</source>
+        <translation>1 πόντος</translation>
+    </message>
+    <message numerus="yes">
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseAchievement.qml" line="62"/>
+        <source>%n points</source>
+        <translation>
+            <numerusform>%n πόντος</numerusform>
+            <numerusform>%n πόντοι</numerusform>
+        </translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseAchievement.qml" line="63"/>
+        <source>Last recorded: %1</source>
+        <translation>Τελευταία καταγραφή: %1</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSPauseAchievementPanel</name>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseAchievementPanel.qml" line="15"/>
+        <source>Achievements</source>
+        <translation>Επιτεύγματα</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSPauseAchievements</name>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSPauseAchievements.qml" line="18"/>
+        <source>Unpin achievement</source>
+        <translation>Ξεκαρφίτσωμα επιτεύγματος</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSPauseAchievements.qml" line="18"/>
+        <source>Pin as next achievement</source>
+        <translation>Καρφίτσωμα ως επόμενο επίτευγμα</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSPauseAchievements.qml" line="22"/>
+        <source>Open settings</source>
+        <translation>Άνοιγμα ρυθμίσεων</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSPauseAchievements.qml" line="32"/>
+        <source>Back</source>
+        <translation>Πίσω</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSPauseConfirmation</name>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseConfirmation.qml" line="28"/>
+        <source>Just now</source>
+        <translation>Μόλις τώρα</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseConfirmation.qml" line="30"/>
+        <source>1 minute ago</source>
+        <translation>Πριν από 1 λεπτό</translation>
+    </message>
+    <message numerus="yes">
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseConfirmation.qml" line="30"/>
+        <source>%n minutes ago</source>
+        <translation>
+            <numerusform>Πριν από %n λεπτό</numerusform>
+            <numerusform>Πριν από %n λεπτά</numerusform>
+        </translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseConfirmation.qml" line="41"/>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseConfirmation.qml" line="178"/>
+        <source>Restart game</source>
+        <translation>Επανεκκίνηση παιχνιδιού</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseConfirmation.qml" line="41"/>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseConfirmation.qml" line="178"/>
+        <source>Exit game</source>
+        <translation>Έξοδος από το παιχνίδι</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseConfirmation.qml" line="42"/>
+        <source>Restart this game?</source>
+        <translation>Επανεκκίνηση αυτού του παιχνιδιού;</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseConfirmation.qml" line="42"/>
+        <source>Finish playing?</source>
+        <translation>Τέλος παιχνιδιού;</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseConfirmation.qml" line="57"/>
+        <source>The game will start again. Progress since your last save will be lost.</source>
+        <translation>Το παιχνίδι θα ξεκινήσει ξανά. Η πρόοδος από την τελευταία αποθήκευση θα χαθεί.</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseConfirmation.qml" line="58"/>
+        <source>Progress since your last in-game save or save state will be lost.</source>
+        <translation>Η πρόοδος από την τελευταία αποθήκευση μέσα στο παιχνίδι ή την τελευταία αποθηκευμένη κατάσταση θα χαθεί.</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseConfirmation.qml" line="68"/>
+        <source>Cartridge saves will finish before the game closes.</source>
+        <translation>Η αποθήκευση στην κασέτα θα ολοκληρωθεί πριν κλείσει το παιχνίδι.</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseConfirmation.qml" line="123"/>
+        <source>Save state</source>
+        <translation>Αποθηκευμένη κατάσταση</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseConfirmation.qml" line="123"/>
+        <source>In-game save</source>
+        <translation>Αποθήκευση μέσα στο παιχνίδι</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseConfirmation.qml" line="133"/>
+        <source>History unavailable</source>
+        <translation>Το ιστορικό δεν είναι διαθέσιμο</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseConfirmation.qml" line="134"/>
+        <source>No save state yet</source>
+        <translation>Δεν υπάρχει ακόμη αποθηκευμένη κατάσταση</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseConfirmation.qml" line="134"/>
+        <source>None detected yet</source>
+        <translation>Δεν εντοπίστηκε ακόμη αποθήκευση</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseConfirmation.qml" line="142"/>
+        <source>Slot %1</source>
+        <translation>Slot %1</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseConfirmation.qml" line="143"/>
+        <source>Last recorded update</source>
+        <translation>Τελευταία καταγεγραμμένη ενημέρωση</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseConfirmation.qml" line="144"/>
+        <source>Last state unknown</source>
+        <translation>Άγνωστη τελευταία κατάσταση</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseConfirmation.qml" line="145"/>
+        <source>No recorded state</source>
+        <translation>Δεν έχει καταγραφεί κατάσταση</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseConfirmation.qml" line="145"/>
+        <source>No recorded update</source>
+        <translation>Δεν έχει καταγραφεί ενημέρωση</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseConfirmation.qml" line="172"/>
+        <source>Cancel</source>
+        <translation>Ακύρωση</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSPauseGame</name>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSPauseGame.qml" line="26"/>
+        <source>Pinned achievement</source>
+        <translation>Καρφιτσωμένο επίτευγμα</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSPauseGame.qml" line="27"/>
+        <source>Last one left</source>
+        <translation>Απομένει μόνο ένα</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSPauseGame.qml" line="27"/>
+        <source>Up next</source>
+        <translation>Στη συνέχεια</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSPauseGame.qml" line="83"/>
+        <source>%1h %2m</source>
+        <translation>%1 ώ. %2 λ.</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSPauseGame.qml" line="84"/>
+        <source>%1m</source>
+        <translation>%1 λ.</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSPauseHint</name>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseHint.qml" line="79"/>
+        <source>Hint:</source>
+        <translation>Συμβουλή:</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseHint.qml" line="89"/>
+        <source>Hold to pause</source>
+        <translation>Πατήστε παρατεταμένα για παύση</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSPauseInfo</name>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseInfo.qml" line="56"/>
+        <source>Game</source>
+        <translation>Παιχνίδι</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseInfo.qml" line="157"/>
+        <source>All achievements unlocked. Nicely played.</source>
+        <translation>Όλα τα επιτεύγματα ξεκλειδώθηκαν. Μπράβο σας.</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseInfo.qml" line="157"/>
+        <source>No achievement progress to show.</source>
+        <translation>Δεν υπάρχει πρόοδος επιτευγμάτων για προβολή.</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSPauseJournal</name>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseJournal.qml" line="79"/>
+        <source>This session</source>
+        <translation>Αυτή η συνεδρία</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseJournal.qml" line="79"/>
+        <source>Game save updated</source>
+        <translation>Η αποθήκευση του παιχνιδιού ενημερώθηκε</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseJournal.qml" line="80"/>
+        <source>Save state · Slot %1</source>
+        <translation>Αποθηκευμένη κατάσταση · Θέση %1</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseJournal.qml" line="80"/>
+        <source>Save state</source>
+        <translation>Αποθηκευμένη κατάσταση</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseJournal.qml" line="101"/>
+        <source>Started %1</source>
+        <translation>Έναρξη: %1</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseJournal.qml" line="103"/>
+        <source>No save state yet</source>
+        <translation>Δεν υπάρχει ακόμη αποθηκευμένη κατάσταση</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseJournal.qml" line="104"/>
+        <source>Just started</source>
+        <translation>Μόλις ξεκίνησε</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseJournal.qml" line="105"/>
+        <source>None detected yet</source>
+        <translation>Δεν εντοπίστηκε ακόμη αποθήκευση</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseJournal.qml" line="197"/>
+        <source>Achievements</source>
+        <translation>Επιτεύγματα</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSPauseNavigation</name>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSPauseNavigation.qml" line="19"/>
+        <source>Achievements</source>
+        <translation>Επιτεύγματα</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSPauseNavigation.qml" line="19"/>
+        <source>Save states</source>
+        <translation>Αποθηκευμένες καταστάσεις</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSPauseNavigation.qml" line="19"/>
+        <source>Video shader</source>
+        <translation>Shader βίντεο</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSPauseNavigation.qml" line="20"/>
+        <source>Quick settings</source>
+        <translation>Γρήγορες ρυθμίσεις</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSPauseNavigation.qml" line="20"/>
+        <source>Restart game</source>
+        <translation>Επανεκκίνηση παιχνιδιού</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSPauseNavigation.qml" line="20"/>
+        <source>Exit game</source>
+        <translation>Έξοδος από το παιχνίδι</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSPauseNavigation.qml" line="21"/>
+        <source>Loading…</source>
+        <translation>Φόρτωση…</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSPauseNavigation.qml" line="22"/>
+        <source>%1 / %2 saved</source>
+        <translation>%1 / %2 αποθηκευμένα</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSPauseNavigation.qml" line="26"/>
+        <source>%1 / %2 · %3 pts</source>
+        <translation>%1 / %2 · %3 πόντ.</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSPauseNavigation.qml" line="28"/>
+        <source>RetroAchievements</source>
+        <translation>RetroAchievements</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSPauseNavigation.qml" line="52"/>
+        <location filename="../src/qml/controllers/PlaybackOSPauseNavigation.qml" line="61"/>
+        <source>Resume game</source>
+        <translation>Συνέχιση παιχνιδιού</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSPauseNavigation.qml" line="55"/>
+        <source>Cancel</source>
+        <translation>Ακύρωση</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSPauseNavigation.qml" line="56"/>
+        <source>Open</source>
+        <translation>Άνοιγμα</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSPauseNavigation.qml" line="61"/>
+        <source>Back</source>
+        <translation>Πίσω</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSPauseQuickPanel</name>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseQuickPanel.qml" line="17"/>
+        <source>Quick settings</source>
+        <translation>Γρήγορες ρυθμίσεις</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseQuickPanel.qml" line="61"/>
+        <source>%1%</source>
+        <translation>%1%</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSProcDump</name>
+    <message>
+        <location filename="../src/diagnostics/windows/PlaybackOSProcDump.cpp" line="37"/>
+        <source>Another Playback OS diagnostic setup is running. Close it and try again.</source>
+        <translation>Εκτελείται άλλη ρύθμιση διαγνωστικών του Playback OS. Κλείστε την και δοκιμάστε ξανά.</translation>
+    </message>
+    <message>
+        <location filename="../src/diagnostics/windows/PlaybackOSProcDump.cpp" line="50"/>
+        <source>Playback OS started, but ProcDump monitoring failed. See the diagnostic folder.</source>
+        <translation>Το Playback OS ξεκίνησε, αλλά η παρακολούθηση από το ProcDump απέτυχε. Δείτε τον φάκελο διαγνωστικών.</translation>
+    </message>
+    <message>
+        <location filename="../src/diagnostics/windows/PlaybackOSProcDump.cpp" line="64"/>
+        <source>Could not create the Playback OS diagnostic folder.</source>
+        <translation>Δεν ήταν δυνατή η δημιουργία του φακέλου διαγνωστικών του Playback OS.</translation>
+    </message>
+    <message>
+        <location filename="../src/diagnostics/windows/PlaybackOSProcDump.cpp" line="69"/>
+        <source>ProcDump diagnostics need at least 4 GB of free disk space. Free some space and try again.</source>
+        <translation>Τα διαγνωστικά ProcDump χρειάζονται τουλάχιστον 4 GB ελεύθερου χώρου στον δίσκο. Ελευθερώστε χώρο και δοκιμάστε ξανά.</translation>
+    </message>
+    <message>
+        <location filename="../src/diagnostics/windows/PlaybackOSProcDump.cpp" line="78"/>
+        <source>ProcDump could not be downloaded or verified. See setup.log in the diagnostic folder.</source>
+        <translation>Δεν ήταν δυνατή η λήψη ή η επαλήθευση του ProcDump. Δείτε το setup.log στον φάκελο διαγνωστικών.</translation>
+    </message>
+    <message>
+        <location filename="../src/diagnostics/windows/PlaybackOSProcDump.cpp" line="88"/>
+        <source>Could not open Microsoft ProcDump's license prompt.</source>
+        <translation>Δεν ήταν δυνατό το άνοιγμα του διαλόγου άδειας χρήσης του Microsoft ProcDump.</translation>
+    </message>
+    <message>
+        <location filename="../src/diagnostics/windows/PlaybackOSProcDump.cpp" line="94"/>
+        <source>ProcDump diagnostics require accepting Microsoft's license. Playback OS was not started.</source>
+        <translation>Τα διαγνωστικά ProcDump απαιτούν αποδοχή της άδειας χρήσης της Microsoft. Το Playback OS δεν ξεκίνησε.</translation>
+    </message>
+    <message>
+        <location filename="../src/diagnostics/windows/PlaybackOSProcDump.cpp" line="110"/>
+        <source>Could not start Playback OS.</source>
+        <translation>Δεν ήταν δυνατή η εκκίνηση του Playback OS.</translation>
+    </message>
+    <message>
+        <location filename="../src/diagnostics/windows/PlaybackOSProcDump.cpp" line="130"/>
+        <source>ProcDump stopped with an error. Check procdump.log in the diagnostic folder after Playback OS exits.</source>
+        <translation>Το ProcDump σταμάτησε με σφάλμα. Ελέγξτε το procdump.log στον φάκελο διαγνωστικών μετά την έξοδο από το Playback OS.</translation>
+    </message>
+    <message>
+        <location filename="../src/diagnostics/windows/PlaybackOSProcDump.cpp" line="162"/>
+        <source>Playback OS diagnostics</source>
+        <translation>Διαγνωστικά Playback OS</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSQuickNavigation</name>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSQuickNavigation.qml" line="16"/>
+        <source>Fit</source>
+        <translation>Προσαρμογή</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSQuickNavigation.qml" line="16"/>
+        <source>Integer scale</source>
+        <translation>Ακέραιη κλιμάκωση</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSQuickNavigation.qml" line="16"/>
+        <source>Stretch</source>
+        <translation>Τέντωμα</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSQuickNavigation.qml" line="17"/>
+        <source>%1x</source>
+        <translation>%1×</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSQuickNavigation.qml" line="18"/>
+        <source>Volume</source>
+        <translation>Ένταση</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSQuickNavigation.qml" line="18"/>
+        <source>Mute</source>
+        <translation>Σίγαση</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSQuickNavigation.qml" line="18"/>
+        <source>Picture size</source>
+        <translation>Μέγεθος εικόνας</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSQuickNavigation.qml" line="19"/>
+        <source>Fast forward speed</source>
+        <translation>Ταχύτητα γρήγορης προώθησης</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSQuickNavigation.qml" line="19"/>
+        <source>FPS counter</source>
+        <translation>Μετρητής FPS</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSQuickNavigation.qml" line="19"/>
+        <source>Reduce motion</source>
+        <translation>Μείωση κίνησης</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSQuickNavigation.qml" line="20"/>
+        <source>%1%</source>
+        <translation>%1%</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSQuickNavigation.qml" line="20"/>
+        <location filename="../src/qml/controllers/PlaybackOSQuickNavigation.qml" line="22"/>
+        <location filename="../src/qml/controllers/PlaybackOSQuickNavigation.qml" line="23"/>
+        <source>On</source>
+        <translation>Ενεργό</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSQuickNavigation.qml" line="20"/>
+        <location filename="../src/qml/controllers/PlaybackOSQuickNavigation.qml" line="22"/>
+        <location filename="../src/qml/controllers/PlaybackOSQuickNavigation.qml" line="23"/>
+        <source>Off</source>
+        <translation>Ανενεργό</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSQuickNavigation.qml" line="28"/>
+        <source>Change</source>
+        <translation>Αλλαγή</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSQuickNavigation.qml" line="33"/>
+        <source>Back</source>
+        <translation>Πίσω</translation>
     </message>
 </context>
 </TS>
