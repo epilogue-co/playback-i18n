@@ -3769,6 +3769,16 @@ Please check core settings.</source>
         <source>View details</source>
         <translation>詳細を見る</translation>
     </message>
+    <message>
+        <location filename="../src/qml/views/pages/GamesPage.qml" line="53"/>
+        <source>A place for your first cartridge.</source>
+        <translation>最初のカートリッジのための場所。</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/pages/GamesPage.qml" line="56"/>
+        <source>Insert a cartridge to begin.</source>
+        <translation>カートリッジを挿入して始めましょう。</translation>
+    </message>
 </context>
 <context>
     <name>JoystickDeadzoneDisplay</name>
@@ -3837,6 +3847,11 @@ Please check core settings.</source>
         <source>Resume game</source>
         <translation>ゲームを再開</translation>
     </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/LibraryDetailPageNavigation.qml" line="40"/>
+        <source>View save states</source>
+        <translation>ステートセーブを表示</translation>
+    </message>
 </context>
 <context>
     <name>LibraryPage</name>
@@ -3860,6 +3875,16 @@ Please check core settings.</source>
         <source>Resume game</source>
         <translation>ゲームを再開</translation>
     </message>
+    <message>
+        <location filename="../src/qml/views/pages/LibraryPage.qml" line="216"/>
+        <source>All</source>
+        <translation>すべて</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/pages/LibraryPage.qml" line="230"/>
+        <source>No games match this filter. Choose All to see your collection.</source>
+        <translation>このフィルターに一致するゲームはありません。「すべて」を選択するとコレクションを表示できます。</translation>
+    </message>
 </context>
 <context>
     <name>NavigationHeader</name>
@@ -3872,6 +3897,16 @@ Please check core settings.</source>
         <location filename="../src/qml/views/components/common/NavigationHeader.qml" line="23"/>
         <source>Library</source>
         <translation>ライブラリ</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/common/NavigationHeader.qml" line="10"/>
+        <source>Paused game</source>
+        <translation>一時停止中のゲーム</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/common/NavigationHeader.qml" line="10"/>
+        <source>Home</source>
+        <translation>ホーム</translation>
     </message>
 </context>
 <context>
@@ -4446,6 +4481,38 @@ Check the pins are clean and it&apos;s seated securely.</source>
         <source>Save state %1</source>
         <translation>ステートセーブ %1</translation>
     </message>
+    <message>
+        <location filename="../src/qml/views/components/games/PlaybackOSSaveStatesPanel.qml" line="107"/>
+        <source>Save states</source>
+        <translation>ステートセーブ</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/PlaybackOSSaveStatesPanel.qml" line="109"/>
+        <source>Loading…</source>
+        <translation>読み込み中…</translation>
+    </message>
+    <message numerus="yes">
+        <location filename="../src/qml/views/components/games/PlaybackOSSaveStatesPanel.qml" line="110"/>
+        <source>%n saved</source>
+        <translation>
+            <numerusform>%n件保存済み</numerusform>
+        </translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/PlaybackOSSaveStatesPanel.qml" line="128"/>
+        <source>Browse your saved moments. Start the game to load or manage save states from the pause menu.</source>
+        <translation>保存した場面を閲覧できます。ゲームを起動すると、ポーズメニューからステートセーブの読み込みや管理ができます。</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/PlaybackOSSaveStatesPanel.qml" line="249"/>
+        <source>Start playing to create your first save state.</source>
+        <translation>プレイを開始して、最初のステートセーブを作成しましょう。</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/components/games/PlaybackOSSaveStatesPanel.qml" line="278"/>
+        <source>No save states yet</source>
+        <translation>ステートセーブはまだありません</translation>
+    </message>
 </context>
 <context>
     <name>PlaybackOSSettingsModel</name>
@@ -4513,6 +4580,11 @@ Check the pins are clean and it&apos;s seated securely.</source>
         <location filename="../src/qml/controllers/PlaybackOSShaderNavigation.qml" line="25"/>
         <source>Unpause game</source>
         <translation>ゲームの一時停止を解除</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSShaderPicker.qml" line="61"/>
+        <source>Video shader</source>
+        <translation>ビデオシェーダー</translation>
     </message>
 </context>
 <context>
@@ -5586,6 +5658,653 @@ Steam Cloudを利用するには、SteamライブラリからPlayback OSを再�
         <location filename="../playback/src/core/NetplayClient.cpp" line="56"/>
         <source>waited too long for host to start the game</source>
         <translation>ホストがゲームを開始するまでの待機時間を超過しました</translation>
+    </message>
+</context>
+<context>
+    <name>GamesPageNavigation</name>
+    <message>
+        <location filename="../src/qml/controllers/pages/GamesPageNavigation.qml" line="78"/>
+        <source>Exit</source>
+        <translation>終了</translation>
+    </message>
+</context>
+<context>
+    <name>LibraryPageNavigation</name>
+    <message>
+        <location filename="../src/qml/controllers/pages/LibraryPageNavigation.qml" line="23"/>
+        <source>A–Z</source>
+        <translation>A–Z</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/LibraryPageNavigation.qml" line="23"/>
+        <source>Recent</source>
+        <translation>最近</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/LibraryPageNavigation.qml" line="47"/>
+        <source>Change order</source>
+        <translation>並び順を変更</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/LibraryPageNavigation.qml" line="47"/>
+        <source>Filter</source>
+        <translation>絞り込み</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/LibraryPageNavigation.qml" line="56"/>
+        <source>Games</source>
+        <translation>ゲーム</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/pages/LibraryPageNavigation.qml" line="56"/>
+        <source>Filter / sort</source>
+        <translation>絞り込み / 並べ替え</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSExitDrawer</name>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSExitDrawer.qml" line="35"/>
+        <source>Are you sure you want to exit?</source>
+        <translation>終了してもよろしいですか？</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSExitDrawer.qml" line="63"/>
+        <source>Cancel</source>
+        <translation>キャンセル</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSExitDrawer.qml" line="63"/>
+        <source>Exit Playback OS</source>
+        <translation>Playback OSを終了</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSExitNavigation</name>
+    <message>
+        <location filename="../src/qml/controllers/shell/PlaybackOSExitNavigation.qml" line="12"/>
+        <source>Select</source>
+        <translation>選択</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/shell/PlaybackOSExitNavigation.qml" line="16"/>
+        <source>Back</source>
+        <translation>戻る</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSGameLaunch</name>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSGameLaunch.qml" line="33"/>
+        <source>Reading game from %1…</source>
+        <translation>%1からゲームを読み込み中…</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSGameLaunch.qml" line="33"/>
+        <source>Reading game…</source>
+        <translation>ゲームを読み込み中…</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSGameLaunch.qml" line="34"/>
+        <source>Reading and verifying save data…</source>
+        <translation>セーブデータを読み込み・検証中…</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSGameLaunch.qml" line="35"/>
+        <source>Checking cartridge…</source>
+        <translation>カートリッジを確認中…</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSGameLaunch.qml" line="35"/>
+        <source>Almost there…</source>
+        <translation>まもなく完了…</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSGameLaunch.qml" line="36"/>
+        <source>Preparing cartridge…</source>
+        <translation>カートリッジを準備中…</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSGameLaunch.qml" line="40"/>
+        <source>%1 / %2 MB</source>
+        <translation>%1 / %2 MB</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSGameLaunch.qml" line="43"/>
+        <source>%1 KB save</source>
+        <translation>%1 KBのセーブデータ</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSGameLaunch.qml" line="255"/>
+        <source>Cartridge</source>
+        <translation>カートリッジ</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSGameLaunch.qml" line="255"/>
+        <source>Game</source>
+        <translation>ゲーム</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSGameLaunch.qml" line="255"/>
+        <source>Save data</source>
+        <translation>セーブデータ</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSGameLaunch.qml" line="255"/>
+        <source>Ready to play</source>
+        <translation>プレイの準備完了</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSGameLaunch.qml" line="281"/>
+        <source>Identify cartridge</source>
+        <translation>カートリッジを識別</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSGameLaunch.qml" line="281"/>
+        <source>Read from Operator</source>
+        <translation>Operatorから読み込み</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSGameLaunch.qml" line="281"/>
+        <source>Bring your progress</source>
+        <translation>進行状況を引き継ぐ</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSGameLaunch.qml" line="281"/>
+        <source>Check cartridge</source>
+        <translation>カートリッジを確認</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSPauseAchievement</name>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseAchievement.qml" line="62"/>
+        <source>1 point</source>
+        <translation>1ポイント</translation>
+    </message>
+    <message numerus="yes">
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseAchievement.qml" line="62"/>
+        <source>%n points</source>
+        <translation>
+            <numerusform>%nポイント</numerusform>
+        </translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseAchievement.qml" line="63"/>
+        <source>Last recorded: %1</source>
+        <translation>最終記録：%1</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSPauseAchievementPanel</name>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseAchievementPanel.qml" line="15"/>
+        <source>Achievements</source>
+        <translation>アチーブメント</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSPauseAchievements</name>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSPauseAchievements.qml" line="18"/>
+        <source>Unpin achievement</source>
+        <translation>実績のピン留めを解除</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSPauseAchievements.qml" line="18"/>
+        <source>Pin as next achievement</source>
+        <translation>次の実績としてピン留め</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSPauseAchievements.qml" line="22"/>
+        <source>Open settings</source>
+        <translation>設定を開く</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSPauseAchievements.qml" line="32"/>
+        <source>Back</source>
+        <translation>戻る</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSPauseConfirmation</name>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseConfirmation.qml" line="28"/>
+        <source>Just now</source>
+        <translation>たった今</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseConfirmation.qml" line="30"/>
+        <source>1 minute ago</source>
+        <translation>1分前</translation>
+    </message>
+    <message numerus="yes">
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseConfirmation.qml" line="30"/>
+        <source>%n minutes ago</source>
+        <translation>
+            <numerusform>%n分前</numerusform>
+        </translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseConfirmation.qml" line="41"/>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseConfirmation.qml" line="178"/>
+        <source>Restart game</source>
+        <translation>ゲームを再起動</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseConfirmation.qml" line="41"/>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseConfirmation.qml" line="178"/>
+        <source>Exit game</source>
+        <translation>ゲームを終了</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseConfirmation.qml" line="42"/>
+        <source>Restart this game?</source>
+        <translation>このゲームを再起動しますか？</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseConfirmation.qml" line="42"/>
+        <source>Finish playing?</source>
+        <translation>プレイを終了しますか？</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseConfirmation.qml" line="57"/>
+        <source>The game will start again. Progress since your last save will be lost.</source>
+        <translation>ゲームを再起動します。最後のセーブ以降の進行状況は失われます。</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseConfirmation.qml" line="58"/>
+        <source>Progress since your last in-game save or save state will be lost.</source>
+        <translation>最後のゲーム内セーブまたはステートセーブ以降の進行状況は失われます。</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseConfirmation.qml" line="68"/>
+        <source>Cartridge saves will finish before the game closes.</source>
+        <translation>カートリッジへのセーブが完了してからゲームを終了します。</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseConfirmation.qml" line="123"/>
+        <source>Save state</source>
+        <translation>ステートセーブ</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseConfirmation.qml" line="123"/>
+        <source>In-game save</source>
+        <translation>ゲーム内セーブ</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseConfirmation.qml" line="133"/>
+        <source>History unavailable</source>
+        <translation>履歴を利用できません</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseConfirmation.qml" line="134"/>
+        <source>No save state yet</source>
+        <translation>ステートセーブはまだありません</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseConfirmation.qml" line="134"/>
+        <source>None detected yet</source>
+        <translation>セーブはまだ検出されていません</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseConfirmation.qml" line="142"/>
+        <source>Slot %1</source>
+        <translation>スロット %1</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseConfirmation.qml" line="143"/>
+        <source>Last recorded update</source>
+        <translation>最後に記録された更新</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseConfirmation.qml" line="144"/>
+        <source>Last state unknown</source>
+        <translation>最終状態は不明です</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseConfirmation.qml" line="145"/>
+        <source>No recorded state</source>
+        <translation>状態の記録はありません</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseConfirmation.qml" line="145"/>
+        <source>No recorded update</source>
+        <translation>更新の記録はありません</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseConfirmation.qml" line="172"/>
+        <source>Cancel</source>
+        <translation>キャンセル</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSPauseGame</name>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSPauseGame.qml" line="26"/>
+        <source>Pinned achievement</source>
+        <translation>ピン留めした実績</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSPauseGame.qml" line="27"/>
+        <source>Last one left</source>
+        <translation>残りあと1つ</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSPauseGame.qml" line="27"/>
+        <source>Up next</source>
+        <translation>次の実績</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSPauseGame.qml" line="83"/>
+        <source>%1h %2m</source>
+        <translation>%1時間%2分</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSPauseGame.qml" line="84"/>
+        <source>%1m</source>
+        <translation>%1分</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSPauseHint</name>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseHint.qml" line="79"/>
+        <source>Hint:</source>
+        <translation>ヒント：</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseHint.qml" line="89"/>
+        <source>Hold to pause</source>
+        <translation>長押しで一時停止</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSPauseInfo</name>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseInfo.qml" line="56"/>
+        <source>Game</source>
+        <translation>ゲーム</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseInfo.qml" line="157"/>
+        <source>All achievements unlocked. Nicely played.</source>
+        <translation>すべての実績を解除しました。お見事です。</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseInfo.qml" line="157"/>
+        <source>No achievement progress to show.</source>
+        <translation>表示できる実績の進捗はありません。</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSPauseJournal</name>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseJournal.qml" line="79"/>
+        <source>This session</source>
+        <translation>今回のセッション</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseJournal.qml" line="79"/>
+        <source>Game save updated</source>
+        <translation>ゲームのセーブを更新</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseJournal.qml" line="80"/>
+        <source>Save state · Slot %1</source>
+        <translation>ステートセーブ · スロット%1</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseJournal.qml" line="80"/>
+        <source>Save state</source>
+        <translation>ステートセーブ</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseJournal.qml" line="101"/>
+        <source>Started %1</source>
+        <translation>開始：%1</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseJournal.qml" line="103"/>
+        <source>No save state yet</source>
+        <translation>ステートセーブはまだありません</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseJournal.qml" line="104"/>
+        <source>Just started</source>
+        <translation>開始直後</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseJournal.qml" line="105"/>
+        <source>None detected yet</source>
+        <translation>セーブはまだ検出されていません</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseJournal.qml" line="197"/>
+        <source>Achievements</source>
+        <translation>アチーブメント</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSPauseNavigation</name>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSPauseNavigation.qml" line="19"/>
+        <source>Achievements</source>
+        <translation>アチーブメント</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSPauseNavigation.qml" line="19"/>
+        <source>Save states</source>
+        <translation>ステートセーブ</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSPauseNavigation.qml" line="19"/>
+        <source>Video shader</source>
+        <translation>ビデオシェーダー</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSPauseNavigation.qml" line="20"/>
+        <source>Quick settings</source>
+        <translation>クイック設定</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSPauseNavigation.qml" line="20"/>
+        <source>Restart game</source>
+        <translation>ゲームを再起動</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSPauseNavigation.qml" line="20"/>
+        <source>Exit game</source>
+        <translation>ゲームを終了</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSPauseNavigation.qml" line="21"/>
+        <source>Loading…</source>
+        <translation>読み込み中…</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSPauseNavigation.qml" line="22"/>
+        <source>%1 / %2 saved</source>
+        <translation>%1 / %2 保存済み</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSPauseNavigation.qml" line="26"/>
+        <source>%1 / %2 · %3 pts</source>
+        <translation>%1 / %2 · %3ポイント</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSPauseNavigation.qml" line="28"/>
+        <source>RetroAchievements</source>
+        <translation>RetroAchievements</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSPauseNavigation.qml" line="52"/>
+        <location filename="../src/qml/controllers/PlaybackOSPauseNavigation.qml" line="61"/>
+        <source>Resume game</source>
+        <translation>ゲームを再開</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSPauseNavigation.qml" line="55"/>
+        <source>Cancel</source>
+        <translation>キャンセル</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSPauseNavigation.qml" line="56"/>
+        <source>Open</source>
+        <translation>開く</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSPauseNavigation.qml" line="61"/>
+        <source>Back</source>
+        <translation>戻る</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSPauseQuickPanel</name>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseQuickPanel.qml" line="17"/>
+        <source>Quick settings</source>
+        <translation>クイック設定</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/views/overlays/PlaybackOSPauseQuickPanel.qml" line="61"/>
+        <source>%1%</source>
+        <translation>%1%</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSProcDump</name>
+    <message>
+        <location filename="../src/diagnostics/windows/PlaybackOSProcDump.cpp" line="37"/>
+        <source>Another Playback OS diagnostic setup is running. Close it and try again.</source>
+        <translation>別のPlayback OS診断セットアップが実行中です。閉じてからもう一度お試しください。</translation>
+    </message>
+    <message>
+        <location filename="../src/diagnostics/windows/PlaybackOSProcDump.cpp" line="50"/>
+        <source>Playback OS started, but ProcDump monitoring failed. See the diagnostic folder.</source>
+        <translation>Playback OSは起動しましたが、ProcDumpによる監視に失敗しました。診断フォルダーを確認してください。</translation>
+    </message>
+    <message>
+        <location filename="../src/diagnostics/windows/PlaybackOSProcDump.cpp" line="64"/>
+        <source>Could not create the Playback OS diagnostic folder.</source>
+        <translation>Playback OSの診断フォルダーを作成できませんでした。</translation>
+    </message>
+    <message>
+        <location filename="../src/diagnostics/windows/PlaybackOSProcDump.cpp" line="69"/>
+        <source>ProcDump diagnostics need at least 4 GB of free disk space. Free some space and try again.</source>
+        <translation>ProcDump診断には、ディスクに4 GB以上の空き容量が必要です。空き容量を確保してからもう一度お試しください。</translation>
+    </message>
+    <message>
+        <location filename="../src/diagnostics/windows/PlaybackOSProcDump.cpp" line="78"/>
+        <source>ProcDump could not be downloaded or verified. See setup.log in the diagnostic folder.</source>
+        <translation>ProcDumpをダウンロードまたは検証できませんでした。診断フォルダー内のsetup.logを確認してください。</translation>
+    </message>
+    <message>
+        <location filename="../src/diagnostics/windows/PlaybackOSProcDump.cpp" line="88"/>
+        <source>Could not open Microsoft ProcDump's license prompt.</source>
+        <translation>Microsoft ProcDumpのライセンスダイアログを開けませんでした。</translation>
+    </message>
+    <message>
+        <location filename="../src/diagnostics/windows/PlaybackOSProcDump.cpp" line="94"/>
+        <source>ProcDump diagnostics require accepting Microsoft's license. Playback OS was not started.</source>
+        <translation>ProcDump診断にはMicrosoftのライセンスへの同意が必要です。Playback OSは起動されませんでした。</translation>
+    </message>
+    <message>
+        <location filename="../src/diagnostics/windows/PlaybackOSProcDump.cpp" line="110"/>
+        <source>Could not start Playback OS.</source>
+        <translation>Playback OSを起動できませんでした。</translation>
+    </message>
+    <message>
+        <location filename="../src/diagnostics/windows/PlaybackOSProcDump.cpp" line="130"/>
+        <source>ProcDump stopped with an error. Check procdump.log in the diagnostic folder after Playback OS exits.</source>
+        <translation>ProcDumpがエラーで停止しました。Playback OSを終了した後、診断フォルダー内のprocdump.logを確認してください。</translation>
+    </message>
+    <message>
+        <location filename="../src/diagnostics/windows/PlaybackOSProcDump.cpp" line="162"/>
+        <source>Playback OS diagnostics</source>
+        <translation>Playback OS診断</translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackOSQuickNavigation</name>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSQuickNavigation.qml" line="16"/>
+        <source>Fit</source>
+        <translation>画面に合わせる</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSQuickNavigation.qml" line="16"/>
+        <source>Integer scale</source>
+        <translation>整数倍スケーリング</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSQuickNavigation.qml" line="16"/>
+        <source>Stretch</source>
+        <translation>引き伸ばし</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSQuickNavigation.qml" line="17"/>
+        <source>%1x</source>
+        <translation>%1倍</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSQuickNavigation.qml" line="18"/>
+        <source>Volume</source>
+        <translation>音量</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSQuickNavigation.qml" line="18"/>
+        <source>Mute</source>
+        <translation>ミュート</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSQuickNavigation.qml" line="18"/>
+        <source>Picture size</source>
+        <translation>画面サイズ</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSQuickNavigation.qml" line="19"/>
+        <source>Fast forward speed</source>
+        <translation>早送り速度</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSQuickNavigation.qml" line="19"/>
+        <source>FPS counter</source>
+        <translation>FPSカウンター</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSQuickNavigation.qml" line="19"/>
+        <source>Reduce motion</source>
+        <translation>動きを減らす</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSQuickNavigation.qml" line="20"/>
+        <source>%1%</source>
+        <translation>%1%</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSQuickNavigation.qml" line="20"/>
+        <location filename="../src/qml/controllers/PlaybackOSQuickNavigation.qml" line="22"/>
+        <location filename="../src/qml/controllers/PlaybackOSQuickNavigation.qml" line="23"/>
+        <source>On</source>
+        <translation>オン</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSQuickNavigation.qml" line="20"/>
+        <location filename="../src/qml/controllers/PlaybackOSQuickNavigation.qml" line="22"/>
+        <location filename="../src/qml/controllers/PlaybackOSQuickNavigation.qml" line="23"/>
+        <source>Off</source>
+        <translation>オフ</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSQuickNavigation.qml" line="28"/>
+        <source>Change</source>
+        <translation>変更</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/controllers/PlaybackOSQuickNavigation.qml" line="33"/>
+        <source>Back</source>
+        <translation>戻る</translation>
     </message>
 </context>
 </TS>
